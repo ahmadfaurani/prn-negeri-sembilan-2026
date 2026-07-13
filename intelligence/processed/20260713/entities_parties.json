@@ -1,0 +1,43 @@
+{
+  "date": "2026-07-13T06:30:00+00:00",
+  "source_count": 7,
+  "entity_type": "parties",
+  "method": "manual_source_attributed_review",
+  "cvs_standard": "All entities source-attributed. No pattern-inferred entities.",
+  "entities": [
+    "PAS",
+    "UMNO",
+    "Barisan Nasional (BN)",
+    "Perikatan Nasional (PN)"
+  ],
+  "entities_detailed": [
+    {
+      "name": "PAS",
+      "source": "thestarcommy_20260713_010102.md; astroawanicom_20260713_010102.md; bhariancommy_20260713_010102.md",
+      "context": "Negri polls: PAS in talks with Umno ... / PRN Negeri Sembilan: Pas akui berunding dengan BN / PAS buka ruang UMNO teraju Negeri Sembilan jika menang PRN",
+      "ns_relevant": true,
+      "note": "Central to NS PRN: PAS in talks with Umno/BN for NS election cooperation; PAS offers UMNO to lead NS if they win"
+    },
+    {
+      "name": "UMNO",
+      "source": "thestarcommy_20260713_010102.md; bhariancommy_20260713_010102.md",
+      "context": "PAS is in talks with Umno to form a political cooperation to face the Aug 1 Negri Sembilan polls / PAS buka ruang UMNO teraju Negeri Sembilan jika menang PRN",
+      "ns_relevant": true,
+      "note": "PAS in talks with Umno for NS PRN; PAS offers UMNO to lead NS if they win"
+    },
+    {
+      "name": "Barisan Nasional (BN)",
+      "source": "thestarcommy_20260713_010102.md; astroawanicom_20260713_010102.md; bhariancommy_20260713_010102.md",
+      "context": "Barisan Nasional's decisive victory in Johor will boost the coalition's morale and increase momentum in Negri Sembilan / Pas akui berunding dengan BN bagi menghadapi PRN Negeri Sembilan",
+      "ns_relevant": true,
+      "note": "BN Johor victory as momentum for NS PRN; PAS negotiating with BN for NS election"
+    },
+    {
+      "name": "Perikatan Nasional (PN)",
+      "source": "kosmocommy_20260713_010102.md",
+      "context": "Kekalahan dijangka, Pengerusi PN digesa letak jawatan",
+      "ns_relevant": false,
+      "note": "PN chairman urged to resign after expected defeat; Johor PRN aftermath from kosmo 404 page article-link headline; not NS-specific"
+    }
+  ]
+}

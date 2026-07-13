@@ -1,0 +1,148 @@
+{
+  "date": "2026-07-12T09:21:32.952687+00:00",
+  "source_count": 9,
+  "entity_type": "locations",
+  "method": "manual_source_attributed_review",
+  "cvs_standard": "All entities source-attributed. No pattern-inferred entities.",
+  "entities": [
+    "Johor",
+    "Simpang Renggam",
+    "Toronto",
+    "Terengganu",
+    "Kansas City",
+    "Argentina",
+    "Switzerland",
+    "Las Vegas",
+    "Nevada",
+    "Selat Hormuz",
+    "Iran",
+    "Oman",
+    "Negeri Sembilan",
+    "Tampin",
+    "Port Dickson (PD)",
+    "Singapore",
+    "Malaysia",
+    "Bhutan",
+    "London"
+  ],
+  "entities_detailed": [
+    {
+      "name": "Johor",
+      "source": "astroawanicom_20260712_053155.md",
+      "context": "PRN Johor",
+      "ns_relevant": false
+    },
+    {
+      "name": "Simpang Renggam",
+      "source": "astroawanicom_20260712_053155.md",
+      "context": "Simpang Renggam majoriti rendah",
+      "ns_relevant": false,
+      "note": "Johor"
+    },
+    {
+      "name": "Toronto",
+      "source": "astroawanicom_20260712_053155.md",
+      "context": "tembakan di festival tarian di Toronto",
+      "ns_relevant": false
+    },
+    {
+      "name": "Terengganu",
+      "source": "astroawanicom_20260712_053155.md",
+      "context": "Kontroversi logo Visit Truly Terengganu 2027",
+      "ns_relevant": false
+    },
+    {
+      "name": "Kansas City",
+      "source": "astroawanicom_20260712_053155.md",
+      "context": "Kansas City Stadium, Kansas City, Missouri (FIFA QF)",
+      "ns_relevant": false
+    },
+    {
+      "name": "Argentina",
+      "source": "astroawanicom_20260712_053155.md",
+      "context": "Argentina perlukan 120 minit tewaskan Switzerland",
+      "ns_relevant": false
+    },
+    {
+      "name": "Switzerland",
+      "source": "astroawanicom_20260712_053155.md",
+      "context": "tewaskan Switzerland",
+      "ns_relevant": false
+    },
+    {
+      "name": "Las Vegas",
+      "source": "astroawanicom_20260712_053155.md",
+      "context": "Las Vegas, Nevada, USA (UFC 329)",
+      "ns_relevant": false
+    },
+    {
+      "name": "Nevada",
+      "source": "astroawanicom_20260712_053155.md",
+      "context": "Las Vegas, Nevada, USA (UFC 329)",
+      "ns_relevant": false
+    },
+    {
+      "name": "Selat Hormuz",
+      "source": "astroawanicom_20260712_053155.md",
+      "context": "Iran umum tutup Selat Hormuz",
+      "ns_relevant": false
+    },
+    {
+      "name": "Iran",
+      "source": "astroawanicom_20260712_053155.md",
+      "context": "Iran umum tutup Selat Hormuz",
+      "ns_relevant": false
+    },
+    {
+      "name": "Oman",
+      "source": "astroawanicom_20260712_053155.md",
+      "context": "Strait of Hormuz as seen from Musandam, Oman (image caption)",
+      "ns_relevant": false
+    },
+    {
+      "name": "Negeri Sembilan",
+      "source": "ohbulancom_20260712_053155.md",
+      "context": "negeri sembilan (tag page); ... Negeri Sembilan",
+      "ns_relevant": true,
+      "note": "NS state mentioned; entertainment tag page, not election"
+    },
+    {
+      "name": "Tampin",
+      "source": "ohbulancom_20260712_053155.md",
+      "context": "Cawangan Baru Di Tampin, Negeri Sembilan",
+      "ns_relevant": true,
+      "note": "NS location/town; also parliamentary constituency P132 (not one of 36 DUN)"
+    },
+    {
+      "name": "Port Dickson (PD)",
+      "source": "ohbulancom_20260712_053155.md",
+      "context": "Didakwa Bercuti Di PD, Aeril Jelaskan Pergi Negeri Sembilan",
+      "ns_relevant": true,
+      "note": "NS location; celebrity gossip context"
+    },
+    {
+      "name": "Singapore",
+      "source": "thestarcommy_20260712_053155.md",
+      "context": "Singapore, Malaysia partnership ... President Tharman",
+      "ns_relevant": false
+    },
+    {
+      "name": "Malaysia",
+      "source": "thestarcommy_20260712_053155.md",
+      "context": "Singapore, Malaysia partnership",
+      "ns_relevant": false
+    },
+    {
+      "name": "Bhutan",
+      "source": "thestarcommy_20260712_053155.md",
+      "context": "Bhutan battles 'existential' population crisis",
+      "ns_relevant": false
+    },
+    {
+      "name": "London",
+      "source": "kosmocommy_20260712_053155.md",
+      "context": "Polis London kagum tengok pasport baharu Malaysia",
+      "ns_relevant": false
+    }
+  ]
+}

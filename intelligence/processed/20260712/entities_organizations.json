@@ -1,0 +1,86 @@
+{
+  "date": "2026-07-12T09:21:32.952687+00:00",
+  "source_count": 9,
+  "entity_type": "organizations",
+  "method": "manual_source_attributed_review",
+  "cvs_standard": "All entities source-attributed. No pattern-inferred entities.",
+  "entities": [
+    "CIMB",
+    "Google",
+    "FIFA",
+    "UFC",
+    "Star Media Group Berhad",
+    "Media Mulia Sdn Bhd",
+    "McDonald's Malaysia (Tampin branch)",
+    "Persatuan Kebajikan Ronald McDonald (RHMC)",
+    "KFC",
+    "Reuters"
+  ],
+  "entities_detailed": [
+    {
+      "name": "CIMB",
+      "source": "astroawanicom_20260712_053155.md",
+      "context": "Perkhidmatan kad debit CIMB tergendala sementara",
+      "ns_relevant": false,
+      "note": "Banking"
+    },
+    {
+      "name": "Google",
+      "source": "astroawanicom_20260712_053155.md",
+      "context": "Google mula label iklan dijana AI",
+      "ns_relevant": false
+    },
+    {
+      "name": "FIFA",
+      "source": "astroawanicom_20260712_053155.md",
+      "context": "Piala Dunia 2026: Argentina ...",
+      "ns_relevant": false
+    },
+    {
+      "name": "UFC",
+      "source": "astroawanicom_20260712_053155.md; thestarcommy_20260712_053155.md",
+      "context": "UFC 329 ...",
+      "ns_relevant": false
+    },
+    {
+      "name": "Star Media Group Berhad",
+      "source": "thestarcommy_20260712_053155.md",
+      "context": "Copyright (c) 1995- Star Media Group Berhad",
+      "ns_relevant": false,
+      "note": "Publisher"
+    },
+    {
+      "name": "Media Mulia Sdn Bhd",
+      "source": "kosmocommy_20260712_053155.md; utusancommy_20260712_053155.md",
+      "context": "Hak cipta terpelihara (c) 2026 Media Mulia Sdn Bhd",
+      "ns_relevant": false,
+      "note": "Publisher"
+    },
+    {
+      "name": "McDonald's Malaysia (Tampin branch)",
+      "source": "ohbulancom_20260712_053155.md",
+      "context": "McDonald's Malaysia Rasmi Cawangan Baru Di Tampin, Negeri Sembilan",
+      "ns_relevant": true,
+      "note": "NS location (Tampin); commercial, not political"
+    },
+    {
+      "name": "Persatuan Kebajikan Ronald McDonald (RHMC)",
+      "source": "ohbulancom_20260712_053155.md",
+      "context": "Persatuan Kebajikan Ronald McDonald (RHMC) Malaysia",
+      "ns_relevant": false
+    },
+    {
+      "name": "KFC",
+      "source": "ohbulancom_20260712_053155.md",
+      "context": "Kita semua bersatu untuk menikmati hidangan KFC",
+      "ns_relevant": false
+    },
+    {
+      "name": "Reuters",
+      "source": "astroawanicom_20260712_053155.md",
+      "context": "REUTERS/Cole Burston; REUTERS/Stringer (image credits)",
+      "ns_relevant": false,
+      "note": "News agency (image attribution)"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "date": "2026-07-13T06:30:00+00:00",
+  "source_count": 7,
+  "entity_type": "events",
+  "method": "manual_source_attributed_review",
+  "cvs_standard": "All entities source-attributed. No pattern-inferred entities.",
+  "entities": [
+    "PRN Negeri Sembilan 2026 (Aug 1) — PAS-BN/UMNO negotiations",
+    "PRN Johor 2026 (concluded — BN decisive victory, Onn Hafiz MB)",
+    "Kes Dana Armada verdict (Mahkamah Persekutuan, pending)",
+    "Venezuela earthquake aftermath (4,490 dead)",
+    "Iran/Hormozgan attack (1 killed)",
+    "FIFA World Cup 2026 (quarter-finals, expansion, attendance records)",
+    "UFC 329 (McGregor 69-second loss, RM132 juta)",
+    "Fontainebleau forest wildfire (Paris)",
+    "Singapore President state visit to Malaysia (3-day)",
+    "Malaysian death on Mount Elbrus (Russia)",
+    "Hari Keputeraan Ke-77 Yang di-Pertuan Besar Negeri Sembilan"
+  ],
+  "ns_relevant_count": 2,
+  "entities_detailed": [
+    {"name": "PRN Negeri Sembilan 2026 (Aug 1) — PAS-BN/UMNO negotiations", "date": "2026-08-01", "source": "thestarcommy_20260713_010102.md; astroawanicom_20260713_010102.md; bhariancommy_20260713_010102.md", "context": "PAS is in talks with Umno to form a political cooperation to face the Aug 1 Negri Sembilan polls / Pas akui berunding dengan BN bagi menghadapi PRN Negeri Sembilan, 1 Ogos ini / PAS buka ruang UMNO teraju Negeri Sembilan jika menang PRN", "ns_relevant": true, "note": "CORE NS PRN EVENT"},
+    {"name": "PRN Johor 2026 (concluded — BN decisive victory, Onn Hafiz MB)", "date": "2026-07-12", "source": "thestarcommy_20260713_010102.md; bhariancommy_20260713_010102.md", "context": "Barisan Nasional's decisive victory in Johor / Datuk Onn Hafiz Ghazi begins a second term as Mentri Besar", "ns_relevant": false, "note": "Johor PRN results; relevant as NS PRN momentum narrative"},
+    {"name": "Kes Dana Armada verdict (Mahkamah Persekutuan, pending)", "date": "pending (imminent)", "source": "astroawanicom_20260713_010102.md; bhariancommy_20260713_010102.md", "context": "Luahan hati Syed Saddiq menjelang keputusan Mahkamah Persekutuan esok", "ns_relevant": false},
+    {"name": "Venezuela earthquake aftermath (4,490 dead)", "date": "2026-07 (ongoing)", "source": "astroawanicom_20260713_010102.md", "context": "Angka korban gempa bumi Venezuela meningkat kepada 4,490", "ns_relevant": false},
+    {"name": "Iran/Hormozgan attack (1 killed)", "date": "2026-07-13", "source": "astroawanicom_20260713_010102.md", "context": "Konflik Asia Barat: Serangan di Hormozgan, Iran ragut satu nyawa", "ns_relevant": false},
+    {"name": "FIFA World Cup 2026 (quarter-finals, expansion, attendance records)", "date": "2026-07 (ongoing)", "source": "astroawanicom_20260713_010102.md; bhariancommy_20260713_010102.md", "context": "Piala Dunia: Perluasan penyertaan pasukan dibincang / Piala Dunia 2026 pecah rekod kehadiran penonton", "ns_relevant": false},
+    {"name": "UFC 329 (McGregor 69-second loss, RM132 juta)", "date": "2026-07 (recent)", "source": "astroawanicom_20260713_010102.md", "context": "McGregor tetap raih RM132 juta selepas tewas 69 saat", "ns_relevant": false},
+    {"name": "Fontainebleau forest wildfire (Paris)", "date": "2026-07-12", "source": "astroawanicom_20260713_010102.md", "context": "Kebakaran besar melanda Hutan Fontainebleau di Paris", "ns_relevant": false},
+    {"name": "Singapore President state visit to Malaysia (3-day)", "date": "2026-07-12", "source": "thestarcommy_20260713_010102.md", "context": "Singapore president arrives in Malaysia for three-day state visit", "ns_relevant": false},
+    {"name": "Malaysian death on Mount Elbrus (Russia)", "date": "2026-07-12", "source": "thestarcommy_20260713_010102.md", "context": "Malaysian dies while climbing Mount Elbrus in Russia, says Wisma Putra", "ns_relevant": false},
+    {"name": "Hari Keputeraan Ke-77 Yang di-Pertuan Besar Negeri Sembilan", "date": "2025-01 (past)", "source": "ohbulancom_20260713_010102.md", "context": "Suki, Waris Dikurniakan Anugerah Sempena Hari Keputeraan Ke-77 Yang Dipertuan Besar Negeri Sembilan", "ns_relevant": true, "note": "NS royalty event; past (Jan 2025); NOT election-related"}
+  ]
+}

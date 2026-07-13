@@ -1,0 +1,206 @@
+{
+  "analysis_id": "ns-prn-2026-sentiment-20260712",
+  "date": "2026-07-12T09:38:59+00:00",
+  "collection_date": "20260712",
+  "workspace": "/home/p62operator/.openclaw/workspace-ns",
+  "classification": "TLP:AMBER",
+  "status": "completed_with_critical_limitations",
+  "sentiment_model": "Qwen3.5-397B-A17B (OpenOSINT / Aras Integrasi) - manual_source_attributed_review (agent-executed)",
+  "script_run": {
+    "script": "scripts/ns-sentiment-analysis.sh",
+    "exit_code": 0,
+    "stdout_entities_analyzed": 0,
+    "stdout_result": "Printed placeholder JSON to stdout (empty arrays, entities_analyzed:0)",
+    "output_file_created": false,
+    "note": "Script embedded Python is a PLACEHOLDER STUB. It prints empty JSON to stdout and does NOT write sentiment_analysis.json. Does not call OpenOSINT/Aras API. No API key/endpoint env vars present. Real analysis performed by agent via manual source-attributed review (CVS-compliant method), as on 20260711.",
+    "agent_action": "Agent wrote this file manually to fill the gap the stub left."
+  },
+  "openosint_integration_status": {
+    "configured_model": "vllm/Qwen/Qwen3.5-397B-A17B (Aras Integrasi)",
+    "runtime_model": "zai-org/GLM-5.2 (provider: custom) - model mismatch vs config",
+    "api_wired": false,
+    "api_key_present": false,
+    "api_endpoint_env_var_present": false,
+    "env_vars_checked": ["ARAS*", "OSINT*", "QWEN*", "OPENOSINT*", "API_KEY*", "API_URL*", "MODEL*"],
+    "env_vars_found": [],
+    "verdict": "NOT ACTIVE for automated sentiment. Script is a stub. Analysis done manually by agent (CVS-compliant). Status unchanged from 20260711."
+  },
+  "cvs_standard": "Sentiment based on verified source content only. No pattern-inferred sentiment. Source: entities_verified_cvs_compliant.json (manual_source_attributed_review). Agent directly verified raw source files (astroawani, ohbulan, thestar).",
+  "source_basis": {
+    "collection_timestamp": "20260712_053155",
+    "sources_attempted": 13,
+    "sources_successful": 8,
+    "success_rate": "61.5%",
+    "substantive_content_files": 3,
+    "minimal_or_404_pages": 6,
+    "files_with_substantive_content": ["astroawanicom_20260712_053155.md", "ohbulancom_20260712_053155.md", "thestarcommy_20260712_053155.md"],
+    "files_404_or_minimal": ["malaysiakinicom_20260712_053155.md", "mstarcommy_20260712_053155.md", "utusancommy_20260712_053155.md", "kosmocommy_20260712_053155.md", "sinarhariancom_20260712_053155.md", "sinarhariancom_20260712_052935.md"],
+    "ns_specific_files": 1,
+    "ns_specific_file": "ohbulancom (Negeri Sembilan tag page; OLD 2019-2025 entertainment/lifestyle/royalty content; NO election content)",
+    "dominant_topic": "PRN Johor 2026 results day (12 Julai 2026: Baharudin majoriti tertinggi, 55 calon hilang deposit)"
+  },
+  "entities_analyzed": {
+    "total_verified_entities": 46,
+    "ns_relevant_entities": 5,
+    "ns_election_relevant_entities": 0,
+    "ns_election_relevance_verdict": "ZERO entities related to Negeri Sembilan PRN 2026 (state election) found in verified source content. None of NS's 36 DUN, no NS state politicians, no NS election issues appear in any source. SECOND consecutive day (20260711 + 20260712) with zero NS election content.",
+    "by_category_verified": {
+      "politicians": {"count": 3, "ns_relevant": 0, "ns_election_relevant": 0},
+      "parties": {"count": 0, "ns_relevant": 0, "ns_election_relevant": 0},
+      "constituencies": {"count": 1, "ns_relevant": 0, "ns_election_relevant": 0},
+      "issues": {"count": 8, "ns_relevant": 0, "ns_election_relevant": 0},
+      "events": {"count": 5, "ns_relevant": 1, "ns_election_relevant": 0},
+      "organizations": {"count": 10, "ns_relevant": 1, "ns_election_relevant": 0},
+      "locations": {"count": 19, "ns_relevant": 3, "ns_election_relevant": 0}
+    },
+    "ns_relevant_entities_list": [
+      {"name": "Hari Keputeraan Ke-77 Yang di-Pertuan Besar Negeri Sembilan", "category": "events", "note": "Past royalty event (Jan 2025); NOT election-related"},
+      {"name": "McDonald's Malaysia (Tampin branch)", "category": "organizations", "note": "Commercial (2022); not political"},
+      {"name": "Negeri Sembilan", "category": "locations", "note": "ohbulan tag page; entertainment, not election"},
+      {"name": "Tampin", "category": "locations", "note": "NS town/parliamentary seat; commercial context (McDonald's 2022)"},
+      {"name": "Port Dickson (PD)", "category": "locations", "note": "NS location; celebrity gossip context (2021)"}
+    ]
+  },
+  "sentiment_by_category": {
+    "note": "CVS-compliant sentiment assessed ONLY from verified source-attributed content. NS PRN 2026 election sentiment = NULL (no NS election entities in source). Below reflects all verified political entities in the collection, each flagged for NS relevance.",
+    "political_parties": [
+      {"name": "PH (Pakatan Harapan)", "sentiment": "no_data", "confidence": 0, "ns_relevant": false, "notes": "No verifiable mention in today's source content. None of the 3 substantive sources mention PH."},
+      {"name": "BN (Barisan Nasional)", "sentiment": "no_data", "confidence": 0, "ns_relevant": false, "notes": "No verifiable mention in today's source content. NOTE: Yesterday's (20260711) UMNO/BN reform-critique signal ('fresh ideas, not fresh faces') from freemalaysiatoday is NOT refreshed today - freemalaysiatoday not collected 20260712. Signal now decaying/unverified."},
+      {"name": "PN (Perikatan Nasional)", "sentiment": "no_data", "confidence": 0, "ns_relevant": false, "notes": "No prose-verified mention. Appears ONLY as image asset filename '41767104723_PerikatanNasional.jpg' accompanying 'PRN Johor: 55 calon hilang deposit' article (astroawani). Excluded per CVS - image-filename-only attribution, not in article prose. Consistent with 20260711 standard."},
+      {"name": "UMNO (BN component)", "sentiment": "no_data", "confidence": 0, "ns_relevant": false, "notes": "No verifiable mention in today's source content. Yesterday's reform-critique signal not refreshed."},
+      {"name": "DAP", "sentiment": "no_data", "confidence": 0, "ns_relevant": false, "notes": "No verifiable mention."},
+      {"name": "PKR", "sentiment": "no_data", "confidence": 0, "ns_relevant": false, "notes": "No verifiable mention."},
+      {"name": "PAS", "sentiment": "no_data", "confidence": 0, "ns_relevant": false, "notes": "No verifiable mention."},
+      {"name": "Bersatu", "sentiment": "no_data", "confidence": 0, "ns_relevant": false, "notes": "No verifiable mention. Script 'bersatu' match is FALSE POSITIVE (Malay verb 'to unite' in KFC article, ohbulan line 93: 'kita semua bersatu untuk menikmati hidangan KFC'). Confirmed by agent reading raw source."},
+      {"name": "MUDA", "sentiment": "negative_uncertain", "confidence": 0.55, "ns_relevant": false, "source": "astroawanicom_20260712_053155.md", "evidence": "Kes Dana Armada: Nasib Syed Saddiq diketahui esok (verdict pending). Party president facing court verdict.", "notes": "Negative/uncertain for MUDA via its president's pending court case. NOT NS-specific. Headline only (no body text)."}
+    ],
+    "key_politicians": [
+      {"name": "Baharudin", "role": "Johor PRN candidate", "sentiment": "positive", "confidence": 0.65, "ns_relevant": false, "source": "astroawanicom_20260712_053155.md", "evidence": "PRN Johor: Baharudin raih majoriti tertinggi (won highest majority)", "notes": "Positive (electoral victory, highest majority). Johor, NOT NS."},
+      {"name": "Syed Saddiq", "role": "MUDA president (Kes Dana Armada defendant)", "sentiment": "negative_uncertain", "confidence": 0.60, "ns_relevant": false, "source": "astroawanicom_20260712_053155.md", "evidence": "Kes Dana Armada: Nasib Syed Saddiq diketahui esok (verdict pending tomorrow)", "notes": "Negative/uncertain - facing imminent court verdict. NOT NS."},
+      {"name": "President Tharman", "role": "President of Singapore (foreign head of state)", "sentiment": "neutral_positive", "confidence": 0.60, "ns_relevant": false, "source": "thestarcommy_20260712_053155.md", "evidence": "Singapore, Malaysia partnership driven by mutual respect, understanding of each other's interests: President Tharman", "notes": "Positive diplomatic framing. Foreign head of state, NOT NS."},
+      {"name": "NS politicians (Aminuddin Harun/MB, Veerapan, Khairy Jamaluddin, etc.)", "sentiment": "no_data", "confidence": 0, "ns_relevant": true, "notes": "ZERO NS state politicians appear in today's verified source content. Prior baseline (20260710) tracked these via contextual intelligence only - NOT verified source content; not updated today; decaying."}
+    ],
+    "top_issues_narratives": [
+      {"issue": "PRN Johor results (55 calon hilang deposit)", "sentiment": "negative", "confidence": 0.60, "ns_relevant": false, "source": "astroawanicom_20260712_053155.md", "evidence": "PRN Johor: 55 calon hilang deposit (55 candidates lost deposits)", "notes": "Negative signal for minor parties/independents in Johor. Dominant topic today. Johor, NOT NS. Crowds out NS coverage."},
+      {"issue": "PRN Johor results (Baharudin majoriti tertinggi / Simpang Renggam majoriti rendah)", "sentiment": "neutral", "confidence": 0.65, "ns_relevant": false, "source": "astroawanicom_20260712_053155.md", "evidence": "Baharudin won highest majority; Simpang Renggam lowest majority", "notes": "Factual results reporting. Johor, NOT NS."},
+      {"issue": "Kes Dana Armada (Syed Saddiq verdict pending)", "sentiment": "negative_uncertain", "confidence": 0.55, "ns_relevant": false, "source": "astroawanicom_20260712_053155.md", "evidence": "Nasib Syed Saddiq diketahui esok", "notes": "Negative/uncertain - pending court verdict. NOT NS."},
+      {"issue": "Kontroversi logo Visit Truly Terengganu 2027", "sentiment": "negative", "confidence": 0.50, "ns_relevant": false, "source": "astroawanicom_20260712_053155.md", "evidence": "Kontroversi logo 'Visit Truly Terengganu 2027', ini penjelasan Exco", "notes": "Negative (controversy). Terengganu, NOT NS."},
+      {"issue": "Iran closure of Strait of Hormuz", "sentiment": "negative", "confidence": 0.55, "ns_relevant": false, "source": "astroawanicom_20260712_053155.md", "evidence": "Iran umum tutup Selat Hormuz", "notes": "Geopolitical negative. NOT NS."},
+      {"issue": "Singapore-Malaysia bilateral partnership", "sentiment": "positive", "confidence": 0.60, "ns_relevant": false, "source": "thestarcommy_20260712_053155.md", "evidence": "partnership driven by mutual respect", "notes": "Positive diplomatic. NOT NS-specific."},
+      {"issue": "NS election issues (royal succession crisis, PAS-Bersatu split, economic livelihood)", "sentiment": "no_data", "confidence": 0, "ns_relevant": true, "notes": "ZERO NS election issues verifiable in today's source. Prior baseline tracked royal succession crisis (Seri Menanti/Pilah/Johol) - contextual only, NOT verified today; decaying."}
+    ],
+    "constituency_sentiment": [
+      {"constituency": "Simpang Renggam", "state": "Johor", "sentiment": "negative", "ns_relevant": false, "source": "astroawanicom_20260712_053155.md", "evidence": "Simpang Renggam majoriti rendah (lowest majority)", "notes": "Johor DUN, NOT one of NS 36 DUN."},
+      {"constituency": "NS DUN seats (all 36)", "sentiment": "no_data", "ns_relevant": true, "notes": "ZERO NS DUN constituencies appear in today's verified source content. Prior baseline: N16 Seri Menanti, N17 Pilah, N18 Johol = negative (royal crisis); N23-26 Port Dickson = positive; N09-14 Seremban = positive. All CONTEXTUAL ONLY, not verified today; decaying."}
+    ]
+  },
+  "sentiment_summary": {
+    "ns_prn_2026_election_sentiment": {
+      "positive": 0,
+      "neutral": 0,
+      "negative": 0,
+      "no_data": "all categories",
+      "verdict": "NULL - no NS election entities in verified source content to assess. CVS-compliant NS sentiment analysis cannot be produced from this collection. SECOND consecutive null result."
+    },
+    "all_verified_political_entities_today": {
+      "positive": ["Baharudin (Johor highest majority, non-NS)", "Singapore-Malaysia partnership (diplomatic, non-NS)"],
+      "neutral": ["PRN Johor results factual coverage (non-NS)"],
+      "negative": ["PRN Johor 55 calon hilang deposit (minor parties, non-NS)", "Kes Dana Armada/Syed Saddiq pending verdict (MUDA, non-NS)", "Terengganu logo controversy (non-NS)", "Iran Strait of Hormuz (geopolitical, non-NS)"],
+      "no_data": ["PH", "BN", "PN", "UMNO", "DAP", "PKR", "PAS", "Bersatu (NS-relevance)", "All NS state politicians", "All 36 NS DUN constituencies", "All NS election issues"]
+    }
+  },
+  "narrative_indicators_detected": [
+    {
+      "indicator": "Johor election news dominance / NS coverage blackout",
+      "type": "collection/intelligence",
+      "severity": "high",
+      "evidence": "PRN Johor results day (12 July 2026: Baharudin majoriti tertinggi, 55 calon hilang deposit) dominates astroawani. NS election content effectively absent.",
+      "trend": "persistent - 2nd consecutive day; Johor results cycle expected to dominate through analysis period"
+    },
+    {
+      "indicator": "NS election narrative vacuum",
+      "type": "intelligence_gap",
+      "severity": "high",
+      "evidence": "No NS politician, party, constituency, or issue narratives detectable in verified source content for 2 consecutive days",
+      "trend": "persistent since 20260710 baseline; worsening as standing baseline decays unverified"
+    },
+    {
+      "indicator": "Minor-party/independent deposit-loss signal (Johor, contextual for PN/coalition dynamics)",
+      "type": "political",
+      "severity": "low",
+      "evidence": "PRN Johor: 55 calon hilang deposit. PN image asset adjacent to this article (image-only, not prose-verified).",
+      "trend": "new today; Johor-specific; directional context only for NS coalition sentiment, NOT verified for NS",
+      "cvs_caveat": "PN association is image-filename-only, not prose-verified; excluded from verified parties per CVS."
+    },
+    {
+      "indicator": "UMNO/BN reform-critique signal decay (national)",
+      "type": "political",
+      "severity": "low",
+      "evidence": "Yesterday's (20260711) 'fresh ideas not fresh faces' UMNO critique from freemalaysiatoday NOT refreshed today (source not collected 20260712).",
+      "trend": "decaying - signal not refreshed 2nd day; national, not NS-sourced"
+    }
+  ],
+  "escalation_flags": [
+    {
+      "flag_id": "ESC-001-20260712",
+      "severity": "HIGH",
+      "category": "Collection Targeting Failure (NS Content Blackout) - DAY 2",
+      "description": "Today's collection (13 attempted, 8 successful, 3 substantive) contains ZERO Negeri Sembilan PRN 2026 election content. 6/9 files returned 404 or minimal pages; 3 substantive sources are PRN Johor (results day), World Cup 2026, and old (2019-2025) ohbulan entertainment tag pages. The only NS-tagged source (ohbulan) contains 2019-2025 entertainment/lifestyle/royalty articles with no election content. This is the SECOND consecutive day (20260711 + 20260712) with zero NS election content - a systemic collection targeting failure.",
+      "impact": "CVS-compliant NS sentiment analysis is IMPOSSIBLE from this collection (2nd consecutive null). Standing contextual baseline (20260710) is decaying without verification. NS PRN 2026 scheduled ~1 August 2026 (~20 days) - intelligence gap is critical and growing.",
+      "recommendation": "URGENT: Reconfigure ns-daily-collection.sh source URLs to NS-specific sections (e.g., /negeri-sembilan/, /wilayah/negeri-sembilan/, NS politician/MB social feeds, SPR NS pages). Add NS-keyword content filters to discard Johor/non-NS election pages. Re-run collection. Root cause now confirmed persistent, not transient.",
+      "timestamp": "2026-07-12T09:38:59+00:00",
+      "carries_forward_from": "ESC-001-20260711 (Collection Targeting Failure) - status HIGH; now DAY 2 persistent"
+    },
+    {
+      "flag_id": "ESC-002-20260712",
+      "severity": "HIGH",
+      "category": "Sentiment Pipeline Non-Operational (OpenOSINT Not Wired)",
+      "description": "ns-sentiment-analysis.sh embedded Python is a placeholder stub that prints empty JSON to stdout (entities_analyzed:0) and does NOT write sentiment_analysis.json. It does NOT call the OpenOSINT/Aras Integrasi Qwen3.5-397B API. No API key/endpoint env vars set (env scan returned empty). Runtime model is GLM-5.2 (mismatch vs configured Qwen). Script exit_code 0 but produces no usable output.",
+      "impact": "Automated CVS-compliant sentiment pipeline is non-functional. Analysis must be done manually by agent each cycle. Output file never created by script - agent must create it.",
+      "recommendation": "Wire OpenOSINT/Aras API call into sentiment script with auth credentials; make script write to sentiment_analysis.json; add NS-specific entity extraction for all 7 categories with source attribution. Until then, agent manual review is the only CVS-compliant path.",
+      "timestamp": "2026-07-12T09:38:59+00:00",
+      "carries_forward_from": "ESC-002-20260711 - status unchanged HIGH"
+    },
+    {
+      "flag_id": "ESC-003-20260712",
+      "severity": "MEDIUM",
+      "category": "Standing High-Risk Flag Unverified (Royal Crisis Impact) - DAY 2 UNVERIFIED",
+      "description": "Prior baseline (20260710) flagged HIGH-severity royal succession crisis affecting 4 NS constituencies (Seri Menanti, Pilah, Johol, Kuala Klawang area) with negative Malay-voter sentiment. This flag CANNOT be confirmed or updated - now UNVERIFIED for 2 consecutive days (zero NS coverage collected). It carries forward as CONTEXTUAL ONLY, not CVS-verified.",
+      "impact": "Standing high-risk assessment is unverified and decaying (Day 2). Without NS-sourced collection, cannot determine if crisis sentiment is escalating, stable, or resolving. Down-escalation blocked.",
+      "recommendation": "Remains priority intelligence target. Cannot down-escalate without verified NS source content. Priority NS collection must be re-established to reassess before polling day.",
+      "timestamp": "2026-07-12T09:38:59+00:00",
+      "carries_forward_from": "ESC-003-20260711 -> ESC-001 (20260710 Royal Crisis Impact, HIGH) - status unchanged, now UNVERIFIED Day 2"
+    },
+    {
+      "flag_id": "ESC-004-20260712",
+      "severity": "LOW",
+      "category": "Negative Sentiment Spike Watch (NS-specific)",
+      "description": "NO NS-specific negative sentiment spike detected (no NS data). The only collection-level negative political signals are Johor-sourced (55 calon hilang deposit, Kes Dana Armada). None meet the negative-sentiment-spike threshold for NS escalation.",
+      "impact": "Minimal/no direct NS impact. No NS escalation action required.",
+      "recommendation": "Monitor for escalation IF negative signals appear in NS-attributed sources with body text. No action at this time.",
+      "timestamp": "2026-07-12T09:38:59+00:00"
+    }
+  ],
+  "sentiment_distribution_counts": {
+    "ns_election_relevant": {"positive": 0, "neutral": 0, "negative": 0, "no_data": "all - zero NS election entities in source (Day 2)"},
+    "all_verified_political_today": {"positive": 2, "neutral": 1, "negative": 4, "no_data": "PH, BN, PN, UMNO, DAP, PKR, PAS, Bersatu + all NS politicians/constituencies/issues"}
+  },
+  "prior_baseline_reference": {
+    "source": "intelligence/processed/20260710/sentiment_analysis.json",
+    "method": "contextual_intelligence (NOT verified source content - explicitly labeled)",
+    "status": "PERSISTS but UNVERIFIED (Day 2) and decaying. Not updated by 20260711 or 20260712 collection. Retain as directional context only; do not cite as CVS-verified.",
+    "baseline_sentiment_summary": {
+      "positive": ["Port Dickson constituencies (PH fortress)", "Seremban urban seats (PH stronghold)", "PH urban governance narrative"],
+      "neutral": ["PH statewide position", "DAP incumbents", "PKR leadership", "Economic issues"],
+      "negative": ["Royal succession crisis", "UMNO leadership confusion (14 assemblymen)", "Royal constituencies (Seri Menanti, Pilah, Johol)", "PAS-Bersatu split impact on PN"]
+    }
+  },
+  "recommendations": [
+    "URGENT (HIGH): Reconfigure ns-daily-collection.sh to NS-specific source URLs and add NS-keyword content filters; re-run collection immediately. Root cause persistent Day 2.",
+    "URGENT (HIGH): Wire OpenOSINT/Aras Qwen3.5-397B API into ns-sentiment-analysis.sh with auth credentials AND make script write sentiment_analysis.json; OR confirm agent-manual review as standing CVS-compliant method.",
+    "HIGH: Rebuild ns-entity-extraction.sh with NS-specific extraction patterns (36 DUN names, NS politician list) and source attribution for all 7 categories (currently 0 verified parties, script bersatu match = false positive).",
+    "HIGH: Establish NS-sourced collection to verify/refresh the standing royal crisis sentiment flag (Seri Menanti, Pilah, Johol) - now unverified Day 2.",
+    "MEDIUM: Track whether Johor 55-calon-deposit-loss signal / national UMNO reform critique propagates into NS-attributed coverage.",
+    "MEDIUM: Manual SPR data collection for 2023 NS election results (all 36 DUN) remains outstanding from prior baseline."
+  ]
+}

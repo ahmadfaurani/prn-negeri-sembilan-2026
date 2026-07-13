@@ -1,0 +1,368 @@
+# Negeri Sembilan PRN 2026 — Daily Intelligence Brief
+
+**Date:** 2026-07-13 (Monday)
+**Classification:** TLP:AMBER
+**Reporting Period:** 24 hours (2026-07-12 09:00 — 2026-07-13 09:00 MYT)
+**Distribution:** State Campaign Leadership, DUN War Rooms
+**Prepared by:** PRN Negeri Sembilan 2026 Daily Intelligence Brief Agent
+**Election Date:** 1 August 2026 (19 days out)
+**Nomination Day (est.):** ~18 July 2026 (5 days away)
+
+---
+
+## 1. Executive Summary
+
+**Statewide Position:** PH-led state government (17-seat baseline) maintains incumbency. **BREAKTHROUGH:** After two consecutive days (20260711, 20260712) with ZERO NS PRN 2026 election content, today's collection contains **materially significant** Negeri Sembilan election intelligence. Three independent sources (The Star, Astro Awani, Berita Harian) confirm that **PAS is in talks with UMNO/BN for electoral cooperation to face the Aug 1 NS state polls**, with PAS President Tan Sri Abdul Hadi Awang as the named source. PAS is further reported as offering UMNO the NS state government leadership if the coalition wins. This is the single most important political development detected since the campaign intelligence operation began (20260710 baseline).
+
+**Material Changes vs Prior Brief (20260712):**
+
+| Item | 20260712 Status | 20260713 Status | Change |
+|------|----------------|----------------|--------|
+| NS election content collected | Zero (Day 2) | **12 NS-election-relevant entities (3 sources)** | ✅ BREAKTHROUGH — blackout broken |
+| Collection success rate | 8/13 (61.5%) | 7/13 (53.8%) | ↓ Regression (Day 3) |
+| NS-relevant entities verified | 0 | 19 (12 election-relevant) | ✅ Major improvement |
+| PAS-BN/UMNO cooperation talks | Not detected | **VERIFIED (3 sources)** | 🔴 NEW — major strategic shift |
+| PAS offers UMNO NS leadership | Not detected | MEDIUM (1 source, headline) | 🟡 NEW — significant concession |
+| BN Johor momentum for NS | Not detected | MEDIUM (1 source, full prose) | 🟡 NEW — Jalaluddin Alias from Seremban |
+| Analyst caution (domino effect) | Not detected | MEDIUM (1 source, full prose) | 🟡 NEW — counters momentum narrative |
+| PN status | Image-filename only (Johor) | Headline: "PN chairman urged to resign" | ⚠️ PN weakness signal (Johor) |
+| Escalation flags | 4 (2 HIGH, 1 MED, 1 LOW) | 5 (1 HIGH, 2 MED, 2 LOW) | ESC-001 downgraded; ESC-005 NEW |
+| Royal crisis flag | MEDIUM (UNVERIFIED Day 2) | MEDIUM (UNVERIFIED Day 3) | Unchanged — still decaying |
+| Sentiment pipeline | Non-operational (stub) | Non-operational (stub) | Unchanged |
+| All 36 DUN | GAP | GAP | Unchanged — no election results |
+
+**Critical Alerts:**
+
+🚨 **HIGH — ESC-005 (NEW): PAS-BN/UMNO Electoral Cooperation for NS PRN — VERIFIED**
+PAS President Tan Sri Abdul Hadi Awang claims PAS is in talks with UMNO to form political cooperation for the Aug 1 Negri Sembilan state election. Confirmed by THREE independent sources: The Star (full prose, SEREMBAN dateline, 13 Jul 8:08 AM), Astro Awani (headline + image caption, "Pas akui berunding dengan BN"), and Berita Harian (headline: "PAS buka ruang UMNO teraju Negeri Sembilan jika menang PRN"). Berita Harian further reports PAS is willing to let UMNO lead the NS state government if the coalition wins — a major strategic concession. This development fundamentally changes the opposition landscape: PAS is negotiating directly with BN/UMNO, bypassing the PN framework. Implications: a potentially stronger Malay-Muslim opposition coalition in NS rural and royal constituencies; PN may be marginalized; PH faces a reconfigured competitive threat. **This is the highest-priority intelligence finding to date.**
+
+🟡 **MEDIUM — ESC-001 (DOWNGRADED from HIGH): Collection Targeting — Partially Resolved**
+The two-day NS content blackout is BROKEN. The Star's Nation section naturally surfaced 4 NS PRN articles with full prose (dated 13 Jul 2026, SEREMBAN dateline). Astro Awani and Berita Harian provided complementary coverage. However, collection success rate continues to decline (53.8%, Day 3 of regression) and 6/13 sources failed (anti-bot stubs). The Star has emerged as the primary NS PRN source. Collection is no longer failing to retrieve NS content, but systematic NS-specific targeting (NS section URLs, NS keyword filters) remains unimplemented.
+
+🟡 **MEDIUM — ESC-003: Standing High-Risk Flag Unverified (Royal Crisis Impact) — DAY 3**
+Prior baseline (20260710) flagged HIGH-severity royal succession crisis affecting 4 NS constituencies (N16 Seri Menanti, N17 Pilah, N18 Johol, N01 Kuala Klawang). This flag CANNOT be confirmed, updated, or down-escalated — now UNVERIFIED for 3 consecutive days. No NS-sourced content about the royal crisis appeared today. The new PAS-BN cooperation narrative may interact with royal constituency dynamics (conservative Malay consolidation) but this is speculative. Status: decaying, CONTEXTUAL ONLY.
+
+ℹ️ **LOW — ESC-004: Negative Sentiment Spike Watch (NS-specific)**
+No NS-specific negative sentiment spike detected. The only negative political signals are Johor-sourced (PN chairman urged to resign, 55 candidates lost deposits, SPR misconduct allegations). PN weakness in Johor may have NS implications but no NS-attributed content confirms this. No action required.
+
+---
+
+## 2. Statewide Seat Position
+
+| Coalition | Seats Held (Baseline) | Projected | Change | CVS Status |
+|-----------|----------------------|-----------|--------|------------|
+| PH | 17 | 15–18 | ±0 | ⚠️ CONTEXTUAL — not verified today (Day 3) |
+| BN | 14 | 12–16 | −1 to +1 | ⚠️ CONTEXTUAL — not verified today (Day 3) |
+| PN | 5 | 3–6 | −1 to +0 | ⚠️ CONTEXTUAL + Johor weakness signal (MEDIUM) |
+| PAS-BN coalition (NEW) | 0 | Unknown — emerging | NEW | 🟡 VERIFIED talks underway; electoral impact unknown |
+| Others | 0 | 0 | — | — |
+
+**Assessment [CVS: Mixed — PAS-BN talks VERIFIED; seat projections CONTEXTUAL]:**
+
+The PAS-BN/UMNO electoral cooperation talks (VERIFIED, 3 sources) introduce a **new variable** into NS PRN seat projections. If PAS and BN/UMNO coordinate or form a coalition:
+
+- **Rural Malay seats** (Jelebu N01–N04, Jempol N05–N08) face a potentially stronger combined Malay-Muslim opposition, threatening PH's position
+- **Royal constituencies** (N16 Seri Menanti, N17 Pilah, N18 Johol) could see conservative Malay vote consolidation under a PAS-BN banner
+- **Rembau seats** (N19–N22) — already competitive (Khairy factor) — could tilt further if PAS grassroots machinery aligns with BN
+- **PN** appears weakened by Johor results (chairman urged to resign per Kosmo headline). Some PN votes may migrate to a PAS-BN coalition
+
+However, analysts caution (MEDIUM, single-source) that Johor results will NOT guarantee a domino effect in NS, as "outcomes in Negri Sembilan and GE16 will still hinge on each state's political dynamics, candidates and prevailing issues." This caution is VERIFIED as a sentiment indicator but the underlying seat projections remain CONTEXTUAL and unverified (Day 3).
+
+**Key uncertainty:** Whether PAS-BN cooperation is a formal electoral pact (seat allocation, joint candidates) or informal cooperation (non-contesting agreements). No source specifies the mechanism. The talks are confirmed; the terms are not.
+
+---
+
+## 3. Critical DUN Updates
+
+> **CVS NOTICE:** DUN classifications below remain carried forward from the 20260710 contextual baseline — NOT verified by source content for any specific seat (Day 3). Per CVS standard, these are classified as EXCLUDED (<60% verification) for operational decision-making. The NEW PAS-BN cooperation development (VERIFIED) is a statewide dynamic that may affect multiple seats but no individual DUN has been source-verified.
+
+### Tier 1: Immediate Intervention Required (High Risk) — ⚠️ UNVERIFIED (Day 3)
+
+| DUN | Code | Risk Factor | Source of Assessment | CVS Status |
+|-----|------|-------------|---------------------|------------|
+| Seri Menanti | N16 | Royal town — succession crisis ground zero; PAS-BN cooperation may consolidate conservative Malay vote | 20260710 contextual + 20260713 PAS-BN talks (statewide) | EXCLUDED — needs field verification |
+| Pilah | N17 | Royal constituency — crisis impact; PAS-BN cooperation risk | 20260710 contextual + 20260713 PAS-BN talks (statewide) | EXCLUDED — needs field verification |
+| Johol | N18 | Royal constituency — crisis impact; PAS-BN cooperation risk | 20260710 contextual + 20260713 PAS-BN talks (statewide) | EXCLUDED — needs field verification |
+
+### Tier 2: Watch List (Competitive) — ⚠️ UNVERIFIED (Day 3)
+
+| DUN | Code | Risk Factor | Source of Assessment | CVS Status |
+|-----|------|-------------|---------------------|------------|
+| Kota | N19 | Rembau — Khairy's home ground, PN contesting; PAS-BN cooperation may strengthen opposition | 20260710 contextual + 20260713 PAS-BN talks (statewide) | EXCLUDED — needs verification |
+| Chembong | N20 | Rembau — competitive; PAS-BN cooperation risk | 20260710 contextual + 20260713 PAS-BN talks (statewide) | EXCLUDED — needs verification |
+| Lenggeng | N21 | Rembau — competitive; PAS-BN cooperation risk | 20260710 contextual + 20260713 PAS-BN talks (statewide) | EXCLUDED — needs verification |
+| Repah | N27 | DAP-held (Veerapan incumbent), border with Johor — Johor BN momentum may spill over | 20260710 contextual + 20260713 BN momentum (MEDIUM) | EXCLUDED — needs verification |
+
+### Tier 3: Stable (Favourable) — ⚠️ UNVERIFIED (Day 3)
+
+| DUN | Code | Assessment Basis | CVS Status |
+|-----|------|------------------|------------|
+| Lukut, Chuah, Si Rusa, Telok Kemang | N23–N26 | Port Dickson — PH fortress | EXCLUDED — needs verification |
+| Rahang, Temiang, Sikamat, Labu, Bukit Kepayang, Nilam | N09–N14 | Seremban — PH urban stronghold | EXCLUDED — needs verification |
+
+### All 36 DUN: Status GAP
+
+All 36 DUN remain classified as **GAP** in the DUN Master List. No 2023 election results (vote counts, margins, turnout), incumbent confirmation, or candidate nomination data has been collected for any seat. This remains the single largest intelligence deficit. Nominations estimated ~18 July (5 days away); zero candidate data exists.
+
+---
+
+## 4. Top Voter Issues & Narratives
+
+### VERIFIED NS PRN 2026 Issues [CVS: VERIFIED — multi-source confirmed]
+
+| Issue | Impact | Sentiment | Sources | CVS Status |
+|-------|--------|-----------|---------|------------|
+| **PAS-BN/UMNO electoral cooperation talks for NS PRN (Aug 1)** | Statewide — fundamental opposition realignment | Mixed (strategic opportunity for BN; competitive threat for PH) | thestar (full prose), astroawani (headline+caption), bharian (headline) | ✅ VERIFIED (95%+) — 3 sources |
+| PRN Negeri Sembilan 2026 scheduled for 1 August | Statewide — confirms election date | Neutral (factual) | thestar, astroawani, bharian | ✅ VERIFIED (95%+) — 3 sources |
+
+### MEDIUM-Confidence NS PRN Issues [CVS: MEDIUM — single-source]
+
+| Issue | Impact | Sentiment | Source | CVS Status |
+|-------|--------|-----------|--------|------------|
+| PAS offers UMNO to lead NS if coalition wins PRN | Statewide — major strategic concession | Positive (for BN/UMNO); competitive threat (for PH) | bharian (headline only) | 🟡 MEDIUM — single-source, headline-only |
+| BN Johor victory momentum for NS PRN | Statewide — morale/momentum narrative | Positive (BN optimistic) | thestar (full prose, Jalaluddin Alias from Seremban) | 🟡 MEDIUM — single-source |
+| Analysts caution: Johor sweep no domino effect for NS/GE16 | Statewide — counters momentum narrative | Cautious/skeptical | thestar (full prose, "say analysts") | 🟡 MEDIUM — single-source |
+| PAS willing to sacrifice for Malay-Islam power | Statewide — PAS strategy signal | Positive (PAS loyalist); assertive | bharian (headline, Hadi Awang) | 🟡 MEDIUM — single-source, Johor context but NS-relevant |
+| Negri Crisis (The Star topic tag) | Statewide — ongoing NS political coverage | Neutral (editorial tag) | thestar | 🟡 MEDIUM — confirms ongoing NS coverage |
+
+### Johor PRN Contextual Issues (non-NS, directional context only)
+
+| Issue | Impact | Sentiment | Source | CVS Status |
+|-------|--------|-----------|--------|------------|
+| PN chairman urged to resign after expected Johor defeat | National — PN weakness signal | Negative (PN) | kosmo (headline on 404 page) | 🟡 MEDIUM — single-source, Johor |
+| BN Johor must prove 48 DUN win not "cek kosong" | National — BN performance benchmark | Cautious (commentary) | bharian (headline) | 🟡 MEDIUM — single-source, Johor |
+| SPR response to Johor PRN misconduct allegations | National — electoral integrity | Negative (allegations) | bharian (headline) | 🟡 MEDIUM — single-source, Johor |
+| Syed Saddiq Kes Dana Armada verdict pending | National — MUDA leader at risk | Negative/uncertain | astroawani + bharian | 🟡 MEDIUM — multi-source, non-NS |
+
+### Dominant Narratives — Verified Indicators Detected
+
+| Narrative Indicator | Type | Severity | Evidence | Trend |
+|---------------------|------|----------|----------|-------|
+| **PAS-BN/UMNO electoral cooperation for NS PRN** | Political — opposition realignment | **HIGH** | 3 independent sources confirm PAS-UMNO talks for Aug 1 NS polls; PAS offers UMNO NS leadership | 🔴 NEW — first detected today; highest significance |
+| BN Johor victory as NS momentum narrative | Political — coalition morale | **MEDIUM** | Jalaluddin Alias (Seremban): Johor win "will boost morale and increase momentum in Negri Sembilan" | 🟡 NEW — single-source, full prose |
+| Analyst caution: Johor ≠ NS domino effect | Political — analytical counter | **MEDIUM** | "outcomes in Negri Sembilan and GE16 will still hinge on each state's political dynamics" | 🟡 NEW — counters momentum narrative |
+| PN weakness post-Johor | Political — opposition fragmentation | **MEDIUM** | "Pengerusi PN digesa letak jawatan" (Kosmo); 55 candidates lost deposits (prior day) | ⚠️ Johor context; may affect NS if PN voters migrate to PAS-BN |
+| Royal crisis impact on NS constituencies | Intelligence gap | **MEDIUM** | Prior baseline (20260710) — unverified Day 3; no NS-sourced content today | ⚠️ Decaying — may interact with PAS-BN conservative consolidation |
+| Collection success rate decline | Collection/intelligence | **MEDIUM** | 76.9% → 61.5% → 53.8% (3-day trend) | ⚠️ Approaching 50% retry threshold |
+
+### Sentiment Summary
+
+**NS PRN 2026 Election Sentiment [CVS: PRODUCED — first viable assessment]:**
+- **Positive (for BN/PAS coalition):** PAS-BN cooperation talks confirmed (VERIFIED); BN Johor victory momentum (MEDIUM); PAS offering UMNO NS leadership (MEDIUM) — signals strategic consolidation and optimism within opposition
+- **Cautious/Skeptical:** Analysts caution Johor results won't predict NS outcome (MEDIUM) — counters overconfidence narrative
+- **Negative (for PN):** PN chairman urged to resign after Johor defeat (MEDIUM) — PN weakness signal, Johor context
+- **Negative (for PH):** PAS-BN cooperation creates a potentially stronger Malay-Muslim opposition coalition in NS — competitive threat in rural and royal constituencies
+- **No Data:** Individual DUN-level sentiment, specific NS politician sentiment (other than Hadi Awang and Jalaluddin Alias), incumbent approval, grassroots mood
+
+**Verdict:** First day with viable NS PRN 2026 sentiment data. The dominant sentiment is **opposition realignment** — PAS-BN/UMNO cooperation talks create a new competitive dynamic. BN is optimistic (Johor momentum), analysts are cautious (no domino guarantee), and PN appears weakened. The sentiment landscape has shifted from "null" (Days 1–2) to "active opposition coalition-building" (Day 3).
+
+---
+
+## 5. Opposition Movements
+
+> **CVS NOTICE:** PAS-BN/UMNO cooperation talks are VERIFIED (3 sources). Other opposition assessments remain carried forward from 20260710 contextual baseline — not verified by today's source content (Day 3). Retained as directional context only.
+
+**PAS Activity [VERIFIED — multi-source confirmed]:**
+- ✅ **PAS is in talks with UMNO to form political cooperation for the Aug 1 NS PRN** — confirmed by The Star (full prose, Hadi Awang attribution), Astro Awani (headline), Berita Harian (headline)
+- 🟡 **PAS offers UMNO to lead Negeri Sembilan if coalition wins PRN** — Berita Harian headline: "PAS buka ruang UMNO teraju Negeri Sembilan jika menang PRN" (single-source, headline-only)
+- 🟡 PAS President Hadi Awang states PAS "sanggup berkorban demi pastikan kuasa Melayu-Islam" (willing to sacrifice for Malay-Islam power) — Berita Harian headline (Johor context but strategy applies to NS)
+- **Assessment:** PAS is pursuing a direct bilateral cooperation with BN/UMNO for NS PRN, bypassing the PN framework. This is a major strategic pivot. PAS appears willing to concede NS state leadership to UMNO in exchange for electoral cooperation — suggesting PAS prioritizes coalition power over individual dominance in NS.
+- **Open questions:** (1) Is this a formal electoral pact (seat allocation) or informal non-contest agreement? (2) Which NS DUN seats would PAS contest vs UMNO? (3) How will Bersatu/PN react?
+
+**BN/UMNO Activity [MEDIUM — single-source, full prose]:**
+- 🟡 Datuk Seri Jalaluddin Alias (speaking from SEREMBAN) claims BN's Johor victory "will boost the coalition's morale and increase momentum in Negri Sembilan" — The Star, full prose
+- BN/UMNO is the beneficiary of PAS's cooperation offer (PAS offers UMNO NS leadership)
+- Prior baseline: 14 assemblymen withdrew support during April 2026 crisis (later reversed by Zahid intervention) — NOT confirmed by today's collection
+- **Assessment:** BN is leveraging Johor victory as a momentum narrative for NS. Jalaluddin Alias is the named BN figure speaking on NS PRN from Seremban. PAS-BN cooperation would strengthen BN's position in Malay-majority seats.
+- **Open questions:** (1) Is Jalaluddin Alias the BN NS campaign lead? (2) How does the April 2026 crisis (14 assemblymen withdrawal) affect BN machinery readiness? (3) What is Zahid's position on PAS cooperation?
+
+**PN Activity [MEDIUM — single-source, Johor context]:**
+- 🟡 Kosmo headline: "Kekalahan dijangka, Pengerusi PN digesa letak jawatan" (PN chairman urged to resign after expected defeat) — Johor PRN aftermath
+- Prior baseline: PAS-Bersatu split (9 June 2026) — NOT confirmed by today's collection but contextualized by PAS-BN talks (PAS is now negotiating with BN, not Bersatu/PN)
+- **Assessment:** PN appears weakened by Johor results. PAS's bilateral negotiation with BN/UMNO suggests PAS may be exiting the PN framework for NS PRN. If PAS-BN cooperation materializes, PN in NS could be reduced to Bersatu-only presence, significantly weakening opposition fragmentation but consolidating the BN-PAS threat to PH.
+- **Open questions:** (1) Will Bersatu contest NS PRN independently? (2) Are PAS-BN talks a state-level arrangement only or a national realignment signal? (3) How will PN voters in NS respond to PAS-BN cooperation?
+
+**Independent/Third Party [CONTEXTUAL — unverified]:**
+- MUDA president Syed Saddiq facing imminent Federal Court verdict (Kes Dana Armada) — national, not NS-specific
+- No significant independent candidate activity detected
+- Royal institution actors (4 Undangs) involved in succession dispute — status unchanged, unverified (Day 3)
+
+---
+
+## 6. Machinery Readiness Gaps
+
+| Gap ID | DUN Category | Status | Gap Description | Action Required | Owner | Deadline |
+|--------|--------------|--------|----------------|-----------------|-------|----------|
+| GAP-01 | All 36 DUN | 🔴 CRITICAL | No 2023 election results collected (vote counts, margins, turnout). All seats classified GAP. | Manual SPR data scrape — all 36 DUN | Data Team | 2026-07-14 |
+| GAP-02 | Royal constituencies (N16–N18, N01) | ⚠️ HIGH RISK | Royal succession crisis impact UNVERIFIED Day 3; PAS-BN cooperation may compound conservative consolidation | Stakeholder engagement + field sentiment monitoring; assess PAS-BN impact | Political Director | 2026-07-15 |
+| GAP-03 | Rural Malay seats (N01–N08, N19–N22) | 🔴 HIGH RISK (ELEVATED) | PAS-BN cooperation (VERIFIED) directly threatens these seats — PAS grassroots + BN machinery combined. No seat-level data to assess vulnerability. | Urgent field assessment of PAS-BN combined strength per DUN | Intel Director | 2026-07-15 |
+| GAP-04 | Collection pipeline | 🟡 PARTIALLY RESOLVED | NS content now coming through The Star's Nation section. But success rate declining (53.8%), 6/13 sources failing. No NS-specific URL targeting or keyword filters. | Monitor The Star as primary source; reconfigure other sources to NS sections; add keyword filters | Intel Director | 2026-07-14 |
+| GAP-05 | Sentiment pipeline | 🔴 CRITICAL | ns-sentiment-analysis.sh is a stub (emits empty arrays). OpenOSINT/Aras API not wired (no credentials). Entity extraction has 5/7 empty categories, produces false positives. | Wire API credentials OR confirm agent-manual review as standing method; rebuild extraction patterns | Intel Director | 2026-07-14 |
+| GAP-06 | Rembau seats (N19–N22) | ⚠️ Competitive | Khairy factor + PAS-BN cooperation (VERIFIED) — competitive assessment now has new variable. UNVERIFIED Day 3. | Enhanced ground game, youth outreach; assess PAS-BN seat arrangement | Ops Chief | Ongoing |
+| GAP-07 | Candidate nominations | 🔴 CRITICAL | Nomination day approaching (est. 18 July, ~5 days). Zero candidate data collected for any DUN. PAS-BN talks may produce joint candidates. | Browser automation for nomination tracking; monitor PAS-BN candidate announcements | Intel Director | 2026-07-16 |
+| GAP-08 | PAS-BN cooperation terms | 🔴 HIGH (NEW) | PAS-BN/UMNO cooperation confirmed (VERIFIED) but terms unknown — seat allocation, joint candidates, or non-contest agreement? No source specifies mechanism. | Monitor The Star, Astro Awani, Berita Harian for follow-up coverage; field intelligence on PAS-BN negotiation details | Intel Director | 2026-07-14 |
+
+---
+
+## 7. Priority Stakeholder Developments
+
+> **CVS NOTICE:** PAS-BN/UMNO cooperation is VERIFIED. Other stakeholder assessments remain contextual baseline (20260710), not verified by today's source content (Day 3).
+
+**VERIFIED Stakeholder Developments (Today):**
+
+- ✅ **Tan Sri Abdul Hadi Awang (PAS President)** — Named source of PAS-UMNO cooperation claim for NS PRN. Speaking from/attributed to SEREMBAN. Multi-source verified (thestar, astroawani, bharian). High-impact: PAS President publicly claiming bilateral talks with UMNO is a significant political signal.
+- ✅ **Datuk Seri Jalaluddin Alias (BN/UMNO leader)** — Speaking from SEREMBAN, claims BN Johor victory boosts morale for NS PRN. Single-source (thestar, full prose). Appears to be a key BN figure for NS PRN campaign. Role/title not specified in source (assumed BN/UMNO leader based on context).
+- 🟡 **Datuk Onn Hafiz Ghazi (Johor MB)** — Begins second term as MB following BN Johor victory (thestar, full prose). Johor context, relevant to NS as BN momentum narrative.
+- 🟡 **Ahmad Zahid (Deputy PM)** — Congratulates Onn Hafiz on Johor MB appointment (thestar, headline only). National-level. Position on PAS-BN cooperation for NS unknown.
+
+**Contextual Stakeholder Assessments (carried forward, UNVERIFIED Day 3):**
+
+- **Supportive:** PH urban base (Seremban N09–N14, Port Dickson N23–N26) — unverified
+- **Neutral → Opposed:** 14 UMNO assemblymen (April 2026 withdrawal — later reversed by Zahid); Royal institution actors (4 Undangs) — succession dispute
+- **High-Risk:** Undecided voters in royal constituencies (N16–N18); UMNO grassroots in Malay-majority rural seats; PAS-Bersatu members post-split
+- **NEW concern:** PAS-BN cooperation may shift previously neutral/opposed PAS supporters into an active opposition coalition alongside BN/UMNO
+
+---
+
+## 8. Recommended Decisions
+
+| # | Decision | Owner | Deadline | Priority | CVS Basis |
+|---|----------|-------|----------|----------|-----------|
+| 1 | **Assess PAS-BN/UMNO cooperation impact on NS seat projections** — determine which DUN seats are most vulnerable to a combined PAS-BN opposition. Prioritize rural Malay seats (N01–N08) and royal constituencies (N16–N18). Cross-reference with 2023 results (once collected). | Intel Director | 2026-07-15 | **URGENT/HIGH** | VERIFIED — cooperation talks confirmed (3 sources) |
+| 2 | **Monitor PAS-BN cooperation terms** — track whether talks produce a formal electoral pact (seat allocation, joint candidates) or informal non-contest agreement. Set up daily monitoring of The Star, Astro Awani, Berita Harian for follow-up coverage. | Intel Director | 2026-07-14 | **URGENT/HIGH** | VERIFIED — talks confirmed; terms unknown (single-source on specifics) |
+| 3 | **Develop counter-narrative strategy** — prepare messaging to counter BN Johor momentum narrative and PAS-BN cooperation framing. Leverage analyst caution (Johor ≠ domino effect) as third-party validation. | Communications Director | 2026-07-15 | **HIGH** | MEDIUM — analyst caution single-source (thestar); momentum claim single-source (thestar) |
+| 4 | **Manual SPR data collection** for 2023 NS election results — all 36 DUN (vote counts, margins, turnout, winners). Critical for assessing PAS-BN cooperation impact at seat level. | Data Team | 2026-07-14 | **URGENT/HIGH** | VERIFIED — all 36 DUN classified GAP |
+| 5 | **Stakeholder engagement** with Undang institutions — verify succession dispute status and assess interaction with PAS-BN conservative Malay consolidation. | Political Director | 2026-07-15 | **HIGH** | CONTEXTUAL — requires field verification (Day 3) |
+| 6 | **Reconfigure `ns-daily-collection.sh`** — add NS-specific source URLs, NS-keyword content filters. The Star is currently the primary NS source (works via Nation section). Improve reliability of other sources. | Intel Director | 2026-07-14 | **MEDIUM** | VERIFIED — partial resolution; success rate still declining |
+| 7 | **Wire OpenOSINT/Aras Qwen3.5-397B API** into `ns-sentiment-analysis.sh` OR formally confirm agent-manual review as the standing CVS-compliant method. Now that NS content exists, sentiment analysis is viable. | Intel Director | 2026-07-14 | **HIGH** | VERIFIED — pipeline non-operational; data now available for analysis |
+| 8 | **Rebuild `ns-entity-extraction.sh`** with NS-specific extraction patterns (36 DUN names, NS politician names including Hadi Awang, Jalaluddin Alias) and source attribution for all 7 categories. | Intel Director | 2026-07-15 | **MEDIUM** | VERIFIED — script non-compliant (5/7 categories empty, false positives) |
+| 9 | **Begin candidate nomination tracking** — nomination day estimated 18 July (~5 days). Monitor PAS-BN candidate announcements. Zero candidate data collected. | Intel Director | 2026-07-16 | **URGENT/HIGH** | VERIFIED — no nomination data; PAS-BN talks may produce joint candidates |
+| 10 | **Monitor PN response to PAS-BN cooperation** — track whether Bersatu/PN contests NS independently or concedes seats to PAS-BN. PN chairman urged to resign (Johor); PN fragmentation may accelerate. | Intel Director | Ongoing | **MEDIUM** | MEDIUM — PN weakness single-source (kosmo, Johor context) |
+| 11 | **Track Syed Saddiq Kes Dana Armada verdict** — Federal Court verdict pending (imminent). May affect MUDA/opposition dynamics nationally. | Intel Director | Ongoing | **LOW** | MEDIUM — multi-source but non-NS |
+
+---
+
+## Appendix A: Data Confidence & CVS Verification
+
+### Collection Status (VERIFIED)
+
+| Metric | Value |
+|--------|-------|
+| Sources attempted | 13 |
+| Sources successful | 7 (53.8%) |
+| Timeouts | 0 |
+| Errors | 6 (sinarharian, nst, malaysiakini, freemalaysiatoday, bernamahub, metro) |
+| Files with substantive content | 2 (thestar 1042 words, astroawani 613 words) |
+| Files with partial content (headlines) | 1 (bharian 415 words — trending headlines incl. NS-relevant) |
+| Files with 404/minimal content | 4 (kosmo, mstar, ohbulan, utusan) |
+| NS-specific files | 3 (thestar 4 NS PRN articles, astroawani 1 NS PRN article, bharian 2 NS PRN headlines) |
+| Dominant topic | **NS PRN 2026 (PAS-BN/UMNO cooperation) + Johor PRN aftermath** |
+
+### Entity Extraction (VERIFIED via manual source-attributed review)
+
+| Category | Verified Count | NS-Relevant | NS-Election-Relevant |
+|----------|-------|-------------|---------------------|
+| Politicians | 5 | 2 | 2 (Hadi Awang, Jalaluddin Alias) |
+| Parties | 4 | 3 | 3 (PAS, UMNO, BN) |
+| Constituencies | 1 | 0 | 0 (48 DUN Johor) |
+| Issues | 21 | 6 | 5 |
+| Events | 11 | 2 | 1 (NS PRN Aug 1) |
+| Organizations | 20 | 1 | 0 (McDonald's Tampin) |
+| Locations | 21 | 5 | 1 (Seremban) |
+| **Total** | **83** | **19** | **12** |
+
+Script compliance audit: NON-COMPLIANT. The entity extraction script produced 0 politicians, 12 raw party entries (case-variant duplicates of 4 unique + 1 false positive "bersatu" = Malay verb), 1 false-positive constituency ("DUN bukan"), and 0 across 4 other categories. Agent manual review was required to produce CVS-compliant results. Same pattern as 20260710–20260712.
+
+### Sentiment Analysis (COMPLETED — first viable NS PRN assessment)
+
+| Metric | Value |
+|--------|-------|
+| Method | Manual source-attributed review (CVS-compliant). Script stub non-operational. |
+| NS election entities analyzed | 12 (first day with viable data) |
+| NS election sentiment verdict | Opposition realignment — PAS-BN cooperation VERIFIED; BN optimistic; analysts cautious; PN weakened |
+| OpenOSINT/Aras API status | NOT ACTIVE (stub, no credentials, env scan empty) |
+| Runtime model mismatch | Config: Qwen3.5-397B-A17B (Aras) / Runtime: GLM-5.2 (custom) |
+
+### CVS Verification Rate
+
+| Domain | CVS Rate | Classification |
+|--------|----------|----------------|
+| Collection methodology (sources retrieved) | 53.8% (7/13) | VERIFIED |
+| Entity extraction (source-attributed review) | 100% of extracted entities | VERIFIED |
+| PAS-BN/UMNO cooperation talks for NS PRN | **95%+** (3 independent sources) | ✅ **VERIFIED** |
+| PRN NS 2026 date (Aug 1) | 95%+ (3 sources) | ✅ VERIFIED |
+| Abdul Hadi Awang as source of cooperation claim | 95%+ (multi-source attribution) | ✅ VERIFIED |
+| PAS offers UMNO NS leadership | 60-85% (single-source, headline-only) | 🟡 MEDIUM |
+| BN Johor momentum for NS | 60-85% (single-source, full prose) | 🟡 MEDIUM |
+| Analyst caution (Johor ≠ domino) | 60-85% (single-source, full prose) | 🟡 MEDIUM |
+| PN chairman urged to resign | 60-85% (single-source, Johor context) | 🟡 MEDIUM |
+| Prior baseline NS assessments (carried forward) | <60% (contextual only — Day 3) | ❌ EXCLUDED |
+| All 36 DUN seat-level data | 0% (no data collected) | ❌ EXCLUDED |
+
+### Overall Confidence Level: MEDIUM
+
+**Rationale:** Confidence is upgraded from LOW (20260711, 20260712) to MEDIUM. The two-day NS content blackout is BROKEN — today's collection contains the first VERIFIED NS PRN 2026 election intelligence: PAS-BN/UMNO cooperation talks confirmed across 3 independent sources (The Star full prose, Astro Awani, Berita Harian). This is a materially significant, multi-source verified finding that changes the campaign dynamics. However, most other NS-specific claims remain single-source (MEDIUM), the collection success rate continues to decline (53.8%, Day 3 of regression), the sentiment pipeline remains non-operational, and all 36 DUN seats remain classified GAP with zero election results data. The PAS-BN cooperation finding is the strongest verified intelligence to date but its seat-level impact cannot be assessed without baseline data. Election is 19 days away; nomination day ~5 days away; the intelligence gap at seat level remains critical.
+
+### Data Gaps & Warnings
+
+1. 🔴 **PAS-BN cooperation terms unknown** — VERIFIED that talks are underway; UNKNOWN whether this is a formal pact (seat allocation) or informal non-contest agreement. Single source on PAS offering UMNO NS leadership (headline-only).
+2. 🔴 **All 36 DUN classified GAP** — no 2023 election results, no incumbent data, no candidate nominations. Cannot assess PAS-BN cooperation impact at seat level.
+3. 🟡 **Collection success rate declining** — 76.9% → 61.5% → 53.8% over 3 days. Approaching 50% retry threshold. 6/13 sources failing (anti-bot stubs). The Star is compensating as primary NS source.
+4. 🟡 **Sentiment pipeline non-operational** — OpenOSINT/Aras API not wired. Agent manual review is the only CVS-compliant path. Now that NS content exists, automated sentiment is viable if API is wired.
+5. ⚠️ **Royal crisis flag decaying** — MEDIUM severity baseline, UNVERIFIED since 20260710 (Day 3). May interact with PAS-BN conservative Malay consolidation but no source content confirms.
+6. ⚠️ **Nomination day approaching** (est. 18 July, ~5 days) — zero candidate tracking data. PAS-BN talks may produce joint candidates — critical to monitor.
+7. ⚠️ **PN fragmentation risk** — PAS negotiating bilaterally with BN/UMNO bypasses PN framework. PN chairman urged to resign (Johor). NS impact unknown but potentially significant.
+8. ⚠️ **Syed Saddiq verdict pending** — Federal Court verdict imminent ("esok"). National-level; may affect MUDA/opposition dynamics. Not NS-specific.
+
+---
+
+## Appendix B: Escalation Flag Register
+
+| Flag ID | Severity | Category | Status | Carries Forward From |
+|---------|----------|----------|--------|---------------------|
+| ESC-001-20260713 | **MEDIUM** (↓ from HIGH) | Collection Targeting — Partially Resolved | NS content now retrieved via The Star; success rate still declining (53.8%) | ESC-001-20260712 (HIGH, Day 2) → ESC-001-20260711 |
+| ESC-002-20260713 | **HIGH** | Sentiment Pipeline Non-Operational (OpenOSINT Not Wired) | UNCHANGED — stub, no API credentials | ESC-002-20260712 → ESC-002-20260711 |
+| ESC-003-20260713 | **MEDIUM** | Standing High-Risk Flag Unverified (Royal Crisis Impact) | UNVERIFIED — decaying Day 3; may interact with PAS-BN consolidation | ESC-003-20260712 → ESC-003-20260711 → ESC-001 (20260710) |
+| ESC-004-20260713 | **LOW** | Negative Sentiment Spike Watch (NS-specific) | No NS-specific spike; PN weakness is Johor-only | ESC-004-20260712 |
+| **ESC-005-20260713** | **HIGH** (NEW) | **PAS-BN/UMNO Electoral Cooperation for NS PRN** | **VERIFIED (3 sources)** — talks confirmed; terms unknown; changes opposition landscape | NEW — first detected 20260713 |
+
+---
+
+## Appendix C: Source Verification Detail
+
+### VERIFIED — Multi-Source Confirmed (95%+)
+
+**Finding:** PAS-BN/UMNO electoral cooperation talks for NS PRN (Aug 1, 2026)
+
+| Source | Content Type | Evidence |
+|--------|-------------|----------|
+| The Star (thestarcommy_20260713) | Full article prose (headline + lead paragraph) | "SEREMBAN: PAS is in talks with Umno to form a political cooperation to face the Aug 1 Negri Sembilan polls, claims Tan Sri Abdul Hadi Awang." (13 Jul 2026, 8:08 AM) |
+| Astro Awani (astroawanicom_20260713) | Article headline + image caption | "PRN Negeri Sembilan: Pas akui berunding dengan BN" / "SEREMBAN - Pas mengakui sedang mengadakan rundingan dengan Barisan Nasional (BN) bagi menghadapi Pilihan Raya Negeri (PRN) Negeri Sembilan, 1 Ogos ini." |
+| Berita Harian (bhariancommy_20260713) | Trending headline | "PAS buka ruang UMNO teraju Negeri Sembilan jika menang PRN" + "PAS sanggup berkorban demi pastikan kuasa Melayu-Islam di Johor - Hadi Awang" |
+
+**Cross-verification:** All 3 sources confirm (1) PAS-UMNO/BN negotiations, (2) targeting the Aug 1 NS PRN, (3) Hadi Awang as source/attributed figure. The Star provides full English-language prose with SEREMBAN dateline. Astro Awani provides Malay-language confirmation. Berita Harian adds the specific detail of PAS offering UMNO NS leadership.
+
+### MEDIUM — Single-Source (60–85%)
+
+| Finding | Source | Content Type | Notes |
+|---------|--------|-------------|-------|
+| PAS offers UMNO NS leadership | bharian | Headline only | No body text collected (404/trending page) |
+| BN Johor momentum for NS | thestar | Full prose | Jalaluddin Alias, SEREMBAN dateline |
+| Analysts: Johor ≠ domino effect | thestar | Full prose | "say analysts" — unnamed |
+| PN chairman urged to resign | kosmo | Headline on 404 page | Johor context, not NS |
+| Onn Hafiz second term as Johor MB | thestar | Full prose | Johor context |
+| SPR response to Johor misconduct | bharian | Headline | Johor PRN context |
+| BN Johor "48 DUN not cek kosong" | bharian | Headline | Johor commentary |
+| Syed Saddiq verdict pending | astroawani + bharian | Headlines/captions | National, non-NS |
+
+---
+
+**Next Brief:** 2026-07-14 09:00 MYT
+**Contact:** State Intelligence Director
+**Workspace:** `/home/p62operator/.openclaw/workspace-ns/`
+**Framework:** PIR Framework v1.0
+**CVS Standard:** 100% absolute truth verification mandatory. No single-source claims in operational briefs without explicit flagging.
+
+---
+
+*TLP:AMBER — Recipients may share with members of their own organisation and clients on a need-to-know basis. Source attribution required. Not for public release.*

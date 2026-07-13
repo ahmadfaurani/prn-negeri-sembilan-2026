@@ -1,0 +1,51 @@
+{
+  "date": "2026-07-12T09:21:32.952687+00:00",
+  "source_count": 9,
+  "entity_type": "events",
+  "method": "manual_source_attributed_review",
+  "cvs_standard": "All entities source-attributed. No pattern-inferred entities.",
+  "entities": [
+    "PRN Johor 2026 (results day)",
+    "Piala Dunia FIFA 2026 (Argentina v Switzerland, quarter-final)",
+    "UFC 329 (McGregor v Holloway)",
+    "Kes Dana Armada verdict (upcoming/esok)",
+    "Hari Keputeraan Ke-77 Yang di-Pertuan Besar Negeri Sembilan"
+  ],
+  "entities_detailed": [
+    {
+      "name": "PRN Johor 2026 (results day)",
+      "date": "2026-07-12",
+      "source": "astroawanicom_20260712_053155.md",
+      "context": "PRN Johor: Baharudin raih majoriti tertinggi ... / PRN Johor: 55 calon hilang deposit",
+      "ns_relevant": false,
+      "note": "Johor state election results, not NS"
+    },
+    {
+      "name": "Piala Dunia FIFA 2026 (Argentina v Switzerland, quarter-final)",
+      "source": "astroawanicom_20260712_053155.md",
+      "context": "Piala Dunia 2026: Argentina perlukan 120 minit tewaskan Switzerland",
+      "ns_relevant": false
+    },
+    {
+      "name": "UFC 329 (McGregor v Holloway)",
+      "source": "astroawanicom_20260712_053155.md; thestarcommy_20260712_053155.md",
+      "context": "UFC 329: Lutut terpelecok, McGregor tewas di pusingan pertama dengan Holloway / McGregor's UFC return halted by knee injury",
+      "ns_relevant": false
+    },
+    {
+      "name": "Kes Dana Armada verdict (upcoming/esok)",
+      "date": "pending",
+      "source": "astroawanicom_20260712_053155.md",
+      "context": "Kes Dana Armada: Nasib Syed Saddiq diketahui esok",
+      "ns_relevant": false
+    },
+    {
+      "name": "Hari Keputeraan Ke-77 Yang di-Pertuan Besar Negeri Sembilan",
+      "date": "2025-01 (past)",
+      "source": "ohbulancom_20260712_053155.md",
+      "context": "Suki, Waris Dikurniakan Anugerah Sempena Hari Keputeraan Ke-77 Yang Dipertuan Besar Negeri Sembilan",
+      "ns_relevant": true,
+      "note": "NS royalty event; past (Jan 2025); NOT election-related"
+    }
+  ]
+}

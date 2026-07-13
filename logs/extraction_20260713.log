@@ -1,0 +1,120 @@
+=== Negeri Sembilan PRN 2026 - Entity Extraction Log ===
+Run: 20260713 06:30 UTC
+Classification: TLP:AMBER
+Operator: ns-entity-extraction cron agent
+
+--- Step 1: Script execution ---
+Command: bash scripts/ns-entity-extraction.sh
+Exit code: 0
+Collection used: intelligence/raw/20260713 (7 markdown files)
+Script raw output counts:
+  politicians: 0
+  parties: 12  <-- case-variant duplicates + false positives (see audit)
+  constituencies: 1  <-- FALSE POSITIVE (see audit)
+  issues: 0
+  events: 0
+  organizations: 0
+  locations: 0
+
+--- Step 2: CVS compliance audit ---
+The script (ns-entity-extraction.sh) is NON-COMPLIANT with the CVS standard:
+  - Its embedded Python only regex-pattern-matches parties and constituencies;
+    5 of 7 categories (politicians, issues, events, organizations, locations) have
+    NO extraction logic at all -> empty by design.
+  - The "12 parties" output are case-variant duplicates of 4 unique strings
+    (umno/UMNO/Umno, bn/BN/Barisan Nasional, PAS/Pas/pas, pn/PN) + 1 false positive
+    (bersatu). Deduplicated: 3 NS-relevant (PAS, Umno, BN) + 1 non-NS (PN, Johor
+    context from kosmo 404 headline).
+  - "bersatu" is the SAME false positive as 20260711 and 20260712: matched the
+    Malay verb "to unite" in ohbulancom_20260713 line 93 ("kita semua bersatu
+    untuk menikmati hidangan KFC") -- NOT the Bersatu party.
+  - "DUN bukan" (constituencies) is a malformed regex capture from bharian line 27:
+    "BN Johor perlu buktikan kuasai 48 DUN bukan 'cek kosong'" -- "DUN bukan" is
+    not a constituency name.
+  - No source attribution is recorded for any entity.
+  - Zero of NS's 36 DUN constituencies matched.
+Verdict: Script output rejected as non-compliant.
+
+--- Step 3: Manual source-attributed review (CVS-compliant) ---
+All 7 raw files were read in full and entities extracted ONLY where an exact
+source string backs the entity. No pattern-inferred entities.
+
+Verified counts per category:
+  politicians:    5   (Hadi Awang [NS], Jalaluddin Alias [NS], Onn Hafiz Ghazi
+                       [Johor], Ahmad Zahid [national], Syed Saddiq [national])
+  parties:        4   (PAS [NS], UMNO [NS], BN [NS], PN [Johor, non-NS])
+  constituencies: 1   (48 DUN [Johor]; 0 of 36 NS DUN named)
+  issues:        21   (5 NS-election-relevant: PAS-Umno cooperation, PAS offers
+                       UMNO NS leadership, BN Johor momentum, Johor domino effect,
+                       Negri Crisis topic tag; + 16 non-NS)
+  events:        11   (1 NS-election-relevant: PRN NS Aug 1; + 1 NS-royalty past;
+                       + 9 non-NS)
+  organizations: 20   (1 NS-relevant: McDonald's Tampin; + 19 non-NS)
+  locations:     21   (5 NS-relevant: Seremban, Negeri Sembilan, Ampangan, Tampin,
+                       Port Dickson; + 16 non-NS)
+  TOTAL VERIFIED: 83
+
+Non-political persons found (excluded from politicians count): 20
+  Gianni Infantino (FIFA), Lindsey Graham (US Senator), Conor McGregor, Max
+  Holloway (UFC), Bella Astillah (celebrity), Pavithra Charles (health story),
+  Waris, Suki Low, Nabil Ahmad, Aeril Zafrel, Wawa Zainal (entertainers),
+  Rooney, Mbappe, Messi, Bellingham, Tuchel, Haaland, Sorloth (football),
+  Mark Wahlberg (actor), Rahim Maarof (singer).
+
+Borderline reference excluded:
+  Hadi Awang appears ONLY in image asset filename on astroawani
+  (TB_Hadi Awang_SINAR.jpg), not in astroawani article prose -> excluded from
+  astroawani attribution. However, Abdul Hadi Awang IS attributed from
+  thestar article prose (headline + dateline text), so included in verified
+  politicians via thestar source.
+
+--- Step 4: Key finding ---
+BREAKTHROUGH: After TWO consecutive days (20260711 + 20260712) with ZERO NS PRN
+election content, the 20260713 collection contains SIGNIFICANT Negeri Sembilan
+PRN 2026 election intelligence. Three sources carry directly NS-relevant reporting:
+
+  1. thestar: "Negri polls: PAS in talks with Umno for political cooperation,
+     claims Abdul Hadi" — SEREMBAN dateline, Hadi Awang claims PAS-Umno talks
+     for Aug 1 NS polls
+  2. thestar: "Hard work won't stop at Johor" — SEREMBAN dateline, Jalaluddin
+     Alias says BN Johor victory will boost morale in NS
+  3. thestar: "Analysts: Johor sweep no guarantee of domino effect" — analysts
+     caution Johor results won't predict NS PRN or GE16
+  4. astroawani: "PRN Negeri Sembilan: Pas akui berunding dengan BN" — PAS
+     admits negotiating with BN for NS PRN
+  5. bharian: "PAS buka ruang UMNO teraju Negeri Sembilan jika menang PRN" —
+     PAS offers UMNO to lead NS if coalition wins PRN
+
+12 NS election-relevant entities identified across politicians (2), parties (3),
+issues (5), events (1), locations (1). Key dynamics: PAS-BN/UMNO electoral
+cooperation for NS PRN with PAS potentially ceding NS leadership to UMNO.
+NS PRN scheduled for Aug 1, 2026 (~19 days away).
+
+Source quality:
+  total files: 7 | substantive: 2 (thestar, astroawani) | partial headlines: 1
+  (bharian) | 404/minimal: 4 (kosmo, mstar, ohbulan, utusan)
+  NS-specific files: 3 (thestar, astroawani, bharian)
+  Dominant topic: NS PRN 2026 (PAS-BN cooperation) + Johor PRN aftermath
+
+--- Step 5: Sentiment analysis readiness ---
+READY: TRUE
+Reason: 12 NS election-relevant entities found suitable for sentiment analysis.
+Recommended targets: PAS-BN cooperation narrative, BN Johor momentum transfer,
+PAS offering UMNO NS leadership, analysts' domino effect caution, Hadi Awang
+statements, Jalaluddin Alias momentum claims.
+
+--- Output files (intelligence/processed/20260713/) ---
+  entities_politicians.json           (source-attributed, 5 entities)
+  entities_parties.json                (source-attributed, 4 entities)
+  entities_constituencies.json         (source-attributed, 1 entity)
+  entities_issues.json                 (source-attributed, 21 entities)
+  entities_events.json                 (source-attributed, 11 entities)
+  entities_organizations.json          (source-attributed, 20 entities)
+  entities_locations.json              (source-attributed, 21 entities)
+  entities_consolidated.json           (CVS-compliant summary)
+  entities_verified_cvs_compliant.json (MASTER: full audit + all entities)
+
+Status: EXTRACTION COMPLETED (CVS-compliant). Data READY for NS PRN 2026
+sentiment analysis. First day with actionable NS election intelligence.
+
+=== End of log ===

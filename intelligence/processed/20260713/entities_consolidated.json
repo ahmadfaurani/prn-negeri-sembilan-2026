@@ -1,0 +1,26 @@
+{
+    "date": "20260713",
+    "timestamp": "2026-07-13T06:30:00+00:00",
+    "source_count": 7,
+    "extraction_completed": true,
+    "method": "manual_source_attributed_review",
+    "cvs_standard": "All entities source-attributed. No pattern-inferred entities.",
+    "classification": "TLP:AMBER",
+    "entity_categories": ["politicians", "parties", "constituencies", "issues", "events", "organizations", "locations"],
+    "entity_counts": {
+        "politicians": 5,
+        "parties": 4,
+        "constituencies": 1,
+        "issues": 21,
+        "events": 11,
+        "organizations": 20,
+        "locations": 21,
+        "total_verified": 83
+    },
+    "ns_relevant_entities_count": 19,
+    "ns_election_relevant_entities_count": 12,
+    "script_audit_verdict": "NON-COMPLIANT (pattern-inferred false positives, no source attribution, 5/7 categories empty by design)",
+    "sentiment_analysis_ready": true,
+    "master_file": "entities_verified_cvs_compliant.json",
+    "key_finding": "BREAKTHROUGH: First NS PRN 2026 election content found after 2 consecutive days of zero. PAS-BN/UMNO cooperation negotiations for Aug 1 NS polls reported across 3 sources."
+}

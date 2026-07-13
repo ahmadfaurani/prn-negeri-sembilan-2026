@@ -1,0 +1,72 @@
+{
+  "date": "2026-07-12T09:21:32.952687+00:00",
+  "source_count": 9,
+  "entity_type": "issues",
+  "method": "manual_source_attributed_review",
+  "cvs_standard": "All entities source-attributed. No pattern-inferred entities.",
+  "entities": [
+    "PRN Johor results (majoriti tertinggi/rendah, 55 calon hilang deposit)",
+    "Kes Dana Armada (Syed Saddiq court verdict pending)",
+    "Kontroversi logo Visit Truly Terengganu 2027",
+    "Iran closure of Strait of Hormuz",
+    "CIMB debit card service disruption (18 Julai)",
+    "AI-generated ad labelling (Google)",
+    "Toronto festival shooting (2 dead, 6 injured)",
+    "Singapore-Malaysia bilateral partnership"
+  ],
+  "entities_detailed": [
+    {
+      "name": "PRN Johor results (majoriti tertinggi/rendah, 55 calon hilang deposit)",
+      "source": "astroawanicom_20260712_053155.md",
+      "context": "PRN Johor: Baharudin raih majoriti tertinggi / PRN Johor: 55 calon hilang deposit",
+      "ns_relevant": false
+    },
+    {
+      "name": "Kes Dana Armada (Syed Saddiq court verdict pending)",
+      "source": "astroawanicom_20260712_053155.md",
+      "context": "Kes Dana Armada: Nasib Syed Saddiq diketahui esok",
+      "ns_relevant": false
+    },
+    {
+      "name": "Kontroversi logo Visit Truly Terengganu 2027",
+      "source": "astroawanicom_20260712_053155.md",
+      "context": "Kontroversi logo 'Visit Truly Terengganu 2027', ini penjelasan Exco",
+      "ns_relevant": false,
+      "note": "Terengganu, not NS"
+    },
+    {
+      "name": "Iran closure of Strait of Hormuz",
+      "source": "astroawanicom_20260712_053155.md",
+      "context": "Iran umum tutup Selat Hormuz",
+      "ns_relevant": false,
+      "note": "Foreign/geopolitical"
+    },
+    {
+      "name": "CIMB debit card service disruption (18 Julai)",
+      "source": "astroawanicom_20260712_053155.md",
+      "context": "Perkhidmatan kad debit CIMB tergendala sementara 18 Julai ini",
+      "ns_relevant": false,
+      "note": "National banking, not NS-specific"
+    },
+    {
+      "name": "AI-generated ad labelling (Google)",
+      "source": "astroawanicom_20260712_053155.md",
+      "context": "Google mula label iklan dijana AI",
+      "ns_relevant": false
+    },
+    {
+      "name": "Toronto festival shooting (2 dead, 6 injured)",
+      "source": "astroawanicom_20260712_053155.md",
+      "context": "Dua maut, enam cedera dalam insiden tembakan di festival tarian di Toronto",
+      "ns_relevant": false,
+      "note": "Foreign crime"
+    },
+    {
+      "name": "Singapore-Malaysia bilateral partnership",
+      "source": "thestarcommy_20260712_053155.md",
+      "context": "Singapore, Malaysia partnership driven by mutual respect ... President Tharman",
+      "ns_relevant": false,
+      "note": "Bilateral, not NS-specific"
+    }
+  ]
+}

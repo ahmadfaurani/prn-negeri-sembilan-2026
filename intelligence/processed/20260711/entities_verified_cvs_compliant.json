@@ -1,0 +1,130 @@
+{
+  "extraction_id": "ns-prn-2026-entity-extraction-20260711",
+  "date": "20260711",
+  "timestamp": "2026-07-11T06:18:05+00:00",
+  "collection": "intelligence/raw/20260711",
+  "source_count": 10,
+  "method": "manual_source_attributed_review",
+  "cvs_standard": "All entities source-attributed. No pattern-inferred entities.",
+  "classification": "TLP:AMBER",
+  "script_run": {
+    "script": "scripts/ns-entity-extraction.sh",
+    "exit_code": 0,
+    "raw_output_counts": {
+      "politicians": 0,
+      "parties": 3,
+      "constituencies": 1,
+      "issues": 0,
+      "events": 0,
+      "organizations": 0,
+      "locations": 0
+    },
+    "script_compliance_audit": {
+      "pattern_inferred_false_positives": [
+        {"entity": "bersatu", "reason": "Matched Malay verb 'to unite' in KFC article (ohbulan), NOT Bersatu party"},
+        {"entity": "bersama", "reason": "Matched Malay word 'together' (astroawani); no Malaysian party named Bersama exists"},
+        {"entity": "DUN Puteri Wangsa beratur seawal jam", "reason": "Greedy regex grab of headline; Puteri Wangsa is a Johor DUN, not an NS DUN; malformed capture"}
+      ],
+      "legitimate_but_unattributed": [
+        {"entity": "umno", "reason": "Genuinely referenced in freemalaysiatoday but script records no source attribution"}
+      ],
+      "categories_with_no_extraction_logic": ["politicians", "issues", "events", "organizations", "locations"],
+      "verdict": "Script output is NON-COMPLIANT with CVS standard (pattern-inferred, no source attribution, 5/7 categories empty by design)"
+    }
+  },
+  "verified_entities": {
+    "politicians": [
+      {"name": "Onn Hafiz", "role": "Menteri Besar Johor", "source": "astroawanicom_20260711_010320.md; bhariancommy_20260711_010320.md", "context": "PRN Johor: Onn Hafiz tiba di SK Simpang Renggam untuk mengundi", "ns_relevant": false},
+      {"name": "Anwar Ibrahim (Anwar)", "role": "Perdana Menteri (PMX)", "source": "bhariancommy_20260711_010320.md", "context": "'Eh, aku pergi tolong kamu di negeri Kedah tahu tak' - Anwar tempelak Sanusi", "ns_relevant": false},
+      {"name": "Sanusi", "role": "Menteri Besar Kedah", "source": "bhariancommy_20260711_010320.md", "context": "Anwar tempelak Sanusi (Kedah context)", "ns_relevant": false},
+      {"name": "Fahmi Fadzil", "role": "Menteri Komunikasi", "source": "bhariancommy_20260711_010320.md", "context": "Seniman Nordin Ahmad bakal bergelar Datuk, Fahmi Fadzil dapat Datuk Seri", "ns_relevant": false},
+      {"name": "Mohamad Sabu (Mat Sabu)", "role": "Menteri Pertanian dan Keterjaminan Makanan", "source": "astroawanicom_20260711_010320.md", "context": "Menteri Pertanian dan Keterjaminan Makanan Datuk Seri Mohamad Sabu (durian export to China)", "ns_relevant": false},
+      {"name": "Datuk Awalan Abdul Aziz", "role": "Ketua Kontinjen (CDM) Sukan Komanwel 2026", "source": "astroawanicom_20260711_010320.md", "context": "CDM Malaysia ke Sukan Komanwel Glasgow 2026", "ns_relevant": false, "note": "Sports official, not politician"},
+      {"name": "Trump", "role": "US President", "source": "bhariancommy_20260711_010320.md", "context": "AS setuju terus runding dengan Iran tapi gencatan senjata tamat - Trump", "ns_relevant": false, "note": "Foreign"},
+      {"name": "Peter Magyar", "role": "Hungary Prime Minister", "source": "astroawanicom_20260711_010320.md", "context": "Hungary bakal terima dana pemulihan EU", "ns_relevant": false, "note": "Foreign"},
+      {"name": "Friedrich Merz", "role": "German Chancellor", "source": "astroawanicom_20260711_010320.md", "context": "press conference with German Chancellor Friedrich Merz", "ns_relevant": false, "note": "Foreign"}
+    ],
+    "parties": [
+      {"name": "UMNO", "source": "freemalaysiatodaycom_20260711_010320.md", "context": "Umno needs fresh ideas, not just fresh faces, analysts say / Umno perlu idea segar", "ns_relevant": false, "note": "National Umno reform analysis, not NS-specific"}
+    ],
+    "constituencies": [
+      {"name": "Puteri Wangsa", "state": "Johor", "source": "astroawanicom_20260711_010320.md; bhariancommy_20260711_010320.md", "context": "Pengundi DUN Puteri Wangsa beratur seawal jam 6 pagi", "ns_relevant": false, "note": "Johor DUN, NOT one of NS 36 DUN"},
+      {"name": "56 DUN Johor (generic reference)", "state": "Johor", "source": "bhariancommy_20260711_010320.md", "context": "PRN Johor: Senarai calon 56 DUN", "ns_relevant": false, "note": "Johor seats referenced generically; no individual NS DUN named in any source"}
+    ],
+    "issues": [
+      {"name": "UMNO reform / need for fresh ideas", "source": "freemalaysiatodaycom_20260711_010320.md", "context": "Umno needs fresh ideas, not just fresh faces, analysts say", "ns_relevant": false},
+      {"name": "PRN Johor polling day", "source": "astroawanicom_20260711_010320.md; bhariancommy_20260711_010320.md", "context": "Semua 1,076 pusat mengundi dibuka 8 pagi / 2.7 juta pengundi pilih wakil rakyat", "ns_relevant": false},
+      {"name": "Iran-US ceasefire / nuclear talks", "source": "bhariancommy_20260711_010320.md", "context": "AS setuju terus runding dengan Iran tapi gencatan senjata tamat", "ns_relevant": false},
+      {"name": "Football citizenship scandal", "source": "freemalaysiatodaycom_20260711_010320.md", "context": "Football's citizenship scandal cannot end without accountability", "ns_relevant": false},
+      {"name": "Durian export protocol to China", "source": "astroawanicom_20260711_010320.md", "context": "Protokol Keperluan Fitosanitari Pengeksportan Buah Durian Segar ke China", "ns_relevant": false}
+    ],
+    "events": [
+      {"name": "PRN Johor 2026 (polling day)", "date": "2026-07-11", "source": "astroawanicom_20260711_010320.md; bhariancommy_20260711_010320.md", "context": "PRN Johor: Onn Hafiz tiba untuk mengundi / 2.7 juta pengundi", "ns_relevant": false, "note": "Johor state election, not NS"},
+      {"name": "Piala Dunia FIFA 2026", "source": "bhariancommy_20260711_010320.md; astroawanicom_20260711_010320.md", "context": "Piala Dunia FIFA 2026 / World Cup round of 32", "ns_relevant": false},
+      {"name": "Sukan Komanwel Glasgow 2026", "source": "astroawanicom_20260711_010320.md", "context": "Sukan Komanwel: Abd Halim sedia sahut cabaran di Glasgow", "ns_relevant": false},
+      {"name": "Hari Keputeraan Ke-77 Yang Dipertuan Besar Negeri Sembilan", "date": "2025-01 (past)", "source": "ohbulancom_20260711_010320.md", "context": "Suki, Waris Dikurniakan Anugerah Sempena Hari Keputeraan Ke-77 Yang Dipertuan Besar Negeri Sembilan", "ns_relevant": true, "note": "NS royalty event; past (Jan 2025); NOT election-related"}
+    ],
+    "organizations": [
+      {"name": "SPR (Suruhanjaya Pilihan Raya)", "source": "astroawanicom_20260711_010320.md", "context": "Petugas Suruhanjaya Pilihan Raya (SPR) melaksanakan kerja-kerja persiapan", "ns_relevant": false, "note": "Election Commission, Johor context"},
+      {"name": "BERNAMA", "source": "astroawanicom_20260711_010320.md", "context": "Sumber: BERNAMA / fotoBERNAMA", "ns_relevant": false},
+      {"name": "FIFA", "source": "bhariancommy_20260711_010320.md", "context": "Piala Dunia FIFA 2026", "ns_relevant": false},
+      {"name": "RTMKlik", "source": "bhariancommy_20260711_010320.md", "context": "Piala Dunia di RTMKlik", "ns_relevant": false},
+      {"name": "NSTP", "source": "bhariancommy_20260711_010320.md", "context": "NSTP KLiK", "ns_relevant": false},
+      {"name": "Star Media Group", "source": "thestarcommy_20260711_010320.md", "context": "Star Media Group Berhad", "ns_relevant": false},
+      {"name": "Media Mulia Sdn Bhd", "source": "kosmocommy_20260711_010320.md; utusancommy_20260711_010320.md", "context": "Media Mulia Sdn Bhd (publisher)", "ns_relevant": false},
+      {"name": "McDonald's Malaysia (Tampin branch)", "source": "ohbulancom_20260711_010320.md", "context": "McDonald's Malaysia Rasmi Cawangan Baru Di Tampin", "ns_relevant": true, "note": "NS location (Tampin) but commercial, not political"},
+      {"name": "Persatuan Kebajikan Ronald McDonald (RHMC)", "source": "ohbulancom_20260711_010320.md", "context": "Persatuan Kebajikan Ronald McDonald (RHMC) Malaysia", "ns_relevant": false},
+      {"name": "EU (European Union)", "source": "astroawanicom_20260711_010320.md", "context": "Hungary bakal terima dana pemulihan EU", "ns_relevant": false}
+    ],
+    "locations": [
+      {"name": "Johor", "source": "astroawanicom_20260711_010320.md; bhariancommy_20260711_010320.md", "context": "PRN Johor", "ns_relevant": false},
+      {"name": "Muar", "source": "astroawanicom_20260711_010320.md", "context": "hujan lebat di Muar", "ns_relevant": false},
+      {"name": "Simpang Renggam", "source": "astroawanicom_20260711_010320.md; bhariancommy_20260711_010320.md", "context": "SK Simpang Renggam", "ns_relevant": false},
+      {"name": "Kluang", "source": "astroawanicom_20260711_010320.md", "context": "KLUANG, 10 Julai", "ns_relevant": false},
+      {"name": "Kedah", "source": "bhariancommy_20260711_010320.md", "context": "negeri Kedah (Anwar-Sanusi)", "ns_relevant": false},
+      {"name": "Kelantan", "source": "astroawanicom_20260711_010320.md", "context": "PBT di Kelantan", "ns_relevant": false},
+      {"name": "Kota Bharu", "source": "astroawanicom_20260711_010320.md", "context": "KOTA BHARU, 15 Jun", "ns_relevant": false},
+      {"name": "Kuala Lumpur", "source": "astroawanicom_20260711_010320.md", "context": "KUALA LUMPUR, 10 Julai", "ns_relevant": false},
+      {"name": "Negeri Sembilan", "source": "ohbulancom_20260711_010320.md", "context": "negeri sembilan (tag page)", "ns_relevant": true, "note": "NS state mentioned; entertainment tag page, not election"},
+      {"name": "Tampin", "source": "ohbulancom_20260711_010320.md", "context": "Cawangan Baru Di Tampin (Negeri Sembilan)", "ns_relevant": true, "note": "NS location; commercial context"},
+      {"name": "Port Dickson (PD)", "source": "ohbulancom_20260711_010320.md", "context": "Didakwa Bercuti Di PD ... Negeri Sembilan", "ns_relevant": true, "note": "NS location; celebrity gossip context"},
+      {"name": "Iran", "source": "bhariancommy_20260711_010320.md", "context": "runding dengan Iran", "ns_relevant": false},
+      {"name": "Glasgow", "source": "astroawanicom_20260711_010320.md", "context": "Sukan Komanwel Glasgow 2026", "ns_relevant": false},
+      {"name": "Venezuela", "source": "freemalaysiatodaycom_20260711_010320.md", "context": "Death toll in Venezuela quakes", "ns_relevant": false}
+    ]
+  },
+  "verified_counts": {
+    "politicians": 9,
+    "parties": 1,
+    "constituencies": 2,
+    "issues": 5,
+    "events": 4,
+    "organizations": 10,
+    "locations": 14,
+    "total_verified": 45
+  },
+  "ns_relevant_entities_count": 6,
+  "ns_relevant_entities": [
+    "Hari Keputeraan Ke-77 Yang Dipertuan Besar Negeri Sembilan (event, past, royalty)",
+    "McDonald's Tampin (organization, commercial)",
+    "Negeri Sembilan (location, tag page)",
+    "Tampin (location, commercial)",
+    "Port Dickson / PD (location, celebrity gossip)"
+  ],
+  "key_finding": "ZERO entities related to Negeri Sembilan PRN 2026 (state election) were found in the 20260711 collection. The collection is dominated by PRN JOHOR (Johor state election polling day, 11 Julai 2026), World Cup 2026, Sukan Komanwel, tech news, and 404 error pages. The only Negeri Sembilan-tagged source (ohbulan) contains old (2021-2025) entertainment/lifestyle/royalty articles with no election content. None of NS's 36 DUN constituencies, no NS state politicians, and no NS election issues appear in any source.",
+  "source_quality": {
+    "total_files": 10,
+    "substantive_content_files": 3,
+    "404_or_minimal_pages": 7,
+    "files_with_404_or_minimal_content": ["malaysiakinicom_20260711_010320.md", "mstarcommy_20260711_010320.md", "sinarhariancommy_20260711_010320.md", "utusancommy_20260711_010320.md", "freemalaysiatodaycom_20260711_010320.md", "kosmocommy_20260711_010320.md", "thestarcommy_20260711_010320.md"],
+    "files_with_substantive_content": ["astroawanicom_20260711_010320.md", "bhariancommy_20260711_010320.md", "ohbulancom_20260711_010320.md"],
+    "ns_specific_files": 1,
+    "ns_specific_file": "ohbulancom_20260711_010320.md (tag page, old entertainment content)",
+    "dominant_topic": "PRN Johor (Johor state election polling day, 11 Julai 2026)"
+  },
+  "sentiment_analysis_readiness": {
+    "ready": false,
+    "reason": "No Negeri Sembilan election-relevant entities found to analyze. Sentiment analysis on the current collection would measure Johor election sentiment and World Cup coverage, not NS PRN 2026.",
+    "recommendation": "Collection script (ns-daily-collection.sh) is querying source URLs that return 404 pages and/or Johor-focused landing pages rather than Negeri Sembilan-specific election content. Collection targeting must be fixed before useful NS entity extraction or sentiment analysis is possible."
+  }
+}

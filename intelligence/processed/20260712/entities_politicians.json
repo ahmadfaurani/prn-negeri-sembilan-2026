@@ -1,0 +1,36 @@
+{
+  "date": "2026-07-12T09:21:32.952687+00:00",
+  "source_count": 9,
+  "entity_type": "politicians",
+  "method": "manual_source_attributed_review",
+  "cvs_standard": "All entities source-attributed. No pattern-inferred entities.",
+  "entities": [
+    "Baharudin",
+    "Syed Saddiq",
+    "President Tharman"
+  ],
+  "entities_detailed": [
+    {
+      "name": "Baharudin",
+      "role": "Johor PRN candidate (won highest majority)",
+      "source": "astroawanicom_20260712_053155.md",
+      "context": "PRN Johor: Baharudin raih majoriti tertinggi, Simpang Renggam majoriti rendah",
+      "ns_relevant": false
+    },
+    {
+      "name": "Syed Saddiq",
+      "role": "MUDA president (Kes Dana Armada defendant)",
+      "source": "astroawanicom_20260712_053155.md",
+      "context": "Kes Dana Armada: Nasib Syed Saddiq diketahui esok",
+      "ns_relevant": false
+    },
+    {
+      "name": "President Tharman",
+      "role": "President of Singapore (foreign head of state)",
+      "source": "thestarcommy_20260712_053155.md",
+      "context": "Singapore, Malaysia partnership driven by mutual respect ... President Tharman",
+      "ns_relevant": false,
+      "note": "Foreign head of state"
+    }
+  ]
+}

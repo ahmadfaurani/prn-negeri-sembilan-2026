@@ -1,0 +1,901 @@
+{
+  "extraction_id": "ns-prn-2026-entity-extraction-20260713",
+  "date": "20260713",
+  "timestamp": "2026-07-13T06:30:00+00:00",
+  "collection": "intelligence/raw/20260713",
+  "source_count": 7,
+  "method": "manual_source_attributed_review",
+  "cvs_standard": "All entities source-attributed. No pattern-inferred entities.",
+  "classification": "TLP:AMBER",
+  "script_run": {
+    "script": "scripts/ns-entity-extraction.sh",
+    "exit_code": 0,
+    "raw_output_counts": {
+      "politicians": 0,
+      "parties": 12,
+      "constituencies": 1,
+      "issues": 0,
+      "events": 0,
+      "organizations": 0,
+      "locations": 0
+    },
+    "script_compliance_audit": {
+      "pattern_inferred_false_positives": [
+        {
+          "entity": "bersatu",
+          "reason": "Matched Malay verb 'to unite' in ohbulancom_20260713 line 93: 'kita semua bersatu untuk menikmati hidangan KFC'. NOT the Bersatu party. Same false positive as 20260711 and 20260712."
+        },
+        {
+          "entity": "DUN bukan",
+          "reason": "Malformed regex capture from bhariancom_20260713 line 27: 'BN Johor perlu buktikan kuasai 48 DUN bukan cek kosong'. 'DUN bukan' is not a constituency name — it is a fragment of '48 DUN bukan cek kosong'."
+        }
+      ],
+      "case_variant_duplicates": "12 raw party entries are case-variant duplicates of 4 unique strings (umno/UMNO/Umno, bn/BN/Barisan Nasional, PAS/Pas/pas, pn/PN) + 1 false positive (bersatu). Deduplicated unique legitimate parties: 3 NS-relevant (PAS, Umno, BN) + 1 non-NS (PN, Johor context from kosmo 404 headline).",
+      "pn_reference_context": {
+        "entity": "pn/PN",
+        "source": "kosmocommy_20260713_010102.md line 67",
+        "context": "Kekalahan dijangka, Pengerusi PN digesa letak jawatan",
+        "note": "Real PN party reference but from kosmo 404 page article-link headline about Johor PRN aftermath (PN chairman urged to resign after expected defeat), NOT NS PRN context. Not NS-relevant."
+      },
+      "categories_with_no_extraction_logic": [
+        "politicians",
+        "issues",
+        "events",
+        "organizations",
+        "locations"
+      ],
+      "constituency_regex_result": "1 capture ('DUN bukan') — false positive. Zero of NS's 36 DUN constituencies matched.",
+      "missing_source_attribution": "No entity in any script output file carries a source file reference. All entities are bare strings.",
+      "verdict": "Script output is NON-COMPLIANT with CVS standard (pattern-inferred false positives, no source attribution, 5/7 categories empty by design, case-variant duplication)."
+    }
+  },
+  "verified_entities": {
+    "politicians": [
+      {
+        "name": "Tan Sri Abdul Hadi Awang",
+        "role": "PAS President",
+        "source": "thestarcommy_20260713_010102.md",
+        "context": "Negri polls: PAS in talks with Umno for political cooperation, claims Abdul Hadi ... SEREMBAN: PAS is in talks with Umno to form a political cooperation to face the Aug 1 Negri Sembilan polls, claims Tan Sri Abdul Hadi Awang.",
+        "ns_relevant": true,
+        "note": "Directly claims PAS-Umno negotiations for NS PRN; key NS election figure"
+      },
+      {
+        "name": "Datuk Seri Jalaluddin Alias",
+        "role": "BN/UMNO leader (speaking on NS PRN)",
+        "source": "thestarcommy_20260713_010102.md",
+        "context": "SEREMBAN: Barisan Nasional's decisive victory in Johor will boost the coalition's morale and increase momentum in Negri Sembilan, which goes to the polls on Aug 1, says Datuk Seri Jalaluddin Alias.",
+        "ns_relevant": true,
+        "note": "Speaking from Seremban about NS PRN; key NS election figure"
+      },
+      {
+        "name": "Datuk Onn Hafiz Ghazi",
+        "role": "Johor Mentri Besar (second term, BN)",
+        "source": "thestarcommy_20260713_010102.md",
+        "context": "JOHOR BARU: Datuk Onn Hafiz Ghazi is no stranger to Johor's political landscape as he begins a second term as Mentri Besar, following Barisan Nasional's successful outing in the just-concluded Johor election",
+        "ns_relevant": false,
+        "note": "Johor MB, not NS; but BN momentum narrative relevant to NS PRN context"
+      },
+      {
+        "name": "Ahmad Zahid",
+        "role": "Deputy PM (congratulates Johor MB appointment)",
+        "source": "thestarcommy_20260713_010102.md",
+        "context": "Ahmad Zahid congratulates Onn Hafiz on appointment as Johor MB",
+        "ns_relevant": false,
+        "note": "National-level; Johor MB appointment, not NS-specific"
+      },
+      {
+        "name": "Syed Saddiq",
+        "role": "MUDA President (Kes Dana Armada defendant)",
+        "source": "astroawanicom_20260713_010102.md; bhariancommy_20260713_010102.md",
+        "context": "Bapa harap karier politik Syed Saddiq tidak terhenti / Mudah-mudahan Allah SWT bantu dia dengan beri kemenangan - ibu Syed Saddiq / Luahan hati Syed Saddiq menjelang keputusan Mahkamah Persekutuan esok",
+        "ns_relevant": false,
+        "note": "National court case (Kes Dana Armada); Federal Court verdict pending; not NS-specific"
+      }
+    ],
+    "parties": [
+      {
+        "name": "PAS",
+        "source": "thestarcommy_20260713_010102.md; astroawanicom_20260713_010102.md; bhariancommy_20260713_010102.md",
+        "context": "Negri polls: PAS in talks with Umno ... / PRN Negeri Sembilan: Pas akui berunding dengan BN / PAS buka ruang UMNO teraju Negeri Sembilan jika menang PRN / PAS sanggup berkorban demi pastikan kuasa Melayu-Islam di Johor - Hadi Awang",
+        "ns_relevant": true,
+        "note": "Central to NS PRN: PAS in talks with Umno/BN for NS election cooperation; PAS offers UMNO to lead NS if they win PRN"
+      },
+      {
+        "name": "UMNO",
+        "source": "thestarcommy_20260713_010102.md; bhariancommy_20260713_010102.md",
+        "context": "PAS is in talks with Umno to form a political cooperation to face the Aug 1 Negri Sembilan polls / PAS buka ruang UMNO teraju Negeri Sembilan jika menang PRN",
+        "ns_relevant": true,
+        "note": "PAS in talks with Umno for NS PRN; PAS offers UMNO to lead NS if they win"
+      },
+      {
+        "name": "Barisan Nasional (BN)",
+        "source": "thestarcommy_20260713_010102.md; astroawanicom_20260713_010102.md; bhariancommy_20260713_010102.md",
+        "context": "Barisan Nasional's decisive victory in Johor will boost the coalition's morale and increase momentum in Negri Sembilan / Pas akui berunding dengan BN bagi menghadapi PRN Negeri Sembilan / BN Johor perlu buktikan kuasai 48 DUN bukan 'cek kosong'",
+        "ns_relevant": true,
+        "note": "BN Johor victory as momentum for NS PRN; PAS negotiating with BN for NS election"
+      },
+      {
+        "name": "Perikatan Nasional (PN)",
+        "source": "kosmocommy_20260713_010102.md",
+        "context": "Kekalahan dijangka, Pengerusi PN digesa letak jawatan",
+        "ns_relevant": false,
+        "note": "PN chairman urged to resign after expected defeat; Johor PRN aftermath context from kosmo 404 page article-link headline; not NS-specific"
+      }
+    ],
+    "constituencies": [
+      {
+        "name": "48 DUN (Johor)",
+        "source": "bhariancommy_20260713_010102.md",
+        "context": "BN Johor perlu buktikan kuasai 48 DUN bukan 'cek kosong'",
+        "ns_relevant": false,
+        "note": "Johor's 56 DUN seats (BN won 48 per article); NOT one of NS's 36 DUN. Count mentioned, not individual seat names."
+      }
+    ],
+    "issues": [
+      {
+        "name": "PAS-Umno political cooperation negotiations for NS PRN (Aug 1)",
+        "source": "thestarcommy_20260713_010102.md; astroawanicom_20260713_010102.md",
+        "context": "PAS is in talks with Umno to form a political cooperation to face the Aug 1 Negri Sembilan polls, claims Tan Sri Abdul Hadi Awang / Pas akui berunding dengan BN bagi menghadapi Pilihan Raya Negeri (PRN) Negeri Sembilan, 1 Ogos ini",
+        "ns_relevant": true,
+        "note": "CORE NS PRN ISSUE: PAS-BN/UMNO electoral cooperation negotiations"
+      },
+      {
+        "name": "PAS offers UMNO to lead Negeri Sembilan if they win PRN",
+        "source": "bhariancommy_20260713_010102.md",
+        "context": "PAS buka ruang UMNO teraju Negeri Sembilan jika menang PRN",
+        "ns_relevant": true,
+        "note": "CORE NS PRN ISSUE: PAS offering UMNO the NS state government if coalition wins"
+      },
+      {
+        "name": "BN Johor victory momentum boosting morale for NS PRN",
+        "source": "thestarcommy_20260713_010102.md",
+        "context": "Barisan Nasional's decisive victory in Johor will boost the coalition's morale and increase momentum in Negri Sembilan, which goes to the polls on Aug 1, says Datuk Seri Jalaluddin Alias",
+        "ns_relevant": true,
+        "note": "NS PRN ISSUE: Johor result as momentum boost for NS"
+      },
+      {
+        "name": "Johor sweep domino effect on NS PRN and GE16",
+        "source": "thestarcommy_20260713_010102.md",
+        "context": "BN may gain significant momentum following its big win in Johor, but the outcomes in Negri Sembilan and the 16th General Election (GE16) will still hinge on each state's political dynamics, candidates and prevailing issues, say analysts",
+        "ns_relevant": true,
+        "note": "NS PRN ISSUE: Analysts caution Johor results won't guarantee domino effect in NS"
+      },
+      {
+        "name": "Negri Crisis (The Star topic tag)",
+        "source": "thestarcommy_20260713_010102.md",
+        "context": "TOPICS: [State Polls 2026] [Middle East Conflict] [Heatwave] [Negri Crisis] ...",
+        "ns_relevant": true,
+        "note": "The Star maintains a dedicated 'Negri Crisis' topic tag — indicates ongoing NS political coverage"
+      },
+      {
+        "name": "Kes Dana Armada (Syed Saddiq Federal Court verdict pending)",
+        "source": "astroawanicom_20260713_010102.md; bhariancommy_20260713_010102.md",
+        "context": "Bapa harap karier politik Syed Saddiq tidak terhenti / Luahan hati Syed Saddiq menjelang keputusan Mahkamah Persekutuan esok / Mudah-mudahan Allah SWT bantu dia dengan beri kemenangan - ibu Syed Saddiq",
+        "ns_relevant": false,
+        "note": "National court case; Federal Court verdict pending 'esok' (tomorrow)"
+      },
+      {
+        "name": "Venezuela earthquake (4,490 dead)",
+        "source": "astroawanicom_20260713_010102.md",
+        "context": "Angka korban gempa bumi Venezuela meningkat kepada 4,490",
+        "ns_relevant": false,
+        "note": "Foreign disaster"
+      },
+      {
+        "name": "Iran/Middle East conflict (Hormozgan attack, US-Iran escalation)",
+        "source": "astroawanicom_20260713_010102.md; thestarcommy_20260713_010102.md",
+        "context": "Konflik Asia Barat: Serangan di Hormozgan, Iran ragut satu nyawa / Oil jumps 3% after US, Iran escalate strikes in Mideast / Malaysians in Qatar told to follow security instructions after fresh US-Iran attacks",
+        "ns_relevant": false,
+        "note": "Foreign/geopolitical conflict"
+      },
+      {
+        "name": "PBB/food supply issues in Dewan Rakyat",
+        "source": "astroawanicom_20260713_010102.md",
+        "context": "Isu berkaitan PBB, bekalan makanan antara tumpuan Dewan Rakyat hari ini",
+        "ns_relevant": false,
+        "note": "National parliamentary issues"
+      },
+      {
+        "name": "FIFA World Cup 2026 (expansion to 64 teams discussion, attendance records)",
+        "source": "astroawanicom_20260713_010102.md; bhariancommy_20260713_010102.md",
+        "context": "Piala Dunia: Perluasan penyertaan pasukan dibincang selepas edisi 2026 - Infantino / FIFA sedia kaji Piala Dunia 64 pasukan / Piala Dunia 2026 pecah satu lagi rekod kehadiran",
+        "ns_relevant": false,
+        "note": "Sports"
+      },
+      {
+        "name": "McGregor UFC RM132 juta earnings (69-second loss)",
+        "source": "astroawanicom_20260713_010102.md",
+        "context": "McGregor tetap raih RM132 juta selepas tewas 69 saat",
+        "ns_relevant": false,
+        "note": "Sports"
+      },
+      {
+        "name": "Fontainebleau wildfire (Paris)",
+        "source": "astroawanicom_20260713_010102.md",
+        "context": "Kebakaran besar melanda Hutan Fontainebleau di Paris",
+        "ns_relevant": false,
+        "note": "Foreign disaster"
+      },
+      {
+        "name": "Lindsey Graham death (aorta rupture)",
+        "source": "astroawanicom_20260713_010102.md",
+        "context": "Kematian penyokong utama pembunuhan rakyat Palestin, Lindsey Graham, akibat aorta pecah",
+        "ns_relevant": false,
+        "note": "Foreign politics"
+      },
+      {
+        "name": "PRN Johor polling station misconduct allegations (SPR response)",
+        "source": "bhariancommy_20260713_010102.md",
+        "context": "Dakwaan salah laku Ketua Tempat Mengundi PRN Johor: Perlu kemuka bukti, lapor polis, fail petisyen pilihan raya - SPR",
+        "ns_relevant": false,
+        "note": "Johor PRN electoral misconduct allegations"
+      },
+      {
+        "name": "BN Johor must prove 48 DUN win not 'cek kosong' (empty cheque)",
+        "source": "bhariancommy_20260713_010102.md",
+        "context": "BN Johor perlu buktikan kuasai 48 DUN bukan 'cek kosong'",
+        "ns_relevant": false,
+        "note": "Johor PRN commentary; relevant as BN performance benchmark for NS"
+      },
+      {
+        "name": "PRN Johor public holiday (optional for private sector - JTKSM)",
+        "source": "bhariancommy_20260713_010102.md",
+        "context": "PRN Johor: Hari kelepasan am pilihan, tidak wajib diberikan kepada sektor swasta - JTKSM",
+        "ns_relevant": false,
+        "note": "Johor PRN administrative issue"
+      },
+      {
+        "name": "Rawang school bullying (under police probe, Selangor)",
+        "source": "thestarcommy_20260713_010102.md",
+        "context": "SHAH ALAM: The Selangor State Education Department is extending full cooperation in the investigation into an alleged bullying incident involving several secondary school students in Rawang",
+        "ns_relevant": false,
+        "note": "Selangor social issue"
+      },
+      {
+        "name": "Aesthetic industry regulation (unregistered cosmetic operators)",
+        "source": "thestarcommy_20260713_010102.md",
+        "context": "Malaysia's reputation as a leading medical tourism destination could be undermined if consumers continue to fall prey to unregistered cosmetic and aesthetic operators, says the Federation of Malaysian Consumers Associations",
+        "ns_relevant": false,
+        "note": "National consumer health issue"
+      },
+      {
+        "name": "Healthcare scam warning (bargain procedures in hotel rooms/salons)",
+        "source": "thestarcommy_20260713_010102.md",
+        "context": "GEORGE TOWN: Beware of healthcare treatments offered in hotel rooms, private homes and beauty salons at prices far below market rates",
+        "ns_relevant": false,
+        "note": "National consumer health warning"
+      },
+      {
+        "name": "Singapore-Malaysia state visit (President Tharman, 3-day)",
+        "source": "thestarcommy_20260713_010102.md",
+        "context": "Singapore president arrives in Malaysia for three-day state visit",
+        "ns_relevant": false,
+        "note": "Bilateral diplomacy"
+      },
+      {
+        "name": "Woman found dead in Ampangan apartment (NS crime)",
+        "source": "thestarcommy_20260713_010102.md",
+        "context": "Woman found dead in Ampangan apartment",
+        "ns_relevant": true,
+        "note": "NS location (Ampangan, Seremban area); crime story, not election"
+      }
+    ],
+    "events": [
+      {
+        "name": "PRN Negeri Sembilan 2026 (Aug 1) — PAS-BN/UMNO negotiations underway",
+        "date": "2026-08-01",
+        "source": "thestarcommy_20260713_010102.md; astroawanicom_20260713_010102.md; bhariancommy_20260713_010102.md",
+        "context": "PAS is in talks with Umno to form a political cooperation to face the Aug 1 Negri Sembilan polls / Pas akui berunding dengan BN bagi menghadapi PRN Negeri Sembilan, 1 Ogos ini / PAS buka ruang UMNO teraju Negeri Sembilan jika menang PRN",
+        "ns_relevant": true,
+        "note": "CORE NS PRN EVENT: Multiple sources confirm PAS-BN negotiations for Aug 1 NS state election"
+      },
+      {
+        "name": "PRN Johor 2026 (concluded — BN decisive victory, Onn Hafiz MB)",
+        "date": "2026-07-12",
+        "source": "thestarcommy_20260713_010102.md; bhariancommy_20260713_010102.md",
+        "context": "Barisan Nasional's decisive victory in Johor / Datuk Onn Hafiz Ghazi begins a second term as Mentri Besar / Ahmad Zahid congratulates Onn Hafiz on appointment as Johor MB",
+        "ns_relevant": false,
+        "note": "Johor PRN results; directly relevant as NS PRN momentum narrative"
+      },
+      {
+        "name": "Kes Dana Armada verdict (Mahkamah Persekutuan, pending 'esok')",
+        "date": "pending (imminent)",
+        "source": "astroawanicom_20260713_010102.md; bhariancommy_20260713_010102.md",
+        "context": "Luahan hati Syed Saddiq menjelang keputusan Mahkamah Persekutuan esok",
+        "ns_relevant": false,
+        "note": "National court case; Federal Court verdict expected imminently"
+      },
+      {
+        "name": "Venezuela earthquake aftermath (4,490 dead)",
+        "date": "2026-07 (ongoing)",
+        "source": "astroawanicom_20260713_010102.md",
+        "context": "Angka korban gempa bumi Venezuela meningkat kepada 4,490",
+        "ns_relevant": false,
+        "note": "Foreign disaster"
+      },
+      {
+        "name": "Iran/Hormozgan attack (1 killed)",
+        "date": "2026-07-13",
+        "source": "astroawanicom_20260713_010102.md",
+        "context": "Konflik Asia Barat: Serangan di Hormozgan, Iran ragut satu nyawa",
+        "ns_relevant": false,
+        "note": "Foreign conflict"
+      },
+      {
+        "name": "FIFA World Cup 2026 (quarter-finals, expansion discussion, attendance records)",
+        "date": "2026-07 (ongoing)",
+        "source": "astroawanicom_20260713_010102.md; bhariancommy_20260713_010102.md",
+        "context": "Piala Dunia: Perluasan penyertaan pasukan dibincang selepas edisi 2026 - Infantino / Piala Dunia 2026 pecah rekod kehadiran penonton",
+        "ns_relevant": false,
+        "note": "Sports event"
+      },
+      {
+        "name": "UFC 329 (McGregor 69-second loss, RM132 juta earnings)",
+        "date": "2026-07 (recent)",
+        "source": "astroawanicom_20260713_010102.md",
+        "context": "McGregor tetap raih RM132 juta selepas tewas 69 saat",
+        "ns_relevant": false,
+        "note": "Sports event"
+      },
+      {
+        "name": "Fontainebleau forest wildfire (Paris)",
+        "date": "2026-07-12",
+        "source": "astroawanicom_20260713_010102.md",
+        "context": "Kebakaran besar melanda Hutan Fontainebleau di Paris",
+        "ns_relevant": false,
+        "note": "Foreign disaster"
+      },
+      {
+        "name": "Singapore President state visit to Malaysia (3-day)",
+        "date": "2026-07-12",
+        "source": "thestarcommy_20260713_010102.md",
+        "context": "Singapore president arrives in Malaysia for three-day state visit",
+        "ns_relevant": false,
+        "note": "Bilateral diplomacy"
+      },
+      {
+        "name": "Malaysian death on Mount Elbrus (Russia)",
+        "date": "2026-07-12",
+        "source": "thestarcommy_20260713_010102.md",
+        "context": "Malaysian dies while climbing Mount Elbrus in Russia, says Wisma Putra",
+        "ns_relevant": false,
+        "note": "National consular event"
+      },
+      {
+        "name": "Hari Keputeraan Ke-77 Yang di-Pertuan Besar Negeri Sembilan",
+        "date": "2025-01 (past)",
+        "source": "ohbulancom_20260713_010102.md",
+        "context": "Suki, Waris Dikurniakan Anugerah Sempena Hari Keputeraan Ke-77 Yang Dipertuan Besar Negeri Sembilan",
+        "ns_relevant": true,
+        "note": "NS royalty event; past (Jan 2025); NOT election-related"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Dewan Rakyat (Parliament)",
+        "source": "astroawanicom_20260713_010102.md",
+        "context": "Isu berkaitan PBB, bekalan makanan antara tumpuan Dewan Rakyat hari ini",
+        "ns_relevant": false,
+        "note": "National parliament"
+      },
+      {
+        "name": "FIFA",
+        "source": "astroawanicom_20260713_010102.md; bhariancommy_20260713_010102.md",
+        "context": "FIFA President Gianni Infantino / FIFA sedia kaji Piala Dunia 64 pasukan",
+        "ns_relevant": false,
+        "note": "Sports governing body"
+      },
+      {
+        "name": "UFC",
+        "source": "astroawanicom_20260713_010102.md",
+        "context": "McGregor tetap raih RM132 juta selepas tewas 69 saat",
+        "ns_relevant": false,
+        "note": "Sports organization"
+      },
+      {
+        "name": "SPR (Suruhanjaya Pilihan Raya / Election Commission)",
+        "source": "bhariancommy_20260713_010102.md",
+        "context": "Dakwaan salah laku Ketua Tempat Mengundi PRN Johor: Perlu kemuka bukti, lapor polis, fail petisyen pilihan raya - SPR",
+        "ns_relevant": false,
+        "note": "Election Commission; Johor PRN context but relevant institution for NS PRN"
+      },
+      {
+        "name": "PERKESO",
+        "source": "bhariancommy_20260713_010102.md",
+        "context": "Pencarum pilih keluar LINDUNG 24 JAM perlu isi borang pelepasan liabiliti - PERKESO",
+        "ns_relevant": false,
+        "note": "National social security body"
+      },
+      {
+        "name": "JTKSM (Jabatan Tenaga Kerja Sektor Manual)",
+        "source": "bhariancommy_20260713_010102.md",
+        "context": "PRN Johor: Hari kelepasan am pilihan, tidak wajib diberikan kepada sektor swasta - JTKSM",
+        "ns_relevant": false,
+        "note": "National labour department; Johor PRN holiday context"
+      },
+      {
+        "name": "Star Media Group Berhad",
+        "source": "thestarcommy_20260713_010102.md",
+        "context": "Copyright (c) 1995- 2026 Star Media Group Berhad [197101000523 (10894-D)]",
+        "ns_relevant": false,
+        "note": "Publisher"
+      },
+      {
+        "name": "Media Mulia Sdn Bhd",
+        "source": "utusancommy_20260713_010102.md",
+        "context": "Hak cipta terpelihara (c) 2026 Media Mulia Sdn Bhd 201801030285 (1292311-H)",
+        "ns_relevant": false,
+        "note": "Publisher (Utusan/Kosmo)"
+      },
+      {
+        "name": "NSTP (New Straits Times Press)",
+        "source": "bhariancommy_20260713_010102.md",
+        "context": "Akhbar Digital (digital.nstp.com.my); Akhbar BH (digital.nstp.com.my)",
+        "ns_relevant": false,
+        "note": "Publisher (Berita Harian)"
+      },
+      {
+        "name": "Federation of Malaysian Consumers Associations",
+        "source": "thestarcommy_20260713_010102.md",
+        "context": "says the Federation of Malaysian Consumers Associations",
+        "ns_relevant": false,
+        "note": "Consumer advocacy body"
+      },
+      {
+        "name": "Wisma Putra (Ministry of Foreign Affairs)",
+        "source": "thestarcommy_20260713_010102.md",
+        "context": "Malaysian dies while climbing Mount Elbrus in Russia, says Wisma Putra",
+        "ns_relevant": false,
+        "note": "Foreign ministry"
+      },
+      {
+        "name": "Selangor State Education Department",
+        "source": "thestarcommy_20260713_010102.md",
+        "context": "The Selangor State Education Department is extending full cooperation in the investigation",
+        "ns_relevant": false,
+        "note": "Selangor state government department"
+      },
+      {
+        "name": "McDonald's Malaysia (Tampin branch)",
+        "source": "ohbulancom_20260713_010102.md",
+        "context": "McDonald's Malaysia Rasmi Cawangan Baru Di Tampin, Negeri Sembilan",
+        "ns_relevant": true,
+        "note": "NS location (Tampin); commercial, not political"
+      },
+      {
+        "name": "Persatuan Kebajikan Ronald McDonald (RHMC) Malaysia",
+        "source": "ohbulancom_20260713_010102.md",
+        "context": "Persatuan Kebajikan Ronald McDonald (RHMC) Malaysia Menyediakan Pek Kembali Ke Sekolah",
+        "ns_relevant": false,
+        "note": "Charity organization"
+      },
+      {
+        "name": "KFC",
+        "source": "ohbulancom_20260713_010102.md",
+        "context": "kita semua bersatu untuk menikmati hidangan KFC",
+        "ns_relevant": false,
+        "note": "Fast food chain; entertainment article"
+      },
+      {
+        "name": "Air Selangor",
+        "source": "thestarcommy_20260713_010102.md",
+        "context": "In conjunction with World Environment Day, Air Selangor is spotlighting the importance of practicing smarter water habits at home.",
+        "ns_relevant": false,
+        "note": "Selangor water utility (starpicks sponsored content)"
+      },
+      {
+        "name": "REUTERS",
+        "source": "astroawanicom_20260713_010102.md",
+        "context": "REUTERS/Gaby Oraa; REUTERS/Dylan Martinez; REUTERS/Benoit Tessier; REUTERS/Nathan Howard",
+        "ns_relevant": false,
+        "note": "News agency (image credits)"
+      },
+      {
+        "name": "Sinar Harian",
+        "source": "astroawanicom_20260713_010102.md",
+        "context": "SEREMBAN - Pas mengakui sedang mengadakan rundingan ... _Sinar Harian (image credit)",
+        "ns_relevant": false,
+        "note": "News agency (image credit for NS PRN article photo)"
+      },
+      {
+        "name": "BERNAMA",
+        "source": "astroawanicom_20260713_010102.md",
+        "context": "Sumber: BERNAMA (image credit for Parliament article)",
+        "ns_relevant": false,
+        "note": "National news agency (image attribution)"
+      },
+      {
+        "name": "Norwegian Air",
+        "source": "bhariancommy_20260713_010102.md",
+        "context": "Kalah kepada England, Norwegian Air tepati janji",
+        "ns_relevant": false,
+        "note": "Airline; World Cup promo"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Seremban",
+        "source": "thestarcommy_20260713_010102.md; astroawanicom_20260713_010102.md",
+        "context": "SEREMBAN: PAS is in talks with Umno ... / SEREMBAN: Barisan Nasional's decisive victory in Johor will boost the coalition's morale and increase momentum in Negri Sembilan / SEREMBAN - Pas mengakui sedang mengadakan rundingan dengan BN",
+        "ns_relevant": true,
+        "note": "NS state capital; dateline for 3 NS PRN articles — KEY NS election reporting location"
+      },
+      {
+        "name": "Negeri Sembilan (Negri Sembilan)",
+        "source": "thestarcommy_20260713_010102.md; astroawanicom_20260713_010102.md; bhariancommy_20260713_010102.md; ohbulancom_20260713_010102.md",
+        "context": "face the Aug 1 Negri Sembilan polls / PRN Negeri Sembilan, 1 Ogos ini / PAS buka ruang UMNO teraju Negeri Sembilan jika menang PRN",
+        "ns_relevant": true,
+        "note": "NS state; central to all NS PRN reporting; state election Aug 1, 2026"
+      },
+      {
+        "name": "Ampangan",
+        "source": "thestarcommy_20260713_010102.md",
+        "context": "Woman found dead in Ampangan apartment",
+        "ns_relevant": true,
+        "note": "NS location (Seremban area); crime story, not election"
+      },
+      {
+        "name": "Tampin",
+        "source": "ohbulancom_20260713_010102.md",
+        "context": "McDonald's Malaysia Rasmi Cawangan Baru Di Tampin, Negeri Sembilan",
+        "ns_relevant": true,
+        "note": "NS location/town; also parliamentary constituency P132 (not one of 36 DUN); commercial context"
+      },
+      {
+        "name": "Port Dickson (PD)",
+        "source": "ohbulancom_20260713_010102.md",
+        "context": "Didakwa Bercuti Di PD, Aeril Jelaskan Pergi Negeri Sembilan Sebab Kerja",
+        "ns_relevant": true,
+        "note": "NS location; celebrity gossip context (2021 article)"
+      },
+      {
+        "name": "Johor",
+        "source": "thestarcommy_20260713_010102.md; astroawanicom_20260713_010102.md; bhariancommy_20260713_010102.md",
+        "context": "Barisan Nasional's decisive victory in Johor / BN Johor perlu buktikan kuasai 48 DUN / PAS sanggup berkorban demi pastikan kuasa Melayu-Islam di Johor",
+        "ns_relevant": false,
+        "note": "Johor state; PRN Johor results directly relevant as NS PRN momentum narrative"
+      },
+      {
+        "name": "Johor Baru",
+        "source": "thestarcommy_20260713_010102.md",
+        "context": "JOHOR BARU: Datuk Onn Hafiz Ghazi is no stranger to Johor's political landscape",
+        "ns_relevant": false,
+        "note": "Johor state capital"
+      },
+      {
+        "name": "Shah Alam",
+        "source": "thestarcommy_20260713_010102.md",
+        "context": "SHAH ALAM: The Selangor State Education Department ...",
+        "ns_relevant": false,
+        "note": "Selangor"
+      },
+      {
+        "name": "Rawang",
+        "source": "thestarcommy_20260713_010102.md",
+        "context": "alleged bullying incident involving several secondary school students in Rawang",
+        "ns_relevant": false,
+        "note": "Selangor"
+      },
+      {
+        "name": "George Town",
+        "source": "thestarcommy_20260713_010102.md",
+        "context": "GEORGE TOWN: Beware of healthcare treatments offered in hotel rooms",
+        "ns_relevant": false,
+        "note": "Penang"
+      },
+      {
+        "name": "Petaling Jaya",
+        "source": "thestarcommy_20260713_010102.md",
+        "context": "PETALING JAYA: Malaysia's reputation as a leading medical tourism destination / PETALING JAYA: When most teenagers were planning their future",
+        "ns_relevant": false,
+        "note": "Selangor"
+      },
+      {
+        "name": "Taiwan (Pingtung County)",
+        "source": "thestarcommy_20260713_010102.md",
+        "context": "A 78-YEAR-OLD woman in Taiwan's Pingtung County fought off a 44-year-old man",
+        "ns_relevant": false,
+        "note": "Foreign"
+      },
+      {
+        "name": "India",
+        "source": "thestarcommy_20260713_010102.md",
+        "context": "A YOUNG man in India who was missing for three years",
+        "ns_relevant": false,
+        "note": "Foreign"
+      },
+      {
+        "name": "Russia (Mount Elbrus)",
+        "source": "thestarcommy_20260713_010102.md",
+        "context": "Malaysian dies while climbing Mount Elbrus in Russia, says Wisma Putra",
+        "ns_relevant": false,
+        "note": "Foreign"
+      },
+      {
+        "name": "Qatar",
+        "source": "thestarcommy_20260713_010102.md",
+        "context": "Malaysians in Qatar told to follow security instructions after fresh US-Iran attacks",
+        "ns_relevant": false,
+        "note": "Foreign"
+      },
+      {
+        "name": "Singapore",
+        "source": "thestarcommy_20260713_010102.md",
+        "context": "Singapore president arrives in Malaysia for three-day state visit",
+        "ns_relevant": false,
+        "note": "Foreign"
+      },
+      {
+        "name": "Venezuela",
+        "source": "astroawanicom_20260713_010102.md",
+        "context": "Angka korban gempa bumi Venezuela meningkat kepada 4,490",
+        "ns_relevant": false,
+        "note": "Foreign"
+      },
+      {
+        "name": "Iran (Hormozgan)",
+        "source": "astroawanicom_20260713_010102.md",
+        "context": "Konflik Asia Barat: Serangan di Hormozgan, Iran ragut satu nyawa",
+        "ns_relevant": false,
+        "note": "Foreign conflict zone"
+      },
+      {
+        "name": "Paris (Fontainebleau)",
+        "source": "astroawanicom_20260713_010102.md",
+        "context": "Kebakaran besar melanda Hutan Fontainebleau di Paris",
+        "ns_relevant": false,
+        "note": "Foreign"
+      },
+      {
+        "name": "Miami",
+        "source": "astroawanicom_20260713_010102.md",
+        "context": "FIFA World Cup 2026 - Quarter Final - Norway v England - Miami Stadium, Miami Gardens, Florida",
+        "ns_relevant": false,
+        "note": "Foreign (FIFA World Cup venue)"
+      },
+      {
+        "name": "Pulau Pinang",
+        "source": "bhariancommy_20260713_010102.md",
+        "context": "Bintang Hollywood, Mark Wahlberg jalani penggambaran di Pulau Pinang",
+        "ns_relevant": false,
+        "note": "Penang; celebrity filming"
+      }
+    ]
+  },
+  "non_political_persons_found": [
+    {
+      "name": "Gianni Infantino",
+      "role": "FIFA President",
+      "source": "astroawanicom_20260713_010102.md",
+      "context": "Piala Dunia: Perluasan penyertaan pasukan dibincang selepas edisi 2026 - Infantino",
+      "note": "Sports administrator, not Malaysian politician"
+    },
+    {
+      "name": "Lindsey Graham",
+      "role": "U.S. Senator (deceased)",
+      "source": "astroawanicom_20260713_010102.md",
+      "context": "Kematian penyokong utama pembunuhan rakyat Palestin, Lindsey Graham, akibat aorta pecah",
+      "note": "Foreign politician, not Malaysian"
+    },
+    {
+      "name": "Conor McGregor",
+      "role": "UFC fighter",
+      "source": "astroawanicom_20260713_010102.md",
+      "context": "McGregor tetap raih RM132 juta selepas tewas 69 saat",
+      "note": "Sports, not politician"
+    },
+    {
+      "name": "Max Holloway (Halloway)",
+      "role": "UFC fighter",
+      "source": "astroawanicom_20260713_010102.md",
+      "context": "pertarungannya dengan Max Halloway hanya bertahan selama 69 saat",
+      "note": "Sports, not politician"
+    },
+    {
+      "name": "Bella Astillah",
+      "role": "Celebrity (Syed Saddiq's wife)",
+      "source": "bhariancommy_20260713_010102.md",
+      "context": "Saya sentiasa doakan yang terbaik buat Syed Saddiq - Bella Astillah",
+      "note": "Celebrity, not politician"
+    },
+    {
+      "name": "Pavithra Charles",
+      "role": "Health story subject",
+      "source": "thestarcommy_20260713_010102.md",
+      "context": "When most teenagers were planning their future, Pavithra Charles was learning how to live with a lifelong autoimmune disease",
+      "note": "Private individual, not politician"
+    },
+    {
+      "name": "Waris",
+      "role": "Penyanyi (singer)",
+      "source": "ohbulancom_20260713_010102.md",
+      "context": "Penyanyi Waris dan Suki Low dikurniakan anugerah",
+      "note": "Singer, not politician"
+    },
+    {
+      "name": "Suki Low",
+      "role": "Penyanyi (singer)",
+      "source": "ohbulancom_20260713_010102.md",
+      "context": "Penyanyi Waris dan Suki Low dikurniakan anugerah",
+      "note": "Singer, not politician"
+    },
+    {
+      "name": "Nabil Ahmad",
+      "role": "Pengacara/penyampai radio (TV/radio host)",
+      "source": "ohbulancom_20260713_010102.md",
+      "context": "Ceroboh Rumah Nabil Ahmad",
+      "note": "Entertainer, not politician"
+    },
+    {
+      "name": "Aeril Zafrel",
+      "role": "Selebriti (celebrity)",
+      "source": "ohbulancom_20260713_010102.md",
+      "context": "pasangan selebriti Aeril Zafrel dan Wawa Zainal",
+      "note": "Celebrity, not politician"
+    },
+    {
+      "name": "Wawa Zainal",
+      "role": "Selebriti (celebrity)",
+      "source": "ohbulancom_20260713_010102.md",
+      "context": "pasangan selebriti Aeril Zafrel dan Wawa Zainal",
+      "note": "Celebrity, not politician"
+    },
+    {
+      "name": "Rooney",
+      "role": "Footballer",
+      "source": "bhariancommy_20260713_010102.md",
+      "context": "'Aura Messi luar biasa, tapi lemah bila bertahan' - Rooney",
+      "note": "Sports pundit, not politician"
+    },
+    {
+      "name": "Mbappe",
+      "role": "Footballer",
+      "source": "bhariancommy_20260713_010102.md",
+      "context": "Mbappe berisiko kena penjara",
+      "note": "Sports, not politician"
+    },
+    {
+      "name": "Messi",
+      "role": "Footballer",
+      "source": "bhariancommy_20260713_010102.md",
+      "context": "Messi akhirnya dapat berjumpa England / 'Aura Messi luar biasa' - Rooney",
+      "note": "Sports, not politician"
+    },
+    {
+      "name": "Bellingham",
+      "role": "Footballer",
+      "source": "bhariancommy_20260713_010102.md",
+      "context": "Bellingham tidak puas hati komen Tuchel",
+      "note": "Sports, not politician"
+    },
+    {
+      "name": "Tuchel",
+      "role": "Football coach",
+      "source": "bhariancommy_20260713_010102.md",
+      "context": "Bellingham tidak puas hati komen Tuchel",
+      "note": "Sports, not politician"
+    },
+    {
+      "name": "Haaland",
+      "role": "Footballer",
+      "source": "bhariancommy_20260713_010102.md",
+      "context": "Sorloth akui silap tak buat hantaran kepada Haaland / Haaland supports England",
+      "note": "Sports, not politician"
+    },
+    {
+      "name": "Sorloth",
+      "role": "Footballer",
+      "source": "bhariancommy_20260713_010102.md",
+      "context": "Sorloth akui silap tak buat hantaran kepada Haaland",
+      "note": "Sports, not politician"
+    },
+    {
+      "name": "Mark Wahlberg",
+      "role": "Hollywood actor",
+      "source": "bhariancommy_20260713_010102.md",
+      "context": "Bintang Hollywood, Mark Wahlberg jalani penggambaran di Pulau Pinang",
+      "note": "Actor, not politician"
+    },
+    {
+      "name": "Rahim Maarof",
+      "role": "Singer",
+      "source": "bhariancommy_20260713_010102.md",
+      "context": "Menangis tengok Rahim Maarof menyanyi",
+      "note": "Singer, not politician"
+    }
+  ],
+  "borderline_references_excluded": [
+    {
+      "name": "Hadi Awang (image filename only on astroawani)",
+      "source": "astroawanicom_20260713_010102.md",
+      "reason": "Appears ONLY in image asset filename 'TB_Hadi Awang_SINAR.jpg' accompanying 'PRN Negeri Sembilan: Pas akui berunding dengan BN' on astroawani. NOT in astroawani article prose. However, Abdul Hadi Awang IS attributed from thestarcommy article prose (headline + dateline text), so he is included in verified politicians via thestar source. Consistent with 20260711/20260712 standard (prose-only party/person attribution)."
+    }
+  ],
+  "verified_counts": {
+    "politicians": 5,
+    "parties": 4,
+    "constituencies": 1,
+    "issues": 21,
+    "events": 11,
+    "organizations": 20,
+    "locations": 21,
+    "total_verified": 83
+  },
+  "ns_relevant_entities_count": 19,
+  "ns_relevant_entities": [
+    "Tan Sri Abdul Hadi Awang (politicians) — claims PAS-Umno talks for NS PRN",
+    "Datuk Seri Jalaluddin Alias (politicians) — BN momentum for NS PRN from Seremban",
+    "PAS (parties) — NS PRN cooperation talks with Umno/BN",
+    "UMNO (parties) — NS PRN cooperation talks with PAS; offered NS leadership",
+    "Barisan Nasional / BN (parties) — Johor victory momentum for NS PRN",
+    "PAS-Umno political cooperation negotiations for NS PRN (issues)",
+    "PAS offers UMNO to lead Negeri Sembilan if they win PRN (issues)",
+    "BN Johor victory momentum boosting morale for NS PRN (issues)",
+    "Johor sweep domino effect on NS PRN and GE16 (issues)",
+    "Negri Crisis - The Star topic tag (issues)",
+    "Woman found dead in Ampangan apartment (issues) — NS location, crime",
+    "PRN Negeri Sembilan 2026 Aug 1 — PAS-BN negotiations (events)",
+    "Hari Keputeraan Ke-77 YDP Besar NS (events) — past, royalty",
+    "McDonald's Malaysia Tampin branch (organizations) — NS location",
+    "Seremban (locations) — dateline for 3 NS PRN articles",
+    "Negeri Sembilan (locations) — state election Aug 1",
+    "Ampangan (locations) — NS location, crime",
+    "Tampin (locations) — NS location",
+    "Port Dickson / PD (locations) — NS location"
+  ],
+  "ns_election_relevant_entities_count": 12,
+  "ns_election_relevant_entities": [
+    "Tan Sri Abdul Hadi Awang (politicians)",
+    "Datuk Seri Jalaluddin Alias (politicians)",
+    "PAS (parties)",
+    "UMNO (parties)",
+    "Barisan Nasional / BN (parties)",
+    "PAS-Umno political cooperation negotiations for NS PRN (issues)",
+    "PAS offers UMNO to lead Negeri Sembilan if they win PRN (issues)",
+    "BN Johor victory momentum for NS PRN (issues)",
+    "Johor sweep domino effect on NS PRN and GE16 (issues)",
+    "Negri Crisis - The Star topic tag (issues)",
+    "PRN Negeri Sembilan 2026 Aug 1 — PAS-BN negotiations (events)",
+    "Seremban (locations) — dateline for NS PRN reporting"
+  ],
+  "key_finding": "BREAKTHROUGH: After TWO consecutive days (20260711, 20260712) with ZERO NS PRN election content, the 20260713 collection contains SIGNIFICANT Negeri Sembilan PRN 2026 election intelligence. Three sources (thestar, astroawani, bharian) carry directly NS-relevant political reporting: (1) PAS President Abdul Hadi Awang claims PAS is in talks with Umno for NS PRN cooperation (thestar, astroawani); (2) PAS offers UMNO to lead Negeri Sembilan if they win PRN (bharian); (3) BN's Johor victory will boost morale and momentum for NS PRN, says Datuk Seri Jalaluddin Alias from Seremban (thestar); (4) Analysts caution Johor sweep won't guarantee domino effect in NS and GE16 (thestar). 12 NS election-relevant entities identified across politicians (2), parties (3), issues (5), events (1), and locations (1). Key political dynamics emerging: PAS-BN/UMNO electoral cooperation for NS PRN, with PAS potentially ceding NS leadership to UMNO. NS PRN scheduled for Aug 1, 2026 (~19 days away). Johor PRN results (BN decisive victory) serving as momentum narrative. The Star maintains a 'Negri Crisis' topic tag and 'State Polls 2026' tag, indicating ongoing NS political coverage. Collection quality improved: 3 of 7 sources have NS-relevant content vs 0 of 9 on 20260712 and 0 of 10 on 20260711.",
+  "source_quality": {
+    "total_files": 7,
+    "substantive_content_files": 2,
+    "partial_content_files_headlines_only": 1,
+    "404_or_minimal_pages": 4,
+    "files_with_substantive_content": [
+      "astroawanicom_20260713_010102.md",
+      "thestarcommy_20260713_010102.md"
+    ],
+    "files_with_partial_content_headlines_only": [
+      "bhariancommy_20260713_010102.md (404 page but with 20 trending article headlines including NS-relevant: 'PAS buka ruang UMNO teraju Negeri Sembilan jika menang PRN', 'PAS sanggup berkorban ... - Hadi Awang', 'Syed Saddiq' headlines)"
+    ],
+    "files_with_404_or_minimal_content": [
+      "kosmocommy_20260713_010102.md",
+      "mstarcommy_20260713_010102.md",
+      "ohbulancom_20260713_010102.md (old entertainment/lifestyle content, 2019-2025)",
+      "utusancommy_20260713_010102.md"
+    ],
+    "ns_specific_files": 3,
+    "ns_specific_files_list": [
+      "thestarcommy_20260713_010102.md (4 NS PRN articles with full prose)",
+      "astroawanicom_20260713_010102.md (1 NS PRN article with headline + image caption)",
+      "bhariancommy_20260713_010102.md (1 NS PRN article in trending headlines)"
+    ],
+    "dominant_topic": "NS PRN 2026 (PAS-BN/UMNO cooperation negotiations) + Johor PRN aftermath (BN victory momentum)"
+  },
+  "sentiment_analysis_readiness": {
+    "ready": true,
+    "reason": "12 NS election-relevant entities found across politicians (Hadi Awang, Jalaluddin Alias), parties (PAS, UMNO, BN), issues (PAS-Umno cooperation, PAS offers UMNO NS leadership, BN Johor momentum, Johor domino effect, Negri Crisis), events (NS PRN Aug 1), and locations (Seremban). These entities are directly attributable to NS PRN 2026 political dynamics and suitable for sentiment analysis.",
+    "recommended_sentiment_targets": [
+      "PAS-BN/UMNO cooperation narrative (positive/negative framing across sources)",
+      "BN Johor victory momentum transfer to NS (optimism vs caution)",
+      "PAS offering UMNO NS leadership (strategic concession vs weakness)",
+      "Analysts' domino effect caution (skepticism toward Johor results predicting NS outcome)",
+      "Abdul Hadi Awang statements (credibility and reception)",
+      "Jalaluddin Alias BN momentum claims (confidence vs overconfidence)"
+    ],
+    "recommendation": "Data is READY for NS PRN 2026 sentiment analysis. Recommend running sentiment analysis on the 3 NS-relevant source files (thestar, astroawani, bharian) with focus on PAS-BN cooperation framing, BN momentum narrative, and analyst caution about domino effect. Cross-reference with 20260712 Johor PRN results sentiment for momentum transfer analysis."
+  }
+}

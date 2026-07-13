@@ -1,0 +1,96 @@
+=== Negeri Sembilan PRN 2026 - Entity Extraction Log ===
+Run: 20260712 09:21 UTC
+Classification: TLP:AMBER
+Operator: ns-entity-extraction cron agent
+
+--- Step 1: Script execution ---
+Command: bash scripts/ns-entity-extraction.sh
+Exit code: 0
+Collection used: intelligence/raw/20260712 (9 markdown files)
+Script raw output counts:
+  politicians: 0
+  parties: 1   <-- FALSE POSITIVE (see audit)
+  constituencies: 0
+  issues: 0
+  events: 0
+  organizations: 0
+  locations: 0
+
+--- Step 2: CVS compliance audit ---
+The script (ns-entity-extraction.sh) is NON-COMPLIANT with the CVS standard:
+  - Its embedded Python only regex-pattern-matches parties and constituencies;
+    5 of 7 categories (politicians, issues, events, organizations, locations) have
+    NO extraction logic at all -> empty by design.
+  - The single "1 parties" output is the string "bersatu", which matched the Malay
+    verb "to unite" in ohbulancom_20260712_053155.md line 93
+    ("kita semua bersatu untuk menikmati hidangan KFC") -- NOT the Bersatu party.
+  - No source attribution is recorded for any entity.
+Verdict: Script output rejected as non-compliant.
+
+--- Step 3: Manual source-attributed review (CVS-compliant) ---
+All 9 raw files were read in full and entities extracted ONLY where an exact
+source string backs the entity. No pattern-inferred entities.
+
+Verified counts per category:
+  politicians:    3   (Baharudin [Johor], Syed Saddiq [MUDA], President Tharman [SG])
+  parties:        0   (no Malaysian party referenced in article prose)
+  constituencies: 1   (Simpang Renggam -- Johor DUN, NOT an NS DUN; 0 of 36 NS DUN named)
+  issues:         8   (PRN Johor results, Kes Dana Armada, Terengganu logo, Hormuz,
+                       CIMB debit disruption, Google AI ads, Toronto shooting, SG-MY partnership)
+  events:         5   (PRN Johor results day, FIFA WC QF, UFC 329, Dana Armada verdict,
+                       Hari Keputeraan Ke-77 YDP Besar NS [past, royalty])
+  organizations:  10  (CIMB, Google, FIFA, UFC, Star Media Group, Media Mulia,
+                       McDonald's Tampin, RHMC, KFC, Reuters)
+  locations:      19  (incl. NS: Negeri Sembilan, Tampin, Port Dickson)
+  TOTAL VERIFIED: 46
+
+Non-political persons found (excluded from politicians count):
+  Conor McGregor, Max Holloway (UFC); Nabil Ahmad, Waris, Suki Low,
+  Aeril Zafrel, Wawa Zainal (entertainers).
+
+Borderline reference excluded:
+  Perikatan Nasional appears ONLY as image asset filename on astroawani
+  (41767104723_PerikatanNasional.jpg), not in article prose -> excluded to match
+  prior (20260711) CVS standard (prose-only party attribution).
+
+NS-relevant entities: 5
+  - Hari Keputeraan Ke-77 YDP Besar Negeri Sembilan (event, past, royalty)
+  - McDonald's Malaysia Tampin (organization, commercial)
+  - Negeri Sembilan (location, tag page)
+  - Tampin (location; also P132 parliamentary, not a DUN)
+  - Port Dickson / PD (location, celebrity gossip)
+
+--- Step 4: Key finding ---
+ZERO entities related to Negeri Sembilan PRN 2026 (state election) were found.
+This is the SECOND consecutive day (20260711 + 20260712) with zero NS election
+content. Dominant topic = PRN Johor results day (12 Julai 2026). NS PRN 2026 is
+scheduled for 1 August 2026 (~20 days away) -> CRITICAL intelligence gap.
+
+Source quality:
+  total files: 9 | substantive: 3 | 404/paywall: 6 | NS-specific: 1 (ohbulan tag page)
+  substantive: astroawanicom, ohbulancom, thestarcommy
+  404/minimal: malaysiakini, mstar, utusan, kosmo, sinarharian x2
+
+--- Step 5: Sentiment analysis readiness ---
+READY: FALSE
+Reason: No NS election-relevant entities to analyze. Running sentiment now would
+measure Johor results / World Cup / UFC sentiment, not NS PRN 2026.
+Recommendation: Fix collection targeting (ns-daily-collection.sh) to point at
+NS-specific sections, PRN NS candidate pages, and local NS political reporting
+before re-running extraction/sentiment.
+
+--- Output files (intelligence/processed/20260712/) ---
+  entities_politicians.json           (source-attributed, replaces script empty)
+  entities_parties.json                (verified empty; was false-positive ['bersatu'])
+  entities_constituencies.json         (source-attributed)
+  entities_issues.json                 (source-attributed)
+  entities_events.json                 (source-attributed)
+  entities_organizations.json          (source-attributed)
+  entities_locations.json              (source-attributed)
+  entities_consolidated.json           (CVS-compliant summary)
+  entities_verified_cvs_compliant.json (MASTER: full audit + all entities)
+
+Status: EXTRACTION COMPLETED (CVS-compliant). Data NOT ready for NS sentiment
+analysis (no NS election entities present).
+
+=== End of log ===

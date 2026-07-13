@@ -1,0 +1,56 @@
+{
+  "date": "2026-07-13T06:30:00+00:00",
+  "source_count": 7,
+  "entity_type": "politicians",
+  "method": "manual_source_attributed_review",
+  "cvs_standard": "All entities source-attributed. No pattern-inferred entities.",
+  "entities": [
+    "Tan Sri Abdul Hadi Awang",
+    "Datuk Seri Jalaluddin Alias",
+    "Datuk Onn Hafiz Ghazi",
+    "Ahmad Zahid",
+    "Syed Saddiq"
+  ],
+  "entities_detailed": [
+    {
+      "name": "Tan Sri Abdul Hadi Awang",
+      "role": "PAS President",
+      "source": "thestarcommy_20260713_010102.md",
+      "context": "Negri polls: PAS in talks with Umno for political cooperation, claims Abdul Hadi ... SEREMBAN: PAS is in talks with Umno to form a political cooperation to face the Aug 1 Negri Sembilan polls, claims Tan Sri Abdul Hadi Awang.",
+      "ns_relevant": true,
+      "note": "Directly claims PAS-Umno negotiations for NS PRN; key NS election figure"
+    },
+    {
+      "name": "Datuk Seri Jalaluddin Alias",
+      "role": "BN/UMNO leader (speaking on NS PRN)",
+      "source": "thestarcommy_20260713_010102.md",
+      "context": "SEREMBAN: Barisan Nasional's decisive victory in Johor will boost the coalition's morale and increase momentum in Negri Sembilan, which goes to the polls on Aug 1, says Datuk Seri Jalaluddin Alias.",
+      "ns_relevant": true,
+      "note": "Speaking from Seremban about NS PRN; key NS election figure"
+    },
+    {
+      "name": "Datuk Onn Hafiz Ghazi",
+      "role": "Johor Mentri Besar (second term, BN)",
+      "source": "thestarcommy_20260713_010102.md",
+      "context": "JOHOR BARU: Datuk Onn Hafiz Ghazi is no stranger to Johor's political landscape as he begins a second term as Mentri Besar, following Barisan Nasional's successful outing in the just-concluded Johor election",
+      "ns_relevant": false,
+      "note": "Johor MB, not NS; BN momentum narrative relevant to NS PRN context"
+    },
+    {
+      "name": "Ahmad Zahid",
+      "role": "Deputy PM (congratulates Johor MB appointment)",
+      "source": "thestarcommy_20260713_010102.md",
+      "context": "Ahmad Zahid congratulates Onn Hafiz on appointment as Johor MB",
+      "ns_relevant": false,
+      "note": "National-level; Johor MB appointment, not NS-specific"
+    },
+    {
+      "name": "Syed Saddiq",
+      "role": "MUDA President (Kes Dana Armada defendant)",
+      "source": "astroawanicom_20260713_010102.md; bhariancommy_20260713_010102.md",
+      "context": "Bapa harap karier politik Syed Saddiq tidak terhenti / Luahan hati Syed Saddiq menjelang keputusan Mahkamah Persekutuan esok",
+      "ns_relevant": false,
+      "note": "National court case (Kes Dana Armada); Federal Court verdict pending; not NS-specific"
+    }
+  ]
+}

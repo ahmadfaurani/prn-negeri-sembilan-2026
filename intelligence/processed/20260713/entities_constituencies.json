@@ -1,0 +1,19 @@
+{
+  "date": "2026-07-13T06:30:00+00:00",
+  "source_count": 7,
+  "entity_type": "constituencies",
+  "method": "manual_source_attributed_review",
+  "cvs_standard": "All entities source-attributed. No pattern-inferred entities.",
+  "entities": [
+    "48 DUN (Johor)"
+  ],
+  "entities_detailed": [
+    {
+      "name": "48 DUN (Johor)",
+      "source": "bhariancommy_20260713_010102.md",
+      "context": "BN Johor perlu buktikan kuasai 48 DUN bukan 'cek kosong'",
+      "ns_relevant": false,
+      "note": "Johor's DUN seats (BN won 48 per article); NOT one of NS's 36 DUN. Count mentioned, not individual seat names. Zero of NS's 36 DUN constituencies named in any source."
+    }
+  ]
+}

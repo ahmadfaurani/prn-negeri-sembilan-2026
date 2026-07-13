@@ -1,0 +1,28 @@
+{
+  "date": "20260712",
+  "timestamp": "2026-07-12T09:21:32.952687+00:00",
+  "source_count": 9,
+  "extraction_completed": true,
+  "method": "manual_source_attributed_review (CVS-compliant)",
+  "cvs_standard": "All entities source-attributed. No pattern-inferred entities.",
+  "entity_categories": [
+    "politicians",
+    "parties",
+    "constituencies",
+    "issues",
+    "events",
+    "organizations",
+    "locations"
+  ],
+  "verified_counts": {
+    "politicians": 3,
+    "parties": 0,
+    "constituencies": 1,
+    "issues": 8,
+    "events": 5,
+    "organizations": 10,
+    "locations": 19,
+    "total_verified": 46
+  },
+  "ns_relevant_entities_count": 5
+}

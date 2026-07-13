@@ -1,0 +1,299 @@
+# Negeri Sembilan PRN 2026 — Daily Intelligence Brief
+
+**Date:** 2026-07-11 (Saturday)
+**Classification:** TLP:AMBER
+**Reporting Period:** 24 hours (2026-07-10 09:00 — 2026-07-11 09:00 MYT)
+**Distribution:** State Campaign Leadership, DUN War Rooms
+**Prepared by:** PRN Negeri Sembilan 2026 Daily Intelligence Brief Agent
+**Election Date:** 1 August 2026 (21 days out)
+
+---
+
+## 1. Executive Summary
+
+**Statewide Position:** PH-led state government (17 seats baseline) maintains incumbency. No new verified NS election intelligence was collected in this reporting period. The standing baseline (20260710) — derived from contextual intelligence, NOT from verified source content — persists but is now explicitly **UNVERIFIED and decaying**.
+
+**Material Changes vs Prior Brief (20260710):**
+
+| Item | 20260710 Status | 20260711 Status | Change |
+|------|----------------|----------------|--------|
+| NS election content collected | Zero | Zero | No improvement |
+| Collection success rate | 1 source attempted | 10/13 sources (76.9%) | Script ran, but content is non-NS |
+| NS-relevant entities verified | 0 | 0 | Unchanged |
+| Escalation flags | 3 (1 HIGH, 2 MEDIUM) | 4 (2 HIGH, 1 MEDIUM, 1 LOW) | Escalated |
+| Royal crisis flag | HIGH (contextual) | HIGH (UNVERIFIED — carries forward) | Cannot confirm/update |
+| OpenOSINT sentiment pipeline | Not assessed | Confirmed non-operational (stub) | New finding |
+| Collection root cause | Unknown (login wall) | Identified: source URL targeting | Root cause found |
+
+**Critical Alerts:**
+
+🚨 **HIGH — ESC-001: Collection Targeting Failure (NS Content Blackout)**
+Today's collection retrieved 10 source files; 3 contained substantive content. ALL substantive content is dominated by PRN Johor (polling day 11 July 2026), World Cup 2026, and Commonwealth Games. ZERO Negeri Sembilan PRN 2026 election content — no NS politician, no NS DUN constituency, no NS election issue — appears in any verified source. Root cause: the collection script queries generic source landing pages, not NS-specific sections.
+
+🚨 **HIGH — ESC-002: Sentiment Pipeline Non-Operational (OpenOSINT Not Wired)**
+The `ns-sentiment-analysis.sh` embedded Python is a placeholder stub that emits empty arrays — it does NOT call the OpenOSINT/Aras Integrasi Qwen3.5-397B API. No API key/endpoint environment variables are set. Remote API (model.arasintegrasi.ai) returns HTTP 401. The entity extraction script has 5/7 categories with no extraction logic and produces pattern-inferred false positives (e.g., "bersatu" matched the Malay verb in a KFC article, "Puteri Wangsa" = Johor DUN mis-tagged as NS).
+
+⚠️ **MEDIUM — ESC-003: Standing High-Risk Flag Unverified (Royal Crisis Impact)**
+Prior baseline (20260710) flagged HIGH-severity royal succession crisis affecting 4 NS constituencies (N16 Seri Menanti, N17 Pilah, N18 Johol, N01 Kuala Klawang area). This flag CANNOT be confirmed or updated with today's verified source content. It carries forward as CONTEXTUAL ONLY, not CVS-verified. Status: UNVERIFIED, decaying.
+
+⚠️ **LOW — ESC-004: UMNO Reform Critique (National, Not NS)**
+One verifiable negative sentiment signal: "Umno needs fresh ideas, not just fresh faces" (freemalaysiatoday, headlines only, 404 page). National UMNO scope, NOT NS-specific. Does not meet NS escalation threshold.
+
+---
+
+## 2. Statewide Seat Position
+
+| Coalition | Seats Held (Baseline) | Projected | Change | CVS Status |
+|-----------|----------------------|-----------|--------|------------|
+| PH | 17 | 15–18 | ±0 | ⚠️ CONTEXTUAL — not verified today |
+| BN | 14 | 12–16 | −1 to +1 | ⚠️ CONTEXTUAL — not verified today |
+| PN | 5 | 4–6 | ±0 | ⚠️ CONTEXTUAL — not verified today |
+| Others | 0 | 0 | — | — |
+
+**Assessment [CVS: CONTEXTUAL — unverified, carries forward from 20260710]:**
+PH-BN unity government position stable but under pressure. PN consolidation in traditional strongholds expected. Royal crisis fallout affecting Malay-majority rural seats. PAS-Bersatu split (9 June 2026) may impact PN machinery effectiveness. **No seat projection has been verified by source content in this reporting period. All projections remain contextual only.**
+
+---
+
+## 3. Critical DUN Updates
+
+> **CVS NOTICE:** The following DUN classifications are carried forward from the 20260710 contextual baseline. They are NOT verified by today's source collection. Per CVS standard, these are classified as EXCLUDED (<60% verification) for operational decision-making and retained as directional context only. Field intelligence is required to re-verify.
+
+### Tier 1: Immediate Intervention Required (High Risk) — ⚠️ UNVERIFIED
+
+| DUN | Code | Risk Factor | Source of Assessment | CVS Status |
+|-----|------|-------------|---------------------|------------|
+| Seri Menanti | N16 | Royal town — ground zero of succession crisis | 20260710 contextual | EXCLUDED — needs field verification |
+| Pilah | N17 | Royal constituency — affected by crisis | 20260710 contextual | EXCLUDED — needs field verification |
+| Johol | N18 | Royal constituency — affected by crisis | 20260710 contextual | EXCLUDED — needs field verification |
+
+### Tier 2: Watch List (Competitive) — ⚠️ UNVERIFIED
+
+| DUN | Code | Risk Factor | Source of Assessment | CVS Status |
+|-----|------|-------------|---------------------|------------|
+| Repah | N27 | DAP-held (Veerapan incumbent), border with Johor | 20260710 contextual | EXCLUDED — needs verification |
+| Kota | N19 | Rembau — Khairy's home ground, PN contesting | 20260710 contextual | EXCLUDED — needs verification |
+| Chembong | N20 | Rembau — competitive | 20260710 contextual | EXCLUDED — needs verification |
+| Lenggeng | N21 | Rembau — competitive | 20260710 contextual | EXCLUDED — needs verification |
+
+### Tier 3: Stable (Favourable) — ⚠️ UNVERIFIED
+
+| DUN | Code | Assessment Basis | CVS Status |
+|-----|------|------------------|------------|
+| Lukut, Chuah, Si Rusa, Telok Kemang | N23–N26 | Port Dickson — PH fortress | EXCLUDED — needs verification |
+| Rahang, Temiang, Sikamat, Labu, Bukit Kepayang, Nilam | N09–N14 | Seremban — PH urban stronghold | EXCLUDED — needs verification |
+
+### All 36 DUN: Status GAP
+
+All 36 DUN remain classified as **GAP** in the DUN Master List. No 2023 election results (vote counts, margins, turnout), incumbent confirmation, or candidate nomination data has been collected for any seat. This is the single largest intelligence deficit in the campaign.
+
+---
+
+## 4. Top Voter Issues & Narratives
+
+### Verified Issues in Today's Collection [CVS: VERIFIED — source-attributed, but NOT NS-relevant]
+
+| Issue | Impact | Sentiment | Source | NS Relevance |
+|-------|--------|-----------|--------|--------------|
+| PRN Johor polling day | National | Neutral | astroawani, bharian | ❌ Johor, not NS |
+| UMNO reform — "fresh ideas not fresh faces" | National | Negative (critique) | freemalaysiatoday (headlines only) | ❌ National, not NS |
+| Durian export protocol to China | National | Neutral | astroawani | ❌ Policy, not NS |
+| Iran-US ceasefire/nuclear talks | International | Neutral | bharian | ❌ Foreign |
+| Football citizenship scandal | National | Negative | freemalaysiatoday | ❌ Sports, not NS |
+
+**NS Election Issues [CVS: NULL — zero NS election issues found in verified source content]**
+No NS election issues (royal succession, PAS-Bersatu split, economic livelihood, tourism/naval base) were verifiable in today's collection. Prior baseline issues carry forward as CONTEXTUAL ONLY.
+
+### Dominant Narratives — Verified Indicators Detected
+
+| Narrative Indicator | Type | Severity | Evidence | Trend |
+|---------------------|------|----------|----------|-------|
+| Johor election news dominance / NS coverage blackout | Collection/intelligence | **HIGH** | PRN Johor polling day (11 July 2026) dominates 2 of 3 substantive sources. NS content absent. | Ongoing — Johor polling day today; expected to dominate through results period |
+| NS election narrative vacuum | Intelligence gap | **HIGH** | No NS politician, party, constituency, or issue narrative detectable in verified sources | Persistent since 20260710 baseline |
+| UMNO reform narrative persists (national) | Political | **MEDIUM** | freemalaysiatoday analyst headlines: "fresh ideas not fresh faces" | Ongoing — reinforces prior "UMNO Leadership Confusion" baseline; NOT NS-sourced |
+
+### Sentiment Summary
+
+**NS PRN 2026 Election Sentiment [CVS: NULL — cannot be produced]**
+- Positive: 0 | Neutral: 0 | Negative: 0
+- Verdict: No NS election entities exist in verified source content to assess.
+
+**All Verified Political Entities Today (non-NS):**
+- **Positive (1):** Fahmi Fadzil (receiving honours — non-NS)
+- **Neutral (4):** PRN Johor procedural, Onn Hafiz voting, Mohamad Sabu durian policy, Anwar-Sanusi Kedah exchange
+- **Negative (1):** UMNO reform critique (national, headlines only)
+- **No Data (7 categories):** PH, PN, DAP, PKR, PAS, Bersatu (NS-relevance), All NS politicians, All 36 NS DUN, All NS election issues
+
+---
+
+## 5. Opposition Movements
+
+> **CVS NOTICE:** The following assessments are carried forward from 20260710 contextual baseline. Not verified by today's source collection. Retained as directional context.
+
+**BN Activity [CONTEXTUAL — unverified]:**
+- 14 assemblymen withdrew support during April 2026 crisis (later reversed by Zahid intervention)
+- Grassroots leadership confusion reported — not confirmed by today's collection
+- Messaging focus: Economic stability, rural development, UMNO revival
+- **Today's signal:** National UMNO reform critique ("fresh ideas, not fresh faces") from freemalaysiatoday — mildly critical of UMNO leadership but national scope only, no NS attribution
+
+**PN Activity [CONTEXTUAL — unverified]:**
+- Expected inroads in rural Malay areas (Jelebu N01–N04, Jempol N05–N08, Rembau N19–N22)
+- PAS-Bersatu split (9 June 2026) may weaken campaign machinery — not confirmed
+- Digital outreach intensifying on social media — not confirmed
+- Messaging focus: Anti-corruption, Islamic governance, Malay consolidation
+
+**Independent/Third Party [CONTEXTUAL — unverified]:**
+- No significant independent candidate activity detected
+- Royal institution actors (4 Undangs) involved in succession dispute — status unchanged from prior baseline
+
+---
+
+## 6. Machinery Readiness Gaps
+
+| Gap ID | DUN Category | Status | Gap Description | Action Required | Owner | Deadline |
+|--------|--------------|--------|----------------|-----------------|-------|----------|
+| GAP-01 | All 36 DUN | 🔴 CRITICAL | No 2023 election results collected (vote counts, margins, turnout). All seats classified GAP in master list. | Manual SPR data scrape — all 36 DUN | Data Team | 2026-07-14 |
+| GAP-02 | Royal constituencies (N16–N18, N01) | ⚠️ HIGH RISK | Royal succession crisis impact UNVERIFIED — cannot confirm, update, or down-escalate without NS-sourced collection | Stakeholder engagement + field sentiment monitoring | Political Director | 2026-07-15 |
+| GAP-03 | Collection pipeline | 🔴 CRITICAL | ns-daily-collection.sh queries generic landing pages, not NS-specific sections. Returns Johor/404/entertainment pages. | Reconfigure source URLs to NS-specific sections; add NS-keyword filters; re-run | Intel Director | 2026-07-12 |
+| GAP-04 | Sentiment pipeline | 🔴 CRITICAL | ns-sentiment-analysis.sh is a stub (emits empty arrays). OpenOSINT/Aras API not wired (HTTP 401). Entity extraction has 5/7 empty categories, produces false positives. | Wire API credentials OR confirm agent-manual review as standing method; rebuild extraction patterns | Intel Director | 2026-07-12 |
+| GAP-05 | Rembau seats (N19–N22) | ⚠️ Competitive | Khairy factor — competitive assessment UNVERIFIED | Enhanced ground game, youth outreach | Ops Chief | Ongoing |
+| GAP-06 | Rural Malay seats | ⚠️ Vulnerable | PAS-Bersatu split impact on PN machinery — UNVERIFIED | Monitor PN machinery status | Intel Director | Ongoing |
+| GAP-07 | Candidate nominations | 🔴 CRITICAL | Nomination day approaching (est. 18 July). Zero candidate data collected for any DUN. | Browser automation for nomination tracking | Intel Director | 2026-07-16 |
+
+---
+
+## 7. Priority Stakeholder Developments
+
+> **CVS NOTICE:** All stakeholder assessments below are carried forward from 20260710 contextual baseline. Not verified by today's source collection.
+
+**Supportive [CONTEXTUAL — unverified]:**
+- PH urban base reported stable (Seremban N09–N14, Port Dickson N23–N26)
+- BN component parties cooperating under unity framework post-April crisis
+
+**Neutral → Supportive [CONTEXTUAL — unverified]:**
+- Pending field intelligence — no verification possible
+
+**Neutral → Opposed [CONTEXTUAL — unverified]:**
+- 14 UMNO assemblymen (April 2026 withdrawal — later reversed by Zahid)
+- Royal institution actors (4 Undangs) — succession dispute
+
+**High-Risk [CONTEXTUAL — unverified]:**
+- Undecided voters in royal constituencies (N16 Seri Menanti, N17 Pilah, N18 Johol)
+- UMNO grassroots in Malay-majority rural seats
+- PAS-Bersatu members post-split (PN machinery impact)
+
+**Today's Only Verified NS-Relevant Entity:**
+- McDonald's Malaysia opened a new branch in Tampin (ohbulan source) — commercial, not political
+- "Hari Keputeraan Ke-77 Yang Dipertuan Besar Negeri Sembilan" referenced in ohbulan — past event (Jan 2025), royalty, not election-related
+
+---
+
+## 8. Recommended Decisions
+
+| # | Decision | Owner | Deadline | Priority | CVS Basis |
+|---|----------|-------|----------|----------|-----------|
+| 1 | **Reconfigure `ns-daily-collection.sh`** to NS-specific source URLs (e.g., `/negeri-sembilan/`, `/wilayah/negeri-sembilan/`, NS politician/MB social feeds, SPR NS pages). Add NS-keyword content filters to discard Johor/non-NS pages. Re-run collection. | Intel Director | 2026-07-12 | **URGENT/HIGH** | VERIFIED — root cause identified |
+| 2 | **Wire OpenOSINT/Aras Qwen3.5-397B API** into `ns-sentiment-analysis.sh` with auth credentials, OR formally confirm agent-manual review as the standing CVS-compliant method. | Intel Director | 2026-07-12 | **URGENT/HIGH** | VERIFIED — pipeline confirmed non-operational |
+| 3 | **Rebuild `ns-entity-extraction.sh`** with NS-specific extraction patterns (36 DUN names, NS politician names) and source attribution for all 7 categories. | Intel Director | 2026-07-13 | **HIGH** | VERIFIED — 5/7 categories empty, false positives identified |
+| 4 | **Manual SPR data collection** for 2023 NS election results — all 36 DUN (vote counts, margins, turnout, winners). | Data Team | 2026-07-14 | **HIGH** | VERIFIED — all 36 DUN classified GAP |
+| 5 | **Establish NS-sourced collection** to verify/refresh the standing royal crisis sentiment flag (N16 Seri Menanti, N17 Pilah, N18 Johol, N01 Kuala Klawang). Cannot down-escalate without verified source content. | Intel Director | 2026-07-12 | **HIGH** | MEDIUM — flag carries forward unverified |
+| 6 | **Stakeholder engagement** with Undang institutions — verify succession dispute status and impact on voter sentiment. | Political Director | 2026-07-15 | **HIGH** | CONTEXTUAL — requires field verification |
+| 7 | **Track UMNO reform narrative** — monitor whether national "fresh ideas" critique propagates into NS-attributed coverage with body text. | Intel Director | Ongoing | **MEDIUM** | MEDIUM — single-source (freemalaysiatoday) |
+| 8 | **Deploy field stakeholder interviews** in royal constituencies (Seri Menanti, Pilah, Johol) to replace decaying contextual baseline with verified ground intelligence. | Field Ops | 2026-07-16 | **MEDIUM** | EXCLUDED — contextual baseline decaying |
+| 9 | **Begin candidate nomination tracking** — nomination day estimated 18 July. Zero candidate data collected. Set up browser automation or manual monitoring. | Intel Director | 2026-07-16 | **HIGH** | VERIFIED — no nomination data exists |
+| 10 | **Monitor PAS-Bersatu split impact** on PN campaign machinery in rural Malay seats. | Intel Director | Ongoing | **MEDIUM** | CONTEXTUAL — unverified |
+
+---
+
+## Appendix A: Data Confidence & CVS Verification
+
+### Collection Status (VERIFIED)
+
+| Metric | Value |
+|--------|-------|
+| Sources attempted | 13 |
+| Sources successful | 10 (76.9%) |
+| Timeouts | 0 |
+| Errors | 3 |
+| Files with substantive content | 3 (astroawani, bharian, ohbulan) |
+| Files with 404/minimal content | 7 (malaysiakini, mstar, sinarharian, utusan, freemalaysiatoday, kosmo, thestar) |
+| NS-specific files | 1 (ohbulan — entertainment tag page, old 2021–2025 content) |
+
+### Entity Extraction (VERIFIED via manual source-attributed review)
+
+| Category | Count | NS-Relevant | NS-Election-Relevant |
+|----------|-------|-------------|---------------------|
+| Politicians | 9 | 0 | 0 |
+| Parties | 1 | 0 | 0 |
+| Constituencies | 2 | 0 | 0 |
+| Issues | 5 | 0 | 0 |
+| Events | 4 | 1 (past royalty event) | 0 |
+| Organizations | 10 | 1 (McDonald's Tampin) | 0 |
+| Locations | 14 | 3 (NS state, Tampin, PD — non-political) | 0 |
+| **Total** | **45** | **6** | **0** |
+
+### Sentiment Analysis (COMPLETED with critical limitations)
+
+| Metric | Value |
+|--------|-------|
+| Method | Manual source-attributed review (CVS-compliant). Script stub non-operational. |
+| NS election entities analyzed | 0 |
+| NS election sentiment verdict | NULL — cannot be produced from this collection |
+| OpenOSINT/Aras API status | NOT ACTIVE (stub, HTTP 401, no credentials) |
+| Runtime model mismatch | Config: Qwen3.5-397B-A17B (Aras) / Runtime: GLM-5.2 (custom) |
+
+### CVS Verification Rate
+
+| Domain | CVS Rate | Classification |
+|--------|----------|----------------|
+| Collection methodology (sources retrieved) | ~77% (10/13) | VERIFIED |
+| Entity extraction (source-attributed review) | 100% of extracted entities | VERIFIED |
+| NS PRN 2026 election intelligence content | **0%** (zero NS election entities found) | **EXCLUDED** |
+| Prior baseline NS assessments (carried forward) | **<60%** (contextual only, not verified today) | **EXCLUDED** |
+| UMNO reform narrative (national) | 60% (single-source, headlines only, 404 page) | MEDIUM |
+
+### Overall Confidence Level: LOW
+
+**Rationale:** While the collection pipeline executed successfully (76.9% source retrieval rate) and entity extraction was completed via CVS-compliant manual review, the intelligence yield for NS PRN 2026 is zero. No NS politician, party, constituency, or election issue was verified in any source. The standing contextual baseline from 20260710 is decaying without verification. Two critical pipeline failures (collection targeting + sentiment API) prevent automated intelligence production.
+
+### Data Gaps & Warnings
+
+1. 🔴 **NS content blackout** — collection script queries generic landing pages, not NS-specific sections. Root cause identified but not yet fixed.
+2. 🔴 **Sentiment pipeline non-operational** — OpenOSINT/Aras API not wired. Agent manual review is the only CVS-compliant path.
+3. 🔴 **All 36 DUN classified GAP** — no 2023 election results, no incumbent data, no candidate nominations.
+4. ⚠️ **Royal crisis flag decaying** — HIGH severity, but UNVERIFIED since 20260710. Cannot confirm, update, or down-escalate.
+5. ⚠️ **Social media sentiment** — not yet integrated into collection pipeline.
+6. ⚠️ **Johor election dominance** — PRN Johor polling day (11 July 2026) crowds out NS coverage in national sources. Expected to persist through Johor results period.
+7. ⚠️ **Nomination day approaching** (est. 18 July) — zero candidate tracking data collected.
+
+### Recommendations from Analysis
+
+- **URGENT (HIGH):** Reconfigure `ns-daily-collection.sh` to NS-specific source URLs and add NS-keyword content filters; re-run collection immediately
+- **URGENT (HIGH):** Wire OpenOSINT/Aras Qwen3.5-397B API into `ns-sentiment-analysis.sh` with auth credentials OR confirm agent-manual review as the standing CVS-compliant method
+- **HIGH:** Rebuild `ns-entity-extraction.sh` with NS-specific extraction patterns (36 DUN names, NS politician list) and source attribution for all 7 categories
+- **HIGH:** Establish NS-sourced collection to verify/refresh the standing royal crisis sentiment flag (Seri Menanti, Pilah, Johol)
+- **HIGH:** Manual SPR data collection for 2023 NS election results (all 36 DUN) remains outstanding
+- **MEDIUM:** Track whether national UMNO reform critique ("fresh ideas") propagates into NS-attributed coverage
+
+---
+
+## Appendix B: Escalation Flag Register
+
+| Flag ID | Severity | Category | Status | Carries Forward From |
+|---------|----------|----------|--------|---------------------|
+| ESC-001-20260711 | HIGH | Collection Targeting Failure (NS Content Blackout) | NEW — root cause identified | ESC-002 (20260710 Data Collection Failure) — escalated MEDIUM→HIGH |
+| ESC-002-20260711 | HIGH | Sentiment Pipeline Non-Operational (OpenOSINT Not Wired) | NEW — confirmed | — |
+| ESC-003-20260711 | MEDIUM | Standing High-Risk Flag Unverified (Royal Crisis Impact) | UNVERIFIED — decaying | ESC-001 (20260710 Royal Crisis Impact, HIGH) — status unchanged, now explicitly UNVERIFIED |
+| ESC-004-20260711 | LOW | UMNO Reform Critique (National) | NEW — below NS threshold | — |
+
+---
+
+**Next Brief:** 2026-07-12 09:00 MYT
+**Contact:** State Intelligence Director
+**Workspace:** `/home/p62operator/.openclaw/workspace-ns/`
+**Framework:** PIR Framework v1.0
+**CVS Standard:** 100% absolute truth verification mandatory. No single-source claims in operational briefs without explicit flagging.
+
+---
+
+*TLP:AMBER — Recipients may share with members of their own organisation and clients on a need-to-know basis. Source attribution required. Not for public release.*
