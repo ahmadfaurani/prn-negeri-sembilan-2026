@@ -204,9 +204,9 @@ brief = f"""# Negeri Sembilan PRN 2026 - Daily Intelligence Brief
 {chr(10).join(narratives_table) if narratives_table else "| No narratives tracked | - | - | - |"}
 
 ### Sentiment Summary
-**Positive:** {", ".join(sentiment_summary.get("positive", ["N/A"]))}
-**Neutral:** {", ".join(sentiment_summary.get("neutral", ["N/A"]))}
-**Negative:** {", ".join(sentiment_summary.get("negative", ["N/A"]))}
+**Positive:** {", ".join([e.get("entity", str(e)) if isinstance(e, dict) else str(e) for e in sentiment_summary.get("positive", ["N/A"])])}
+**Neutral:** {", ".join([e.get("entity", str(e)) if isinstance(e, dict) else str(e) for e in sentiment_summary.get("neutral", ["N/A"])])}
+**Negative:** {", ".join([e.get("entity", str(e)) if isinstance(e, dict) else str(e) for e in sentiment_summary.get("negative", ["N/A"])])}
 
 ---
 

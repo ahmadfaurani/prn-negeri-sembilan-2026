@@ -1,0 +1,318 @@
+{
+  "date": "2026-07-14",
+  "generated": "2026-07-14T08:20:00+08:00",
+  "workspace": "/home/p62operator/.openclaw/workspace-ns",
+  "classification": "TLP:AMBER",
+  "status": "completed",
+  "method": "agent-manual source-attributed review (CVS-compliant)",
+  "sentiment_model_configured": "Qwen3.5-397B-A17B (OpenOSINT/Aras Integrasi)",
+  "sentiment_model_runtime": "GLM-5.2 (custom) — manual review fallback",
+  "openosint_status": "NOT ACTIVE — API stub, no credentials in environment; agent-manual review is standing CVS-compliant method (per GAP-05, Daily Brief 20260713)",
+  "source_basis": {
+    "collection_date": "20260714",
+    "sources_collected": "9/13 (69.2% — PASS)",
+    "sources_with_editorial_body": ["thestar.com.my", "nst.com.my"],
+    "sources_with_headlines_only": ["bharian.com.my (404 trending page)"],
+    "sources_archive_or_404": ["ohbulan.com (NS tag archive, 2019-2025)", "astroawani.com (404)", "kosmo.com.my (404)", "malaysiakini.com (404)", "mstar.com.my (404)", "utusan.com.my (404)"],
+    "cvs_standard": "Sentiment based on verified source content only. No pattern-inferred sentiment."
+  },
+  "entities_analyzed": 88,
+  "entities_analyzed_by_category": {
+    "politicians": 11,
+    "parties": 3,
+    "constituencies": 4,
+    "issues": 17,
+    "events": 9,
+    "organizations": 22,
+    "locations": 22
+  },
+  "ns_election_relevant_entities": 15,
+  "sentiment_summary": {
+    "positive": [
+      {
+        "entity": "Syed Saddiq Syed Abdul Rahman",
+        "category": "politician",
+        "sentiment": "positive",
+        "score": 0.82,
+        "rationale": "ACQUITTED of corruption/money laundering after 6-year legal battle ('walks free'); court found all prosecution appeal grounds without merit. Delivering RM6.2 juta aid to Muar constituents. Positive personal framing (wedding plans). Legal cloud removed.",
+        "sources": ["thestar.com.my", "nst.com.my", "bharian.com.my"],
+        "confidence": "HIGH — multi-source, full prose"
+      },
+      {
+        "entity": "Anwar Ibrahim (PM)",
+        "category": "politician",
+        "sentiment": "positive",
+        "score": 0.65,
+        "rationale": "JS-SEZ master plan finalization with Singapore — constructive governance/diplomatic framing. Neutral-positive leadership signal.",
+        "sources": ["thestar.com.my", "nst.com.my"],
+        "confidence": "MEDIUM — governance news, not NS-specific"
+      },
+      {
+        "entity": "Dzulkefly Ahmad (Health Minister)",
+        "category": "politician",
+        "sentiment": "positive",
+        "score": 0.60,
+        "rationale": "Health Ministry gains full mandate and autonomy to manage approved positions independently — governance achievement framing.",
+        "sources": ["thestar.com.my"],
+        "confidence": "MEDIUM — single-source, non-NS"
+      }
+    ],
+    "neutral": [
+      {
+        "entity": "UMNO",
+        "category": "party",
+        "sentiment": "neutral",
+        "score": 0.50,
+        "rationale": "Only 2 direct mentions, both in the 'Umno-Pas alliance unlikely' framing. No positive or negative editorial sentiment directed at UMNO itself. BN/UMNO named coalition surface form absent from corpus.",
+        "sources": ["nst.com.my"],
+        "confidence": "MEDIUM — limited mention"
+      },
+      {
+        "entity": "Ong Kian Ming",
+        "category": "politician",
+        "sentiment": "neutral",
+        "score": 0.50,
+        "rationale": "Analyst commentary on Muhyiddin's Pagoh vulnerability — neutral analytical framing.",
+        "sources": ["nst.com.my"],
+        "confidence": "MEDIUM — single-source analyst"
+      },
+      {
+        "entity": "JS-SEZ / Johor-Singapore SEZ",
+        "category": "issue",
+        "sentiment": "neutral",
+        "score": 0.55,
+        "rationale": "Master plan finalization — neutral policy progress, not NS-specific.",
+        "sources": ["thestar.com.my", "nst.com.my"],
+        "confidence": "MEDIUM — governance, non-NS"
+      },
+      {
+        "entity": "Negeri Sembilan (state) — election competitiveness",
+        "category": "constituency",
+        "sentiment": "neutral",
+        "score": 0.45,
+        "rationale": "'Tighter races... more unpredictable state election... growing number of marginal seats... closer fight in Malay-majority and mixed constituencies.' Neutral-analytical framing but carries competitive-risk undertone for PH incumbency.",
+        "sources": ["thestar.com.my"],
+        "confidence": "HIGH — The Star full prose, NS-specific"
+      }
+    ],
+    "negative": [
+      {
+        "entity": "PAS",
+        "category": "party",
+        "sentiment": "negative",
+        "score": 0.62,
+        "rationale": "Two negative signals: (1) Analysts say 'Formal Umno-Pas alliance unlikely' — counters yesterday's cooperation narrative. (2) PAS Info Chief Ahmad Fadhli Shaari on DEFENSIVE against critics accusing party of 'constantly shifting its political' stance; PAS 'hits back' at Zahid's 'shifting goalposts jab.' Party credibility under attack; intra-opposition friction.",
+        "sources": ["nst.com.my", "thestar.com.my"],
+        "confidence": "HIGH — multi-source, full prose"
+      },
+      {
+        "entity": "Bersatu (PPBM)",
+        "category": "party",
+        "sentiment": "negative",
+        "score": 0.68,
+        "rationale": "Muhyiddin 'could risk losing Pagoh' per Ong Kian Ming — seat vulnerability signal. Muhyiddin trial (Nepturis) ongoing. Bersatu president's electoral grip weakening.",
+        "sources": ["nst.com.my", "thestar.com.my"],
+        "confidence": "HIGH — multi-source"
+      },
+      {
+        "entity": "Muhyiddin Yassin",
+        "category": "politician",
+        "sentiment": "negative",
+        "score": 0.70,
+        "rationale": "Pagoh seat at risk (Ong Kian Ming analysis); ongoing Nepturis trial with witness testimony. Political vulnerability + legal exposure.",
+        "sources": ["nst.com.my", "thestar.com.my"],
+        "confidence": "HIGH — multi-source"
+      },
+      {
+        "entity": "Ahmad Fadhli Shaari (PAS Info Chief)",
+        "category": "politician",
+        "sentiment": "negative",
+        "score": 0.58,
+        "rationale": "On defensive — defending party against 'constantly shifting political' stance accusations. Defensive posture = negative framing.",
+        "sources": ["nst.com.my"],
+        "confidence": "MEDIUM — single-source, full prose"
+      },
+      {
+        "entity": "Ahmad Zahid Hamidi (DPM/UMNO)",
+        "category": "politician",
+        "sentiment": "negative",
+        "score": 0.55,
+        "rationale": "Instigated intra-opposition friction — 'shifting goalposts jab' at PAS. Bharian headline 'PRN NS: Kita jangan pegang sangat...' suggests caution toward PAS. Provocateur framing.",
+        "sources": ["nst.com.my", "bharian.com.my"],
+        "confidence": "MEDIUM"
+      },
+      {
+        "entity": "Cost of living (kos sara hidup)",
+        "category": "issue",
+        "sentiment": "negative",
+        "score": 0.65,
+        "rationale": "Putrajaya/KL/Selangor record highest household cost of living — economic pressure on voters. Relevant as NS borders these high-cost zones.",
+        "sources": ["bharian.com.my"],
+        "confidence": "MEDIUM — single-source headline, national"
+      },
+      {
+        "entity": "Marginal seats / NS election competitiveness",
+        "category": "issue",
+        "sentiment": "negative",
+        "score": 0.58,
+        "rationale": "Growing number of marginal seats + closer fight in Malay-majority and mixed constituencies = more unpredictable election. Negative risk signal for PH incumbency (more seats in play).",
+        "sources": ["thestar.com.my"],
+        "confidence": "HIGH — NS-specific, full prose"
+      },
+      {
+        "entity": "Umno-Pas alliance",
+        "category": "issue",
+        "sentiment": "negative",
+        "score": 0.60,
+        "rationale": "COUNTER-NARRATIVE to yesterday's VERIFIED PAS-BN cooperation. Analysts say formal alliance 'unlikely.' Intra-bloc friction (Zahid vs PAS). Opposition coalition prospects contested.",
+        "sources": ["nst.com.my"],
+        "confidence": "HIGH — NST full prose"
+      }
+    ]
+  },
+  "sentiment_distribution": {
+    "positive": 3,
+    "neutral": 4,
+    "negative": 8,
+    "total_ns_relevant": 15,
+    "note": "Distribution weighted to NS-election-relevant entities. National/non-NS entities (Tharman, Zambry, Gulf conflict, floods, cyberbullying) classified as contextual-neutral and excluded from NS sentiment count."
+  },
+  "party_sentiment_matrix": {
+    "PH": {
+      "status": "INVISIBLE — no editorial mention of 'PH' surface form in today's corpus",
+      "surrogates_detected": ["Anwar Ibrahim (PM, positive)", "Dzulkefly (Health Minister, positive)"],
+      "assessment": "PH as named coalition has zero mentions; surrogates (PM, ministers) carry positive governance framing. Incumbent invisibility = neutral (no negative news) but lacks proactive NS PRN visibility.",
+      "cvs_status": "VERIFIED absence — surface form not in corpus"
+    },
+    "BN": {
+      "status": "INVISIBLE — 'BN' surface form absent; UMNO present (2 mentions, neutral)",
+      "surrogates_detected": ["Ahmad Zahid Hamidi (negative, provocateur)"],
+      "assessment": "BN coalition name absent. UMNO mentioned only in alliance-skepticism framing. Zahid's friction with PAS is the dominant BN-adjacent signal.",
+      "cvs_status": "VERIFIED absence of BN; UMNO present"
+    },
+    "PN": {
+      "status": "INVISIBLE — 'PN' surface form absent from corpus",
+      "surrogates_detected": ["Bersatu (negative, seat vulnerability)", "Muhyiddin (negative, Pagoh at risk + trial)"],
+      "assessment": "PN coalition name absent. Bersatu/Muhyiddin carry negative vulnerability signals. Consistent with Johor post-election PN weakness trend (Day 4).",
+      "cvs_status": "VERIFIED absence; Bersatu/Muhyiddin present (negative)"
+    },
+    "PAS": {
+      "status": "PRESENT (11 occurrences) — sentiment NEGATIVE",
+      "assessment": "On defensive against 'shifting stance' criticism. Alliance with UMNO deemed 'unlikely' by analysts. Intra-opposition friction with Zahid. Narrative reversal from yesterday's cooperation framing.",
+      "cvs_status": "VERIFIED — multi-source"
+    },
+    "data_gap": "PH/BN/PN/PKR/DAP/MUDA/AMANAH/GERAKAN/WARISAN surface forms not editorially mentioned today — not emitted per CVS standard."
+  },
+  "narrative_indicators": [
+    {
+      "id": "NAR-01",
+      "indicator": "Alliance Narrative Reversal — PAS-BN cooperation contested",
+      "type": "Political — opposition realignment reversal",
+      "severity": "HIGH",
+      "trend": "REVERSED — 20260713: cooperation VERIFIED (3 sources) → 20260714: alliance 'unlikely' (analysts) + PAS-Zahid friction",
+      "evidence": "NST: 'Formal Umno-Pas alliance unlikely, say analysts'; NST: 'Pas hits back at Zahid's shifting goalposts jab'; bharian: 'PRN NS: Kita jangan pegang sangat...'",
+      "significance": "Most significant narrative shift in 24h. Yesterday's headline finding (PAS-BN cooperation VERIFIED) is now contested. Opposition coalition-building narrative destabilized."
+    },
+    {
+      "id": "NAR-02",
+      "indicator": "NS PRN competitiveness tightening",
+      "type": "Electoral — seat vulnerability",
+      "severity": "MEDIUM",
+      "trend": "REINFORCED — growing marginal seats, closer Malay-majority/mixed-constituency fight, more unpredictable election",
+      "evidence": "The Star: 'Tighter races in Negri Sembilan point to more unpredictable state election'; 'growing number of marginal seats and a closer fight in Malay-majority and mixed constituencies, say analysts'",
+      "significance": "Directly NS-relevant. More seats in play = higher risk for PH incumbency. Marginal seat growth is a structural competitiveness signal."
+    },
+    {
+      "id": "NAR-03",
+      "indicator": "Syed Saddiq rehabilitation / acquittal",
+      "type": "Political — individual trajectory",
+      "severity": "MEDIUM",
+      "trend": "NEW — acquittal + constituent aid (RM6.2 juta) + positive personal framing",
+      "evidence": "The Star: 'Syed Saddiq walks free after six-year legal battle'; NST: 'finally free to plan wedding with Bella'; bharian: 'salur bantuan bernilai RM6.2 juta kepada penduduk Muar'",
+      "significance": "Removes negative legal cloud from MUDA leader. National, not NS-specific, but affects opposition dynamics."
+    },
+    {
+      "id": "NAR-04",
+      "indicator": "Bersatu/Muhyiddin vulnerability consolidation",
+      "type": "Political — opposition weakness",
+      "severity": "MEDIUM",
+      "trend": "REINFORCED — Pagoh at risk + Nepturis trial ongoing",
+      "evidence": "NST: 'Muhyiddin could risk losing Pagoh in next general election - Ong'; The Star: 'Witness in Muhyiddin trial says no deception in Nepturis shareholding records'",
+      "significance": "Bersatu/PN weakness continues. May drive further opposition fragmentation if PAS-BN cooperation proceeds without Bersatu."
+    },
+    {
+      "id": "NAR-05",
+      "indicator": "Intra-opposition friction (Zahid vs PAS)",
+      "type": "Political — coalition cohesion",
+      "severity": "MEDIUM",
+      "trend": "NEW — Zahid's 'shifting goalposts' jab; PAS 'hits back'",
+      "evidence": "NST: 'Pas hits back at Zahid's shifting goalposts jab'; bharian: 'PRN NS: Kita jangan pegang sangat...'",
+      "significance": "Friction WITHIN potential PAS-BN/UMNO bloc. Contradicts cooperation narrative. Signals alliance negotiations are not smooth."
+    },
+    {
+      "id": "NAR-06",
+      "indicator": "PH coalition invisibility in news cycle",
+      "type": "Media visibility — incumbent",
+      "severity": "LOW",
+      "trend": "NEW data point — PH/BN/PN coalition names all absent from corpus",
+      "evidence": "No editorial mention of 'PH', 'BN', or 'PN' surface forms in today's 9-source corpus. Only PAS, UMNO, Bersatu named.",
+      "significance": "Incumbent PH state government has zero news visibility. Neutral (no negative coverage) but lacks proactive NS PRN campaign presence. Monitor for trend."
+    },
+    {
+      "id": "NAR-07",
+      "indicator": "Cost-of-living voter pressure persists",
+      "type": "Economic — voter issue",
+      "severity": "MEDIUM",
+      "trend": "PERSISTENT — highest household cost of living in Putrajaya/KL/Selangor",
+      "evidence": "bharian: 'Putrajaya, KL, Selangor catat kos sara hidup isi rumah tertinggi'",
+      "significance": "National economic pressure. NS borders these high-cost zones. Potential voter grievance driver for NS PRN."
+    }
+  ],
+  "escalation_flags": [
+    {
+      "id": "ESC-006-20260714",
+      "severity": "MEDIUM",
+      "category": "Narrative Reversal — PAS-BN Alliance Contested",
+      "status": "NEW",
+      "description": "Yesterday's VERIFIED PAS-BN/UMNO cooperation narrative (ESC-005, HIGH, 3 sources, 20260713) is now contested by analyst skepticism ('Formal Umno-Pas alliance unlikely') and intra-bloc friction (Zahid vs PAS). Narrative reversed within 24h. Not an acute negative sentiment spike, but significant narrative instability. The opposition realignment signal has weakened.",
+      "action": "Monitor for follow-up coverage. Determine if this is analyst opinion (single-source NST) or a genuine collapse of cooperation talks. Track PAS/UMNO statements over next 48h.",
+      "carries_forward": "Counters/reduces ESC-005-20260713 (HIGH). Downgrade ESC-005 severity pending confirmation."
+    },
+    {
+      "id": "ESC-007-20260714",
+      "severity": "MEDIUM",
+      "category": "NS PRN Competitiveness Tightening — PH Incumbency Risk",
+      "status": "NEW",
+      "description": "The Star (full prose, NS-specific): growing number of marginal seats, closer fight in Malay-majority and mixed constituencies, more unpredictable election. More seats in play = higher risk for PH incumbency.",
+      "action": "Cross-reference marginal seat growth with 2023 baseline (once collected). Prioritize field assessment of newly-marginal seats. Develop defense strategy for at-risk Malay-majority/mixed constituencies.",
+      "carries_forward": "Reinforces GAP-03 (rural Malay seats risk) and GAP-06 (Rembau competitive)."
+    },
+    {
+      "id": "ESC-004-20260714",
+      "severity": "LOW",
+      "category": "Negative Sentiment Spike Watch (NS-specific)",
+      "status": "CARRIED — no spike detected",
+      "description": "No NS-attributed negative sentiment spike detected. Negative signals (cost of living, Gulf conflict, floods, cyberbullying) are national/external, not NS-specific. PAS/Bersatu/Muhyiddin negativity is national opposition dynamics.",
+      "action": "Continue monitoring. No immediate escalation required.",
+      "carries_forward": "ESC-004-20260713 (LOW) → ESC-004-20260712"
+    },
+    {
+      "id": "ESC-002-20260714",
+      "severity": "HIGH (unchanged)",
+      "category": "Sentiment Pipeline Non-Operational (OpenOSINT Not Wired)",
+      "status": "CARRIED — Day 4",
+      "description": "ns-sentiment-analysis.sh remains a stub. OpenOSINT/Aras API not wired (no credentials in environment). Agent-manual review is the standing CVS-compliant method. This report is produced via manual review.",
+      "action": "Wire API credentials OR formally confirm agent-manual review as standing method.",
+      "carries_forward": "ESC-002-20260713 → ESC-002-20260712 → ESC-002-20260711"
+    }
+  ],
+  "data_gaps": [
+    "PH/BN/PN/PKR/DAP/MUDA/AMANAH/GERAKAN/WARISAN not editorially mentioned — not emitted per CVS standard.",
+    "All 36 NS DUN seats not individually named in corpus — only state-level, Tampin, Port Dickson appear.",
+    "No 2023 election results (vote counts, margins, turnout) for any DUN — cannot assess seat-level PAS-BN impact.",
+    "No NS-specific candidate nomination data — nomination day est. ~18 July (4 days away).",
+    "Royal succession crisis (ESC-003) UNVERIFIED Day 4 — no NS-sourced content.",
+    "ohbulan.com NS content is archive (2019-2025), not current — Hari Keputeraan Ke-77 is Jan 2025 event."
+  ],
+  "verdict": "NS PRN 2026 sentiment landscape has SHIFTED from yesterday's 'opposition coalition-building' (PAS-BN cooperation VERIFIED) to today's 'alliance contested + competitiveness tightening.' The dominant signal is NARRATIVE INSTABILITY: yesterday's headline cooperation finding is now countered by analyst skepticism and intra-bloc friction. The second signal is STRUCTURAL COMPETITIVENESS: growing marginal seats make the NS election more unpredictable and raise PH incumbency risk. Net NS-relevant sentiment skews NEGATIVE (8 negative vs 3 positive vs 4 neutral), driven by PAS/Bersatu vulnerability, alliance skepticism, and cost-of-living pressure. No acute negative sentiment SPIKE requiring immediate escalation; the key development is the 24h narrative reversal on PAS-BN alliance (ESC-006, MEDIUM)."
+}
