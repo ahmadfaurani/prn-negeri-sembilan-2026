@@ -6,7 +6,7 @@
 set -e
 
 WORKSPACE="/home/p62operator/.openclaw/workspace-ns"
-RAW_DIR="${WORKSPACE}/intelligence/raw"
+RAW_DIR="${WORKSPACE}/04-DATA-AND-SOURCES/raw-scrapes"
 DATE_STAMP=$(date +%Y%m%d)
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
 

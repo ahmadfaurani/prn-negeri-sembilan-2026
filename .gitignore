@@ -1,0 +1,18 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Temp files
+.DS_Store
+
+# Old working directories (superseded by new structure)
+narratives/
+opposition/
+stakeholders/
+constituencies/
+intelligence/
+logs/
+reports/
+scripts/

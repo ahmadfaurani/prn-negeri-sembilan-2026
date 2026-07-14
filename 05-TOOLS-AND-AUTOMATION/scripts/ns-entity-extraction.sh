@@ -6,8 +6,8 @@
 set -e
 
 WORKSPACE="/home/p62operator/.openclaw/workspace-ns"
-RAW_DIR="${WORKSPACE}/intelligence/raw"
-PROCESSED_DIR="${WORKSPACE}/intelligence/processed"
+RAW_DIR="${WORKSPACE}/04-DATA-AND-SOURCES/raw-scrapes"
+PROCESSED_DIR="${WORKSPACE}/04-DATA-AND-SOURCES/processed-entities"
 DATE_STAMP=$(date +%Y%m%d)
 
 echo "=== Negeri Sembilan PRN 2026 - Entity Extraction ==="

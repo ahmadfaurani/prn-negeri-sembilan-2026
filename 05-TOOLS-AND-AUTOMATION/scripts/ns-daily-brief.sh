@@ -6,8 +6,8 @@
 set -e
 
 WORKSPACE="/home/p62operator/.openclaw/workspace-ns"
-PROCESSED_DIR="${WORKSPACE}/intelligence/processed"
-BRIEFS_DIR="${WORKSPACE}/intelligence/briefs"
+PROCESSED_DIR="${WORKSPACE}/04-DATA-AND-SOURCES/processed-entities"
+BRIEFS_DIR="${WORKSPACE}/01-DAILY-INTELLIGENCE/daily-briefs"
 DATE_STAMP=$(date +%Y%m%d)
 
 echo "=== Negeri Sembilan PRN 2026 - Daily Intelligence Brief ==="

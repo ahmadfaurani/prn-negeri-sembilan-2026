@@ -6,7 +6,7 @@
 set -e
 
 WORKSPACE="/home/p62operator/.openclaw/workspace-ns"
-PROCESSED_DIR="${WORKSPACE}/intelligence/processed"
+PROCESSED_DIR="${WORKSPACE}/04-DATA-AND-SOURCES/processed-entities"
 DATE_STAMP=$(date +%Y%m%d)
 
 echo "=== Negeri Sembilan PRN 2026 - Sentiment Analysis ==="
@@ -39,7 +39,7 @@ SENTIMENT_OUTPUT="${ENTITY_DIR}/sentiment_analysis.json"
 if [ ! -f "${ENTITY_DIR}/entities_consolidated.json" ]; then
     echo "⚠ No consolidated entity file found"
     echo "Running entity extraction first..."
-    bash /home/p62operator/.openclaw/workspace-ns/scripts/ns-entity-extraction.sh
+    bash /home/p62operator/.openclaw/workspace-ns/05-TOOLS-AND-AUTOMATION/scripts/ns-entity-extraction.sh
 fi
 
 echo "→ Analyzing sentiment for extracted entities..."

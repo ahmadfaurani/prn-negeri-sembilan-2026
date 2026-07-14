@@ -7,7 +7,7 @@ import json, os
 from datetime import datetime, timezone
 
 WORKSPACE = "/home/p62operator/.openclaw/workspace-ns"
-OUTDIR = f"{WORKSPACE}/intelligence/processed/20260712"
+OUTDIR = f"{WORKSPACE}/04-DATA-AND-SOURCES/processed-entities/20260712"
 DATE = "20260712"
 TS = datetime.now(timezone.utc).isoformat()
 os.makedirs(OUTDIR, exist_ok=True)
@@ -183,13 +183,13 @@ master = {
     "extraction_id": "ns-prn-2026-entity-extraction-20260712",
     "date": DATE,
     "timestamp": TS,
-    "collection": "intelligence/raw/20260712",
+    "collection": "04-DATA-AND-SOURCES/raw-scrapes/20260712",
     "source_count": source_quality["total_files"],
     "method": "manual_source_attributed_review",
     "cvs_standard": "All entities source-attributed. No pattern-inferred entities.",
     "classification": "TLP:AMBER",
     "script_run": {
-        "script": "scripts/ns-entity-extraction.sh",
+        "script": "05-TOOLS-AND-AUTOMATION/scripts/ns-entity-extraction.sh",
         "exit_code": 0,
         "raw_output_counts": script_raw_counts,
         "script_compliance_audit": {

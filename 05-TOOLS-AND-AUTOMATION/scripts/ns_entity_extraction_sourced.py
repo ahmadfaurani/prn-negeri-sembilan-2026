@@ -29,8 +29,8 @@ import glob
 from collections import defaultdict
 
 WORKSPACE = "/home/p62operator/.openclaw/workspace-ns"
-RAW_DIR = os.path.join(WORKSPACE, "intelligence/raw")
-OUT_DIR = os.path.join(WORKSPACE, "intelligence/processed")
+RAW_DIR = os.path.join(WORKSPACE, "04-DATA-AND-SOURCES/raw-scrapes")
+OUT_DIR = os.path.join(WORKSPACE, "04-DATA-AND-SOURCES/processed-entities")
 
 # ------------------------------------------------------------------ #
 #  DATE STAMP: use the most recent collection directory

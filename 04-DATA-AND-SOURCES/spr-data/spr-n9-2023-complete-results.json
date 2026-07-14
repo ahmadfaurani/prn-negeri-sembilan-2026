@@ -1,0 +1,2143 @@
+{
+  "metadata": {
+    "generated_at": "2026-07-10T15:01:25.252878",
+    "classification": "TLP:AMBER",
+    "source": "electiondata.my API",
+    "election": "PRN Johor 2023",
+    "election_date": "2023-08-12",
+    "state": "Negeri Sembilan",
+    "api_key_used": "edmy_bd1e69207f3b1ab..."
+  },
+  "summary": {
+    "total_seats": 36,
+    "coalition_wins": {
+      "PH": 17,
+      "BN": 14,
+      "PN": 5
+    },
+    "total_voters": 864425,
+    "total_votes_cast": 590826,
+    "average_turnout": 68.3490181334413,
+    "closest_margins": [
+      {
+        "seat": "N.15 Juasseh",
+        "majority": 78,
+        "majority_perc": 0.8647450110864745,
+        "winner": "Bibi Sharliza binti Mohd Khalid"
+      },
+      {
+        "seat": "N.28 Kota",
+        "majority": 135,
+        "majority_perc": 1.1634922002930277,
+        "winner": "Suhaimi bin Aini"
+      },
+      {
+        "seat": "N.14 Ampangan",
+        "majority": 329,
+        "majority_perc": 2.214295329115628,
+        "winner": "Tengku Zamrah binti Tengku Sulaiman"
+      },
+      {
+        "seat": "N.09 Lenggeng",
+        "majority": 685,
+        "majority_perc": 3.459770695489671,
+        "winner": "Mohd Asna bin Amin"
+      },
+      {
+        "seat": "N.06 Palong",
+        "majority": 564,
+        "majority_perc": 3.6824236092974667,
+        "winner": "Mustapha bin Nagoor"
+      }
+    ],
+    "biggest_majorities": [
+      {
+        "seat": "N.11 Lobak",
+        "majority": 13504,
+        "majority_perc": 88.78369493754109,
+        "winner": "Chew Seh Yong"
+      },
+      {
+        "seat": "N.23 Mambau",
+        "majority": 14940,
+        "majority_perc": 77.4053157867468,
+        "winner": "Yap Yew Weng"
+      },
+      {
+        "seat": "N.21 Bukit Kepayang",
+        "majority": 19684,
+        "majority_perc": 64.560989209223,
+        "winner": "Nicole Tan Lee Koon"
+      },
+      {
+        "seat": "N.29 Chuah",
+        "majority": 6298,
+        "majority_perc": 62.69161855464862,
+        "winner": "Yew Boon Lye"
+      },
+      {
+        "seat": "N.24 Seremban Jaya",
+        "majority": 12703,
+        "majority_perc": 59.20212518059375,
+        "winner": "Gunasekaren a/l Palasamy"
+      }
+    ]
+  },
+  "results": [
+    {
+      "seat_slug": "n01-chennah-negeri-sembilan",
+      "seat_name": "N.01 Chennah",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.01 Chennah",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "DAP",
+        "party_uid": "021-DAP",
+        "coalition": "PH",
+        "coalition_uid": "007-PH",
+        "name": "Anthony Loke Siew Fook",
+        "majority": 2200.0,
+        "majority_perc": 22.974101921470343,
+        "voter_turnout": 9705.0,
+        "voter_turnout_perc": 66.6826989143878
+      },
+      "ballot": [
+        {
+          "name": "Anthony Loke Siew Fook",
+          "party_uid": "021-DAP",
+          "party": "DAP",
+          "coalition_uid": "007-PH",
+          "coalition": "PH",
+          "votes": 5888,
+          "votes_perc": 61.48705096073517,
+          "result": "won"
+        },
+        {
+          "name": "Rosmadi bin Arif",
+          "party_uid": "107-BERSATU",
+          "party": "BERSATU",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 3688,
+          "votes_perc": 38.512949039264825,
+          "result": "lost"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 14554,
+        "voters_total_v_avg": 0.6061185180900599,
+        "voter_turnout": 9705,
+        "voter_turnout_perc": 66.6826989143878,
+        "votes_rejected": 115,
+        "votes_rejected_perc": 1.1866680425136726,
+        "majority": 2200,
+        "majority_perc": 22.974101921470343
+      }
+    },
+    {
+      "seat_slug": "n02-pertang-negeri-sembilan",
+      "seat_name": "N.02 Pertang",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.02 Pertang",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "UMNO",
+        "party_uid": "001-UMNO",
+        "coalition": "BN",
+        "coalition_uid": "001-BN",
+        "name": "Jalaluddin bin Alias",
+        "majority": 2790.0,
+        "majority_perc": 32.90870488322717,
+        "voter_turnout": 8572.0,
+        "voter_turnout_perc": 66.46506939598356
+      },
+      "ballot": [
+        {
+          "name": "Jalaluddin bin Alias",
+          "party_uid": "001-UMNO",
+          "party": "UMNO",
+          "coalition_uid": "001-BN",
+          "coalition": "BN",
+          "votes": 5634,
+          "votes_perc": 66.45435244161358,
+          "result": "won"
+        },
+        {
+          "name": "Amirudin bin Hassan (Cikgu Amir)",
+          "party_uid": "004-PAS",
+          "party": "PAS",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 2844,
+          "votes_perc": 33.54564755838641,
+          "result": "lost"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 12897,
+        "voters_total_v_avg": 0.5371107961940018,
+        "voter_turnout": 8572,
+        "voter_turnout_perc": 66.46506939598356,
+        "votes_rejected": 83,
+        "votes_rejected_perc": 0.9695129073706343,
+        "majority": 2790,
+        "majority_perc": 32.90870488322717
+      }
+    },
+    {
+      "seat_slug": "n03-sungai-lui-negeri-sembilan",
+      "seat_name": "N.03 Sungai Lui",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.03 Sungai Lui",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "UMNO",
+        "party_uid": "001-UMNO",
+        "coalition": "BN",
+        "coalition_uid": "001-BN",
+        "name": "Mohd Razi bin Mohd Ali",
+        "majority": 535.0,
+        "majority_perc": 4.009593045042345,
+        "voter_turnout": 13616.0,
+        "voter_turnout_perc": 67.38592497278036
+      },
+      "ballot": [
+        {
+          "name": "Mohd Razi bin Mohd Ali",
+          "party_uid": "001-UMNO",
+          "party": "UMNO",
+          "coalition_uid": "001-BN",
+          "coalition": "BN",
+          "votes": 6939,
+          "votes_perc": 52.00479652252117,
+          "result": "won"
+        },
+        {
+          "name": "Mohd Nordin bin Hasim",
+          "party_uid": "004-PAS",
+          "party": "PAS",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 6404,
+          "votes_perc": 47.995203477478825,
+          "result": "lost"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 20206,
+        "voters_total_v_avg": 0.8415027330306273,
+        "voter_turnout": 13616,
+        "voter_turnout_perc": 67.38592497278036,
+        "votes_rejected": 255,
+        "votes_rejected_perc": 1.8752757758493894,
+        "majority": 535,
+        "majority_perc": 4.009593045042345
+      }
+    },
+    {
+      "seat_slug": "n04-klawang-negeri-sembilan",
+      "seat_name": "N.04 Klawang",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.04 Klawang",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "AMANAH",
+        "party_uid": "046-AMANAH",
+        "coalition": "PH",
+        "coalition_uid": "007-PH",
+        "name": "Bakri bin Sawir",
+        "majority": 577.0,
+        "majority_perc": 6.42324390515418,
+        "voter_turnout": 9073.0,
+        "voter_turnout_perc": 68.92805591430525
+      },
+      "ballot": [
+        {
+          "name": "Bakri bin Sawir",
+          "party_uid": "046-AMANAH",
+          "party": "AMANAH",
+          "coalition_uid": "007-PH",
+          "coalition": "PH",
+          "votes": 4598,
+          "votes_perc": 51.18557274852499,
+          "result": "won"
+        },
+        {
+          "name": "Danni Rais",
+          "party_uid": "107-BERSATU",
+          "party": "BERSATU",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 4021,
+          "votes_perc": 44.76232884337081,
+          "result": "lost"
+        },
+        {
+          "name": "Saiful Bahri bin Jaaman @ Sharman (Angah Saiful)",
+          "party_uid": "000-BEBAS",
+          "party": "BEBAS",
+          "coalition_uid": "000-ALONE",
+          "coalition": "ALONE",
+          "votes": 364,
+          "votes_perc": 4.052098408104197,
+          "result": "lost_deposit"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 13163,
+        "voters_total_v_avg": 0.54818868033664,
+        "voter_turnout": 9073,
+        "voter_turnout_perc": 68.92805591430525,
+        "votes_rejected": 80,
+        "votes_rejected_perc": 0.8827099194527198,
+        "majority": 577,
+        "majority_perc": 6.42324390515418
+      }
+    },
+    {
+      "seat_slug": "n05-serting-negeri-sembilan",
+      "seat_name": "N.05 Serting",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.05 Serting",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "PAS",
+        "party_uid": "004-PAS",
+        "coalition": "PN",
+        "coalition_uid": "011-PN",
+        "name": "Mohd Fairuz bin Mohd Isa",
+        "majority": 843.0,
+        "majority_perc": 4.261665234315758,
+        "voter_turnout": 19957.0,
+        "voter_turnout_perc": 65.89295737445109
+      },
+      "ballot": [
+        {
+          "name": "Mohd Fairuz bin Mohd Isa",
+          "party_uid": "004-PAS",
+          "party": "PAS",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 10312,
+          "votes_perc": 52.13083261715787,
+          "result": "won"
+        },
+        {
+          "name": "Muhamad Zamri bin Omar",
+          "party_uid": "001-UMNO",
+          "party": "UMNO",
+          "coalition_uid": "001-BN",
+          "coalition": "BN",
+          "votes": 9469,
+          "votes_perc": 47.86916738284212,
+          "result": "lost"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 30287,
+        "voters_total_v_avg": 1.261337883564219,
+        "voter_turnout": 19957,
+        "voter_turnout_perc": 65.89295737445109,
+        "votes_rejected": 140,
+        "votes_rejected_perc": 0.7027759650619949,
+        "majority": 843,
+        "majority_perc": 4.261665234315758
+      }
+    },
+    {
+      "seat_slug": "n06-palong-negeri-sembilan",
+      "seat_name": "N.06 Palong",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.06 Palong",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "UMNO",
+        "party_uid": "001-UMNO",
+        "coalition": "BN",
+        "coalition_uid": "001-BN",
+        "name": "Mustapha bin Nagoor",
+        "majority": 564.0,
+        "majority_perc": 3.6824236092974667,
+        "voter_turnout": 15458.0,
+        "voter_turnout_perc": 65.79552226100282
+      },
+      "ballot": [
+        {
+          "name": "Mustapha bin Nagoor",
+          "party_uid": "001-UMNO",
+          "party": "UMNO",
+          "coalition_uid": "001-BN",
+          "coalition": "BN",
+          "votes": 7940,
+          "votes_perc": 51.84121180464874,
+          "result": "won"
+        },
+        {
+          "name": "Noor Azuan bin Parmin",
+          "party_uid": "107-BERSATU",
+          "party": "BERSATU",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 7376,
+          "votes_perc": 48.15878819535126,
+          "result": "lost"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 23494,
+        "voters_total_v_avg": 0.9784353761170721,
+        "voter_turnout": 15458,
+        "voter_turnout_perc": 65.79552226100282,
+        "votes_rejected": 121,
+        "votes_rejected_perc": 0.7838310552568504,
+        "majority": 564,
+        "majority_perc": 3.6824236092974667
+      }
+    },
+    {
+      "seat_slug": "n07-jeram-padang-negeri-sembilan",
+      "seat_name": "N.07 Jeram Padang",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.07 Jeram Padang",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "UMNO",
+        "party_uid": "001-UMNO",
+        "coalition": "BN",
+        "coalition_uid": "001-BN",
+        "name": "Mohd Zaidy bin Abdul Kadir",
+        "majority": 693.0,
+        "majority_perc": 6.773531424103216,
+        "voter_turnout": 10358.0,
+        "voter_turnout_perc": 63.421503796228265
+      },
+      "ballot": [
+        {
+          "name": "Mohd Zaidy bin Abdul Kadir",
+          "party_uid": "001-UMNO",
+          "party": "UMNO",
+          "coalition_uid": "001-BN",
+          "coalition": "BN",
+          "votes": 5462,
+          "votes_perc": 53.38676571205161,
+          "result": "won"
+        },
+        {
+          "name": "Surash a/l Sreenivasan",
+          "party_uid": "107-BERSATU",
+          "party": "BERSATU",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 4769,
+          "votes_perc": 46.61323428794839,
+          "result": "lost"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 16332,
+        "voters_total_v_avg": 0.6801654278855888,
+        "voter_turnout": 10358,
+        "voter_turnout_perc": 63.421503796228265,
+        "votes_rejected": 115,
+        "votes_rejected_perc": 1.1115406920549005,
+        "majority": 693,
+        "majority_perc": 6.773531424103216
+      }
+    },
+    {
+      "seat_slug": "n08-bahau-negeri-sembilan",
+      "seat_name": "N.08 Bahau",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.08 Bahau",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "DAP",
+        "party_uid": "021-DAP",
+        "coalition": "PH",
+        "coalition_uid": "007-PH",
+        "name": "Teo Kok Seong",
+        "majority": 8408.0,
+        "majority_perc": 54.350355526826114,
+        "voter_turnout": 15617.0,
+        "voter_turnout_perc": 60.603826302922116
+      },
+      "ballot": [
+        {
+          "name": "Teo Kok Seong",
+          "party_uid": "021-DAP",
+          "party": "DAP",
+          "coalition_uid": "007-PH",
+          "coalition": "PH",
+          "votes": 11939,
+          "votes_perc": 77.17517776341306,
+          "result": "won"
+        },
+        {
+          "name": "Kumar a/l S. Paramasivam",
+          "party_uid": "004-PAS",
+          "party": "PAS",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 3531,
+          "votes_perc": 22.824822236586943,
+          "result": "lost"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 25769,
+        "voters_total_v_avg": 1.0731804378633196,
+        "voter_turnout": 15617,
+        "voter_turnout_perc": 60.603826302922116,
+        "votes_rejected": 132,
+        "votes_rejected_perc": 0.8460453787975901,
+        "majority": 8408,
+        "majority_perc": 54.350355526826114
+      }
+    },
+    {
+      "seat_slug": "n09-lenggeng-negeri-sembilan",
+      "seat_name": "N.09 Lenggeng",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.09 Lenggeng",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "UMNO",
+        "party_uid": "001-UMNO",
+        "coalition": "BN",
+        "coalition_uid": "001-BN",
+        "name": "Mohd Asna bin Amin",
+        "majority": 685.0,
+        "majority_perc": 3.459770695489671,
+        "voter_turnout": 20014.0,
+        "voter_turnout_perc": 73.08113634703864
+      },
+      "ballot": [
+        {
+          "name": "Mohd Asna bin Amin",
+          "party_uid": "001-UMNO",
+          "party": "UMNO",
+          "coalition_uid": "001-BN",
+          "coalition": "BN",
+          "votes": 10040,
+          "votes_perc": 50.70963179958584,
+          "result": "won"
+        },
+        {
+          "name": "Mohd Fadli bin Che Me",
+          "party_uid": "004-PAS",
+          "party": "PAS",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 9355,
+          "votes_perc": 47.24986110409617,
+          "result": "lost"
+        },
+        {
+          "name": "Zul Azki bin Mat Sulop",
+          "party_uid": "000-BEBAS",
+          "party": "BEBAS",
+          "coalition_uid": "000-ALONE",
+          "coalition": "ALONE",
+          "votes": 404,
+          "votes_perc": 2.040507096317996,
+          "result": "lost_deposit"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 27386,
+        "voters_total_v_avg": 1.1405223125198831,
+        "voter_turnout": 20014,
+        "voter_turnout_perc": 73.08113634703864,
+        "votes_rejected": 170,
+        "votes_rejected_perc": 0.8513195452952076,
+        "majority": 685,
+        "majority_perc": 3.459770695489671
+      }
+    },
+    {
+      "seat_slug": "n10-nilai-negeri-sembilan",
+      "seat_name": "N.10 Nilai",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.10 Nilai",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "DAP",
+        "party_uid": "021-DAP",
+        "coalition": "PH",
+        "coalition_uid": "007-PH",
+        "name": "Arul Kumar a/l Jambunathan",
+        "majority": 10889.0,
+        "majority_perc": 37.72519401330377,
+        "voter_turnout": 29091.0,
+        "voter_turnout_perc": 68.98833238474673
+      },
+      "ballot": [
+        {
+          "name": "Arul Kumar a/l Jambunathan",
+          "party_uid": "021-DAP",
+          "party": "DAP",
+          "coalition_uid": "007-PH",
+          "coalition": "PH",
+          "votes": 19133,
+          "votes_perc": 66.28672394678492,
+          "result": "won"
+        },
+        {
+          "name": "Gan Chee Biow",
+          "party_uid": "107-BERSATU",
+          "party": "BERSATU",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 8244,
+          "votes_perc": 28.561529933481154,
+          "result": "lost"
+        },
+        {
+          "name": "Omar bin Mohd Isa",
+          "party_uid": "000-BEBAS",
+          "party": "BEBAS",
+          "coalition_uid": "000-ALONE",
+          "coalition": "ALONE",
+          "votes": 1430,
+          "votes_perc": 4.954268292682927,
+          "result": "lost_deposit"
+        },
+        {
+          "name": "Yessu a/l Samuel",
+          "party_uid": "000-BEBAS",
+          "party": "BEBAS",
+          "coalition_uid": "000-ALONE",
+          "coalition": "ALONE",
+          "votes": 57,
+          "votes_perc": 0.19747782705099776,
+          "result": "lost_deposit"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 42168,
+        "voters_total_v_avg": 1.7561361598750616,
+        "voter_turnout": 29091,
+        "voter_turnout_perc": 68.98833238474673,
+        "votes_rejected": 203,
+        "votes_rejected_perc": 0.6983864863935046,
+        "majority": 10889,
+        "majority_perc": 37.72519401330377
+      }
+    },
+    {
+      "seat_slug": "n11-lobak-negeri-sembilan",
+      "seat_name": "N.11 Lobak",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.11 Lobak",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "DAP",
+        "party_uid": "021-DAP",
+        "coalition": "PH",
+        "coalition_uid": "007-PH",
+        "name": "Chew Seh Yong",
+        "majority": 13504.0,
+        "majority_perc": 88.78369493754109,
+        "voter_turnout": 15321.0,
+        "voter_turnout_perc": 66.05872461518561
+      },
+      "ballot": [
+        {
+          "name": "Chew Seh Yong",
+          "party_uid": "021-DAP",
+          "party": "DAP",
+          "coalition_uid": "007-PH",
+          "coalition": "PH",
+          "votes": 14357,
+          "votes_perc": 94.39184746877055,
+          "result": "won"
+        },
+        {
+          "name": "Ng Soon Lean",
+          "party_uid": "026-GERAKAN",
+          "party": "GERAKAN",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 853,
+          "votes_perc": 5.608152531229455,
+          "result": "lost_deposit"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 23193,
+        "voters_total_v_avg": 0.9658998756398762,
+        "voter_turnout": 15321,
+        "voter_turnout_perc": 66.05872461518561,
+        "votes_rejected": 99,
+        "votes_rejected_perc": 0.6466784244562023,
+        "majority": 13504,
+        "majority_perc": 88.78369493754109
+      }
+    },
+    {
+      "seat_slug": "n12-temiang-negeri-sembilan",
+      "seat_name": "N.12 Temiang",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.12 Temiang",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "DAP",
+        "party_uid": "021-DAP",
+        "coalition": "PH",
+        "coalition_uid": "007-PH",
+        "name": "Ng Chin Tsai",
+        "majority": 3068.0,
+        "majority_perc": 34.119217081850536,
+        "voter_turnout": 9069.0,
+        "voter_turnout_perc": 69.30836836071838
+      },
+      "ballot": [
+        {
+          "name": "Ng Chin Tsai",
+          "party_uid": "021-DAP",
+          "party": "DAP",
+          "coalition_uid": "007-PH",
+          "coalition": "PH",
+          "votes": 5710,
+          "votes_perc": 63.5008896797153,
+          "result": "won"
+        },
+        {
+          "name": "Chua Eng Pu",
+          "party_uid": "026-GERAKAN",
+          "party": "GERAKAN",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 2642,
+          "votes_perc": 29.381672597864767,
+          "result": "lost"
+        },
+        {
+          "name": "Ahmad Qusyairi bin Abdull Rahim",
+          "party_uid": "120-MUDA",
+          "party": "MUDA",
+          "coalition_uid": "000-ALONE",
+          "coalition": "ALONE",
+          "votes": 640,
+          "votes_perc": 7.11743772241993,
+          "result": "lost_deposit"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 13085,
+        "voters_total_v_avg": 0.5449402782196258,
+        "voter_turnout": 9069,
+        "voter_turnout_perc": 69.30836836071838,
+        "votes_rejected": 63,
+        "votes_rejected_perc": 0.6957482054113749,
+        "majority": 3068,
+        "majority_perc": 34.119217081850536
+      }
+    },
+    {
+      "seat_slug": "n13-sikamat-negeri-sembilan",
+      "seat_name": "N.13 Sikamat",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.13 Sikamat",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "PKR",
+        "party_uid": "078-PKR",
+        "coalition": "PH",
+        "coalition_uid": "007-PH",
+        "name": "Aminuddin bin Harun",
+        "majority": 2662.0,
+        "majority_perc": 11.464254952627046,
+        "voter_turnout": 23444.0,
+        "voter_turnout_perc": 72.48554555854435
+      },
+      "ballot": [
+        {
+          "name": "Aminuddin bin Harun",
+          "party_uid": "078-PKR",
+          "party": "PKR",
+          "coalition_uid": "007-PH",
+          "coalition": "PH",
+          "votes": 12730,
+          "votes_perc": 54.823428079242035,
+          "result": "won"
+        },
+        {
+          "name": "Ahmad Raihan bin Muhamad Hilal",
+          "party_uid": "107-BERSATU",
+          "party": "BERSATU",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 10068,
+          "votes_perc": 43.359173126614984,
+          "result": "lost"
+        },
+        {
+          "name": "Mohammed Hafiz bin Baharudin (Tok Merah)",
+          "party_uid": "000-BEBAS",
+          "party": "BEBAS",
+          "coalition_uid": "000-ALONE",
+          "coalition": "ALONE",
+          "votes": 339,
+          "votes_perc": 1.4599483204134367,
+          "result": "lost_deposit"
+        },
+        {
+          "name": "Bujang bin Abu",
+          "party_uid": "000-BEBAS",
+          "party": "BEBAS",
+          "coalition_uid": "000-ALONE",
+          "coalition": "ALONE",
+          "votes": 83,
+          "votes_perc": 0.35745047372954347,
+          "result": "lost_deposit"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 32343,
+        "voters_total_v_avg": 1.3469624316742344,
+        "voter_turnout": 23444,
+        "voter_turnout_perc": 72.48554555854435,
+        "votes_rejected": 157,
+        "votes_rejected_perc": 0.6716002908842025,
+        "majority": 2662,
+        "majority_perc": 11.464254952627046
+      }
+    },
+    {
+      "seat_slug": "n14-ampangan-negeri-sembilan",
+      "seat_name": "N.14 Ampangan",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.14 Ampangan",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "PKR",
+        "party_uid": "078-PKR",
+        "coalition": "PH",
+        "coalition_uid": "007-PH",
+        "name": "Tengku Zamrah binti Tengku Sulaiman",
+        "majority": 329.0,
+        "majority_perc": 2.214295329115628,
+        "voter_turnout": 14963.0,
+        "voter_turnout_perc": 71.2795350609756
+      },
+      "ballot": [
+        {
+          "name": "Tengku Zamrah binti Tengku Sulaiman",
+          "party_uid": "078-PKR",
+          "party": "PKR",
+          "coalition_uid": "007-PH",
+          "coalition": "PH",
+          "votes": 6054,
+          "votes_perc": 40.74572620810338,
+          "result": "won"
+        },
+        {
+          "name": "Muhammad Ghazali bin Zainal Abidin",
+          "party_uid": "107-BERSATU",
+          "party": "BERSATU",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 5725,
+          "votes_perc": 38.53143087898775,
+          "result": "lost"
+        },
+        {
+          "name": "Mohamad Rafie bin Ab Malek",
+          "party_uid": "000-BEBAS",
+          "party": "BEBAS",
+          "coalition_uid": "000-ALONE",
+          "coalition": "ALONE",
+          "votes": 3079,
+          "votes_perc": 20.72284291290887,
+          "result": "lost"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 20992,
+        "voters_total_v_avg": 0.8742366312866935,
+        "voter_turnout": 14963,
+        "voter_turnout_perc": 71.2795350609756,
+        "votes_rejected": 79,
+        "votes_rejected_perc": 0.5288879962509205,
+        "majority": 329,
+        "majority_perc": 2.214295329115628
+      }
+    },
+    {
+      "seat_slug": "n15-juasseh-negeri-sembilan",
+      "seat_name": "N.15 Juasseh",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.15 Juasseh",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "UMNO",
+        "party_uid": "001-UMNO",
+        "coalition": "BN",
+        "coalition_uid": "001-BN",
+        "name": "Bibi Sharliza binti Mohd Khalid",
+        "majority": 78.0,
+        "majority_perc": 0.8647450110864745,
+        "voter_turnout": 9122.0,
+        "voter_turnout_perc": 68.03400954653938
+      },
+      "ballot": [
+        {
+          "name": "Bibi Sharliza binti Mohd Khalid",
+          "party_uid": "001-UMNO",
+          "party": "UMNO",
+          "coalition_uid": "001-BN",
+          "coalition": "BN",
+          "votes": 4549,
+          "votes_perc": 50.432372505543235,
+          "result": "won"
+        },
+        {
+          "name": "Eddin Syazlee bin Shith",
+          "party_uid": "107-BERSATU",
+          "party": "BERSATU",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 4471,
+          "votes_perc": 49.567627494456765,
+          "result": "lost"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 13408,
+        "voters_total_v_avg": 0.5583919946785436,
+        "voter_turnout": 9122,
+        "voter_turnout_perc": 68.03400954653938,
+        "votes_rejected": 87,
+        "votes_rejected_perc": 0.9553091028878885,
+        "majority": 78,
+        "majority_perc": 0.8647450110864745
+      }
+    },
+    {
+      "seat_slug": "n16-seri-menanti-negeri-sembilan",
+      "seat_name": "N.16 Seri Menanti",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.16 Seri Menanti",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "UMNO",
+        "party_uid": "001-UMNO",
+        "coalition": "BN",
+        "coalition_uid": "001-BN",
+        "name": "Muhammad Sufian bin Maradzi",
+        "majority": 370.0,
+        "majority_perc": 5.246738513896767,
+        "voter_turnout": 7128.0,
+        "voter_turnout_perc": 70.96067695370832
+      },
+      "ballot": [
+        {
+          "name": "Muhammad Sufian bin Maradzi",
+          "party_uid": "001-UMNO",
+          "party": "UMNO",
+          "coalition_uid": "001-BN",
+          "coalition": "BN",
+          "votes": 3711,
+          "votes_perc": 52.62336925694838,
+          "result": "won"
+        },
+        {
+          "name": "Jamali bin Salam",
+          "party_uid": "107-BERSATU",
+          "party": "BERSATU",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 3341,
+          "votes_perc": 47.37663074305162,
+          "result": "lost"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 10045,
+        "voters_total_v_avg": 0.4183358880180467,
+        "voter_turnout": 7128,
+        "voter_turnout_perc": 70.96067695370832,
+        "votes_rejected": 69,
+        "votes_rejected_perc": 0.9689650330009829,
+        "majority": 370,
+        "majority_perc": 5.246738513896767
+      }
+    },
+    {
+      "seat_slug": "n17-senaling-negeri-sembilan",
+      "seat_name": "N.17 Senaling",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.17 Senaling",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "UMNO",
+        "party_uid": "001-UMNO",
+        "coalition": "BN",
+        "coalition_uid": "001-BN",
+        "name": "Ismail bin Lasim",
+        "majority": 662.0,
+        "majority_perc": 9.755378720895962,
+        "voter_turnout": 6852.0,
+        "voter_turnout_perc": 69.31013554521546
+      },
+      "ballot": [
+        {
+          "name": "Ismail bin Lasim",
+          "party_uid": "001-UMNO",
+          "party": "UMNO",
+          "coalition_uid": "001-BN",
+          "coalition": "BN",
+          "votes": 3724,
+          "votes_perc": 54.87768936044798,
+          "result": "won"
+        },
+        {
+          "name": "Amrina binti Mohd Khalid",
+          "party_uid": "107-BERSATU",
+          "party": "BERSATU",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 3062,
+          "votes_perc": 45.12231063955202,
+          "result": "lost"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 9886,
+        "voters_total_v_avg": 0.4117141452410562,
+        "voter_turnout": 6852,
+        "voter_turnout_perc": 69.31013554521546,
+        "votes_rejected": 53,
+        "votes_rejected_perc": 0.7749671004532827,
+        "majority": 662,
+        "majority_perc": 9.755378720895962
+      }
+    },
+    {
+      "seat_slug": "n18-pilah-negeri-sembilan",
+      "seat_name": "N.18 Pilah",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.18 Pilah",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "PKR",
+        "party_uid": "078-PKR",
+        "coalition": "PH",
+        "coalition_uid": "007-PH",
+        "name": "Noorzunita Begum binti Mohd Ibrahim",
+        "majority": 1079.0,
+        "majority_perc": 9.494060712714475,
+        "voter_turnout": 11493.0,
+        "voter_turnout_perc": 64.96156454894869
+      },
+      "ballot": [
+        {
+          "name": "Noorzunita Begum binti Mohd Ibrahim",
+          "party_uid": "078-PKR",
+          "party": "PKR",
+          "coalition_uid": "007-PH",
+          "coalition": "PH",
+          "votes": 6222,
+          "votes_perc": 54.74703035635724,
+          "result": "won"
+        },
+        {
+          "name": "Rafiei bin Mustapha",
+          "party_uid": "004-PAS",
+          "party": "PAS",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 5143,
+          "votes_perc": 45.252969643642764,
+          "result": "lost"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 17692,
+        "voters_total_v_avg": 0.7368042340284005,
+        "voter_turnout": 11493,
+        "voter_turnout_perc": 64.96156454894869,
+        "votes_rejected": 103,
+        "votes_rejected_perc": 0.8981513777467736,
+        "majority": 1079,
+        "majority_perc": 9.494060712714475
+      }
+    },
+    {
+      "seat_slug": "n19-johol-negeri-sembilan",
+      "seat_name": "N.19 Johol",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.19 Johol",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "UMNO",
+        "party_uid": "001-UMNO",
+        "coalition": "BN",
+        "coalition_uid": "001-BN",
+        "name": "Saiful Yazan bin Sulaiman",
+        "majority": 2117.0,
+        "majority_perc": 25.386737018827198,
+        "voter_turnout": 8412.0,
+        "voter_turnout_perc": 68.31803784617884
+      },
+      "ballot": [
+        {
+          "name": "Saiful Yazan bin Sulaiman",
+          "party_uid": "001-UMNO",
+          "party": "UMNO",
+          "coalition_uid": "001-BN",
+          "coalition": "BN",
+          "votes": 5228,
+          "votes_perc": 62.693368509413595,
+          "result": "won"
+        },
+        {
+          "name": "Kamarudin bin Md Tahir",
+          "party_uid": "004-PAS",
+          "party": "PAS",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 3111,
+          "votes_perc": 37.3066314905864,
+          "result": "lost"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 12313,
+        "voters_total_v_avg": 0.5127894264973827,
+        "voter_turnout": 8412,
+        "voter_turnout_perc": 68.31803784617884,
+        "votes_rejected": 66,
+        "votes_rejected_perc": 0.7852468768590125,
+        "majority": 2117,
+        "majority_perc": 25.386737018827198
+      }
+    },
+    {
+      "seat_slug": "n20-labu-negeri-sembilan",
+      "seat_name": "N.20 Labu",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.20 Labu",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "BERSATU",
+        "party_uid": "107-BERSATU",
+        "coalition": "PN",
+        "coalition_uid": "011-PN",
+        "name": "Mohamad Hanifah bin Abu Baker (Anip Abu Baker)",
+        "majority": 1640.0,
+        "majority_perc": 7.563877871045106,
+        "voter_turnout": 21873.0,
+        "voter_turnout_perc": 71.7665201128683
+      },
+      "ballot": [
+        {
+          "name": "Mohamad Hanifah bin Abu Baker (Anip Abu Baker)",
+          "party_uid": "107-BERSATU",
+          "party": "BERSATU",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 11661,
+          "votes_perc": 53.781938935522554,
+          "result": "won"
+        },
+        {
+          "name": "Ismail bin Ahmad",
+          "party_uid": "078-PKR",
+          "party": "PKR",
+          "coalition_uid": "007-PH",
+          "coalition": "PH",
+          "votes": 10021,
+          "votes_perc": 46.218061064477446,
+          "result": "lost"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 30478,
+        "voters_total_v_avg": 1.269292304132805,
+        "voter_turnout": 21873,
+        "voter_turnout_perc": 71.7665201128683,
+        "votes_rejected": 159,
+        "votes_rejected_perc": 0.7279886452085527,
+        "majority": 1640,
+        "majority_perc": 7.563877871045106
+      }
+    },
+    {
+      "seat_slug": "n21-bukit-kepayang-negeri-sembilan",
+      "seat_name": "N.21 Bukit Kepayang",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.21 Bukit Kepayang",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "DAP",
+        "party_uid": "021-DAP",
+        "coalition": "PH",
+        "coalition_uid": "007-PH",
+        "name": "Nicole Tan Lee Koon",
+        "majority": 19684.0,
+        "majority_perc": 64.560989209223,
+        "voter_turnout": 30664.0,
+        "voter_turnout_perc": 66.33065824482468
+      },
+      "ballot": [
+        {
+          "name": "Nicole Tan Lee Koon",
+          "party_uid": "021-DAP",
+          "party": "DAP",
+          "coalition_uid": "007-PH",
+          "coalition": "PH",
+          "votes": 24626,
+          "votes_perc": 80.7701138115386,
+          "result": "won"
+        },
+        {
+          "name": "Subramaniam a/l Purushothama",
+          "party_uid": "107-BERSATU",
+          "party": "BERSATU",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 4942,
+          "votes_perc": 16.20912460231559,
+          "result": "lost"
+        },
+        {
+          "name": "Ahmad Zamali bin Mohamad",
+          "party_uid": "000-BEBAS",
+          "party": "BEBAS",
+          "coalition_uid": "000-ALONE",
+          "coalition": "ALONE",
+          "votes": 921,
+          "votes_perc": 3.0207615861458232,
+          "result": "lost_deposit"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 46229,
+        "voters_total_v_avg": 1.9252613008647368,
+        "voter_turnout": 30664,
+        "voter_turnout_perc": 66.33065824482468,
+        "votes_rejected": 107,
+        "votes_rejected_perc": 0.3497189175055563,
+        "majority": 19684,
+        "majority_perc": 64.560989209223
+      }
+    },
+    {
+      "seat_slug": "n22-rahang-negeri-sembilan",
+      "seat_name": "N.22 Rahang",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.22 Rahang",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "DAP",
+        "party_uid": "021-DAP",
+        "coalition": "PH",
+        "coalition_uid": "007-PH",
+        "name": "Siau Meow Kong",
+        "majority": 6432.0,
+        "majority_perc": 48.34636199639206,
+        "voter_turnout": 13476.0,
+        "voter_turnout_perc": 66.77237142007729
+      },
+      "ballot": [
+        {
+          "name": "Siau Meow Kong",
+          "party_uid": "021-DAP",
+          "party": "DAP",
+          "coalition_uid": "007-PH",
+          "coalition": "PH",
+          "votes": 9868,
+          "votes_perc": 74.17318099819603,
+          "result": "won"
+        },
+        {
+          "name": "Lee Boon Shian",
+          "party_uid": "026-GERAKAN",
+          "party": "GERAKAN",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 3436,
+          "votes_perc": 25.82681900180397,
+          "result": "lost"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 20182,
+        "voters_total_v_avg": 0.8405032246869306,
+        "voter_turnout": 13476,
+        "voter_turnout_perc": 66.77237142007729,
+        "votes_rejected": 152,
+        "votes_rejected_perc": 1.1296076099881094,
+        "majority": 6432,
+        "majority_perc": 48.34636199639206
+      }
+    },
+    {
+      "seat_slug": "n23-mambau-negeri-sembilan",
+      "seat_name": "N.23 Mambau",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.23 Mambau",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "DAP",
+        "party_uid": "021-DAP",
+        "coalition": "PH",
+        "coalition_uid": "007-PH",
+        "name": "Yap Yew Weng",
+        "majority": 14940.0,
+        "majority_perc": 77.4053157867468,
+        "voter_turnout": 19456.0,
+        "voter_turnout_perc": 67.20088422216082
+      },
+      "ballot": [
+        {
+          "name": "Yap Yew Weng",
+          "party_uid": "021-DAP",
+          "party": "DAP",
+          "coalition_uid": "007-PH",
+          "coalition": "PH",
+          "votes": 17039,
+          "votes_perc": 88.28039997927569,
+          "result": "won"
+        },
+        {
+          "name": "Sathes Kumar a/l Nilameham",
+          "party_uid": "004-PAS",
+          "party": "PAS",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 2099,
+          "votes_perc": 10.875084192528885,
+          "result": "lost_deposit"
+        },
+        {
+          "name": "Kumaravel a/l Ramiah",
+          "party_uid": "000-BEBAS",
+          "party": "BEBAS",
+          "coalition_uid": "000-ALONE",
+          "coalition": "ALONE",
+          "votes": 163,
+          "votes_perc": 0.8445158281954304,
+          "result": "lost_deposit"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 28952,
+        "voters_total_v_avg": 1.2057402319460915,
+        "voter_turnout": 19456,
+        "voter_turnout_perc": 67.20088422216082,
+        "votes_rejected": 135,
+        "votes_rejected_perc": 0.694587363655073,
+        "majority": 14940,
+        "majority_perc": 77.4053157867468
+      }
+    },
+    {
+      "seat_slug": "n24-seremban-jaya-negeri-sembilan",
+      "seat_name": "N.24 Seremban Jaya",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.24 Seremban Jaya",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "DAP",
+        "party_uid": "021-DAP",
+        "coalition": "PH",
+        "coalition_uid": "007-PH",
+        "name": "Gunasekaren a/l Palasamy",
+        "majority": 12703.0,
+        "majority_perc": 59.20212518059375,
+        "voter_turnout": 21664.0,
+        "voter_turnout_perc": 67.09197894084856
+      },
+      "ballot": [
+        {
+          "name": "Gunasekaren a/l Palasamy",
+          "party_uid": "021-DAP",
+          "party": "DAP",
+          "coalition_uid": "007-PH",
+          "coalition": "PH",
+          "votes": 17080,
+          "votes_perc": 79.60106259029688,
+          "result": "won"
+        },
+        {
+          "name": "Gary Lee Ban Fatt",
+          "party_uid": "026-GERAKAN",
+          "party": "GERAKAN",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 4377,
+          "votes_perc": 20.398937409703127,
+          "result": "lost"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 32290,
+        "voters_total_v_avg": 1.3447551840819043,
+        "voter_turnout": 21664,
+        "voter_turnout_perc": 67.09197894084856,
+        "votes_rejected": 171,
+        "votes_rejected_perc": 0.7906417606805991,
+        "majority": 12703,
+        "majority_perc": 59.20212518059375
+      }
+    },
+    {
+      "seat_slug": "n25-paroi-negeri-sembilan",
+      "seat_name": "N.25 Paroi",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.25 Paroi",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "PAS",
+        "party_uid": "004-PAS",
+        "coalition": "PN",
+        "coalition_uid": "011-PN",
+        "name": "Kamarol Ridzuan bin Mohd Zain",
+        "majority": 5539.0,
+        "majority_perc": 12.855982360450271,
+        "voter_turnout": 43475.0,
+        "voter_turnout_perc": 71.61801528729573
+      },
+      "ballot": [
+        {
+          "name": "Kamarol Ridzuan bin Mohd Zain",
+          "party_uid": "004-PAS",
+          "party": "PAS",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 23840,
+          "votes_perc": 55.33248230242543,
+          "result": "won"
+        },
+        {
+          "name": "Norwani binti Ahmat",
+          "party_uid": "046-AMANAH",
+          "party": "AMANAH",
+          "coalition_uid": "007-PH",
+          "coalition": "PH",
+          "votes": 18301,
+          "votes_perc": 42.47649994197516,
+          "result": "lost"
+        },
+        {
+          "name": "Muhammad Syakir Fitri bin Sadri",
+          "party_uid": "000-BEBAS",
+          "party": "BEBAS",
+          "coalition_uid": "000-ALONE",
+          "coalition": "ALONE",
+          "votes": 944,
+          "votes_perc": 2.1910177555993964,
+          "result": "lost_deposit"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 60704,
+        "voters_total_v_avg": 2.528089770656795,
+        "voter_turnout": 43475,
+        "voter_turnout_perc": 71.61801528729573,
+        "votes_rejected": 299,
+        "votes_rejected_perc": 0.6891941729669925,
+        "majority": 5539,
+        "majority_perc": 12.855982360450271
+      }
+    },
+    {
+      "seat_slug": "n26-chembong-negeri-sembilan",
+      "seat_name": "N.26 Chembong",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.26 Chembong",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "UMNO",
+        "party_uid": "001-UMNO",
+        "coalition": "BN",
+        "coalition_uid": "001-BN",
+        "name": "Zaifulbahri bin Idris",
+        "majority": 4335.0,
+        "majority_perc": 23.835706823555284,
+        "voter_turnout": 18389.0,
+        "voter_turnout_perc": 71.7619512195122
+      },
+      "ballot": [
+        {
+          "name": "Zaifulbahri bin Idris",
+          "party_uid": "001-UMNO",
+          "party": "UMNO",
+          "coalition_uid": "001-BN",
+          "coalition": "BN",
+          "votes": 11261,
+          "votes_perc": 61.91785341177764,
+          "result": "won"
+        },
+        {
+          "name": "Bakly bin Baba",
+          "party_uid": "107-BERSATU",
+          "party": "BERSATU",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 6926,
+          "votes_perc": 38.08214658822236,
+          "result": "lost"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 25625,
+        "voters_total_v_avg": 1.0671833878011394,
+        "voter_turnout": 18389,
+        "voter_turnout_perc": 71.7619512195122,
+        "votes_rejected": 163,
+        "votes_rejected_perc": 0.8882833787465939,
+        "majority": 4335,
+        "majority_perc": 23.835706823555284
+      }
+    },
+    {
+      "seat_slug": "n27-rantau-negeri-sembilan",
+      "seat_name": "N.27 Rantau",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.27 Rantau",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "UMNO",
+        "party_uid": "001-UMNO",
+        "coalition": "BN",
+        "coalition_uid": "001-BN",
+        "name": "Mohamad bin Hasan (Tok Mat)",
+        "majority": 10280.0,
+        "majority_perc": 43.49665735804349,
+        "voter_turnout": 23834.0,
+        "voter_turnout_perc": 72.46579507449073
+      },
+      "ballot": [
+        {
+          "name": "Mohamad bin Hasan (Tok Mat)",
+          "party_uid": "001-UMNO",
+          "party": "UMNO",
+          "coalition_uid": "001-BN",
+          "coalition": "BN",
+          "votes": 16957,
+          "votes_perc": 71.74832867902174,
+          "result": "won"
+        },
+        {
+          "name": "Rozmal bin Malakan",
+          "party_uid": "004-PAS",
+          "party": "PAS",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 6677,
+          "votes_perc": 28.25167132097825,
+          "result": "lost"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 32890,
+        "voters_total_v_avg": 1.3697428926743211,
+        "voter_turnout": 23834,
+        "voter_turnout_perc": 72.46579507449073,
+        "votes_rejected": 161,
+        "votes_rejected_perc": 0.6766127337675982,
+        "majority": 10280,
+        "majority_perc": 43.49665735804349
+      }
+    },
+    {
+      "seat_slug": "n28-kota-negeri-sembilan",
+      "seat_name": "N.28 Kota",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.28 Kota",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "UMNO",
+        "party_uid": "001-UMNO",
+        "coalition": "BN",
+        "coalition_uid": "001-BN",
+        "name": "Suhaimi bin Aini",
+        "majority": 135.0,
+        "majority_perc": 1.1634922002930277,
+        "voter_turnout": 11723.0,
+        "voter_turnout_perc": 71.00545124167171
+      },
+      "ballot": [
+        {
+          "name": "Suhaimi bin Aini",
+          "party_uid": "001-UMNO",
+          "party": "UMNO",
+          "coalition_uid": "001-BN",
+          "coalition": "BN",
+          "votes": 5869,
+          "votes_perc": 50.58174610014652,
+          "result": "won"
+        },
+        {
+          "name": "Ahmad Shukri bin Abdul Shukor",
+          "party_uid": "107-BERSATU",
+          "party": "BERSATU",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 5734,
+          "votes_perc": 49.41825389985349,
+          "result": "lost"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 16510,
+        "voters_total_v_avg": 0.6875784481013391,
+        "voter_turnout": 11723,
+        "voter_turnout_perc": 71.00545124167171,
+        "votes_rejected": 96,
+        "votes_rejected_perc": 0.8205829558081887,
+        "majority": 135,
+        "majority_perc": 1.1634922002930277
+      }
+    },
+    {
+      "seat_slug": "n29-chuah-negeri-sembilan",
+      "seat_name": "N.29 Chuah",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.29 Chuah",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "PKR",
+        "party_uid": "078-PKR",
+        "coalition": "PH",
+        "coalition_uid": "007-PH",
+        "name": "Yew Boon Lye",
+        "majority": 6298.0,
+        "majority_perc": 62.69161855464862,
+        "voter_turnout": 10159.0,
+        "voter_turnout_perc": 67.30043060616097
+      },
+      "ballot": [
+        {
+          "name": "Yew Boon Lye",
+          "party_uid": "078-PKR",
+          "party": "PKR",
+          "coalition_uid": "007-PH",
+          "coalition": "PH",
+          "votes": 8172,
+          "votes_perc": 81.3458092773243,
+          "result": "won"
+        },
+        {
+          "name": "Tang Jay Son",
+          "party_uid": "026-GERAKAN",
+          "party": "GERAKAN",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 1874,
+          "votes_perc": 18.654190722675693,
+          "result": "lost"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 15095,
+        "voters_total_v_avg": 0.6286491020042225,
+        "voter_turnout": 10159,
+        "voter_turnout_perc": 67.30043060616097,
+        "votes_rejected": 101,
+        "votes_rejected_perc": 0.9953680890903714,
+        "majority": 6298,
+        "majority_perc": 62.69161855464862
+      }
+    },
+    {
+      "seat_slug": "n30-lukut-negeri-sembilan",
+      "seat_name": "N.30 Lukut",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.30 Lukut",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "DAP",
+        "party_uid": "021-DAP",
+        "coalition": "PH",
+        "coalition_uid": "007-PH",
+        "name": "Choo Ken Hwa",
+        "majority": 10135.0,
+        "majority_perc": 58.72979080952657,
+        "voter_turnout": 17418.0,
+        "voter_turnout_perc": 64.9779900022383
+      },
+      "ballot": [
+        {
+          "name": "Choo Ken Hwa",
+          "party_uid": "021-DAP",
+          "party": "DAP",
+          "coalition_uid": "007-PH",
+          "coalition": "PH",
+          "votes": 13696,
+          "votes_perc": 79.36489540476327,
+          "result": "won"
+        },
+        {
+          "name": "Ragu a/l Subramaniam",
+          "party_uid": "004-PAS",
+          "party": "PAS",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 3561,
+          "votes_perc": 20.635104595236715,
+          "result": "lost"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 26806,
+        "voters_total_v_avg": 1.1163675275472136,
+        "voter_turnout": 17418,
+        "voter_turnout_perc": 64.9779900022383,
+        "votes_rejected": 145,
+        "votes_rejected_perc": 0.8332375589012756,
+        "majority": 10135,
+        "majority_perc": 58.72979080952657
+      }
+    },
+    {
+      "seat_slug": "n31-bagan-pinang-negeri-sembilan",
+      "seat_name": "N.31 Bagan Pinang",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.31 Bagan Pinang",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "PAS",
+        "party_uid": "004-PAS",
+        "coalition": "PN",
+        "coalition_uid": "011-PN",
+        "name": "Abdul Fatah bin Zakaria",
+        "majority": 3426.0,
+        "majority_perc": 18.60338835794961,
+        "voter_turnout": 21031.0,
+        "voter_turnout_perc": 75.67830154731918
+      },
+      "ballot": [
+        {
+          "name": "Abdul Fatah bin Zakaria",
+          "party_uid": "004-PAS",
+          "party": "PAS",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 10921,
+          "votes_perc": 59.301694178974806,
+          "result": "won"
+        },
+        {
+          "name": "Mohd Najib bin Mohd Isa",
+          "party_uid": "001-UMNO",
+          "party": "UMNO",
+          "coalition_uid": "001-BN",
+          "coalition": "BN",
+          "votes": 7495,
+          "votes_perc": 40.698305821025194,
+          "result": "lost"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 27790,
+        "voters_total_v_avg": 1.1573473696387773,
+        "voter_turnout": 21031,
+        "voter_turnout_perc": 75.67830154731918,
+        "votes_rejected": 2585,
+        "votes_rejected_perc": 12.30893766963478,
+        "majority": 3426,
+        "majority_perc": 18.60338835794961
+      }
+    },
+    {
+      "seat_slug": "n32-linggi-negeri-sembilan",
+      "seat_name": "N.32 Linggi",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.32 Linggi",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "UMNO",
+        "party_uid": "001-UMNO",
+        "coalition": "BN",
+        "coalition_uid": "001-BN",
+        "name": "Mohd Faizal bin Ramli",
+        "majority": 1461.0,
+        "majority_perc": 10.286559177638527,
+        "voter_turnout": 14551.0,
+        "voter_turnout_perc": 70.30827212988017
+      },
+      "ballot": [
+        {
+          "name": "Mohd Faizal bin Ramli",
+          "party_uid": "001-UMNO",
+          "party": "UMNO",
+          "coalition_uid": "001-BN",
+          "coalition": "BN",
+          "votes": 7832,
+          "votes_perc": 55.14327958881926,
+          "result": "won"
+        },
+        {
+          "name": "Zamri bin Md Said",
+          "party_uid": "107-BERSATU",
+          "party": "BERSATU",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 6371,
+          "votes_perc": 44.85672041118073,
+          "result": "lost"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 20696,
+        "voters_total_v_avg": 0.8619093617144344,
+        "voter_turnout": 14551,
+        "voter_turnout_perc": 70.30827212988017,
+        "votes_rejected": 98,
+        "votes_rejected_perc": 0.6852667645619187,
+        "majority": 1461,
+        "majority_perc": 10.286559177638527
+      }
+    },
+    {
+      "seat_slug": "n33-sri-tanjung-negeri-sembilan",
+      "seat_name": "N.33 Sri Tanjung",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.33 Sri Tanjung",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "PKR",
+        "party_uid": "078-PKR",
+        "coalition": "PH",
+        "coalition_uid": "007-PH",
+        "name": "Rajasekaran a/l Gunnasekaran (Dr. Raja)",
+        "majority": 3996.0,
+        "majority_perc": 32.014100304438394,
+        "voter_turnout": 12599.0,
+        "voter_turnout_perc": 64.8396891565025
+      },
+      "ballot": [
+        {
+          "name": "Rajasekaran a/l Gunnasekaran (Dr. Raja)",
+          "party_uid": "078-PKR",
+          "party": "PKR",
+          "coalition_uid": "007-PH",
+          "coalition": "PH",
+          "votes": 8239,
+          "votes_perc": 66.0070501522192,
+          "result": "won"
+        },
+        {
+          "name": "Zabidi bin Ariffin",
+          "party_uid": "107-BERSATU",
+          "party": "BERSATU",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 4243,
+          "votes_perc": 33.99294984778081,
+          "result": "lost"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 19431,
+        "voters_total_v_avg": 0.8092269427654222,
+        "voter_turnout": 12599,
+        "voter_turnout_perc": 64.8396891565025,
+        "votes_rejected": 98,
+        "votes_rejected_perc": 0.7790143084260731,
+        "majority": 3996,
+        "majority_perc": 32.014100304438394
+      }
+    },
+    {
+      "seat_slug": "n34-gemas-negeri-sembilan",
+      "seat_name": "N.34 Gemas",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.34 Gemas",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "BERSATU",
+        "party_uid": "107-BERSATU",
+        "coalition": "PN",
+        "coalition_uid": "011-PN",
+        "name": "Ridzuan bin Ahmad",
+        "majority": 3120.0,
+        "majority_perc": 15.45625681165164,
+        "voter_turnout": 20453.0,
+        "voter_turnout_perc": 68.98610361575822
+      },
+      "ballot": [
+        {
+          "name": "Ridzuan bin Ahmad",
+          "party_uid": "107-BERSATU",
+          "party": "BERSATU",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 11653,
+          "votes_perc": 57.72812840582582,
+          "result": "won"
+        },
+        {
+          "name": "Abdul Razak bin Ab Said",
+          "party_uid": "001-UMNO",
+          "party": "UMNO",
+          "coalition_uid": "001-BN",
+          "coalition": "BN",
+          "votes": 8533,
+          "votes_perc": 42.27187159417418,
+          "result": "lost"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 29648,
+        "voters_total_v_avg": 1.234725973913295,
+        "voter_turnout": 20453,
+        "voter_turnout_perc": 68.98610361575822,
+        "votes_rejected": 251,
+        "votes_rejected_perc": 1.2281646034153741,
+        "majority": 3120,
+        "majority_perc": 15.45625681165164
+      }
+    },
+    {
+      "seat_slug": "n35-gemencheh-negeri-sembilan",
+      "seat_name": "N.35 Gemencheh",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.35 Gemencheh",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "UMNO",
+        "party_uid": "001-UMNO",
+        "coalition": "BN",
+        "coalition_uid": "001-BN",
+        "name": "Suhaimizan bin Bizar (Hai)",
+        "majority": 2434.0,
+        "majority_perc": 15.829864724245576,
+        "voter_turnout": 15519.0,
+        "voter_turnout_perc": 63.08023737907488
+      },
+      "ballot": [
+        {
+          "name": "Suhaimizan bin Bizar (Hai)",
+          "party_uid": "001-UMNO",
+          "party": "UMNO",
+          "coalition_uid": "001-BN",
+          "coalition": "BN",
+          "votes": 8905,
+          "votes_perc": 57.914932362122784,
+          "result": "won"
+        },
+        {
+          "name": "Tengku Abdullah bin Tengku Rakman (Ustaz Tengku)",
+          "party_uid": "004-PAS",
+          "party": "PAS",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 6471,
+          "votes_perc": 42.08506763787721,
+          "result": "lost"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 24602,
+        "voters_total_v_avg": 1.0245793446510687,
+        "voter_turnout": 15519,
+        "voter_turnout_perc": 63.08023737907488,
+        "votes_rejected": 123,
+        "votes_rejected_perc": 0.7935995870701336,
+        "majority": 2434,
+        "majority_perc": 15.829864724245576
+      }
+    },
+    {
+      "seat_slug": "n36-repah-negeri-sembilan",
+      "seat_name": "N.36 Repah",
+      "state": "Negeri Sembilan",
+      "election_date": "2023-08-12",
+      "summary": {
+        "election_name": "SE-15",
+        "seat": "N.36 Repah",
+        "state": "Negeri Sembilan",
+        "date": "2023-08-12",
+        "party": "DAP",
+        "party_uid": "021-DAP",
+        "coalition": "PH",
+        "coalition_uid": "007-PH",
+        "name": "Veerapan a/l Superamaniam",
+        "majority": 5950.0,
+        "majority_perc": 34.86872948898265,
+        "voter_turnout": 17277.0,
+        "voter_turnout_perc": 63.322826565019795
+      },
+      "ballot": [
+        {
+          "name": "Veerapan a/l Superamaniam",
+          "party_uid": "021-DAP",
+          "party": "DAP",
+          "coalition_uid": "007-PH",
+          "coalition": "PH",
+          "votes": 11507,
+          "votes_perc": 67.43436474449133,
+          "result": "won"
+        },
+        {
+          "name": "Elaine Yong Li Yi",
+          "party_uid": "026-GERAKAN",
+          "party": "GERAKAN",
+          "coalition_uid": "011-PN",
+          "coalition": "PN",
+          "votes": 5557,
+          "votes_perc": 32.565635255508674,
+          "result": "lost"
+        }
+      ],
+      "stats": {
+        "date": "2023-08-12",
+        "voters_total": 27284,
+        "voters_total_v_avg": 1.1362744020591724,
+        "voter_turnout": 17277,
+        "voter_turnout_perc": 63.322826565019795,
+        "votes_rejected": 193,
+        "votes_rejected_perc": 1.1183867416120994,
+        "majority": 5950,
+        "majority_perc": 34.86872948898265
+      }
+    }
+  ],
+  "errors": null
+}
