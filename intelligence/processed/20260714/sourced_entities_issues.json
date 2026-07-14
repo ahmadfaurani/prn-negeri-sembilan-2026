@@ -1,0 +1,336 @@
+{
+  "date": "20260714",
+  "category": "issues",
+  "method": "gazetteer-grounded, source-attributed (verbatim surface match)",
+  "cvs_standard": "TLP:AMBER - all entities source-attributed; no pattern-inferred entities",
+  "source_count": 9,
+  "entity_count": 17,
+  "entities": [
+    {
+      "entity": "Selat Hormuz / Gulf conflict",
+      "surface_forms": [
+        "Gulf conflict",
+        "Selat Hormuz",
+        "Strait of Hormuz"
+      ],
+      "occurrences": 7,
+      "source_files": [
+        "astroawanicom_20260714_010109.md",
+        "bhariancommy_20260714_010109.md",
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "astroawani.com",
+        "bharian.com.my",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "[![The UAE Ministry of Defense says two Emirati Very Large Crude Carriers (VLCC), Mombasa B (IMO 9739501) and Al Bahyah (IMO 9937799), were struck by Iranian cruise missiles in Omani waters near the Strait of Hormuz._X @EGYOSINT](https://re...",
+        "Dunia[##### UAE dakwa dua kapal tangki minyak diserang Iran di Selat Hormuz, seorang kru India terkorban](https://www.astroawani.com/berita-dunia/uae-dakwa-dua-kapal-tangki-minyak-diserang-iran-di-selat-hormuz-seorang-kru-india-terkorban \"U...",
+        "[![The UAE Ministry of Defense says two Emirati Very Large Crude Carriers (VLCC), Mombasa B (IMO 9739501) and Al Bahyah (IMO 9937799), were struck by Iranian cruise missiles in Omani waters near the Strait of Hormuz._X @EGYOSINT](https://re..."
+      ]
+    },
+    {
+      "entity": "Floods (banjir)",
+      "surface_forms": [
+        "Mangsa banjir",
+        "banjir"
+      ],
+      "occurrences": 6,
+      "source_files": [
+        "astroawanicom_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "astroawani.com"
+      ],
+      "context_samples": [
+        "Mangsa banjir di Melaka kekal 43 orang pagi ini](https://www.astroawani.com/berita-malaysia/mangsa-banjir-di-melaka-kekal-43-orang-pagi-ini)",
+        "[![MELAKA, 13 Julai -- Rumiah Sabri (kanan), 75, bersama keluarganya yang ditempatkan di Pusat Pemindahan Sementara (PPS) Sekolah Kebangsaan (SK) Tehel selepas rumah mereka di Kampung Parit Lampong dinaiki air ketika tinjauan di sini hari i...",
+        "Malaysia[##### Mangsa banjir di Melaka kekal 43 orang pagi ini](https://www.astroawani.com/berita-malaysia/mangsa-banjir-di-melaka-kekal-43-orang-pagi-ini \"Mangsa banjir di Melaka kekal 43 orang pagi ini\")"
+      ]
+    },
+    {
+      "entity": "Cyberbullying",
+      "surface_forms": [
+        "cyberbullying"
+      ],
+      "occurrences": 4,
+      "source_files": [
+        "nstcommy_20260714_010109.md",
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "Four arrested over cyberbullying, threats against teen girl in Sabah\\",
+        "![](https://assets.nst.com.my/images/listing-featured/AECE712C160AB185E1D40AABCB5DACB2_data_0.jpg)](https://www.nst.com.my/news/nation/2026/07/1488007/four-arrested-over-cyberbullying-threats-against-teen-girl-sabah)",
+        "### Zara Qairina inquest: Evidence of verbal, cyberbullying found, says child psychologist"
+      ]
+    },
+    {
+      "entity": "Johor-Singapore SEZ (JS-SEZ)",
+      "surface_forms": [
+        "JS-SEZ",
+        "Johor-Singapore Special Economic Zone"
+      ],
+      "occurrences": 4,
+      "source_files": [
+        "nstcommy_20260714_010109.md",
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "Malaysia, Singapore to finalise JS-SEZ master plan soon, says Anwar\\",
+        "KUALA LUMPUR: Malaysia and Singapore will finalise the master plan for the Johor-Singapore Special Economic Zone (JS-SEZ) in the near future, said...\\",
+        "KUALA LUMPUR: Malaysia and Singapore will finalise the master plan for the Johor-Singapore Special Economic Zone (JS-SEZ) in the near future, said...\\"
+      ]
+    },
+    {
+      "entity": "MyKAS / citizenship",
+      "surface_forms": [
+        "kad pengenalan",
+        "warganegara"
+      ],
+      "occurrences": 4,
+      "source_files": [
+        "kosmocommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "kosmo.com.my"
+      ],
+      "context_samples": [
+        "### [‘Warganegara Malaysia, saya pun ada kad pengenalan’](https://www.kosmo.com.my/2026/07/13/warganegara-malaysia-saya-pun-ada-kad-pengenalan/)",
+        "[![](https://www.kosmo.com.my/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-13-at-12.57.20-e1783922500769-1140x815.jpeg?v=1783922275)](https://www.kosmo.com.my/2026/07/13/warganegara-malaysia-saya-pun-ada-kad-pengenalan/)",
+        "### [‘Warganegara Malaysia, saya pun ada kad pengenalan’](https://www.kosmo.com.my/2026/07/13/warganegara-malaysia-saya-pun-ada-kad-pengenalan/)"
+      ]
+    },
+    {
+      "entity": "Pension fund dividend (LTAT/ASSAR)",
+      "surface_forms": [
+        "dividend",
+        "pension fund"
+      ],
+      "occurrences": 4,
+      "source_files": [
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "KUANTAN: The Armed Forces Fund Board (LTAT) is committed to maintaining a competitive ­dividend payout, subject to investment returns and the performance of its portfolio companies.",
+        "### ASSAR declares 6.5 sen per unit dividend for FY26",
+        "[Read](https://www.thestar.com.my/business/business-news/2026/07/13/assar-declares-65-sen-per-unit-dividend-for-fy26)"
+      ]
+    },
+    {
+      "entity": "Umno-Pas alliance",
+      "surface_forms": [
+        "Formal Umno-Pas alliance",
+        "Umno-Pas",
+        "Umno-Pas alliance"
+      ],
+      "occurrences": 4,
+      "source_files": [
+        "nstcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "Formal Umno-Pas alliance unlikely, say analysts \\[WATCH\\]\\",
+        "Formal Umno-Pas alliance unlikely, say analysts \\[WATCH\\]\\",
+        "---------------------------------------------------------](https://www.nst.com.my/news/nation/2026/07/1488103/formal-umno-pas-alliance-unlikely-say-analysts-watch)"
+      ]
+    },
+    {
+      "entity": "Cost of living",
+      "surface_forms": [
+        "kos sara",
+        "kos sara hidup"
+      ],
+      "occurrences": 3,
+      "source_files": [
+        "bhariancommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "bharian.com.my"
+      ],
+      "context_samples": [
+        "[Putrajaya, KL, Selangor catat kos sara hidup isi rumah tertinggi](https://www.bharian.com.my/bisnes/lain-lain/2026/07/1587557/putrajaya-kl-selangor-catat-kos-sara-hidup-isi-rumah-tertinggi)",
+        "Putrajaya, KL, Selangor catat kos sara...](https://www.bharian.com.my/bisnes/lain-lain/2026/07/1587557/putrajaya-kl-selangor-catat-kos-sara-hidup-isi-rumah-tertinggi)",
+        "[Putrajaya, KL, Selangor catat kos sara hidup isi rumah tertinggi](https://www.bharian.com.my/bisnes/lain-lain/2026/07/1587557/putrajaya-kl-selangor-catat-kos-sara-hidup-isi-rumah-tertinggi)"
+      ]
+    },
+    {
+      "entity": "Fuel supply / oil market volatility",
+      "surface_forms": [
+        "Brent crude",
+        "fuel supply",
+        "oil market volatility"
+      ],
+      "occurrences": 3,
+      "source_files": [
+        "nstcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "Malaysia's fuel supply secured until end of 2026 amid oil market volatility\\",
+        "Malaysia's fuel supply secured until end of 2026 amid oil market volatility\\",
+        "KUALA LUMPUR: Brent crude oil prices rose 5.9 per cent last week following fresh United States attacks on Iran, but Malaysia’s petroleum supply...\\"
+      ]
+    },
+    {
+      "entity": "Marginal seats / election competitiveness",
+      "surface_forms": [
+        "marginal seats",
+        "tighter races",
+        "unpredictable state election"
+      ],
+      "occurrences": 3,
+      "source_files": [
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "PETALING JAYA: The upcoming Negri Sembilan election is expected to be a tighter contest compared to Johor due to the growing number of marginal seats and a closer fight in Malay-majority and mixed constituencies, say analysts.",
+        "[INTERACTIVE: Tighter races in Negri Sembilan point to more unpredictable state election](https://www.thestar.com.my/news/nation/2026/07/14/interactive-tighter-races-in-negri-sembilan-point-to-more-unpredictable-state-election)",
+        "[INTERACTIVE: Tighter races in Negri Sembilan point to more unpredictable state election](https://www.thestar.com.my/news/nation/2026/07/14/interactive-tighter-races-in-negri-sembilan-point-to-more-unpredictable-state-election)"
+      ]
+    },
+    {
+      "entity": "Net Disposable Income (NDI) welfare model",
+      "surface_forms": [
+        "NDI",
+        "Net Disposable Income"
+      ],
+      "occurrences": 3,
+      "source_files": [
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "[Govt eyes net disposable income model to determine aid recipients](https://www.thestar.com.my/news/nation/2026/07/14/govt-eyes-net-disposable-income-model-to-determine-aid-recipients)",
+        "KUALA LUMPUR: The government is considering using Net Disposable Income (NDI) to determine who qualifies for welfare assistance, moving toward a more precise model than the traditional gross income brackets of B40, M40, and T20.",
+        "KUALA LUMPUR: The government is considering using Net Disposable Income (NDI) to determine who qualifies for welfare assistance, moving toward a more precise model than the traditional gross income brackets of B40, M40, and T20."
+      ]
+    },
+    {
+      "entity": "AG-Public Prosecutor separation",
+      "surface_forms": [
+        "AG-public prosecutor separation",
+        "separation of roles"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "nstcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "AG-public prosecutor separation report to be tabled tomorrow\\",
+        "KUALA LUMPUR: The Special Select Committee’s report on the separation of roles between the Attorney-General (AG) and the Public Prosecutor is set...\\"
+      ]
+    },
+    {
+      "entity": "Climate change law",
+      "surface_forms": [
+        "Climate Change Bill",
+        "climate law"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "KOTA KINABALU: The National Climate Change Bill, which is expected to be tabled in Parliament this year, will make Malaysia one of the few countries with specific legislation dedicated to climate change.",
+        "[Malaysia set to join nations with climate law](https://www.thestar.com.my/news/nation/2026/07/14/malaysia-set-to-join-nations-with-climate-law)"
+      ]
+    },
+    {
+      "entity": "Freedom of Information Bill (FOI Bill)",
+      "surface_forms": [
+        "FOI Bill",
+        "Freedom of Information"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "nstcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "Malaysian Media Council backs select committee review of FOI Bill\\",
+        "KUALA LUMPUR: The Malaysian Media Council (MMM) said referring the Freedom of Information (FOI) Bill 2026 to a parliamentary special select...\\"
+      ]
+    },
+    {
+      "entity": "Imigration enforcement",
+      "surface_forms": [
+        "imigresen"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "bhariancommy_20260714_010109.md",
+        "kosmocommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "bharian.com.my",
+        "kosmo.com.my"
+      ],
+      "context_samples": [
+        "Empat wanita antara 10 ditahan dalam...](https://www.bharian.com.my/berita/kes/2026/07/1587439/empat-wanita-antara-10-ditahan-dalam-operasi-bersepadu-imigresen-di-kuala)",
+        "[![[VIDEO] Restoran diarah tutup, penebar roti kena ‘angkut’](https://www.kosmo.com.my/wp-content/uploads/2026/07/JIM-IMIGRESEN-PENEBAR-ROTI-1140x815.jpeg)](https://www.kosmo.com.my/2026/07/13/restoran-diarah-tutup-penebar-roti-kena-angkut/..."
+      ]
+    },
+    {
+      "entity": "LINDUNG scheme",
+      "surface_forms": [
+        "LINDUNG"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "bhariancommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "bharian.com.my"
+      ],
+      "context_samples": [
+        "Fahami dasar LINDUNG 24 jam berdasar...](https://www.bharian.com.my/berita/nasional/2026/07/1587541/fahami-dasar-lindung-24-jam-berdasar-fakta-bukan-persepsi)",
+        "Pencarum pilih keluar LINDUNG 24 JAM...](https://www.bharian.com.my/berita/nasional/2026/07/1585763/pencarum-pilih-keluar-lindung-24-jam-perlu-isi-borang-pelepasan)"
+      ]
+    },
+    {
+      "entity": "Corruption / money laundering (Syed Saddiq case)",
+      "surface_forms": [
+        "corruption and money laundering"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "PUTRAJAYA: After waiting more than a year to learn his fate, Muar MP Syed Saddiq Syed Abdul Rahman is finally free of his corruption and money laundering convictions."
+      ]
+    }
+  ]
+}

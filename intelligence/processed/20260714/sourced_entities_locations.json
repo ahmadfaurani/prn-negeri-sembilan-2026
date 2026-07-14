@@ -1,0 +1,417 @@
+{
+  "date": "20260714",
+  "category": "locations",
+  "method": "gazetteer-grounded, source-attributed (verbatim surface match)",
+  "cvs_standard": "TLP:AMBER - all entities source-attributed; no pattern-inferred entities",
+  "source_count": 9,
+  "entity_count": 22,
+  "entities": [
+    {
+      "entity": "Negeri Sembilan",
+      "surface_forms": [
+        "Negeri Sembilan",
+        "Negri Sembilan"
+      ],
+      "occurrences": 18,
+      "source_files": [
+        "ohbulancom_20260714_010109.md",
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "ohbulan.com",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "negeri sembilan",
+        "[![Suki, Waris Dikurniakan Anugerah Sempena Hari Keputeraan Ke-77 Yang Dipertuan Besar Negeri Sembilan](https://media.ohbulan.com/2025/01/n9-istiadat-scaled.jpg)](https://ohbulan.com/suki-waris-dikurniakan-anugerah-sempena-hari-keputeraan-k...",
+        "[negeri sembilan](https://ohbulan.com/negeri-sembilan/)"
+      ]
+    },
+    {
+      "entity": "Kuala Lumpur",
+      "surface_forms": [
+        "Kuala Lumpur"
+      ],
+      "occurrences": 11,
+      "source_files": [
+        "nstcommy_20260714_010109.md",
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "KUALA LUMPUR: The National Registration Department (NRD) approved 286 MyKAS applications, or 96 per cent of the 298 applications received from...\\",
+        "KUALA LUMPUR: Pas Information Chief Ahmad Fadhli Shaari has defended his party against critics who accuse it of constantly shifting its political...\\",
+        "KUALA LUMPUR: The United Nations High Commissioner for Refugees (UNHCR) card is not a citizenship document and does not grant immunity from...\\"
+      ]
+    },
+    {
+      "entity": "Johor",
+      "surface_forms": [
+        "Johor"
+      ],
+      "occurrences": 7,
+      "source_files": [
+        "kosmocommy_20260714_010109.md",
+        "nstcommy_20260714_010109.md",
+        "thestarcommy_20260714_010109.md",
+        "utusancommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "kosmo.com.my",
+        "nst.com.my",
+        "thestar.com.my",
+        "utusan.com.my"
+      ],
+      "context_samples": [
+        "[![](https://www.kosmo.com.my/wp-content/uploads/2026/07/Keputusan-PRN-Johor_728x90.png)](https://pru.utusan.com.my/)",
+        "[![](https://www.kosmo.com.my/wp-content/uploads/2026/07/Keputusan-PRN-Johor_728x90.png)](https://pru.utusan.com.my/)",
+        "KUALA LUMPUR: Malaysia and Singapore will finalise the master plan for the Johor-Singapore Special Economic Zone (JS-SEZ) in the near future, said...\\"
+      ]
+    },
+    {
+      "entity": "Sarawak",
+      "surface_forms": [
+        "Sarawak"
+      ],
+      "occurrences": 7,
+      "source_files": [
+        "bhariancommy_20260714_010109.md",
+        "nstcommy_20260714_010109.md",
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "bharian.com.my",
+        "nst.com.my",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "Sarawak bakal miliki kilang Gardenia...](https://www.bharian.com.my/bisnes/korporat/2026/07/1587347/sarawak-bakal-miliki-kilang-gardenia-pertama)",
+        "Sarawak considers new fund for non-Bumiputera investors\\",
+        "KUCHING: The Sarawak state government is considering a proposal to expand Amanah Saham Sarawak (Assar) to the non-Bumiputera community through the...\\"
+      ]
+    },
+    {
+      "entity": "Melaka",
+      "surface_forms": [
+        "Melaka"
+      ],
+      "occurrences": 5,
+      "source_files": [
+        "astroawanicom_20260714_010109.md",
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "astroawani.com",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "Mangsa banjir di Melaka kekal 43 orang pagi ini](https://www.astroawani.com/berita-malaysia/mangsa-banjir-di-melaka-kekal-43-orang-pagi-ini)",
+        "[![MELAKA, 13 Julai -- Rumiah Sabri (kanan), 75, bersama keluarganya yang ditempatkan di Pusat Pemindahan Sementara (PPS) Sekolah Kebangsaan (SK) Tehel selepas rumah mereka di Kampung Parit Lampong dinaiki air ketika tinjauan di sini hari i...",
+        "Malaysia[##### Mangsa banjir di Melaka kekal 43 orang pagi ini](https://www.astroawani.com/berita-malaysia/mangsa-banjir-di-melaka-kekal-43-orang-pagi-ini \"Mangsa banjir di Melaka kekal 43 orang pagi ini\")"
+      ]
+    },
+    {
+      "entity": "Putrajaya",
+      "surface_forms": [
+        "Putrajaya"
+      ],
+      "occurrences": 5,
+      "source_files": [
+        "bhariancommy_20260714_010109.md",
+        "nstcommy_20260714_010109.md",
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "bharian.com.my",
+        "nst.com.my",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "Putrajaya, KL, Selangor catat kos sara...](https://www.bharian.com.my/bisnes/lain-lain/2026/07/1587557/putrajaya-kl-selangor-catat-kos-sara-hidup-isi-rumah-tertinggi)",
+        "[Putrajaya, KL, Selangor catat kos sara hidup isi rumah tertinggi](https://www.bharian.com.my/bisnes/lain-lain/2026/07/1587557/putrajaya-kl-selangor-catat-kos-sara-hidup-isi-rumah-tertinggi)",
+        "PUTRAJAYA: Higher Education Minister Datuk Seri Dr Zambry Abdul Kadir will represent the Malaysian government in paying final respects to the late...\\"
+      ]
+    },
+    {
+      "entity": "Penang / Pulau Pinang",
+      "surface_forms": [
+        "Penang"
+      ],
+      "occurrences": 4,
+      "source_files": [
+        "nstcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "Penang's iconic trishaws still drawing tourists despite e-hailing boom\\",
+        "MMEA showcases maritime role at Penang Jelajah Wira Madani\\",
+        "GEORGE TOWN: The Malaysian Maritime Enforcement Agency is leveraging the Penang Jelajah Wira Madani programme to enhance public understanding of...\\"
+      ]
+    },
+    {
+      "entity": "Pagoh",
+      "surface_forms": [
+        "Pagoh"
+      ],
+      "occurrences": 3,
+      "source_files": [
+        "nstcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "Muhyiddin could risk losing Pagoh in next general election - Ong\\",
+        "PETALING JAYA: Former Bangi MP Ong Kian Ming believes Bersatu president Tan Sri Muhyiddin Yassin’s hold on the Pagoh parliamentary seat could be at...\\",
+        "![](https://assets.nst.com.my/images/listing-featured/9CCEBEE230A9782E519C1A6D277F1F00_data_0.jpg)](https://www.nst.com.my/news/nation/2026/07/1488044/muhyiddin-could-risk-losing-pagoh-next-general-election-ong)"
+      ]
+    },
+    {
+      "entity": "Petaling Jaya",
+      "surface_forms": [
+        "Petaling Jaya"
+      ],
+      "occurrences": 3,
+      "source_files": [
+        "nstcommy_20260714_010109.md",
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "PETALING JAYA: The driver of a Proton X70 involved in a fatal crash that killed a motorcyclist along Jalan 17/21 on May 5 will be charged in court...](https://www.nst.com.my/news/nation/2026/07/1488178/proton-x70-driver-be-charged-today-ove...",
+        "PETALING JAYA: Former Bangi MP Ong Kian Ming believes Bersatu president Tan Sri Muhyiddin Yassin’s hold on the Pagoh parliamentary seat could be at...\\",
+        "PETALING JAYA: The upcoming Negri Sembilan election is expected to be a tighter contest compared to Johor due to the growing number of marginal seats and a closer fight in Malay-majority and mixed constituencies, say analysts."
+      ]
+    },
+    {
+      "entity": "Sabah",
+      "surface_forms": [
+        "Sabah"
+      ],
+      "occurrences": 3,
+      "source_files": [
+        "nstcommy_20260714_010109.md",
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "Four arrested over cyberbullying, threats against teen girl in Sabah\\",
+        "![](https://assets.nst.com.my/images/listing-featured/AECE712C160AB185E1D40AABCB5DACB2_data_0.jpg)](https://www.nst.com.my/news/nation/2026/07/1488007/four-arrested-over-cyberbullying-threats-against-teen-girl-sabah)",
+        "[Sabah & Sarawak](https://www.thestar.com.my/tag/Sabah+&+Sarawak)"
+      ]
+    },
+    {
+      "entity": "Selangor",
+      "surface_forms": [
+        "Selangor"
+      ],
+      "occurrences": 3,
+      "source_files": [
+        "bhariancommy_20260714_010109.md",
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "bharian.com.my",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "Putrajaya, KL, Selangor catat kos sara...](https://www.bharian.com.my/bisnes/lain-lain/2026/07/1587557/putrajaya-kl-selangor-catat-kos-sara-hidup-isi-rumah-tertinggi)",
+        "[Putrajaya, KL, Selangor catat kos sara hidup isi rumah tertinggi](https://www.bharian.com.my/bisnes/lain-lain/2026/07/1587557/putrajaya-kl-selangor-catat-kos-sara-hidup-isi-rumah-tertinggi)",
+        "In conjunction with World Environment Day, Air Selangor is spotlighting the importance of practicing smarter water habits at home."
+      ]
+    },
+    {
+      "entity": "Tampin",
+      "surface_forms": [
+        "Tampin"
+      ],
+      "occurrences": 3,
+      "source_files": [
+        "ohbulancom_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "ohbulan.com"
+      ],
+      "context_samples": [
+        "[![McDonald’s Malaysia Rasmi Cawangan Baru Di Tampin, Buka Lebih Banyak Peluang Pekerjaan!](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E)](https://ohbulan.com/mcdonalds-ma...",
+        "[McDonald’s Malaysia Rasmi Cawangan Baru Di Tampin, Buka Lebih Banyak Peluang Pekerjaan!](https://ohbulan.com/mcdonalds-malaysia-rasmi-cawangan-baru-di-tampin-buka-lebih-banyak-peluang-pekerjaan/ \"Permalink to McDonald’s Malaysia Rasmi Cawa...",
+        "Baru-baru ini, McDonald’s Malaysia telah meraikan pembukaan rangkaian restoran di Tampin, Negeri Sembilan, sekalig…"
+      ]
+    },
+    {
+      "entity": "Kota Baru",
+      "surface_forms": [
+        "Kota Baru"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "nstcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "Labourer pleads guilty to possessing knife, imitation gun outside Kota Baru hotel\\",
+        "KOTA BARU: A labourer pleaded guilty at the Sessions Court here today to possessing a knife in a public place without lawful reason and an...\\"
+      ]
+    },
+    {
+      "entity": "Muar",
+      "surface_forms": [
+        "Muar"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "bhariancommy_20260714_010109.md",
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "bharian.com.my",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "Syed Saddiq salur bantuan bernilai...](https://www.bharian.com.my/berita/nasional/2026/07/1587401/syed-saddiq-salur-bantuan-bernilai-rm62-juta-kepada-penduduk-muar)",
+        "PUTRAJAYA: After waiting more than a year to learn his fate, Muar MP Syed Saddiq Syed Abdul Rahman is finally free of his corruption and money laundering convictions."
+      ]
+    },
+    {
+      "entity": "Bangi",
+      "surface_forms": [
+        "Bangi"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "nstcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "PETALING JAYA: Former Bangi MP Ong Kian Ming believes Bersatu president Tan Sri Muhyiddin Yassin’s hold on the Pagoh parliamentary seat could be at...\\"
+      ]
+    },
+    {
+      "entity": "Beaufort",
+      "surface_forms": [
+        "Beaufort"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "nstcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "BEAUFORT: Police have detained four individuals to assist in the investigation of a bullying and criminal intimidation case involving a...\\"
+      ]
+    },
+    {
+      "entity": "Denai Alam",
+      "surface_forms": [
+        "Denai Alam"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "### Air crash drill at Denai Alam R&R on July 16, DASH users advised to cooperate"
+      ]
+    },
+    {
+      "entity": "George Town",
+      "surface_forms": [
+        "George Town"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "nstcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "GEORGE TOWN: The Malaysian Maritime Enforcement Agency is leveraging the Penang Jelajah Wira Madani programme to enhance public understanding of...\\"
+      ]
+    },
+    {
+      "entity": "Johor Baru",
+      "surface_forms": [
+        "Johor Baru"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "JOHOR BARU: The campaign banners have been taken down and the ballots counted but for Johor voters, the real test begins now as they wait to see if promises made will deliver improvements."
+      ]
+    },
+    {
+      "entity": "Kota Kinabalu",
+      "surface_forms": [
+        "Kota Kinabalu"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "KOTA KINABALU: The National Climate Change Bill, which is expected to be tabled in Parliament this year, will make Malaysia one of the few countries with specific legislation dedicated to climate change."
+      ]
+    },
+    {
+      "entity": "Kuantan",
+      "surface_forms": [
+        "Kuantan"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "KUANTAN: The Armed Forces Fund Board (LTAT) is committed to maintaining a competitive ­dividend payout, subject to investment returns and the performance of its portfolio companies."
+      ]
+    },
+    {
+      "entity": "Kuching",
+      "surface_forms": [
+        "Kuching"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "nstcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "KUCHING: The Sarawak state government is considering a proposal to expand Amanah Saham Sarawak (Assar) to the non-Bumiputera community through the...\\"
+      ]
+    }
+  ]
+}

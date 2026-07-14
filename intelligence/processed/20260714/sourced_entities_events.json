@@ -1,0 +1,186 @@
+{
+  "date": "20260714",
+  "category": "events",
+  "method": "gazetteer-grounded, source-attributed (verbatim surface match)",
+  "cvs_standard": "TLP:AMBER - all entities source-attributed; no pattern-inferred entities",
+  "source_count": 9,
+  "entity_count": 9,
+  "entities": [
+    {
+      "entity": "FIFA World Cup 2026 / Piala Dunia 2026",
+      "surface_forms": [
+        "Piala Dunia",
+        "World Cup"
+      ],
+      "occurrences": 16,
+      "source_files": [
+        "astroawanicom_20260714_010109.md",
+        "bhariancommy_20260714_010109.md",
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "astroawani.com",
+        "bharian.com.my",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "[![Argentina's Lionel Messi (10) dribbles the ball during the World Cup quarterfinal soccer match against Switzerland in Kansas City, Mo., Saturday, July 11, 2026. (AP Photo/Charlie Riedel)](https://resizer-vortals.eco.astro.com.my/tr:w-aut...",
+        "[![Spain's Lamine Yamal responds to a question during a news conference Monday, July 13, 2026, in Arlington, Texas, ahead of the team's World Cup semifinal soccer match against France. (AP Photo/Tony Gutierrez)](https://resizer-vortals.eco....",
+        "[![Spain's Lamine Yamal responds to a question during a news conference Monday, July 13, 2026, in Arlington, Texas, ahead of the team's World Cup semifinal soccer match against France. (AP Photo/Tony Gutierrez)](https://resizer-vortals.eco...."
+      ]
+    },
+    {
+      "entity": "Jelajah Wira Madani",
+      "surface_forms": [
+        "Jelajah Wira Madani",
+        "Wira Madani"
+      ],
+      "occurrences": 8,
+      "source_files": [
+        "astroawanicom_20260714_010109.md",
+        "nstcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "astroawani.com",
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "[![61748652560_APMMsindiketselud.jpg](https://resizer-vortals.eco.astro.com.my/tr:w-auto,h-auto,q-80,f-webp/https://media.astroawani.com/awani/media/article/2026/Jan/31/61748652560_APMMsindiketselud.jpg)](https://www.astroawani.com/berita-m...",
+        "Malaysia[##### APMM pupuk kesedaran keselamatan maritim dalam program jelajah Wira MADANI PDRM](https://www.astroawani.com/berita-malaysia/apmm-pupuk-kesedaran-keselamatan-maritim-dalam-program-jelajah-wira-madani-pdrm \"APMM pupuk kesedaran...",
+        "[![61748652560_APMMsindiketselud.jpg](https://resizer-vortals.eco.astro.com.my/tr:w-auto,h-auto,q-80,f-webp/https://media.astroawani.com/awani/media/article/2026/Jan/31/61748652560_APMMsindiketselud.jpg)](https://www.astroawani.com/berita-m..."
+      ]
+    },
+    {
+      "entity": "Hari Keputeraan Ke-77 Yang di-Pertuan Besar Negeri Sembilan",
+      "surface_forms": [
+        "Hari Keputeraan",
+        "Yang Dipertuan Besar Negeri Sembilan"
+      ],
+      "occurrences": 5,
+      "source_files": [
+        "ohbulancom_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "ohbulan.com"
+      ],
+      "context_samples": [
+        "[![Suki, Waris Dikurniakan Anugerah Sempena Hari Keputeraan Ke-77 Yang Dipertuan Besar Negeri Sembilan](https://media.ohbulan.com/2025/01/n9-istiadat-scaled.jpg)](https://ohbulan.com/suki-waris-dikurniakan-anugerah-sempena-hari-keputeraan-k...",
+        "[Suki, Waris Dikurniakan Anugerah Sempena Hari Keputeraan Ke-77 Yang Dipertuan Besar Negeri Sembilan](https://ohbulan.com/suki-waris-dikurniakan-anugerah-sempena-hari-keputeraan-ke-77-yang-dipertuan-besar-negeri-sembilan/ \"Permalink to Suki...",
+        "Penyanyi Waris dan Suki Low dikurniakan anugerah kebesaran sempena Hari Keputeraan Ke-77 Yang di-Pertuan Besar Negeri Se…"
+      ]
+    },
+    {
+      "entity": "Syed Saddiq acquittal",
+      "surface_forms": [
+        "Syed Saddiq walks free",
+        "acquitted",
+        "six-year legal battle"
+      ],
+      "occurrences": 5,
+      "source_files": [
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "[Syed Saddiq walks free after six-year legal battle](https://www.thestar.com.my/news/nation/2026/07/14/syed-saddiq-walks-free-after-six-year-legal-battle)",
+        "PUTRAJAYA: The end of a six-year legal battle has given Syed Saddiq Syed Abdul Rahman a chance to look beyond politics and focus on his family and fiancee Bella Astillah.",
+        "[Syed Saddiq walks free after six-year legal battle](https://www.thestar.com.my/news/nation/2026/07/14/syed-saddiq-walks-free-after-six-year-legal-battle)"
+      ]
+    },
+    {
+      "entity": "Johor state election (PRN Johor)",
+      "surface_forms": [
+        "Keputusan-PRN-Johor"
+      ],
+      "occurrences": 4,
+      "source_files": [
+        "kosmocommy_20260714_010109.md",
+        "utusancommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "kosmo.com.my",
+        "utusan.com.my"
+      ],
+      "context_samples": [
+        "[![](https://www.kosmo.com.my/wp-content/uploads/2026/07/Keputusan-PRN-Johor_728x90.png)](https://pru.utusan.com.my/)",
+        "[![](https://www.kosmo.com.my/wp-content/uploads/2026/07/Keputusan-PRN-Johor_728x90.png)](https://pru.utusan.com.my/)",
+        "[![](https://www.utusan.com.my/wp-content/uploads/2026/07/Keputusan-PRN-Johor_728x90.png)](https://pru.utusan.com.my/)"
+      ]
+    },
+    {
+      "entity": "Muhyiddin trial (Nepturis)",
+      "surface_forms": [
+        "Muhyiddin trial",
+        "Nepturis"
+      ],
+      "occurrences": 3,
+      "source_files": [
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "### Witness in Muhyiddin trial says no deception in Nepturis shareholding records",
+        "### Witness in Muhyiddin trial says no deception in Nepturis shareholding records",
+        "[Read](https://www.thestar.com.my/news/nation/2026/07/13/witness-in-muhyiddin-trial-says-no-deception-in-nepturis-shareholding-records)"
+      ]
+    },
+    {
+      "entity": "Dewan Rakyat sitting",
+      "surface_forms": [
+        "Dewan Rakyat hari ini",
+        "tumpuan Dewan Rakyat"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "bhariancommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "bharian.com.my"
+      ],
+      "context_samples": [
+        "[BEZ Malaysia-Thailand, krisis di selat Hormuz tumpuan Dewan Rakyat hari ini](https://www.bharian.com.my/berita/nasional/2026/07/1587555/bez-malaysia-thailand-krisis-di-selat-hormuz-tumpuan-dewan-rakyat)",
+        "[BEZ Malaysia-Thailand, krisis di selat Hormuz tumpuan Dewan Rakyat hari ini](https://www.bharian.com.my/berita/nasional/2026/07/1587555/bez-malaysia-thailand-krisis-di-selat-hormuz-tumpuan-dewan-rakyat)"
+      ]
+    },
+    {
+      "entity": "Negeri Sembilan state election (PRN NS 2026)",
+      "surface_forms": [
+        "Negri Sembilan election",
+        "state election"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "PETALING JAYA: The upcoming Negri Sembilan election is expected to be a tighter contest compared to Johor due to the growing number of marginal seats and a closer fight in Malay-majority and mixed constituencies, say analysts.",
+        "[INTERACTIVE: Tighter races in Negri Sembilan point to more unpredictable state election](https://www.thestar.com.my/news/nation/2026/07/14/interactive-tighter-races-in-negri-sembilan-point-to-more-unpredictable-state-election)"
+      ]
+    },
+    {
+      "entity": "Qatar official mourning",
+      "surface_forms": [
+        "Qatar's official mourning",
+        "official mourning"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "nstcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "Higher education minister represents Malaysia at Qatar's official mourning\\",
+        "Higher education minister represents Malaysia at Qatar's official mourning\\"
+      ]
+    }
+  ]
+}

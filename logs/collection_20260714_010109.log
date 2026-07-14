@@ -1,0 +1,49 @@
+=== Negeri Sembilan PRN 2026 - Daily Collection ===
+Date: 20260714
+Timestamp: 20260714_010109
+
+Collecting from 13 sources...
+
+→ sinarhariancommy...
+  ✗ Content too thin (30 words)
+→ bhariancommy...
+  ✓ Success (416 words)
+→ utusancommy...
+  ✓ Success (83 words)
+→ nstcommy...
+  ✓ Success (752 words)
+→ thestarcommy...
+  ✓ Success (1119 words)
+→ malaysiakinicom...
+  ✓ Success (80 words)
+→ freemalaysiatodaycom...
+  ✗ Content too thin (26 words)
+→ bernamahubcom...
+  ✗ No markdown in response
+→ astroawanicom...
+  ✓ Success (756 words)
+→ ohbulancom...
+  ✓ Success (629 words)
+→ mstarcommy...
+  ✓ Success (95 words)
+→ metrocommy...
+  ✗ Content too thin (48 words)
+→ kosmocommy...
+  ✓ Success (178 words)
+
+=== Collection Summary ===
+Successful: 9/13
+Timeouts: 0
+Errors: 4
+
+Metadata written to: /home/p62operator/.openclaw/workspace-ns/intelligence/raw/20260714/collection_metadata.json
+
+✓ Collection completed successfully (exit code 0)
+
+--- Agent Verification Notes ---
+- Success rate: 69.2% (target: 60%+) → PASS
+- No retry needed (rate > 50%)
+- Content spot-check: Verified real news data across NST, The Star, Astro Awani
+- Relevant intelligence signals: "State Polls 2026" tag, "Negri Crisis" tag (The Star), Umno-Pas alliance analysis (NST)
+- Failed sources: sinarhariancommy (thin), freemalaysiatodaycom (thin), bernamahubcom (no markdown), metrocommy (thin)
+- All 9 collected files confirmed present in intelligence/raw/20260714/

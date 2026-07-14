@@ -1,0 +1,82 @@
+{
+  "date": "20260714",
+  "method": "gazetteer-grounded, source-attributed (verbatim surface match)",
+  "cvs_standard": "TLP:AMBER - all entities source-attributed; no pattern-inferred entities",
+  "source_count": 9,
+  "sources": [
+    {
+      "source_file": "astroawanicom_20260714_010109.md",
+      "outlet": "astroawani.com",
+      "chars": 9817,
+      "appears_404": true
+    },
+    {
+      "source_file": "bhariancommy_20260714_010109.md",
+      "outlet": "bharian.com.my",
+      "chars": 11584,
+      "appears_404": false
+    },
+    {
+      "source_file": "kosmocommy_20260714_010109.md",
+      "outlet": "kosmo.com.my",
+      "chars": 4148,
+      "appears_404": true
+    },
+    {
+      "source_file": "malaysiakinicom_20260714_010109.md",
+      "outlet": "malaysiakini.com",
+      "chars": 2005,
+      "appears_404": true
+    },
+    {
+      "source_file": "mstarcommy_20260714_010109.md",
+      "outlet": "mstar.com.my",
+      "chars": 1488,
+      "appears_404": true
+    },
+    {
+      "source_file": "nstcommy_20260714_010109.md",
+      "outlet": "nst.com.my",
+      "chars": 9784,
+      "appears_404": false
+    },
+    {
+      "source_file": "ohbulancom_20260714_010109.md",
+      "outlet": "ohbulan.com",
+      "chars": 8205,
+      "appears_404": false
+    },
+    {
+      "source_file": "thestarcommy_20260714_010109.md",
+      "outlet": "thestar.com.my",
+      "chars": 17758,
+      "appears_404": false
+    },
+    {
+      "source_file": "utusancommy_20260714_010109.md",
+      "outlet": "utusan.com.my",
+      "chars": 1923,
+      "appears_404": true
+    }
+  ],
+  "entity_counts": {
+    "politicians": 11,
+    "parties": 3,
+    "constituencies": 4,
+    "organizations": 22,
+    "events": 9,
+    "issues": 17,
+    "locations": 22
+  },
+  "total_entities": 88,
+  "categories": [
+    "politicians",
+    "parties",
+    "constituencies",
+    "organizations",
+    "events",
+    "issues",
+    "locations"
+  ],
+  "note": "Only entities whose surface form literally appears in a collected source file are emitted. Each entity carries its source file(s), outlet(s), and verbatim context sample(s). Categories with 0 entities indicate the corpus did not mention any matching surface form (data gap), not extraction failure of the engine."
+}

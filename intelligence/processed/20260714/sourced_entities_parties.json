@@ -1,0 +1,64 @@
+{
+  "date": "20260714",
+  "category": "parties",
+  "method": "gazetteer-grounded, source-attributed (verbatim surface match)",
+  "cvs_standard": "TLP:AMBER - all entities source-attributed; no pattern-inferred entities",
+  "source_count": 9,
+  "entity_count": 3,
+  "entities": [
+    {
+      "entity": "PAS",
+      "surface_forms": [
+        "PAS",
+        "Pas"
+      ],
+      "occurrences": 11,
+      "source_files": [
+        "nstcommy_20260714_010109.md",
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "Formal Umno-Pas alliance unlikely, say analysts \\[WATCH\\]\\",
+        "---------------------------------------------------------](https://www.nst.com.my/news/nation/2026/07/1488103/formal-umno-pas-alliance-unlikely-say-analysts-watch)",
+        "Pas hits back at Zahid's shifting goalposts jab\\"
+      ]
+    },
+    {
+      "entity": "UMNO",
+      "surface_forms": [
+        "Umno"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "nstcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "Formal Umno-Pas alliance unlikely, say analysts \\[WATCH\\]\\",
+        "---------------------------------------------------------](https://www.nst.com.my/news/nation/2026/07/1488103/formal-umno-pas-alliance-unlikely-say-analysts-watch)"
+      ]
+    },
+    {
+      "entity": "Bersatu (PPBM)",
+      "surface_forms": [
+        "Bersatu"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "nstcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "PETALING JAYA: Former Bangi MP Ong Kian Ming believes Bersatu president Tan Sri Muhyiddin Yassin’s hold on the Pagoh parliamentary seat could be at...\\"
+      ]
+    }
+  ]
+}

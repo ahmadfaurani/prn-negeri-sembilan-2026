@@ -1,0 +1,97 @@
+================================================================
+NS PRN 2026 - Entity Extraction Log
+Date: 20260714   Classification: TLP:AMBER
+================================================================
+
+[1] SCRIPT EXECUTED (as instructed)
+    /home/p62operator/.openclaw/workspace-ns/scripts/ns-entity-extraction.sh
+    Result : exit 0
+    Output : 8 parties (pattern-inferred), 0 for 6 other categories.
+    Problem: regex-only extraction. No source attribution. Common-word
+             false positive ("bersama"). Case-duplicate tokens
+             (pas/Pas/PAS). Violates CVS standard ("no pattern-inferred
+             entities"; "all entities source-attributed"). 6 of 7
+             categories empty because no extraction logic existed for
+             politicians/constituencies/issues/events/organizations/
+             locations.
+
+[2] CVS-COMPLIANT EXTRACTION ADDED
+    Script : scripts/ns_entity_extraction_sourced.py
+    Method : gazetteer-grounded, source-attributed (verbatim surface match)
+             - Emits ONLY entities whose surface form literally appears
+               in a collected source file (no fabrication/inference).
+             - Every entity carries source_file, source_outlet, and a
+               verbatim context sample.
+             - Disambiguation: case-sensitive matching for "Bersatu"
+               (party vs Malay verb "bersatu"); negative lookahead to
+               reject "Amanah Saham" (savings fund, not AMANAH party).
+
+[3] SOURCE QUALITY
+    9 source .md files from collection 20260714_010109.
+    5 are 404 / not-found pages (no editorial body):
+        astroawanicom, kosmocommy, malaysiakinicom, mstarcommy, utusancommy
+    4 carry usable editorial content:
+        thestarcommy, nstcommy, bhariancommy, ohbulancom
+
+[4] EXTRACTION RESULTS (source-attributed)
+    politicians      : 11
+    parties          : 3
+    constituencies   : 4
+    issues           : 17
+    events           : 9
+    organizations    : 22
+    locations        : 22
+    -----------------------------------
+    TOTAL            : 88 entities across all 7 categories
+
+[5] CATEGORY DETAIL
+    Politicians (11): Syed Saddiq, Muhyiddin Yassin, Anwar Ibrahim,
+        Ahmad Fadhli Shaari, Dzulkefly, Tharman, Zambry Abdul Kadir,
+        Ahmad Zahid Hamidi, Akmal Nasrullah, Ong Kian Ming, Sultan Ibrahim.
+    Parties (3): PAS, UMNO, Bersatu (PPBM).
+        NOTE: PH/BN/PN/PKR/DAP/MUDA/AMANAH/GERAKAN/WARISAN not emitted --
+              no editorial mention of these surface forms in the corpus.
+    Constituencies (4): Negeri Sembilan (state), Pagoh (Johor p.),
+        Tampin (P134), Port Dickson/PD.
+        DATA GAP: the 36 NS DUN seats are NOT individually named in the
+        corpus; only state-level + Tampin + Port Dickson appear. No
+        fabrication of the 36-DUN list per CVS standard.
+    Issues (17): marginal seats/election competitiveness, Umno-Pas
+        alliance, cost of living, climate law, floods, cyberbullying,
+        fuel supply, AG-PP separation, FOI Bill, JS-SEZ, NDI welfare
+        model, LINDUNG, corruption/money laundering, pension-fund
+        dividend, MyKAS/citizenship, Selat Hormuz/Gulf conflict,
+        immigration enforcement.
+    Events (9): NS state election (PRN NS 2026), Johor state election
+        (PRN Johor), World Cup 2026, Jelajah Wira Madani, Hari Keputeraan
+        Ke-77 YDPB Negeri Sembilan, Syed Saddiq acquittal, Muhyiddin
+        trial (Nepturis), Dewan Rakyat sitting, Qatar official mourning.
+    Organizations (22): Defence Ministry, Health Ministry, NRD, LTAT,
+        MMEA/APMM, MMM, UNHCR, Ketech Asia, Air Selangor, McDonald's
+        Malaysia, RHMC, BERNAMA, PDRM, Armed Forces, Dewan Rakyat,
+        Parliament, Sessions Court, AG/Public Prosecutor, Star Media
+        Group, Media Mulia, Special Select Committee, AKPS.
+    Locations (22): Negeri Sembilan, Kuala Lumpur, Petaling Jaya,
+        Putrajaya, Johor, Johor Baru, Melaka, Selangor, Sabah, Sarawak,
+        Penang, Kuching, George Town, Kota Kinabalu, Kota Baru, Kuantan,
+        Beaufort, Tampin, Port Dickson, Pagoh, Denai Alam, Muar, Bangi.
+
+[6] EXTRACTION FAILURES / CAVEATS
+    - Original shell script: 6/7 categories empty; pattern-inferred only.
+    - 5/9 sources are 404 pages -> limited editorial corpus for PRN NS.
+    - 36 NS DUN seats not named in corpus (data gap, not engine failure).
+    - PH/BN/PN/PKR/DAP/MUDA not editorially mentioned -> not emitted.
+    - Weak/indirect references retained (source-grounded but not body
+      text): PAS also appears in a thestar utm_campaign URL param; PRN
+      Johor event referenced via a results-banner image filename on 404
+      pages. Documented for analyst awareness.
+
+[7] DATA READY FOR SENTIMENT ANALYSIS
+    All 88 entities are source-attributed (source_file + outlet + context).
+    Output dir: intelligence/processed/20260714/
+        sourced_entities_{politicians,parties,constituencies,issues,
+                          events,organizations,locations}.json
+        sourced_entities_consolidated.json
+    Status: READY for downstream sentiment analysis.
+
+================================================================

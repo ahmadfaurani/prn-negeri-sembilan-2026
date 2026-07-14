@@ -1,0 +1,208 @@
+{
+  "date": "20260714",
+  "category": "politicians",
+  "method": "gazetteer-grounded, source-attributed (verbatim surface match)",
+  "cvs_standard": "TLP:AMBER - all entities source-attributed; no pattern-inferred entities",
+  "source_count": 9,
+  "entity_count": 11,
+  "entities": [
+    {
+      "entity": "Syed Saddiq Syed Abdul Rahman",
+      "surface_forms": [
+        "Syed Saddiq",
+        "Syed Saddiq Syed Abdul Rahman"
+      ],
+      "occurrences": 7,
+      "source_files": [
+        "bhariancommy_20260714_010109.md",
+        "nstcommy_20260714_010109.md",
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "bharian.com.my",
+        "nst.com.my",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "Syed Saddiq salur bantuan bernilai...](https://www.bharian.com.my/berita/nasional/2026/07/1587401/syed-saddiq-salur-bantuan-bernilai-rm62-juta-kepada-penduduk-muar)",
+        "Syed Saddiq finally free to plan wedding with Bella\\",
+        "PUTRAJAYA: The end of a six-year legal battle has given Syed Saddiq Syed Abdul Rahman a chance to look beyond politics and focus on his family and fiancee Bella Astillah."
+      ]
+    },
+    {
+      "entity": "Muhyiddin Yassin",
+      "surface_forms": [
+        "Muhyiddin",
+        "Muhyiddin Yassin"
+      ],
+      "occurrences": 6,
+      "source_files": [
+        "nstcommy_20260714_010109.md",
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "PETALING JAYA: Former Bangi MP Ong Kian Ming believes Bersatu president Tan Sri Muhyiddin Yassin’s hold on the Pagoh parliamentary seat could be at...\\",
+        "Muhyiddin could risk losing Pagoh in next general election - Ong\\",
+        "PETALING JAYA: Former Bangi MP Ong Kian Ming believes Bersatu president Tan Sri Muhyiddin Yassin’s hold on the Pagoh parliamentary seat could be at...\\"
+      ]
+    },
+    {
+      "entity": "Anwar Ibrahim",
+      "surface_forms": [
+        "Anwar"
+      ],
+      "occurrences": 4,
+      "source_files": [
+        "nstcommy_20260714_010109.md",
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "Malaysia, Singapore to finalise JS-SEZ master plan soon, says Anwar\\",
+        "![](https://assets.nst.com.my/images/listing-featured/B3D9876F163F0E99290E60F72C0DE54B_data_0.jpg)](https://www.nst.com.my/news/nation/2026/07/1487944/malaysia-singapore-finalise-js-sez-master-plan-soon-says-anwar)",
+        "### Anwar: JS-SEZ master plan to be finalised in the near future"
+      ]
+    },
+    {
+      "entity": "Ahmad Fadhli Shaari",
+      "surface_forms": [
+        "Ahmad Fadhli Shaari",
+        "Fadhli Shaari"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "nstcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "KUALA LUMPUR: Pas Information Chief Ahmad Fadhli Shaari has defended his party against critics who accuse it of constantly shifting its political...\\",
+        "KUALA LUMPUR: Pas Information Chief Ahmad Fadhli Shaari has defended his party against critics who accuse it of constantly shifting its political...\\"
+      ]
+    },
+    {
+      "entity": "Dzulkefly Ahmad",
+      "surface_forms": [
+        "Dzulkefly"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "### Health Ministry now has full mandate, autonomy to manage approved positions independently, says Dzulkefly",
+        "[Read](https://www.thestar.com.my/news/nation/2026/07/13/health-ministry-now-has-full-mandate-autonomy-to-manage-approved-positions-independently-says-dzulkefly)"
+      ]
+    },
+    {
+      "entity": "Tharman Shanmugaratnam",
+      "surface_forms": [
+        "Tharman"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "[Royal welcome for Tharman](https://www.thestar.com.my/news/nation/2026/07/14/royal-welcome-for-tharman)",
+        "[![](https://apicms.thestar.com.my/uploads/images/2026/07/14/thumbs/medium/4008799.jpg)](https://www.thestar.com.my/news/nation/2026/07/14/royal-welcome-for-tharman)"
+      ]
+    },
+    {
+      "entity": "Zambry Abdul Kadir",
+      "surface_forms": [
+        "Zambry",
+        "Zambry Abdul Kadir"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "nstcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "PUTRAJAYA: Higher Education Minister Datuk Seri Dr Zambry Abdul Kadir will represent the Malaysian government in paying final respects to the late...\\",
+        "PUTRAJAYA: Higher Education Minister Datuk Seri Dr Zambry Abdul Kadir will represent the Malaysian government in paying final respects to the late...\\"
+      ]
+    },
+    {
+      "entity": "Ahmad Zahid Hamidi",
+      "surface_forms": [
+        "Zahid"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "nstcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "Pas hits back at Zahid's shifting goalposts jab\\"
+      ]
+    },
+    {
+      "entity": "Akmal Nasrullah",
+      "surface_forms": [
+        "Akmal Nasrullah"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "nstcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "UNHCR card does not grant immunity from Malaysian laws - Akmal Nasrullah\\"
+      ]
+    },
+    {
+      "entity": "Ong Kian Ming",
+      "surface_forms": [
+        "Ong Kian Ming"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "nstcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "PETALING JAYA: Former Bangi MP Ong Kian Ming believes Bersatu president Tan Sri Muhyiddin Yassin’s hold on the Pagoh parliamentary seat could be at...\\"
+      ]
+    },
+    {
+      "entity": "Sultan Ibrahim (King of Malaysia)",
+      "surface_forms": [
+        "Sultan Ibrahim"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "KUALA LUMPUR: Singapore is not merely one of Malaysia's ­closest neighbours, but also a highly valued partner and among the country's key drivers of trade and investment, says His Majesty Sultan Ibrahim, King of Malaysia."
+      ]
+    }
+  ]
+}

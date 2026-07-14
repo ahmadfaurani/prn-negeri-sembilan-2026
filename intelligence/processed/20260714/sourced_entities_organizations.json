@@ -1,0 +1,406 @@
+{
+  "date": "20260714",
+  "category": "organizations",
+  "method": "gazetteer-grounded, source-attributed (verbatim surface match)",
+  "cvs_standard": "TLP:AMBER - all entities source-attributed; no pattern-inferred entities",
+  "source_count": 9,
+  "entity_count": 22,
+  "entities": [
+    {
+      "entity": "Persatuan Kebajikan Ronald McDonald (RHMC)",
+      "surface_forms": [
+        "Persatuan Kebajikan Ronald McDonald",
+        "RHMC"
+      ],
+      "occurrences": 6,
+      "source_files": [
+        "ohbulancom_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "ohbulan.com"
+      ],
+      "context_samples": [
+        "[![Persatuan Kebajikan Ronald McDonald (RHMC) Malaysia Menyediakan Pek Kembali Ke Sekolah Untuk Membantu 25,000 Kanak-Kanak Yang Memerlukannya](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%2014...",
+        "[Persatuan Kebajikan Ronald McDonald (RHMC) Malaysia Menyediakan Pek Kembali Ke Sekolah Untuk Membantu 25,000 Kanak-Kanak Yang Memerlukannya](https://ohbulan.com/persatuan-kebajikan-ronald-mcdonald-rhmc-malaysia-menyediakan-pek-kembali-ke-s...",
+        "Dalam tahun 2022, Persatuan Kebajikan Ronald McDonald (RHMC) Malaysia telah memperuntukkan sejumlah RM1.5 juta untuk men…"
+      ]
+    },
+    {
+      "entity": "Armed Forces (Malaysia)",
+      "surface_forms": [
+        "Armed Forces"
+      ],
+      "occurrences": 4,
+      "source_files": [
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "[RM150mil contract awarded to Ketech Asia to secure armed forces' ammo supply](https://www.thestar.com.my/news/nation/2026/07/14/rm150mil-contract-awarded-to-ketech-asia-to-secure-armed-forces039-ammo-supply)",
+        "KUALA LUMPUR: The RM150mil contract with Ketech Asia Sdn. Bhd will ensure a stable and resilient supply of ammunition to the Armed Forces and government security agencies, says the Defence Ministry.",
+        "[Armed forces pension fund eyes bigger investment returns](https://www.thestar.com.my/news/nation/2026/07/14/armed-forces-pension-fund-eyes-bigger-investment-returns)"
+      ]
+    },
+    {
+      "entity": "Malaysian Maritime Enforcement Agency (MMEA/APMM)",
+      "surface_forms": [
+        "APMM",
+        "MMEA",
+        "Malaysian Maritime Enforcement Agency"
+      ],
+      "occurrences": 4,
+      "source_files": [
+        "astroawanicom_20260714_010109.md",
+        "nstcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "astroawani.com",
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "[![61748652560_APMMsindiketselud.jpg](https://resizer-vortals.eco.astro.com.my/tr:w-auto,h-auto,q-80,f-webp/https://media.astroawani.com/awani/media/article/2026/Jan/31/61748652560_APMMsindiketselud.jpg)](https://www.astroawani.com/berita-m...",
+        "Malaysia[##### APMM pupuk kesedaran keselamatan maritim dalam program jelajah Wira MADANI PDRM](https://www.astroawani.com/berita-malaysia/apmm-pupuk-kesedaran-keselamatan-maritim-dalam-program-jelajah-wira-madani-pdrm \"APMM pupuk kesedaran...",
+        "GEORGE TOWN: The Malaysian Maritime Enforcement Agency is leveraging the Penang Jelajah Wira Madani programme to enhance public understanding of...\\"
+      ]
+    },
+    {
+      "entity": "Media Mulia Sdn Bhd",
+      "surface_forms": [
+        "Media Mulia"
+      ],
+      "occurrences": 4,
+      "source_files": [
+        "kosmocommy_20260714_010109.md",
+        "utusancommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "kosmo.com.my",
+        "utusan.com.my"
+      ],
+      "context_samples": [
+        "Hak cipta terpelihara © 2026 Media Mulia Sdn Bhd 201801030285 (1292311-H)",
+        "Satu lagi produk Media Mulia Sdn. Bhd.",
+        "Hak cipta terpelihara © 2026 Media Mulia Sdn Bhd 201801030285 (1292311-H)"
+      ]
+    },
+    {
+      "entity": "Attorney-General / Public Prosecutor",
+      "surface_forms": [
+        "Attorney-General",
+        "Public Prosecutor"
+      ],
+      "occurrences": 3,
+      "source_files": [
+        "nstcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "KUALA LUMPUR: The Special Select Committee’s report on the separation of roles between the Attorney-General (AG) and the Public Prosecutor is set...\\",
+        "AG-public prosecutor separation report to be tabled tomorrow\\",
+        "KUALA LUMPUR: The Special Select Committee’s report on the separation of roles between the Attorney-General (AG) and the Public Prosecutor is set...\\"
+      ]
+    },
+    {
+      "entity": "Health Ministry",
+      "surface_forms": [
+        "Health Ministry"
+      ],
+      "occurrences": 3,
+      "source_files": [
+        "nstcommy_20260714_010109.md",
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "Health Ministry to pilot AI technology at selected hospitals\\",
+        "KUALA LUMPUR: The Health Ministry will implement a proof-of-concept project on artificial intelligence (AI) technology at selected hospitals to...\\",
+        "### Health Ministry now has full mandate, autonomy to manage approved positions independently, says Dzulkefly"
+      ]
+    },
+    {
+      "entity": "Malaysian Media Council (MMM)",
+      "surface_forms": [
+        "MMM",
+        "Malaysian Media Council"
+      ],
+      "occurrences": 3,
+      "source_files": [
+        "nstcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "Malaysian Media Council backs select committee review of FOI Bill\\",
+        "KUALA LUMPUR: The Malaysian Media Council (MMM) said referring the Freedom of Information (FOI) Bill 2026 to a parliamentary special select...\\",
+        "KUALA LUMPUR: The Malaysian Media Council (MMM) said referring the Freedom of Information (FOI) Bill 2026 to a parliamentary special select...\\"
+      ]
+    },
+    {
+      "entity": "McDonald's Malaysia",
+      "surface_forms": [
+        "McDonald’s Malaysia"
+      ],
+      "occurrences": 3,
+      "source_files": [
+        "ohbulancom_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "ohbulan.com"
+      ],
+      "context_samples": [
+        "[![McDonald’s Malaysia Rasmi Cawangan Baru Di Tampin, Buka Lebih Banyak Peluang Pekerjaan!](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E)](https://ohbulan.com/mcdonalds-ma...",
+        "[McDonald’s Malaysia Rasmi Cawangan Baru Di Tampin, Buka Lebih Banyak Peluang Pekerjaan!](https://ohbulan.com/mcdonalds-malaysia-rasmi-cawangan-baru-di-tampin-buka-lebih-banyak-peluang-pekerjaan/ \"Permalink to McDonald’s Malaysia Rasmi Cawa...",
+        "Baru-baru ini, McDonald’s Malaysia telah meraikan pembukaan rangkaian restoran di Tampin, Negeri Sembilan, sekalig…"
+      ]
+    },
+    {
+      "entity": "Star Media Group",
+      "surface_forms": [
+        "Star Media Group"
+      ],
+      "occurrences": 3,
+      "source_files": [
+        "mstarcommy_20260714_010109.md",
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "mstar.com.my",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "![Powered by Star Media Group](https://cdn.thestar.com.my/Themes/img/PoweredbySMG.png)",
+        "![Powered by Star Media Group](https://cdn.thestar.com.my/Themes/img/PoweredbySMG.png)",
+        "Copyright © 1995- 2026 Star Media Group Berhad \\[197101000523 (10894-D)\\]"
+      ]
+    },
+    {
+      "entity": "UNHCR",
+      "surface_forms": [
+        "UNHCR",
+        "United Nations High Commissioner for Refugees"
+      ],
+      "occurrences": 3,
+      "source_files": [
+        "nstcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "UNHCR card does not grant immunity from Malaysian laws - Akmal Nasrullah\\",
+        "KUALA LUMPUR: The United Nations High Commissioner for Refugees (UNHCR) card is not a citizenship document and does not grant immunity from...\\",
+        "KUALA LUMPUR: The United Nations High Commissioner for Refugees (UNHCR) card is not a citizenship document and does not grant immunity from...\\"
+      ]
+    },
+    {
+      "entity": "Armed Forces Fund Board (LTAT)",
+      "surface_forms": [
+        "Armed Forces Fund Board",
+        "LTAT"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "KUANTAN: The Armed Forces Fund Board (LTAT) is committed to maintaining a competitive ­dividend payout, subject to investment returns and the performance of its portfolio companies.",
+        "KUANTAN: The Armed Forces Fund Board (LTAT) is committed to maintaining a competitive ­dividend payout, subject to investment returns and the performance of its portfolio companies."
+      ]
+    },
+    {
+      "entity": "BERNAMA",
+      "surface_forms": [
+        "BERNAMA",
+        "Bernama"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "astroawanicom_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "astroawani.com"
+      ],
+      "context_samples": [
+        "[![MELAKA, 13 Julai -- Rumiah Sabri (kanan), 75, bersama keluarganya yang ditempatkan di Pusat Pemindahan Sementara (PPS) Sekolah Kebangsaan (SK) Tehel selepas rumah mereka di Kampung Parit Lampong dinaiki air ketika tinjauan di sini hari i...",
+        "[![MELAKA, 13 Julai -- Rumiah Sabri (kanan), 75, bersama keluarganya yang ditempatkan di Pusat Pemindahan Sementara (PPS) Sekolah Kebangsaan (SK) Tehel selepas rumah mereka di Kampung Parit Lampong dinaiki air ketika tinjauan di sini hari i..."
+      ]
+    },
+    {
+      "entity": "Ketech Asia Sdn Bhd",
+      "surface_forms": [
+        "Ketech Asia"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "[RM150mil contract awarded to Ketech Asia to secure armed forces' ammo supply](https://www.thestar.com.my/news/nation/2026/07/14/rm150mil-contract-awarded-to-ketech-asia-to-secure-armed-forces039-ammo-supply)",
+        "KUALA LUMPUR: The RM150mil contract with Ketech Asia Sdn. Bhd will ensure a stable and resilient supply of ammunition to the Armed Forces and government security agencies, says the Defence Ministry."
+      ]
+    },
+    {
+      "entity": "National Registration Department (NRD)",
+      "surface_forms": [
+        "NRD",
+        "National Registration Department"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "nstcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "KUALA LUMPUR: The National Registration Department (NRD) approved 286 MyKAS applications, or 96 per cent of the 298 applications received from...\\",
+        "KUALA LUMPUR: The National Registration Department (NRD) approved 286 MyKAS applications, or 96 per cent of the 298 applications received from...\\"
+      ]
+    },
+    {
+      "entity": "PDRM",
+      "surface_forms": [
+        "PDRM"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "astroawanicom_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "astroawani.com"
+      ],
+      "context_samples": [
+        "[![61748652560_APMMsindiketselud.jpg](https://resizer-vortals.eco.astro.com.my/tr:w-auto,h-auto,q-80,f-webp/https://media.astroawani.com/awani/media/article/2026/Jan/31/61748652560_APMMsindiketselud.jpg)](https://www.astroawani.com/berita-m...",
+        "Malaysia[##### APMM pupuk kesedaran keselamatan maritim dalam program jelajah Wira MADANI PDRM](https://www.astroawani.com/berita-malaysia/apmm-pupuk-kesedaran-keselamatan-maritim-dalam-program-jelajah-wira-madani-pdrm \"APMM pupuk kesedaran..."
+      ]
+    },
+    {
+      "entity": "Parliament",
+      "surface_forms": [
+        "Parliament",
+        "parliament"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "KOTA KINABALU: The National Climate Change Bill, which is expected to be tabled in Parliament this year, will make Malaysia one of the few countries with specific legislation dedicated to climate change.",
+        "KOTA KINABALU: The National Climate Change Bill, which is expected to be tabled in Parliament this year, will make Malaysia one of the few countries with specific legislation dedicated to climate change."
+      ]
+    },
+    {
+      "entity": "AKPS",
+      "surface_forms": [
+        "AKPS"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "bhariancommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "bharian.com.my"
+      ],
+      "context_samples": [
+        "AKPS siasat dakwaan pegawai terima...](https://www.bharian.com.my/berita/kes/2026/07/1587383/akps-siasat-dakwaan-pegawai-terima-rm100-melalui-kod-qr)"
+      ]
+    },
+    {
+      "entity": "Air Selangor",
+      "surface_forms": [
+        "Air Selangor"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "In conjunction with World Environment Day, Air Selangor is spotlighting the importance of practicing smarter water habits at home."
+      ]
+    },
+    {
+      "entity": "Defence Ministry",
+      "surface_forms": [
+        "Defence Ministry"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "thestarcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "KUALA LUMPUR: The RM150mil contract with Ketech Asia Sdn. Bhd will ensure a stable and resilient supply of ammunition to the Armed Forces and government security agencies, says the Defence Ministry."
+      ]
+    },
+    {
+      "entity": "Dewan Rakyat",
+      "surface_forms": [
+        "Dewan Rakyat"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "bhariancommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "bharian.com.my"
+      ],
+      "context_samples": [
+        "[BEZ Malaysia-Thailand, krisis di selat Hormuz tumpuan Dewan Rakyat hari ini](https://www.bharian.com.my/berita/nasional/2026/07/1587555/bez-malaysia-thailand-krisis-di-selat-hormuz-tumpuan-dewan-rakyat)"
+      ]
+    },
+    {
+      "entity": "Sessions Court",
+      "surface_forms": [
+        "Sessions Court"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "nstcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "KOTA BARU: A labourer pleaded guilty at the Sessions Court here today to possessing a knife in a public place without lawful reason and an...\\"
+      ]
+    },
+    {
+      "entity": "Special Select Committee",
+      "surface_forms": [
+        "Special Select Committee"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "nstcommy_20260714_010109.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "KUALA LUMPUR: The Special Select Committee’s report on the separation of roles between the Attorney-General (AG) and the Public Prosecutor is set...\\"
+      ]
+    }
+  ]
+}

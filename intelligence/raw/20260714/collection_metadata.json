@@ -1,0 +1,10 @@
+{
+    "date": "20260714",
+    "timestamp": "20260714_010109",
+    "workspace": "/home/p62operator/.openclaw/workspace-ns",
+    "sources_attempted": 13,
+    "successful": 9,
+    "timeouts": 0,
+    "errors": 4,
+    "success_rate": "69.2%"
+}
