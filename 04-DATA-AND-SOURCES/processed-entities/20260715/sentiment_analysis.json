@@ -1,0 +1,345 @@
+{
+  "date": "2026-07-15",
+  "generated": "2026-07-15T09:55:00+08:00",
+  "workspace": "/home/p62operator/.openclaw/workspace-ns",
+  "classification": "TLP:AMBER",
+  "status": "completed",
+  "method": "agent-manual source-attributed review (CVS-compliant)",
+  "sentiment_model_configured": "Qwen3.5-397B-A17B (OpenOSINT/Aras Integrasi)",
+  "sentiment_model_runtime": "GLM-5.2 (custom) — manual review fallback",
+  "openosint_status": "NOT ACTIVE — ns-sentiment-analysis.sh is a stub (prints empty JSON to stdout, entities_analyzed:0, does NOT write sentiment_analysis.json). No API credentials in environment. Agent-manual review is standing CVS-compliant method (per ESC-002, carried Day 6).",
+  "source_basis": {
+    "collection_date": "20260715",
+    "sources_collected": "10/13 (76.9% — PASS)",
+    "sources_with_editorial_body": ["nst.com.my", "thestar.com.my", "ohbulan.com"],
+    "sources_with_headlines_or_trending_sidebar_only": ["bharian.com.my (404 landing page, trending sidebar with political headlines — Aminuddin/Sikamat, PH candidate list, Anwar mandate, 'jual mahal' cooperation, voter pragmatism, PRN Johor lessons, PKR stability)"],
+    "sources_archive_or_404": ["ohbulan.com (NS tag archive, 2019-2025)", "astroawani.com (404 + sidebar)", "kosmo.com.my (404 + popular sidebar)", "malaysiakini.com (404)", "mstar.com.my (404)", "sinarharian.com.my (404/login wall)", "utusan.com.my (404)"],
+    "cvs_standard": "Sentiment based on verified source content only. No pattern-inferred sentiment. All entities source-attributed (verbatim surface match)."
+  },
+  "entities_analyzed": 41,
+  "entities_analyzed_by_category": {
+    "politicians": 7,
+    "parties": 2,
+    "constituencies": 8,
+    "organizations": 7,
+    "events": 4,
+    "issues": 1,
+    "locations": 12
+  },
+  "ns_election_relevant_entities": 12,
+  "sentiment_summary": {
+    "positive": [
+      {
+        "entity": "Aminuddin Harun (Menteri Besar NS)",
+        "category": "politician",
+        "sentiment": "positive",
+        "score": 0.78,
+        "rationale": "Named PH 'poster boy' for Negri Sembilan state election — incumbent MB designated as campaign face. Confidence/vote-of-confidence signal from PH leadership. Moving from Sikamat to contest Linggi (admits taking a risk) shows strategic ambition. First time the MB is centrally featured in campaign framing. Risk undertone slightly tempers but 'poster boy' designation is strongly positive.",
+        "sources": ["nst.com.my", "bharian.com.my"],
+        "confidence": "HIGH — multi-source, NST full prose + Bharian trending headline"
+      },
+      {
+        "entity": "Pakatan Harapan (PH)",
+        "category": "party",
+        "sentiment": "positive",
+        "score": 0.72,
+        "rationale": "FIRST coalition to announce full slate of 36 candidates for the 16th NS state election (Anwar unveiled in Kuala Pilah). Campaign launch dominance — poster boy named, full candidate list published ('Senarai penuh calon PH'). Zero opposition coalition visibility in today's corpus (PAS/BN/PN/UMNO/Bersatu all absent). First-mover organizational readiness signal. Slightly tempered by internal Malay-support-gap acknowledgment (Ong Kian Ming).",
+        "sources": ["nst.com.my", "bharian.com.my"],
+        "confidence": "HIGH — multi-source, NST full prose + Bharian full candidate list headline"
+      },
+      {
+        "entity": "Anwar Ibrahim (PM / PH Chairman)",
+        "category": "politician",
+        "sentiment": "positive",
+        "score": 0.68,
+        "rationale": "Unveiled PH's full 36-candidate slate in Kuala Pilah — proactive campaign leadership. Asserted government mandate ('Kerajaan ada mandat hingga PRU akan datang'). Warned candidates to stay clear of royalty issue — risk-management leadership. Dominant news-cycle presence (10 occurrences across 3 sources). Royal-issue caution slightly tempers but overall constructive governance/campaign framing.",
+        "sources": ["nst.com.my", "bharian.com.my", "thestar.com.my"],
+        "confidence": "HIGH — multi-source, full prose"
+      },
+      {
+        "entity": "Port Dickson — Midport development",
+        "category": "constituency",
+        "sentiment": "positive",
+        "score": 0.62,
+        "rationale": "AI-powered Midport development at Port Dickson to strengthen Malaysia's position as digital and maritime hub. Positive economic/infrastructure development signal for an NS constituency. Governance achievement framing for PH incumbency.",
+        "sources": ["nst.com.my"],
+        "confidence": "MEDIUM — single-source, NS-specific, full prose"
+      }
+    ],
+    "neutral": [
+      {
+        "entity": "Linggi (DUN) — MB's new seat",
+        "category": "constituency",
+        "sentiment": "neutral",
+        "score": 0.50,
+        "rationale": "MB Aminuddin shifting from Sikamat to contest Linggi — admits 'taking a risk.' Strategic gamble: moving away from traditional stronghold. Neutral framing — neither positive nor negative editorial sentiment directed at Linggi itself. First seat-level DUN intelligence uplift.",
+        "sources": ["nst.com.my"],
+        "confidence": "HIGH — NST full prose, NS-specific"
+      },
+      {
+        "entity": "Negeri Sembilan (state) — election landscape",
+        "category": "constituency",
+        "sentiment": "neutral",
+        "score": 0.50,
+        "rationale": "Campaign launch signal (positive) balanced by voter-pragmatism commentary ('pengundi makin pragmatik, tak mudah termakan retorik, slogan') and 20260714 competitiveness-tightening carry. No new negative seat-level data today, but no confirmation of easing either. Neutral — mixed signals.",
+        "sources": ["nst.com.my", "bharian.com.my", "thestar.com.my"],
+        "confidence": "HIGH — multi-source, NS-specific"
+      },
+      {
+        "entity": "PKR",
+        "category": "party",
+        "sentiment": "neutral",
+        "score": 0.50,
+        "rationale": "Minimal mention (1 occurrence). 'Jangan tergesa-gesa buat keputusan jejas kestabilan negeri - KeADILan' (don't rush decisions that harm state stability) and Melaka PKR 'calls for calm to resolve nominated assemblymen issue via consensus.' Neutral internal-management/stability framing. No positive or negative editorial sentiment.",
+        "sources": ["thestar.com.my", "bharian.com.my"],
+        "confidence": "MEDIUM — limited mention, headline-level"
+      },
+      {
+        "entity": "Voter pragmatism",
+        "category": "issue",
+        "sentiment": "neutral",
+        "score": 0.48,
+        "rationale": "Bharian commentary: 'Pengundi makin pragmatik, tak mudah termakan retorik, slogan' (voters increasingly pragmatic, not easily swayed by rhetoric/slogans). Neutral-analytical but carries slight negative undertone for ALL campaigns — voters harder to persuade. Affects NS campaign strategy for all parties.",
+        "sources": ["bharian.com.my"],
+        "confidence": "MEDIUM — single-source commentary headline"
+      }
+    ],
+    "negative": [
+      {
+        "entity": "Malay voter support gap (PH weakness)",
+        "category": "issue",
+        "sentiment": "negative",
+        "score": 0.68,
+        "rationale": "Ong Kian Ming: PH 'lacks sufficient support among Malay voters and must address the issue to remain a national coalition.' Direct internal acknowledgment of PH's core electoral weakness. Highly NS-relevant — NS has many Malay-majority constituencies. This is the most significant negative signal today: PH's own strategist admits the Malay-support deficit.",
+        "sources": ["nst.com.my"],
+        "confidence": "HIGH — NST full prose, NS-relevant"
+      },
+      {
+        "entity": "Johor defeat lessons / PH electoral weakness",
+        "category": "issue",
+        "sentiment": "negative",
+        "score": 0.62,
+        "rationale": "Elizabeth Wong: PH must 'treat losses in Johor election as wake-up call to address shortcomings and listen to voters.' Bharian: 'Tujuh pengajaran PRN Johor demi kematangan demokrasi' (seven lessons from Johor for democratic maturity). Johor defeat is being used as cautionary framing for NS campaign. Electoral weakness acknowledged by PH figures. Negative for incumbent confidence.",
+        "sources": ["nst.com.my", "bharian.com.my"],
+        "confidence": "HIGH — multi-source, NST full prose + Bharian commentary"
+      },
+      {
+        "entity": "Royal issue sensitivity (NS)",
+        "category": "issue",
+        "sentiment": "negative",
+        "score": 0.60,
+        "rationale": "Anwar warns: 'stay clear of royalty issue when campaigning' (The Star). This is an explicit directive to PH candidates — confirming the royalty issue is LIVE and SENSITIVE in NS. Indirectly confirms ESC-003 (royal succession crisis) is not resolved. The need for such a warning = underlying negative risk. Connects to standing royal-succession-crisis flag affecting NS constituencies.",
+        "sources": ["thestar.com.my"],
+        "confidence": "HIGH — The Star headline, NS-specific (royal context)"
+      },
+      {
+        "entity": "Opposition unity disruption ('jual mahal')",
+        "category": "issue",
+        "sentiment": "negative",
+        "score": 0.58,
+        "rationale": "Bharian trending: 'Pemimpin jual mahal rencat kerjasama politik penyatuan Melayu Islam' (leaders 'selling expensive' / holding out disrupt Malay-Islam unity political cooperation). Continuation of 20260714 alliance-contested narrative (ESC-006). Intra-opposition friction persists — leaders demanding too much, disrupting coalition-building. Negative for opposition bloc prospects. However, PAS/UMNO/BN are all invisible in today's corpus — narrative carried via commentary, not direct party statements.",
+        "sources": ["bharian.com.my"],
+        "confidence": "MEDIUM — single-source trending headline (no full body)"
+      }
+    ]
+  },
+  "sentiment_distribution": {
+    "positive": 4,
+    "neutral": 4,
+    "negative": 4,
+    "total_ns_relevant": 12,
+    "note": "Distribution weighted to NS-election-relevant entities. National/non-NS entities (Syed Saddiq/Muar, Zahid/Sabah-Sarawak, Dzulkefly/healthcare, Sultan Ibrahim/protocol, FIFA World Cup, MyKAS/citizenship) classified as contextual and excluded from NS sentiment count. Today's distribution is BALANCED (4/4/4) — a significant shift from 20260714's negative-skewed (3/4/8). PH campaign launch has lifted the positive count; opposition invisibility removes yesterday's opposition-negative signals but PH's own acknowledged weaknesses (Malay support, Johor lessons) add new negatives."
+  },
+  "party_sentiment_matrix": {
+    "PH": {
+      "status": "PRESENT (13 occurrences) — sentiment POSITIVE",
+      "surrogates_detected": ["Aminuddin Harun (MB, positive, poster boy)", "Anwar Ibrahim (PM, positive, campaign launch)", "Ong Kian Ming (analyst, negative — Malay support gap)", "Elizabeth Wong (negative — Johor wake-up call)"],
+      "assessment": "PH dominates today's news cycle — first coalition to announce full 36-candidate slate, poster boy named, campaign launched in Kuala Pilah. Strong first-mover organizational signal. However, internal weakness is acknowledged: Ong Kian Ming admits Malay-support deficit, Elizabeth Wong calls Johor losses a wake-up call. Net positive but with self-acknowledged vulnerabilities. Opposite of 20260714 where PH was 'invisible' — today PH is fully visible.",
+      "cvs_status": "VERIFIED — multi-source, NST full prose + Bharian headlines"
+    },
+    "BN": {
+      "status": "INVISIBLE — 'BN' and 'UMNO' surface forms both absent from today's corpus",
+      "surrogates_detected": [],
+      "assessment": "Complete absence. Contrast with 20260714 where UMNO had 2 mentions. No BN/UMNO signal today — coalition not in the news cycle. Zahid appears but in governance context (Sabah/Sarawak infrastructure), not BN framing.",
+      "cvs_status": "VERIFIED absence — surface forms not in corpus"
+    },
+    "PN": {
+      "status": "INVISIBLE — 'PN' and 'Bersatu' surface forms both absent",
+      "surrogates_detected": [],
+      "assessment": "Complete absence. Contrast with 20260714 where Bersatu had seat-vulnerability signals. No PN/Bersatu signal today.",
+      "cvs_status": "VERIFIED absence — surface forms not in corpus"
+    },
+    "PAS": {
+      "status": "INVISIBLE — 'PAS' surface form absent (contrast 20260714: 11 occurrences, NEGATIVE)",
+      "surrogates_detected": [],
+      "assessment": "Major reversal. Yesterday PAS was the most-mentioned party (on defensive, 'shifting stance' criticism). Today: zero. Opposition unity disruption referenced via Bharian commentary ('jual mahal') but PAS not named directly. Opposition has collectively vanished from the news cycle on PH's campaign-launch day.",
+      "cvs_status": "VERIFIED absence — surface form not in corpus"
+    },
+    "PKR": {
+      "status": "PRESENT (1 occurrence) — sentiment NEUTRAL",
+      "surrogates_detected": ["Melaka PKR (calls for calm, consensus)"],
+      "assessment": "Minimal mention. Stability/consensus framing. No NS-specific PKR signal.",
+      "cvs_status": "VERIFIED — single-source, headline-level"
+    },
+    "data_gap": "BN/PN/UMNO/DAP/PAS/Bersatu/MUDA/AMANAH/GERAKAN/WARISAN surface forms not editorially mentioned today — not emitted per CVS standard. Complete opposition news-cycle blackout."
+  },
+  "narrative_indicators": [
+    {
+      "id": "NAR-01",
+      "indicator": "PH Campaign Launch — First-Mover Advantage",
+      "type": "Electoral — incumbent campaign mobilization",
+      "severity": "HIGH",
+      "trend": "NEW — PH first to announce full 36-candidate slate + name poster boy (Aminuddin) for PRN NS 2026",
+      "evidence": "NST: 'Anwar announces PH's 36 candidates for Negri Sembilan polls'; NST: 'Aminuddin is PH poster boy for Negri Sembilan polls'; Bharian: 'PRN NS: Senarai penuh calon PH'",
+      "significance": "Most significant development today. PH has seized the campaign initiative — full candidate slate, poster boy, campaign event in Kuala Pilah. Opposition has not responded (all coalition names absent). First-mover organizational readiness. NS PRN campaign has effectively begun."
+    },
+    {
+      "id": "NAR-02",
+      "indicator": "MB Seat Shift — Sikamat to Linggi (first seat-level intelligence)",
+      "type": "Electoral — seat strategy",
+      "severity": "MEDIUM",
+      "trend": "NEW — first time individual DUN seats (Linggi, Sikamat) named in corpus",
+      "evidence": "NST: 'Negri Sembilan MB Aminuddin to contest Linggi state seat'; NST: 'Negri Sembilan MB admits taking risk in shifting to Linggi seat'; Bharian: 'PRN N Sembilan: Aminuddin akui ambil risiko beralih dari Sikamat ke'",
+      "significance": "Major intelligence uplift. First seat-level DUN data — MB vacating Sikamat (traditional seat) for Linggi. Strategic gamble by incumbent MB. Linggi and Sikamat now named for field assessment. Enables seat-level analysis previously impossible."
+    },
+    {
+      "id": "NAR-03",
+      "indicator": "Royal Issue Sensitivity Confirmed (Anwar's warning)",
+      "type": "Political — constitutional/royal risk",
+      "severity": "MEDIUM",
+      "trend": "REINFORCED — Anwar explicitly warns candidates to 'stay clear of royalty issue when campaigning'",
+      "evidence": "The Star: 'Negri polls: Stay clear of royalty issue when campaigning, warns Anwar'",
+      "significance": "Indirect confirmation that the royal issue (ESC-003 succession crisis) is LIVE and SENSITIVE enough to require explicit campaign guidance. The need for such a warning = underlying negative risk for NS constituencies with royal associations (Seri Menanti, Pilah, Johol). Escalates ESC-003 from UNVERIFIED to INDIRECTLY CONFIRMED."
+    },
+    {
+      "id": "NAR-04",
+      "indicator": "PH Malay Support Gap — internal acknowledgment",
+      "type": "Electoral — voter-base weakness",
+      "severity": "MEDIUM",
+      "trend": "REINFORCED — Ong Kian Ming: PH 'lacks sufficient support among Malay voters'",
+      "evidence": "NST: 'PH must broaden Malay support, says Ong Kian Ming' — 'PH lacks sufficient support among Malay voters and must address the issue to remain a national coalition'",
+      "significance": "PH's own strategist confirms the Malay-voter deficit. Directly relevant to NS Malay-majority constituencies. This is the standing GAP-03 (rural Malay seats risk) signal now explicitly stated by a PH figure. Campaign vulnerability acknowledged from within."
+    },
+    {
+      "id": "NAR-05",
+      "indicator": "Johor Defeat as Cautionary Framing for NS",
+      "type": "Electoral — post-mortem lessons",
+      "severity": "MEDIUM",
+      "trend": "REINFORCED — Elizabeth Wong 'wake-up call' + Bharian 'tujuh pengajaran PRN Johor'",
+      "evidence": "NST: 'PH must listen to voters after Johor defeat, says Elizabeth Wong'; Bharian: 'Tujuh pengajaran PRN Johor demi kematangan demokrasi'",
+      "significance": "Johor election results are being used to frame NS campaign strategy. PH treating Johor losses as a learning moment. The Johor post-mortem will likely shape NS campaign messaging. Reinforces the PH-vulnerability narrative."
+    },
+    {
+      "id": "NAR-06",
+      "indicator": "Opposition News-Cycle Blackout",
+      "type": "Media visibility — opposition",
+      "severity": "MEDIUM",
+      "trend": "MAJOR SHIFT — 20260714: PAS(11), UMNO(2), Bersatu present → 20260715: ALL opposition coalition names absent",
+      "evidence": "No editorial mention of 'PAS', 'BN', 'PN', 'UMNO', 'Bersatu', 'DAP', 'MUDA', 'AMANAH' surface forms in today's 10-source corpus. Only PH (13) and PKR (1) named.",
+      "significance": "Complete opposition news-cycle invisibility on PH's campaign-launch day. Either opposition has not responded to PH's candidate announcement, or media is not covering opposition responses. Monitor for opposition counter-mobilization over next 24-48h."
+    },
+    {
+      "id": "NAR-07",
+      "indicator": "Opposition Unity Disruption Persists ('jual mahal')",
+      "type": "Political — coalition cohesion",
+      "severity": "MEDIUM",
+      "trend": "PERSISTENT (decaying) — 'Pemimpin jual mahal rencat kerjasama' continues ESC-006 narrative but no direct party statements today",
+      "evidence": "Bharian: 'Pemimpin jual mahal rencat kerjasama politik penyatuan Melayu Islam'",
+      "significance": "Malay-Islam unity cooperation still disrupted by leaders 'holding out.' Carries forward 20260714 alliance-contested narrative. However, no direct PAS/UMNO statements today — narrative sustained by commentary only. Signal decaying without fresh direct-party reinforcement."
+    },
+    {
+      "id": "NAR-08",
+      "indicator": "Syed Saddiq rehabilitation — continues (national, non-NS)",
+      "type": "Political — individual trajectory",
+      "severity": "LOW",
+      "trend": "DECAYING — wedding date finalized + 170km thanksgiving run (Putrajaya→Muar). Continues 20260714 NAR-03 acquittal narrative.",
+      "evidence": "NST: 'Syed Saddiq, Bella Astillah finalise wedding date but keep it under wraps'; NST: 'Syed Saddiq to run 170km from Putrajaya to Muar'; Bharian: 'Syed Saddiq mahu lari 170 km tanda syukur selepas bebas'",
+      "significance": "Positive personal rehabilitation continues. National, not NS-specific (Muar MP). Does not directly affect NS PRN dynamics. Monitor for MUDA NS candidacy signal."
+    },
+    {
+      "id": "NAR-09",
+      "indicator": "Voter pragmatism — campaign challenge for all parties",
+      "type": "Electoral — voter behavior",
+      "severity": "LOW",
+      "trend": "NEW — 'pengundi makin pragmatik, tak mudah termakan retorik, slogan'",
+      "evidence": "Bharian: 'Pengundi makin pragmatik, tak mudah termakan retorik, slogan'",
+      "significance": "Voters harder to persuade with rhetoric/slogans. Affects all parties' NS campaign strategy. Slightly negative for incumbent narrative-driven campaigning."
+    },
+    {
+      "id": "NAR-10",
+      "indicator": "Port Dickson / Midport development — positive NS economic signal",
+      "type": "Economic — constituency development",
+      "severity": "LOW",
+      "trend": "NEW — AI-powered Midport to boost maritime/digital hub at Port Dickson",
+      "evidence": "NST: 'AI-powered Midport to boost Malaysia's maritime, digital hub ambitions' (PORT DICKSON dateline)",
+      "significance": "Positive infrastructure/development signal for an NS constituency (Port Dickson). Governance achievement framing for PH incumbency. Localized but relevant to PD voter sentiment."
+    }
+  ],
+  "escalation_flags": [
+    {
+      "id": "ESC-008-20260715",
+      "severity": "MEDIUM",
+      "category": "PH Campaign Launch — First-Mover Advantage (Significant Intel Event)",
+      "status": "NEW",
+      "description": "PH is the FIRST coalition to announce a full 36-candidate slate for the 16th NS state election, with PM Anwar Ibrahim unveiling candidates in Kuala Pilah and naming MB Aminuddin Harun as 'poster boy.' MB Aminuddin is shifting from Sikamat to contest Linggi. Campaign has effectively begun. Opposition has not responded (all coalition names absent from today's corpus). This is a positive organizational-readiness signal but also establishes the campaign timeline — opposition must now respond.",
+      "action": "Monitor for opposition candidate announcements over next 24-48h. Track whether PAS/BN/PN respond to PH's first-mover. Cross-reference Aminuddin's Linggi move with 2023 baseline (SPR data available in spr-data/) to assess seat-shift risk. Begin seat-level analysis for Linggi and Sikamat.",
+      "carries_forward": "Establishes campaign-phase intelligence baseline. Nomination day estimated ~18 July (3 days)."
+    },
+    {
+      "id": "ESC-003-20260715",
+      "severity": "MEDIUM (UPGRADED from UNVERIFIED)",
+      "category": "Royal Issue Sensitivity — INDIRECTLY CONFIRMED",
+      "status": "UPGRADED — Anwar's explicit warning to 'stay clear of royalty issue when campaigning' indirectly confirms the royal succession crisis (ESC-003) is LIVE and SENSITIVE in NS",
+      "description": "Standing flag (ESC-003, originated 20260710, carried UNVERIFIED through 20260711-20260714) flagged a royal succession crisis affecting NS constituencies (Seri Menanti, Pilah, Johol, Kuala Klawang area). Today, PM Anwar Ibrahim explicitly warns PH candidates to avoid the royalty issue during NS campaigning. This is the first source-attributed confirmation that the royal issue is live — no longer UNVERIFIED. The need for such a warning confirms underlying sensitivity.",
+      "action": "Monitor for royal-family statements, palace responses, or royal-issue coverage in NS sources. The warning suggests the issue could be weaponized by opponents. Track whether opposition raises the royalty issue in response to PH's campaign launch.",
+      "carries_forward": "ESC-003-20260712 → ESC-003-20260711 → ESC-001 (20260710 Royal Crisis Impact, HIGH). Status upgraded from UNVERIFIED to INDIRECTLY CONFIRMED. Severity adjusted to MEDIUM (confirmed sensitive but not escalating)."
+    },
+    {
+      "id": "ESC-006-20260715",
+      "severity": "MEDIUM (decaying)",
+      "category": "Opposition Unity Disruption — Persists via Commentary",
+      "status": "CARRIED — Day 2; no direct party statements today",
+      "description": "20260714 ESC-006 (PAS-BN alliance contested, narrative reversal) continues today via Bharian commentary: 'Pemimpin jual mahal rencat kerjasama politik penyatuan Melayu Islam' (leaders holding out disrupt unity). However, PAS/UMNO/BN are all INVISIBLE in today's corpus — the narrative is sustained by commentary only, not fresh direct-party statements. Signal is decaying without reinforcement.",
+      "action": "Monitor for PAS/UMNO/BN direct statements on coalition-building. If no fresh direct-party signal within 48h, downgrade to LOW. The opposition news-cycle blackout today may mean responses are pending.",
+      "carries_forward": "ESC-006-20260714 (MEDIUM) → counters ESC-005-20260713 (PAS-BN cooperation VERIFIED, HIGH). Narrative contested but not collapsed."
+    },
+    {
+      "id": "ESC-007-20260715",
+      "severity": "MEDIUM",
+      "category": "NS PRN Competitiveness — PH Vulnerabilities Acknowledged",
+      "status": "CARRIED + REINFORCED",
+      "description": "20260714 ESC-007 (marginal seats growth, competitiveness tightening) reinforced today by (1) Ong Kian Ming: PH 'lacks sufficient support among Malay voters' and (2) Elizabeth Wong: Johor losses a 'wake-up call.' PH's own figures acknowledge electoral vulnerabilities. No new marginal-seat quantitative data today, but the qualitative vulnerability signal is now self-acknowledged by PH.",
+      "action": "Cross-reference Malay-support-gap with 2023 NS election results (spr-data/) for seat-level risk assessment. Monitor Linggi and Sikamat as newly-named seats. Develop defense strategy for Malay-majority constituencies.",
+      "carries_forward": "ESC-007-20260714 (MEDIUM) → reinforces GAP-03 (rural Malay seats) and GAP-06 (Rembau competitive)."
+    },
+    {
+      "id": "ESC-004-20260715",
+      "severity": "LOW",
+      "category": "Negative Sentiment Spike Watch (NS-specific)",
+      "status": "CARRIED — no spike detected",
+      "description": "No NS-attributed negative sentiment SPIKE detected. Negative signals (Malay support gap, Johor lessons, royal sensitivity, opposition unity disruption) are structural/strategic, not acute spikes. No single entity shows a dramatic negative sentiment surge requiring immediate escalation.",
+      "action": "Continue monitoring. No immediate escalation required. Watch for opposition counter-mobilization after PH's campaign launch.",
+      "carries_forward": "ESC-004-20260714 (LOW) → ESC-004-20260713 → ESC-004-20260712"
+    },
+    {
+      "id": "ESC-002-20260715",
+      "severity": "HIGH (unchanged)",
+      "category": "Sentiment Pipeline Non-Operational (OpenOSINT Not Wired)",
+      "status": "CARRIED — Day 6",
+      "description": "ns-sentiment-analysis.sh remains a stub. Confirmed again today: script prints empty JSON to stdout (entities_analyzed:0), does NOT write sentiment_analysis.json, does NOT call OpenOSINT/Aras API. No credentials in environment. Agent-manual review is the standing CVS-compliant method. This report is produced via manual source-attributed review.",
+      "action": "Wire API credentials OR formally confirm agent-manual review as standing method. The manual method is functioning reliably (Day 6 of continuous operation) but is resource-intensive.",
+      "carries_forward": "ESC-002-20260714 → ESC-002-20260713 → ESC-002-20260712 → ESC-002-20260711 → ESC-002-20260710"
+    }
+  ],
+  "data_gaps": [
+    "BN/PN/UMNO/DAP/PAS/Bersatu/MUDA/AMANAH/GERAKAN/WARISAN not editorially mentioned — complete opposition news-cycle blackout on PH campaign-launch day. Not emitted per CVS standard.",
+    "Only 3/10 sources carry full editorial body (NST, The Star, Ohbulan). 7/10 are 404/archive pages. Bharian trending sidebar provides headline-level signal but no full prose.",
+    "No 2023 election results cross-referenced for Linggi/Sikamat seats (SPR data available in spr-data/ but not yet integrated into seat-level analysis).",
+    "No NS-specific candidate nomination data for opposition — PH is the only coalition to announce candidates. Nomination day est. ~18 July (3 days away).",
+    "Royal succession crisis (ESC-003) only INDIRECTLY confirmed via Anwar's warning — no NS-sourced royal/palace content collected.",
+    "Issues category thin (1 entity — MyKAS/citizenship) due to gazetteer-surface coverage gap. Major policy items (Middle East conflict, fuel subsidies, Sedition Act, Social Work Profession Bill) not in gazetteer surface forms per CVS standard.",
+    "ohbulan.com NS content remains archive (2019-2025) — Hari Keputeraan Ke-77 is Jan 2025 event, not current.",
+    "No candidate-level sentiment for individual PH candidates (only poster boy Aminuddin and PM Anwar named; full 36-candidate slate published but individual names not in editorial body)."
+  ],
+  "verdict": "NS PRN 2026 sentiment landscape has SHIFTED from yesterday's 'alliance contested + competitiveness tightening' (negative-skewed 3/4/8) to today's BALANCED 4/4/4 — 'PH campaign launch vs self-acknowledged vulnerabilities.' The dominant signal is PH FIRST-MOVER ADVANTAGE: PH is the first coalition to announce a full 36-candidate slate, name a poster boy (MB Aminuddin Harun), and effectively launch the NS campaign from Kuala Pilah. Opposition has ZERO news visibility (PAS/BN/PN/UMNO/Bersatu all absent — a complete reversal from 20260714 where PAS led with 11 mentions). The second signal is PH SELF-ACKNOWLEDGED WEAKNESS: Ong Kian Ming admits the Malay-voter support deficit, Elizabeth Wong calls Johor losses a wake-up call. The third signal is ROYAL ISSUE SENSITIVITY: Anwar's explicit warning to 'stay clear of royalty issue' indirectly confirms the standing ESC-003 royal succession crisis is live — upgraded from UNVERIFIED to INDIRECTLY CONFIRMED. Net NS-relevant sentiment is BALANCED (4 positive, 4 neutral, 4 negative), with positives driven by PH campaign mobilization and negatives by PH's own acknowledged vulnerabilities and the persistent royal/coalition risks. The most significant intelligence uplift is SEAT-LEVEL: first time individual DUN seats (Linggi, Sikamat) are named — MB Aminuddin shifting Sikamat→Linggi enables seat-level analysis previously impossible. No acute negative sentiment spike requiring immediate escalation; the key development is the campaign-phase transition (ESC-008, MEDIUM)."
+}

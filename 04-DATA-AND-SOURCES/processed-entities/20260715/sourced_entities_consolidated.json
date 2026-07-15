@@ -1,0 +1,88 @@
+{
+  "date": "20260715",
+  "method": "gazetteer-grounded, source-attributed (verbatim surface match)",
+  "cvs_standard": "TLP:AMBER - all entities source-attributed; no pattern-inferred entities",
+  "source_count": 10,
+  "sources": [
+    {
+      "source_file": "astroawanicom_20260715_010003.md",
+      "outlet": "astroawani.com",
+      "chars": 8833,
+      "appears_404": true
+    },
+    {
+      "source_file": "bhariancommy_20260715_010003.md",
+      "outlet": "bharian.com.my",
+      "chars": 11413,
+      "appears_404": true
+    },
+    {
+      "source_file": "kosmocommy_20260715_010003.md",
+      "outlet": "kosmo.com.my",
+      "chars": 4211,
+      "appears_404": true
+    },
+    {
+      "source_file": "malaysiakinicom_20260715_010003.md",
+      "outlet": "malaysiakini.com",
+      "chars": 2005,
+      "appears_404": true
+    },
+    {
+      "source_file": "mstarcommy_20260715_010003.md",
+      "outlet": "mstar.com.my",
+      "chars": 1488,
+      "appears_404": true
+    },
+    {
+      "source_file": "nstcommy_20260715_010003.md",
+      "outlet": "nst.com.my",
+      "chars": 9811,
+      "appears_404": false
+    },
+    {
+      "source_file": "ohbulancom_20260715_010003.md",
+      "outlet": "ohbulan.com",
+      "chars": 8205,
+      "appears_404": false
+    },
+    {
+      "source_file": "sinarhariancommy_20260715_010003.md",
+      "outlet": "sinarhariancommy",
+      "chars": 3361,
+      "appears_404": true
+    },
+    {
+      "source_file": "thestarcommy_20260715_010003.md",
+      "outlet": "thestar.com.my",
+      "chars": 18137,
+      "appears_404": false
+    },
+    {
+      "source_file": "utusancommy_20260715_010003.md",
+      "outlet": "utusan.com.my",
+      "chars": 1921,
+      "appears_404": true
+    }
+  ],
+  "entity_counts": {
+    "politicians": 7,
+    "parties": 2,
+    "constituencies": 8,
+    "organizations": 7,
+    "events": 4,
+    "issues": 1,
+    "locations": 12
+  },
+  "total_entities": 41,
+  "categories": [
+    "politicians",
+    "parties",
+    "constituencies",
+    "organizations",
+    "events",
+    "issues",
+    "locations"
+  ],
+  "note": "Only entities whose surface form literally appears in a collected source file are emitted. Each entity carries its source file(s), outlet(s), and verbatim context sample(s). Categories with 0 entities indicate the corpus did not mention any matching surface form (data gap), not extraction failure of the engine."
+}

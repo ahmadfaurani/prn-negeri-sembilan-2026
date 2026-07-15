@@ -1,0 +1,233 @@
+{
+  "date": "20260715",
+  "category": "locations",
+  "method": "gazetteer-grounded, source-attributed (verbatim surface match)",
+  "cvs_standard": "TLP:AMBER - all entities source-attributed; no pattern-inferred entities",
+  "source_count": 10,
+  "entity_count": 12,
+  "entities": [
+    {
+      "entity": "Negeri Sembilan",
+      "surface_forms": [
+        "Negeri Sembilan",
+        "Negri Sembilan"
+      ],
+      "occurrences": 24,
+      "source_files": [
+        "nstcommy_20260715_010003.md",
+        "ohbulancom_20260715_010003.md",
+        "thestarcommy_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "nst.com.my",
+        "ohbulan.com",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "Aminuddin is PH poster boy for Negri Sembilan polls\\",
+        "KUALA PILAH: Datuk Seri Aminuddin Harun has been named Pakatan Harapan’s (PH) poster boy for the Negri Sembilan state election.](https://www.nst.com.my/news/nation/2026/07/1489112/aminuddin-ph-poster-boy-negri-sembilan-polls)",
+        "Negri Sembilan MB admits taking risk in shifting to Linggi seat\\"
+      ]
+    },
+    {
+      "entity": "Kuala Lumpur",
+      "surface_forms": [
+        "Kuala Lumpur"
+      ],
+      "occurrences": 16,
+      "source_files": [
+        "nstcommy_20260715_010003.md",
+        "thestarcommy_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "nst.com.my",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "KUALA LUMPUR: The wedding date for Muar member of parliament Syed Saddiq Syed Abdul Rahman and his fiancée, singer-actress Bella Astillah, has been...\\",
+        "KUALA LUMPUR: His Majesty, Sultan Ibrahim, King of Malaysia, today granted an audience to Communications Minister Datuk Seri Fahmi Fadzil at Istana...\\",
+        "KUALA LUMPUR: Muar member of parliament Syed Saddiq Syed Abdul Rahman will embark on a 170km thanksgiving run from the Palace of Justice in...\\"
+      ]
+    },
+    {
+      "entity": "Johor",
+      "surface_forms": [
+        "Johor"
+      ],
+      "occurrences": 8,
+      "source_files": [
+        "bhariancommy_20260715_010003.md",
+        "kosmocommy_20260715_010003.md",
+        "nstcommy_20260715_010003.md",
+        "utusancommy_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "bharian.com.my",
+        "kosmo.com.my",
+        "nst.com.my",
+        "utusan.com.my"
+      ],
+      "context_samples": [
+        "[Tujuh pengajaran PRN Johor demi kematangan demokrasi](https://www.bharian.com.my/rencana/lain-lain/2026/07/1588176/tujuh-pengajaran-prn-johor-demi-kematangan-demokrasi)",
+        "[![](https://www.kosmo.com.my/wp-content/uploads/2026/07/Keputusan-PRN-Johor_728x90.png)](https://pru.utusan.com.my/)",
+        "[![](https://www.kosmo.com.my/wp-content/uploads/2026/07/Keputusan-PRN-Johor_728x90.png)](https://pru.utusan.com.my/)"
+      ]
+    },
+    {
+      "entity": "Muar",
+      "surface_forms": [
+        "Muar"
+      ],
+      "occurrences": 4,
+      "source_files": [
+        "nstcommy_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "KUALA LUMPUR: The wedding date for Muar member of parliament Syed Saddiq Syed Abdul Rahman and his fiancée, singer-actress Bella Astillah, has been...\\",
+        "Syed Saddiq to run 170km from Putrajaya to Muar\\",
+        "KUALA LUMPUR: Muar member of parliament Syed Saddiq Syed Abdul Rahman will embark on a 170km thanksgiving run from the Palace of Justice in...\\"
+      ]
+    },
+    {
+      "entity": "Sabah",
+      "surface_forms": [
+        "Sabah"
+      ],
+      "occurrences": 4,
+      "source_files": [
+        "thestarcommy_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "[Sabah & Sarawak](https://www.thestar.com.my/tag/Sabah+&+Sarawak)",
+        "[No infrastructure projects in Sabah and Sarawak postponed, says Zahid](https://www.thestar.com.my/news/nation/2026/07/15/no-infrastructure-projects-in-sabah-and-sarawak-postponed-says-zahid)",
+        "KUALA LUMPUR: Despite ministries being ordered to recalibrate their projects due to the Middle East conflict, no infrastructure projects in Sabah and Sarawak have been postponed, says Datuk Seri Dr Ahmad Zahid Hamidi."
+      ]
+    },
+    {
+      "entity": "Sarawak",
+      "surface_forms": [
+        "Sarawak"
+      ],
+      "occurrences": 4,
+      "source_files": [
+        "thestarcommy_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "[Sabah & Sarawak](https://www.thestar.com.my/tag/Sabah+&+Sarawak)",
+        "[No infrastructure projects in Sabah and Sarawak postponed, says Zahid](https://www.thestar.com.my/news/nation/2026/07/15/no-infrastructure-projects-in-sabah-and-sarawak-postponed-says-zahid)",
+        "KUALA LUMPUR: Despite ministries being ordered to recalibrate their projects due to the Middle East conflict, no infrastructure projects in Sabah and Sarawak have been postponed, says Datuk Seri Dr Ahmad Zahid Hamidi."
+      ]
+    },
+    {
+      "entity": "Putrajaya",
+      "surface_forms": [
+        "Putrajaya"
+      ],
+      "occurrences": 3,
+      "source_files": [
+        "nstcommy_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "Syed Saddiq to run 170km from Putrajaya to Muar\\",
+        "![](https://assets.nst.com.my/images/listing-featured/352AB6A3AAACBD2137156C723F7ED0BE_data_0.jpg)](https://www.nst.com.my/news/nation/2026/07/1488920/syed-saddiq-run-170km-putrajaya-muar)",
+        "PUTRAJAYA: The daughter of a former Court of Appeal president was among 17 lawyers and judicial and legal service officers appointed as judicial...\\"
+      ]
+    },
+    {
+      "entity": "Tampin",
+      "surface_forms": [
+        "Tampin"
+      ],
+      "occurrences": 3,
+      "source_files": [
+        "ohbulancom_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "ohbulan.com"
+      ],
+      "context_samples": [
+        "[![McDonald’s Malaysia Rasmi Cawangan Baru Di Tampin, Buka Lebih Banyak Peluang Pekerjaan!](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E)](https://ohbulan.com/mcdonalds-ma...",
+        "[McDonald’s Malaysia Rasmi Cawangan Baru Di Tampin, Buka Lebih Banyak Peluang Pekerjaan!](https://ohbulan.com/mcdonalds-malaysia-rasmi-cawangan-baru-di-tampin-buka-lebih-banyak-peluang-pekerjaan/ \"Permalink to McDonald’s Malaysia Rasmi Cawa...",
+        "Baru-baru ini, McDonald’s Malaysia telah meraikan pembukaan rangkaian restoran di Tampin, Negeri Sembilan, sekalig…"
+      ]
+    },
+    {
+      "entity": "George Town",
+      "surface_forms": [
+        "George Town"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "thestarcommy_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "GEORGE TOWN: Questions have been raised over whether two tunnels and an elevated U-turn planned under the RM850mil Air Itam-Tun Dr Lim Chong Eu Expressway bypass are still part of the project, with Penang MCA claiming they are \"missing\" fro...",
+        "GEORGE TOWN: Netflix's upcoming movie The Big Fix, starring actor Mark Wahlberg, has turned George Town into a Hollywood film set."
+      ]
+    },
+    {
+      "entity": "Melaka",
+      "surface_forms": [
+        "Melaka"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "thestarcommy_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "### Melaka PKR calls for calm to resolve nominated assemblymen issue via consensus",
+        "[Read](https://www.thestar.com.my/news/nation/2026/07/14/melaka-pkr-calls-for-calm-to-resolve-nominated-assemblymen-issue-via-consensus)"
+      ]
+    },
+    {
+      "entity": "Penang / Pulau Pinang",
+      "surface_forms": [
+        "Penang"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "thestarcommy_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "GEORGE TOWN: Questions have been raised over whether two tunnels and an elevated U-turn planned under the RM850mil Air Itam-Tun Dr Lim Chong Eu Expressway bypass are still part of the project, with Penang MCA claiming they are \"missing\" fro..."
+      ]
+    },
+    {
+      "entity": "Port Dickson",
+      "surface_forms": [
+        "Port Dickson"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "nstcommy_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "PORT DICKSON: The development of Midport here will strengthen Malaysia’s position as a digital and maritime hub while enhancing the country’s...\\"
+      ]
+    }
+  ]
+}

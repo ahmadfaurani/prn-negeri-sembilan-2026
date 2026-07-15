@@ -1,0 +1,146 @@
+{
+  "date": "20260715",
+  "category": "politicians",
+  "method": "gazetteer-grounded, source-attributed (verbatim surface match)",
+  "cvs_standard": "TLP:AMBER - all entities source-attributed; no pattern-inferred entities",
+  "source_count": 10,
+  "entity_count": 7,
+  "entities": [
+    {
+      "entity": "Aminuddin Harun (Menteri Besar NS)",
+      "surface_forms": [
+        "Aminuddin",
+        "Aminuddin Harun"
+      ],
+      "occurrences": 10,
+      "source_files": [
+        "bhariancommy_20260715_010003.md",
+        "nstcommy_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "bharian.com.my",
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "PRN N Sembilan: Aminuddin akui ambil...](https://www.bharian.com.my/berita/politik/2026/07/1588146/prn-n-sembilan-aminuddin-akui-ambil-risiko-beralih-dari-sikamat-ke)",
+        "KUALA PILAH: Datuk Seri Aminuddin Harun has been named Pakatan Harapan’s (PH) poster boy for the Negri Sembilan state election.](https://www.nst.com.my/news/nation/2026/07/1489112/aminuddin-ph-poster-boy-negri-sembilan-polls)",
+        "KUALA PILAH: Negri Sembilan Pakatan Harapan chairman Datuk Seri Aminuddin Harun admitted that he is taking a risk by shifting from his traditional...\\"
+      ]
+    },
+    {
+      "entity": "Anwar Ibrahim",
+      "surface_forms": [
+        "Anwar",
+        "Anwar Ibrahim"
+      ],
+      "occurrences": 10,
+      "source_files": [
+        "bhariancommy_20260715_010003.md",
+        "nstcommy_20260715_010003.md",
+        "thestarcommy_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "bharian.com.my",
+        "nst.com.my",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "![](https://assets.bharian.com.my/images/articles/DATUK_SERI_ANWAR_IBRAHIM_tempur_1784075481.jpg)",
+        "[Kerajaan ada mandat hingga PRU akan datang, tiba masa nanti kita bertempurlah - Anwar](https://www.bharian.com.my/berita/nasional/2026/07/1588178/kerajaan-ada-mandat-hingga-pru-akan-datang-tiba-masa-nanti-kita)",
+        "KUALA PILAH: Pakatan Harapan chairman Datuk Seri Anwar Ibrahim today unveiled the coalition’s full slate of 36 candidates for the 16th Negri...\\"
+      ]
+    },
+    {
+      "entity": "Syed Saddiq Syed Abdul Rahman",
+      "surface_forms": [
+        "Syed Saddiq",
+        "Syed Saddiq Syed Abdul Rahman"
+      ],
+      "occurrences": 8,
+      "source_files": [
+        "bhariancommy_20260715_010003.md",
+        "nstcommy_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "bharian.com.my",
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "Syed Saddiq, Bella Astillah sudah...](https://www.bharian.com.my/berita/nasional/2026/07/1588033/syed-saddiq-bella-astillah-sudah-putuskan-tarikh-nikah)",
+        "Syed Saddiq mahu lari 170 km tanda...](https://www.bharian.com.my/berita/nasional/2026/07/1588010/syed-saddiq-mahu-lari-170-km-tanda-syukur-selepas-bebas)",
+        "KUALA LUMPUR: The wedding date for Muar member of parliament Syed Saddiq Syed Abdul Rahman and his fiancée, singer-actress Bella Astillah, has been...\\"
+      ]
+    },
+    {
+      "entity": "Ahmad Zahid Hamidi",
+      "surface_forms": [
+        "Ahmad Zahid Hamidi",
+        "Zahid",
+        "Zahid Hamidi"
+      ],
+      "occurrences": 5,
+      "source_files": [
+        "thestarcommy_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "KUALA LUMPUR: Despite ministries being ordered to recalibrate their projects due to the Middle East conflict, no infrastructure projects in Sabah and Sarawak have been postponed, says Datuk Seri Dr Ahmad Zahid Hamidi.",
+        "KUALA LUMPUR: Despite ministries being ordered to recalibrate their projects due to the Middle East conflict, no infrastructure projects in Sabah and Sarawak have been postponed, says Datuk Seri Dr Ahmad Zahid Hamidi.",
+        "[No infrastructure projects in Sabah and Sarawak postponed, says Zahid](https://www.thestar.com.my/news/nation/2026/07/15/no-infrastructure-projects-in-sabah-and-sarawak-postponed-says-zahid)"
+      ]
+    },
+    {
+      "entity": "Dzulkefly Ahmad",
+      "surface_forms": [
+        "Dzulkefly"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "nstcommy_20260715_010003.md",
+        "thestarcommy_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "nst.com.my",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "KUALA LUMPUR: A total of 3,511 medical officers left the public sector between 2023 and 2025, said Health Minister Datuk Seri Dr Dzulkefly Ahmad.\\",
+        "KUALA LUMPUR: More than 3,000 Medical Officers have left the public healthcare sector between 2023 and 2025, says Datuk Seri Dr Dzulkefly Ahmad."
+      ]
+    },
+    {
+      "entity": "Ong Kian Ming",
+      "surface_forms": [
+        "Ong Kian Ming"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "nstcommy_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "PH must broaden Malay support, says Ong Kian Ming\\"
+      ]
+    },
+    {
+      "entity": "Sultan Ibrahim (King of Malaysia)",
+      "surface_forms": [
+        "Sultan Ibrahim"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "nstcommy_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "KUALA LUMPUR: His Majesty, Sultan Ibrahim, King of Malaysia, today granted an audience to Communications Minister Datuk Seri Fahmi Fadzil at Istana...\\"
+      ]
+    }
+  ]
+}

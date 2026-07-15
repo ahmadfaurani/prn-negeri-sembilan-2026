@@ -1,0 +1,154 @@
+{
+  "date": "20260715",
+  "category": "constituencies",
+  "method": "gazetteer-grounded, source-attributed (verbatim surface match)",
+  "cvs_standard": "TLP:AMBER - all entities source-attributed; no pattern-inferred entities",
+  "source_count": 10,
+  "entity_count": 8,
+  "entities": [
+    {
+      "entity": "Negeri Sembilan (state)",
+      "surface_forms": [
+        "Negeri Sembilan",
+        "Negri Sembilan"
+      ],
+      "occurrences": 40,
+      "source_files": [
+        "nstcommy_20260715_010003.md",
+        "ohbulancom_20260715_010003.md",
+        "thestarcommy_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "nst.com.my",
+        "ohbulan.com",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "Aminuddin is PH poster boy for Negri Sembilan polls\\",
+        "KUALA PILAH: Datuk Seri Aminuddin Harun has been named Pakatan Harapan’s (PH) poster boy for the Negri Sembilan state election.](https://www.nst.com.my/news/nation/2026/07/1489112/aminuddin-ph-poster-boy-negri-sembilan-polls)",
+        "Negri Sembilan MB admits taking risk in shifting to Linggi seat\\"
+      ]
+    },
+    {
+      "entity": "Linggi (DUN)",
+      "surface_forms": [
+        "Linggi"
+      ],
+      "occurrences": 5,
+      "source_files": [
+        "nstcommy_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "Negri Sembilan MB admits taking risk in shifting to Linggi seat\\",
+        "![](https://assets.nst.com.my/images/listing-featured/18FB66B8138281FD8A7F07F87B4B80F4_data_0.jpg)](https://www.nst.com.my/news/nation/2026/07/1488944/negri-sembilan-mb-admits-taking-risk-shifting-linggi-seat)",
+        "Negri Sembilan MB Aminuddin to contest Linggi state seat\\"
+      ]
+    },
+    {
+      "entity": "Kuala Pilah (P131)",
+      "surface_forms": [
+        "Kuala Pilah"
+      ],
+      "occurrences": 4,
+      "source_files": [
+        "nstcommy_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "KUALA PILAH: Datuk Seri Aminuddin Harun has been named Pakatan Harapan’s (PH) poster boy for the Negri Sembilan state election.](https://www.nst.com.my/news/nation/2026/07/1489112/aminuddin-ph-poster-boy-negri-sembilan-polls)",
+        "KUALA PILAH: Negri Sembilan Pakatan Harapan chairman Datuk Seri Aminuddin Harun admitted that he is taking a risk by shifting from his traditional...\\",
+        "KUALA PILAH: Pakatan Harapan chairman Datuk Seri Anwar Ibrahim today unveiled the coalition’s full slate of 36 candidates for the 16th Negri...\\"
+      ]
+    },
+    {
+      "entity": "Pilah (DUN)",
+      "surface_forms": [
+        "Pilah"
+      ],
+      "occurrences": 4,
+      "source_files": [
+        "nstcommy_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "KUALA PILAH: Datuk Seri Aminuddin Harun has been named Pakatan Harapan’s (PH) poster boy for the Negri Sembilan state election.](https://www.nst.com.my/news/nation/2026/07/1489112/aminuddin-ph-poster-boy-negri-sembilan-polls)",
+        "KUALA PILAH: Negri Sembilan Pakatan Harapan chairman Datuk Seri Aminuddin Harun admitted that he is taking a risk by shifting from his traditional...\\",
+        "KUALA PILAH: Pakatan Harapan chairman Datuk Seri Anwar Ibrahim today unveiled the coalition’s full slate of 36 candidates for the 16th Negri...\\"
+      ]
+    },
+    {
+      "entity": "Tampin (P134)",
+      "surface_forms": [
+        "Tampin"
+      ],
+      "occurrences": 3,
+      "source_files": [
+        "ohbulancom_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "ohbulan.com"
+      ],
+      "context_samples": [
+        "[![McDonald’s Malaysia Rasmi Cawangan Baru Di Tampin, Buka Lebih Banyak Peluang Pekerjaan!](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E)](https://ohbulan.com/mcdonalds-ma...",
+        "[McDonald’s Malaysia Rasmi Cawangan Baru Di Tampin, Buka Lebih Banyak Peluang Pekerjaan!](https://ohbulan.com/mcdonalds-malaysia-rasmi-cawangan-baru-di-tampin-buka-lebih-banyak-peluang-pekerjaan/ \"Permalink to McDonald’s Malaysia Rasmi Cawa...",
+        "Baru-baru ini, McDonald’s Malaysia telah meraikan pembukaan rangkaian restoran di Tampin, Negeri Sembilan, sekalig…"
+      ]
+    },
+    {
+      "entity": "Port Dickson / PD",
+      "surface_forms": [
+        "PD"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "ohbulancom_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "ohbulan.com"
+      ],
+      "context_samples": [
+        "[![Didakwa Bercuti Di PD, Aeril Jelaskan Pergi Negeri Sembilan Sebab Kerja – ‘Kami Tidak Bermalam Pun Di Sana’](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E)](https://ohbu...",
+        "[Didakwa Bercuti Di PD, Aeril Jelaskan Pergi Negeri Sembilan Sebab Kerja – ‘Kami Tidak Bermalam Pun Di Sana’](https://ohbulan.com/didakwa-bercuti-di-pd-aeril-jelaskan-pergi-negeri-sembilan-sebab-kerja-kami-tidak-bermalam-pun-di-sana/ \"Perma..."
+      ]
+    },
+    {
+      "entity": "Port Dickson (P132)",
+      "surface_forms": [
+        "Port Dickson"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "nstcommy_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "PORT DICKSON: The development of Midport here will strengthen Malaysia’s position as a digital and maritime hub while enhancing the country’s...\\"
+      ]
+    },
+    {
+      "entity": "Sikamat (DUN)",
+      "surface_forms": [
+        "Sikamat"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "bhariancommy_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "bharian.com.my"
+      ],
+      "context_samples": [
+        "PRN N Sembilan: Aminuddin akui ambil...](https://www.bharian.com.my/berita/politik/2026/07/1588146/prn-n-sembilan-aminuddin-akui-ambil-risiko-beralih-dari-sikamat-ke)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "date": "20260715",
+  "category": "parties",
+  "method": "gazetteer-grounded, source-attributed (verbatim surface match)",
+  "cvs_standard": "TLP:AMBER - all entities source-attributed; no pattern-inferred entities",
+  "source_count": 10,
+  "entity_count": 2,
+  "entities": [
+    {
+      "entity": "Pakatan Harapan (PH)",
+      "surface_forms": [
+        "PH",
+        "Pakatan Harapan"
+      ],
+      "occurrences": 13,
+      "source_files": [
+        "bhariancommy_20260715_010003.md",
+        "nstcommy_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "bharian.com.my",
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "PRN NS: Senarai penuh calon PH](https://www.bharian.com.my/berita/nasional/2026/07/1588024/prn-ns-senarai-penuh-calon-ph)",
+        "KUALA PILAH: Datuk Seri Aminuddin Harun has been named Pakatan Harapan’s (PH) poster boy for the Negri Sembilan state election.](https://www.nst.com.my/news/nation/2026/07/1489112/aminuddin-ph-poster-boy-negri-sembilan-polls)",
+        "KUALA PILAH: Negri Sembilan Pakatan Harapan chairman Datuk Seri Aminuddin Harun admitted that he is taking a risk by shifting from his traditional...\\"
+      ]
+    },
+    {
+      "entity": "PKR",
+      "surface_forms": [
+        "PKR"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "thestarcommy_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "### Melaka PKR calls for calm to resolve nominated assemblymen issue via consensus"
+      ]
+    }
+  ]
+}

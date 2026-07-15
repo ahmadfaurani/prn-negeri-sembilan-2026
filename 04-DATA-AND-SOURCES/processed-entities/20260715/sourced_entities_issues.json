@@ -1,0 +1,29 @@
+{
+  "date": "20260715",
+  "category": "issues",
+  "method": "gazetteer-grounded, source-attributed (verbatim surface match)",
+  "cvs_standard": "TLP:AMBER - all entities source-attributed; no pattern-inferred entities",
+  "source_count": 10,
+  "entity_count": 1,
+  "entities": [
+    {
+      "entity": "MyKAS / citizenship",
+      "surface_forms": [
+        "kad pengenalan",
+        "warganegara"
+      ],
+      "occurrences": 4,
+      "source_files": [
+        "kosmocommy_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "kosmo.com.my"
+      ],
+      "context_samples": [
+        "### [‘Warganegara Malaysia, saya pun ada kad pengenalan’](https://www.kosmo.com.my/2026/07/13/warganegara-malaysia-saya-pun-ada-kad-pengenalan/)",
+        "[![](https://www.kosmo.com.my/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-13-at-12.57.20-e1783922500769-1140x815.jpeg?v=1783922275)](https://www.kosmo.com.my/2026/07/13/warganegara-malaysia-saya-pun-ada-kad-pengenalan/)",
+        "### [‘Warganegara Malaysia, saya pun ada kad pengenalan’](https://www.kosmo.com.my/2026/07/13/warganegara-malaysia-saya-pun-ada-kad-pengenalan/)"
+      ]
+    }
+  ]
+}

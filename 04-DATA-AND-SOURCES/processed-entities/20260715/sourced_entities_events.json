@@ -1,0 +1,97 @@
+{
+  "date": "20260715",
+  "category": "events",
+  "method": "gazetteer-grounded, source-attributed (verbatim surface match)",
+  "cvs_standard": "TLP:AMBER - all entities source-attributed; no pattern-inferred entities",
+  "source_count": 10,
+  "entity_count": 4,
+  "entities": [
+    {
+      "entity": "FIFA World Cup 2026 / Piala Dunia 2026",
+      "surface_forms": [
+        "Piala Dunia",
+        "World Cup"
+      ],
+      "occurrences": 7,
+      "source_files": [
+        "astroawanicom_20260715_010003.md",
+        "bhariancommy_20260715_010003.md",
+        "thestarcommy_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "astroawani.com",
+        "bharian.com.my",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "[![Soccer Football - FIFA World Cup 2026 - Quarter Final - Argentina v Switzerland - Kansas City Stadium, Kansas City, Missouri, U.S. - July 11, 2026 Argentina players pose for a team group photo before the match REUTERS/Amanda Perobelli](h...",
+        "[![Soccer Football - FIFA World Cup 2026 - Quarter Final - Argentina v Switzerland - Kansas City Stadium, Kansas City, Missouri, U.S. - July 11, 2026 Argentina players pose for a team group photo before the match REUTERS/Amanda Perobelli](h...",
+        "Sukan[##### Piala Dunia 2026: 40 tahun selepas magis Maradona, Argentina mahu robek impian England lagi](https://www.astroawani.com/berita-sukan-terkini/piala-dunia-2026-40-tahun-selepas-magis-maradona-argentina-mahu-robek-impian-england-la..."
+      ]
+    },
+    {
+      "entity": "Johor state election (PRN Johor)",
+      "surface_forms": [
+        "Johor election",
+        "Keputusan-PRN-Johor",
+        "PRN Johor"
+      ],
+      "occurrences": 6,
+      "source_files": [
+        "bhariancommy_20260715_010003.md",
+        "kosmocommy_20260715_010003.md",
+        "nstcommy_20260715_010003.md",
+        "utusancommy_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "bharian.com.my",
+        "kosmo.com.my",
+        "nst.com.my",
+        "utusan.com.my"
+      ],
+      "context_samples": [
+        "[Tujuh pengajaran PRN Johor demi kematangan demokrasi](https://www.bharian.com.my/rencana/lain-lain/2026/07/1588176/tujuh-pengajaran-prn-johor-demi-kematangan-demokrasi)",
+        "[![](https://www.kosmo.com.my/wp-content/uploads/2026/07/Keputusan-PRN-Johor_728x90.png)](https://pru.utusan.com.my/)",
+        "[![](https://www.kosmo.com.my/wp-content/uploads/2026/07/Keputusan-PRN-Johor_728x90.png)](https://pru.utusan.com.my/)"
+      ]
+    },
+    {
+      "entity": "Hari Keputeraan Ke-77 Yang di-Pertuan Besar Negeri Sembilan",
+      "surface_forms": [
+        "Hari Keputeraan",
+        "Yang Dipertuan Besar Negeri Sembilan"
+      ],
+      "occurrences": 5,
+      "source_files": [
+        "ohbulancom_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "ohbulan.com"
+      ],
+      "context_samples": [
+        "[![Suki, Waris Dikurniakan Anugerah Sempena Hari Keputeraan Ke-77 Yang Dipertuan Besar Negeri Sembilan](https://media.ohbulan.com/2025/01/n9-istiadat-scaled.jpg)](https://ohbulan.com/suki-waris-dikurniakan-anugerah-sempena-hari-keputeraan-k...",
+        "[Suki, Waris Dikurniakan Anugerah Sempena Hari Keputeraan Ke-77 Yang Dipertuan Besar Negeri Sembilan](https://ohbulan.com/suki-waris-dikurniakan-anugerah-sempena-hari-keputeraan-ke-77-yang-dipertuan-besar-negeri-sembilan/ \"Permalink to Suki...",
+        "Penyanyi Waris dan Suki Low dikurniakan anugerah kebesaran sempena Hari Keputeraan Ke-77 Yang di-Pertuan Besar Negeri Se…"
+      ]
+    },
+    {
+      "entity": "Negeri Sembilan state election (PRN NS 2026)",
+      "surface_forms": [
+        "Negri Sembilan state election",
+        "state election"
+      ],
+      "occurrences": 3,
+      "source_files": [
+        "nstcommy_20260715_010003.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "KUALA PILAH: Datuk Seri Aminuddin Harun has been named Pakatan Harapan’s (PH) poster boy for the Negri Sembilan state election.](https://www.nst.com.my/news/nation/2026/07/1489112/aminuddin-ph-poster-boy-negri-sembilan-polls)",
+        "KUALA PILAH: Datuk Seri Aminuddin Harun has been named Pakatan Harapan’s (PH) poster boy for the Negri Sembilan state election.](https://www.nst.com.my/news/nation/2026/07/1489112/aminuddin-ph-poster-boy-negri-sembilan-polls)",
+        "KUALA PILAH: Negri Sembilan Menteri Besar Datuk Seri Aminuddin Harun will contest the Linggi seat in the upcoming state election, moving away from...\\"
+      ]
+    }
+  ]
+}
