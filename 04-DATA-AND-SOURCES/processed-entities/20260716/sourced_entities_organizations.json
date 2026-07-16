@@ -1,0 +1,135 @@
+{
+  "date": "20260716",
+  "category": "organizations",
+  "method": "gazetteer-grounded, source-attributed (verbatim surface match)",
+  "cvs_standard": "TLP:AMBER - all entities source-attributed; no pattern-inferred entities",
+  "source_count": 11,
+  "entity_count": 7,
+  "entities": [
+    {
+      "entity": "Persatuan Kebajikan Ronald McDonald (RHMC)",
+      "surface_forms": [
+        "Persatuan Kebajikan Ronald McDonald",
+        "RHMC"
+      ],
+      "occurrences": 6,
+      "source_files": [
+        "ohbulancom_20260716_010506.md"
+      ],
+      "source_outlets": [
+        "ohbulan.com"
+      ],
+      "context_samples": [
+        "[![Persatuan Kebajikan Ronald McDonald (RHMC) Malaysia Menyediakan Pek Kembali Ke Sekolah Untuk Membantu 25,000 Kanak-Kanak Yang Memerlukannya](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%2014...",
+        "[Persatuan Kebajikan Ronald McDonald (RHMC) Malaysia Menyediakan Pek Kembali Ke Sekolah Untuk Membantu 25,000 Kanak-Kanak Yang Memerlukannya](https://ohbulan.com/persatuan-kebajikan-ronald-mcdonald-rhmc-malaysia-menyediakan-pek-kembali-ke-s...",
+        "Dalam tahun 2022, Persatuan Kebajikan Ronald McDonald (RHMC) Malaysia telah memperuntukkan sejumlah RM1.5 juta untuk men…"
+      ]
+    },
+    {
+      "entity": "Media Mulia Sdn Bhd",
+      "surface_forms": [
+        "Media Mulia"
+      ],
+      "occurrences": 4,
+      "source_files": [
+        "kosmocommy_20260716_010506.md",
+        "utusancommy_20260716_010506.md"
+      ],
+      "source_outlets": [
+        "kosmo.com.my",
+        "utusan.com.my"
+      ],
+      "context_samples": [
+        "Hak cipta terpelihara © 2026 Media Mulia Sdn Bhd 201801030285 (1292311-H)",
+        "Satu lagi produk Media Mulia Sdn. Bhd.",
+        "Hak cipta terpelihara © 2026 Media Mulia Sdn Bhd 201801030285 (1292311-H)"
+      ]
+    },
+    {
+      "entity": "McDonald's Malaysia",
+      "surface_forms": [
+        "McDonald’s Malaysia"
+      ],
+      "occurrences": 3,
+      "source_files": [
+        "ohbulancom_20260716_010506.md"
+      ],
+      "source_outlets": [
+        "ohbulan.com"
+      ],
+      "context_samples": [
+        "[![McDonald’s Malaysia Rasmi Cawangan Baru Di Tampin, Buka Lebih Banyak Peluang Pekerjaan!](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E)](https://ohbulan.com/mcdonalds-ma...",
+        "[McDonald’s Malaysia Rasmi Cawangan Baru Di Tampin, Buka Lebih Banyak Peluang Pekerjaan!](https://ohbulan.com/mcdonalds-malaysia-rasmi-cawangan-baru-di-tampin-buka-lebih-banyak-peluang-pekerjaan/ \"Permalink to McDonald’s Malaysia Rasmi Cawa...",
+        "Baru-baru ini, McDonald’s Malaysia telah meraikan pembukaan rangkaian restoran di Tampin, Negeri Sembilan, sekalig…"
+      ]
+    },
+    {
+      "entity": "Star Media Group",
+      "surface_forms": [
+        "Star Media Group"
+      ],
+      "occurrences": 3,
+      "source_files": [
+        "mstarcommy_20260716_010506.md",
+        "thestarcommy_20260716_010506.md"
+      ],
+      "source_outlets": [
+        "mstar.com.my",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "![Powered by Star Media Group](https://cdn.thestar.com.my/Themes/img/PoweredbySMG.png)",
+        "![Powered by Star Media Group](https://cdn.thestar.com.my/Themes/img/PoweredbySMG.png)",
+        "Copyright © 1995- 2026 Star Media Group Berhad \\[197101000523 (10894-D)\\]"
+      ]
+    },
+    {
+      "entity": "Dewan Rakyat",
+      "surface_forms": [
+        "Dewan Rakyat"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "nstcommy_20260716_010506.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "El Nino prepareness, army training blast among focus of Dewan Rakyat today\\"
+      ]
+    },
+    {
+      "entity": "Health Ministry",
+      "surface_forms": [
+        "Health Ministry"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "thestarcommy_20260716_010506.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "PETALING JAYA: The Health Ministry's proposal to develop a workplace mental health policy has been warmly received, with experts saying it is a vital shift to treat it as an organisational responsibility."
+      ]
+    },
+    {
+      "entity": "PDRM",
+      "surface_forms": [
+        "PDRM"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "astroawanicom_20260716_010506.md"
+      ],
+      "source_outlets": [
+        "astroawani.com"
+      ],
+      "context_samples": [
+        "[![Police seek help in wake of man missing since last month_PDRM](https://resizer-vortals.eco.astro.com.my/tr:w-auto,h-auto,q-80,f-webp/https://media.astroawani.com/awani/media/uploads/image/2026-07/TB_Orang%20Hilang_PDRM.jpg?VersionId=hh0g..."
+      ]
+    }
+  ]
+}

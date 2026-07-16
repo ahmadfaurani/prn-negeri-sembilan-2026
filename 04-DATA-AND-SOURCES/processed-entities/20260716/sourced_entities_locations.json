@@ -1,0 +1,218 @@
+{
+  "date": "20260716",
+  "category": "locations",
+  "method": "gazetteer-grounded, source-attributed (verbatim surface match)",
+  "cvs_standard": "TLP:AMBER - all entities source-attributed; no pattern-inferred entities",
+  "source_count": 11,
+  "entity_count": 11,
+  "entities": [
+    {
+      "entity": "Negeri Sembilan",
+      "surface_forms": [
+        "Negeri Sembilan",
+        "Negri Sembilan"
+      ],
+      "occurrences": 26,
+      "source_files": [
+        "nstcommy_20260716_010506.md",
+        "ohbulancom_20260716_010506.md",
+        "thestarcommy_20260716_010506.md"
+      ],
+      "source_outlets": [
+        "nst.com.my",
+        "ohbulan.com",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "Bersatu to announce Negri Sembilan candidates, seats on Friday\\",
+        "PETALING JAYA: Bersatu has yet to finalise the number of candidates it will field for the 16th Negri Sembilan election on Aug 1.\\",
+        "Bersatu criticises Pas over BN talks ahead of Negri Sembilan polls\\"
+      ]
+    },
+    {
+      "entity": "Johor",
+      "surface_forms": [
+        "Johor"
+      ],
+      "occurrences": 10,
+      "source_files": [
+        "bhariancommy_20260716_010506.md",
+        "freemalaysiatodaycom_20260716_010506.md",
+        "kosmocommy_20260716_010506.md",
+        "nstcommy_20260716_010506.md",
+        "utusancommy_20260716_010506.md"
+      ],
+      "source_outlets": [
+        "bharian.com.my",
+        "freemalaysiatodaycom",
+        "kosmo.com.my",
+        "nst.com.my",
+        "utusan.com.my"
+      ],
+      "context_samples": [
+        "Keputusan PRN Johor wajar jadi peringatan PH menjelang PRU16](https://www.bharian.com.my/rencana/komentar/2026/07/1588769/keputusan-prn-johor-wajar-jadi-peringatan-ph-menjelang-pru16)",
+        "[opinion‘Tech Zionism’ di Johor?](https://www.freemalaysiatoday.com/category/opinion/2026/07/16/tech-zionism-di-johor)",
+        "[berita‘Tech Zionism’ di Johor?](https://www.freemalaysiatoday.com/category/opinion/2026/07/16/tech-zionism-di-johor)"
+      ]
+    },
+    {
+      "entity": "Kuala Lumpur",
+      "surface_forms": [
+        "Kuala Lumpur"
+      ],
+      "occurrences": 8,
+      "source_files": [
+        "nstcommy_20260716_010506.md",
+        "thestarcommy_20260716_010506.md"
+      ],
+      "source_outlets": [
+        "nst.com.my",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "KUALA LUMPUR: The Ministry of Higher Education said that Network School in Forest City is not a registered private higher education institution...\\",
+        "KUALA LUMPUR: Barisan Nasional will cooperate with other parties in the 16th Negri Sembilan state election, scheduled for Aug 1.\\",
+        "KUALA LUMPUR: Plus Malaysia Bhd (Plus) is expanding the JustGO lane freedom to six additional toll plazas in the southern region starting today.\\"
+      ]
+    },
+    {
+      "entity": "Petaling Jaya",
+      "surface_forms": [
+        "Petaling Jaya"
+      ],
+      "occurrences": 7,
+      "source_files": [
+        "nstcommy_20260716_010506.md",
+        "thestarcommy_20260716_010506.md"
+      ],
+      "source_outlets": [
+        "nst.com.my",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "PETALING JAYA: Bersatu has yet to finalise the number of candidates it will field for the 16th Negri Sembilan election on Aug 1.\\",
+        "PETALING JAYA: Bersatu has expressed regret over Pas' decision to hold political negotiations with Barisan Nasional (BN) without involving all...\\",
+        "PETALING JAYA: Bersatu will use its own party logo for its candidates in the 16th Negri Sembilan state election.\\"
+      ]
+    },
+    {
+      "entity": "Penang / Pulau Pinang",
+      "surface_forms": [
+        "Penang",
+        "Pulau Pinang"
+      ],
+      "occurrences": 5,
+      "source_files": [
+        "bhariancommy_20260716_010506.md",
+        "nstcommy_20260716_010506.md"
+      ],
+      "source_outlets": [
+        "bharian.com.my",
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "\"Nampak kepala tenggelam timbul sebelum tak lama kemudian terus senyap\" - Saksi kes pemancing jatuh Jambatan Pulau Pinang](https://www.bharian.com.my/berita/kes/2026/07/1588593/nampak-kepala-tenggelam-timbul-sebelum-tak-lama-kemudian-terus-...",
+        "\"Nampak kepala tenggelam timbul sebelum tak lama kemudian terus senyap\" - Saksi kes pemancing jatuh Jambatan Pulau Pinang](https://www.bharian.com.my/berita/kes/2026/07/1588593/nampak-kepala-tenggelam-timbul-sebelum-tak-lama-kemudian-terus-...",
+        "Man feared drowned after falling into sea while fishing off Penang Bridge\\"
+      ]
+    },
+    {
+      "entity": "Tampin",
+      "surface_forms": [
+        "Tampin"
+      ],
+      "occurrences": 3,
+      "source_files": [
+        "ohbulancom_20260716_010506.md"
+      ],
+      "source_outlets": [
+        "ohbulan.com"
+      ],
+      "context_samples": [
+        "[![McDonald’s Malaysia Rasmi Cawangan Baru Di Tampin, Buka Lebih Banyak Peluang Pekerjaan!](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E)](https://ohbulan.com/mcdonalds-ma...",
+        "[McDonald’s Malaysia Rasmi Cawangan Baru Di Tampin, Buka Lebih Banyak Peluang Pekerjaan!](https://ohbulan.com/mcdonalds-malaysia-rasmi-cawangan-baru-di-tampin-buka-lebih-banyak-peluang-pekerjaan/ \"Permalink to McDonald’s Malaysia Rasmi Cawa...",
+        "Baru-baru ini, McDonald’s Malaysia telah meraikan pembukaan rangkaian restoran di Tampin, Negeri Sembilan, sekalig…"
+      ]
+    },
+    {
+      "entity": "George Town",
+      "surface_forms": [
+        "George Town"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "nstcommy_20260716_010506.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "GEORGE TOWN: A 39-year-old man is feared drowned after he fell into the sea while fishing at Penang Bridge early today.\\"
+      ]
+    },
+    {
+      "entity": "Muar",
+      "surface_forms": [
+        "Muar"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "nstcommy_20260716_010506.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "MUAR: A total of 16 goods and public service vehicle drivers tested positive for drugs during an Integrated Drug Operation conducted by the Johor...\\"
+      ]
+    },
+    {
+      "entity": "Putrajaya",
+      "surface_forms": [
+        "Putrajaya"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "nstcommy_20260716_010506.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "PUTRAJAYA: The Court of Appeal has overturned a High Court’s decision that allowed four homebuyers to claim additional liquidated ascertained...\\"
+      ]
+    },
+    {
+      "entity": "Sabah",
+      "surface_forms": [
+        "Sabah"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "thestarcommy_20260716_010506.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "[Sabah & Sarawak](https://www.thestar.com.my/tag/Sabah+&+Sarawak)"
+      ]
+    },
+    {
+      "entity": "Sarawak",
+      "surface_forms": [
+        "Sarawak"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "thestarcommy_20260716_010506.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "[Sabah & Sarawak](https://www.thestar.com.my/tag/Sabah+&+Sarawak)"
+      ]
+    }
+  ]
+}

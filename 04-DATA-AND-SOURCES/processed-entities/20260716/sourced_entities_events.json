@@ -1,0 +1,95 @@
+{
+  "date": "20260716",
+  "category": "events",
+  "method": "gazetteer-grounded, source-attributed (verbatim surface match)",
+  "cvs_standard": "TLP:AMBER - all entities source-attributed; no pattern-inferred entities",
+  "source_count": 11,
+  "entity_count": 4,
+  "entities": [
+    {
+      "entity": "FIFA World Cup 2026 / Piala Dunia 2026",
+      "surface_forms": [
+        "Piala Dunia",
+        "World Cup"
+      ],
+      "occurrences": 12,
+      "source_files": [
+        "astroawanicom_20260716_010506.md",
+        "bhariancommy_20260716_010506.md",
+        "thestarcommy_20260716_010506.md"
+      ],
+      "source_outlets": [
+        "astroawani.com",
+        "bharian.com.my",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "[![People gather by a statue of Argentina's revered Lionel Messi while watching the World Cup semi-final between Argentina and England, in Cutral Co, in the Patagonian province of Neuquen, Argentina, July 15, 2026. REUTERS/Leila Miller](htt...",
+        "[![People gather by a statue of Argentina's revered Lionel Messi while watching the World Cup semi-final between Argentina and England, in Cutral Co, in the Patagonian province of Neuquen, Argentina, July 15, 2026. REUTERS/Leila Miller](htt...",
+        "Dunia[##### Piala Dunia 2026: Di bawah patung Messi setinggi 26 meter, Argentina rai kebangkitan ke final](https://www.astroawani.com/berita-sukan-terkini-dunia/piala-dunia-2026-di-bawah-patung-messi-setinggi-26-meter-argentina-rai-kebangki..."
+      ]
+    },
+    {
+      "entity": "Negeri Sembilan state election (PRN NS 2026)",
+      "surface_forms": [
+        "Negri Sembilan election",
+        "Negri Sembilan state election",
+        "state election"
+      ],
+      "occurrences": 7,
+      "source_files": [
+        "nstcommy_20260716_010506.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "PETALING JAYA: Bersatu has yet to finalise the number of candidates it will field for the 16th Negri Sembilan election on Aug 1.\\",
+        "PETALING JAYA: Bersatu will use its own party logo for its candidates in the 16th Negri Sembilan state election.\\",
+        "SEREMBAN: Datuk Seri Mohamad Hasan will retain his Rantau seat in the upcoming Negri Sembilan state election.\\"
+      ]
+    },
+    {
+      "entity": "Johor state election (PRN Johor)",
+      "surface_forms": [
+        "Keputusan-PRN-Johor",
+        "PRN Johor"
+      ],
+      "occurrences": 6,
+      "source_files": [
+        "bhariancommy_20260716_010506.md",
+        "kosmocommy_20260716_010506.md",
+        "utusancommy_20260716_010506.md"
+      ],
+      "source_outlets": [
+        "bharian.com.my",
+        "kosmo.com.my",
+        "utusan.com.my"
+      ],
+      "context_samples": [
+        "Keputusan PRN Johor wajar jadi peringatan PH menjelang PRU16](https://www.bharian.com.my/rencana/komentar/2026/07/1588769/keputusan-prn-johor-wajar-jadi-peringatan-ph-menjelang-pru16)",
+        "Keputusan PRN Johor wajar jadi peringatan PH menjelang PRU16](https://www.bharian.com.my/rencana/komentar/2026/07/1588769/keputusan-prn-johor-wajar-jadi-peringatan-ph-menjelang-pru16)",
+        "[![](https://www.kosmo.com.my/wp-content/uploads/2026/07/Keputusan-PRN-Johor_728x90.png)](https://pru.utusan.com.my/)"
+      ]
+    },
+    {
+      "entity": "Hari Keputeraan Ke-77 Yang di-Pertuan Besar Negeri Sembilan",
+      "surface_forms": [
+        "Hari Keputeraan",
+        "Yang Dipertuan Besar Negeri Sembilan"
+      ],
+      "occurrences": 5,
+      "source_files": [
+        "ohbulancom_20260716_010506.md"
+      ],
+      "source_outlets": [
+        "ohbulan.com"
+      ],
+      "context_samples": [
+        "[![Suki, Waris Dikurniakan Anugerah Sempena Hari Keputeraan Ke-77 Yang Dipertuan Besar Negeri Sembilan](https://media.ohbulan.com/2025/01/n9-istiadat-scaled.jpg)](https://ohbulan.com/suki-waris-dikurniakan-anugerah-sempena-hari-keputeraan-k...",
+        "[Suki, Waris Dikurniakan Anugerah Sempena Hari Keputeraan Ke-77 Yang Dipertuan Besar Negeri Sembilan](https://ohbulan.com/suki-waris-dikurniakan-anugerah-sempena-hari-keputeraan-ke-77-yang-dipertuan-besar-negeri-sembilan/ \"Permalink to Suki...",
+        "Penyanyi Waris dan Suki Low dikurniakan anugerah kebesaran sempena Hari Keputeraan Ke-77 Yang di-Pertuan Besar Negeri Se…"
+      ]
+    }
+  ]
+}

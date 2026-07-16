@@ -1,0 +1,62 @@
+{
+  "date": "20260716",
+  "category": "politicians",
+  "method": "gazetteer-grounded, source-attributed (verbatim surface match)",
+  "cvs_standard": "TLP:AMBER - all entities source-attributed; no pattern-inferred entities",
+  "source_count": 11,
+  "entity_count": 3,
+  "entities": [
+    {
+      "entity": "Anwar Ibrahim",
+      "surface_forms": [
+        "Anwar",
+        "Anwar Ibrahim"
+      ],
+      "occurrences": 4,
+      "source_files": [
+        "nstcommy_20260716_010506.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "KUALA LUMPUR: Prime Minister Datuk Seri Anwar Ibrahim has directed the Ministry of Agriculture and Food Security to urgently formulate mitigation...\\",
+        "Anwar orders measures to tackle Super El Niño impact on food supply\\",
+        "KUALA LUMPUR: Prime Minister Datuk Seri Anwar Ibrahim has directed the Ministry of Agriculture and Food Security to urgently formulate mitigation...\\"
+      ]
+    },
+    {
+      "entity": "Ahmad Zahid Hamidi",
+      "surface_forms": [
+        "Zahid"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "thestarcommy_20260716_010506.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "### Economic growth in Negri Sembilan could’ve been better with Barisan, says Zahid",
+        "[Read](https://www.thestar.com.my/news/nation/2026/07/15/economic-growth-in-negri-sembilan-couldve-been-better-with-barisan-says-zahid)"
+      ]
+    },
+    {
+      "entity": "Mohamad Hasan",
+      "surface_forms": [
+        "Mohamad Hasan"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "nstcommy_20260716_010506.md"
+      ],
+      "source_outlets": [
+        "nst.com.my"
+      ],
+      "context_samples": [
+        "SEREMBAN: Datuk Seri Mohamad Hasan will retain his Rantau seat in the upcoming Negri Sembilan state election.\\"
+      ]
+    }
+  ]
+}

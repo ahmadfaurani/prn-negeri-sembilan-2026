@@ -1,0 +1,107 @@
+{
+  "date": "20260716",
+  "category": "parties",
+  "method": "gazetteer-grounded, source-attributed (verbatim surface match)",
+  "cvs_standard": "TLP:AMBER - all entities source-attributed; no pattern-inferred entities",
+  "source_count": 11,
+  "entity_count": 5,
+  "entities": [
+    {
+      "entity": "Bersatu (PPBM)",
+      "surface_forms": [
+        "Bersatu"
+      ],
+      "occurrences": 9,
+      "source_files": [
+        "nstcommy_20260716_010506.md",
+        "thestarcommy_20260716_010506.md"
+      ],
+      "source_outlets": [
+        "nst.com.my",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "Bersatu to announce Negri Sembilan candidates, seats on Friday\\",
+        "PETALING JAYA: Bersatu has yet to finalise the number of candidates it will field for the 16th Negri Sembilan election on Aug 1.\\",
+        "Bersatu criticises Pas over BN talks ahead of Negri Sembilan polls\\"
+      ]
+    },
+    {
+      "entity": "Barisan Nasional (BN)",
+      "surface_forms": [
+        "BN",
+        "Barisan Nasional"
+      ],
+      "occurrences": 8,
+      "source_files": [
+        "bhariancommy_20260716_010506.md",
+        "nstcommy_20260716_010506.md",
+        "thestarcommy_20260716_010506.md"
+      ],
+      "source_outlets": [
+        "bharian.com.my",
+        "nst.com.my",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "PRN NS: Senarai 25 calon awal diumum BN](https://www.bharian.com.my/berita/nasional/2026/07/1588657/prn-ns-senarai-25-calon-awal-diumum-bn)",
+        "BN hanya umum 25 daripada 36 calon, selebihnya sedang dirunding dengan 'rakan' - Tok Mat](https://www.bharian.com.my/berita/nasional/2026/07/1588650/bn-hanya-umum-25-daripada-36-calon-selebihnya-sedang-dirunding)",
+        "PETALING JAYA: Bersatu has expressed regret over Pas' decision to hold political negotiations with Barisan Nasional (BN) without involving all...\\"
+      ]
+    },
+    {
+      "entity": "PAS",
+      "surface_forms": [
+        "PAS",
+        "Pas"
+      ],
+      "occurrences": 6,
+      "source_files": [
+        "nstcommy_20260716_010506.md",
+        "thestarcommy_20260716_010506.md"
+      ],
+      "source_outlets": [
+        "nst.com.my",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "Bersatu criticises Pas over BN talks ahead of Negri Sembilan polls\\",
+        "PETALING JAYA: Bersatu has expressed regret over Pas' decision to hold political negotiations with Barisan Nasional (BN) without involving all...\\",
+        "![](https://storage.googleapis.com/origin-awsassets.nst.com.my/images/listing-featured/E135B0BBC7F39BE8787CA280E9D9D4A0_data.jpg)](https://www.nst.com.my/news/nation/2026/07/1489794/bersatu-criticises-pas-over-bn-talks-ahead-negri-sembilan-..."
+      ]
+    },
+    {
+      "entity": "Pakatan Harapan (PH)",
+      "surface_forms": [
+        "PH"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "bhariancommy_20260716_010506.md"
+      ],
+      "source_outlets": [
+        "bharian.com.my"
+      ],
+      "context_samples": [
+        "Keputusan PRN Johor wajar jadi peringatan PH menjelang PRU16](https://www.bharian.com.my/rencana/komentar/2026/07/1588769/keputusan-prn-johor-wajar-jadi-peringatan-ph-menjelang-pru16)",
+        "Undi Melayu tersusun, bekerjasama senjata tumpaskan PH-DAP](https://www.bharian.com.my/rencana/lain-lain/2026/07/1588761/undi-melayu-tersusun-bekerjasama-senjata-tumpaskan-ph-dap)"
+      ]
+    },
+    {
+      "entity": "DAP",
+      "surface_forms": [
+        "DAP"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "bhariancommy_20260716_010506.md"
+      ],
+      "source_outlets": [
+        "bharian.com.my"
+      ],
+      "context_samples": [
+        "Undi Melayu tersusun, bekerjasama senjata tumpaskan PH-DAP](https://www.bharian.com.my/rencana/lain-lain/2026/07/1588761/undi-melayu-tersusun-bekerjasama-senjata-tumpaskan-ph-dap)"
+      ]
+    }
+  ]
+}

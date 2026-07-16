@@ -1,0 +1,9 @@
+{
+  "date": "20260716",
+  "category": "issues",
+  "method": "gazetteer-grounded, source-attributed (verbatim surface match)",
+  "cvs_standard": "TLP:AMBER - all entities source-attributed; no pattern-inferred entities",
+  "source_count": 11,
+  "entity_count": 0,
+  "entities": []
+}
