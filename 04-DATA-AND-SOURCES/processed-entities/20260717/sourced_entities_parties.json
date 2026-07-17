@@ -1,0 +1,149 @@
+{
+  "date": "20260717",
+  "category": "parties",
+  "method": "gazetteer-grounded, source-attributed (verbatim surface match)",
+  "cvs_standard": "TLP:AMBER - all entities source-attributed; no pattern-inferred entities",
+  "source_count": 8,
+  "entity_count": 7,
+  "entities": [
+    {
+      "entity": "Perikatan Nasional (PN)",
+      "surface_forms": [
+        "PN",
+        "Perikatan Nasional"
+      ],
+      "occurrences": 15,
+      "source_files": [
+        "astroawanicom_20260717_010024.md",
+        "bhariancommy_20260717_010024.md",
+        "thestarcommy_20260717_010024.md",
+        "utusancommy_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "astroawani.com",
+        "bharian.com.my",
+        "thestar.com.my",
+        "utusan.com.my"
+      ],
+      "context_samples": [
+        "[![Calon Perikatan Nasional (PN) bagi Dewan Undangan Negeri (DUN) Sikamat, Datuk Razali Abu Samah. Credit Facebook Perikatan Nasional](https://resizer-vortals.eco.astro.com.my/tr:w-auto,h-auto,q-80,f-webp/https://media.astroawani.com/awani/...",
+        "[![Calon Perikatan Nasional (PN) bagi Dewan Undangan Negeri (DUN) Sikamat, Datuk Razali Abu Samah. Credit Facebook Perikatan Nasional](https://resizer-vortals.eco.astro.com.my/tr:w-auto,h-auto,q-80,f-webp/https://media.astroawani.com/awani/...",
+        "PRN NS: Sah kerjasama dengan BN, PN...](https://www.bharian.com.my/berita/nasional/2026/07/1589225/prn-ns-sah-kerjasama-dengan-bn-pn-umum-baki-11-calon)"
+      ]
+    },
+    {
+      "entity": "Barisan Nasional (BN)",
+      "surface_forms": [
+        "BN",
+        "Barisan Nasional"
+      ],
+      "occurrences": 13,
+      "source_files": [
+        "bhariancommy_20260717_010024.md",
+        "utusancommy_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "bharian.com.my",
+        "utusan.com.my"
+      ],
+      "context_samples": [
+        "PRN NS: Sah kerjasama dengan BN, PN...](https://www.bharian.com.my/berita/nasional/2026/07/1589225/prn-ns-sah-kerjasama-dengan-bn-pn-umum-baki-11-calon)",
+        "[PRN Negeri Sembilan uji jajaran politik baharu BN-PAS](https://www.bharian.com.my/rencana/lain-lain/2026/07/1589307/prn-negeri-sembilan-uji-jajaran-politik-baharu-bn-pas)",
+        "SEREMBAN: Kejayaan rundi­ngan pembahagian kerusi antara Barisan Nasional (BN) dan Perikatan Nasional (PN) bagi menghadapi Pilihan Raya Nege­ri (PRN) Negeri Sembilan bakal membawa kepada penyatuan undi Melayu."
+      ]
+    },
+    {
+      "entity": "UMNO",
+      "surface_forms": [
+        "UMNO",
+        "Umno"
+      ],
+      "occurrences": 9,
+      "source_files": [
+        "bhariancommy_20260717_010024.md",
+        "utusancommy_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "bharian.com.my",
+        "utusan.com.my"
+      ],
+      "context_samples": [
+        "Terima kasih UMNO atas tindakan berani...](https://www.bharian.com.my/berita/politik/2026/07/1589269/terima-kasih-umno-atas-tindakan-berani-tuan-ibrahim)",
+        "Terima kasih UMNO atas tindakan berani...](https://www.bharian.com.my/berita/politik/2026/07/1589269/terima-kasih-umno-atas-tindakan-berani-tuan-ibrahim)",
+        "Setiausaha Badan Perhubungan UMNO Negeri Sembilan, Datuk Mustapha Nagoor berkata, pengundi Melayu sudah tentu akan menjadi penentu dalam PRN kali ini, khususnya di kawasan yang memiliki peratusan majoriti."
+      ]
+    },
+    {
+      "entity": "PAS",
+      "surface_forms": [
+        "PAS",
+        "Pas"
+      ],
+      "occurrences": 5,
+      "source_files": [
+        "bhariancommy_20260717_010024.md",
+        "utusancommy_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "bharian.com.my",
+        "utusan.com.my"
+      ],
+      "context_samples": [
+        "[PRN Negeri Sembilan uji jajaran politik baharu BN-PAS](https://www.bharian.com.my/rencana/lain-lain/2026/07/1589307/prn-negeri-sembilan-uji-jajaran-politik-baharu-bn-pas)",
+        "[PRN Negeri Sembilan uji jajaran politik baharu BN-PAS](https://www.bharian.com.my/rencana/lain-lain/2026/07/1589307/prn-negeri-sembilan-uji-jajaran-politik-baharu-bn-pas)",
+        "Dalam pada itu, Timbalan Pesuruhjaya Pas Negeri Sembilan, Kamarol Ridzuan Mohd. Zain berkata, peluang kemenangan sudah jelas seperti di­nyatakan Presiden Pas, Tan Sri Abdul Hadi Awang sebelum ini."
+      ]
+    },
+    {
+      "entity": "Pakatan Harapan (PH)",
+      "surface_forms": [
+        "PH",
+        "Pakatan Harapan"
+      ],
+      "occurrences": 5,
+      "source_files": [
+        "utusancommy_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "utusan.com.my"
+      ],
+      "context_samples": [
+        "Berdasarkan keputusan PRN lalu, hanya empat kerusi majoriti Melayu yang dimenangi Pakatan Harapan (PH) iaitu Klawang, Ampangan, Sikamat dan Pilah.",
+        "Berdasarkan keputusan PRN lalu, hanya empat kerusi majoriti Melayu yang dimenangi Pakatan Harapan (PH) iaitu Klawang, Ampangan, Sikamat dan Pilah.",
+        "“Memang kita mahu menewaskan PH, itu jelas dan untuk mencapainya undi BN dan PN perlu bergabung."
+      ]
+    },
+    {
+      "entity": "Bersatu (PPBM)",
+      "surface_forms": [
+        "Bersatu"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "utusancommy_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "utusan.com.my"
+      ],
+      "context_samples": [
+        "Ahmad Samsuri berkata, oleh itu, dakwaan Presiden Parti Pribumi Bersatu Malaysia (Bersatu), Tan Sri Muhyiddin Yassin bahawa ia dibuat tanpa persetujuan Majlis Tertinggi PN adalah tidak berasas."
+      ]
+    },
+    {
+      "entity": "DAP",
+      "surface_forms": [
+        "DAP"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "utusancommy_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "utusan.com.my"
+      ],
+      "context_samples": [
+        "Selain itu, persefahaman tersebut turut dijangka memberi ke­lebihan di tiga kerusi campuran yang mempunyai komposisi pengundi Melayu dan bukan Melayu hampir seimbang iaitu Chennah, Temiang dan Nilai, yang sebelum ini dimenangi DAP."
+      ]
+    }
+  ]
+}

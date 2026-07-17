@@ -1,0 +1,184 @@
+{
+  "date": "20260717",
+  "category": "locations",
+  "method": "gazetteer-grounded, source-attributed (verbatim surface match)",
+  "cvs_standard": "TLP:AMBER - all entities source-attributed; no pattern-inferred entities",
+  "source_count": 8,
+  "entity_count": 10,
+  "entities": [
+    {
+      "entity": "Negeri Sembilan",
+      "surface_forms": [
+        "Negeri Sembilan"
+      ],
+      "occurrences": 28,
+      "source_files": [
+        "astroawanicom_20260717_010024.md",
+        "bhariancommy_20260717_010024.md",
+        "ohbulancom_20260717_010024.md",
+        "utusancommy_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "astroawani.com",
+        "bharian.com.my",
+        "ohbulan.com",
+        "utusan.com.my"
+      ],
+      "context_samples": [
+        "[![Calon Perikatan Nasional (PN) bagi Dewan Undangan Negeri (DUN) Sikamat, Datuk Razali Abu Samah. Credit Facebook Perikatan Nasional](https://resizer-vortals.eco.astro.com.my/tr:w-auto,h-auto,q-80,f-webp/https://media.astroawani.com/awani/...",
+        "Politik[##### PRN Negeri Sembilan: Razali Abu Samah tekad tawan Sikamat, janji dekati pengundi](https://www.astroawani.com/berita-politik/prn-negeri-sembilan-razali-abu-samah-tekad-tawan-sikamat-janji-dekati-pengundi \"PRN Negeri Sembilan: R...",
+        "[PRN Negeri Sembilan uji jajaran politik baharu BN-PAS](https://www.bharian.com.my/rencana/lain-lain/2026/07/1589307/prn-negeri-sembilan-uji-jajaran-politik-baharu-bn-pas)"
+      ]
+    },
+    {
+      "entity": "Petaling Jaya",
+      "surface_forms": [
+        "Petaling Jaya"
+      ],
+      "occurrences": 5,
+      "source_files": [
+        "thestarcommy_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "PETALING JAYA: Concerns are mounting over possible leakages in Malaysia's subsidised cooking oil programme after the Public Accounts Committee (PAC) found weaknesses in quota planning, enforcement and distribution that may have caused...",
+        "PETALING JAYA: The World Cup may be entering its final chapter, but for durian lovers, the season for enjoying the King of Fruits is still in full swing.",
+        "PETALING JAYA: The public should act as the eyes and ears of the local authorities to help tackle the issue of bird's nest accommodation and prevent any untoward incident, say councillors."
+      ]
+    },
+    {
+      "entity": "Tampin",
+      "surface_forms": [
+        "Tampin"
+      ],
+      "occurrences": 3,
+      "source_files": [
+        "ohbulancom_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "ohbulan.com"
+      ],
+      "context_samples": [
+        "[![McDonald’s Malaysia Rasmi Cawangan Baru Di Tampin, Buka Lebih Banyak Peluang Pekerjaan!](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E)](https://ohbulan.com/mcdonalds-ma...",
+        "[McDonald’s Malaysia Rasmi Cawangan Baru Di Tampin, Buka Lebih Banyak Peluang Pekerjaan!](https://ohbulan.com/mcdonalds-malaysia-rasmi-cawangan-baru-di-tampin-buka-lebih-banyak-peluang-pekerjaan/ \"Permalink to McDonald’s Malaysia Rasmi Cawa...",
+        "Baru-baru ini, McDonald’s Malaysia telah meraikan pembukaan rangkaian restoran di Tampin, Negeri Sembilan, sekalig…"
+      ]
+    },
+    {
+      "entity": "Johor",
+      "surface_forms": [
+        "Johor"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "thestarcommy_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "### Johor exco line-up expected to be sworn in on July 17",
+        "[Read](https://www.thestar.com.my/news/nation/2026/07/16/johor-exco-line-up-expected-to-be-sworn-in-on-july-17)"
+      ]
+    },
+    {
+      "entity": "Melaka",
+      "surface_forms": [
+        "Melaka"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "thestarcommy_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "### Melaka Pakatan reaffirms decision to withdraw from state administration",
+        "[Read](https://www.thestar.com.my/news/nation/2026/07/16/melaka-pakatan-reaffirms-decision-to-withdraw-from-state-administration)"
+      ]
+    },
+    {
+      "entity": "Kota Baru",
+      "surface_forms": [
+        "Kota Baru"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "thestarcommy_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "KOTA BARU: The Works Ministry is closely monitoring 50 sick projects nationwide to ensure their implementation returns to ­schedule, says Works Minister Datuk Seri Alexander Nanta Linggi."
+      ]
+    },
+    {
+      "entity": "Kuala Lumpur",
+      "surface_forms": [
+        "Kuala Lumpur"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "thestarcommy_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "PETALING JAYA: The Fire and Rescue Department plans to expand inspections of illegal \"bird's nest\" hostels to other states if similar cases are detected, following ongoing enforcement in Kuala Lumpur."
+      ]
+    },
+    {
+      "entity": "Muar",
+      "surface_forms": [
+        "Muar"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "thestarcommy_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "A SIMPLE gesture by Muar MP Syed Saddiq Syed Abdul Rahman (pic) has left his fiancee Bella Astillah deeply touched after she discovered he had been wearing the neckties she gifted him to every court appearance, Kosmo! reported."
+      ]
+    },
+    {
+      "entity": "Sabah",
+      "surface_forms": [
+        "Sabah"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "thestarcommy_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "[Sabah & Sarawak](https://www.thestar.com.my/tag/Sabah+&+Sarawak)"
+      ]
+    },
+    {
+      "entity": "Sarawak",
+      "surface_forms": [
+        "Sarawak"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "thestarcommy_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "[Sabah & Sarawak](https://www.thestar.com.my/tag/Sabah+&+Sarawak)"
+      ]
+    }
+  ]
+}

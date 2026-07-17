@@ -1,0 +1,205 @@
+{
+  "date": "20260717",
+  "category": "constituencies",
+  "method": "gazetteer-grounded, source-attributed (verbatim surface match)",
+  "cvs_standard": "TLP:AMBER - all entities source-attributed; no pattern-inferred entities",
+  "source_count": 8,
+  "entity_count": 11,
+  "entities": [
+    {
+      "entity": "Negeri Sembilan (state)",
+      "surface_forms": [
+        "Negeri Sembilan"
+      ],
+      "occurrences": 56,
+      "source_files": [
+        "astroawanicom_20260717_010024.md",
+        "bhariancommy_20260717_010024.md",
+        "ohbulancom_20260717_010024.md",
+        "utusancommy_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "astroawani.com",
+        "bharian.com.my",
+        "ohbulan.com",
+        "utusan.com.my"
+      ],
+      "context_samples": [
+        "[![Calon Perikatan Nasional (PN) bagi Dewan Undangan Negeri (DUN) Sikamat, Datuk Razali Abu Samah. Credit Facebook Perikatan Nasional](https://resizer-vortals.eco.astro.com.my/tr:w-auto,h-auto,q-80,f-webp/https://media.astroawani.com/awani/...",
+        "Politik[##### PRN Negeri Sembilan: Razali Abu Samah tekad tawan Sikamat, janji dekati pengundi](https://www.astroawani.com/berita-politik/prn-negeri-sembilan-razali-abu-samah-tekad-tawan-sikamat-janji-dekati-pengundi \"PRN Negeri Sembilan: R...",
+        "[![Calon Perikatan Nasional (PN) bagi Dewan Undangan Negeri (DUN) Sikamat, Datuk Razali Abu Samah. Credit Facebook Perikatan Nasional](https://resizer-vortals.eco.astro.com.my/tr:w-auto,h-auto,q-80,f-webp/https://media.astroawani.com/awani/..."
+      ]
+    },
+    {
+      "entity": "Sikamat (DUN)",
+      "surface_forms": [
+        "Sikamat"
+      ],
+      "occurrences": 3,
+      "source_files": [
+        "astroawanicom_20260717_010024.md",
+        "utusancommy_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "astroawani.com",
+        "utusan.com.my"
+      ],
+      "context_samples": [
+        "[![Calon Perikatan Nasional (PN) bagi Dewan Undangan Negeri (DUN) Sikamat, Datuk Razali Abu Samah. Credit Facebook Perikatan Nasional](https://resizer-vortals.eco.astro.com.my/tr:w-auto,h-auto,q-80,f-webp/https://media.astroawani.com/awani/...",
+        "Politik[##### PRN Negeri Sembilan: Razali Abu Samah tekad tawan Sikamat, janji dekati pengundi](https://www.astroawani.com/berita-politik/prn-negeri-sembilan-razali-abu-samah-tekad-tawan-sikamat-janji-dekati-pengundi \"PRN Negeri Sembilan: R...",
+        "Berdasarkan keputusan PRN lalu, hanya empat kerusi majoriti Melayu yang dimenangi Pakatan Harapan (PH) iaitu Klawang, Ampangan, Sikamat dan Pilah."
+      ]
+    },
+    {
+      "entity": "Tampin (P134)",
+      "surface_forms": [
+        "Tampin"
+      ],
+      "occurrences": 3,
+      "source_files": [
+        "ohbulancom_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "ohbulan.com"
+      ],
+      "context_samples": [
+        "[![McDonald’s Malaysia Rasmi Cawangan Baru Di Tampin, Buka Lebih Banyak Peluang Pekerjaan!](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E)](https://ohbulan.com/mcdonalds-ma...",
+        "[McDonald’s Malaysia Rasmi Cawangan Baru Di Tampin, Buka Lebih Banyak Peluang Pekerjaan!](https://ohbulan.com/mcdonalds-malaysia-rasmi-cawangan-baru-di-tampin-buka-lebih-banyak-peluang-pekerjaan/ \"Permalink to McDonald’s Malaysia Rasmi Cawa...",
+        "Baru-baru ini, McDonald’s Malaysia telah meraikan pembukaan rangkaian restoran di Tampin, Negeri Sembilan, sekalig…"
+      ]
+    },
+    {
+      "entity": "Linggi (DUN)",
+      "surface_forms": [
+        "Linggi"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "astroawanicom_20260717_010024.md",
+        "thestarcommy_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "astroawani.com",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "[![GUA MUSANG, 16 Julai -- Menteri Kerja Raya Datuk Seri Alexander Nanta Linggi (tiga, kiri) menyaksikan Ketua Pegawai Eksekutif Pintas Utama Datuk Marhalim Mohamed (dua, kiri) menyampaikan perakuan siap kerja pembaikan cerun menggunakan ka...",
+        "KOTA BARU: The Works Ministry is closely monitoring 50 sick projects nationwide to ensure their implementation returns to ­schedule, says Works Minister Datuk Seri Alexander Nanta Linggi."
+      ]
+    },
+    {
+      "entity": "Port Dickson / PD",
+      "surface_forms": [
+        "PD"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "ohbulancom_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "ohbulan.com"
+      ],
+      "context_samples": [
+        "[![Didakwa Bercuti Di PD, Aeril Jelaskan Pergi Negeri Sembilan Sebab Kerja – ‘Kami Tidak Bermalam Pun Di Sana’](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E)](https://ohbu...",
+        "[Didakwa Bercuti Di PD, Aeril Jelaskan Pergi Negeri Sembilan Sebab Kerja – ‘Kami Tidak Bermalam Pun Di Sana’](https://ohbulan.com/didakwa-bercuti-di-pd-aeril-jelaskan-pergi-negeri-sembilan-sebab-kerja-kami-tidak-bermalam-pun-di-sana/ \"Perma..."
+      ]
+    },
+    {
+      "entity": "Seremban (P137)",
+      "surface_forms": [
+        "Seremban"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "utusancommy_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "utusan.com.my"
+      ],
+      "context_samples": [
+        "SEREMBAN: Kejayaan rundi­ngan pembahagian kerusi antara Barisan Nasional (BN) dan Perikatan Nasional (PN) bagi menghadapi Pilihan Raya Nege­ri (PRN) Negeri Sembilan bakal membawa kepada penyatuan undi Melayu.",
+        "Pengerusinya, P. Supramanium berkata, gabungan undi yang terbentuk antara penyokong BN dan PN mampu membantu MIC menang di DUN Sri Tanjung dan Seremban Jaya."
+      ]
+    },
+    {
+      "entity": "Ampangan (DUN)",
+      "surface_forms": [
+        "Ampangan"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "utusancommy_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "utusan.com.my"
+      ],
+      "context_samples": [
+        "Berdasarkan keputusan PRN lalu, hanya empat kerusi majoriti Melayu yang dimenangi Pakatan Harapan (PH) iaitu Klawang, Ampangan, Sikamat dan Pilah."
+      ]
+    },
+    {
+      "entity": "Klawang (DUN)",
+      "surface_forms": [
+        "Klawang"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "utusancommy_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "utusan.com.my"
+      ],
+      "context_samples": [
+        "Berdasarkan keputusan PRN lalu, hanya empat kerusi majoriti Melayu yang dimenangi Pakatan Harapan (PH) iaitu Klawang, Ampangan, Sikamat dan Pilah."
+      ]
+    },
+    {
+      "entity": "Pilah (DUN)",
+      "surface_forms": [
+        "Pilah"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "utusancommy_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "utusan.com.my"
+      ],
+      "context_samples": [
+        "Berdasarkan keputusan PRN lalu, hanya empat kerusi majoriti Melayu yang dimenangi Pakatan Harapan (PH) iaitu Klawang, Ampangan, Sikamat dan Pilah."
+      ]
+    },
+    {
+      "entity": "Seremban Jaya (DUN)",
+      "surface_forms": [
+        "Seremban Jaya"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "utusancommy_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "utusan.com.my"
+      ],
+      "context_samples": [
+        "Pengerusinya, P. Supramanium berkata, gabungan undi yang terbentuk antara penyokong BN dan PN mampu membantu MIC menang di DUN Sri Tanjung dan Seremban Jaya."
+      ]
+    },
+    {
+      "entity": "Temiang (DUN)",
+      "surface_forms": [
+        "Temiang"
+      ],
+      "occurrences": 1,
+      "source_files": [
+        "utusancommy_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "utusan.com.my"
+      ],
+      "context_samples": [
+        "Selain itu, persefahaman tersebut turut dijangka memberi ke­lebihan di tiga kerusi campuran yang mempunyai komposisi pengundi Melayu dan bukan Melayu hampir seimbang iaitu Chennah, Temiang dan Nilai, yang sebelum ini dimenangi DAP."
+      ]
+    }
+  ]
+}

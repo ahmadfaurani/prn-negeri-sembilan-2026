@@ -1,0 +1,76 @@
+{
+  "date": "20260717",
+  "method": "gazetteer-grounded, source-attributed (verbatim surface match)",
+  "cvs_standard": "TLP:AMBER - all entities source-attributed; no pattern-inferred entities",
+  "source_count": 8,
+  "sources": [
+    {
+      "source_file": "astroawanicom_20260717_010024.md",
+      "outlet": "astroawani.com",
+      "chars": 9758,
+      "appears_404": true
+    },
+    {
+      "source_file": "bhariancommy_20260717_010024.md",
+      "outlet": "bharian.com.my",
+      "chars": 11251,
+      "appears_404": false
+    },
+    {
+      "source_file": "kosmocommy_20260717_010024.md",
+      "outlet": "kosmo.com.my",
+      "chars": 3975,
+      "appears_404": true
+    },
+    {
+      "source_file": "malaysiakinicom_20260717_010024.md",
+      "outlet": "malaysiakini.com",
+      "chars": 2005,
+      "appears_404": true
+    },
+    {
+      "source_file": "mstarcommy_20260717_010024.md",
+      "outlet": "mstar.com.my",
+      "chars": 1488,
+      "appears_404": true
+    },
+    {
+      "source_file": "ohbulancom_20260717_010024.md",
+      "outlet": "ohbulan.com",
+      "chars": 8205,
+      "appears_404": false
+    },
+    {
+      "source_file": "thestarcommy_20260717_010024.md",
+      "outlet": "thestar.com.my",
+      "chars": 17611,
+      "appears_404": false
+    },
+    {
+      "source_file": "utusancommy_20260717_010024.md",
+      "outlet": "utusan.com.my",
+      "chars": 8454,
+      "appears_404": false
+    }
+  ],
+  "entity_counts": {
+    "politicians": 4,
+    "parties": 7,
+    "constituencies": 11,
+    "organizations": 6,
+    "events": 2,
+    "issues": 2,
+    "locations": 10
+  },
+  "total_entities": 42,
+  "categories": [
+    "politicians",
+    "parties",
+    "constituencies",
+    "organizations",
+    "events",
+    "issues",
+    "locations"
+  ],
+  "note": "Only entities whose surface form literally appears in a collected source file are emitted. Each entity carries its source file(s), outlet(s), and verbatim context sample(s). Categories with 0 entities indicate the corpus did not mention any matching surface form (data gap), not extraction failure of the engine."
+}

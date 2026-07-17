@@ -1,0 +1,226 @@
+# PRN Negeri Sembilan 2026 — Daily Intelligence Brief
+
+**Date:** 2026-07-17
+**Classification:** TLP:AMBER
+**Reporting Period:** 24 hours (data collection 20260717)
+**Distribution:** State Campaign Leadership, DUN War Rooms
+**Method:** Agent-manual source-attributed review (CVS-compliant) — OpenOSINT/Aras sentiment API not wired (ESC-002, Day 7)
+**Prepared by:** PRN Negeri Sembilan 2026 Daily Intelligence Brief Agent
+
+---
+
+## 1. Executive Summary
+
+**Headline:** The opposition has executed a **complete 180-degree mobilisation reversal** within 48 hours of PH's 15 July campaign launch. BN and PN have confirmed a **direct electoral pact** (no overlapping candidates), announced a combined **36-candidate slate** matching PH's, and named the first PN candidate for a specific NS DUN seat (Sikamat). PH has gone from protagonist (15 July) to **invisible target** (17 July), with zero statements, candidates, or counter-mobilisation signals in today's corpus.
+
+**Five-point Executive Assessment (per PIR framework §13A):**
+
+1. **Current electoral position:** Baseline PH 17 / BN 14 / PN 5 remains, but the BN-PN pact structurally threatens the coalition arithmetic. 23 of 36 DUN seats are Malay-majority (exceeds the 19 needed for a simple majority); PH won only **4** of those Malay-majority seats last PRN. The pact removes the BN-PN vote-split that previously delivered seats to PH and to narrow BN/PN holders alike.
+
+2. **Material change since previous report:** Opposition unity achieved (ESC-006 RESOLVED). The standing "jual mahal" disruption narrative is overcome. PH's 15 July first-mover advantage (ESC-008) is **neutralised** — opposition matched PH's 36-candidate slate in 48h. PH Malay-seat vulnerability (ESC-007) **upgraded to HIGH** — now quantified and directly threatened.
+
+3. **Highest-priority risk:** The unification of the Malay opposition vote directly endangers PH's 4 Malay-majority seats (Klawang, Ampangan, Sikamat, Pilah), especially **N14 Ampangan** (2023 margin 2.21% / 329 votes) and **N13 Sikamat** (MB Aminuddin vacating; PN candidate Razali Abu Samah announced).
+
+4. **Highest-value opportunity:** PN internal friction (ESC-010, NEW) — PN Chairman Ahmad Samsuri (PAS) publicly rebutted Bersatu President Muhyiddin's claim as "tidak berasas" (baseless). This is the only negative signal for the opposition bloc and a potential seam to exploit if it widens.
+
+5. **Immediate leadership decision required:** Develop a seat-level defence assessment for the 4 PH Malay seats and 3 DAP mixed seats (Chennah, Temiang, Nilai), cross-referencing 2023 SPR margins. Nomination Day is **18 July 2026** (tomorrow) — candidate matrix must be locked.
+
+**Critical Alerts (8 escalation flags active):**
+- 🚨 **HIGH** — ESC-009: BN-PN Electoral Pact Confirmed — Opposition Full Mobilization (NEW)
+- 🚨 **HIGH (UPGRADED)** — ESC-007: PH Malay Seats Quantified and Threatened
+- 🚨 **HIGH (unchanged)** — ESC-002: Sentiment Pipeline Non-Operational (OpenOSINT not wired, Day 7)
+- ⚠️ **MEDIUM** — ESC-010: PN Internal Friction — Muhyiddin vs Ahmad Samsuri (NEW)
+- ⚠️ **MEDIUM (unchanged)** — ESC-003: Royal Issue Sensitivity — Indirectly Confirmed (no new content)
+- ⚠️ **MEDIUM (COUNTERED)** — ESC-008: PH First-Mover Advantage Neutralised
+- ✅ **RESOLVED** — ESC-006: Opposition Unity Disruption — overcome by BN-PN pact
+- 🔵 **LOW** — ESC-004: Negative Sentiment Spike Watch (no spike; structural shift, not acute)
+
+---
+
+## 2. Coalition Dynamics
+
+### Pakatan Harapan (PH) — Incumbent, on the defensive
+- **Media visibility:** 5 occurrences, all in opposition-defeat framing. **Major reversal** from 15 July (13 occurrences, positive, first-mover).
+- **Voice in corpus:** NONE. No PH statement, candidate, or response to the BN-PN pact. PH is mentioned only as the target to defeat ("Memang kita mahu menewaskan PH, itu jelas").
+- **Baseline seats:** 17. Projected 15–18.
+- **MB Aminuddin Harun:** Positive governance framing ("Tatakelola, integriti pegangan") but tempered by a challenge headline ("Bersama nafi beri laluan kepada Aminuddin"). Reduced from 15 July's poster-boy standing (0.78) to 0.58 — on the defensive as opposition mobilises. Vacating Sikamat (per 15 July, shifting to Linggi).
+- **Assessment:** PH has lost the news cycle. From protagonist to target in 48h. The incumbent coalition is reactive/invisible while the opposition dominates. Monitor next 24–48h for a PH counter-response.
+
+### Barisan Nasional (BN) — Fully mobilised
+- **Media visibility:** 13 occurrences, **POSITIVE**. Major reversal from 15 July (0 occurrences, invisible).
+- **Candidates announced:** **25 of 36 DUN seats** — 16 UMNO, 7 MCA, 2 MIC.
+- **Electoral pact:** Confirmed with PN — no overlapping candidates ("Sah kerjasama dengan BN, PN").
+- **Key surrogates:** Datuk Mustapha Nagoor (UMNO NS Secretary — also N06 Palong incumbent — "pengundi Melayu sudah tentu akan menjadi penentu"); MIC's P. Supramanium (confident of winning Sri Tanjung and Seremban Jaya from PH).
+- **Messaging:** Economic stability, rural development, UMNO revival, Malay vote unification. "UMNO-Pas boleh kuasai 90 peratus undi Melayu."
+- **Assessment:** BN is the second most-mentioned party today. Full opposition mobilisation. Multi-source verified (Utusan full prose + Bharian headlines).
+
+### Perikatan Nasional (PN) — Most visible, with internal seam
+- **Media visibility:** 15 occurrences (most-mentioned party), **POSITIVE**, 4 sources. Major reversal from 15 July (0, invisible).
+- **Seats contesting:** 11 (25 BN + 11 PN = 36, matching PH's slate).
+- **Key surrogates:** Ahmad Samsuri (PN Chairman, confirms negotiation); Datuk Razali Abu Samah (PN candidate, Sikamat — first named PN candidate for an NS DUN); Hamzah ("new political alignment").
+- **Internal friction:** PN Chairman Ahmad Samsuri (PAS) publicly rebutted Bersatu President Muhyiddin Yassin's claim that the BN seat negotiation was done without Supreme Council approval — calling it "tidak berasas" (baseless). The PAS-sourced chairman overriding the Bersatu president reveals a PAS-Bersatu tension within PN. Bersatu marginalised (1 occurrence, negative).
+- **Assessment:** PN has gone from invisible to the most visible opposition party in 48h, but the Muhyiddin–Samsuri friction is the bloc's only weakness. If it resolves quietly, downgrade; if it widens, it could fracture the pact.
+
+---
+
+## 3. Key Seats Update — T1 Critical
+
+**Analytical frame:** In PRN 2023, six of the seven T1 critical seats were **BN-vs-PN straight fights** decided by razor margins. The new BN-PN electoral pact **removes the intra-opposition vote-split** that defined these seats. This is double-edged: (a) it **consolidates** opposition-held marginal seats (the PN or BN vote that was split now flows to a single opposition candidate), and (b) it **directly threatens** the one PH-held T1 seat (N14 Ampangan) and the broader set of PH Malay-majority seats by unifying the opposition vote that PH previously benefited from splitting.
+
+| Code | DUN | 2023 Winner (Coal.) | 2023 Margin | 2023 Contest | T1 Status vs Pact Impact |
+|------|-----|---------------------|-------------|--------------|--------------------------|
+| **N03** | Sungai Lui (P126 Jelebu) | Mohd Razi (UMNO/BN) | 535 (4.01%) | BN vs PN (PAS) | ⬇️ Less critical for opposition — pact removes BN-PN split, consolidates BN hold |
+| **N05** | Serting (P127 Jempol) | Mohd Fairuz (PAS/PN) | 843 (4.26%) | PN vs BN (UMNO) | ⬇️ Less critical for opposition — pact consolidates PN hold |
+| **N06** | Palong (P127 Jempol) | Mustapha Nagoor (UMNO/BN) | 564 (3.68%) | BN vs PN (Bersatu) | ⬇️ Less critical for opposition — incumbent is now UMNO NS Secretary; pact solidifies |
+| **N09** | Lenggeng (P128 Seremban) | Mohd Asna (UMNO/BN) | 685 (3.46%) | BN vs PN (PAS) + Indep. | ⬇️ Less critical for opposition — pact consolidates BN hold |
+| **N14** | Ampangan (P128 Seremban) | Tengku Zamrah (PKR/PH) | **329 (2.21%)** | PH vs PN (Bersatu) + Indep. (20.72%) | 🔴 **GRAVELY THREATENED** — one of PH's 4 Malay seats; pact unifies opposition vote; 2023 independent (20.72%) vote now in play |
+| **N15** | Juasseh (P129 Kuala Pilah) | Bibi Sharliza (UMNO/BN) | **78 (0.86%)** | BN vs PN (Bersatu) | ⬇️ Less critical for opposition — tightest overall margin, but pact removes the split |
+| **N28** | Kota (P132 Tampin) | Suhaimi (UMNO/BN) | **135 (1.16%)** | BN vs PN (Bersatu) | ⬇️ Less critical for opposition — pact removes the split |
+
+**Key Seats Update — T1 Critical (N03, N05, N06, N09, N14, N15, N28):**
+- **Net effect of the pact on T1:** Six T1 seats were opposition-held (5 BN, 1 PN) and are now **structurally consolidated** by the pact — the very vote-split that made them critical in 2023 is eliminated. **N14 Ampangan is the exception** — it is PH-held and the pact now makes it the most endangered T1 seat.
+- **N14 Ampangan (PH, 2.21%):** Highest-priority defence. In 2023, PH won with only 40.75% against a split field (PN 38.53% + independent 20.72%). The pact unifies the opposition vote; the 20.72% independent vote is now contestable. Without the split, PH's 329-vote cushion is extremely vulnerable. **Action: lock candidate now (nomination 18 July), mobilise ground game, track who the independent (Mohamad Rafie) aligns with.**
+- **N15 Juasseh (BN, 0.86%) and N28 Kota (BN, 1.16%):** Tightest margins in the entire T1 set, but both were BN-vs-PN fights. The pact consolidates them for BN. From PH's perspective these are now opposition-fortified, not pick-up opportunities.
+
+### Special focus — N13 Sikamat (not T1, but pivotal today)
+- **2023:** Aminuddin Harun (PKR/PH, MB) won with 54.82% / majority 2,662 (11.46%) — classified T3/Competitive at baseline.
+- **2026 shift:** MB Aminuddin is **vacating** Sikamat (shifting to Linggi per 15 July). **PN has named Datuk Razali Abu Samah** for Sikamat — the first named PN candidate for a specific NS DUN seat ("tekad tawan Sikamat, janji dekati pengundi").
+- **Impact:** The incumbent advantage (MB, 11.46% margin) is gone. Sikamat is one of PH's 4 Malay-majority seats. An open seat + unified opposition + named PN challenger makes this a **newly competitive** seat despite its 2023 comfort margin. **Reclassify from T3 → T1-equivalent watch.** Track PH's replacement candidate (TBD, nomination 18 July).
+
+### PH Malay-majority seats at risk (ESC-007, UPGRADED to HIGH)
+PH won only **4 of 23** Malay-majority DUN seats in 2023: **Klawang (N04), Ampangan (N14), Sikamat (N13), Pilah (N18)**. The pact's stated aim is Malay-vote unification (UMNO-PAS claims 90% achievable). All four require immediate seat-level defence assessment.
+
+### DAP mixed seats at risk
+Three mixed seats (Melayu/bukan-Melayu ~balanced) previously won by DAP are now directly threatened by the pact: **Chennah (N01), Temiang (N12), Nilai (N10)**. DAP has no voice in today's corpus. (Note: gazetteer gap — Chennah and Nilai named in source text but only Temiang was emitted as a sourced entity.)
+
+### MIC offensive targets
+MIC (P. Supramanium) is targeting **Sri Tanjung and Seremban Jaya** — two PH-held seats — confident the BN-PN combined vote can win them.
+
+---
+
+## 4. Candidate Movements
+
+- **BN — 25 candidates announced:** 16 UMNO, 7 MCA, 2 MIC. Full slate named (component breakdown verified multi-source).
+- **PN — 11 seats contested:** 25 BN + 11 PN = 36, matching PH's slate. No overlapping candidates (electoral pact terms).
+- **PN named candidate:** **Datuk Razali Abu Samah** — Sikamat DUN. First candidate-level opposition intelligence for a specific NS DUN. Framing: ground-level ("janji dekati pengundi" — promises to get close to voters).
+- **MB Aminuddin Harun (PH):** Vacating Sikamat (held 2023, 54.82%), shifting to **Linggi (N32)** per 15 July. "Bersama nafi beri laluan kepada Aminuddin" headline suggests a ceding/denial dispute around the move. Net: PH's strongest incumbent is now in a seat transition.
+- **N06 Palong incumbent = UMNO NS Secretary:** Mustapha Nagoor, the 2023 winner (UMNO/BN, 3.68% margin), is now publicly the **UMNO NS Secretary** articulating the Malay-vote-decisive message — a T1 incumbent elevated to statewide party voice. Watch whether he re-contests Palong or is redeployed.
+- **PH candidates:** TBD beyond the 15 July slate announcement. No PH candidate named in today's corpus. Nomination Day 18 July — matrix must lock.
+- **Independents:** 2023 independents (e.g., N09 Lenggeng 2.04%, N14 Ampangan 20.72%) are now pivotal — their alignment under the pact could decide the closest seats. No 2026 independent activity detected today.
+- **Royal/institutional actors:** 4 Undangs (royal succession dispute, April 2026) remain contextual — not candidate actors but sentiment influencers in royal constituencies.
+
+---
+
+## 5. Royal Crisis Impact Assessment
+
+- **Standing flag:** ESC-003 (royal succession crisis), originated 10 July, upgraded from UNVERIFIED to **INDIRECTLY CONFIRMED** on 15 July via Anwar's campaign warning. **Carried today (Day 3) with no new content.**
+- **Today's corpus:** No royal/palace coverage. ohbulan's Hari Keputeraan Ke-77 content is **2025 archive** (Jan 2025 event), not current. No escalation or de-escalation.
+- **Risk posture:** The royal issue remains a **latent risk** for NS constituencies with royal associations (Seri Menanti N16, Pilah N18, Johol N19). No direct campaigning on the royalty issue detected today, but the April 2026 succession dispute continues to affect Malay voter sentiment in royal constituencies per standing assessment.
+- **Action:** Continue monitoring for royal/palace content. Monitor whether the opposition raises the royalty issue as the campaign formalises post-nomination. Engagement with Undang institutions remains a standing HIGH-priority recommendation (deadline 15 July — now overdue).
+
+---
+
+## 6. Media Narrative Tracking
+
+### Source coverage (8/13 sources collected — 61.5%, PASS)
+- **Dominant source:** utusan.com.my — front-page lead "Negeri Sembilan medan penyatuan undi Melayu", full prose (~8,500 chars), most significant source today.
+- **Headline-level confirmation:** thestar.com.my (PN 11 seats, early voting July 28, Melaka PH withdrawal), bharian.com.my (BN-PN pact, BN-PAS alignment, Syed Saddiq run), astroawani.com (Razali Abu Samah / Sikamat candidate profile).
+- **No current NS content:** kosmo (404), malaysiakini (404), mstar (404), ohbulan (lifestyle/celebrity/2025 archive).
+
+### Narrative indicators (10 tracked)
+| ID | Narrative | Severity | Trend |
+|----|----------|----------|-------|
+| NAR-01 | BN-PN Electoral Pact Confirmed — Opposition Unity Achieved | HIGH | MAJOR REVERSAL (opposition invisible 15 Jul → pact confirmed 17 Jul) |
+| NAR-02 | PN Candidate Announced for Sikamat — Direct Challenge to Vacated MB Seat | HIGH | NEW — first named PN candidate for an NS DUN |
+| NAR-03 | UMNO-PAS 90% Malay Vote Claim — Malay Vote Unification Strategy | MEDIUM | NEW — 23/36 Malay-majority + PH won only 4 |
+| NAR-04 | PH Reduced to Opposition Target — Narrative Reversal | MEDIUM | MAJOR REVERSAL (PH dominant → PH target, 13→5 occ) |
+| NAR-05 | PN Internal Friction — Muhyiddin vs Ahmad Samsuri | MEDIUM | NEW — chairman rebuts president as "tidak berasas" |
+| NAR-06 | Seat-Level Intelligence Expansion — 8+ DUN Seats Named | MEDIUM | MAJOR UPLIFT (2 seats 15 Jul → 8+ seats 17 Jul) |
+| NAR-07 | Early Voting Confirmed — July 28 | LOW | NEW — 22,000+ police/armed forces early voters |
+| NAR-08 | Melaka PH Withdrawal — National Coalition Strain | LOW | NEW — PH withdrawing from Melaka state administration |
+| NAR-09 | Syed Saddiq Thanksgiving Run — Rehabilitation Continues | LOW | DECAYING — national/non-NS (Muar MP) |
+| NAR-10 | MB Aminuddin — Governance Framing vs Challenge | LOW | MIXED — positive governance vs "nafi beri laluan" challenge |
+
+### Sentiment distribution (NS-relevant, 14 entities)
+- **Positive (6):** BN, PN, UMNO-PAS alliance/pact, UMNO, PAS, Aminuddin (governance framing) — *all opposition bloc + incumbent MB.*
+- **Neutral (4):** Negeri Sembilan (landscape), Sikamat (contested seat), DAP (3 mixed seats at risk), Early voting July 28.
+- **Negative (4):** PH (reduced to target), PH Malay seats at risk, Muhyiddin Yassin, Bersatu.
+- **Net:** Opposition-positive — a complete 180° reversal from 15 July's PH-positive balanced (4/4/4) and 14 July's negative-skewed (3/4/8).
+
+---
+
+## 7. PIR Status Dashboard
+
+### Statewide seat position (NS-01)
+| Coalition | Baseline (2023) | Projected | Change |
+|-----------|-----------------|-----------|--------|
+| PH | 17 | 15–18 | ↓ at risk (pact unifies opposition) |
+| BN | 14 | 13–17 | ↑ pact consolidates marginal BN seats |
+| PN | 5 | 5–11 | ↑ contesting 11; consolidation uncertain |
+| Others | 0 | 0 | — |
+
+**Governing pathway:** 19 needed for majority. PH-BN unity framework is the incumbent coalition construct, but BN's electoral pact with **PN** (the opposition) is a structural complication — BN is simultaneously a unity-government partner (with PH federally) and an electoral adversary (vs PH in NS). Watch for contradictions in BN's statewide vs federal posture.
+
+### PIR register status (18 PIRs)
+| PIR | Requirement | Status | Confidence |
+|-----|-------------|--------|------------|
+| NS-01 | Statewide electoral position | Updated — pact reshapes arithmetic | Moderate |
+| NS-02 | Post-dissolution realignment | Active — BN-PN pact is the realignment event | Moderate |
+| NS-03 | Government-formation scenarios | Due — final-week cadence | Low (not yet run) |
+| NS-04 | DUN electoral risk | Updated — T1 + PH Malay seats | Moderate (no 2026 voter roll) |
+| NS-05 | Locality prioritisation | Stalled — no Daerah Mengundi data | Low |
+| NS-06 | Turnout risk | Baseline only — early voting Jul 28 confirmed | Low |
+| NS-07 | Voter sentiment & issues | Updated — opposition-positive shift | Moderate |
+| NS-08 | Undecided electorate | Stalled — no field intelligence | Low |
+| NS-09 | Youth participation | Stalled — no data | Low |
+| NS-10 | Candidate acceptance | Active — candidate matrix forming (nomination 18 Jul) | Moderate |
+| NS-11 | Opposition strategy | Updated — pact + 36-candidate slate + Razali/Sikamat | High |
+| NS-12 | Stakeholder alignment | Stalled — Undang engagement overdue | Low |
+| NS-13 | Adat/institutional sensitivity | Carried — royal issue MEDIUM, no new content | Moderate |
+| NS-14 | Dominant narratives | Updated — 10 narratives tracked | Moderate |
+| NS-15 | Misinformation risk | No detections today | Low (not actively scanning) |
+| NS-16 | Machinery readiness | Stalled — no DUN readiness reports | Low |
+| NS-17 | Data readiness | GAP — sentiment pipeline non-operational; no 2026 voter roll | Low |
+| NS-18 | Campaign-phase readiness | Transitioning Phase 1 → Phase 2 (Nomination 18 Jul) | Moderate |
+
+### Early-Warning Register
+| Trigger | Evidence | Impact | Confidence | Escalation |
+|---------|----------|--------|------------|------------|
+| BN-PN pact (ESC-009) | 25 BN + 11 PN candidates, no overlap | Two-sided contest; PH loses vote-split benefit | High | HIGH |
+| PH Malay seats quantified (ESC-007) | 4/23 Malay seats; 90% claim | Governing pathway at risk | High | HIGH |
+| PN internal friction (ESC-010) | Samsuri rebuts Muhyiddin | Potential pact seam | High (single-source full prose) | MEDIUM |
+| Royal sensitivity (ESC-003) | No new content | Latent risk, royal DUNs | Moderate | MEDIUM |
+| Sentiment pipeline (ESC-002) | Stub, no API | Manual review only (Day 7) | High | HIGH |
+
+### Command decisions required
+| Decision | Owner | Deadline | Priority |
+|----------|-------|----------|----------|
+| Lock PH candidate matrix (nomination 18 Jul) | Candidate Management Lead | 18 Jul | CRITICAL |
+| Seat-level defence assessment: 4 PH Malay seats + 3 DAP mixed seats vs 2023 SPR margins | Electoral Intelligence Lead | 19 Jul | HIGH |
+| Track Razali Abu Samah's Sikamat campaign vs PH replacement candidate | Opposition Analysis Cell | Ongoing | HIGH |
+| Stakeholder engagement with Undang institutions (overdue) | Political Director | Immediate | HIGH |
+| Cross-reference 23 Malay-majority seats with SPR results | Data Team | 19 Jul | HIGH |
+| Monitor PN Muhyiddin–Samsuri friction for pact cracks | Opposition Analysis Cell | Ongoing | MEDIUM |
+| Wire OpenOSINT/Aras sentiment API OR confirm agent-manual as standing method | Data Governance Lead | Ongoing | HIGH |
+| Backfill 16 Jul sentiment gap day (entities extracted, no sentiment written) | Data Team | 20 Jul | MEDIUM |
+
+### Data confidence
+- **Collection:** 8/13 sources (61.5% — PASS); only utusan.com.my provides full prose; bharian/astroawani/star headline-level.
+- **Entity extraction:** 42 entities (4 politicians, 7 parties, 11 constituencies, 6 orgs, 2 events, 2 issues, 10 locations); 14 NS-election-relevant.
+- **Sentiment method:** Agent-manual source-attributed review (CVS-compliant — no pattern-inferred sentiment). OpenOSINT API not wired (ESC-002, Day 7).
+- **Overall confidence:** **MODERATE** — credible single-source full prose (Utusan) + multi-source headline confirmation, but single-source dominance and no automated pipeline.
+
+### Data gaps & warnings
+- 5/8 sources are 404/archive with no editorial body (kosmo, malaysiakini, mstar, ohbulan lifestyle, astroawani 404 page).
+- 16 Jul was a **gap day** — entities extracted but no sentiment_analysis.json written. Consider backfilling.
+- "Linggi" surface collision: matched Works Minister "Alexander Nanta Linggi" (Gua Musang), NOT Linggi DUN (N32) — false positive excluded. Gazetteer disambiguation needed.
+- No 2023 SPR margins cross-referenced for PH Malay seats or DAP mixed seats — cannot yet quantify seat-level risk beyond the 2023 baseline already on file.
+- No PH response to the BN-PN pact in today's corpus.
+- No full editorial body for related Utusan articles (Aminuddin governance/challenge, 90% claim) — headlines only.
+- No polling-day date confirmed in corpus (early voting 28 Jul confirmed; polling day estimated shortly after).
+
+---
+
+**Next Brief:** 2026-07-18 09:00 MYT (Nomination Day)
+**Contact:** State Intelligence Director
+**Prepared by:** PRN Negeri Sembilan 2026 Daily Intelligence Brief Agent (GLM-5.2)

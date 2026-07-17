@@ -1,0 +1,84 @@
+{
+  "date": "20260717",
+  "category": "politicians",
+  "method": "gazetteer-grounded, source-attributed (verbatim surface match)",
+  "cvs_standard": "TLP:AMBER - all entities source-attributed; no pattern-inferred entities",
+  "source_count": 8,
+  "entity_count": 4,
+  "entities": [
+    {
+      "entity": "Syed Saddiq Syed Abdul Rahman",
+      "surface_forms": [
+        "Syed Saddiq",
+        "Syed Saddiq Syed Abdul Rahman"
+      ],
+      "occurrences": 5,
+      "source_files": [
+        "bhariancommy_20260717_010024.md",
+        "thestarcommy_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "bharian.com.my",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "Larian Kesyukuran Syed Saddiq kumpul...](https://www.bharian.com.my/berita/nasional/2026/07/1589309/larian-kesyukuran-syed-saddiq-kumpul-lebih-rm50000-pada-hari-pertama)",
+        "Syed Saddiq mula Larian Kesyukuran...](https://www.bharian.com.my/berita/nasional/2026/07/1589073/syed-saddiq-mula-larian-kesyukuran-170km-sasar-kutip-rm200000-untuk)",
+        "[Larian Kesyukuran Syed Saddiq kumpul lebih RM50,000 pada hari pertama](https://www.bharian.com.my/berita/nasional/2026/07/1589309/larian-kesyukuran-syed-saddiq-kumpul-lebih-rm50000-pada-hari-pertama)"
+      ]
+    },
+    {
+      "entity": "Aminuddin Harun (Menteri Besar NS)",
+      "surface_forms": [
+        "Aminuddin"
+      ],
+      "occurrences": 3,
+      "source_files": [
+        "utusancommy_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "utusan.com.my"
+      ],
+      "context_samples": [
+        "[![](https://www.utusan.com.my/wp-content/uploads/2026/07/LEAD170726-NSE-PRN-Aminuddin-Pentadbiran-pg4.jpg)](https://www.utusan.com.my/nasional/2026/07/tatakelola-integriti-pegangan-amiruddin/)",
+        "[![](https://www.utusan.com.my/wp-content/uploads/2026/05/KLC_Nik-Nazmi006-2048x1367.jpg)](https://www.utusan.com.my/nasional/2026/07/bersama-nafi-beri-laluan-kepada-aminuddin/)",
+        "### [Bersama nafi beri laluan kepada Aminuddin](https://www.utusan.com.my/nasional/2026/07/bersama-nafi-beri-laluan-kepada-aminuddin/)"
+      ]
+    },
+    {
+      "entity": "Ahmad Zahid Hamidi",
+      "surface_forms": [
+        "Zahid"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "thestarcommy_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "### M'sia to develop own mechanism to manage refugees, asylum seekers, says Zahid",
+        "[Read](https://www.thestar.com.my/news/nation/2026/07/16/m039sia-to-develop-own-mechanism-to-manage-refugees-asylum-seekers-says-zahid)"
+      ]
+    },
+    {
+      "entity": "Muhyiddin Yassin",
+      "surface_forms": [
+        "Muhyiddin",
+        "Muhyiddin Yassin"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "utusancommy_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "utusan.com.my"
+      ],
+      "context_samples": [
+        "Ahmad Samsuri berkata, oleh itu, dakwaan Presiden Parti Pribumi Bersatu Malaysia (Bersatu), Tan Sri Muhyiddin Yassin bahawa ia dibuat tanpa persetujuan Majlis Tertinggi PN adalah tidak berasas.",
+        "Ahmad Samsuri berkata, oleh itu, dakwaan Presiden Parti Pribumi Bersatu Malaysia (Bersatu), Tan Sri Muhyiddin Yassin bahawa ia dibuat tanpa persetujuan Majlis Tertinggi PN adalah tidak berasas."
+      ]
+    }
+  ]
+}

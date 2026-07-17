@@ -1,0 +1,45 @@
+{
+  "date": "20260717",
+  "category": "issues",
+  "method": "gazetteer-grounded, source-attributed (verbatim surface match)",
+  "cvs_standard": "TLP:AMBER - all entities source-attributed; no pattern-inferred entities",
+  "source_count": 8,
+  "entity_count": 2,
+  "entities": [
+    {
+      "entity": "LINDUNG scheme",
+      "surface_forms": [
+        "LINDUNG"
+      ],
+      "occurrences": 3,
+      "source_files": [
+        "thestarcommy_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "[LINDUNG 24 JAM NOT SOMETHING TO BELITTLE](https://www.thestar.com.my/starpicks/2026/07/17/lindung-24-jam-not-something-to-belittle)",
+        "[LINDUNG 24 JAM NOT SOMETHING TO BELITTLE](https://www.thestar.com.my/starpicks/2026/07/17/lindung-24-jam-not-something-to-belittle)",
+        "[![LINDUNG 24 JAM NOT SOMETHING TO BELITTLE](https://apicms.thestar.com.my/uploads/images/2026/07/17/thumbs/small/4015026.jpg)](https://www.thestar.com.my/starpicks/2026/07/17/lindung-24-jam-not-something-to-belittle)"
+      ]
+    },
+    {
+      "entity": "Umno-Pas alliance",
+      "surface_forms": [
+        "Umno-Pas"
+      ],
+      "occurrences": 2,
+      "source_files": [
+        "utusancommy_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "utusan.com.my"
+      ],
+      "context_samples": [
+        "[![](https://www.utusan.com.my/wp-content/uploads/HARUMANIS-HASHIM-SUBOH.jpg)](https://www.utusan.com.my/nasional/2026/07/umno-pas-boleh-kuasai-90-peratus-undi-melayu/)",
+        "### [UMNO-Pas boleh kuasai 90 peratus undi Melayu](https://www.utusan.com.my/nasional/2026/07/umno-pas-boleh-kuasai-90-peratus-undi-melayu/)"
+      ]
+    }
+  ]
+}

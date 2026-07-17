@@ -1,0 +1,52 @@
+{
+  "date": "20260717",
+  "category": "events",
+  "method": "gazetteer-grounded, source-attributed (verbatim surface match)",
+  "cvs_standard": "TLP:AMBER - all entities source-attributed; no pattern-inferred entities",
+  "source_count": 8,
+  "entity_count": 2,
+  "entities": [
+    {
+      "entity": "FIFA World Cup 2026 / Piala Dunia 2026",
+      "surface_forms": [
+        "Piala Dunia",
+        "World Cup"
+      ],
+      "occurrences": 5,
+      "source_files": [
+        "astroawanicom_20260717_010024.md",
+        "bhariancommy_20260717_010024.md",
+        "thestarcommy_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "astroawani.com",
+        "bharian.com.my",
+        "thestar.com.my"
+      ],
+      "context_samples": [
+        "[![Soccer Football - FIFA World Cup 2026 - Semi Final - England v Argentina - Atlanta Stadium, Atlanta, Georgia, U.S. - July 15, 2026 Argentina's Lisandro Martinez and Giovani Lo Celso celebrate with a Falkland Islands related banner after...",
+        "[![Soccer Football - FIFA World Cup 2026 - Semi Final - England v Argentina - Atlanta Stadium, Atlanta, Georgia, U.S. - July 15, 2026 Argentina's Lisandro Martinez and Giovani Lo Celso celebrate with a Falkland Islands related banner after...",
+        "Dunia[##### Piala Dunia: Argentina berdepan tindakan tatatertib susulan insiden sepanduk Kepulauan Falkland](https://www.astroawani.com/berita-sukan-terkini-dunia/piala-dunia-argentina-berdepan-tindakan-tatatertib-susulan-insiden-sepanduk-k..."
+      ]
+    },
+    {
+      "entity": "Hari Keputeraan Ke-77 Yang di-Pertuan Besar Negeri Sembilan",
+      "surface_forms": [
+        "Hari Keputeraan",
+        "Yang Dipertuan Besar Negeri Sembilan"
+      ],
+      "occurrences": 5,
+      "source_files": [
+        "ohbulancom_20260717_010024.md"
+      ],
+      "source_outlets": [
+        "ohbulan.com"
+      ],
+      "context_samples": [
+        "[![Suki, Waris Dikurniakan Anugerah Sempena Hari Keputeraan Ke-77 Yang Dipertuan Besar Negeri Sembilan](https://media.ohbulan.com/2025/01/n9-istiadat-scaled.jpg)](https://ohbulan.com/suki-waris-dikurniakan-anugerah-sempena-hari-keputeraan-k...",
+        "[Suki, Waris Dikurniakan Anugerah Sempena Hari Keputeraan Ke-77 Yang Dipertuan Besar Negeri Sembilan](https://ohbulan.com/suki-waris-dikurniakan-anugerah-sempena-hari-keputeraan-ke-77-yang-dipertuan-besar-negeri-sembilan/ \"Permalink to Suki...",
+        "Penyanyi Waris dan Suki Low dikurniakan anugerah kebesaran sempena Hari Keputeraan Ke-77 Yang di-Pertuan Besar Negeri Se…"
+      ]
+    }
+  ]
+}

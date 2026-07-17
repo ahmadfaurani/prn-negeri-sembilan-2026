@@ -1,0 +1,7 @@
+{
+    "date": "20260717",
+    "timestamp": "2026-07-17T06:30:06+00:00",
+    "source_count": 8,
+    "extraction_completed": true,
+    "entity_categories": ["politicians", "parties", "constituencies", "issues", "events", "organizations", "locations"]
+}
