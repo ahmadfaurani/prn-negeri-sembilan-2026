@@ -1,0 +1,175 @@
+{
+  "date": "20260718",
+  "timestamp": "2026-07-18T06:40:08.534036+00:00",
+  "source_count": 11,
+  "entity_type": "politicians",
+  "extraction_method": "enhanced-pattern-dictionary v2",
+  "entity_count": 15,
+  "entities": [
+    {
+      "name": "Tan Sri Muhyiddin Yassin (Bersatu President)",
+      "count": 8,
+      "sources": [
+        "nstcommy_20260718_010044.md",
+        "thestarcommy_20260718_010044.md",
+        "utusancommy_20260718_010044.md"
+      ],
+      "aliases": [
+        "Muhyiddin",
+        "Muhyiddin Yassin",
+        "Tan Sri Muhyiddin Yassin"
+      ]
+    },
+    {
+      "name": "Datuk Seri Anwar Ibrahim (PM)",
+      "count": 6,
+      "sources": [
+        "nstcommy_20260718_010044.md"
+      ],
+      "aliases": [
+        "Anwar Ibrahim",
+        "Datuk Seri Anwar",
+        "Datuk Seri Anwar Ibrahim"
+      ]
+    },
+    {
+      "name": "Datuk Seri Dr. Ahmad Samsuri Mokhtar (PN Chairman)",
+      "count": 4,
+      "sources": [
+        "utusancommy_20260718_010044.md"
+      ],
+      "aliases": [
+        "Ahmad Samsuri",
+        "Ahmad Samsuri Mokhtar",
+        "Datuk Seri Dr. Ahmad Samsuri Mokhtar"
+      ]
+    },
+    {
+      "name": "Syed Saddiq (MUDA)",
+      "count": 4,
+      "sources": [
+        "kosmocommy_20260718_010044.md"
+      ],
+      "aliases": [
+        "Syed Saddiq"
+      ]
+    },
+    {
+      "name": "Tan Sri Abdul Hadi Awang (PAS President)",
+      "count": 3,
+      "sources": [
+        "utusancommy_20260718_010044.md"
+      ],
+      "aliases": [
+        "Abdul Hadi Awang",
+        "Hadi Awang",
+        "Tan Sri Abdul Hadi Awang"
+      ]
+    },
+    {
+      "name": "Datuk Mustapha Nagoor (UMNO NS Sec)",
+      "count": 2,
+      "sources": [
+        "utusancommy_20260718_010044.md"
+      ],
+      "aliases": [
+        "Datuk Mustapha Nagoor",
+        "Mustapha Nagoor"
+      ]
+    },
+    {
+      "name": "Datuk Seri R. Ramanan (Sungai Buloh MP)",
+      "count": 2,
+      "sources": [
+        "nstcommy_20260718_010044.md",
+        "thestarcommy_20260718_010044.md"
+      ],
+      "aliases": [
+        "Ramanan"
+      ]
+    },
+    {
+      "name": "Datuk Seri Ramlan Harun (EC Chairman)",
+      "count": 2,
+      "sources": [
+        "thestarcommy_20260718_010044.md"
+      ],
+      "aliases": [
+        "Datuk Seri Ramlan Harun",
+        "Ramlan Harun"
+      ]
+    },
+    {
+      "name": "Kamarol Ridzuan Mohd. Zain (PAS NS Deputy Comm.)",
+      "count": 2,
+      "sources": [
+        "utusancommy_20260718_010044.md"
+      ],
+      "aliases": [
+        "Kamarol Ridzuan",
+        "Kamarol Ridzuan Mohd. Zain"
+      ]
+    },
+    {
+      "name": "P. Supramanium (MIC NS Chairman)",
+      "count": 2,
+      "sources": [
+        "utusancommy_20260718_010044.md"
+      ],
+      "aliases": [
+        "P. Supramanium",
+        "Supramanium"
+      ]
+    },
+    {
+      "name": "Aminuddin Harun (NS Menteri Besar)",
+      "count": 1,
+      "sources": [
+        "utusancommy_20260718_010044.md"
+      ],
+      "aliases": [
+        "Aminuddin"
+      ]
+    },
+    {
+      "name": "Asyraf Wajdi",
+      "count": 1,
+      "sources": [
+        "nstcommy_20260718_010044.md"
+      ],
+      "aliases": [
+        "Asyraf Wajdi"
+      ]
+    },
+    {
+      "name": "Azalina Othman Said",
+      "count": 1,
+      "sources": [
+        "nstcommy_20260718_010044.md"
+      ],
+      "aliases": [
+        "Azalina"
+      ]
+    },
+    {
+      "name": "Kamil Munim",
+      "count": 1,
+      "sources": [
+        "bhariancommy_20260718_010044.md"
+      ],
+      "aliases": [
+        "Kamil Munim"
+      ]
+    },
+    {
+      "name": "Onn Hafiz (Johor MB)",
+      "count": 1,
+      "sources": [
+        "bhariancommy_20260718_010044.md"
+      ],
+      "aliases": [
+        "Onn Hafiz"
+      ]
+    }
+  ]
+}

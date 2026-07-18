@@ -1,0 +1,46 @@
+{
+  "date": "20260718",
+  "timestamp": "2026-07-18T06:40:08.643599+00:00",
+  "source_count": 11,
+  "source_files": [
+    "astroawanicom_20260718_010044.md",
+    "bhariancommy_20260718_010044.md",
+    "freemalaysiatodaycom_20260718_010044.md",
+    "kosmocommy_20260718_010044.md",
+    "malaysiakinicom_20260718_010044.md",
+    "mstarcommy_20260718_010044.md",
+    "nstcommy_20260718_010044.md",
+    "ohbulancom_20260718_010044.md",
+    "sinarhariancommy_20260718_010044.md",
+    "thestarcommy_20260718_010044.md",
+    "utusancommy_20260718_010044.md"
+  ],
+  "extraction_completed": true,
+  "extraction_method": "enhanced-pattern-dictionary v2",
+  "categories": {
+    "politicians": 15,
+    "parties": 10,
+    "constituencies": 13,
+    "organizations": 11,
+    "locations": 37,
+    "events": 4,
+    "issues": 11
+  },
+  "total_entities": 101,
+  "constituency_master_list_gaps": [
+    "Ampangan",
+    "Nilai",
+    "Chennah",
+    "Lobak",
+    "Seremban Jaya",
+    "Sri Tanjung"
+  ],
+  "notes": [
+    "Extractor v2 supersedes ns-entity-extraction.sh inline Python, which only populated parties & constituencies.",
+    "Constituencies matched against 36-seat DUN master list + a 'DUN <list>' parser; seats absent from the master list are flagged as gaps.",
+    "Politicians extracted via Malay-honorific regex + known-figure dictionary, deduped by normalized name.",
+    "Parties canonicalized (abbreviations merged with full names; no case-variant duplicates).",
+    "Each entity records occurrence count + source files for traceability."
+  ],
+  "errors": []
+}

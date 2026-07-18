@@ -1,0 +1,105 @@
+{
+  "date": "20260718",
+  "timestamp": "2026-07-18T06:40:08.643304+00:00",
+  "source_count": 11,
+  "entity_type": "issues",
+  "extraction_method": "enhanced-pattern-dictionary v2",
+  "entity_count": 11,
+  "entities": [
+    {
+      "name": "Orang Asli land dispute (Kg Sungai Cot)",
+      "count": 11,
+      "sources": [
+        "nstcommy_20260718_010044.md"
+      ],
+      "relevance": "national"
+    },
+    {
+      "name": "PAS-Bersatu rift",
+      "count": 9,
+      "sources": [
+        "nstcommy_20260718_010044.md",
+        "thestarcommy_20260718_010044.md",
+        "utusancommy_20260718_010044.md"
+      ],
+      "relevance": "ns"
+    },
+    {
+      "name": "BN-PN electoral pact / seat negotiation",
+      "count": 7,
+      "sources": [
+        "nstcommy_20260718_010044.md",
+        "utusancommy_20260718_010044.md"
+      ],
+      "relevance": "ns"
+    },
+    {
+      "name": "KWAP / eFishery investment fraud",
+      "count": 6,
+      "sources": [
+        "bhariancommy_20260718_010044.md"
+      ],
+      "relevance": "national"
+    },
+    {
+      "name": "Bersatu new coalition/bloc",
+      "count": 5,
+      "sources": [
+        "nstcommy_20260718_010044.md",
+        "thestarcommy_20260718_010044.md"
+      ],
+      "relevance": "ns"
+    },
+    {
+      "name": "Malay vote unity",
+      "count": 5,
+      "sources": [
+        "utusancommy_20260718_010044.md"
+      ],
+      "relevance": "ns"
+    },
+    {
+      "name": "Forest City Network School controversy",
+      "count": 4,
+      "sources": [
+        "bhariancommy_20260718_010044.md",
+        "nstcommy_20260718_010044.md",
+        "thestarcommy_20260718_010044.md"
+      ],
+      "relevance": "johor"
+    },
+    {
+      "name": "AI / national identity (PM)",
+      "count": 3,
+      "sources": [
+        "nstcommy_20260718_010044.md"
+      ],
+      "relevance": "national"
+    },
+    {
+      "name": "Data centre concerns (Kota Damansara)",
+      "count": 3,
+      "sources": [
+        "nstcommy_20260718_010044.md",
+        "thestarcommy_20260718_010044.md"
+      ],
+      "relevance": "national"
+    },
+    {
+      "name": "Corporate mafia / RCI",
+      "count": 2,
+      "sources": [
+        "nstcommy_20260718_010044.md"
+      ],
+      "relevance": "national"
+    },
+    {
+      "name": "Social-media monitoring / slander during polls",
+      "count": 2,
+      "sources": [
+        "thestarcommy_20260718_010044.md"
+      ],
+      "relevance": "ns"
+    }
+  ]
+}

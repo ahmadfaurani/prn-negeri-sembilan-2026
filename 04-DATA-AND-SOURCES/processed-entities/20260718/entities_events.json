@@ -1,0 +1,46 @@
+{
+  "date": "20260718",
+  "timestamp": "2026-07-18T06:40:08.621768+00:00",
+  "source_count": 11,
+  "entity_type": "events",
+  "extraction_method": "enhanced-pattern-dictionary v2",
+  "entity_count": 4,
+  "entities": [
+    {
+      "name": "PRN Negeri Sembilan (State Election)",
+      "count": 12,
+      "sources": [
+        "astroawanicom_20260718_010044.md",
+        "bhariancommy_20260718_010044.md",
+        "nstcommy_20260718_010044.md",
+        "thestarcommy_20260718_010044.md",
+        "utusancommy_20260718_010044.md"
+      ]
+    },
+    {
+      "name": "PRN NS Nomination Day (18 Jul 2026)",
+      "count": 9,
+      "sources": [
+        "astroawanicom_20260718_010044.md",
+        "freemalaysiatodaycom_20260718_010044.md",
+        "nstcommy_20260718_010044.md",
+        "thestarcommy_20260718_010044.md"
+      ]
+    },
+    {
+      "name": "Campaign Period",
+      "count": 3,
+      "sources": [
+        "thestarcommy_20260718_010044.md",
+        "utusancommy_20260718_010044.md"
+      ]
+    },
+    {
+      "name": "PRN NS Polling Day (1 Aug 2026)",
+      "count": 3,
+      "sources": [
+        "thestarcommy_20260718_010044.md"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "date": "20260718",
+  "timestamp": "2026-07-18T06:40:08.545540+00:00",
+  "source_count": 11,
+  "entity_type": "parties",
+  "extraction_method": "enhanced-pattern-dictionary v2",
+  "entity_count": 10,
+  "entities": [
+    {
+      "name": "Perikatan Nasional (PN)",
+      "count": 17,
+      "sources": [
+        "bhariancommy_20260718_010044.md",
+        "nstcommy_20260718_010044.md",
+        "thestarcommy_20260718_010044.md",
+        "utusancommy_20260718_010044.md"
+      ],
+      "variants": [
+        "PN",
+        "Perikatan Nasional"
+      ]
+    },
+    {
+      "name": "Bersatu (PPBM)",
+      "count": 16,
+      "sources": [
+        "nstcommy_20260718_010044.md",
+        "thestarcommy_20260718_010044.md",
+        "utusancommy_20260718_010044.md"
+      ],
+      "variants": [
+        "Bersatu",
+        "Parti Pribumi Bersatu Malaysia"
+      ]
+    },
+    {
+      "name": "Barisan Nasional (BN)",
+      "count": 12,
+      "sources": [
+        "bhariancommy_20260718_010044.md",
+        "nstcommy_20260718_010044.md",
+        "utusancommy_20260718_010044.md"
+      ],
+      "variants": [
+        "BN",
+        "Barisan Nasional"
+      ]
+    },
+    {
+      "name": "PAS",
+      "count": 8,
+      "sources": [
+        "nstcommy_20260718_010044.md",
+        "thestarcommy_20260718_010044.md",
+        "utusancommy_20260718_010044.md"
+      ],
+      "variants": [
+        "PAS",
+        "Pas"
+      ]
+    },
+    {
+      "name": "Pakatan Harapan (PH)",
+      "count": 6,
+      "sources": [
+        "nstcommy_20260718_010044.md",
+        "utusancommy_20260718_010044.md"
+      ],
+      "variants": [
+        "PH",
+        "Pakatan Harapan"
+      ]
+    },
+    {
+      "name": "DAP",
+      "count": 4,
+      "sources": [
+        "bhariancommy_20260718_010044.md",
+        "utusancommy_20260718_010044.md"
+      ],
+      "variants": [
+        "DAP"
+      ]
+    },
+    {
+      "name": "MIC",
+      "count": 4,
+      "sources": [
+        "utusancommy_20260718_010044.md"
+      ],
+      "variants": [
+        "MIC"
+      ]
+    },
+    {
+      "name": "UMNO",
+      "count": 3,
+      "sources": [
+        "bhariancommy_20260718_010044.md",
+        "utusancommy_20260718_010044.md"
+      ],
+      "variants": [
+        "UMNO"
+      ]
+    },
+    {
+      "name": "MCA",
+      "count": 1,
+      "sources": [
+        "utusancommy_20260718_010044.md"
+      ],
+      "variants": [
+        "MCA"
+      ]
+    },
+    {
+      "name": "Wawasan",
+      "count": 1,
+      "sources": [
+        "nstcommy_20260718_010044.md"
+      ],
+      "variants": [
+        "Wawasan"
+      ]
+    }
+  ]
+}

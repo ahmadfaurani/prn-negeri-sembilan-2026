@@ -1,0 +1,147 @@
+{
+  "date": "20260718",
+  "timestamp": "2026-07-18T06:40:08.568369+00:00",
+  "source_count": 11,
+  "entity_type": "constituencies",
+  "extraction_method": "enhanced-pattern-dictionary v2",
+  "entity_count": 13,
+  "entities": [
+    {
+      "name": "Seremban",
+      "count": 8,
+      "sources": [
+        "astroawanicom_20260718_010044.md",
+        "nstcommy_20260718_010044.md",
+        "thestarcommy_20260718_010044.md",
+        "utusancommy_20260718_010044.md"
+      ],
+      "type": "Parliament",
+      "in_master_list": true,
+      "master_list_gap_note": ""
+    },
+    {
+      "name": "Sikamat",
+      "count": 4,
+      "sources": [
+        "astroawanicom_20260718_010044.md",
+        "utusancommy_20260718_010044.md"
+      ],
+      "type": "DUN",
+      "in_master_list": true,
+      "master_list_gap_note": ""
+    },
+    {
+      "name": "Temiang",
+      "count": 4,
+      "sources": [
+        "astroawanicom_20260718_010044.md",
+        "utusancommy_20260718_010044.md"
+      ],
+      "type": "DUN",
+      "in_master_list": true,
+      "master_list_gap_note": ""
+    },
+    {
+      "name": "Tampin",
+      "count": 3,
+      "sources": [
+        "ohbulancom_20260718_010044.md"
+      ],
+      "type": "Parliament",
+      "in_master_list": true,
+      "master_list_gap_note": ""
+    },
+    {
+      "name": "Ampangan",
+      "count": 2,
+      "sources": [
+        "astroawanicom_20260718_010044.md",
+        "utusancommy_20260718_010044.md"
+      ],
+      "type": "DUN (not in master list - GAP)",
+      "in_master_list": false,
+      "master_list_gap_note": ""
+    },
+    {
+      "name": "Klawang",
+      "count": 2,
+      "sources": [
+        "utusancommy_20260718_010044.md"
+      ],
+      "type": "DUN",
+      "in_master_list": true,
+      "master_list_gap_note": ""
+    },
+    {
+      "name": "Lenggeng",
+      "count": 2,
+      "sources": [
+        "astroawanicom_20260718_010044.md"
+      ],
+      "type": "DUN",
+      "in_master_list": true,
+      "master_list_gap_note": ""
+    },
+    {
+      "name": "Nilai",
+      "count": 2,
+      "sources": [
+        "astroawanicom_20260718_010044.md",
+        "utusancommy_20260718_010044.md"
+      ],
+      "type": "DUN (not in master list - GAP)",
+      "in_master_list": false,
+      "master_list_gap_note": "Listed among DUNs in Astro Awani nomination-centre caption ('DUN Lenggeng, Nilai, Lobak, Temiang, Sikamat dan Ampangan') but master list has 'Nilam' (N14) instead. Possible master-list error or distinct seat."
+    },
+    {
+      "name": "Pilah",
+      "count": 2,
+      "sources": [
+        "utusancommy_20260718_010044.md"
+      ],
+      "type": "DUN",
+      "in_master_list": true,
+      "master_list_gap_note": ""
+    },
+    {
+      "name": "Chennah",
+      "count": 1,
+      "sources": [
+        "utusancommy_20260718_010044.md"
+      ],
+      "type": "DUN (not in master list - GAP)",
+      "in_master_list": false,
+      "master_list_gap_note": "Named in Utusan article as a mixed DUN ('Chennah, Temiang dan Nilai') but missing from 36-seat master list."
+    },
+    {
+      "name": "Lobak",
+      "count": 1,
+      "sources": [
+        "astroawanicom_20260718_010044.md"
+      ],
+      "type": "DUN (not in master list - GAP)",
+      "in_master_list": false,
+      "master_list_gap_note": ""
+    },
+    {
+      "name": "Seremban Jaya",
+      "count": 1,
+      "sources": [
+        "utusancommy_20260718_010044.md"
+      ],
+      "type": "DUN (not in master list - GAP)",
+      "in_master_list": false,
+      "master_list_gap_note": "Named as a DUN seat in Utusan article but missing from 36-seat master list."
+    },
+    {
+      "name": "Sri Tanjung",
+      "count": 1,
+      "sources": [
+        "utusancommy_20260718_010044.md"
+      ],
+      "type": "DUN (not in master list - GAP)",
+      "in_master_list": false,
+      "master_list_gap_note": "Named as a DUN seat in Utusan article ('MIC menang di DUN Sri Tanjung dan Seremban Jaya') but missing from 36-seat master list (dun-master-list.md)."
+    }
+  ]
+}
