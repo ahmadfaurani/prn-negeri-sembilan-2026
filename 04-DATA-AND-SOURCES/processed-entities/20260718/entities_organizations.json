@@ -1,17 +1,62 @@
 {
   "date": "20260718",
-  "timestamp": "2026-07-18T06:40:08.580929+00:00",
-  "source_count": 11,
+  "timestamp": "2026-07-18T08:46:38.716552+00:00",
+  "source_count": 31,
   "entity_type": "organizations",
   "extraction_method": "enhanced-pattern-dictionary v2",
   "entity_count": 11,
   "entities": [
     {
-      "name": "Dewan Undangan Negeri (DUN)",
-      "count": 7,
+      "name": "Suruhanjaya Pilihan Raya (SPR/EC)",
+      "count": 72,
       "sources": [
         "astroawanicom_20260718_010044.md",
-        "utusancommy_20260718_010044.md"
+        "nomination-day-summary-1509.md",
+        "nomination-day-summary-1633.md",
+        "thestarcommy_20260718_010044.md",
+        "thestarcommy_20260718_070937.md",
+        "thestarcommy_20260718_083302.md"
+      ],
+      "variants": [
+        "EC",
+        "Election Commission",
+        "SPR",
+        "Suruhanjaya Pilihan Raya"
+      ]
+    },
+    {
+      "name": "Polis Diraja Malaysia (PDRM)",
+      "count": 44,
+      "sources": [
+        "bhariancommy_20260718_010044.md",
+        "nomination-day-summary-1509.md",
+        "nomination-day-summary-1633.md",
+        "nstcommy_20260718_010044.md",
+        "nstcommy_20260718_070937.md",
+        "nstcommy_20260718_083302.md",
+        "thestarcommy_20260718_010044.md",
+        "thestarcommy_20260718_070937.md",
+        "thestarcommy_20260718_083302.md"
+      ],
+      "variants": [
+        "PDRM",
+        "Police",
+        "police",
+        "polis"
+      ]
+    },
+    {
+      "name": "Dewan Undangan Negeri (DUN)",
+      "count": 43,
+      "sources": [
+        "astroawanicom_20260718_010044.md",
+        "astroawanicom_20260718_070937.md",
+        "astroawanicom_20260718_083302.md",
+        "nomination-day-summary-1509.md",
+        "nomination-day-summary-1633.md",
+        "utusancommy_20260718_010044.md",
+        "utusancommy_20260718_070937.md",
+        "utusancommy_20260718_083302.md"
       ],
       "variants": [
         "DUN",
@@ -19,64 +64,74 @@
       ]
     },
     {
-      "name": "Polis Diraja Malaysia (PDRM)",
-      "count": 6,
+      "name": "BERNAMA",
+      "count": 19,
       "sources": [
-        "bhariancommy_20260718_010044.md",
-        "nstcommy_20260718_010044.md",
-        "thestarcommy_20260718_010044.md"
+        "astroawanicom_20260718_010044.md",
+        "nomination-day-summary-1509.md",
+        "nomination-day-summary-1633.md"
       ],
       "variants": [
-        "Police",
-        "police",
-        "polis"
+        "BERNAMA",
+        "Bernama"
       ]
     },
     {
       "name": "Media Mulia Sdn Bhd",
-      "count": 4,
+      "count": 12,
       "sources": [
         "kosmocommy_20260718_010044.md",
-        "utusancommy_20260718_010044.md"
+        "kosmocommy_20260718_070937.md",
+        "kosmocommy_20260718_083302.md",
+        "utusancommy_20260718_010044.md",
+        "utusancommy_20260718_070937.md",
+        "utusancommy_20260718_083302.md"
       ],
       "variants": [
         "Media Mulia"
       ]
     },
     {
-      "name": "New Straits Times Press (NSTP)",
-      "count": 4,
+      "name": "Majlis Tertinggi (PN Supreme Council)",
+      "count": 11,
       "sources": [
-        "bhariancommy_20260718_010044.md",
-        "nstcommy_20260718_010044.md"
+        "nomination-day-summary-1633.md",
+        "utusancommy_20260718_010044.md",
+        "utusancommy_20260718_070937.md",
+        "utusancommy_20260718_083302.md"
       ],
       "variants": [
-        "NSTP",
-        "New Straits Times Press"
+        "Majlis Tertinggi",
+        "Supreme Council"
       ]
     },
     {
       "name": "Star Media Group",
-      "count": 4,
+      "count": 10,
       "sources": [
         "mstarcommy_20260718_010044.md",
-        "thestarcommy_20260718_010044.md"
+        "mstarcommy_20260718_070937.md",
+        "mstarcommy_20260718_083302.md",
+        "thestarcommy_20260718_010044.md",
+        "thestarcommy_20260718_070937.md",
+        "thestarcommy_20260718_083302.md"
       ],
       "variants": [
         "Star Media Group"
       ]
     },
     {
-      "name": "Suruhanjaya Pilihan Raya (SPR/EC)",
-      "count": 4,
+      "name": "New Straits Times Press (NSTP)",
+      "count": 6,
       "sources": [
-        "astroawanicom_20260718_010044.md",
-        "thestarcommy_20260718_010044.md"
+        "bhariancommy_20260718_010044.md",
+        "bhariancommy_20260718_070937.md",
+        "bhariancommy_20260718_083302.md",
+        "nstcommy_20260718_010044.md"
       ],
       "variants": [
-        "EC",
-        "SPR",
-        "Suruhanjaya Pilihan Raya"
+        "NSTP",
+        "New Straits Times Press"
       ]
     },
     {
@@ -98,26 +153,6 @@
       "variants": [
         "MBS",
         "Majlis Bandaraya Seremban"
-      ]
-    },
-    {
-      "name": "Majlis Tertinggi (PN Supreme Council)",
-      "count": 2,
-      "sources": [
-        "utusancommy_20260718_010044.md"
-      ],
-      "variants": [
-        "Majlis Tertinggi"
-      ]
-    },
-    {
-      "name": "BERNAMA",
-      "count": 1,
-      "sources": [
-        "astroawanicom_20260718_010044.md"
-      ],
-      "variants": [
-        "BERNAMA"
       ]
     },
     {

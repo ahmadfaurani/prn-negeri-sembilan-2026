@@ -1,19 +1,29 @@
 {
   "date": "20260718",
-  "timestamp": "2026-07-18T06:40:08.545540+00:00",
-  "source_count": 11,
+  "timestamp": "2026-07-18T08:46:38.538585+00:00",
+  "source_count": 31,
   "entity_type": "parties",
   "extraction_method": "enhanced-pattern-dictionary v2",
-  "entity_count": 10,
+  "entity_count": 13,
   "entities": [
     {
       "name": "Perikatan Nasional (PN)",
-      "count": 17,
+      "count": 186,
       "sources": [
         "bhariancommy_20260718_010044.md",
+        "bhariancommy_20260718_070937.md",
+        "bhariancommy_20260718_083302.md",
+        "nomination-day-summary-1509.md",
+        "nomination-day-summary-1633.md",
         "nstcommy_20260718_010044.md",
+        "nstcommy_20260718_070937.md",
+        "nstcommy_20260718_083302.md",
         "thestarcommy_20260718_010044.md",
-        "utusancommy_20260718_010044.md"
+        "thestarcommy_20260718_070937.md",
+        "thestarcommy_20260718_083302.md",
+        "utusancommy_20260718_010044.md",
+        "utusancommy_20260718_070937.md",
+        "utusancommy_20260718_083302.md"
       ],
       "variants": [
         "PN",
@@ -22,24 +32,47 @@
     },
     {
       "name": "Bersatu (PPBM)",
-      "count": 16,
+      "count": 162,
       "sources": [
+        "astroawanicom_20260718_083302.md",
+        "bhariancommy_20260718_083302.md",
+        "freemalaysiatodaycom_20260718_083302.md",
+        "nomination-day-summary-1509.md",
+        "nomination-day-summary-1633.md",
         "nstcommy_20260718_010044.md",
+        "nstcommy_20260718_070937.md",
+        "nstcommy_20260718_083302.md",
         "thestarcommy_20260718_010044.md",
-        "utusancommy_20260718_010044.md"
+        "thestarcommy_20260718_070937.md",
+        "thestarcommy_20260718_083302.md",
+        "utusancommy_20260718_010044.md",
+        "utusancommy_20260718_070937.md",
+        "utusancommy_20260718_083302.md"
       ],
       "variants": [
+        "BERSATU",
         "Bersatu",
         "Parti Pribumi Bersatu Malaysia"
       ]
     },
     {
       "name": "Barisan Nasional (BN)",
-      "count": 12,
+      "count": 158,
       "sources": [
+        "astroawanicom_20260718_083302.md",
         "bhariancommy_20260718_010044.md",
+        "bhariancommy_20260718_070937.md",
+        "bhariancommy_20260718_083302.md",
+        "nomination-day-summary-1509.md",
+        "nomination-day-summary-1633.md",
         "nstcommy_20260718_010044.md",
-        "utusancommy_20260718_010044.md"
+        "nstcommy_20260718_070937.md",
+        "nstcommy_20260718_083302.md",
+        "thestarcommy_20260718_070937.md",
+        "thestarcommy_20260718_083302.md",
+        "utusancommy_20260718_010044.md",
+        "utusancommy_20260718_070937.md",
+        "utusancommy_20260718_083302.md"
       ],
       "variants": [
         "BN",
@@ -47,24 +80,22 @@
       ]
     },
     {
-      "name": "PAS",
-      "count": 8,
-      "sources": [
-        "nstcommy_20260718_010044.md",
-        "thestarcommy_20260718_010044.md",
-        "utusancommy_20260718_010044.md"
-      ],
-      "variants": [
-        "PAS",
-        "Pas"
-      ]
-    },
-    {
       "name": "Pakatan Harapan (PH)",
-      "count": 6,
+      "count": 82,
       "sources": [
+        "astroawanicom_20260718_070937.md",
+        "bhariancommy_20260718_070937.md",
+        "bhariancommy_20260718_083302.md",
+        "nomination-day-summary-1509.md",
+        "nomination-day-summary-1633.md",
         "nstcommy_20260718_010044.md",
-        "utusancommy_20260718_010044.md"
+        "nstcommy_20260718_070937.md",
+        "nstcommy_20260718_083302.md",
+        "thestarcommy_20260718_070937.md",
+        "thestarcommy_20260718_083302.md",
+        "utusancommy_20260718_010044.md",
+        "utusancommy_20260718_070937.md",
+        "utusancommy_20260718_083302.md"
       ],
       "variants": [
         "PH",
@@ -72,11 +103,54 @@
       ]
     },
     {
-      "name": "DAP",
-      "count": 4,
+      "name": "PAS",
+      "count": 43,
+      "sources": [
+        "nomination-day-summary-1509.md",
+        "nomination-day-summary-1633.md",
+        "nstcommy_20260718_010044.md",
+        "nstcommy_20260718_083302.md",
+        "thestarcommy_20260718_010044.md",
+        "utusancommy_20260718_010044.md",
+        "utusancommy_20260718_070937.md",
+        "utusancommy_20260718_083302.md"
+      ],
+      "variants": [
+        "PAS",
+        "Pas"
+      ]
+    },
+    {
+      "name": "UMNO",
+      "count": 34,
       "sources": [
         "bhariancommy_20260718_010044.md",
-        "utusancommy_20260718_010044.md"
+        "bhariancommy_20260718_070937.md",
+        "bhariancommy_20260718_083302.md",
+        "nomination-day-summary-1509.md",
+        "nomination-day-summary-1633.md",
+        "utusancommy_20260718_010044.md",
+        "utusancommy_20260718_070937.md",
+        "utusancommy_20260718_083302.md"
+      ],
+      "variants": [
+        "UMNO"
+      ]
+    },
+    {
+      "name": "DAP",
+      "count": 20,
+      "sources": [
+        "bhariancommy_20260718_010044.md",
+        "bhariancommy_20260718_070937.md",
+        "freemalaysiatodaycom_20260718_083302.md",
+        "nomination-day-summary-1509.md",
+        "nomination-day-summary-1633.md",
+        "nstcommy_20260718_070937.md",
+        "nstcommy_20260718_083302.md",
+        "utusancommy_20260718_010044.md",
+        "utusancommy_20260718_070937.md",
+        "utusancommy_20260718_083302.md"
       ],
       "variants": [
         "DAP"
@@ -84,43 +158,74 @@
     },
     {
       "name": "MIC",
-      "count": 4,
+      "count": 14,
       "sources": [
-        "utusancommy_20260718_010044.md"
+        "nomination-day-summary-1509.md",
+        "nomination-day-summary-1633.md",
+        "utusancommy_20260718_010044.md",
+        "utusancommy_20260718_070937.md",
+        "utusancommy_20260718_083302.md"
       ],
       "variants": [
         "MIC"
       ]
     },
     {
-      "name": "UMNO",
-      "count": 3,
+      "name": "Wawasan",
+      "count": 13,
       "sources": [
-        "bhariancommy_20260718_010044.md",
-        "utusancommy_20260718_010044.md"
+        "nomination-day-summary-1633.md",
+        "nstcommy_20260718_010044.md",
+        "thestarcommy_20260718_083302.md"
       ],
       "variants": [
-        "UMNO"
+        "Wawasan"
       ]
     },
     {
       "name": "MCA",
-      "count": 1,
+      "count": 10,
       "sources": [
-        "utusancommy_20260718_010044.md"
+        "bhariancommy_20260718_070937.md",
+        "nomination-day-summary-1509.md",
+        "nomination-day-summary-1633.md",
+        "thestarcommy_20260718_083302.md",
+        "utusancommy_20260718_010044.md",
+        "utusancommy_20260718_070937.md",
+        "utusancommy_20260718_083302.md"
       ],
       "variants": [
         "MCA"
       ]
     },
     {
-      "name": "Wawasan",
-      "count": 1,
+      "name": "MUDA",
+      "count": 4,
       "sources": [
-        "nstcommy_20260718_010044.md"
+        "astroawanicom_20260718_083302.md"
       ],
       "variants": [
-        "Wawasan"
+        "Muda"
+      ]
+    },
+    {
+      "name": "Warisan",
+      "count": 3,
+      "sources": [
+        "nomination-day-summary-1633.md"
+      ],
+      "variants": [
+        "Warisan"
+      ]
+    },
+    {
+      "name": "PKR",
+      "count": 2,
+      "sources": [
+        "nomination-day-summary-1633.md"
+      ],
+      "variants": [
+        "PKR"
       ]
     }
   ]
