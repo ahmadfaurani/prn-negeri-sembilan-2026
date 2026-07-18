@@ -1,14 +1,26 @@
 {
   "date": "20260718",
-  "last_updated_utc": "2026-07-18T19:02:15+00:00",
-  "last_updated_myt": "2026-07-19T03:02:15+08:00",
+  "last_updated_utc": "2026-07-18T21:11:55+00:00",
+  "last_updated_myt": "2026-07-19T05:11:55+08:00",
   "classification": "TLP:AMBER",
   "extractor": "prn_ns_entity_extraction_agent (scheduled cron)",
-  "latest_entities_file": "entities_190215.json",
-  "prior_entities_file": "entities_165723.json",
+  "latest_entities_file": "entities_211155.json",
+  "prior_entities_file": "entities_190215.json",
   "director_priority_approved": "2026-07-18 15:00 MYT",
-  "cycle": "nomination-day-surge + overnight confirmation (170837 escalation + 182751 stability pass)",
+  "cycle": "nomination-day-surge + overnight confirmation (170837 escalation + 182751/194028/205755 three consecutive zero-delta confirmation passes; no new entities)",
   "source_count_total": 86,
+  "build_character": "CONFIRMATION / STABILITY BUILD — zero new entities; entities_190215 baseline carried forward unchanged.",
+  "delta_vs_prior_build": {
+    "prior_build": "entities_190215.json",
+    "this_build": "entities_211155.json",
+    "cycles_ingested": [
+      "194028",
+      "205755"
+    ],
+    "genuinely_new_entities": 0,
+    "corroborating_reconfirmations": 1,
+    "verification": "Programmatic normalized title set-difference: 194028->205755 = 0 new titles."
+  },
   "counts": {
     "seats_parsed": 36,
     "candidate_persons_unique": 103,
@@ -25,12 +37,13 @@
     "pir07_watch_seats": 9,
     "pir09_bersatu_candidates": 24,
     "pir09_independents": 4,
-    "peripheral_referenced_figures": 2
+    "peripheral_referenced_figures": 2,
+    "confirmation_passes_since_170837": 3
   },
   "pir_priority_tags": {
     "PIR-06": {
       "title": "PN-Removal-of-Bersatu Watch (HIGHEST)",
-      "status": "ESCALATED WATCH — NO formal PN-MT removal notice; TWO-SIDED trajectory ACTIVE (PN-MT-may-remove-Bersatu via Kiandee AND Bersatu-may-exit-PN via Muhyiddin). Bersatu PRESIDENT now publicly hinting at exit; mainstream framing 'imminent?'.",
+      "status": "ESCALATED WATCH — UNCHANGED across 3 overnight passes. NO formal PN-MT removal notice; TWO-SIDED trajectory ACTIVE (PN-MT-may-remove-Bersatu via Kiandee AND Bersatu-may-exit-PN via Muhyiddin). Bersatu PRESIDENT publicly hinting at exit; mainstream framing 'imminent?'. No new PIR-06 statements in the 194028/205755 overnight window.",
       "formal_removal_notice_detected": false,
       "escalation_detected": true,
       "tier4_seats": [
@@ -388,13 +401,14 @@
     }
   ],
   "files_in_folder": [
-    "entities_190215.json (THIS run — escalation ingested, Samsuri corrected, new PIR-09 entities added)",
+    "entities_211155.json (THIS run — confirmation/stability build; 194028+205755 zero-delta passes; no new entities; NST English 103/36 corroboration logged)",
+    "entities_190215.json (prior run 19:02 UTC — 170837 PIR-06 escalation ingested, Samsuri corrected, new PIR-09 entities)",
     "entities_165723.json (prior run 16:57 UTC — nomination-day-surge baseline w/ PIR tags)",
     "entities_consolidated.json (prior 14:00 UTC run — candidate-list baseline)",
     "entities_politicians.json / entities_parties.json / entities_constituencies.json / entities_events.json / entities_issues.json / entities_organizations.json / entities_locations.json (prior 14:00 UTC sub-sets)",
     "entity_metadata.json (this file)",
-    "_build_entities.py (prior build script)",
-    "_build_entities_190215.py (this run's build script)"
+    "_build_entities.py / _build_entities_190215.py (prior build scripts)",
+    "_build_entities_211155.py (this run's build script)"
   ],
   "total_entities": 291
 }

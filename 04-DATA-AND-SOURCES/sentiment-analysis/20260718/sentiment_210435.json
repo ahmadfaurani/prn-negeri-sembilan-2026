@@ -1,0 +1,335 @@
+{
+  "date": "20260718",
+  "generated": "2026-07-19T05:04:35+08:00",
+  "generated_utc": "2026-07-18T21:04:35+00:00",
+  "file": "sentiment_210435.json",
+  "workspace": "/home/p62operator/.openclaw/workspace-ns",
+  "classification": "TLP:AMBER",
+  "agent": "PRN Negeri Sembilan 2026 Sentiment Analysis Agent (cron)",
+  "status": "completed (revision 6 — Cycle 8 / 05:04 MYT 19 Jul deep-overnight consolidation: 194028 new-content cycle + 205755 stability confirmation + entities_190215.json revision-6 extraction delta merge)",
+  "method": "agent-manual source-attributed review (CVS-compliant) + SPR official candidate-list cross-reference + director-approved PIR priority weighting + collection_metadata.json trajectory assessment",
+  "runtime": "GLM-5.2 (custom) — manual review fallback (ESC-002, Day 8). ns-sentiment-analysis.sh remains a stub; no OpenOSINT/Aras API credentials in environment.",
+  "election_milestone": "CAMPAIGN PERIOD DAY 1 (Nomination Day 18 Jul 2026) — DEEP-OVERNIGHT CONSOLIDATION CYCLE (05:04 MYT 19 Jul). Polling day 1 Aug 2026; early voting 28 Jul 2026; BN manifesto launch 24 Jul (DUN Linggi). Electorate 889,490.",
+  "priority_directive": {
+    "approved": "2026-07-18 15:00 MYT (Director)",
+    "statement": "Weight sentiment analysis toward approved PIRs: PIR-06 (PN-Bersatu removal/expulsion/withdrawal narratives), PIR-09 (candidate credibility — disciplinary actions, defections, eligibility), PIR-07 (battleground seats — campaign momentum, candidate reception).",
+    "pir_priority_tags": ["PIR-06", "PIR-09", "PIR-07"],
+    "critical_flag_directive": "Flag any CRITICAL sentiment shift related to PIR-06 (PN-removal-of-Bersatu).",
+    "shift_threshold": "Flag any entity with sharp sentiment shift (>30% change from previous cycle)."
+  },
+  "revision_context": {
+    "prior_revision": {
+      "id": "revision-5",
+      "generated": "2026-07-19T02:35:00+08:00 (18:35 UTC)",
+      "file": "sentiment-analysis/20260718/sentiment_183500.json",
+      "coverage": "86 source files / 264 entities; cumulative 49 entities scored (15 pos / 18 neu / 16 neg)",
+      "key_finding": "PIR-06 ESCALATED from senior-figure advocacy (rev4: Kiandee) to TWO-SIDED/THREE-SIDED principal-level coalition-restructuring motion (rev5: Bersatu PRESIDENT Muhyiddin publicly hints at exit + signals new post-election bloc; Annuar Musa corroborates; PAS openly sidelines Bersatu; Hadi blame-shifts; mainstream 'imminent?' framing). NO formal notice of either type. CRITICAL flag raised (second consecutive revision to escalate)."
+    },
+    "this_revision": {
+      "id": "revision-6",
+      "trigger": "Three inputs arrived after the revision-5 sentiment run: (1) entities_190215.json (19:04 UTC) — the revision-6 entity extraction that RESOLVES the rev5 entity-extraction gap by folding in the PIR-06 principal actors (Muhyiddin, Annuar Musa, Kiandee, Wee, Samsuri) and new PIR-09 figures (Saw Yee Fung, Albert Tei, Tamim Dahri, Chong Sin Woon); (2) raw-scrape cycle 194028 (19:40 UTC / 03:40 MYT 19 Jul) — new editorial content (KINIGUIDE shifting-alliances analysis, Tamim surrenders to police, Wee 'BN-PN not a merger', Muhyiddin 'true opposition' + 'new bloc after NS polls', Anwar manages DAP tension, BN confidence, Muhyiddin graft-trial surfacing); (3) raw-scrape cycle 205755 (20:57 UTC / 04:57 MYT 19 Jul) — 3rd consecutive overnight stability/confirmation pass (0 new titles vs 194028; 0 new PIR-relevant content; formal_removal_notice_detected=false).",
+      "coverage": "86 source files total (carryover) + 194028 cycle (19 new/refreshed files) + 205755 cycle (19 files, 0 new titles) + entities_190215.json (revision-6 extraction, 291 total entities per entity_metadata). New editorial content this revision is concentrated in the 194028 cycle; the 205755 cycle is pure confirmation.",
+      "new_batches_since_rev5": [
+        {"batch": "entities_190215", "cycle": "Entity extraction revision-6 (19:04 UTC / 03:04 MYT 19 Jul)", "note": "Resolves the rev5 data_gap: PIR-06 principal actors (Muhyiddin, Annuar Musa, Kiandee) and new PIR-09 figures (Saw Yee Fung, Albert Tei, Tamim Dahri) now appear in the entity gazetteer. Also CORRECTS: 'Dr Samsuri Anuar' → Ahmad Samsuri Mokhtar (Terengganu MB / PN chairperson); FLAGS speaker-label ambiguity on Annuar Musa (collector labels 'Bersatu sec-gen' but known Bersatu Sec-Gen is Hamzah Zainudin — the prominent 'Tan Sri Annuar Musa' is the BN/UMNO veteran). Data-quality improvement, not a new event."},
+        {"batch": "194028", "cycle": "Cycle 8a (03:40 MYT 19 Jul)", "files": 19, "new_priority_content": "KINIGUIDE 'Shifting alliances as battle royale for Negeri Sembilan begins' (Malaysiakini Top Story, analytical wrap) + 'Tamim surrenders to police, hopes to campaign for N Sembilan independent candidate' + 'Wee: BN-PN pact in N Sembilan not a merger, MCA principles intact' + 'Muhyiddin dakwa Bersatu kini pembangkang tunggal' / 'Bersatu the only true opposition left' + 'Bersatu to form new coalition/bloc after Negri polls, says Muhyiddin' + 'PM Anwar gesa DAP tangguh keputusan, utamakan PRN Negeri Sembilan' + 'BN yakin menang majoriti mudah' + Muhyiddin graft-trial surfacing (Jana Wibawa RM24.4m / Bersatu RM1m)."},
+        {"batch": "205755", "cycle": "Cycle 8b (04:57 MYT 19 Jul)", "files": 19, "new_priority_content": "NONE — 3rd consecutive overnight stability/confirmation pass. Set-difference of normalized priority_titles between 194028 and 205755 returned 0 new titles. RFC822 pubDate freshness scan (>=19:40 GMT 18 Jul) returned 0 matches. formal_removal_notice_detected=false. Value = assessment stability + coverage integrity confirmation (three independent overnight passes now each returning 0 new PIR content)."}
+      ],
+      "method_note": "Sentiment based on verified source content only (CVS standard). The entities_190215.json now carries the PIR-06 principal actors the rev5 pass had to score via direct source attribution; the rev6 delta is therefore both a sentiment update AND a data-quality reconciliation. The Annuar Musa speaker-label ambiguity is carried as a CAVEAT (see data_gaps_rev6): the 'part-ways/own-logo' statement is retained but its speaker attribution to 'Bersatu sec-gen Annuar Musa' is unverified — the known Bersatu Sec-Gen is Hamzah Zainudin. This does not change the PIR-06 two-sided assessment (Muhyiddin's exit-hint is independently corroborated and is the principal signal), but the Annuar Musa entity score is retained with reduced confidence."
+    }
+  },
+  "source_basis_delta": {
+    "collection_date": "20260718",
+    "total_source_files_carryover_rev5": 86,
+    "new_editorial_bodies_since_rev5": [
+      "malaysiakinicom_20260718_194028.md (KINIGUIDE 'Shifting alliances as battle royale for Negeri Sembilan begins' — Top Story analytical wrap framing the campaign under a 'dramatically different political landscape'; carries the shifting-alliances / Bersatu-exit narrative as the dominant analytical frame; full bodies paywalled to lead para)",
+      "malaysiakinicom_gn_20260718_194028.md (Tamim surrenders to police, hopes to campaign for N Sembilan independent candidate; KINIGUIDE; PN rift widens as PAS sends clearest signal yet of sidelining Bersatu; Goodbye PN?; MCA Youth sec-gen stay out; Albert barking dogs; DAP revives anti-BN)",
+      "thestarcommy_gn_20260718_194028.md ('Bersatu the only true opposition left following cooperation between BN and PN, says Muhyiddin'; 'Bersatu to form new coalition coming after Negri polls, says Muhyiddin'; 'Bersatu to form new bloc after Negri polls'; 'Negri polls: Bersatu's use of own logo shows it wants to part ways with PN, says Annuar Musa'; Gerakan expels Tang Jay Son)",
+      "utusancommy_20260718_194028.md ('Muhyiddin dakwa Bersatu kini pembangkang tunggal'; 'Bersatu tidak lagi mahu bersama PN – Ronald'; 'Kempen berkesan mampu bantu PH pertahankan Ampangan'; 'Bujang terpaksa tarik diri, dokumen tidak lengkap'; 'Persefahaman BN-PN di N. Sembilan penentu di Melaka, PRU16'; 'Nor Azman mahu jumpa seramai mungkin pengundi di Sikamat'; 'Lawan Tok Mat macam perlawanan persahabatan PH-BN – Dr. Azizul')",
+      "kosmocommy_20260718_194028.md ('Jajaran politik baharu, jika BN, PN menang – Ahmad Zahid'; 'BN umum manifesto 24 Julai'; 'Bertanding di kubu kuat BN, bukan mudah – Aminuddin'; '103 calon sah bertanding rebut 36 kerusi DUN – SPR')",
+      "nstcommy_20260718_194028.md ('PN-BN understanding boosts Pas hopes'; 'PN-BN electoral understanding aims to wrest Negri Sembilan from PH'; 'PN confident understanding with BN can deliver Negri Sembilan victory'; 'BN-PN understanding aimed at ensuring Negri Sembilan political stability, says Asyraf Wajdi'; 'Pas not disappointed despite Johor whitewash, says Hadi'; 'PKR, PH respect parties right to set own strategy for N9 polls - Fuziah')",
+      "astroawanicom_gn_20260718_194028.md ('PM Anwar gesa DAP tangguh keputusan, utamakan PRN Negeri Sembilan'; 'Pemimpin MCA persoal dakwaan kerjasama UMNO-Pas dalam PRK Negeri Sembilan'; 'MCA tanding tujuh, MIC empat kerusi - Ahmad Zahid')",
+      "mstarcommy_20260718_194028.md ('BN yakin menang majoriti mudah PRN Negeri Sembilan, bentuk kerajaan tanpa parti lain'; 'Tok Mat, Anthony Loke antara nama besar bertanding, ini senarai kerusi tumpuan')",
+      "malaysiakinicom_20260718_194028.md (Muhyiddin graft-trial surfacing: 'Company gave Bersatu RM1m for unknown reasons, witness tells court in Muhyiddin's graft trial')",
+      "utusancommy_20260718_194028.md (Muhyiddin graft-trial: 'Syarikat dicadangkan Muhyiddin terima RM24.4 juta bayaran projek Jana Wibawa')",
+      "entities_190215.json (revision-6 entity extraction — resolves rev5 entity-extraction gap; 291 total entities; PIR-06 principals + PIR-09 figures now in gazetteer; Samsuri correction; Annuar Musa speaker-label caveat)",
+      "collection_metadata.json (41KB, 21:01 UTC — 205755 cycle trajectory + delta_vs_prior_cycle_194028 + next_cycle_watch; confirms formal_removal_notice_detected=false, this_cycle_new_pir06_content=false for 205755)"
+    ],
+    "verified_intelligence_asset": "spr-candidate-list-20260718.json — OFFICIAL SPR candidate list (103 candidates, 36 DUNs). PRIMARY ground truth. Party breakdown SPR-CONFIRMED: PH 36 / BN 25 / Bersatu 24 / PN 11 / 4 Ind / BERJASA 1 / ASLI 1 / PSM 1 = 103. UNCHANGED this revision.",
+    "cvs_standard": "Sentiment based on verified source content only. No pattern-inferred sentiment. All entities source-attributed (verbatim surface match). SPR candidate list = ground truth. PIR priority pointer files + collection_metadata trajectory assessment used only to LOCATE items; media source files cited as attribution per CVS standard. The 205755 stability-confirmation cycle (0 new articles, 3rd consecutive overnight pass returning 0 new PIR content) reinforces that no regression, no CRITICAL threshold crossing, and no new formal-notice event occurred in the deep-overnight window."
+  },
+  "entities_analyzed_rev6_delta_new": 7,
+  "entities_analyzed_rev6_delta_reinforced": 1,
+  "entities_analyzed_cumulative": 56,
+  "sentiment_summary": {
+    "negative": [
+      {
+        "entity": "[Rev6Δ][PIR-09] Tamim Dahri (activist) — surrenders to police (Port Dickson, FB-threat case); intends to campaign for an independent NS candidate",
+        "category": "figure (activist / independent-candidate support network) — candidate-credibility / legal",
+        "pir_tags": ["PIR-09"],
+        "sentiment": "negative",
+        "score": 0.50,
+        "priority_weight": 1.5,
+        "weighted_score": 0.75,
+        "trend": "NEW — DEVELOPMENT. Tamim Dahri (a PIR-09 entity, listed in entities_165723.json PIR-09 key_entities) surrendered to police in Port Dickson over a Facebook-threat case (cf. earlier Utusan 'Aktivis diburu polis serah diri di Port Dickson') and now states he hopes to campaign for an N Sembilan independent candidate. The independent candidate is not named in the captured text. This is a candidate-credibility/legal-development datum: an activist figure associated with the independent-candidate support network has a live legal matter, yet intends to campaign. NEW relative to rev5 (Tamim was listed as an entity but not sentiment-scored; the surrender-to-police development is freshly surfaced in the 194028 cycle).",
+        "rationale": "Malaysiakini (mkini, 194028 gnews + homepage): 'Tamim surrenders to police, hopes to campaign for N Sembilan independent candidate.' Negative for the independent-candidate credibility axis (PIR-09): a support-network figure with a live legal case publicly attaching to a campaign is a character/credibility signal. The independent candidate's identity is unconfirmed in the captured text — watch for the named candidate (Datuk A Saravanan N.33 background vetting is still pending; possible linkage). Negative but moderate (0.50): a legal matter + campaign intent, not a candidate disqualification or expulsion.",
+        "sources": ["malaysiakinicom_20260718_194028.md", "malaysiakinicom_gn_20260718_194028.md", "utusancommy_20260718_194028.md ('Aktivis diburu polis serah diri di Port Dickson')", "entities_190215.json (PIR-09 entity list, Tamim Dahri)"],
+        "source_reliability": "HIGH — Malaysiakini (homepage + gnews); Utusan corroborating on the police-search antecedent. Self-reported surrender."
+      },
+      {
+        "entity": "[Rev6Δ][PIR-06] Muhyiddin graft-trial surfacing — 'Company gave Bersatu RM1m for unknown reasons' + 'Muhyiddin terima RM24.4 juta bayaran projek Jana Wibawa' (corroborating legal/credibility datum on the PIR-06 principal)",
+        "category": "issue/legal (PIR-06 principal — graft trial corroboration)",
+        "pir_tags": ["PIR-06"],
+        "sentiment": "negative",
+        "score": 0.58,
+        "priority_weight": 2.0,
+        "weighted_score": 1.16,
+        "trend": "NEW (surfacing). The Muhyiddin graft trial — previously peripheral — resurfaced in the 194028 gnews/WP-API feeds: (a) Malaysiakini 'Company gave Bersatu RM1m for unknown reasons, witness tells court in Muhyiddin's graft trial'; (b) Utusan 'Syarikat dicadangkan Muhyiddin terima RM24.4 juta bayaran projek Jana Wibawa'. These are '1 d ago' items that rotated back into the top-60 result sets. Not a same-day development, but a corroborating negative on the PIR-06 principal's credibility that now sits alongside his exit-hint statement.",
+        "rationale": "The graft-trial surfacing compounds the negative sentiment on Muhyiddin (PIR-06 principal): the same figure publicly hinting at Bersatu's exit and 'new bloc' formation is concurrently on trial for RM24.4m Jana Wibawa payments + a RM1m Bersatu receipt. This is a credibility backdrop, not a PIR-06 coalition-restructuring event — logged as a corroborating negative on the principal. It marginally reinforces the negative read on Muhyiddin (the principal signaling exit is also legally encumbered), but does NOT change the two-sided motion assessment. Scored as a distinct entity (the trial surfacing) rather than folded into the Muhyiddin exit-hint entity, because it is a separate legal proceeding.",
+        "sources": ["malaysiakinicom_20260718_194028.md", "utusancommy_20260718_194028.md", "collection_metadata.json (monitor_channels_active: muhyiddin_channel)"],
+        "source_reliability": "HIGH — Malaysiakini + Utusan court reporting (witness testimony on record)."
+      }
+    ],
+    "neutral": [
+      {
+        "entity": "[Rev6Δ][PIR-06] KINIGUIDE 'Shifting alliances as battle royale for Negeri Sembilan begins' (Malaysiakini Top Story analytical wrap)",
+        "category": "issue/narrative (PIR-06 — mainstream analytical framing of the shifting-alliances / Bersatu-exit narrative)",
+        "pir_tags": ["PIR-06"],
+        "sentiment": "neutral",
+        "score": 0.55,
+        "priority_weight": 2.0,
+        "weighted_score": 1.10,
+        "trend": "NEW — ANALYTICAL CONSOLIDATION. Malaysiakini's KINIGUIDE (Top Story, ~2h before the 194028 capture) frames the NS campaign under a 'dramatically different political landscape' and the 'shifting alliances' narrative as the dominant analytical frame. This is the mainstream analytical consolidation of the rev5 PIR-06 escalation: the Bersatu-exit / coalition-restructuring story is now the top-of-fold explanatory frame for the entire election, not just a running thread. Neutral as a media-analytical signal; its IMPLICATION remains negative for PN cohesion.",
+        "rationale": "KINIGUIDE (Malaysiakini analytical series): 'Shifting alliances as battle royale for Negeri Sembilan begins — Campaigning takes place under a dramatically different political landscape.' This is the editorial consolidation of the PIR-06 thread into the campaign's master narrative. It corroborates and elevates the rev5 two-sided assessment to the status of mainstream analytical consensus, but introduces NO new political actor or formal action. Logged neutral (media-framing) with high PIR-06 weight. Watch: whether the 'shifting alliances' frame hardens into a 'Bersatu exit confirmed' frame in daytime MYT Day-2 coverage.",
+        "sources": ["malaysiakinicom_20260718_194028.md", "malaysiakinicom_gn_20260718_194028.md"],
+        "source_reliability": "HIGH — Malaysiakini KINIGUIDE (analytical series, editorial-grade)."
+      },
+      {
+        "entity": "[Rev6Δ][PIR-07] Dr Wee Ka Siong (MCA president) — 'BN-PN pact in N Sembilan not a merger, MCA principles intact' (MCA-leadership management of the component tension)",
+        "category": "politician (MCA president) — PIR-07 BN-component leadership response",
+        "pir_tags": ["PIR-07"],
+        "sentiment": "neutral",
+        "score": 0.48,
+        "priority_weight": 1.3,
+        "weighted_score": 0.62,
+        "trend": "NEW — MCA-LEADERSHIP RESPONSE. Wee Ka Siong (MCA president; 'Dr Wee' in the entities_190215.json gazetteer) publicly frames the BN-PN electoral pact as 'not a merger' and asserts 'MCA principles intact.' This is the MCA-leadership response to (a) the BN-PN electoral understanding (rev5) and (b) the MCA silencing of Youth sec-gen Saw Yee Fung over her BN-PN criticism (rev5 PIR-09). It is a managed-defence statement, not a new escalation.",
+        "rationale": "Malaysiakini (194028): 'Wee: BN-PN pact in N Sembilan not a merger, MCA principles intact.' Wee is the MCA president; his statement is the leadership-level management of the component tension that the Saw Yee Fung silencing exposed. Neutral: a defensive framing that affirms the pact while distancing MCA from 'merger' connotation. Does not escalate or resolve the DAP-vs-MCA intra-unity tension (rev5) — it holds the line. PIR-07 (battleground/coalition narrative) + PIR-09 adjacency (component discipline context). Watch: whether MCA rank-and-file accepts the 'not a merger' framing or further dissent emerges (cf. 'Pemimpin MCA persoal dakwaan kerjasama UMNO-Pas').",
+        "sources": ["malaysiakinicom_20260718_194028.md", "astroawanicom_gn_20260718_194028.md ('Pemimpin MCA persoal dakwaan kerjasama UMNO-Pas')", "entities_190215.json (Dr Wee entity)"],
+        "source_reliability": "HIGH — Malaysiakini + Astro Awani gnews; Wee on record as MCA president."
+      },
+      {
+        "entity": "[Rev6Δ][PIR-07] PM Anwar Ibrahim — asks DAP to postpone decision, prioritise NS polls (intra-unity tension management)",
+        "category": "politician (PM / PH chair) — PIR-07 intra-unity tension management",
+        "pir_tags": ["PIR-07"],
+        "sentiment": "neutral",
+        "score": 0.50,
+        "priority_weight": 1.3,
+        "weighted_score": 0.65,
+        "trend": "NEW — TENSION MANAGEMENT. Astro Awani (194028): 'PM Anwar gesa DAP tangguh keputusan, utamakan PRN Negeri Sembilan.' Anwar (PH chair / PM) asks DAP to postpone a decision and prioritise the NS polls. This is the leadership-level management of the DAP anti-BN tension surfaced in rev5 (DAP revives anti-BN campaign; 1MDB; ruler crisis). It is a managed-defence / cooling statement, not a new tension event.",
+        "rationale": "Astro Awani (Awani International, 194028 gnews): Anwar urges DAP to postpone its decision and prioritise the NS polls. This is the PM/PH-chair intervention to keep the DAP-vs-BN intra-unity tension (rev5 PIR-07) from spilling into the NS campaign. Neutral: a cooling directive that holds the unity-government line. Confirms the DAP tension is live enough to warrant PM intervention but is being managed downward. PIR-07 (coalition narrative). Watch: whether DAP defers (managed) or presses the anti-BN line (escalation).",
+        "sources": ["astroawanicom_gn_20260718_194028.md", "collection_metadata.json (pir07_battleground)"],
+        "source_reliability": "HIGH — Astro Awani (Awani International) gnews; PM on record."
+      },
+      {
+        "entity": "[Rev6Δ][PIR-07] BN confidence in simple majority — 'BN yakin menang majoriti mudah PRN Negeri Sembilan, bentuk kerjaan tanpa parti lain' (mStar)",
+        "category": "issue/party (PIR-07 — BN self-assessment / momentum signal)",
+        "pir_tags": ["PIR-07"],
+        "sentiment": "neutral",
+        "score": 0.52,
+        "priority_weight": 1.3,
+        "weighted_score": 0.68,
+        "trend": "NEW — BN CONFIDENCE SIGNAL. mStar (194028): 'BN yakin menang majoriti mudah PRN Negeri Sembilan, bentuk kerajaan tanpa parti lain' (BN confident of an easy simple majority in the NS polls, forming government without other parties). This is BN's public self-assessment of its electoral position. Neutral-to-slightly-positive for BN momentum; logged neutral as a self-asserted claim (not an independent forecast or poll).",
+        "rationale": "mStar (194028): BN's confidence in a simple majority without coalition partners. This is a BN-momentum messaging datum (PIR-07): BN projects it can win outright. It sits in tension with the structural reality (BN contests 25 of 36; the BN-PN understanding is the mechanism by which BN hopes to consolidate the anti-PH Malay vote). Neutral as a self-claim; watch whether independent polls/forecasts in Day-2 daytime coverage corroborate or contradict it. Note: 'tanpa parti lain' (without other parties) is notable framing given the BN-PN understanding — may signal BN intends to govern alone even where PN assisted.",
+        "sources": ["mstarcommy_20260718_194028.md", "collection_metadata.json (pir07_battleground)"],
+        "source_reliability": "MEDIUM-HIGH — mStar (The Star's Malay-language portal); BN-source self-assessment."
+      },
+      {
+        "entity": "[Rev6Δ][PIR-07] BN-PN electoral understanding — extends beyond NS: 'penentu di Melaka, PRU16' (structural significance escalates)",
+        "category": "issue/coalition (PIR-07 — BN-PN understanding scope expansion)",
+        "pir_tags": ["PIR-07"],
+        "sentiment": "neutral",
+        "score": 0.52,
+        "priority_weight": 1.3,
+        "weighted_score": 0.68,
+        "trend": "NEW — SCOPE EXPANSION. Utusan (194028): 'Persefahaman BN-PN di N. Sembilan penentu di Melaka, PRU16' (the BN-PN understanding in NS is a determinant for Melaka and PRU16). The BN-PN electoral understanding — confirmed operational in rev5 — is now framed as structurally significant beyond NS: the NS arrangement is a template/determinant for Melaka and the next general election (PRU16).",
+        "rationale": "Utusan (194028): the BN-PN understanding in NS framed as determinant for Melaka + PRU16. This extends the structural significance of the BN-PN pact from a single-state electoral arrangement to a multi-cycle coalition-shaping mechanism. It is the backdrop against which the PIR-06 Bersatu-exit motion plays out: Bersatu is excluded from the BN-PN understanding that is now being framed as the future of the BN/PN relationship. Neutral (structural context); reinforces the PIR-06 read that Bersatu is being structurally sidelined. PIR-07 + PIR-06 overlap. Watch: whether the Melaka/PRU16 framing draws a Bersatu or PH response.",
+        "sources": ["utusancommy_20260718_194028.md", "collection_metadata.json (pir07_battleground)"],
+        "source_reliability": "HIGH — Utusan (Malay-language workhorse); BN/PN-source framing."
+      }
+    ],
+    "positive": [],
+    "reinforced_carryover": [
+      {
+        "entity": "[Rev6Δ-reinforced][PIR-06 CRITICAL] Tan Sri Muhyiddin Yassin (Bersatu PRESIDENT) — 'true opposition' + 'new bloc after NS polls' consolidation",
+        "category": "politician (Bersatu president) — PIR-06 principal (carryover, reinforced)",
+        "pir_tags": ["PIR-06"],
+        "sentiment": "negative",
+        "score": 0.81,
+        "previous_score_rev5": 0.80,
+        "delta": "+0.01 (+1.25%)",
+        "priority_weight": 2.0,
+        "weighted_score": 1.62,
+        "trend": "REINFORCED (not a new escalation). Muhyiddin was scored 0.80 in rev5 (exit-hint). The 194028 cycle adds two reinforcing statements: (a) 'Muhyiddin dakwa Bersatu kini pembangkang tunggal' / 'Bersatu the only true opposition left following cooperation between BN and PN, says Muhyiddin' (Utusan + The Star) — reframes Bersatu as the sole true opposition post BN-PN pact; (b) 'Bersatu to form new coalition/bloc after Negri polls, says Muhyiddin' (The Star) — the explicit concrete post-exit plan first signalled in rev5. These CONSOLIDATE the rev5 exit-hint (principal-level departure signaling) but do NOT escalate it to a new qualitative tier. Score nudged 0.80→0.81 (+1.25%, well below the 30% threshold). NO direction flip. NO formal exit notice.",
+        "rationale": "Utusan + The Star (194028): Muhyiddin's 'sole true opposition' framing + explicit 'new bloc after NS polls' plan. Combined with the KINIGUIDE 'shifting alliances' analytical consolidation and the graft-trial surfacing, the rev5 two-sided motion is now the consolidated mainstream frame — but no formal PN-MT removal notice and no formal Bersatu withdrawal notice have issued. The PIR-06 CRITICAL flag carries forward; this revision does NOT raise a NEW critical shift (the escalation was rev4→rev5; rev5→rev6 is consolidation, not further escalation).",
+        "sources": ["utusancommy_20260718_194028.md", "thestarcommy_gn_20260718_194028.md", "malaysiakinicom_20260718_194028.md (KINIGUIDE)", "entities_190215.json (Muhyiddin entity, revision-6 gazetteer)"],
+        "source_reliability": "HIGH — Utusan + The Star (gnews) + Malaysiakini KINIGUIDE; multi-source."
+      }
+    ]
+  },
+  "sentiment_distribution": {
+    "rev6_delta_new": {"positive": 0, "neutral": 5, "negative": 2, "total_new": 7},
+    "rev6_delta_reinforced": {"count": 1, "entity": "Muhyiddin (0.80→0.81, +1.25%)"},
+    "cumulative_merged": {"positive": 15, "neutral": 23, "negative": 18, "total_scored": 56},
+    "baseline_0831": {"positive": 4, "neutral": 4, "negative": 4, "total": 12},
+    "delta_1633": {"positive": 6, "neutral": 5, "negative": 2},
+    "delta_1919": {"positive": 1, "neutral": 0, "negative": 0},
+    "delta_rev4": {"positive": 4, "neutral": 5, "negative": 5},
+    "delta_rev5": {"positive": 0, "neutral": 4, "negative": 5},
+    "delta_rev6": {"positive": 0, "neutral": 5, "negative": 2, "reinforced": 1},
+    "note": "Revision-6 delta merge. The rev6 delta (0 pos / 5 neu / 2 neg NEW + 1 reinforced carryover) is a CONSOLIDATION cycle, not an escalation cycle. The dominant development is the ANALYTICAL CONSOLIDATION of the rev5 PIR-06 two-sided motion into the mainstream campaign master-narrative (KINIGUIDE 'shifting alliances' Top Story) + Muhyiddin's 'true opposition'/'new bloc' reinforcing statements + the BN-PN understanding's scope expansion to Melaka/PRU16. NO formal PN-MT removal notice and NO formal Bersatu withdrawal notice have issued (confirmed across THREE consecutive overnight passes: 182751, 194028, 205755). The PIR-09 axis adds a NEW candidate-credibility/legal datum (Tamim Dahri surrenders to police, intends to campaign for an independent) and a corroborating legal datum on the PIR-06 principal (Muhyiddin graft-trial surfacing). The PIR-07 axis adds MCA-leadership (Wee 'not a merger') and PM (Anwar manages DAP tension) management statements + a BN self-confidence signal. No entity exceeds the 30% numeric shift threshold (largest tracked: Muhyiddin +1.25%). No direction flips. NO NEW critical qualitative shift — the PIR-06 CRITICAL flag carries forward from rev5 (the escalation was rev4→rev5); rev5→rev6 is consolidation, not further escalation."
+  },
+  "pir_weighted_entity_scores": {
+    "description": "Entities tagged with director-approved PIR priority tags (PIR-06/09/07) receive a priority_weight multiplier (1.3–2.0) applied to the base score. weighted_score = score × priority_weight. Negative-sentiment entities with high weighted scores are the highest-priority watch items. List shows the top watch items carrying the rev6 delta + the highest-priority carryover.",
+    "weighting_scheme": {"PIR-06": 2.0, "PIR-09": 1.5, "PIR-07": 1.3, "non-priority": 1.0},
+    "top_priority_watch_items_rev6": [
+      {"rank": 1, "entity": "PN-removal-of-Bersatu thread (ESC-014) — TWO-SIDED, CONSOLIDATED [PIR-06]", "score": 0.82, "priority_weight": 2.0, "weighted_score": 1.64, "sentiment": "negative", "trend": "rev5 0.82 → rev6 0.82 (UNCHANGED; consolidated by KINIGUIDE + Muhyiddin 'true opposition'/'new bloc'); no formal notice", "flag": "CRITICAL (carried)"},
+      {"rank": 2, "entity": "Muhyiddin Yassin (Bersatu PRESIDENT) — exit-hint, reinforced [PIR-06]", "score": 0.81, "priority_weight": 2.0, "weighted_score": 1.62, "sentiment": "negative", "trend": "rev5 0.80 → rev6 0.81 (+1.25%, reinforced; 'true opposition' + 'new bloc')", "flag": "CRITICAL (carried)"},
+      {"rank": 3, "entity": "Bersatu-PN fracture (ESC-011) — THREE-SIDED [PIR-06]", "score": 0.80, "priority_weight": 2.0, "weighted_score": 1.60, "sentiment": "negative", "trend": "rev5 0.80 → rev6 0.80 (UNCHANGED; three-way fracture confirmed across 3 overnight passes)", "flag": "CRITICAL (carried)"},
+      {"rank": 4, "entity": "Muhyiddin graft-trial surfacing (RM24.4m Jana Wibawa + RM1m Bersatu) [PIR-06] — NEW", "score": 0.58, "priority_weight": 2.0, "weighted_score": 1.16, "sentiment": "negative", "trend": "NEW — corroborating legal datum on the PIR-06 principal", "flag": "HIGH"},
+      {"rank": 5, "entity": "Bersatu (party) — exit-hint + own-flag [PIR-06]", "score": 0.74, "priority_weight": 2.0, "weighted_score": 1.48, "sentiment": "negative", "trend": "rev5 0.74 → rev6 0.74 (UNCHANGED)", "flag": "HIGH (carried)"},
+      {"rank": 6, "entity": "Annuar Musa — part-ways/own-logo [PIR-06] (CAVEAT: speaker-label ambiguity)", "score": 0.70, "priority_weight": 2.0, "weighted_score": 1.40, "sentiment": "negative", "trend": "rev5 0.72 → rev6 0.70 (−2.8%; confidence reduced per Annuar Musa speaker-label caveat; statement retained with reduced confidence)", "flag": "HIGH (carried, caveat)"},
+      {"rank": 7, "entity": "PAS sidelining Bersatu / Hadi blame-shift [PIR-06]", "score": 0.70, "priority_weight": 2.0, "weighted_score": 1.40, "sentiment": "negative", "trend": "rev5 0.70 → rev6 0.70 (UNCHANGED)", "flag": "HIGH (carried)"},
+      {"rank": 8, "entity": "KINIGUIDE 'Shifting alliances' analytical frame [PIR-06] — NEW", "score": 0.55, "priority_weight": 2.0, "weighted_score": 1.10, "sentiment": "neutral", "trend": "NEW — mainstream analytical consolidation of the PIR-06 thread", "flag": "WATCH"},
+      {"rank": 9, "entity": "Tang Jay Son — Gerakan expulsion [PIR-09] (carryover)", "score": 0.60, "priority_weight": 1.5, "weighted_score": 0.90, "sentiment": "negative", "trend": "carryover (reconfirmed 194028/205755)", "flag": "HIGH (carried)"},
+      {"rank": 10, "entity": "Tamim Dahri — surrenders to police, campaigns for independent [PIR-09] — NEW", "score": 0.50, "priority_weight": 1.5, "weighted_score": 0.75, "sentiment": "negative", "trend": "NEW — candidate-credibility/legal development", "flag": "HIGH"},
+      {"rank": 11, "entity": "BN-PN understanding extends to Melaka/PRU16 [PIR-07] — NEW", "score": 0.52, "priority_weight": 1.3, "weighted_score": 0.68, "sentiment": "neutral", "trend": "NEW — scope expansion; structural backdrop to PIR-06", "flag": "WATCH"},
+      {"rank": 12, "entity": "BN confidence simple majority [PIR-07] — NEW", "score": 0.52, "priority_weight": 1.3, "weighted_score": 0.68, "sentiment": "neutral", "trend": "NEW — BN self-assessment", "flag": "WATCH"}
+    ]
+  },
+  "sentiment_shift_flags": {
+    "threshold": ">30% change from previous cycle (revision-5 → revision-6)",
+    "numeric_shifts": [
+      {"entity": "Tan Sri Muhyiddin Yassin (Bersatu PRESIDENT) [PIR-06]", "rev5_score": 0.80, "rev6_score": 0.81, "delta_pct": "+1.25%", "direction": "same (negative)", "threshold_breached": false, "note": "Reinforced carryover; 'true opposition' + 'new bloc' consolidation; well below 30% threshold."},
+      {"entity": "Annuar Musa [PIR-06] (speaker-label caveat)", "rev5_score": 0.72, "rev6_score": 0.70, "delta_pct": "-2.8%", "direction": "same (negative)", "threshold_breached": false, "note": "Confidence reduction per Annuar Musa speaker-label ambiguity (known Bersatu Sec-Gen is Hamzah Zainudin); statement retained with reduced confidence. Same direction, well below threshold."}
+    ],
+    "numeric_shifts_note": "No entity exceeds the 30% NUMERIC sentiment-shift threshold in the rev5→rev6 delta. The two tracked numeric deltas are: Muhyiddin 0.80→0.81 (+1.25%, reinforced, same direction) and Annuar Musa 0.72→0.70 (−2.8%, confidence-reduction adjustment per speaker-label caveat, same direction). No entity FLIPS direction (positive↔negative). The 7 NEW rev6 entities (KINIGUIDE, Tamim, Wee, Anwar-DAP, BN confidence, BN-PN extends Melaka/PRU16, Muhyiddin graft-trial) have no prior score (NEW) — numeric delta undefined.",
+    "critical_qualitative_shift": {
+      "entity": "PN-removal-of-Bersatu thread (PIR-06 / ESC-014)",
+      "prior_state_rev5": "TWO-SIDED/THREE-SIDED principal-level coalition-restructuring motion. Bersatu PRESIDENT Muhyiddin publicly hints at exit; Annuar Musa corroborates; PAS openly sidelines Bersatu; Hadi blame-shifts; mainstream 'imminent?' framing. CRITICAL flag raised (rev4→rev5 escalation).",
+      "new_state_rev6": "CONSOLIDATED (not further escalated). The rev5 two-sided/three-sided motion is now the consolidated mainstream campaign master-narrative: (a) Malaysiakini KINIGUIDE 'Shifting alliances as battle royale for Negeri Sembilan begins' (Top Story analytical wrap); (b) Muhyiddin's 'sole true opposition' + explicit 'new bloc after NS polls' reinforcing statements; (c) BN-PN understanding scope-expansion to Melaka/PRU16 (the structural mechanism excluding Bersatu); (d) Muhyiddin graft-trial surfacing (corroborating negative on the principal). NO formal PN-MT removal notice and NO formal Bersatu withdrawal notice have issued — confirmed across THREE consecutive overnight passes (182751, 194028, 205755), each returning formal_removal_notice_detected=false and 0 new PIR-06 content in the 205755 pass.",
+      "classification": "PIR-06 CRITICAL FLAG CARRIES FORWARD (NO NEW critical shift in rev6). The escalation was rev3 (precursor) → rev4 (senior-figure advocacy) → rev5 (two-sided principal-level exit signaling). rev5→rev6 is CONSOLIDATION/CONFIRMATION, not a further qualitative escalation. Per director directive ('Flag any CRITICAL sentiment shift related to PIR-06'), the flag REMAINS ACTIVE (the motion is CRITICAL and ongoing) but this revision records NO NEW critical shift — the trajectory is unchanged and the trigger has not fired.",
+      "director_directive_met": "YES — the PIR-06 CRITICAL flag is carried forward and the rev5→rev6 transition is explicitly classified as consolidation (not a new critical shift) for precision. The director directive to 'flag any CRITICAL sentiment shift related to PIR-06' is satisfied: the CRITICAL state is flagged as ongoing, and the absence of a new shift in rev6 is itself a material finding (the motion is holding at the rev5 escalated tier without crossing into formal notice).",
+      "trigger_proximity": "UNCHANGED vs rev5. Trigger #2 (coalition restructuring / realignment) remains reachable via EITHER path (PN-MT formal removal OR Bersatu formal exit) but has NOT fired. Per collection_metadata trajectory assessment: most likely near-term outcome remains Bersatu voluntary realignment/exiting AFTER the Aug 1 poll rather than a formal PN-MT expulsion beforehand — but a reactive PN-MT removal notice remains possible if Bersatu candidates actively damage PN partners in the 8 Tier-4 seats (N.04/05/13/14/23/25/31/34). No Bersatu candidate withdrawals detected. No trigger fired."
+    },
+    "new_entities_no_prior_score": [
+      "KINIGUIDE 'Shifting alliances' analytical frame [PIR-06] — NEW neutral; no prior score.",
+      "Tamim Dahri — surrenders to police, campaigns for independent [PIR-09] — NEW negative; no prior score (entity listed in rev5 gazetteer but not sentiment-scored; the surrender development is freshly surfaced).",
+      "Muhyiddin graft-trial surfacing (Jana Wibawa RM24.4m + Bersatu RM1m) [PIR-06] — NEW negative; no prior score (corroborating legal datum).",
+      "Dr Wee Ka Siong — 'BN-PN not a merger' [PIR-07] — NEW neutral; no prior score (Wee was a PIR-07 context figure in rev5 but not sentiment-scored).",
+      "PM Anwar — asks DAP to postpone decision [PIR-07] — NEW neutral; no prior score (Anwar was a PIR-07 context figure but not sentiment-scored as a tension-management actor).",
+      "BN confidence in simple majority [PIR-07] — NEW neutral; no prior score.",
+      "BN-PN understanding extends to Melaka/PRU16 [PIR-07] — NEW neutral; no prior score (the BN-PN understanding was scored in rev5 as operational-in-NS; the scope-expansion framing is NEW)."
+    ],
+    "shift_threshold_violations": []
+  },
+  "priority_alerts": {
+    "PIR-06": {
+      "priority": "CRITICAL (carried — consolidation, not new escalation)",
+      "directive": "Sentiment around PN-Bersatu relationship (removal, expulsion, withdrawal narratives)",
+      "flagged": true,
+      "critical_shift_flagged": false,
+      "critical_flag_status": "ACTIVE / CARRIED from rev5. The rev5→rev6 transition is CONSOLIDATION, not a new critical shift. The two-sided/three-sided principal-level motion holds at the rev5 escalated tier without crossing into formal notice.",
+      "assessment": "CONSOLIDATED at the rev5 escalated tier. The 194028 cycle adds ANALYTICAL CONSOLIDATION (KINIGUIDE 'Shifting alliances' Top Story — the PIR-06 thread is now the campaign's master narrative) + Muhyiddin's reinforcing statements ('sole true opposition' + explicit 'new bloc after NS polls') + BN-PN understanding scope-expansion to Melaka/PRU16 (the structural mechanism excluding Bersatu) + a corroborating Muhyiddin graft-trial surfacing. The 205755 cycle (3rd consecutive overnight pass) returns 0 new PIR-06 content and formal_removal_notice_detected=false. NO formal PN Supreme Council (Majlis Tertinggi) removal notice and NO formal Bersatu withdrawal notice have issued. Bersatu contests 24 seats under its own flag (SPR-confirmed) — the operational signature of the rupture. 8 Tier-4 seats mapped: 4 vs PAS (Serting, Ampangan, Paroi, Bagan Pinang) + 4 vs Wawasan (Klawang, Sikamat, Mambau, Gemas); NO Bersatu candidate withdrawals detected. Trajectory per collection_metadata: most likely near-term outcome UNCHANGED — Bersatu voluntary realignment/exiting AFTER the Aug 1 poll; a reactive PN-MT removal notice remains possible. Maximally favourable to PH.",
+      "key_entities": ["Tan Sri Muhyiddin Yassin (Bersatu PRESIDENT — exit hint, reinforced 0.80→0.81)", "Tan Sri Annuar Musa (part-ways/own-logo, CAVEAT: speaker-label ambiguity, 0.72→0.70)", "Datuk Seri Dr. Ronald Kiandee (suspended/former Bersatu VP — removal call, carryover)", "Hadi Awang (PAS — sidelining + blame-shift, carryover)", "Ahmad Samsuri Mokhtar (PN chairperson — rapped by Muhyiddin; post-election continuation intent; CORRECTED from 'Dr Samsuri Anuar')", "Bersatu (party, 0.74)", "PN Supreme Council (Majlis Tertinggi)", "PAS"],
+      "top_weighted_score": 1.64,
+      "escalation_flag": "ESC-014 (CRITICAL, carried — escalated rev3→rev4→rev5; rev5→rev6 = consolidation, no new escalation tier)",
+      "watch": "Track PN/Bersatu/PAS/Muhyiddin/Annuar Musa official channels + Kiandee Facebook for: (1) ANY formal PN Supreme Council (Majlis Tertinggi) removal notice — keyword watch on 'mengeluarkan Bersatu daripada PN' issued BY the MT; (2) Muhyiddin follow-through on 'new bloc/coalition after Negri polls' — any concrete announcement of Bersatu's new alliance partners (the 194028 'new bloc' statement makes this a sharper watch item); (3) ANY Bersatu candidate tarik diri in the 8 Tier-4 seats (N.04/05/13/14/23/25/31/34). RESOLVE the Annuar Musa speaker-label ambiguity (is the 'part-ways' speaker the BN/UMNO veteran or a Bersatu official?). Next meaningful update expected daytime MYT 19 Jul (campaign Day-2)."
+    },
+    "PIR-09": {
+      "priority": "HIGH",
+      "directive": "Sentiment around candidate credibility (disciplinary actions, defections, eligibility)",
+      "flagged": true,
+      "assessment": "The PIR-09 axis adds a NEW candidate-credibility/legal datum in rev6: activist Tamim Dahri surrenders to police (Port Dickson, FB-threat case) and states he intends to campaign for an NS independent candidate (candidate unnamed in captured text) — a support-network legal matter attaching to the independent-candidate axis. This joins the THREE disciplinary/credibility events carried from rev5: (1) Gerakan expels Tang Jay Son (carryover, reconfirmed 194028/205755); (2) Mohamad Rafie cross-bloc defector (carryover, reconfirmed); (3) MCA silences Youth sec-gen Saw Yee Fung (carryover, reconfirmed 194028/205755). PLUS Albert Tei 'barking dogs' abrasive rhetoric (carryover). PLUS carryover: Bujang Abu eligibility failure (withdrew — incomplete SPR expenses report; reconfirmed via Utusan 'Bujang terpaksa tarik diri, dokumen tidak lengkap'). NEW rev6 context: MCA-leadership (Wee 'BN-PN not a merger, MCA principles intact') manages the Saw Yee Fung tension downward; 'Pemimpin MCA persoal dakwaan kerjasama UMNO-Pas' indicates MCA rank-and-file questioning persists. The disciplinary pattern (Gerakan pecat + MCA silencing + Kiandee/Bersatu signal) continues to bridge to PIR-06.",
+      "key_entities": ["Tamim Dahri (activist — surrenders to police, campaigns for independent, NEW)", "Saw Yee Fung (MCA Youth sec-gen — disciplined, carryover)", "Albert Tei (PN camp, Jelebu — 'barking dogs', carryover)", "Tang Jay Son (Bersatu, Rahang — Gerakan expulsion, carryover)", "Mohamad Rafie Ab Malek (PN-PAS, Ampangan — defector, carryover)", "Gerakan (Sec-Gen Wong Chia Zhen, carryover)", "MCA (Sec-Gen Chong Sin Woon; President Wee Ka Siong, NEW management statement)", "Bujang Abu (Ind, withdrew — carryover)"],
+      "top_weighted_score": 0.90,
+      "escalation_flag": "ESC-015 (HIGH, reinforced rev4→rev5; rev5→rev6 adds Tamim legal datum + Wee management statement)",
+      "watch": "Monitor for further PN/BN-component disciplinary actions. Track the Ampangan Day-2 messaging evolution (PH 'defector' vs PN 'experienced rep' for Rafie; Noor'azah Bersatu third-candidate impact). Identify the independent candidate Tamim Dahri intends to campaign for (possible linkage to Datuk A Saravanan N.33 background vetting — still pending). Watch whether Saw Yee Fung defies the exclusion or further MCA rank-and-file cracks emerge ('Pemimpin MCA persoal'). Watch whether Albert Tei's 'barking dogs' video goes viral or draws PN-leadership distancing."
+    },
+    "PIR-07": {
+      "priority": "HIGH",
+      "directive": "Sentiment around battleground seats (campaign momentum, candidate reception)",
+      "flagged": true,
+      "assessment": "Day-1 campaign activity confirmed across 8 watch seats (carryover). NEW rev6 context: (1) BN-PN electoral understanding scope-expansion to Melaka/PRU16 ('penentu di Melaka, PRU16') — the NS arrangement is now framed as a multi-cycle coalition-shaping mechanism, the structural backdrop against which the PIR-06 Bersatu-exit motion plays out; (2) MCA-leadership (Wee 'BN-PN not a merger') + PM (Anwar asks DAP to postpone decision) managing the intra-unity DAP-vs-BN/MCA tension downward — the tension is live enough to warrant PM intervention but is being cooled; (3) BN self-confidence signal ('yakin menang majoriti mudah, bentuk kerjaan tanpa parti lain') — BN projects an outright simple majority, notable framing given the BN-PN understanding (may signal BN intends to govern alone even where PN assisted); (4) Utusan 'Kempen berkesan mampu bantu PH pertahankan Ampangan' — PH campaign-effectiveness framing for the N.14 Ampangan defence (carryover PIR-07/09 watch seat). No new Day-1 campaign events or poll/forecast publications in the deep-overnight window (205755 = 3rd consecutive overnight pass, 0 new content). 25 of 36 seats multi-cornered (69%); 2 five-cornered (N.10 Nilai, N.33 Sri Tanjung) — trigger #7 WATCH. BN manifesto launch 24 Jul (DUN Linggi).",
+      "key_entities": ["N.14 Ampangan", "N.27 Rantau", "N.32 Linggi", "N.01 Chennah", "N.13 Sikamat", "N.04 Klawang", "N.33 Sri Tanjung", "N.10 Nilai", "Jalaluddin Alias", "MB Aminuddin", "Dr Azizul Hakim", "Tok Mat / Mohamad Hasan", "Ahmad Zahid Hamidi", "Dr Wee Ka Siong (NEW)", "PM Anwar (NEW management)"],
+      "top_weighted_score": 0.75,
+      "escalation_flag": "ESC-007 (HIGH, reinforced at N.14 Ampangan; BN-PN understanding scope-expansion + Wee/Anwar management added rev6)",
+      "watch": "Track the Ampangan messaging war (razor-thin 329 majority, 3-cornered, Day-2 evolution expected 19 Jul daytime). Watch Rantau (Tok Mat vs Azizul — civil tone). Watch the 2 five-cornered seats (N.10, N.33) for independent vote-splitting (trigger #7) — Tamim Dahri's independent-candidate campaign intent is now a PIR-09/07 overlap watch item. Monitor BN manifesto launch 24 Jul at DUN Linggi. Watch whether the DAP anti-BN tension is cooled (Anwar directive) or escalates. Monitor the BN 'majoriti mudah / tanpa parti lain' claim for independent Day-2 poll/forecast corroboration."
+    }
+  },
+  "critical_flags": {
+    "PIR-06_critical_shift": {
+      "flagged": true,
+      "flag_status": "ACTIVE / CARRIED from rev5 (NO NEW critical shift in rev6)",
+      "entity": "PN-removal-of-Bersatu thread (PIR-06 / ESC-014)",
+      "prior_state_rev5": "TWO-SIDED/THREE-SIDED principal-level coalition-restructuring motion. Bersatu PRESIDENT Muhyiddin publicly hints at exit (wishes PN 'all the best', raps Samsuri, signals new post-election bloc); Annuar Musa corroborates (own-logo = part-ways); PAS openly sidelines Bersatu ('PN rift widens'); Hadi blame-shifts; mainstream 'imminent?' framing. CRITICAL (second consecutive revision to escalate: rev3→rev4→rev5).",
+      "new_state_rev6": "CONSOLIDATED at the rev5 escalated tier. The two-sided/three-sided motion is now the consolidated mainstream campaign master-narrative (KINIGUIDE 'Shifting alliances' Top Story) + Muhyiddin's 'sole true opposition' / explicit 'new bloc after NS polls' reinforcing statements + BN-PN understanding scope-expansion to Melaka/PRU16 + Muhyiddin graft-trial surfacing. NO formal PN-MT removal notice and NO formal Bersatu withdrawal notice have issued — confirmed across THREE consecutive overnight passes (182751, 194028, 205755), each formal_removal_notice_detected=false.",
+      "classification": "PIR-06 CRITICAL FLAG CARRIED FORWARD (rev5→rev6 = consolidation, NOT a new critical shift). The escalation progression remains rev3 (precursor) → rev4 (senior-figure advocacy) → rev5 (two-sided principal-level exit signaling). rev6 = consolidation/confirmation of the rev5 escalated tier.",
+      "trigger_proximity": "UNCHANGED vs rev5. Trigger #2 (coalition restructuring) reachable via EITHER path (PN-MT removal OR Bersatu exit) but NOT fired. Most likely near-term outcome UNCHANGED: Bersatu voluntary realignment AFTER the Aug 1 poll; reactive PN-MT removal remains possible. No Bersatu candidate withdrawals in the 8 Tier-4 seats. No trigger fired.",
+      "director_directive_met": true,
+      "escalation_progression": "rev3 (precursor/NST headline) → rev4 (senior-figure advocacy/Kiandee full body) → rev5 (two-sided principal-level exit signaling/Muhyiddin + Annuar Musa + PAS + 'imminent?' framing) → rev6 (CONSOLIDATION: KINIGUIDE master-narrative + Muhyiddin 'true opposition'/'new bloc' + BN-PN scope-expansion + graft-trial surfacing; NO new escalation tier; NO formal notice)"
+    }
+  },
+  "escalation_flags_update": {
+    "ESC-014-20260718": {
+      "severity": "CRITICAL (carried — consolidated, not further escalated)",
+      "rev6_update": "CONSOLIDATED at the rev5 escalated tier. The two-sided/three-sided principal-level motion is now the mainstream campaign master-narrative (KINIGUIDE 'Shifting alliances' Top Story, Malaysiakini). Muhyiddin's 'sole true opposition' + explicit 'new bloc after NS polls' reinforcing statements (Utusan + The Star, 194028). BN-PN understanding scope-expansion to Melaka/PRU16 (Utusan, 194028). Muhyiddin graft-trial surfacing (Malaysiakini + Utusan, 194028). NO formal PN-MT removal notice and NO formal Bersatu withdrawal notice have issued — confirmed across THREE consecutive overnight passes (182751, 194028, 205755). NO Bersatu candidate withdrawals in the 8 Tier-4 seats. CRITICAL flag carried; no new critical shift. Trigger #2 unchanged (reachable via EITHER path, not fired).",
+      "carries_forward": "Holds ESC-014 (rev5) / ESC-011 / ESC-010 at the escalated tier pending either formal notice or post-election realignment."
+    },
+    "ESC-015-20260718": {
+      "severity": "HIGH",
+      "rev6_update": "REINFORCED with a NEW PIR-09 candidate-credibility/legal datum: activist Tamim Dahri surrenders to police (Port Dickson, FB-threat case) and intends to campaign for an NS independent candidate (candidate unnamed). Joins the THREE carryover disciplinary/credibility events (Gerakan pecat Tang Jay Son; MCA silencing Saw Yee Fung; Albert Tei 'barking dogs') + carryover Bujang Abu withdrawal. NEW management context: Wee (MCA president) 'BN-PN not a merger' + 'Pemimpin MCA persoal dakwaan kerjasama UMNO-Pas' (rank-and-file questioning persists). The disciplinary pattern bridges to PIR-06.",
+      "carries_forward": "Reinforces ESC-015 (rev5). PIR-09. Bridges to PIR-06."
+    },
+    "ESC-007-20260718": {
+      "severity": "HIGH (reinforced)",
+      "rev6_update": "REINFORCED with BN-PN understanding scope-expansion to Melaka/PRU16 + Wee/Anwar intra-unity tension management + BN 'majoriti mudah' self-confidence + PH Ampangan campaign-effectiveness framing. The BN-PN understanding is now framed as a multi-cycle coalition-shaping mechanism. N.14 Ampangan Day-1 messaging war unchanged (carryover; Day-2 evolution expected daytime MYT 19 Jul).",
+      "carries_forward": "Reinforces ESC-007 (rev5). PIR-07 + PIR-09 overlap (Tamim independent-campaign intent)."
+    },
+    "ESC-011-20260718": {
+      "severity": "CRITICAL (carried — unchanged)",
+      "rev6_update": "THREE-SIDED fracture UNCHANGED across three consecutive overnight passes (182751, 194028, 205755): Bersatu (Muhyiddin exit-hint, reinforced) vs PN-MT (Kiandee removal-call) vs PAS (open sidelining + Hadi blame-shift). 0.80 (UNCHANGED from rev5). CRITICAL.",
+      "carries_forward": "Holds ESC-011 (rev5). PIR-06."
+    },
+    "ESC-002-20260718": {
+      "severity": "HIGH (unchanged)",
+      "status": "CARRIED — Day 8. ns-sentiment-analysis.sh remains a stub. Agent-manual review is the standing CVS-compliant method. This rev6 pass produced via manual source-attributed review + SPR cross-reference + PIR priority weighting + collection_metadata trajectory assessment + entities_190215.json revision-6 extraction reconciliation."
+    },
+    "triggers_fired": "NONE. Trigger #2 (coalition restructuring) UNCHANGED — reachable via EITHER path (PN-MT removal OR Bersatu exit) but NOT fired: no formal PN-MT removal notice, no formal Bersatu withdrawal notice, no new alliance announced, no Bersatu candidate withdrawals in the 8 Tier-4 seats. Confirmed across THREE consecutive overnight passes. Trigger #7 (independents in 5-cornered seats N.10/N.33) remains on WATCH; the Tamim Dahri independent-candidate campaign intent is a new PIR-09/07 overlap watch item (candidate unnamed — possible N.33 linkage pending vetting). Per collection_metadata: most likely near-term outcome is Bersatu voluntary realignment AFTER the Aug 1 poll."
+  },
+  "trends": {
+    "overall_rev6": "PH-FAVORABLE TILT HOLDS AND CONSOLIDATES; PIR-06 CRITICAL FLAG CARRIED (consolidation, not new escalation). The dominant development of the rev6 cycle is the ANALYTICAL CONSOLIDATION of the rev5 PIR-06 two-sided/three-sided principal-level motion into the mainstream campaign master-narrative (Malaysiakini KINIGUIDE 'Shifting alliances as battle royale for Negeri Sembilan begins' — Top Story) + Muhyiddin's reinforcing statements ('sole true opposition' + explicit 'new bloc after NS polls') + the BN-PN understanding scope-expansion to Melaka/PRU16 (the structural mechanism excluding Bersatu) + a corroborating Muhyiddin graft-trial surfacing. The PIR-09 axis adds a NEW candidate-credibility/legal datum (Tamim Dahri surrenders to police, intends to campaign for an independent). The PIR-07 axis adds MCA-leadership (Wee 'not a merger') and PM (Anwar manages DAP tension) management of the intra-unity tension downward + a BN self-confidence signal. The 205755 cycle (3rd consecutive overnight pass) returns 0 new content and formal_removal_notice_detected=false — three independent overnight passes now each returning 0 new PIR-relevant content confirms overnight cycles are low-yield and the assessment is stable. NO formal PN-MT removal notice and NO formal Bersatu withdrawal notice have issued. No entity exceeds the 30% numeric shift threshold (largest: Muhyiddin +1.25%). No direction flips. NO NEW critical qualitative shift — the PIR-06 CRITICAL flag carries forward from rev5 (rev4→rev5 was the escalation; rev5→rev6 is consolidation). Trigger #2 unchanged (reachable via EITHER path, not fired).",
+    "pir06_trend": "CONSOLIDATED at the escalated tier (no new escalation). Progression: 15:09 'could face termination' → 16:33 'info chief floats termination' → 19:19 'has grounds to remove' (Kiandee, NST) → 22:20 SENIOR-FIGURE PUBLIC ADVOCACY (Kiandee full Utusan body, 'asas kukuh') [rev4] → 01:08 MYT 19 Jul PRINCIPAL-LEVEL EXIT SIGNALING (Muhyiddin 'Goodbye PN?'; Annuar Musa 'part ways'; PAS 'rift widens'; Hadi 'blames Bersatu'; mainstream 'imminent?') [rev5] → 05:04 MYT 19 Jul CONSOLIDATION (KINIGUIDE 'shifting alliances' master-narrative; Muhyiddin 'sole true opposition' + 'new bloc after NS polls'; BN-PN scope-expansion Melaka/PRU16; Muhyiddin graft-trial surfacing) [rev6]. THREE-SIDED fracture unchanged. NO formal notice of either type across three consecutive overnight passes. Trajectory UNCHANGED: most likely Bersatu voluntary realignment AFTER Aug 1 poll; PN-MT removal remains possible. Trigger #2 unchanged (reachable via EITHER path, not fired).",
+    "pir09_trend": "NEW candidate-credibility/legal datum: activist Tamim Dahri surrenders to police (Port Dickson, FB-threat case) and intends to campaign for an NS independent candidate (candidate unnamed — possible N.33 linkage pending vetting). Joins the THREE carryover disciplinary/credibility events (Gerakan pecat Tang Jay Son; MCA silencing Saw Yee Fung; Albert Tei 'barking dogs') + carryover Bujang Abu withdrawal (reconfirmed via Utusan 'Bujang terpaksa tarik diri, dokumen tidak lengkap'). NEW management context: Wee (MCA president) 'BN-PN not a merger, MCA principles intact' (leadership manages the Saw Yee Fung tension downward); 'Pemimpin MCA persoal dakwaan kerjasama UMNO-Pas' (MCA rank-and-file questioning persists). The disciplinary pattern (Gerakan pecat + MCA silencing + Kiandee/Bersatu signal + Tamim legal) bridges to PIR-06.",
+    "pir07_trend": "Day-1 campaign active across 8 watch seats (carryover). NEW rev6 context: (1) BN-PN understanding scope-expansion to Melaka/PRU16 ('penentu di Melaka, PRU16') — multi-cycle coalition-shaping mechanism, structural backdrop to PIR-06; (2) Wee (MCA president) 'BN-PN not a merger' + Anwar 'DAP postpone decision' — intra-unity tension managed downward (live but cooled); (3) BN self-confidence 'yakin menang majoriti mudah, bentuk kerjaan tanpa parti lain'; (4) PH Ampangan campaign-effectiveness framing (Utusan 'Kempen berkesan mampu bantu PH pertahankan Ampangan'). No new Day-1 campaign events or poll/forecast publications in the deep-overnight window (205755 = 3rd overnight pass, 0 new content). 25 of 36 seats multi-cornered (69%); 2 five-cornered (N.10, N.33) — trigger #7 WATCH (Tamim independent-campaign intent is a new PIR-09/07 overlap). BN manifesto launch 24 Jul (DUN Linggi). Next meaningful campaign update expected daytime MYT 19 Jul (Day-2).",
+    "negative_sentiment_trend": "Opposition-cohesion negatives HOLD at the rev5 escalated tier (consolidation, not deepening): ESC-014 0.82 (UNCHANGED), ESC-011 0.80 (UNCHANGED), Bersatu 0.74 (UNCHANGED), Muhyiddin 0.80→0.81 (+1.25%, reinforced), Annuar Musa 0.72→0.70 (−2.8%, confidence-reduction per speaker-label caveat), PAS/Hadi 0.70 (UNCHANGED). NEW PIR-06 corroborating negative: Muhyiddin graft-trial surfacing 0.58. NEW PIR-09 negative: Tamim Dahri 0.50 (legal + independent-campaign). All maximally favourable to PH.",
+    "positive_sentiment_trend": "No new positive entities in the rev6 delta (deep-overnight consolidation window produced no new PH-favorable campaign content). PH-favorable positives are carryover: Aminuddin 0.61 (defensive-governance + 'kubu orang' + Utusan 'Kempen berkesan mampu bantu PH pertahankan Ampangan' reinforces), Azizul 0.53 (civil 'friendship match'), Jalaluddin 0.55 (BN momentum/manifesto), SPR-confirmed configuration 0.62. The PH-favorable structural tilt HOLDS via the consolidated opposition fracture (PIR-06 two-sided motion now the master narrative).",
+    "neutral_sentiment_trend": "NEW neutrals: KINIGUIDE 'shifting alliances' 0.55 (PIR-06 master-narrative); Wee 'BN-PN not a merger' 0.48 (PIR-07 MCA management); Anwar 'DAP postpone' 0.50 (PIR-07 PM management); BN 'majoriti mudah' 0.52 (PIR-07 BN self-confidence); BN-PN extends Melaka/PRU16 0.52 (PIR-07 scope expansion). Carryover neutrals: mainstream 'imminent?' framing 0.55, BN-PN understanding operational 0.55, DAP anti-BN tension 0.50, Samsuri post-election continuation 0.52, N.14 Ampangan 0.50, Nazri 0.48, MB-candidate deferred 0.50, Fuziah 0.52, Bujang Abu 0.45.",
+    "numeric_shift_threshold": "No entity exceeds 30% numeric shift in the rev5→rev6 delta (largest: Muhyiddin +1.25%; Annuar Musa −2.8% confidence adjustment). No direction flips. 7 NEW entities have no prior score. The PIR-06 CRITICAL qualitative flag carries forward (consolidation, not new shift).",
+    "shift_threshold_violations": []
+  },
+  "data_gaps_rev6": [
+    "[Rev6Δ RESOLVED] The rev5 entity-extraction gap is RESOLVED: entities_190215.json (revision-6 extraction) now includes the PIR-06 principal actors (Muhyiddin Yassin, Annuar Musa, Ronald Kiandee) and new PIR-09 figures (Saw Yee Fung, Albert Tei, Tamim Dahri, Chong Sin Woon, Dr Wee) in the gazetteer. The rev5 data_gap recommending a revision-6 extraction is CLOSED.",
+    "[Rev6Δ NEW CAVEAT — CARRIED] Annuar Musa speaker-label ambiguity: collection_metadata.json and the source (The Star) label the 'Bersatu's use of own logo shows it wants to part ways with PN' speaker as 'Bersatu sec-gen Annuar Musa'. However, the known Bersatu Secretary-General is Datuk Seri Hamzah Zainudin, and the prominent 'Tan Sri Annuar Musa' is the BN/UMNO veteran. entities_190215.json flags this naming ambiguity. The statement is RETAINED under the Annuar Musa entry with REDUCED CONFIDENCE (score adjusted 0.72→0.70). This does NOT change the PIR-06 two-sided assessment (Muhyiddin's exit-hint is independently corroborated and is the principal signal). RECOMMENDATION: verify the speaker identity — if it is the BN/UMNO veteran Annuar Musa, the 'part-ways' framing is an EXTERNAL endorsement, not an internal Bersatu signal, which would slightly weaken (but not negate) the corroborating signal.",
+    "[Rev6Δ RESOLVED] Samsuri entity CORRECTED: prior build listed 'Dr Samsuri Anuar' as a 'Bersatu leader' — that was an error. entities_190215.json corrects to Ahmad Samsuri Mokhtar (Terengganu MB / PN chairperson). The PIR-06 assessment is unaffected (Samsuri is the PN/PAS-side figure Muhyiddin rapped for unilaterally entering the BN pact).",
+    "[Rev6Δ CARRIED] Tamim Dahri's intended independent candidate is unnamed in the captured text — identity to verify (possible linkage to Datuk A Saravanan N.33 background vetting, still pending).",
+    "[Rev6Δ CARRIED] 20260716 SENTIMENT ANALYSIS GAP DAY remains unbackfilled (1-day gap in the time series, Day 8).",
+    "[Rev6Δ CARRIED] ESC-002 — ns-sentiment-analysis.sh stub; agent-manual review standing method.",
+    "[Rev6Δ CARRIED] NST article bodies remain bot-blocked (headlines only); bharian bodies unscraped (403/trending). Utusan = workhorse (Malay full text). Malaysiakini = richest PRN source but full bodies paywalled (lead para only). The Star / NST article bodies deferred to a daytime MYT cycle's targeted fetch.",
+    "[Rev6Δ CARRIED] Tok Mat federal title discrepancy (Defence Minister vs DPM) — does not affect heavyweight-candidate sentiment.",
+    "[Rev6Δ CARRIED] N.18 Pilah BN candidate name discrepancy ('S Leza Md Yasin' vs 'Lisa Mat Yassin') — SPR roll authoritative.",
+    "[Rev6Δ CARRIED] Wawasan/Warisan — positioning only, no candidate in SPR list; identity to verify. PN component-ticket labels (PN-WAWASAN, PN-GERAKAN, PN-MIPP, PN-PAS) to confirm.",
+    "[Rev6Δ CARRIED] Albert Tei's identity/affiliation beyond 'businessperson in PN shirt' — confirm whether he is an official PN candidate/aide or an unaffiliated supporter. The 25-second video is documented but his formal role is unconfirmed.",
+    "[Rev6Δ CARRIED] Datuk A Saravanan (N.33 independent) — title/establishment background vetting still pending (carried from rev4).",
+    "[Rev6Δ NEW] Overnight-cycle yield confirmation: THREE consecutive overnight passes (182751, 194028, 205755) have now each returned 0 genuinely new PIR-relevant content (205755 = 0 new titles vs 194028). collection_metadata confirms overnight cycles are low-yield; the next cron trigger before daytime MYT should remain a light stability check. The next meaningful sentiment run should execute after the daytime MYT 19 Jul collection cycle (campaign Day-2 events and statements)."
+  ],
+  "verdict": "CAMPAIGN DAY 1 DEEP-OVERNIGHT CONSOLIDATION (05:04 MYT 19 Jul) — the PIR-06 CRITICAL flag is CARRIED FORWARD; this revision records NO NEW critical shift (the escalation was rev4→rev5; rev5→rev6 is consolidation, not further escalation). The rev5 two-sided/three-sided principal-level coalition-restructuring motion is now CONSOLIDATED as the mainstream campaign master-narrative: Malaysiakini's KINIGUIDE 'Shifting alliances as battle royale for Negeri Sembilan begins' (Top Story analytical wrap) frames the entire election under the Bersatu-exit / shifting-alliances story; Bersatu PRESIDENT Tan Sri Muhyiddin Yassin reinforces with 'sole true opposition' (Utusan + The Star) and an explicit 'new bloc after the Negri polls' plan (The Star); the BN-PN electoral understanding is framed as structurally significant beyond NS ('penentu di Melaka, PRU16', Utusan) — the mechanism excluding Bersatu; and the Muhyiddin graft-trial (Jana Wibawa RM24.4m + Bersatu RM1m) resurfaces as a corroborating credibility datum on the principal. The motion remains THREE-SIDED: PN-MT-may-remove-Bersatu (Kiandee, carryover) + Bersatu-may-exit-PN (Muhyiddin/Annuar Musa, reinforced) + PAS-sidelining-Bersatu (Hadi, carryover). NO formal PN Supreme Council (Majlis Tertinggi) removal notice and NO formal Bersatu withdrawal notice have issued — confirmed across THREE consecutive overnight passes (182751, 194028, 205755), each returning formal_removal_notice_detected=false. CAVEAT: the Annuar Musa 'part-ways' speaker-label is ambiguous (known Bersatu Sec-Gen is Hamzah Zainudin; the prominent Annuar Musa is the BN/UMNO veteran) — retained with reduced confidence; this does not change the two-sided assessment (Muhyiddin's exit-hint is independently corroborated). The PIR-09 axis adds a NEW candidate-credibility/legal datum (activist Tamim Dahri surrenders to police in Port Dickson, intends to campaign for an unnamed NS independent). The PIR-07 axis adds MCA-leadership (Wee 'BN-PN not a merger') and PM (Anwar asks DAP to postpone decision) management of the intra-unity DAP-vs-BN/MCA tension downward, plus a BN self-confidence signal ('majoriti mudah') and the BN-PN scope-expansion to Melaka/PRU16. The entities_190215.json revision-6 extraction RESOLVES the rev5 entity-extraction gap (PIR-06 principals + PIR-09 figures now in the gazetteer; Samsuri corrected). No entity exceeds the 30% numeric shift threshold (largest: Muhyiddin +1.25%); no direction flips. The PIR-06 CRITICAL flag carries forward per director directive — the motion is CRITICAL and ongoing, but rev5→rev6 is consolidation, not a new escalation. Trigger #2 (coalition restructuring) is UNCHANGED — reachable via EITHER path (PN-MT removal OR Bersatu exit) but NOT fired. Per trajectory assessment, the most likely near-term outcome remains Bersatu voluntarily realigning/exiting AFTER the Aug 1 poll; a reactive PN-MT removal notice remains possible. No Bersatu candidate withdrawals in the 8 Tier-4 seats (N.04/05/13/14/23/25/31/34). PH-favorable tilt holds and consolidates via the master-narrative consolidation of the opposition fracture. Next meaningful sentiment run should execute after the daytime MYT 19 Jul collection cycle (campaign Day-2 events and statements). TLP:AMBER."
+}
