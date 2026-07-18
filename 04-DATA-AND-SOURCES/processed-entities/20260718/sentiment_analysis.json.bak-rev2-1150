@@ -1,13 +1,13 @@
 {
   "date": "2026-07-18",
-  "generated": "2026-07-18T21:56:36+08:00",
+  "generated": "2026-07-18T19:50:12+08:00",
   "workspace": "/home/p62operator/.openclaw/workspace-ns",
   "classification": "TLP:AMBER",
-  "status": "completed (revision 3 — Cycle 3 / 19:19 MYT delta merged)",
+  "status": "completed (revision 2 — full-day delta merged)",
   "method": "agent-manual source-attributed review (CVS-compliant) + SPR official candidate-list cross-reference",
   "sentiment_model_configured": "Qwen3.5-397B-A17B (OpenOSINT/Aras Integrasi)",
-  "sentiment_model_runtime": "GLM-5.2 (custom) — manual review fallback. Revision 3 applied after detecting that entities_consolidated.json was regenerated at 11:52 UTC (41 sources / 150 entities), 2 minutes after the 11:50 revision-2 pass (31 sources). The 10 new source files (raw-scrape _111951 batch + nomination-day-summary-1919) were not covered by revision 2.",
-  "openosint_status": "NOT ACTIVE — ns-sentiment-analysis.sh remains a stub (prints empty JSON to stdout, entities_analyzed:0, does NOT write sentiment_analysis.json, does NOT call OpenOSINT/Aras API). No credentials in environment. Agent-manual review is the standing CVS-compliant method (ESC-002, Day 8). Revision 3 applied by GLM-5.2 manual-review fallback.",
+  "sentiment_model_runtime": "GLM-5.2 (custom) — manual review fallback",
+  "openosint_status": "NOT ACTIVE — ns-sentiment-analysis.sh remains a stub (prints empty JSON to stdout, entities_analyzed:0, does NOT write sentiment_analysis.json). No API credentials in environment. Agent-manual review is the standing CVS-compliant method (ESC-002, Day 8). Revision 2 applied by GLM-5.2 manual-review fallback after detecting that the 08:31 baseline covered only the first (_010044) collection batch while entities_consolidated spans 31 files / 3 batches.",
   "election_milestone": "NOMINATION DAY — 18 Jul 2026 (candidates officially filed; polling day confirmed 1 Aug 2026)",
   "source_basis": {
     "collection_date": "20260718",
@@ -35,24 +35,10 @@
         "files": 1,
         "intelligence_asset": true,
         "covered_by_revision2": true
-      },
-      "_111951": {
-        "files": 9,
-        "covered_by_revision2": false,
-        "covered_by_revision3": true,
-        "window": "19:19 MYT (11:19 UTC) — Cycle 3 of Nomination Day",
-        "note": "raw-scrape batch: bharian, freemalaysiatoday, kosmo, malaysiakini, mstar, nst, ohbulan, thestar, utusan"
-      },
-      "nomination-day-summary-1919": {
-        "files": 1,
-        "intelligence_asset": true,
-        "covered_by_revision3": true,
-        "supersedes": "nomination-day-summary-1633.md for escalation-flag currency",
-        "note": "PIR-framework Nomination Day Surge product, Cycle 3 (19:19 MYT). Used to LOCATE items only; media source files cited as attribution per CVS."
       }
     },
-    "total_source_files": 41,
-    "total_entities_extracted": 150,
+    "total_source_files": 31,
+    "total_entities_extracted": 146,
     "sources_with_editorial_body": [
       "utusan.com.my (VERBATIM PROSE — 'Negeri Sembilan medan penyatuan undi Melayu'; contains Samsuri's on-record refutation of Muhyiddin: 'dakwaan ... adalah tidak berasas' + 'Proses berkenaan telah dimuktamadkan dan diluluskan oleh Majlis Tertinggi PN')",
       "thestar.com.my (FULL LEADS + EC/police datelines: 'Total of 21 seats to see three-cornered contests, says EC'; 'No untoward incidents during nomination process, say police'; 'Barisan, Perikatan have an understanding ... not a merger, says Dr Wee'; analyst 'Malay tsunami forming in Negri Sembilan?'; headline ticker 'BN confident of securing simple majority')",
@@ -63,7 +49,7 @@
       "bharian.com.my (404 body + trending sidebar ONLY — headlines verbatim: 'Jajaran BN-PN di depan'; 'Kerjasama BN-PN hanya persefahaman, bukan gabungan - MCA'; 'PH masih berpeluang pertahankan Negeri Sembilan'; 'Kejayaan pentadbiran PH, keupayaan Aminuddin fokus kempen - Fahmi'; 'Lawan MB NS di Linggi, calon BN tekad kempen secara matang'; 'Tun Faisal tumpu isu perbandaran lama di Sikamat'; 'Sepupu bertembung di Klawang'; 'Saingan berbeza tiga warlord'; 'Kesefahaman BN-PN demi kestabilan politik - Asyraf Wajdi'; carried 'Pimpinan UMNO bahagian tak puas hati 11 kerusi'; 'DAP bakal dihukum')"
     ],
     "verified_intelligence_asset": "spr-candidate-list-20260718.json — OFFICIAL SPR candidate list (103 candidates, 36 DUNs). PRIMARY ground truth for candidate-party-seat mapping.",
-    "intelligence_summaries": "nomination-day-summary-1509.md + -1633.md + -1919.md (PIR-framework Nomination Day Surge products) — used as structured cross-reference; all sentiment entries are re-attributed to underlying media source files per CVS standard.",
+    "intelligence_summaries": "nomination-day-summary-1509.md + nomination-day-summary-1633.md (PIR-framework Nomination Day Surge products) — used as structured cross-reference; all sentiment entries are re-attributed to underlying media source files per CVS standard.",
     "cvs_standard": "Sentiment based on verified source content only. No pattern-inferred sentiment. All entities source-attributed (verbatim surface match). SPR candidate list used as ground-truth cross-reference. Intelligence summaries used only to locate items; media source files cited as attribution."
   },
   "spr_candidate_list_summary": {
@@ -117,9 +103,9 @@
       "N.33 Sri Tanjung"
     ]
   },
-  "entities_analyzed": 57,
+  "entities_analyzed": 56,
   "entities_analyzed_by_category": {
-    "politicians": 17,
+    "politicians": 16,
     "parties": 12,
     "constituencies": 12,
     "organizations": 4,
@@ -253,19 +239,6 @@
           "spr-candidate-list-20260718.json"
         ],
         "confidence": "HIGH — Astro Awani/Bernama photo caption + SPR verified"
-      },
-      {
-        "entity": "[19:19Δ] Datuk Seri R. Ramanan (PKR VP / Sungai Buloh MP — federal surrogate) — first concrete PH nomination-centre mobilisation",
-        "category": "politician (federal surrogate / machinery)",
-        "sentiment": "positive",
-        "score": 0.55,
-        "rationale": "NEW (20 occurrences — highest-visibility NEW politician in the 11:52 extraction; absent from the revision-2 corpus). The Star (SEREMBAN, Wisma MBS / Seremban City Council Building nomination centre, 18 Jul): PKR vice-president and Sungai Buloh MP Datuk Seri R. Ramanan was at the nomination centre to show support for six Pakatan Harapan (PH) candidates. Per nomination-day-summary-1919 (PIR-13/PIR-22): 'the first concrete nomination-centre mobilisation datum of the day, indicating coordinated PH machinery concentration at the Seremban nomination centre.' Positive for PH: a named federal-level surrogate (PKR VP + MP) physically deployed to back 6 PH candidates signals coordinated PH machinery — extending the revision-2 finding that PH's edge shifted from STRUCTURAL to STRUCTURAL+NARRATIVE now adds a MACHINERY/mobilisation dimension. CAVEAT (CVS): R. Ramanan is a federal MP (Sungai Buloh, Selangor), NOT an NS candidate; he is a surrogate/mobiliser. No candidate of his appears under a Ramanan name in the SPR NS list. Scored for the mobilisation signal, not as a contesting candidate.",
-        "sources": [
-          "thestarcommy_20260718_111951.md",
-          "nomination-day-summary-1919.md",
-          "entities_politicians.json"
-        ],
-        "confidence": "HIGH — The Star dateline-confirmed (SEREMBAN/Wisma MBS) + cross-referenced to intelligence summary; federal-surrogate role verified"
       }
     ],
     "neutral": [
@@ -468,10 +441,10 @@
     ]
   },
   "sentiment_distribution": {
-    "positive": 11,
+    "positive": 10,
     "neutral": 9,
     "negative": 6,
-    "total_scored": 26,
+    "total_scored": 25,
     "baseline_0831": {
       "positive": 4,
       "neutral": 4,
@@ -483,12 +456,7 @@
       "neutral": 5,
       "negative": 2
     },
-    "delta_1919": {
-      "positive": 1,
-      "neutral": 0,
-      "negative": 0
-    },
-    "note": "Revision-3 merged distribution. Baseline (08:31) 4/4/4; revision-2 delta (16:33) +6 pos/+5 neu/+2 neg -> 10/9/6; revision-3 delta (19:19) +1 pos (R. Ramanan PH machinery mobilisation) -> 11/9/6. NET: the PH-favorable tilt STRENGTHENS further with the first concrete PH machinery/mobilisation datum (a named federal surrogate deployed to back 6 PH candidates at the Seremban nomination centre). The dominant development of Cycle 3 is the ESCALATION of the Bersatu-PN split TOWARD FORMALIZATION — 'PN has grounds to remove Bersatu, says Kiandee' (NST) — captured as ESC-014 (CRITICAL, NEW) and as updates to ESC-010/ESC-011, not as a new sentiment_summary entry (it deepens the existing fracture entry rather than introducing a new sentiment dimension)."
+    "note": "Full-day merged distribution. Baseline (08:31, _010044 batch) was 4/4/4 (BALANCED, structurally PH-favorable). Delta (16:33, _070937+_083302+summaries) ADDS: +6 positive (PH-narrative emergence, clean-nomination multi-source upgrade, Faizal mature challenge, Razali ex-police credibility, Ismail unfazed, LeeVinesh youth), +5 neutral (understanding-not-merger containment, Zahid, Hadi, Malay-tsunami analyst, Wawasan positioning), +2 negative (Bersatu-Pn mutual fracture, Muhyiddin sole-opposition escalation). NET SHIFT: the PH-favorable tilt STRENGTHENS and is now NARRATIVE-backed (PH proactive voice FILLS the 08:31 gap), while the opposition fracture deepens to a MUTUAL leadership-level war. New PH-risk vector: the 'Malay tsunami' analyst narrative (ESC-007/ESC-013 upward pressure), though structurally counteracted by the Bersatu-PN split. Distribution remains balanced in count but the negative entries are higher-severity (CRITICAL mutual fracture) and the positives now include a proactive incumbent narrative."
   },
   "party_sentiment_matrix": {
     "PH": {
@@ -499,8 +467,7 @@
       ],
       "assessment": "PH's structural position has IMPROVED. The opposition has fractured into 3 forces (BN 25, PN 11, Bersatu 24), creating 25 multi-cornered seats that split the opposition vote. PH confirmed a full 36-candidate slate (one per DUN). MB Aminuddin moved to Linggi (confirmed). PH still has minimal narrative voice (6 occ) but is now the indirect BENEFICIARY of opposition self-fragmentation. The 20260717 'PH reduced to target' verdict is SUPERSEDED — PH is back to a structurally favored incumbent position, though without a strong proactive media narrative today.",
       "cvs_status": "VERIFIED — SPR candidate list (36 PH candidates) + multi-source editorial",
-      "revision2_delta": "PROACTIVE NARRATIVE EMERGES (fills the 08:31 'minimal narrative voice' gap). Fahmi Fadzil (Comms Minister, JEMPOL): 'PH banking on Aminuddin's MB track record' (NST). Loke: NS-as-DAP-referendum + Jelebu-4-seats-critical (NST + Astro Awani). Fuziah Salleh (PKR): integrity framing (Astro Awani). PH now has BOTH structural advantage (opposition split) AND narrative voice. VERDICT SUPERSEDES the 08:31 'minimal narrative voice' note — PH's edge is now narrative-backed, not merely structural.",
-      "revision3_delta": "MACHINERY/MOBILISATION dimension added. R. Ramanan (PKR VP, Sungai Buloh MP) deployed to the Wisma MBS (Seremban City Council) nomination centre to back 6 PH candidates (The Star, SEREMBAN) — the first concrete nomination-centre mobilisation datum of the day. PH's edge is now STRUCTURAL + NARRATIVE (rev 2) + MACHINERY (rev 3). PH's proactive posture continues to strengthen."
+      "revision2_delta": "PROACTIVE NARRATIVE EMERGES (fills the 08:31 'minimal narrative voice' gap). Fahmi Fadzil (Comms Minister, JEMPOL): 'PH banking on Aminuddin's MB track record' (NST). Loke: NS-as-DAP-referendum + Jelebu-4-seats-critical (NST + Astro Awani). Fuziah Salleh (PKR): integrity framing (Astro Awani). PH now has BOTH structural advantage (opposition split) AND narrative voice. VERDICT SUPERSEDES the 08:31 'minimal narrative voice' note — PH's edge is now narrative-backed, not merely structural."
     },
     "BN": {
       "status": "PRESENT (12 occurrences) — sentiment NEUTRAL (pact holds, under strain). Down from 20260717 (13 occ, 0.75 positive)",
@@ -511,8 +478,7 @@
       ],
       "assessment": "BN-PN electoral pact VERIFIED intact (zero BN-vs-PN overlap in SPR list). 25 BN candidates. But DUAL strain: (1) Bersatu contests against BN in 16 seats (a new direct rival); (2) UMNO division leaders unhappy 11 seats given to PN (bharian). The Malay-vote-unification strategy is threatened by Bersatu's vote-splitting. Tok Mat's Rantau candidacy is a major asset (heavyweight, 2-cornered vs PH). Net: pact holds at leadership level but contested at grassroots + new external rival.",
       "cvs_status": "VERIFIED — SPR candidate list + multi-source editorial",
-      "revision2_delta": "Leadership SYNCHRONISES 'understanding, not merger' containment re-framing: Zahid (REMBAU), Wee/MCA, Johari (TAMPIN), Asyraf Wajdi. ESC-009 downgraded from 'verified pact' to informal BN-PAS understanding. New confidence signal: 'BN confident of securing simple majority to form state government' (Star ticker); manifesto launch 24 Jul (NST). Zahid (11 occ, REMBAU) is the highest-visibility new politician. BN's southern axis anchored: Zahid-Rembau, Johari-Tampin, Tok Mat-Rantau.",
-      "revision3_delta": "Zahid ELEVATES the NS strategic stakes to a bellwether/realignment determinant. The Star (JEMPOL): 'New political alignments needed to ensure stability, says Ahmad Zahid'; Astro Awani: 'PRN Negeri Sembilan: Prestasi BN-PN mungkin jadi penentu jajaran baharu PRN Melaka, PRU16 — Ahmad Zahid.' The BN/UMNO president publicly frames the NS result as a determinant of future national coalition restructuring (Melaka PRN + PRU16 lineups) — rhetorically adjacent to trigger #2. BN's 'understanding, not merger' containment (rev 2) is reinforced; BN confident of simple majority (Star ticker, carried)."
+      "revision2_delta": "Leadership SYNCHRONISES 'understanding, not merger' containment re-framing: Zahid (REMBAU), Wee/MCA, Johari (TAMPIN), Asyraf Wajdi. ESC-009 downgraded from 'verified pact' to informal BN-PAS understanding. New confidence signal: 'BN confident of securing simple majority to form state government' (Star ticker); manifesto launch 24 Jul (NST). Zahid (11 occ, REMBAU) is the highest-visibility new politician. BN's southern axis anchored: Zahid-Rembau, Johari-Tampin, Tok Mat-Rantau."
     },
     "PN": {
       "status": "PRESENT (17 occurrences, MOST-MENTIONED) — sentiment NEUTRAL (coalition fractured). Down from 20260717 (15 occ, 0.72 positive)",
@@ -523,8 +489,7 @@
       ],
       "assessment": "PN has LOST Bersatu — its largest Malay component — which is now contesting 24 seats separately against PN in 8 seats. PN is reduced to a PAS-led rump (11 seats). The 'new political alignment' framing (20260717) is undermined. PN Chairman Ahmad Samsuri (PAS) continues to rebut Muhyiddin (friction ongoing). PN retains the BN pact (no BN-vs-PN overlap) and 11 seats, but is strategically diminished. The coalition that 'achieved unity' yesterday has fractured today.",
       "cvs_status": "VERIFIED — SPR candidate list (11 PN, 24 Bersatu separate) + multi-source editorial",
-      "revision2_delta": "FRICTION DEEPENS TO MUTUAL, ON THE RECORD. Samsuri (PN Chairman, Utusan verbatim) publicly refutes Muhyiddin — 'dakwaan ... adalah tidak berasas' + 'Proses ... diluluskan oleh Majlis Tertinggi PN'. Hadi Awang (PAS President, NST JEMPOL) dismisses Muhyiddin's 'toxic PN' claim and points the finger at Bersatu. Per nomination-day-summary-1633, a PN info chief floated termination of Bersatu's PN membership. The chairman-president rift is now a public mutual confrontation.",
-      "revision3_delta": "TOWARD FORMALIZATION of the Bersatu split. NST (Kiandee): 'PN has grounds to remove Bersatu' — the termination threat acquires concrete 'grounds' (progression: 15:09 'could face' -> 16:33 'info chief floats' -> 19:19 'has grounds'). The highest-priority watch item: if PN executes the removal, the opposition restructures mid-campaign (trigger #2). PN now openly contemplating procedural expulsion of its largest former Malay component."
+      "revision2_delta": "FRICTION DEEPENS TO MUTUAL, ON THE RECORD. Samsuri (PN Chairman, Utusan verbatim) publicly refutes Muhyiddin — 'dakwaan ... adalah tidak berasas' + 'Proses ... diluluskan oleh Majlis Tertinggi PN'. Hadi Awang (PAS President, NST JEMPOL) dismisses Muhyiddin's 'toxic PN' claim and points the finger at Bersatu. Per nomination-day-summary-1633, a PN info chief floated termination of Bersatu's PN membership. The chairman-president rift is now a public mutual confrontation."
     },
     "Bersatu": {
       "status": "PRESENT (16 occurrences — 16x surge from 20260717's 1) — sentiment NEGATIVE (fractured, vote-splitting third force)",
@@ -535,8 +500,7 @@
       ],
       "assessment": "Bersatu is the most DISRUPTIVE force today. Contesting 24 seats independently against BN (16) and PN (8). Muhyiddin calls PN 'toxic' under PAS leadership and announces a new post-election bloc. Bersatu treats the NS PRN as a voter-acceptance test ('nilai penerimaan pengundi'). Kamil Munim's confrontational stance ('if they want to fight, we fight') signals Bersatu is not retreating. The Bersatu breakaway RECREATES the vote-splitting the BN-PN pact was designed to eliminate — directly benefiting PH. Negative for opposition cohesion; defiant/assertive for Bersatu itself.",
       "cvs_status": "VERIFIED — SPR candidate list (24 Bersatu candidates) + 3-source editorial",
-      "revision2_delta": "Muhyiddin escalates: 'Bersatu remains sole opposition voice' / claims 'PN supports the government party' (NST 083302). Bersatu publicly disowns PN as an opposition force. Comprehensive independent posture confirmed: Bersatu fights one or both allies in 20 of its 24 contested DUNs (EC 12-of-36 PH-BN-Bersatu three-cornered, cross-verified to SPR).",
-      "revision3_delta": "Faces formalization of the split. PN 'has grounds to remove Bersatu' (Kiandee, NST) — Bersatu's independent posture (24 seats, fighting allies in 20/24) now risks an actual procedural expulsion from PN during the campaign window. Muhyiddin's 'sole opposition' / 'PN supports government' posture (rev 2) continues. Bersatu's defiance is unchanged but now carries an expulsion risk."
+      "revision2_delta": "Muhyiddin escalates: 'Bersatu remains sole opposition voice' / claims 'PN supports the government party' (NST 083302). Bersatu publicly disowns PN as an opposition force. Comprehensive independent posture confirmed: Bersatu fights one or both allies in 20 of its 24 contested DUNs (EC 12-of-36 PH-BN-Bersatu three-cornered, cross-verified to SPR)."
     },
     "PAS": {
       "status": "PRESENT (8 occurrences) — sentiment NEUTRAL-POSITIVE (confident but now effectively leading a diminished PN)",
@@ -545,8 +509,7 @@
         "Abdul Hadi Awang (PAS President, referenced re: winning chance)"
       ],
       "assessment": "PAS candidates run under the PN banner (e.g. Kamarol Ridzuan in Paroi). PAS is now the dominant force within the diminished PN (Bersatu having left). The utusan front-page (17 Jul) still quotes PAS Deputy Commissioner on winning chances and Chinese voter shift. PAS is 'ready to face Bersatu' (NST: 'Pas ready to face Bersatu in Negri Sembilan polls' — PAS prepared for clashes with its former PN ally). Confident but now leading a smaller coalition and at war with Bersatu.",
-      "cvs_status": "VERIFIED — SPR candidate list (PN/PAS candidates) + multi-source editorial",
-      "revision3_delta": "Hadi (JEMPOL, NST) confirms PAS is now the THIRD PARTY in the Bersatu-vs-PN confrontation — the split is Bersatu vs (PN+PAS), three-way. PAS 'ready to face Bersatu' (NST) and Hadi personally dismisses Muhyiddin's 'toxic PN' claim (rev 2). PAS now openly at war with Bersatu; the PN-removal-of-Bersatu threat (Kiandee) advances PAS's position as the surviving Malay core of PN."
+      "cvs_status": "VERIFIED — SPR candidate list (PN/PAS candidates) + multi-source editorial"
     },
     "UMNO": {
       "status": "PRESENT (3 occurrences — DOWN from 20260717's 9) — sentiment NEUTRAL (internal dissent, reduced visibility)",
@@ -693,8 +656,7 @@
       "severity": "CRITICAL",
       "trend": "DEEPENED — 08:31 (Muhyiddin isolated/contradictory) → 16:33 (MUTUAL: Hadi attacks back, Samsuri refutes on record, Muhyiddin 'sole opposition' disowns PN, PN info chief floats termination)",
       "evidence": "NST: 'Muhyiddin says Bersatu remains sole opposition voice'; NST (JEMPOL): 'Hadi dismisses Muhyiddin's toxic PN claim, points finger at Bersatu'; Utusan (verbatim): Samsuri — 'dakwaan ... adalah tidak berasas' + 'Proses ... diluluskan oleh Majlis Tertinggi PN'; nomination-day-summary-1633: PN info chief floats termination of Bersatu's membership.",
-      "significance": "The 08:31 'Muhyiddin isolated' framing is SUPERSEDED. The Bersatu-PN split is now a public, mutual, leadership-level war (chairman vs president, PAS president vs Bersatu president), with a membership-termination threat floated. This is the most opposition-cohesion-negative development of the cycle and maximally favourable to the incumbent (PH).",
-      "revision3_update": "REFINED — the split is now THREE-WAY: Bersatu vs (PN+PAS). Hadi Awang (JEMPOL, NST) confirms PAS is now the third party in the confrontation (defends PN/PAS, attacks Bersatu). The 16:33 'mutual Muhyiddin-vs-Samsuri' framing is extended to a Bersatu-vs-(PN+PAS) war. Cycle 3 escalation: PN 'has grounds to remove Bersatu' (Kiandee, NST) — see NAR-18."
+      "significance": "The 08:31 'Muhyiddin isolated' framing is SUPERSEDED. The Bersatu-PN split is now a public, mutual, leadership-level war (chairman vs president, PAS president vs Bersatu president), with a membership-termination threat floated. This is the most opposition-cohesion-negative development of the cycle and maximally favourable to the incumbent (PH)."
     },
     {
       "id": "NAR-13",
@@ -730,8 +692,7 @@
       "severity": "MEDIUM",
       "trend": "REFINED — 08:31 (25 multi-cornered, SPR-derived) → 16:33 (EC official: 21 three-cornered; 12 are PH-BN-Bersatu, cross-verified to SPR roll).",
       "evidence": "The Star (SEREMBAN, EC official): 'Total of 21 seats to see three-cornered contests' + 'PH, BN, Bersatu in three-cornered fights in 12 of the 36'. Cross-verified to SPR roll: 12 PH-BN-Bersatu (N02,N03,N06,N09,N12,N15,N16,N17,N20,N24,N28,N32) + 8 PH-BN-Bersatu-PN direct-clash (N04,N05,N13,N14,N23,N25,N31,N34) + 1 PH-PN-Ind (N30) = 21 three-cornered. Bersatu fights one/both allies in 20 of 24 seats.",
-      "significance": "EC-official granularity confirms the opposition fragmentation is COMPREHENSIVE, not partial. Bersatu's independent-from-PN posture is verified across nearly all its seats.",
-      "revision3_update": "CORROBORATED — NST independently confirms the EC's 21 three-cornered + 2 five-way figure: 'N9 polls: Three-cornered contests on the rise, two seats witness five-way fights'. The two five-way fights are N.10 Nilai and N.33 Sri Tanjung. PIR-04 lifted from 'EC single-source' to CONFIRMED (EC + NST mainstream). Bersatu's independent posture verified across nearly all seats."
+      "significance": "EC-official granularity confirms the opposition fragmentation is COMPREHENSIVE, not partial. Bersatu's independent-from-PN posture is verified across nearly all its seats."
     },
     {
       "id": "NAR-17",
@@ -741,24 +702,6 @@
       "trend": "NEW — first-day candidate-framing sweep across the later batches.",
       "evidence": "Astro Awani: 'Mohd Faizal terbuka terima cabaran Aminuddin di Linggi' + bharian 'calon BN tekad kempen secara matang'; NST: 'Tun Faisal faces ex-Melaka deputy police chief in Sikamat' (Razali); Astro Awani/Bernama: 'Leevineshwaraan calon termuda'; NST: 'BN unfazed by three-cornered fight in Juasseh' (Ismail Lasim); Astro Awani: 'Tok Mat antara paling otai'.",
       "significance": "Across both coalitions, candidates project confidence/credibility (Faizal mature, Razali institutional, Ismail unfazed, Tok Mat heavyweight, LeeVinesh youth+demographic-fit). Positive candidate-quality signal but in 3-cornered/5-way seats the opposition vote splits and advantages PH."
-    },
-    {
-      "id": "NAR-18",
-      "indicator": "Bersatu-PN split TOWARD FORMALIZATION — 'PN has grounds to remove Bersatu, says Kiandee' (NST)",
-      "type": "Electoral — coalition fracture (escalation toward procedural expulsion)",
-      "severity": "CRITICAL",
-      "trend": "DEEPENED toward formalization — 16:33 (mutual on-the-record confrontation, PN info chief floats termination) -> 19:19 (NST, Kiandee: PN 'has grounds' to remove Bersatu). The termination threat acquires concrete 'grounds'.",
-      "evidence": "NST: 'PN has grounds to remove Bersatu, says Kiandee'. Per nomination-day-summary-1919: progression 15:09 'could face termination' (Star ticker) -> 16:33 'info chief floats termination' (summary-1633) -> 19:19 'has grounds to remove' (NST, Kiandee). Single highest-priority watch item; escalation trigger #2 (coalition restructuring/realignment) adjacent.",
-      "significance": "If PN executes the removal, the opposition restructures MID-CAMPAIGN (trigger #2 fires). This is the closest the cycle has come to a trigger firing. ESC-010/ESC-011 progress from mutual confrontation toward a potential procedural expulsion; new ESC-014 raised. Maximally favourable to the incumbent (PH) — an expelled/contested Bersatu further fragments the opposition vote."
-    },
-    {
-      "id": "NAR-19",
-      "indicator": "Zahid bellwether/realignment framing — NS result as determinant of PRN Melaka + PRU16 lineups",
-      "type": "Electoral — strategic-stakes elevation (national realignment framing)",
-      "severity": "MEDIUM-HIGH",
-      "trend": "NEW — BN/UMNO president publicly elevates the NS contest to a determinant of future national coalition restructuring.",
-      "evidence": "The Star (JEMPOL): 'New political alignments needed to ensure stability, says Ahmad Zahid'; Astro Awani (~19:14 MYT): 'PRN Negeri Sembilan: Prestasi BN-PN mungkin jadi penentu jajaran baharu PRN Melaka, PRU16 — Ahmad Zahid.'",
-      "significance": "Elevates the strategic stakes of the NS contest beyond a single state election — the BN/UMNO president publicly frames NS as a bellwether for national coalition restructuring (Melaka PRN + PRU16 lineups). Rhetorically adjacent to trigger #2 (alliance/realignment). Reinforces BN's 'understanding, not merger' containment (rev 2) while hedging toward post-election realignment. Watch for any concrete BN-PAS or BN-PH accommodation signal."
     }
   ],
   "escalation_flags": [
@@ -770,8 +713,7 @@
       "description": "The standing opposition-unity flag (ESC-006, 'RESOLVED' on 20260717) is REVERSED. The SPR official candidate list reveals Bersatu is contesting 24 seats SEPARATELY from PN under its own BERSATU banner, going head-to-head against PN in 8 seats (Klawang, Serting, Sikamat, Ampangan, Mambau, Paroi, Bagan Pinang, Gemas) and against BN in 16 seats. Muhyiddin calls PN 'toxic' under PAS leadership and announces Bersatu will form a new coalition/bloc after the NS election. PAS is 'ready to face Bersatu.' The opposition has fractured from a unified BN+PN bloc (20260717) into THREE forces (BN 25, PN 11, Bersatu 24). 25 of 36 seats are multi-cornered. The Malay-vote-unification strategy is undermined by Bersatu's vote-splitting. The incumbent (PH) is the chief structural beneficiary.",
       "action": "Track the 8 Bersatu-vs-PN seats for vote-splitting margins. Monitor whether Bersatu's new-bloc announcement triggers further coalition realignment. Watch for Bersatu-PN campaign clashes (social-media monitoring active). Assess whether Muhyiddin's contradictory messaging (toxic + new bloc + not quitting) stabilizes or escalates. Cross-reference 2023 SPR results for the 8 head-to-head seats.",
       "carries_forward": "REVERSES ESC-006-20260717 (opposition unity, RESOLVED) — REOPENED. ESCALATES ESC-010-20260717 (PN internal friction, MEDIUM) to CRITICAL. SUPERSEDES ESC-009-20260717 (BN-PN pact) — bilateral pact holds but broader unity broken.",
-      "revision2_update": "DEEPENED to MUTUAL, ON-THE-RECORD confrontation. Hadi Awang (NST, JEMPOL) dismisses 'toxic PN' and points finger at Bersatu; Samsuri (Utusan verbatim) refutes Muhyiddin ('tidak berasas'); Muhyiddin (NST 083302) declares Bersatu 'sole opposition' and claims PN supports the government; PN info chief floats termination of Bersatu's membership (summary-1633). Severity remains CRITICAL; the fracture is now a public mutual leadership war, not a one-sided spat.",
-      "revision3_update": "TOWARD FORMALIZATION — 'PN has grounds to remove Bersatu, says Kiandee' (NST, Cycle 3/19:19). The mutual confrontation (rev 2) now threatens to formalize into a procedural expulsion during the campaign window. The termination threat has acquired concrete 'grounds' (progression: 'could face' -> 'info chief floats' -> 'has grounds'). The split is now THREE-WAY: Bersatu vs (PN+PAS) (Hadi, JEMPOL). Severity remains CRITICAL; the fracture is escalating toward a formal coalition-restructuring event (trigger #2 adjacent). See new ESC-014."
+      "revision2_update": "DEEPENED to MUTUAL, ON-THE-RECORD confrontation. Hadi Awang (NST, JEMPOL) dismisses 'toxic PN' and points finger at Bersatu; Samsuri (Utusan verbatim) refutes Muhyiddin ('tidak berasas'); Muhyiddin (NST 083302) declares Bersatu 'sole opposition' and claims PN supports the government; PN info chief floats termination of Bersatu's membership (summary-1633). Severity remains CRITICAL; the fracture is now a public mutual leadership war, not a one-sided spat."
     },
     {
       "id": "ESC-006-20260718",
@@ -790,8 +732,7 @@
       "description": "Yesterday's MEDIUM friction (Ahmad Samsuri rebuts Muhyiddin's claim as 'tidak berasas') has ESCALATED to an open split. Muhyiddin now calls PN 'toxic' under PAS leadership (NST), announces a new Bersatu bloc (The Star), then contradicts himself by insisting Bersatu is 'not quitting PN' (The Star). Bersatu contests 24 seats separately. PAS is 'ready to face Bersatu' (NST). The chairman-president rift is now a formal coalition fracture on the ballot.",
       "action": "Monitor Muhyiddin's messaging consistency (toxic + new bloc + not quitting = contradictory). Track whether PAS-led PN and Bersatu campaign AGAINST each other in the 8 head-to-head seats. Assess impact on PN's 11-seat slate (does the split demoralize PN voters?). Watch for further Bersatu leadership statements.",
       "carries_forward": "ESC-010-20260717 (MEDIUM) → CRITICAL. Relates to 20260714 Muhyiddin vulnerability (Pagoh, Nepturis).",
-      "revision2_update": "DEEPENED to MUTUAL, ON THE RECORD. Samsuri's verbatim refutation (Utusan) + Hadi's counter-attack (NST JEMPOL) + Muhyiddin's 'sole opposition' escalation (NST). Chairman-vs-president contradiction is now public and mutual. CRITICAL.",
-      "revision3_update": "TOWARD FORMALIZATION — PN 'has grounds to remove Bersatu' (Kiandee, NST). The chairman-vs-president rift (rev 2) now carries an actual procedural-expulsion risk. CRITICAL."
+      "revision2_update": "DEEPENED to MUTUAL, ON THE RECORD. Samsuri's verbatim refutation (Utusan) + Hadi's counter-attack (NST JEMPOL) + Muhyiddin's 'sole opposition' escalation (NST). Chairman-vs-president contradiction is now public and mutual. CRITICAL."
     },
     {
       "id": "ESC-009-20260718",
@@ -801,8 +742,7 @@
       "description": "The 20260717 BN-PN electoral pact (ESC-009, HIGH) is VERIFIED at ground truth: the SPR list shows ZERO BN-vs-PN overlap (25 BN + 11 PN, no shared seats). The bilateral pact holds. HOWEVER, the pact's PURPOSE (unify the opposition to defeat PH) is undermined because Bersatu (24 seats) sits OUTSIDE the pact and contests both BN and PN. The '36 opposition candidates matching PH's slate' claim (20260717) is WRONG — total opposition candidates = 60, and they fight each other in 24 seats.",
       "action": "Monitor for BN-PN pact stability (any cracks would re-escalate). Track the 11 PN seats and 25 BN seats for pact compliance. Note that the bilateral pact is now a subset of a fragmented opposition picture.",
       "carries_forward": "ESC-009-20260717 (HIGH) → bilateral pact VERIFIED; broader unity SUPERSEDED by ESC-011.",
-      "revision2_update": "DOWNGRADED in framing — 4 BN leaders (Zahid/Wee/Johari/Asyraf) synchronise 'understanding, not merger' containment line. Bilateral arrangement holds but is re-framed as an informal BN-PAS understanding, not a formal pact. BN itself abandons the 'unified opposition' framing.",
-      "revision3_update": "STRATEGIC-STAKES ELEVATION — Zahid (JEMPOL) frames the NS result as a determinant of PRN Melaka + PRU16 coalition lineups (Star + Astro Awani). The 'understanding, not merger' containment (rev 2) is reinforced while BN hedges toward post-election realignment. Watch for concrete accommodation signals."
+      "revision2_update": "DOWNGRADED in framing — 4 BN leaders (Zahid/Wee/Johari/Asyraf) synchronise 'understanding, not merger' containment line. Bilateral arrangement holds but is re-framed as an informal BN-PAS understanding, not a formal pact. BN itself abandons the 'unified opposition' framing."
     },
     {
       "id": "ESC-007-20260718",
@@ -869,15 +809,6 @@
       "description": "The Star analysis 'Malay tsunami forming in Negri Sembilan?' posits Malay-vote consolidation as the decisive dynamic. If consolidation favours a unified BN-PN, it elevates Tier-3/Tier-4 seats and threatens PH's 4 Malay seats (Klawang, Ampangan, Sikamat, Pilah). The Bersatu-PN split structurally counteracts consolidation (Bersatu splits the Malay vote in 20/24 seats).",
       "action": "Track whether the 'Malay tsunami' narrative gains traction in campaign-period coverage and whether it overrides the Bersatu-split effect in Malay-majority seats. Cross-reference 2023 SPR margins for the 4 PH Malay seats.",
       "carries_forward": "NEW flag. Relates to ESC-007 (PH Malay seats)."
-    },
-    {
-      "id": "ESC-014-20260718",
-      "severity": "CRITICAL",
-      "category": "PN removal-of-Bersatu threat TOWARD FORMALIZATION — 'has grounds to remove' (Kiandee, NST)",
-      "status": "NEW (revision 3)",
-      "description": "NST: 'PN has grounds to remove Bersatu, says Kiandee.' The Bersatu-PN termination threat has progressed from 'could face termination' (15:09, Star ticker) -> 'info chief floats termination' (16:33, summary-1633) -> 'has grounds to remove' (19:19, NST, Kiandee). This is the strongest signal yet that ESC-010/ESC-011 may formalize into an actual procedural expulsion during the campaign window. Per nomination-day-summary-1919: the single highest-priority watch item; escalation trigger #2 (coalition restructuring/realignment) is adjacent — the closest the cycle has come to a trigger firing.",
-      "action": "Track PN/Bersatu/PAS official channels for any formal removal notice, Bersatu retaliation, or candidate withdrawals. Determine whether 'has grounds' is (a) rhetorical pressure to force Bersatu to withdraw candidates or (b) a genuine procedural expulsion in motion. Track Zahid's 'new political alignments' / 'NS determines PRU16' framing for concrete BN-PAS or BN-PH accommodation.",
-      "carries_forward": "NEW flag. Escalates ESC-010/ESC-011 toward formalization. Adjacent to trigger #2."
     }
   ],
   "data_gaps": [
@@ -899,12 +830,9 @@
     "[16:33Δ NEW] Tok Mat federal title discrepancy — 08:31 baseline says 'Defence Minister'; nomination-day-summary-1633 calls him 'DPM'. Verify against official cabinet list. Does not affect heavyweight-candidate sentiment.",
     "[16:33Δ PARTIAL] Wawasan/Warisan — Star reports the party chairman positioning for a post-election opposition-coalition role, but NO Wawasan/Warisan-branded candidate appears in the SPR list. Party is positioning/endorsing, not contesting. Identity (Warisan vs 'Wawasan') still to verify.",
     "[16:33Δ THIN] MUDA — 4 occurrences in astroawanicom_20260718_083302 per extractor, but verbatim context is thin in the headline/lead scrape. Treated as MENTIONED, not sentiment-scored.",
-    "[16:33Δ PERSISTENT] bharian article bodies remain unscraped (404 page + trending sidebar only) — the Jajaran-BN-PN, Klawang-cousins, three-warlord, and Tun-Faisal-urban-issues stories remain headline-only (confidence capped).",
-    "[19:19Δ FORWARD-LOOKING] A NEWER collection batch is NOT yet extracted: raw-scrape _130328 batch (7 files: bharian, kosmo, mstar, nst, ohbulan, thestar, utusan) + nomination-day-summary-2103.md (Cycle 4, 21:03 MYT, 33KB) + 5 manual_*_130328 files (kerusi-tumpuan, kualapilah, senarai-calon, tangjayson, warlord) arrived 13:04-13:12 UTC, AFTER the 11:52 entity extraction. These are in raw-scrapes/20260718/ but NOT yet in processed-entities/20260718/. They are OUT OF SCOPE for this revision-3 sentiment pass (input = extracted entities). RECOMMENDATION: run ns-entity-extraction-enhanced.py on the full corpus, then a revision-4 sentiment delta merge to cover the 130328 batch + summary-2103.",
-    "[19:19Δ CARRIED] 20260716 SENTIMENT GAP DAY remains unbackfilled (1-day gap persists, Day 8).",
-    "[19:19Δ CARRIED] ESC-002 — ns-sentiment-analysis.sh remains a stub; agent-manual review is the standing CVS-compliant method."
+    "[16:33Δ PERSISTENT] bharian article bodies remain unscraped (404 page + trending sidebar only) — the Jajaran-BN-PN, Klawang-cousins, three-warlord, and Tun-Faisal-urban-issues stories remain headline-only (confidence capped)."
   ],
-  "verdict": "NOMINATION DAY (18 Jul 2026) has produced the most consequential development of the cycle and the SECOND 180-degree reversal in 72h. The SPR OFFICIAL CANDIDATE LIST (103 candidates, 36 DUNs) — a verified ground-truth intelligence asset unavailable on prior days — reveals that the opposition has FRACTURED into THREE forces: BN (25 seats), PN (11 seats), and BERSATU (24 seats, contesting SEPARATELY under its own banner). The bilateral BN-PN electoral pact is VERIFIED intact (zero BN-vs-PN overlap), but the broader opposition unity — the dominant positive narrative of 20260717 ('opposition unity achieved', ESC-006 RESOLVED) — is BROKEN. Bersatu, formerly PN's largest Malay component, is now a fully independent third force contesting AGAINST PN in 8 seats (Klawang, Serting, Sikamat, Ampangan, Mambau, Paroi, Bagan Pinang, Gemas) and AGAINST BN in 16 seats. Muhyiddin Yassin calls PN 'toxic' under PAS leadership (NST), announces a new post-election coalition/bloc (The Star), then contradicts himself by insisting Bersatu is 'not quitting PN' (The Star). The result: 25 of 36 seats (69%) are multi-cornered (3+ candidates), recreating the very vote-splitting the BN-PN pact was designed to eliminate ('Jika berpecah akhirnya kita akan kalah'). The INCUMBENT (PH) is the chief structural beneficiary — PH's 20260717 position (reduced to opposition target) has improved back toward its 20260715 first-mover advantage, but via opposition self-fragmentation rather than PH's own action (PH has minimal narrative voice, 6 occ). MB Aminuddin's Linggi move is CONFIRMED (SPR: PH candidate N.32 Linggi) with positive governance framing. BN adds a heavyweight (Tok Mat / Mohamad Hasan for Rantau) but faces internal UMNO dissent (division leaders unhappy 11 seats given to PN). Net NS-relevant sentiment is BALANCED (4 positive / 4 neutral / 4 negative) — a shift from 20260717's opposition-positive (6/4/4) BACK toward a PH-favorable balance. The positive entities are the incumbent side (PH structural beneficiary, MB Aminuddin governance, nomination logistics, Tok Mat); the negative entities are ALL opposition-cohesion failures (Bersatu fracture, Muhyiddin escalation, opposition-unity broken, UMNO dissent). The dominant escalation is ESC-011 (CRITICAL, Bersatu-PN FRACTURE), which REVERSES ESC-006 (REOPENED) and ESCALATES ESC-010 (MEDIUM→CRITICAL). ESC-007 (PH Malay seats at risk) is PARTIALLY COUNTERED — 3 of PH's 4 Malay seats now have split opposition votes. Key intelligence uplift: SPR-verified candidate-party-seat mapping for ALL 36 DUNs (supersedes all prior media-reported candidate claims), confirmed polling day (1 Aug), confirmed MB Aminuddin Linggi move, Tok Mat Rantau candidacy, full contest-structure mapping (11 two-cornered / 21 three-cornered / 2 four-cornered / 2 five-cornered). The NS PRN has moved from a 'genuine two-sided contest' (20260717) to a FRAGMENTED multi-cornered contest favoring the incumbent.\n\n[16:33Δ REVISION 2 — FULL-DAY DELTA MERGED] The later collection batches (raw-scrape _070937 + _083302 + the nomination-day PIR summaries) materially extend and reinforce the 08:31 Nomination-Day verdict, with three movements: (1) the Bersatu-PN fracture DEEPENS from a one-sided Muhyiddin spat (08:31) into a MUTUAL, ON-THE-RECORD leadership confrontation — Hadi Awang dismisses 'toxic PN' and points the finger at Bersatu (NST, JEMPOL); Samsuri verbatim-refutes Muhyiddin in Utusan ('tidak berasas' / 'diluluskan oleh Majlis Tertinggi PN'); Muhyiddin declares Bersatu the 'sole opposition' and claims PN supports the government (NST); a PN info chief floats terminating Bersatu's membership. ESC-011/ESC-010 remain CRITICAL and are now mutual. (2) PH's edge shifts from STRUCTURAL-only to STRUCTURAL + NARRATIVE: Fahmi ('banking on Aminuddin's MB track record'), Loke (NS-as-DAP-referendum + Jelebu-4-seats-critical), and Fuziah/PKR (integrity framing) give PH a proactive voice — FILLING the 08:31 'no PH narrative' gap. (3) BN leadership synchronises an 'understanding, not merger' containment re-framing (Zahid/Wee/Johari/Asyraf), DOWNGRADING ESC-009 from 'verified pact' to an informal BN-PAS understanding — BN itself abandons the 'unified opposition' framing, likely to contain fallout from the Bersatu split + UMNO divisional dissent. The clean nomination is upgraded to multi-source CONFIRMED (EC + PDRM; zero rejections, zero incidents). EC granularity (cross-verified): 21 three-cornered fights, 12 of them PH-BN-Bersatu; Bersatu fights one/both allies in 20 of 24 seats. New candidate-quality sweep (Faizal mature, Razali ex-police, LeeVinesh youngest, Ismail unfazed, Tok Mat heavyweight). The ONE new PH-risk vector is the analyst 'Malay tsunami forming in NS?' narrative (ESC-013, MEDIUM), though it is structurally counteracted by the Bersatu-PN split. NET: the PH-favorable tilt STRENGTHENS and is now narrative-backed; the opposition fracture is the dominant, defining development of Nomination Day. Distribution: 10 positive / 9 neutral / 6 negative (full-day merged; baseline was 4/4/4).\n\n[19:19Δ REVISION 3 — CYCLE 3 DELTA MERGED] The 19:19 MYT collection cycle (raw-scrape _111951 batch + nomination-day-summary-1919) extends the Nomination-Day verdict along three axes: (1) The Bersatu-PN split moves TOWARD FORMALIZATION — NST (Kiandee): 'PN has grounds to remove Bersatu.' The termination threat has acquired concrete 'grounds' (progression: 'could face' -> 'info chief floats' -> 'has grounds'), making this the strongest signal yet that ESC-010/ESC-011 may formalize into an actual procedural expulsion during the campaign window — the single highest-priority watch item, adjacent to trigger #2. The split is now THREE-WAY: Bersatu vs (PN+PAS) (Hadi, JEMPOL). NEW ESC-014 (CRITICAL) raised; ESC-010/ESC-011 updated to 'toward formalization'. (2) Zahid Hamidi ELEVATES the NS strategic stakes to a bellwether/realignment determinant — 'new political alignments needed' (Star, JEMPOL) + 'PRN NS prestasi BN-PN mungkin jadi penentu jajaran baharu PRN Melaka, PRU16' (Astro Awani). The NS contest is now publicly framed as a determinant of future national coalition restructuring (NEW NAR-19). (3) PH's edge gains a MACHINERY/mobilisation dimension — R. Ramanan (PKR VP, Sungai Buloh MP) deployed to the Wisma MBS nomination centre to back 6 PH candidates (The Star, SEREMBAN), the first concrete nomination-centre mobilisation datum of the day. PH's edge is now STRUCTURAL + NARRATIVE (rev 2) + MACHINERY (rev 3). NST independently corroborates the EC's 21 three-cornered + 2 five-way figure (N.10 Nilai, N.33 Sri Tanjung) — PIR-04 CONFIRMED. No escalation trigger has FIRED, but trigger #2 (coalition restructuring) is elevated to WATCH (ELEVATED — HIGHEST PRIORITY), the closest it has been. NET: the PH-favorable tilt STRENGTHENS further; the opposition fracture is escalating toward a formal mid-campaign restructuring event. Distribution: 11 positive / 9 neutral / 6 negative (revision-3 merged; rev-2 was 10/9/6; baseline 4/4/4). FORWARD-LOOKING: a newer unextracted batch (_130328 + summary-2103 + 5 manual files, 13:04-13:12 UTC) awaits the next extraction + revision-4 pass.",
+  "verdict": "NOMINATION DAY (18 Jul 2026) has produced the most consequential development of the cycle and the SECOND 180-degree reversal in 72h. The SPR OFFICIAL CANDIDATE LIST (103 candidates, 36 DUNs) — a verified ground-truth intelligence asset unavailable on prior days — reveals that the opposition has FRACTURED into THREE forces: BN (25 seats), PN (11 seats), and BERSATU (24 seats, contesting SEPARATELY under its own banner). The bilateral BN-PN electoral pact is VERIFIED intact (zero BN-vs-PN overlap), but the broader opposition unity — the dominant positive narrative of 20260717 ('opposition unity achieved', ESC-006 RESOLVED) — is BROKEN. Bersatu, formerly PN's largest Malay component, is now a fully independent third force contesting AGAINST PN in 8 seats (Klawang, Serting, Sikamat, Ampangan, Mambau, Paroi, Bagan Pinang, Gemas) and AGAINST BN in 16 seats. Muhyiddin Yassin calls PN 'toxic' under PAS leadership (NST), announces a new post-election coalition/bloc (The Star), then contradicts himself by insisting Bersatu is 'not quitting PN' (The Star). The result: 25 of 36 seats (69%) are multi-cornered (3+ candidates), recreating the very vote-splitting the BN-PN pact was designed to eliminate ('Jika berpecah akhirnya kita akan kalah'). The INCUMBENT (PH) is the chief structural beneficiary — PH's 20260717 position (reduced to opposition target) has improved back toward its 20260715 first-mover advantage, but via opposition self-fragmentation rather than PH's own action (PH has minimal narrative voice, 6 occ). MB Aminuddin's Linggi move is CONFIRMED (SPR: PH candidate N.32 Linggi) with positive governance framing. BN adds a heavyweight (Tok Mat / Mohamad Hasan for Rantau) but faces internal UMNO dissent (division leaders unhappy 11 seats given to PN). Net NS-relevant sentiment is BALANCED (4 positive / 4 neutral / 4 negative) — a shift from 20260717's opposition-positive (6/4/4) BACK toward a PH-favorable balance. The positive entities are the incumbent side (PH structural beneficiary, MB Aminuddin governance, nomination logistics, Tok Mat); the negative entities are ALL opposition-cohesion failures (Bersatu fracture, Muhyiddin escalation, opposition-unity broken, UMNO dissent). The dominant escalation is ESC-011 (CRITICAL, Bersatu-PN FRACTURE), which REVERSES ESC-006 (REOPENED) and ESCALATES ESC-010 (MEDIUM→CRITICAL). ESC-007 (PH Malay seats at risk) is PARTIALLY COUNTERED — 3 of PH's 4 Malay seats now have split opposition votes. Key intelligence uplift: SPR-verified candidate-party-seat mapping for ALL 36 DUNs (supersedes all prior media-reported candidate claims), confirmed polling day (1 Aug), confirmed MB Aminuddin Linggi move, Tok Mat Rantau candidacy, full contest-structure mapping (11 two-cornered / 21 three-cornered / 2 four-cornered / 2 five-cornered). The NS PRN has moved from a 'genuine two-sided contest' (20260717) to a FRAGMENTED multi-cornered contest favoring the incumbent.\n\n[16:33Δ REVISION 2 — FULL-DAY DELTA MERGED] The later collection batches (raw-scrape _070937 + _083302 + the nomination-day PIR summaries) materially extend and reinforce the 08:31 Nomination-Day verdict, with three movements: (1) the Bersatu-PN fracture DEEPENS from a one-sided Muhyiddin spat (08:31) into a MUTUAL, ON-THE-RECORD leadership confrontation — Hadi Awang dismisses 'toxic PN' and points the finger at Bersatu (NST, JEMPOL); Samsuri verbatim-refutes Muhyiddin in Utusan ('tidak berasas' / 'diluluskan oleh Majlis Tertinggi PN'); Muhyiddin declares Bersatu the 'sole opposition' and claims PN supports the government (NST); a PN info chief floats terminating Bersatu's membership. ESC-011/ESC-010 remain CRITICAL and are now mutual. (2) PH's edge shifts from STRUCTURAL-only to STRUCTURAL + NARRATIVE: Fahmi ('banking on Aminuddin's MB track record'), Loke (NS-as-DAP-referendum + Jelebu-4-seats-critical), and Fuziah/PKR (integrity framing) give PH a proactive voice — FILLING the 08:31 'no PH narrative' gap. (3) BN leadership synchronises an 'understanding, not merger' containment re-framing (Zahid/Wee/Johari/Asyraf), DOWNGRADING ESC-009 from 'verified pact' to an informal BN-PAS understanding — BN itself abandons the 'unified opposition' framing, likely to contain fallout from the Bersatu split + UMNO divisional dissent. The clean nomination is upgraded to multi-source CONFIRMED (EC + PDRM; zero rejections, zero incidents). EC granularity (cross-verified): 21 three-cornered fights, 12 of them PH-BN-Bersatu; Bersatu fights one/both allies in 20 of 24 seats. New candidate-quality sweep (Faizal mature, Razali ex-police, LeeVinesh youngest, Ismail unfazed, Tok Mat heavyweight). The ONE new PH-risk vector is the analyst 'Malay tsunami forming in NS?' narrative (ESC-013, MEDIUM), though it is structurally counteracted by the Bersatu-PN split. NET: the PH-favorable tilt STRENGTHENS and is now narrative-backed; the opposition fracture is the dominant, defining development of Nomination Day. Distribution: 10 positive / 9 neutral / 6 negative (full-day merged; baseline was 4/4/4).",
   "revision_history": [
     {
       "revision": 2,
@@ -916,17 +844,6 @@
       "delta_entities_new": 19,
       "delta_parties_new": 3,
       "delta_constituencies_new": 16
-    },
-    {
-      "revision": 3,
-      "timestamp": "2026-07-18T21:56:36+08:00",
-      "scope": "delta merge of the 19:19 MYT collection cycle (raw-scrape _111951 batch + nomination-day-summary-1919) into the revision-2 baseline (which covered _010044 + _070937 + _083302 + summaries-1509/1633)",
-      "rationale": "entities_consolidated.json was regenerated at 11:52 UTC (2 min after the 11:50 revision-2 pass). The 11:52 extraction spans 41 source files (+10 vs the revision-2 08:46 baseline of 31): the _111951 scrape batch (9 files) + nomination-day-summary-1919.md. politicians 34->38 (+4, incl. R. Ramanan 20x). This delta was not sentiment-analyzed by revision 2.",
-      "method": "agent-manual source-attributed review (CVS-compliant) + SPR candidate-list cross-reference; intelligence summary used only to locate items, media files cited as attribution",
-      "runtime": "GLM-5.2 (custom) — manual review fallback (ESC-002, Day 8)",
-      "delta_sources_new": 10,
-      "delta_politicians_new": 4,
-      "delta_scored_new": 1
     }
   ],
   "sentiment_distribution_baseline_0831": {
@@ -938,6 +855,5 @@
   },
   "entities_analyzed_baseline_0831": 43,
   "entities_analyzed_delta_1633": 13,
-  "verdict_baseline_0831": "NOMINATION DAY (18 Jul 2026) has produced the most consequential development of the cycle and the SECOND 180-degree reversal in 72h. The SPR OFFICIAL CANDIDATE LIST (103 candidates, 36 DUNs) — a verified ground-truth intelligence asset unavailable on prior days — reveals that the opposition has FRACTURED into THREE forces: BN (25 seats), PN (11 seats), and BERSATU (24 seats, contesting SEPARATELY under its own banner). The bilateral BN-PN electoral pact is VERIFIED intact (zero BN-vs-PN overlap), but the broader opposition unity — the dominant positive narrative of 20260717 ('opposition unity achieved', ESC-006 RESOLVED) — is BROKEN. Bersatu, formerly PN's largest Malay component, is now a fully independent third force contesting AGAINST PN in 8 seats (Klawang, Serting, Sikamat, Ampangan, Mambau, Paroi, Bagan Pinang, Gemas) and AGAINST BN in 16 seats. Muhyiddin Yassin calls PN 'toxic' under PAS leadership (NST), announces a new post-election coalition/bloc (The Star), then contradicts himself by insisting Bersatu is 'not quitting PN' (The Star). The result: 25 of 36 seats (69%) are multi-cornered (3+ candidates), recreating the very vote-splitting the BN-PN pact was designed to eliminate ('Jika berpecah akhirnya kita akan kalah'). The INCUMBENT (PH) is the chief structural beneficiary — PH's 20260717 position (reduced to opposition target) has improved back toward its 20260715 first-mover advantage, but via opposition self-fragmentation rather than PH's own action (PH has minimal narrative voice, 6 occ). MB Aminuddin's Linggi move is CONFIRMED (SPR: PH candidate N.32 Linggi) with positive governance framing. BN adds a heavyweight (Tok Mat / Mohamad Hasan for Rantau) but faces internal UMNO dissent (division leaders unhappy 11 seats given to PN). Net NS-relevant sentiment is BALANCED (4 positive / 4 neutral / 4 negative) — a shift from 20260717's opposition-positive (6/4/4) BACK toward a PH-favorable balance. The positive entities are the incumbent side (PH structural beneficiary, MB Aminuddin governance, nomination logistics, Tok Mat); the negative entities are ALL opposition-cohesion failures (Bersatu fracture, Muhyiddin escalation, opposition-unity broken, UMNO dissent). The dominant escalation is ESC-011 (CRITICAL, Bersatu-PN FRACTURE), which REVERSES ESC-006 (REOPENED) and ESCALATES ESC-010 (MEDIUM→CRITICAL). ESC-007 (PH Malay seats at risk) is PARTIALLY COUNTERED — 3 of PH's 4 Malay seats now have split opposition votes. Key intelligence uplift: SPR-verified candidate-party-seat mapping for ALL 36 DUNs (supersedes all prior media-reported candidate claims), confirmed polling day (1 Aug), confirmed MB Aminuddin Linggi move, Tok Mat Rantau candidacy, full contest-structure mapping (11 two-cornered / 21 three-cornered / 2 four-cornered / 2 five-cornered). The NS PRN has moved from a 'genuine two-sided contest' (20260717) to a FRAGMENTED multi-cornered contest favoring the incumbent.",
-  "entities_analyzed_delta_1919": 1
+  "verdict_baseline_0831": "NOMINATION DAY (18 Jul 2026) has produced the most consequential development of the cycle and the SECOND 180-degree reversal in 72h. The SPR OFFICIAL CANDIDATE LIST (103 candidates, 36 DUNs) — a verified ground-truth intelligence asset unavailable on prior days — reveals that the opposition has FRACTURED into THREE forces: BN (25 seats), PN (11 seats), and BERSATU (24 seats, contesting SEPARATELY under its own banner). The bilateral BN-PN electoral pact is VERIFIED intact (zero BN-vs-PN overlap), but the broader opposition unity — the dominant positive narrative of 20260717 ('opposition unity achieved', ESC-006 RESOLVED) — is BROKEN. Bersatu, formerly PN's largest Malay component, is now a fully independent third force contesting AGAINST PN in 8 seats (Klawang, Serting, Sikamat, Ampangan, Mambau, Paroi, Bagan Pinang, Gemas) and AGAINST BN in 16 seats. Muhyiddin Yassin calls PN 'toxic' under PAS leadership (NST), announces a new post-election coalition/bloc (The Star), then contradicts himself by insisting Bersatu is 'not quitting PN' (The Star). The result: 25 of 36 seats (69%) are multi-cornered (3+ candidates), recreating the very vote-splitting the BN-PN pact was designed to eliminate ('Jika berpecah akhirnya kita akan kalah'). The INCUMBENT (PH) is the chief structural beneficiary — PH's 20260717 position (reduced to opposition target) has improved back toward its 20260715 first-mover advantage, but via opposition self-fragmentation rather than PH's own action (PH has minimal narrative voice, 6 occ). MB Aminuddin's Linggi move is CONFIRMED (SPR: PH candidate N.32 Linggi) with positive governance framing. BN adds a heavyweight (Tok Mat / Mohamad Hasan for Rantau) but faces internal UMNO dissent (division leaders unhappy 11 seats given to PN). Net NS-relevant sentiment is BALANCED (4 positive / 4 neutral / 4 negative) — a shift from 20260717's opposition-positive (6/4/4) BACK toward a PH-favorable balance. The positive entities are the incumbent side (PH structural beneficiary, MB Aminuddin governance, nomination logistics, Tok Mat); the negative entities are ALL opposition-cohesion failures (Bersatu fracture, Muhyiddin escalation, opposition-unity broken, UMNO dissent). The dominant escalation is ESC-011 (CRITICAL, Bersatu-PN FRACTURE), which REVERSES ESC-006 (REOPENED) and ESCALATES ESC-010 (MEDIUM→CRITICAL). ESC-007 (PH Malay seats at risk) is PARTIALLY COUNTERED — 3 of PH's 4 Malay seats now have split opposition votes. Key intelligence uplift: SPR-verified candidate-party-seat mapping for ALL 36 DUNs (supersedes all prior media-reported candidate claims), confirmed polling day (1 Aug), confirmed MB Aminuddin Linggi move, Tok Mat Rantau candidacy, full contest-structure mapping (11 two-cornered / 21 three-cornered / 2 four-cornered / 2 five-cornered). The NS PRN has moved from a 'genuine two-sided contest' (20260717) to a FRAGMENTED multi-cornered contest favoring the incumbent."
 }

@@ -1,140 +1,17 @@
 {
-  "date": "20260718",
-  "timestamp": "2026-07-18T11:52:07.569929+00:00",
-  "source_count": 41,
+  "date": "2026-07-18T14:00:40.229408+00:00",
+  "collection_date": "20260718",
+  "source_count": 55,
   "entity_type": "issues",
-  "extraction_method": "enhanced-pattern-dictionary v2",
-  "entity_count": 12,
+  "count": 8,
   "entities": [
-    {
-      "name": "BN-PN electoral pact / seat negotiation",
-      "count": 26,
-      "sources": [
-        "nomination-day-summary-1509.md",
-        "nstcommy_20260718_010044.md",
-        "utusancommy_20260718_010044.md",
-        "utusancommy_20260718_070937.md",
-        "utusancommy_20260718_083302.md",
-        "utusancommy_20260718_111951.md"
-      ],
-      "relevance": "ns"
-    },
-    {
-      "name": "PAS-Bersatu rift",
-      "count": 25,
-      "sources": [
-        "nomination-day-summary-1509.md",
-        "nomination-day-summary-1633.md",
-        "nomination-day-summary-1919.md",
-        "nstcommy_20260718_010044.md",
-        "thestarcommy_20260718_010044.md",
-        "thestarcommy_20260718_070937.md",
-        "thestarcommy_20260718_111951.md",
-        "utusancommy_20260718_010044.md",
-        "utusancommy_20260718_070937.md",
-        "utusancommy_20260718_083302.md",
-        "utusancommy_20260718_111951.md"
-      ],
-      "relevance": "ns"
-    },
-    {
-      "name": "Malay vote unity",
-      "count": 21,
-      "sources": [
-        "nomination-day-summary-1509.md",
-        "utusancommy_20260718_010044.md",
-        "utusancommy_20260718_070937.md",
-        "utusancommy_20260718_083302.md",
-        "utusancommy_20260718_111951.md"
-      ],
-      "relevance": "ns"
-    },
-    {
-      "name": "KWAP / eFishery investment fraud",
-      "count": 20,
-      "sources": [
-        "bhariancommy_20260718_010044.md",
-        "bhariancommy_20260718_070937.md",
-        "nstcommy_20260718_070937.md",
-        "nstcommy_20260718_083302.md",
-        "nstcommy_20260718_111951.md",
-        "thestarcommy_20260718_070937.md",
-        "thestarcommy_20260718_083302.md",
-        "thestarcommy_20260718_111951.md"
-      ],
-      "relevance": "national"
-    },
-    {
-      "name": "Orang Asli land dispute (Kg Sungai Cot)",
-      "count": 13,
-      "sources": [
-        "nstcommy_20260718_010044.md",
-        "thestarcommy_20260718_111951.md"
-      ],
-      "relevance": "national"
-    },
-    {
-      "name": "Bersatu new coalition/bloc",
-      "count": 6,
-      "sources": [
-        "nomination-day-summary-1633.md",
-        "nstcommy_20260718_010044.md",
-        "thestarcommy_20260718_010044.md"
-      ],
-      "relevance": "ns"
-    },
-    {
-      "name": "Forest City Network School controversy",
-      "count": 4,
-      "sources": [
-        "bhariancommy_20260718_010044.md",
-        "nstcommy_20260718_010044.md",
-        "thestarcommy_20260718_010044.md"
-      ],
-      "relevance": "johor"
-    },
-    {
-      "name": "AI / national identity (PM)",
-      "count": 3,
-      "sources": [
-        "nstcommy_20260718_010044.md"
-      ],
-      "relevance": "national"
-    },
-    {
-      "name": "Data centre concerns (Kota Damansara)",
-      "count": 3,
-      "sources": [
-        "nstcommy_20260718_010044.md",
-        "thestarcommy_20260718_010044.md"
-      ],
-      "relevance": "national"
-    },
-    {
-      "name": "Royal succession crisis",
-      "count": 3,
-      "sources": [
-        "nomination-day-summary-1509.md",
-        "nomination-day-summary-1633.md",
-        "nomination-day-summary-1919.md"
-      ],
-      "relevance": "ns"
-    },
-    {
-      "name": "Corporate mafia / RCI",
-      "count": 2,
-      "sources": [
-        "nstcommy_20260718_010044.md"
-      ],
-      "relevance": "national"
-    },
-    {
-      "name": "Social-media monitoring / slander during polls",
-      "count": 2,
-      "sources": [
-        "thestarcommy_20260718_010044.md"
-      ],
-      "relevance": "ns"
-    }
+    "Calon Bebas/penyingkir undi (Independents splitting votes)",
+    "Pembuangan Tang Jay Son oleh GERAKAN (Gerakan expels Tang Jay Son)",
+    "Pencalonan semula MB Aminuddin N.13->N.32 (Caretaker MB seat move)",
+    "Penyandang diganti/berpindah (Incumbents replaced/moved)",
+    "Penyatuan undi Melayu (Malay vote consolidation)",
+    "Perpecahan Bersatu-PN (Bersatu-PN split)",
+    "Persetujuan kerusi BN-PN (BN-PN seat deal)",
+    "Pertembungan tokoh utama (Marquee candidate fights)"
   ]
 }

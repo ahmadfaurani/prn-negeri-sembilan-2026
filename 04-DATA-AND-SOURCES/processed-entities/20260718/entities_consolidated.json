@@ -1,76 +1,904 @@
 {
   "date": "20260718",
-  "timestamp": "2026-07-18T11:52:07.570363+00:00",
-  "source_count": 41,
-  "source_files": [
-    "astroawanicom_20260718_010044.md",
-    "astroawanicom_20260718_070937.md",
-    "astroawanicom_20260718_083302.md",
-    "astroawanicom_20260718_111951.md",
-    "bhariancommy_20260718_010044.md",
-    "bhariancommy_20260718_070937.md",
-    "bhariancommy_20260718_083302.md",
-    "bhariancommy_20260718_111951.md",
-    "freemalaysiatodaycom_20260718_010044.md",
-    "freemalaysiatodaycom_20260718_083302.md",
-    "kosmocommy_20260718_010044.md",
-    "kosmocommy_20260718_070937.md",
-    "kosmocommy_20260718_083302.md",
-    "kosmocommy_20260718_111951.md",
-    "malaysiakinicom_20260718_010044.md",
-    "malaysiakinicom_20260718_070937.md",
-    "malaysiakinicom_20260718_111951.md",
-    "mstarcommy_20260718_010044.md",
-    "mstarcommy_20260718_070937.md",
-    "mstarcommy_20260718_083302.md",
-    "mstarcommy_20260718_111951.md",
-    "nomination-day-summary-1509.md",
-    "nomination-day-summary-1633.md",
-    "nomination-day-summary-1919.md",
-    "nstcommy_20260718_010044.md",
-    "nstcommy_20260718_070937.md",
-    "nstcommy_20260718_083302.md",
-    "nstcommy_20260718_111951.md",
-    "ohbulancom_20260718_010044.md",
-    "ohbulancom_20260718_070937.md",
-    "ohbulancom_20260718_083302.md",
-    "ohbulancom_20260718_111951.md",
-    "sinarhariancommy_20260718_010044.md",
-    "thestarcommy_20260718_010044.md",
-    "thestarcommy_20260718_070937.md",
-    "thestarcommy_20260718_083302.md",
-    "thestarcommy_20260718_111951.md",
-    "utusancommy_20260718_010044.md",
-    "utusancommy_20260718_070937.md",
-    "utusancommy_20260718_083302.md",
-    "utusancommy_20260718_111951.md"
-  ],
+  "timestamp": "2026-07-18T14:00:40.229408+00:00",
+  "source_count": 55,
   "extraction_completed": true,
-  "extraction_method": "enhanced-pattern-dictionary v2",
-  "categories": {
-    "politicians": 38,
-    "parties": 13,
-    "constituencies": 29,
-    "organizations": 11,
-    "locations": 43,
-    "events": 4,
-    "issues": 12
+  "extractor": "ns_entity_extraction_enhanced.py",
+  "entity_categories": [
+    "politicians",
+    "parties",
+    "constituencies",
+    "issues",
+    "events",
+    "organizations",
+    "locations"
+  ],
+  "counts": {
+    "politicians": 115,
+    "parties": 18,
+    "constituencies": 36,
+    "issues": 8,
+    "events": 5,
+    "organizations": 7,
+    "locations": 43
   },
-  "total_entities": 150,
-  "constituency_master_list_gaps": [
-    "Ampangan",
-    "Nilai",
-    "Chennah",
-    "Seremban Jaya",
-    "Sri Tanjung",
-    "Lobak"
-  ],
-  "notes": [
-    "Extractor v2 supersedes ns-entity-extraction.sh inline Python, which only populated parties & constituencies.",
-    "Constituencies matched against 36-seat DUN master list + a 'DUN <list>' parser; seats absent from the master list are flagged as gaps.",
-    "Politicians extracted via Malay-honorific regex + known-figure dictionary, deduped by normalized name.",
-    "Parties canonicalized (abbreviations merged with full names; no case-variant duplicates).",
-    "Each entity records occurrence count + source files for traceability."
-  ],
-  "errors": []
+  "total_entities": 232,
+  "seats_parsed": 36,
+  "seats": [
+    {
+      "code": "N01",
+      "name": "Chennah",
+      "voters": "14422",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "name": "Siow Kong Choon",
+          "ticket": "BN-MCA",
+          "party_raw": "BN-MCA"
+        },
+        {
+          "name": "Anthony Loke Siew Fook",
+          "ticket": "PH-DAP",
+          "party_raw": "PH-DAP"
+        }
+      ],
+      "winner_2023": "Anthony Loke Siew Fook",
+      "winner_2023_ticket": "PH-DAP"
+    },
+    {
+      "code": "N02",
+      "name": "Pertang",
+      "voters": "12873",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Datuk Seri Jalaluddin Alias",
+          "ticket": "BN-UMNO",
+          "party_raw": "BN-UMNO"
+        },
+        {
+          "name": "Mohd Umry Abdul Khois",
+          "ticket": "PH-PKR",
+          "party_raw": "PH-PKR"
+        },
+        {
+          "name": "Mohd Faizal Fadli Mohd Idrus",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        }
+      ],
+      "winner_2023": "Datuk Seri Jalaluddin Alias",
+      "winner_2023_ticket": "BN-UMNO"
+    },
+    {
+      "code": "N03",
+      "name": "Sungai Lui",
+      "voters": "19684",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Datuk Mohd Razi Mohd Ali",
+          "ticket": "BN-UMNO",
+          "party_raw": "BN-UMNO"
+        },
+        {
+          "name": "Nazrul Hisham Abdul Mansor",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "Zainal Fikri Abd Kadir",
+          "ticket": "PH-PKR",
+          "party_raw": "PH-PKR"
+        }
+      ],
+      "winner_2023": "Mohd Razi Mohd Ali",
+      "winner_2023_ticket": "BN-UMNO"
+    },
+    {
+      "code": "N04",
+      "name": "Klawang",
+      "voters": "13355",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Muhammad Adib Musa",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "Danni Rais",
+          "ticket": "PN-WAWASAN",
+          "party_raw": "PN-WAWASAN"
+        },
+        {
+          "name": "Datuk Bakri Sawir",
+          "ticket": "PH-AMANAH",
+          "party_raw": "PH-AMANAH"
+        }
+      ],
+      "winner_2023": "Datuk Bakri Sawir",
+      "winner_2023_ticket": "PH-AMANAH"
+    },
+    {
+      "code": "N05",
+      "name": "Serting",
+      "voters": "30599",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Mohd Fairuz Mohd Isa",
+          "ticket": "PN-PAS",
+          "party_raw": "PN-PAS"
+        },
+        {
+          "name": "Muhammad Noraffendy Mohd Salleh",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "Yaacob Mahmood",
+          "ticket": "PH-AMANAH",
+          "party_raw": "PH-AMANAH"
+        }
+      ],
+      "winner_2023": "Mohd Fairuz Mohd Isa",
+      "winner_2023_ticket": "PN-PAS"
+    },
+    {
+      "code": "N06",
+      "name": "Palong",
+      "voters": "23555",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Datuk Mustapha Nagoor",
+          "ticket": "BN-UMNO",
+          "party_raw": "BN-UMNO"
+        },
+        {
+          "name": "Muhammad Zahin Zinal Abidin",
+          "ticket": "PH-PKR",
+          "party_raw": "PH-PKR"
+        },
+        {
+          "name": "Rebin Birham",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        }
+      ],
+      "winner_2023": "Mustapha Nagoor",
+      "winner_2023_ticket": "BN-UMNO"
+    },
+    {
+      "code": "N07",
+      "name": "Jeram Padang",
+      "voters": "16590",
+      "candidate_count": 4,
+      "candidates": [
+        {
+          "name": "Sri Sanjeevan Ramakrishnan",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "G Manivannan",
+          "ticket": "PH-PKR",
+          "party_raw": "PH-PKR"
+        },
+        {
+          "name": "Dayana Dal",
+          "ticket": "ASLI",
+          "party_raw": "ASLI"
+        },
+        {
+          "name": "Datuk Mohd Zaidy Abdul Kadir",
+          "ticket": "BN-UMNO",
+          "party_raw": "BN-UMNO"
+        }
+      ],
+      "winner_2023": "Datuk Mohd Zaidy Abdul Kadir",
+      "winner_2023_ticket": "BN-UMNO"
+    },
+    {
+      "code": "N08",
+      "name": "Bahau",
+      "voters": "25972",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "name": "Teo Kok Seong",
+          "ticket": "PH-DAP",
+          "party_raw": "PH-DAP"
+        },
+        {
+          "name": "Chong Fui Ming",
+          "ticket": "BN-MCA",
+          "party_raw": "BN-MCA"
+        }
+      ],
+      "winner_2023": "Teo Kok Seong",
+      "winner_2023_ticket": "PH-DAP"
+    },
+    {
+      "code": "N09",
+      "name": "Lenggeng",
+      "voters": "28880",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Zarinna Abu Zarin",
+          "ticket": "PH-AMANAH",
+          "party_raw": "PH-AMANAH"
+        },
+        {
+          "name": "Datuk Mohd Asna Amin",
+          "ticket": "BN-UMNO",
+          "party_raw": "BN-UMNO"
+        },
+        {
+          "name": "Zool Amali Hussin",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        }
+      ],
+      "winner_2023": "Mohd Asna Amin",
+      "winner_2023_ticket": "BN-UMNO"
+    },
+    {
+      "code": "N10",
+      "name": "Nilai",
+      "voters": "45911",
+      "candidate_count": 5,
+      "candidates": [
+        {
+          "name": "Zamani Ibrahim",
+          "ticket": "BERJASA",
+          "party_raw": "BERJASA"
+        },
+        {
+          "name": "J Arul Kumar",
+          "ticket": "PH-DAP",
+          "party_raw": "PH-DAP"
+        },
+        {
+          "name": "Omar Mohd Isa",
+          "ticket": "BEBAS",
+          "party_raw": "BEBAS"
+        },
+        {
+          "name": "Lai Chien Kong",
+          "ticket": "BN-MCA",
+          "party_raw": "BN-MCA"
+        },
+        {
+          "name": "Datuk V. Saravana Kumar",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        }
+      ],
+      "winner_2023": "J Arul Kumar",
+      "winner_2023_ticket": "PH-DAP"
+    },
+    {
+      "code": "N11",
+      "name": "Lobak",
+      "voters": "23079",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "name": "Dr P. Kumar",
+          "ticket": "PN-PAS",
+          "party_raw": "PN-PAS"
+        },
+        {
+          "name": "Chew Seh Yong",
+          "ticket": "PH-DAP",
+          "party_raw": "PH-DAP"
+        }
+      ],
+      "winner_2023": "Chew Seh Yong",
+      "winner_2023_ticket": "PH-DAP"
+    },
+    {
+      "code": "N12",
+      "name": "Temiang",
+      "voters": "12947",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Ho Weng Wah",
+          "ticket": "PH-DAP",
+          "party_raw": "PH-DAP"
+        },
+        {
+          "name": "Leaw Kok Chan",
+          "ticket": "BN-MCA",
+          "party_raw": "BN-MCA"
+        },
+        {
+          "name": "Fazly Hamid",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        }
+      ],
+      "winner_2023": "Ng Chin Tsai",
+      "winner_2023_ticket": "PH-DAP"
+    },
+    {
+      "code": "N13",
+      "name": "Sikamat",
+      "voters": "34103",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Datuk Tun Faisal Ismail Aziz",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "Datuk Razali Abu Samah",
+          "ticket": "PN-Wawasan",
+          "party_raw": "PN-Wawasan"
+        },
+        {
+          "name": "Nor Azman Mohamad",
+          "ticket": "PH-PKR",
+          "party_raw": "PH-PKR"
+        }
+      ],
+      "winner_2023": "Datuk Seri Aminuddin Harun",
+      "winner_2023_ticket": "PH-PKR"
+    },
+    {
+      "code": "N14",
+      "name": "Ampangan",
+      "voters": "21336",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Datuk Muhammad Nazri Kassim",
+          "ticket": "PH-PKR",
+          "party_raw": "PH-PKR"
+        },
+        {
+          "name": "Noor'azah Harun",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "Datuk Dr Mohamad Rafie Ab Malek",
+          "ticket": "PN-PAS",
+          "party_raw": "PN-PAS"
+        }
+      ],
+      "winner_2023": "Tengku Zamrah Tengku Sulaiman",
+      "winner_2023_ticket": "PH-PKR"
+    },
+    {
+      "code": "N15",
+      "name": "Juasseh",
+      "voters": "13671",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Mohd Zuhaimi Md Yusof",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "Datuk Ismail Lasim",
+          "ticket": "BN-UMNO",
+          "party_raw": "BN-UMNO"
+        },
+        {
+          "name": "Mohd Aidil Abdullah",
+          "ticket": "PH-PKR",
+          "party_raw": "PH-PKR"
+        }
+      ],
+      "winner_2023": "Puan Sri Bibi Sharliza Mohd Khalid",
+      "winner_2023_ticket": "BN-UMNO"
+    },
+    {
+      "code": "N16",
+      "name": "Seri Menanti",
+      "voters": "10105",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Muhammad Sufian Maradzi",
+          "ticket": "BN-UMNO",
+          "party_raw": "BN-UMNO"
+        },
+        {
+          "name": "Mohd Kamarul Arifin Mohd Wafa",
+          "ticket": "PH-PKR",
+          "party_raw": "PH-PKR"
+        },
+        {
+          "name": "Datuk Seri Megat D. Shahriman Zaharudin",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        }
+      ],
+      "winner_2023": "Muhammad Sufian Maradzi",
+      "winner_2023_ticket": "BN-UMNO"
+    },
+    {
+      "code": "N17",
+      "name": "Senaling",
+      "voters": "9903",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Mohamad Qayyum Abd Jalil",
+          "ticket": "BN-UMNO",
+          "party_raw": "BN-UMNO"
+        },
+        {
+          "name": "Mohd Izaffi Istear Khan",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "Mohd Hanis Alimin",
+          "ticket": "PH-AMANAH",
+          "party_raw": "PH-AMANAH"
+        }
+      ],
+      "winner_2023": "Datuk Ismail Lasim",
+      "winner_2023_ticket": "BN"
+    },
+    {
+      "code": "N18",
+      "name": "Pilah",
+      "voters": "18034",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "name": "S Leza Md Yasin",
+          "ticket": "BN-UMNO",
+          "party_raw": "BN-UMNO"
+        },
+        {
+          "name": "Datuk Noorzunita Begum Mohd Ibrahim",
+          "ticket": "PH-PKR",
+          "party_raw": "PH-PKR"
+        }
+      ],
+      "winner_2023": "Noorzunita Begum Mohd Ibrahim",
+      "winner_2023_ticket": "PH-PKR"
+    },
+    {
+      "code": "N19",
+      "name": "Johol",
+      "voters": "12331",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "name": "Mohd Zailan Mohd Munawar",
+          "ticket": "PH-AMANAH",
+          "party_raw": "PH-AMANAH"
+        },
+        {
+          "name": "Datuk Saiful Yazan Sulaiman",
+          "ticket": "BN-UMNO",
+          "party_raw": "BN-UMNO"
+        }
+      ],
+      "winner_2023": "Saiful Yazan Sulaiman",
+      "winner_2023_ticket": "BN-UMNO"
+    },
+    {
+      "code": "N20",
+      "name": "Labu",
+      "voters": "32884",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Datuk Ahmad Faez Abdul Razak",
+          "ticket": "PH-PKR",
+          "party_raw": "PH-PKR"
+        },
+        {
+          "name": "Mohamad Hanifah Abu Baker",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "Siti Nur Umaira Hasim",
+          "ticket": "BN-UMNO",
+          "party_raw": "BN-UMNO"
+        }
+      ],
+      "winner_2023": "Mohamad Hanifah Abu Baker",
+      "winner_2023_ticket": "PN-BERSATU"
+    },
+    {
+      "code": "N21",
+      "name": "Bukit Kepayang",
+      "voters": "49568",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "name": "Nicole Tan Lee Koon",
+          "ticket": "PH-DAP",
+          "party_raw": "PH-DAP"
+        },
+        {
+          "name": "Lee Boon Shian",
+          "ticket": "PN-GERAKAN",
+          "party_raw": "PN-GERAKAN"
+        }
+      ],
+      "winner_2023": "Nicole Tan Lee Koon",
+      "winner_2023_ticket": "PH-DAP"
+    },
+    {
+      "code": "N22",
+      "name": "Rahang",
+      "voters": "19715",
+      "candidate_count": 4,
+      "candidates": [
+        {
+          "name": "Desmond Siau Meow Kong",
+          "ticket": "PH-DAP",
+          "party_raw": "PH-DAP"
+        },
+        {
+          "name": "S. Tinagaran",
+          "ticket": "PSM",
+          "party_raw": "PSM"
+        },
+        {
+          "name": "Yap Siok Moy",
+          "ticket": "BN-MCA",
+          "party_raw": "BN-MCA"
+        },
+        {
+          "name": "Tang Jay Son",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        }
+      ],
+      "winner_2023": "Desmond Siau Meow Kong",
+      "winner_2023_ticket": "PH-DAP"
+    },
+    {
+      "code": "N23",
+      "name": "Mambau",
+      "voters": "30346",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Lee Kai Yet",
+          "ticket": "PH-DAP",
+          "party_raw": "PH-DAP"
+        },
+        {
+          "name": "N Sarawanan",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "Erik Michael",
+          "ticket": "PN-WAWASAN",
+          "party_raw": "PN-WAWASAN"
+        }
+      ],
+      "winner_2023": "Yap Yew Weng",
+      "winner_2023_ticket": "PH-DAP"
+    },
+    {
+      "code": "N24",
+      "name": "Seremban Jaya",
+      "voters": "33015",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Datuk RT Thinalan",
+          "ticket": "BN-MIC",
+          "party_raw": "BN-MIC"
+        },
+        {
+          "name": "R Mahendran",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "S Mugunthan",
+          "ticket": "PH-DAP",
+          "party_raw": "PH-DAP"
+        }
+      ],
+      "winner_2023": "P Gunasekaren",
+      "winner_2023_ticket": "PH-DAP"
+    },
+    {
+      "code": "N25",
+      "name": "Paroi",
+      "voters": "64998",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Ahmad Shahir Mohd Shah",
+          "ticket": "PH-AMANAH",
+          "party_raw": "PH-AMANAH"
+        },
+        {
+          "name": "Mohd Nazree Mohd Yunos",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "Kamarol Ridzuan Mohd Zain",
+          "ticket": "PN-PAS",
+          "party_raw": "PN-PAS"
+        }
+      ],
+      "winner_2023": "Kamarol Ridzuan Mohd Zain",
+      "winner_2023_ticket": "PN-PAS"
+    },
+    {
+      "code": "N26",
+      "name": "Chembong",
+      "voters": "26547",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "name": "Danish Nazran Murad",
+          "ticket": "PH-PKR",
+          "party_raw": "PH-PKR"
+        },
+        {
+          "name": "Datuk Zaifulbahri Idris",
+          "ticket": "BN-UMNO",
+          "party_raw": "BN-UMNO"
+        }
+      ],
+      "winner_2023": "Datuk Zaifulbahri Idris",
+      "winner_2023_ticket": "BN-UMNO"
+    },
+    {
+      "code": "N27",
+      "name": "Rantau",
+      "voters": "34831",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "name": "Dr Azizul Hakim Mahdi",
+          "ticket": "PH-PKR",
+          "party_raw": "PH-PKR"
+        },
+        {
+          "name": "Datuk Seri Mohamad Hasan",
+          "ticket": "BN-UMNO",
+          "party_raw": "BN-UMNO"
+        }
+      ],
+      "winner_2023": "Datuk Seri Mohamad Hasan",
+      "winner_2023_ticket": "BN-UMNO"
+    },
+    {
+      "code": "N28",
+      "name": "Kota",
+      "voters": "16744",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Akmal Noradzmi Abd Rahim",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "Muhammad Allif Ibrahim",
+          "ticket": "PH-AMANAH",
+          "party_raw": "PH-AMANAH"
+        },
+        {
+          "name": "Suhaimi Aini",
+          "ticket": "BN-UMNO",
+          "party_raw": "BN-UMNO"
+        }
+      ],
+      "winner_2023": "Suhaimi Aini",
+      "winner_2023_ticket": "BN-UMNO"
+    },
+    {
+      "code": "N29",
+      "name": "Chuah",
+      "voters": "15129",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "name": "Pau Jeou Ching",
+          "ticket": "BN-MCA",
+          "party_raw": "BN-MCA"
+        },
+        {
+          "name": "Datuk Yew Boon Lye",
+          "ticket": "PH-PKR",
+          "party_raw": "PH-PKR"
+        }
+      ],
+      "winner_2023": "Yew Boon Lye",
+      "winner_2023_ticket": "PH-PKR"
+    },
+    {
+      "code": "N30",
+      "name": "Lukut",
+      "voters": "28219",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Choo Ken Hwa",
+          "ticket": "PH-DAP",
+          "party_raw": "PH-DAP"
+        },
+        {
+          "name": "Sathes Kumar Nilameham",
+          "ticket": "PN-MIPP",
+          "party_raw": "PN-MIPP"
+        },
+        {
+          "name": "Teo Seng Lee",
+          "ticket": "Bebas",
+          "party_raw": "Bebas"
+        }
+      ],
+      "winner_2023": "Choo Ken Hwa",
+      "winner_2023_ticket": "PH-DAP"
+    },
+    {
+      "code": "N31",
+      "name": "Bagan Pinang",
+      "voters": "27451",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Sheikh Junaidy Jamaludin",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "Abdul Fatah Zakaria",
+          "ticket": "PN-PAS",
+          "party_raw": "PN-PAS"
+        },
+        {
+          "name": "Nasir Raman",
+          "ticket": "PH-AMANAH",
+          "party_raw": "PH-AMANAH"
+        }
+      ],
+      "winner_2023": "Abdul Fatah Zakaria",
+      "winner_2023_ticket": "PN-PAS"
+    },
+    {
+      "code": "N32",
+      "name": "Linggi",
+      "voters": "20677",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Datuk Zamri Md Said",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "Datuk Mohd Faizal Ramli",
+          "ticket": "BN-UMNO",
+          "party_raw": "BN-UMNO"
+        },
+        {
+          "name": "Datuk Seri Aminuddin Harun",
+          "ticket": "PH-PKR",
+          "party_raw": "PH-PKR"
+        }
+      ],
+      "winner_2023": "Datuk Mohd Faizal Ramli",
+      "winner_2023_ticket": "BN-UMNO"
+    },
+    {
+      "code": "N33",
+      "name": "Seri Tanjung",
+      "voters": "19590",
+      "candidate_count": 5,
+      "candidates": [
+        {
+          "name": "A Achuthan",
+          "ticket": "BN-MIC",
+          "party_raw": "BN-MIC"
+        },
+        {
+          "name": "Datuk A Saravanan",
+          "ticket": "Bebas",
+          "party_raw": "Bebas"
+        },
+        {
+          "name": "M Leevineshwaraan",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "Islah Wahyudi Zainudin",
+          "ticket": "Bebas",
+          "party_raw": "Bebas"
+        },
+        {
+          "name": "Datuk Dr G Rajasekaran",
+          "ticket": "PH-PKR",
+          "party_raw": "PH-PKR"
+        }
+      ],
+      "winner_2023": "Dr G Rajasekaran",
+      "winner_2023_ticket": "PH-PKR"
+    },
+    {
+      "code": "N34",
+      "name": "Gemas",
+      "voters": "29600",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Azman Abdullah",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "Ridzuan Ahmad",
+          "ticket": "PN-WAWASAN",
+          "party_raw": "PN-WAWASAN"
+        },
+        {
+          "name": "Siti Aishah Seman @ Othman",
+          "ticket": "PH-PKR",
+          "party_raw": "PH-PKR"
+        }
+      ],
+      "winner_2023": "Ridzuan Ahmad",
+      "winner_2023_ticket": "PN-BERSATU"
+    },
+    {
+      "code": "N35",
+      "name": "Gemencheh",
+      "voters": "24916",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "name": "Suhaimizan Bizar",
+          "ticket": "BN-UMNO",
+          "party_raw": "BN-UMNO"
+        },
+        {
+          "name": "Abd Latif A Tambi",
+          "ticket": "PH-AMANAH",
+          "party_raw": "PH-AMANAH"
+        }
+      ],
+      "winner_2023": "Suhaimizan Bizar",
+      "winner_2023_ticket": "BN-UMNO"
+    },
+    {
+      "code": "N36",
+      "name": "Repah",
+      "voters": "27910",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "name": "Koh Kim Swee",
+          "ticket": "BN-MCA",
+          "party_raw": "BN-MCA"
+        },
+        {
+          "name": "S Veerapan",
+          "ticket": "PH-DAP",
+          "party_raw": "PH-DAP"
+        }
+      ],
+      "winner_2023": "S Veerapan",
+      "winner_2023_ticket": "PH-DAP"
+    }
+  ]
 }
