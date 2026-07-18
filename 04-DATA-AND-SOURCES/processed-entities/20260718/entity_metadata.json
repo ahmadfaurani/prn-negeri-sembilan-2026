@@ -1,34 +1,38 @@
 {
   "date": "20260718",
-  "last_updated_utc": "2026-07-18T16:57:23+00:00",
-  "last_updated_myt": "2026-07-19T00:57:23+08:00",
+  "last_updated_utc": "2026-07-18T19:02:15+00:00",
+  "last_updated_myt": "2026-07-19T03:02:15+08:00",
   "classification": "TLP:AMBER",
   "extractor": "prn_ns_entity_extraction_agent (scheduled cron)",
-  "latest_entities_file": "entities_165723.json",
+  "latest_entities_file": "entities_190215.json",
+  "prior_entities_file": "entities_165723.json",
   "director_priority_approved": "2026-07-18 15:00 MYT",
-  "cycle": "nomination-day-surge (post-153400)",
+  "cycle": "nomination-day-surge + overnight confirmation (170837 escalation + 182751 stability pass)",
   "source_count_total": 86,
   "counts": {
     "seats_parsed": 36,
     "candidate_persons_unique": 103,
-    "national_figures_and_pir_actors": 12,
+    "national_figures_and_pir_actors": 17,
     "pir06_watch_figures": 4,
     "parties": 15,
     "coalitions": 5,
     "organizations": 10,
     "constituencies": 36,
-    "events": 13,
-    "issues_and_signals": 17,
+    "events": 23,
+    "issues_and_signals": 29,
     "locations": 49,
     "pir06_tier4_seats": 8,
     "pir07_watch_seats": 9,
     "pir09_bersatu_candidates": 24,
-    "pir09_independents": 4
+    "pir09_independents": 4,
+    "peripheral_referenced_figures": 2
   },
   "pir_priority_tags": {
     "PIR-06": {
       "title": "PN-Removal-of-Bersatu Watch (HIGHEST)",
-      "status": "ELEVATED WATCH — NO formal removal notice; PRECURSOR signal detected (Kiandee 'asas kukuh')",
+      "status": "ESCALATED WATCH — NO formal PN-MT removal notice; TWO-SIDED trajectory ACTIVE (PN-MT-may-remove-Bersatu via Kiandee AND Bersatu-may-exit-PN via Muhyiddin). Bersatu PRESIDENT now publicly hinting at exit; mainstream framing 'imminent?'.",
+      "formal_removal_notice_detected": false,
+      "escalation_detected": true,
       "tier4_seats": [
         "N04",
         "N05",
@@ -39,19 +43,18 @@
         "N31",
         "N34"
       ],
-      "entity_count": 9,
+      "entity_count": 10,
       "key_entities": [
         "Datuk Seri Dr. Ronald Kiandee",
-        "Majlis Tertinggi PN",
         "Tan Sri Muhyiddin Yassin",
         "Datuk Seri Hamzah Zainudin",
-        "Hadi Awang",
-        "Samsuri Anuar",
+        "Majlis Tertinggi PN",
         "Bersatu",
         "PN",
         "PAS",
         "Wawasan",
-        "Gerakan"
+        "Gerakan",
+        "Datuk Seri Dr. Ahmad Samsuri Mokhtar"
       ]
     },
     "PIR-09": {
@@ -88,7 +91,7 @@
         "Datuk A Saravanan",
         "Islah Wahyudi Zainudin"
       ],
-      "entity_count": 9,
+      "entity_count": 14,
       "key_entities": [
         "Tang Jay Son",
         "Wong Chia Zhen",
@@ -98,7 +101,12 @@
         "Teo Seng Lee",
         "Datuk A Saravanan",
         "Islah Wahyudi Zainudin",
-        "Gerakan"
+        "Gerakan",
+        "Bersatu",
+        "Albert Tei",
+        "Saw Yee Fung",
+        "Chong Sin Woon",
+        "Tamim Dahri"
       ]
     },
     "PIR-07": {
@@ -114,7 +122,7 @@
         "N32",
         "N33"
       ],
-      "entity_count": 10,
+      "entity_count": 11,
       "key_entities": [
         "Datuk Seri Anwar Ibrahim",
         "Datuk Seri Dr. Ahmad Zahid Hamidi",
@@ -125,7 +133,8 @@
         "Datuk Seri Mohamad Hasan",
         "Tan Sri Annuar Musa",
         "Dr Wee",
-        "Datuk Seri Ramlan Harun"
+        "Datuk Seri Ramlan Harun",
+        "Datuk Dr Asyraf Wajdi Dusuki"
       ]
     }
   },
@@ -379,11 +388,13 @@
     }
   ],
   "files_in_folder": [
-    "entities_165723.json (this run — full extraction w/ PIR tags)",
+    "entities_190215.json (THIS run — escalation ingested, Samsuri corrected, new PIR-09 entities added)",
+    "entities_165723.json (prior run 16:57 UTC — nomination-day-surge baseline w/ PIR tags)",
     "entities_consolidated.json (prior 14:00 UTC run — candidate-list baseline)",
     "entities_politicians.json / entities_parties.json / entities_constituencies.json / entities_events.json / entities_issues.json / entities_organizations.json / entities_locations.json (prior 14:00 UTC sub-sets)",
     "entity_metadata.json (this file)",
-    "_build_entities.py (build script)"
+    "_build_entities.py (prior build script)",
+    "_build_entities_190215.py (this run's build script)"
   ],
-  "total_entities": 264
+  "total_entities": 291
 }
