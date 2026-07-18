@@ -1,9 +1,9 @@
 {
   "date": "20260718",
-  "timestamp": "20260718_194028",
-  "collected_utc": "2026-07-18 19:40:28 UTC (03:40 MYT 19 Jul 2026)",
+  "timestamp": "20260718_220325",
+  "collected_utc": "2026-07-18 22:03:25 UTC (06:03 MYT 19 Jul 2026)",
   "cycle": "nomination-day-surge",
-  "cycle_phase": "Day-1+ (post-nomination, deep-overnight MYT confirmation cycle — 03:40 MYT 19 Jul)",
+  "cycle_phase": "Day-1+ (post-nomination, final pre-dawn MYT confirmation cycle — 06:03 MYT 19 Jul; 4th overnight pass; last stability check before daytime MYT Day-2 campaign window)",
   "surge_mode": true,
   "director_priority_approved": "2026-07-18 15:00 MYT",
   "workspace": "/home/p62operator/.openclaw/workspace-ns",
@@ -19,11 +19,12 @@
     "md_files_written_this_cycle": 19,
     "priority_files_written_this_cycle": 0,
     "google_news_feed_files": 3,
-    "results_json": "_scrape_results_194028.json",
-    "bytes_written_this_cycle": 419937,
-    "cycle_character": "STABILITY / CONFIRMATION CYCLE (2nd overnight pass) — no genuinely new articles published since the 170837 collection. Wall-clock window is deep-overnight MYT (~03:40 MYT 19 Jul); Malaysian newsrooms are quiet. Delta-detection vs the 182751 cycle found 0 new PIR-relevant titles (the 1 apparent delta — '103 candidates confirmed for 36-seat Negri Sembilan election' (NST) — is an English-language variant of the Malay '103 calon sah bertanding' already captured at 182751; not genuinely new). Value of this cycle = source-coverage integrity re-confirmation (10/10 sources, 0 errors, all HTTP 200) + PIR-06 escalated-watch stability confirmation (no regression, no CRITICAL threshold crossing, precursor items 0).",
-    "key_obstacle_resolved": "NST /news/nation is now fully JS-rendered (0 article cards in static HTML) and BHarian returns 403 on direct fetch; both recovered via Google News RSS site-scoped queries. (Reconfirmed stable this cycle.)",
-    "key_obstacle_partial": "Malaysiakini full article bodies remain paywalled (lead paragraph only, ~40-84 words); The Star / NST article bodies not directly fetched this cycle (Google News article URLs post-2024 are encrypted; bodies deferred to a daytime MYT cycle's targeted fetch). Astro Awani homepage HTML extraction yielded 0 (structure not parsed by static extractor); /berita-nasional 404; gnews fallback used."
+    "results_json": "_scrape_results_220325.json",
+    "bytes_written_this_cycle": 398840,
+    "cycle_character": "STABILITY / CONFIRMATION CYCLE (4th overnight pass) — no genuinely new PIR-relevant articles published since the 194028 collection (and through 205755). Wall-clock window is the final pre-dawn MYT slot (~06:03 MYT 19 Jul); Malaysian newsrooms remain quiet (campaign Day-1 ended; Day-2 events begin at daytime MYT 19 Jul, ~09:00+). Delta-detection vs the 205755 cycle found 0 new PIR-relevant titles: set-difference on 178 normalized priority_titles returned 6 apparent new titles, ALL from mStar lifestyle/entertainment feed rotation (Piche Kota singer, Johor exco faces, students faking fainting, rental downgrade, influencer fine, pregnant-woman Lamborghini gift) — zero political/PRN content; 0 PIR-06/09/07-relevant. Freshness scan (extended this cycle to include WP-API ISO dates zoned as MYT UTC+8, in addition to RFC822 GMT Google-News dates) for >= 20:57 GMT 18 Jul returned 0 matches; latest article across all 19 files is 18:28 UTC 18 Jul (nstcommy gnews). Value of this cycle = source-coverage integrity re-confirmation (10/10 sources, 0 errors, all 16 streams HTTP 200) + PIR-06 escalated-watch stability confirmation (no regression, no CRITICAL threshold crossing, precursor items 0). This is the FOURTH consecutive zero-delta overnight pass (182751, 194028, 205755, 220325); overnight cycles are confirmed exhausted of new yield — next meaningful collection is the daytime MYT Day-2 window.",
+    "key_obstacle_resolved": "NST /news/nation is fully JS-rendered (0 article cards in static HTML) and BHarian returns 403 on direct fetch; both recovered via Google News RSS site-scoped queries. (Reconfirmed stable this cycle — 4th pass.)",
+    "key_obstacle_partial": "Malaysiakini full article bodies remain paywalled (lead paragraph only); The Star / NST article bodies not directly fetched this cycle (Google News article URLs post-2024 are encrypted; bodies deferred to a daytime MYT cycle's targeted fetch). Astro Awani homepage HTML extraction yielded 0 (structure not parsed by static extractor); /berita-nasional 404; gnews fallback used (60 items).",
+    "methodology_improvement_this_cycle": "Freshness scan extended beyond the RFC822-GMT-only scan used in prior passes: WordPress REST API ISO-8601 dates from utusan/kosmo/ohbulan are now also parsed and zoned as site-local MYT (UTC+8) before comparison to the cutoff. This closes a gap where WP-API dates (stored without explicit offset) could be misread as UTC. Re-running with corrected zoning confirmed 0 fresh articles (latest WP-API date, correctly zoned, falls before the cutoff). Result unchanged: 4th zero-delta pass validated under a stricter scan."
   },
 
   "pir_priorities": {
@@ -33,12 +34,13 @@
   },
 
   "critical_pir06_alert": {
-    "status": "ESCALATED WATCH — UNCHANGED. NO formal PN Supreme Council (Majlis Tertinggi) removal notice for Bersatu has been issued. Trajectory remains 'two-sided': PN-MT-may-remove-Bersatu (Kiandee call) AND Bersatu-may-exit-PN (Muhyiddin hint). This cycle (03:40 MYT 19 Jul, 2nd overnight pass) produced no new PIR-06 statements; the assessment carries forward verbatim from the 170837 cycle. Automated CRITICAL-pattern regex matched 0 titles across all 19 files this cycle; precursor-pattern (asas kukuh / kiandee) returned 0 (Kiandee/Muhyiddin Malay statements rotated off WP-API front-page and gnews top-60 sets, content unchanged and already fully captured at 170837).",
+    "status": "ESCALATED WATCH — UNCHANGED. NO formal PN Supreme Council (Majlis Tertinggi) removal notice for Bersatu has been issued. Trajectory remains 'two-sided': PN-MT-may-remove-Bersatu (Kiandee call) AND Bersatu-may-exit-PN (Muhyiddin hint). This cycle (06:03 MYT 19 Jul, 4th overnight pass) produced no new PIR-06 statements; the assessment carries forward verbatim from the 170837 cycle. Automated CRITICAL-pattern regex matched 0 titles across all 19 files this cycle; precursor-pattern (asas kukuh / kiandee) returned 0 (Kiandee/Muhyiddin Malay statements rotated off WP-API front-page and gnews top-60 sets, content unchanged and already fully captured at 170837).",
     "formal_removal_notice_detected": false,
     "escalation_detected": true,
     "this_cycle_new_pir06_content": false,
-    "negative_confirmation": "Automated CRITICAL-pattern regex (formal PN-MT removal-notice phrasing) matched 0 titles across all 19 collected files this cycle. Precursor-pattern (asas kukuh / kiandee) items returned 0 this cycle — the Kiandee/Muhyiddin Malay-language statements rotated off the WP-API front-page and gnews top-60 result sets, but their content is unchanged and was already fully captured at 170837. Targeted Google News query 'PN Bersatu (pecat OR keluar OR buang)' universal feed returned 53 items, all historical PAS-Bersatu-PN realignment coverage — none a formal MT-issued removal notice.",
-    "key_new_evidence_this_cycle": [
+    "negative_confirmation": "Automated CRITICAL-pattern regex (formal PN-MT removal-notice phrasing) matched 0 titles across all 19 collected files this cycle. Two regex hits surfaced in an independent sweep of the universal pnpecat gnews file, both NON-genuine: (1) the feed's own header/label text ('Google News Universal - PN pecat/keluar Bersatu'), and (2) Hadi's 12 Jun 2026 denial 'PAS cannot unilaterally kick out Bersatu from PN' — an old (5+ weeks prior) NEGATIVE/defensive statement, the opposite of a removal notice, already classified in prior cycles as the HADI-DENIAL item. The v2 collector's per-item structured analysis (which excludes file headers) correctly returned formal_removal_notice_detected=false. Precursor-pattern (asas kukuh / kiandee) items returned 0 this cycle — the Kiandee/Muhyiddin Malay-language statements rotated off the WP-API front-page and gnews top-60 result sets, but their content is unchanged and was already fully captured at 170837. Universal Google News query 'PN Bersatu (pecat OR keluar OR buang)' feed re-fetched this cycle; no formal MT-issued removal notice surfaced.",
+    "key_new_evidence_this_cycle": [],
+    "carryover_primary_evidence": [
       {
         "rank": "PRIMARY-ESCALATION",
         "headline": "Goodbye PN?: Muhyiddin raps Samsuri over BN talks, Bersatu to move on",
@@ -54,7 +56,7 @@
         "headline": "PN may continue BN cooperation if Negri Sembilan results prove positive, says Samsuri",
         "source": "New Straits Times",
         "pubdate_gmt": "Fri, 17 Jul 2026 06:55:47 GMT (14:55 MYT 17 Jul)",
-        "pir_significance": "PN chairperson Ahmad Samsuri Mokhtar — the same figure Muhyiddin rapped for unilaterally entering the BN pact — signals PN may CONTINUE the BN cooperation if NS results are positive. This is the PAS/PN side's post-election coalition intent, contingent on the NS result, and notably frames the BN-PN pact continuing (the arrangement Muhyiddin says sidelines Bersatu). Already captured at 170837 (1 mention in 170837 NST file); re-surfaced in this cycle's NST gnews per-source set. PIR-06 + PIR-07 relevant.",
+        "pir_significance": "PN chairperson Ahmad Samsuri Mokhtar — the same figure Muhyiddin rapped for unilaterally entering the BN pact — signals PN may CONTINUE the BN cooperation if NS results are positive. This is the PAS/PN side's post-election coalition intent, contingent on the NS result, and notably frames the BN-PN pact continuing (the arrangement Muhyiddin says sidelines Bersatu). First captured at 170837 (1 mention in NST file); re-surfaced in this cycle's NST gnews per-source set. PIR-06 + PIR-07 relevant.",
         "first_captured_cycle": "170837",
         "reconfirmed_this_cycle": "Yes"
       },
@@ -63,9 +65,9 @@
         "headline": "Bersatu the only 'true opposition' left following cooperation between BN and PN, says Muhyiddin",
         "source": "The Star",
         "pubdate_gmt": "Sat, 18 Jul 2026 08:46:00 GMT (16:46 MYT 18 Jul)",
-        "pir_significance": "Muhyiddin reframes Bersatu as sole true opposition post BN-PN pact — consistent with exit positioning.",
+        "pir_significance": "Muhyiddin reframes Bersatu as sole true opposition post BN-PN pact — consistent with exit positioning. (Utusan Malay-language 'Muhyiddin dakwa Bersatu kini pembangkang tunggal' also reconfirmed this cycle.)",
         "first_captured_cycle": "170837",
-        "reconfirmed_this_cycle": "Yes (thestar gnews feed)"
+        "reconfirmed_this_cycle": "Yes (thestar gnews feed + utusan wpapi/html)"
       },
       {
         "rank": "CORROBORATING",
@@ -100,7 +102,7 @@
         "source": "Malaysiakini",
         "pir_significance": "PAS now openly sidelining Bersatu — the PAS side of the PN-Bersatu fracture.",
         "first_captured_cycle": "170837",
-        "reconfirmed_this_cycle": "Yes"
+        "reconfirmed_this_cycle": "Yes (mkini gnews feed)"
       },
       {
         "rank": "PRECURSOR-CONFIRMED-MALAY",
@@ -110,19 +112,19 @@
         "key_quote": "Majlis Tertinggi Perikatan Nasional mempunyai asas yang kukuh untuk mengeluarkan Bersatu daripada gabungan Parti Perikatan Nasional. — Datuk Seri Dr. Ronald Kiandee (Bekas Naib Presiden Bersatu / suspended VP, MP Beluran)",
         "pir_significance": "Malay-language confirmation of the PIR-06 precursor signal first captured at 153251. Kiandee explicitly uses 'mengeluarkan Bersatu' (remove Bersatu) + 'asas kukuh' + 'Majlis Tertinggi'. Still a CALL on PN-MT, not an MT-issued notice.",
         "first_captured_cycle": "170837 (Malay full-text captured)",
-        "reconfirmed_this_cycle": "Yes (utusan wpapi+html)"
+        "reconfirmed_this_cycle": "Yes (utusan wpapi + html)"
       },
       {
         "rank": "HADI-DENIAL (reconfirmation)",
         "headline": "Hadi denies PAS made PN 'toxic', blames Bersatu instead",
         "source": "Free Malaysia Today",
         "pubdate_gmt": "Sat, 18 Jul 2026 10:48:16 GMT (18:48 MYT 18 Jul)",
-        "pir_significance": "Hadi (PIR-06 monitor target) deflects 'toxic' label onto Bersatu — blame-shifting consistent with the PAS-sidelining-Bersatu framing. Carried in the universal PN-pecat gnews feed this cycle.",
+        "pir_significance": "Hadi (PIR-06 monitor target) deflects 'toxic' label onto Bersatu — blame-shifting consistent with the PAS-sidelining-Bersatu framing. Carried in the universal PN-pecat gnews feed this cycle. NOTE: an older Hadi statement ('PAS cannot unilaterally kick out Bersatu from PN', 12 Jun 2026) also persists in the universal pnpecat gnews feed — a NEGATIVE/defensive denial, NOT a removal notice; flagged here to prevent false-positive CRITICAL escalation.",
         "first_captured_cycle": "170837",
         "reconfirmed_this_cycle": "Yes (universal pnpecat feed)"
       }
     ],
-    "trajectory_assessment": "CRITICAL threshold (formal PN-MT removal notice) NOT crossed and UNCHANGED this cycle. The situation has materially escalated (per 170837): the principal (Bersatu president Muhyiddin) is now publicly hinting at exit and signaling a new post-election bloc, and a mainstream outlet is framing exit as 'imminent'. The most likely near-term outcome is Bersatu voluntarily realigning/exiting AFTER the Aug 1 poll rather than a formal PN-MT expulsion beforehand — but a reactive PN-MT removal notice remains possible if Bersatu candidates actively damage PN partners in the 8 Tier-4 seats. Nocturnal window (this cycle) produced no new movement; next meaningful update expected at daytime MYT cycles (campaign Day-2, 19 Jul).",
+    "trajectory_assessment": "CRITICAL threshold (formal PN-MT removal notice) NOT crossed and UNCHANGED this cycle (4th overnight pass). The situation has materially escalated (per 170837): the principal (Bersatu president Muhyiddin) is now publicly hinting at exit and signaling a new post-election bloc, and a mainstream outlet is framing exit as 'imminent'. The most likely near-term outcome is Bersatu voluntarily realigning/exiting AFTER the Aug 1 poll rather than a formal PN-MT expulsion beforehand — but a reactive PN-MT removal notice remains possible if Bersatu candidates actively damage PN partners in the 8 Tier-4 seats. Nocturnal window (this cycle, 4th pass) produced no new movement; next meaningful update expected at daytime MYT cycles (campaign Day-2, 19 Jul, ~09:00-12:00 MYT).",
     "tier4_candidate_withdrawal_trigger": "NO Bersatu candidate withdrawals detected in the 8 Tier-4 seats this cycle (or any prior cycle today). (Prior 142040 cycle's Bujang withdrawal was an independent, paperwork-related — not a PIR-06 trigger.)"
   },
 
@@ -143,7 +145,7 @@
   },
 
   "pir09_candidate_credibility": {
-    "cycle_status": "No NEW PIR-09 content this cycle (deep-overnight window). All PIR-09 items below are reconfirmations carried in source feeds; assessments unchanged.",
+    "cycle_status": "No NEW PIR-09 content this cycle (deep-overnight window, 4th pass). All PIR-09 items below are reconfirmations carried in source feeds; assessments unchanged.",
     "new_this_cycle": [],
     "reconfirmed_this_cycle": [
       {
@@ -182,7 +184,7 @@
         "headline": "Tamim surrenders to police, hopes to campaign for N Sembilan independent candidate",
         "source": "Malaysiakini",
         "pubdate_gmt": "Sat, 18 Jul 2026 13:26:29 GMT (21:26 MYT 18 Jul)",
-        "pir_significance": "Activist Tamim Dahri (prior cycle: surrendered at Port Dickson over FB threat case) now seeks to campaign for an independent — independent-candidate support-network signal.",
+        "pir_significance": "Activist Tamim Dahri (prior cycle: surrendered at Port Dickson over FB threat case) now seeks to campaign for an independent — independent-candidate support-network signal. (Reconfirmed this cycle in mkini homepage + mkini gnews; the mkini homepage '1h ago' relative label is a display artifact, not a new publish — article was first captured 170837.)",
         "first_captured_cycle": "170837"
       }
     ],
@@ -197,7 +199,7 @@
     "nomination_day_confirmed": "18 Jul 2026",
     "total_candidates": 103,
     "candidate_breakdown": {"PH": 36, "BN": 25, "Bersatu": 24, "PN": 11, "independents": 4, "Berjasa": 1, "Asli": 1, "PSM": 1},
-    "cycle_status": "No NEW Day-1 campaign events or poll/forecast publications this cycle (deep-overnight window). All items below are reconfirmations; assessments unchanged.",
+    "cycle_status": "No NEW Day-1 campaign events or poll/forecast publications this cycle (deep-overnight window, 4th pass). All items below are reconfirmations; assessments unchanged. Day-2 campaign events (19 Jul MYT daytime) have not yet commenced at collection time (06:03 MYT).",
     "new_this_cycle": [],
     "reconfirmed_this_cycle": [
       {"headline": "N. Sembilan polls enter battle mode as nomination day kicks off [WATCH]", "source": "NST", "pubdate_gmt": "Sat, 18 Jul 2026 02:33 GMT", "note": "Nomination-day battle-mode framing"},
@@ -205,7 +207,7 @@
       {"headline": "Negri polls: Fair weather sets stage for nomination process", "source": "The Star", "pubdate_gmt": "Sat, 18 Jul 2026 01:02 GMT"},
       {"headline": "Negri polls: No untoward incidents during nomination process, say police", "source": "The Star", "pubdate_gmt": "Sat, 18 Jul 2026 07:36 GMT"},
       {"headline": "Negri polls: 464 nomination forms sold, 70 prospective candidates paid deposits, says EC", "source": "The Star", "pubdate_gmt": "Fri, 17 Jul 2026 06:49 GMT"},
-      {"headline": "Negri Sembilan polls: Chuah, Lukut and Bagan Pinang contests take shape", "source": "NST", "pubdate_gmt": "Sat, 18 Jul 2026 06:24:35 GMT (14:24 MYT 18 Jul)", "note": "Battleground seat-contests taking shape — Chuah/Lukut/Bagan Pinang. PIR-07 reconfirmation newly indexed in this cycle's NST gnews set."},
+      {"headline": "Negri Sembilan polls: Chuah, Lukut and Bagan Pinang contests take shape", "source": "NST", "pubdate_gmt": "Sat, 18 Jul 2026 06:24:35 GMT (14:24 MYT 18 Jul)", "note": "Battleground seat-contests taking shape — Chuah/Lukut/Bagan Pinang."},
       {"headline": "PN may continue BN cooperation if Negri Sembilan results prove positive, says Samsuri", "source": "NST", "pubdate_gmt": "Fri, 17 Jul 2026 06:55:47 GMT", "note": "PN/PAS side post-election coalition intent contingent on NS result — PIR-07 + PIR-06."},
       {"headline": "PN-BN understanding boosts PAS hopes in Negri Sembilan polls / PN-BN electoral understanding aims to wrest Negri Sembilan from PH / PN confident understanding with BN can deliver Negri Sembilan victory", "source": "NST", "note": "Cluster confirms the BN-PN electoral understanding is operational and PAS-led on the PN side"},
       {"headline": "BN-PN understanding aimed at ensuring Negri Sembilan political stability, says Asyraf Wajdi", "source": "NST"},
@@ -217,21 +219,50 @@
       {"headline": "DAP revives anti-BN campaign ahead of Negeri Sembilan polls", "source": "Malaysiakini", "note": "DAP raising 1MDB scandal, ruler crisis — PH-component tension with the BN-PN pact"},
       {"headline": "KINIGUIDE | Shifting alliances as battle royale for Negeri Sembilan begins", "source": "Malaysiakini", "note": "Backgrounder: campaigning under a dramatically different political landscape"},
       {"headline": "Negri polls: Campaign with integrity, Dr Wee tells MCA candidates", "source": "The Star", "pubdate_gmt": "Sat, 18 Jul 2026 08:37 GMT"},
-      {"headline": "Bersatu goes solo in Negri Sembilan polls, PN says move expected / Bersatu to announce Negri Sembilan candidates, seats on Friday", "source": "NST"}
+      {"headline": "Bersatu goes solo in Negri Sembilan polls, PN says move expected / Bersatu to announce Negri Sembilan candidates, seats on Friday", "source": "NST"},
+      {"headline": "Nor Azman mahu jumpa seramai mungkin pengundi di Sikamat", "source": "Utusan", "note": "N13 Sikamat (Tier-4 seat) Day-1 candidate walkabout — PH's Nor Azman. Reconfirmed this cycle via utusan wpapi/html."},
+      {"headline": "Lawan Tok Mat macam perlawanan persahabatan PH-BN - Dr. Azizul", "source": "Utusan", "note": "N27 Rantau marquee Day-1 messaging — Dr Azizul (PH) frames contest vs Tok Mat as 'friendly match' (PH-BN alliance context). Reconfirmed this cycle via utusan wpapi/html."}
     ],
     "manifesto_and_messaging": {"bn_manifesto_launch": "24 Jul 2026 (carryover)", "bn_focus": "development + cost of living", "anwar_pitch": "Give PH stronger mandate for clean/stable admin under MB Aminuddin (NST, carryover)", "mb_candidate": "Decided AFTER PRN", "bn_pn_framing": "'Understanding' not merger (Wee) — determinant for Melaka & PRU16"},
-    "marquee_day1_events": "Carryover: N01 Chennah (Anthony Loke vs Siow Kong Choon); N27 Rantau (Tok Mat vs Dr Azizul Hakim); N32 Linggi (MB Aminuddin 3-corner); N14 Ampangan messaging war; BN nom-day ops (Gemencheh/Jelebu/Rantau/Chembong/Kota). No Day-2 events yet (overnight)."
+    "marquee_day1_events": "Carryover: N01 Chennah (Anthony Loke vs Siow Kong Choon); N27 Rantau (Tok Mat vs Dr Azizul Hakim); N32 Linggi (MB Aminuddin 3-corner); N14 Ampangan messaging war; N13 Sikamat (Nor Azman walkabout); BN nom-day ops (Gemencheh/Jelebu/Rantau/Chembong/Kota). No Day-2 events yet (overnight/pre-dawn).",
+    "adjacent_election_distractor_note": "PRN Johor ke-16 is running concurrently; early voting ('Pengundian awal... 20,607 pengundi pada PRN Johor') and a new Johor exco lineup surface in utusan/kosmo/mkini/mstar feeds this cycle. These are Johor items, NOT Negeri Sembilan — excluded from PIR-07 NS accounting but logged here to prevent misattribution. (Also the source of the mStar 'Empat muka baharu Exco Johor' false-positive delta title.)"
   },
 
-  "delta_vs_prior_cycle_182751": {
-    "prior_cycle_time": "20260718_182751 (~02:27 MYT 19 Jul 2026)",
-    "this_cycle_time": "20260718_194028 (~03:40 MYT 19 Jul 2026)",
-    "wall_clock_window_note": "This cycle ran ~73 min after the 182751 cycle, deeper into the MYT overnight window (~03:40 MYT 19 Jul). Malaysian newsrooms are essentially quiet. The cycle is a STABILITY/CONFIRMATION pass (2nd overnight), not a new-event-detection pass.",
+  "delta_vs_prior_cycle_205755": {
+    "prior_cycle_time": "20260718_205755 (~04:57 MYT 19 Jul 2026)",
+    "this_cycle_time": "20260718_220325 (~06:03 MYT 19 Jul 2026)",
+    "wall_clock_window_note": "This cycle ran ~66 min after the 205755 cycle, in the final pre-dawn MYT slot (~06:03 MYT 19 Jul). Malaysian newsrooms remain quiet (campaign Day-1 ended; Day-2 events begin at daytime MYT 19 Jul, ~09:00+). The cycle is a STABILITY/CONFIRMATION pass (4th overnight), not a new-event-detection pass.",
     "genuinely_new_findings": [],
-    "delta_scan_result": "Set-difference of priority_titles between _scrape_results_182751.json (178 titles) and _scrape_results_194028.json (178 titles) returned 1 apparent delta: '103 candidates confirmed for 36-seat Negri Sembilan election' (NST via gnews). This is an English-language variant of the Malay '103 calon sah bertanding rebut 36 kerusi DUN – SPR' already captured at 182751 (kosmo/utusan); not genuinely new intelligence. No PIR-06/09/07-relevant new content surfaced.",
+    "delta_scan_result": "Set-difference of normalized priority_titles between _scrape_results_205755.json (175 title-keys) and _scrape_results_220325.json (178 title-keys) returned 6 apparent new title-keys — ALL from mStar lifestyle/entertainment feed rotation (see newly_surfaced_in_per_source_delta); 0 are PIR-06/09/07-relevant. Freshness scan (RFC822 GMT Google-News dates + WP-API ISO dates zoned as MYT UTC+8) across all 19 *_220325.md files for dates >= 20:57 GMT 18 Jul 2026 returned 0 matches; latest article across all files is 18:28 UTC 18 Jul (nstcommy gnews). Combined: 0 PIR-relevant new content surfaced this cycle — 4th consecutive zero-delta overnight pass.",
     "newly_surfaced_in_per_source_delta": [
-      {"headline": "103 candidates confirmed for 36-seat Negri Sembilan election", "source": "NST (via gnews)", "note": "NOT genuinely new — English-language variant of the Malay '103 calon sah bertanding' already captured at 182751. PIR-07 reconfirmation of the SPR-confirmed 103-candidate total; candidate_breakdown unchanged."}
+      {"source": "mstarcommy", "title": "Piche Kota trauma nak keluar rumah, belum sedia kembali menyanyi", "classification": "FALSE-POSITIVE — lifestyle/entertainment (singer). 'keluar rumah'=leave house, not exit-PN. PIR-06 keyword noise."},
+      {"source": "mstarcommy", "title": "Empat muka baharu dalam barisan Exco Johor", "classification": "FALSE-POSITIVE — Johor state exco, not NS. Adjacent PRN Johor distractor."},
+      {"source": "mstarcommy", "title": "Murid gempal suka pura-pura pengsan... Buat 'drama' setiap kali tak siap kerja sekolah", "classification": "FALSE-POSITIVE — schoolkids lifestyle, no political content."},
+      {"source": "mstarcommy", "title": "Pasangan suami isteri 'downgrade' rumah sewa RM600... bau najis haiwan", "classification": "FALSE-POSITIVE — lifestyle/rental, no political content."},
+      {"source": "mstarcommy", "title": "Sebar video aib wanita... Influencer lelaki didenda RM62,000", "classification": "FALSE-POSITIVE — crime/celebrity, no political content."},
+      {"source": "mstarcommy_gn", "title": "Wow! Bakal ibu buat kejutan hadiah Lamborghini RM2 juta strategi 'ikat' suami", "classification": "FALSE-POSITIVE — lifestyle/viral, no political content."}
     ],
+    "no_change": [
+      "CRITICAL PIR-06 threshold (formal PN-MT removal notice) still NOT crossed.",
+      "No Bersatu candidate withdrawals in the 8 Tier-4 seats.",
+      "Candidate list (103 candidates) unchanged.",
+      "Gerakan pecat of Tang Jay Son reconfirmed (no new PN-component expulsion).",
+      "PIR-06 escalated-watch assessment (two-sided: PN-may-remove AND Bersatu-may-exit) unchanged.",
+      "PIR-09 N.14 Ampangan Day-1 messaging war unchanged (no Day-2 content yet — pre-dawn).",
+      "PIR-07 BN manifesto launch date (24 Jul) and candidate breakdown unchanged.",
+      "All monitor channels (Kiandee/Muhyiddin/Annuar Musa/Hadi/Samsuri/BERNAMA/PN-components) — no new output this cycle.",
+      "Tamim article (mkini homepage '1h ago' label) reconfirmed, NOT new — first captured 170837."
+    ],
+    "source_coverage_this_cycle": "10/10 sources successful, 0 HTTP errors, all 16 source-attempts returned HTTP 200. Strategies stable: wpapi (utusan/kosmo/ohbulan), html (malaysiakini/astroawani/thestar/tmi/mstar/kosmo/utusan), gnews per-source (nst/bharian/mstar/thestar/astroawani/malaysiakini), gnews universal (3 feeds). Astro Awani homepage HTML 0 (gnews fallback 60); The Star /news/nation HTML 6 (gnews fallback 60). Minor gnews-index variances vs 205755: mstarcommy_gn items 15->23, mstarcommy html pri 5->10 (P06 1->2), bhariancommy pri 6->3 — all feed-rotation, not new content."
+  },
+
+  "delta_vs_prior_cycle_194028": {
+    "prior_cycle_time": "20260718_194028 (~03:40 MYT 19 Jul 2026)",
+    "this_cycle_time_captured_at": "20260718_205755 (~04:57 MYT 19 Jul 2026) [historical record from 205755 cycle]",
+    "wall_clock_window_note": "This historical delta block records the 205755 cycle's findings vs the 194028 cycle. Preserved as audit trail.",
+    "genuinely_new_findings": [],
+    "delta_scan_result": "Set-difference of normalized priority_titles between _scrape_results_194028.json (178 titles) and _scrape_results_205755.json (178 titles) returned 0 new titles. RFC822 pubDate freshness scan across all 19 *_205755.md files for dates >= 19:40 GMT 18 Jul 2026 returned 0 matches. Combined: no PIR-06/09/07-relevant new content surfaced this cycle.",
+    "newly_surfaced_in_per_source_delta": [],
     "no_change": [
       "CRITICAL PIR-06 threshold (formal PN-MT removal notice) still NOT crossed.",
       "No Bersatu candidate withdrawals in the 8 Tier-4 seats.",
@@ -245,28 +276,35 @@
     "source_coverage_this_cycle": "10/10 sources successful, 0 HTTP errors, all 16 source-attempts returned HTTP 200. Strategies stable: wpapi (utusan/kosmo/ohbulan), html (malaysiakini/astroawani/thestar/tmi/mstar/kosmo/utusan), gnews per-source (nst/bharian/mstar/thestar/astroawani/malaysiakini), gnews universal (3 feeds). Astro Awani homepage HTML 0 (gnews fallback 60); The Star /news/nation HTML 6 (gnews fallback 60)."
   },
 
-  "delta_vs_prior_cycle_170837": {
-    "prior_cycle_time": "20260718_170837 (~01:08 MYT 19 Jul 2026)",
-    "this_cycle_time": "20260718_182751 (~02:27 MYT 19 Jul 2026)",
-    "wall_clock_window_note": "This cycle ran ~79 min after the 170837 cycle, deep in the MYT overnight window (~02:27 MYT 19 Jul). Malaysian newsrooms are essentially quiet at this hour. The cycle is a STABILITY/CONFIRMATION pass, not a new-event-detection pass.",
+  "delta_vs_prior_cycle_182751": {
+    "prior_cycle_time": "20260718_182751 (~02:27 MYT 19 Jul 2026)",
+    "this_cycle_time_captured_at": "20260718_194028 (~03:40 MYT 19 Jul 2026) [historical record from 194028 cycle]",
+    "wall_clock_window_note": "This historical delta block records the 194028 cycle's findings vs the 182751 cycle. Preserved as audit trail.",
     "genuinely_new_findings": [],
-    "freshness_scan_result": "Parsed all 19 *_182751.md files for RFC822 pubDates >= 17:08 GMT 18 Jul 2026 (the 170837 cutoff). Result: 0 articles published after the cutoff. Confirms no new Malaysian news output in the window.",
-    "newly_surfaced_in_per_source_delta": [
-      {"headline": "PN may continue BN cooperation if Negri Sembilan results prove positive, says Samsuri", "source": "NST (via gnews)", "pubdate_gmt": "Fri, 17 Jul 2026 06:55:47 GMT", "note": "NOT genuinely new — already present (1 mention) in the 170837 NST file. Surfaced in this cycle's per-source priority_titles delta due to title-string normalization; content unchanged. PIR-06 + PIR-07 reconfirmation of Samsuri's post-election BN-PN continuation contingent on NS result."}
-    ],
-    "false_positive_deltas": [
-      {"headline": "Farizon Buka Pusat Pengedaran Alat Ganti Global...", "source": "utusan/kosmo WP-API", "note": "Commercial-vehicle company press release; matched a PIR keyword incidentally. NOT PRN-NS relevant. Filtered out."}
-    ],
+    "delta_scan_result": "Set-difference of priority_titles between _scrape_results_182751.json (178 titles) and _scrape_results_194028.json (178 titles) returned 1 apparent delta: '103 candidates confirmed for 36-seat Negri Sembilan election' (NST via gnews). This is an English-language variant of the Malay '103 calon sah bertanding' already captured at 182751 (kosmo/utusan); not genuinely new. No PIR-06/09/07-relevant new content surfaced.",
     "no_change": [
       "CRITICAL PIR-06 threshold (formal PN-MT removal notice) still NOT crossed.",
       "No Bersatu candidate withdrawals in the 8 Tier-4 seats.",
       "Candidate list (103 candidates) unchanged.",
-      "Gerakan pecat of Tang Jay Son reconfirmed (no new PN-component expulsion).",
-      "PIR-06 escalated-watch assessment (two-sided: PN-may-remove AND Bersatu-may-exit) unchanged.",
+      "PIR-06 escalated-watch assessment unchanged."
+    ]
+  },
+
+  "delta_vs_prior_cycle_170837": {
+    "prior_cycle_time": "20260718_170837 (~01:08 MYT 19 Jul 2026)",
+    "this_cycle_time_captured_at": "20260718_182751 (~02:27 MYT 19 Jul 2026) [historical record from 182751 cycle]",
+    "wall_clock_window_note": "Historical delta block — preserved as audit trail.",
+    "genuinely_new_findings": [],
+    "freshness_scan_result": "Parsed all 19 *_182751.md files for RFC822 pubDates >= 17:08 GMT 18 Jul 2026 (the 170837 cutoff). Result: 0 articles published after the cutoff.",
+    "no_change": [
+      "CRITICAL PIR-06 threshold (formal PN-MT removal notice) still NOT crossed.",
+      "No Bersatu candidate withdrawals in the 8 Tier-4 seats.",
+      "Candidate list (103 candidates) unchanged.",
+      "Gerakan pecat of Tang Jay Son reconfirmed.",
+      "PIR-06 escalated-watch assessment unchanged.",
       "PIR-09 N.14 Ampangan Day-1 messaging war unchanged.",
       "PIR-07 BN manifesto launch date (24 Jul) and candidate breakdown unchanged."
-    ],
-    "source_coverage_this_cycle": "10/10 sources successful, 0 HTTP errors. All strategies (wpapi, html, gnews per-source, gnews universal) returned 200. Astro Awani homepage HTML extraction returned 0 articles (static structure not parseable) but gnews fallback rich (60 items). The Star /news/nation HTML returned 6 (nav links only); gnews fallback rich (60)."
+    ]
   },
 
   "delta_vs_prior_cycle_153251": {
@@ -291,32 +329,37 @@
   },
 
   "sources": [
-    {"source": "malaysiakinicom", "strategy": "html", "url": "https://www.malaysiakini.com", "http_code": "200", "article_count": 33, "priority_article_count": 22, "prn_article_count": 23, "pir06_hits": 10, "pir09_hits": 7, "pir07_hits": 16, "file": "malaysiakinicom_20260718_194028.md", "note": "RICHEST PRN source; homepage returns full article listings. Full bodies paywalled. Carries Goodbye-PN/Muhyiddin exit hint + Ampangan/Tamim/Albert/MCA-Youth."},
-    {"source": "malaysiakinicom_gn", "strategy": "google-news-rss", "url": "Google News: site:malaysiakini.com Negeri Sembilan", "http_code": "200", "article_count": 60, "priority_article_count": 17, "prn_article_count": 34, "pir06_hits": 9, "pir09_hits": 2, "pir07_hits": 7, "file": "malaysiakinicom_gn_20260718_194028.md"},
-    {"source": "nstcommy", "strategy": "google-news-rss", "url": "Google News: site:nst.com.my Negeri Sembilan", "http_code": "200", "article_count": 60, "priority_article_count": 34, "prn_article_count": 36, "pir06_hits": 7, "pir09_hits": 0, "pir07_hits": 33, "file": "nstcommy_20260718_194028.md", "note": "NST /news/nation fully JS-rendered; recovered via gnews. Largest PIR-07 cluster. Carries Samsuri BN-continuation + Chuah/Lukut/Bagan Pinang contests."},
-    {"source": "thestarcommy", "strategy": "html+gnews", "url": "https://www.thestar.com.my/news/nation", "http_code": "200", "article_count": 60, "priority_article_count": 17, "prn_article_count": 26, "pir06_hits": 5, "pir09_hits": 2, "pir07_hits": 11, "file": "thestarcommy_gn_20260718_194028.md", "note": "HTML /news/nation yields 6 nav links; gnews fallback rich (60). Carries Tang Jay Son + Muhyiddin true-opposition + Annuar Musa part-ways + Lukut independent."},
-    {"source": "utusancommy", "strategy": "wpapi+html", "url": "https://www.utusan.com.my/wp-json/wp/v2/posts + /nasional/", "http_code": "200", "article_count": 64, "priority_article_count": 28, "prn_article_count": 13, "pir06_hits": 19, "pir09_hits": 10, "pir07_hits": 11, "file": "utusancommy_20260718_194028.md", "note": "WP API (60) + HTML /nasional (64). Malay-language Kiandee confirmation (asas kukuh / mengeluarkan Bersatu) + Kempen Ampangan Day-1. Highest PIR-06 hit count."},
-    {"source": "bhariancommy", "strategy": "google-news-rss", "url": "Google News: site:bharian.com.my Negeri Sembilan", "http_code": "200", "article_count": 60, "priority_article_count": 6, "prn_article_count": 1, "pir06_hits": 1, "pir09_hits": 1, "pir07_hits": 4, "file": "bhariancommy_20260718_194028.md", "note": "Direct fetch 403; recovered via gnews. Mostly NS infrastructure/soft news, thin PRN politics."},
-    {"source": "kosmocommy", "strategy": "wpapi+html", "url": "https://www.kosmo.com.my/wp-json/wp/v2/posts + homepage", "http_code": "200", "article_count": 81, "priority_article_count": 28, "prn_article_count": 12, "pir06_hits": 9, "pir09_hits": 8, "pir07_hits": 20, "file": "kosmocommy_20260718_194028.md", "note": "WP API (60) + homepage HTML (81). Zahid jajaran politik baharu article."},
-    {"source": "astroawanicom", "strategy": "google-news-rss", "url": "Google News: site:astroawani.com Negeri Sembilan", "http_code": "200", "article_count": 60, "priority_article_count": 6, "prn_article_count": 6, "pir06_hits": 1, "pir09_hits": 0, "pir07_hits": 5, "file": "astroawanicom_gn_20260718_194028.md", "note": "Homepage HTML extraction 0 (structure not parsed); /berita-nasional 404. gnews fallback used."},
-    {"source": "mstarcommy", "strategy": "html+gnews", "url": "https://www.mstar.com.my + gnews", "http_code": "200", "article_count": 43, "priority_article_count": 5, "prn_article_count": 3, "pir06_hits": 1, "pir09_hits": 1, "pir07_hits": 4, "file": "mstarcommy_20260718_194028.md", "note": "Homepage HTML works (43); /lokal/sembilan 404. gnews add-on (15)."},
-    {"source": "ohbulancom", "strategy": "wpapi", "url": "https://www.ohbulan.com/wp-json/wp/v2/posts", "http_code": "200", "article_count": 60, "priority_article_count": 11, "prn_article_count": 0, "pir06_hits": 8, "pir09_hits": 2, "pir07_hits": 3, "file": "ohbulancom_20260718_194028.md", "note": "WP API works; largely lifestyle/viral; PIR-06 hits are keyword (Bersatu) incidental."},
-    {"source": "thmalaysianinsightcom", "strategy": "html", "url": "https://www.themalaysianinsight.com/", "http_code": "200", "article_count": 9, "priority_article_count": 0, "prn_article_count": 2, "pir06_hits": 0, "pir09_hits": 0, "pir07_hits": 0, "file": "thmalaysianinsightcom_20260718_194028.md", "note": "Thin PRN NS content this cycle."}
+    {"source": "malaysiakinicom", "strategy": "html", "url": "https://www.malaysiakini.com", "http_code": "200", "article_count": 33, "priority_article_count": 22, "prn_article_count": 23, "pir06_hits": 10, "pir09_hits": 7, "pir07_hits": 16, "file": "malaysiakinicom_20260718_220325.md", "note": "RICHEST PRN source; homepage returns full article listings. Full bodies paywalled. Carries Goodbye-PN/Muhyiddin exit hint + Ampangan/Tamim/Albert/MCA-Youth. 'Tamim...1h ago' is a homepage relative-label artifact (article first captured 170837)."},
+    {"source": "malaysiakinicom_gn", "strategy": "google-news-rss", "url": "Google News: site:malaysiakini.com Negeri Sembilan", "http_code": "200", "article_count": 60, "priority_article_count": 17, "prn_article_count": 34, "pir06_hits": 9, "pir09_hits": 2, "pir07_hits": 7, "file": "malaysiakinicom_gn_20260718_220325.md"},
+    {"source": "nstcommy", "strategy": "google-news-rss", "url": "Google News: site:nst.com.my Negeri Sembilan", "http_code": "200", "article_count": 60, "priority_article_count": 35, "prn_article_count": 37, "pir06_hits": 7, "pir09_hits": 0, "pir07_hits": 34, "file": "nstcommy_20260718_220325.md", "note": "NST /news/nation fully JS-rendered; recovered via gnews. Largest PIR-07 cluster. Carries Samsuri BN-continuation + Chuah/Lukut/Bagan Pinang contests + Fuziah PH-strategy. Latest pubDate in this cycle's files = 18:28 UTC 18 Jul (this source)."},
+    {"source": "thestarcommy", "strategy": "html+gnews", "url": "https://www.thestar.com.my/news/nation", "http_code": "200", "article_count": 6, "priority_article_count": 0, "prn_article_count": 0, "pir06_hits": 0, "pir09_hits": 0, "pir07_hits": 0, "file": "thestarcommy_20260718_220325.md", "note": "HTML /news/nation yields 6 nav links; gnews fallback (thestarcommy_gn) used for content."},
+    {"source": "thestarcommy_gn", "strategy": "google-news-rss", "url": "Google News: site:thestar.com.my Negeri Sembilan", "http_code": "200", "article_count": 60, "priority_article_count": 17, "prn_article_count": 26, "pir06_hits": 5, "pir09_hits": 2, "pir07_hits": 11, "file": "thestarcommy_gn_20260718_220325.md", "note": "gnews fallback rich (60). Carries Tang Jay Son + Muhyiddin true-opposition + Annuar Musa part-ways + Lukut independent + INTERACTIVE seat facts + tighter-races analysis."},
+    {"source": "utusancommy", "strategy": "wpapi+html", "url": "https://www.utusan.com.my/wp-json/wp/v2/posts + /nasional/", "http_code": "200", "article_count": 60, "priority_article_count": 27, "prn_article_count": 14, "pir06_hits": 9, "pir09_hits": 7, "pir07_hits": 22, "file": "utusancommy_20260718_220325.md", "note": "WP API (60). Malay-language Kiandee confirmation (asas kukuh / mengeluarkan Bersatu) + Kempen Ampangan Day-1 + Sikamat/Rantau Day-1 candidate activity. High PIR-06 hit count. (Also carries adjacent PRN Johor early-voting distractor.)"},
+    {"source": "utusancommy_html", "strategy": "html", "url": "https://www.utusan.com.my/nasional/", "http_code": "200", "article_count": 64, "priority_article_count": 28, "prn_article_count": 13, "pir06_hits": 19, "pir09_hits": 10, "pir07_hits": 11, "file": "utusancommy_html_20260718_220325.md", "note": "HTML /nasional (64). Highest PIR-06 hit count (caption/side-text rich). Carries Sikamat/Rantau Day-1 photo captions."},
+    {"source": "bhariancommy", "strategy": "google-news-rss", "url": "Google News: site:bharian.com.my Negeri Sembilan", "http_code": "200", "article_count": 60, "priority_article_count": 3, "prn_article_count": 1, "pir06_hits": 0, "pir09_hits": 0, "pir07_hits": 3, "file": "bhariancommy_20260718_220325.md", "note": "Direct fetch 403; recovered via gnews. Mostly NS infrastructure/soft news, thin PRN politics. pri count dropped 6->3 vs 205755 (gnews index rotation, not new content)."},
+    {"source": "kosmocommy", "strategy": "wpapi", "url": "https://www.kosmo.com.my/wp-json/wp/v2/posts", "http_code": "200", "article_count": 60, "priority_article_count": 28, "prn_article_count": 12, "pir06_hits": 9, "pir09_hits": 8, "pir07_hits": 20, "file": "kosmocommy_20260718_220325.md", "note": "WP API (60). Zahid jajaran politik baharu article + Senarai calon + BN manifesto 24 Julai."},
+    {"source": "kosmocommy_html", "strategy": "html", "url": "https://www.kosmo.com.my", "http_code": "200", "article_count": 81, "priority_article_count": 6, "prn_article_count": 2, "pir06_hits": 1, "pir09_hits": 4, "pir07_hits": 2, "file": "kosmocommy_html_20260718_220325.md", "note": "Homepage HTML (81). 'Empat kerusi panas NS' + Senarai calon."},
+    {"source": "astroawanicom", "strategy": "html", "url": "https://www.astroawani.com", "http_code": "200", "article_count": 0, "priority_article_count": 0, "prn_article_count": 0, "pir06_hits": 0, "pir09_hits": 0, "pir07_hits": 0, "file": "astroawanicom_20260718_220325.md", "note": "Homepage HTML extraction 0 (structure not parsed by static extractor). gnews fallback used."},
+    {"source": "astroawanicom_gn", "strategy": "google-news-rss", "url": "Google News: site:astroawani.com Negeri Sembilan", "http_code": "200", "article_count": 60, "priority_article_count": 6, "prn_article_count": 6, "pir06_hits": 1, "pir09_hits": 0, "pir07_hits": 5, "file": "astroawanicom_gn_20260718_220325.md", "note": "gnews fallback (60). Carries BN 25 kerusi + MCA 7/MIC 4 + DAP/PM Anwar gesa."},
+    {"source": "mstarcommy", "strategy": "html", "url": "https://www.mstar.com.my", "http_code": "200", "article_count": 42, "priority_article_count": 10, "prn_article_count": 8, "pir06_hits": 2, "pir09_hits": 1, "pir07_hits": 8, "file": "mstarcommy_20260718_220325.md", "note": "Homepage HTML works (42); /lokal/sembilan 404. Carries BN-yakin-menang + kerusi tumpuan list + Paroi Shahir singgah pusara. pri 5->10 vs 205755 = lifestyle-feed rotation (the 6 false-positive delta titles originate here)."},
+    {"source": "mstarcommy_gn", "strategy": "google-news-rss", "url": "Google News: site:mstar.com.my Negeri Sembilan", "http_code": "200", "article_count": 23, "priority_article_count": 2, "prn_article_count": 0, "pir06_hits": 2, "pir09_hits": 0, "pir07_hits": 0, "file": "mstarcommy_gn_20260718_220325.md", "note": "Thin PRN content. items 15->23 vs 205755 = gnews index refresh; both priority titles are lifestyle false-positives (Lamborghini gift, Aziz Harun move)."},
+    {"source": "ohbulancom", "strategy": "wpapi", "url": "https://www.ohbulan.com/wp-json/wp/v2/posts", "http_code": "200", "article_count": 60, "priority_article_count": 11, "prn_article_count": 0, "pir06_hits": 8, "pir09_hits": 2, "pir07_hits": 3, "file": "ohbulancom_20260718_220325.md", "note": "WP API works; largely lifestyle/viral; PIR-06 hits are keyword (Bersatu) incidental."},
+    {"source": "thmalaysianinsightcom", "strategy": "html", "url": "https://www.themalaysianinsight.com", "http_code": "200", "article_count": 9, "priority_article_count": 0, "prn_article_count": 2, "pir06_hits": 0, "pir09_hits": 0, "pir07_hits": 0, "file": "thmalaysianinsightcom_20260718_220325.md", "note": "Thin PRN NS content this cycle."}
   ],
 
   "google_news_universal_feeds": [
-    {"file": "google_news_universalprnbersatu_html_20260718_194028.md", "query": "PRN Negeri Sembilan Bersatu", "items": "see file", "note": "Cross-outlet PRN+Bersatu feed (BERNAMA Mediacorp, The Vibes, Malaysian Reserve, Sinar Daily, etc.)"},
-    {"file": "google_news_universalpnpecat_html_20260718_194028.md", "query": "PN Bersatu (pecat OR keluar OR buang)", "items": 53, "note": "PIR-06 negative-confirmation feed: no formal PN-MT removal-notice article; mostly historical PAS-Bersatu-PN realignment coverage. Carries Hadi 'blames Bersatu' denial."},
-    {"file": "google_news_universalnomination_html_20260718_194028.md", "query": "(nomination OR penamaan) Negeri Sembilan", "note": "Nomination-day cross-outlet feed."}
+    {"file": "google_news_universalprnbersatu_html_20260718_220325.md", "query": "PRN Negeri Sembilan Bersatu", "items": "see file", "note": "Cross-outlet PRN+Bersatu feed (BERNAMA Mediacorp, The Vibes, Malaysian Reserve, Sinar Daily, etc.)"},
+    {"file": "google_news_universalpnpecat_html_20260718_220325.md", "query": "PN Bersatu (pecat OR keluar OR buang)", "items": 53, "note": "PIR-06 negative-confirmation feed: no formal PN-MT removal-notice article; mostly historical PAS-Bersatu-PN realignment coverage. Carries Hadi 'blames Bersatu' denial + the 12 Jun Hadi 'cannot unilaterally kick out' denial (NEGATIVE statement, NOT a removal notice)."},
+    {"file": "google_news_universalnomination_html_20260718_220325.md", "query": "(nomination OR penamaan) Negeri Sembilan", "note": "Nomination-day cross-outlet feed."}
   ],
 
   "priority_files_created_this_cycle": [
-    "(none) — deep-overnight MYT window produced no genuinely new high-value article warranting a separate full-text fetch. All priority content reconfirmed in the standard per-source + universal feed files above."
+    "(none) — pre-dawn MYT window produced no genuinely new high-value article warranting a separate full-text fetch. All priority content reconfirmed in the standard per-source + universal feed files above."
   ],
 
   "monitor_channels_active": {
     "kiandee_social": "ACTIVE (carryover) — Utusan confirms Kiandee's 'asas kukuh / mengeluarkan Bersatu' Facebook statement (Malay original). Still a CALL on PN-MT, not an MT notice. No new Kiandee output this cycle.",
-    "muhyiddin_channel": "ACTIVE (carryover) — Muhyiddin publicly hinting at Bersatu exit (wishing PN 'all the best', rapping Samsuri, signaling new post-poll bloc). HIGHEST-WEIGHT PIR-06 channel. No new Muhyiddin output this cycle.",
+    "muhyiddin_channel": "ACTIVE (carryover) — Muhyiddin publicly hinting at Bersatu exit (wishing PN 'all the best', rapping Samsuri, signaling new post-poll bloc, 'Bersatu kini pembangkang tunggal'). HIGHEST-WEIGHT PIR-06 channel. No new Muhyiddin output this cycle.",
     "annuar_musa_channel": "ACTIVE (carryover) — Bersatu sec-gen states Bersatu wants to part ways (own-logo signal). No new output this cycle.",
     "hadi_channel": "ACTIVE (carryover) — Hadi framing BN-PN as 'friendship, brotherhood'; Hadi says PN to assist BN during NS campaign; Hadi denies PAS made PN 'toxic', blames Bersatu. No new Hadi output this cycle.",
     "samsuri_channel": "ACTIVE (carryover/reconfirm) — PN chairperson Samsuri named by Muhyiddin as having unilaterally entered BN pact sidelining Bersatu; Samsuri signals PN may continue BN cooperation if NS results positive.",
@@ -332,8 +375,9 @@
     "PIR-09: MCA Youth sec-gen Saw Yee Fung fallout — whether she defies exclusion / further BN-component cracks over the BN-PN pact.",
     "PIR-09: Independent background vetting — Datuk A Saravanan (N33) title/establishment background still pending.",
     "PIR-07: BN manifesto launch 24 Jul; Day-2 campaign events at T1/T2 seats; any poll/forecast publications.",
-    "Next meaningful collection should run in the daytime MYT window (19 Jul, ~09:00-12:00 MYT) when campaign Day-2 events and statements emerge. Overnight cycles hereafter are low-yield.",
-    "Fetch The Star + NST article bodies (deferred) — recover via direct article URLs once obtained (gnews URLs are encrypted post-2024)."
+    "Next meaningful collection should run in the daytime MYT window (19 Jul, ~09:00-12:00 MYT) when campaign Day-2 events and statements emerge. FOUR consecutive overnight passes (182751, 194028, 205755, 220325) have now each returned 0 genuinely new PIR-relevant content — overnight cycles are CONFIRMED exhausted of new yield; any cron trigger before daytime MYT should remain a light stability check only. The first daytime MYT cycle is the expected breakpoint for new content.",
+    "Fetch The Star + NST article bodies (deferred) — recover via direct article URLs once obtained (gnews URLs are encrypted post-2024).",
+    "Distractor guard: PRN Johor ke-16 (concurrent) items (early voting, Johor exco) surface in NS feeds — keep excluded from NS PIR accounting."
   ],
 
   "prior_cycles_today": {
@@ -345,8 +389,10 @@
     "142040_cycle": "afternoon manual deep-scrape of priority articles",
     "153251_cycle": "first nomination-day-surge cycle (director-approved PIR-prioritized); captured Kiandee precursor + Gerakan pecat + Ampangan + full candidate breakdown",
     "170837_cycle": "source-gap fill (mkini/star/nst) + PIR-06 ESCALATION corroboration (Muhyiddin exit hint) + MCA Youth discipline + BN-PN understanding cluster",
-    "182751_cycle": "STABILITY/CONFIRMATION pass (02:27 MYT 19 Jul, deep-overnight); 10/10 sources, 0 errors, 0 new articles, PIR-06 escalated-watch unchanged, no CRITICAL threshold crossing. Value = coverage integrity + assessment stability confirmation.",
-    "194028_cycle": "THIS cycle — 2nd overnight STABILITY/CONFIRMATION pass (03:40 MYT 19 Jul); 10/10 sources, 0 errors, all HTTP 200, 19 md files / 419937 bytes. Delta vs 182751 = 0 genuinely new PIR-relevant titles (1 apparent delta was an EN-variant of an already-captured MY article). PIR-06 escalated-watch unchanged, CRITICAL threshold NOT crossed, precursor items 0. Value = coverage-integrity re-confirmation + assessment stability. Next meaningful collection = daytime MYT (19 Jul, ~09:00-12:00) for campaign Day-2 events."
+    "182751_cycle": "STABILITY/CONFIRMATION pass (02:27 MYT 19 Jul, deep-overnight); 10/10 sources, 0 errors, 0 new articles.",
+    "194028_cycle": "2nd overnight STABILITY/CONFIRMATION pass (03:40 MYT 19 Jul); 10/10 sources, 0 errors, 0 new articles, PIR-06 escalated-watch unchanged.",
+    "205755_cycle": "3rd overnight STABILITY/CONFIRMATION pass (04:57 MYT 19 Jul); 10/10 sources, 0 errors, all HTTP 200, 19 md files / 419796 bytes. Delta vs 194028 = 0 genuinely new PIR-relevant titles. PIR-06 escalated-watch unchanged, CRITICAL threshold NOT crossed, precursor items 0.",
+    "220325_cycle": "THIS cycle — 4th overnight STABILITY/CONFIRMATION pass (06:03 MYT 19 Jul, final pre-dawn window); 10/10 sources, 0 errors, all 16 streams HTTP 200, 19 md files / 398840 bytes. Delta vs 205755 = 0 genuinely new PIR-relevant titles (set-difference returned 6 mStar lifestyle false-positives only; freshness scan incl. WP-API ISO-as-MYT for >= 20:57 GMT 18 Jul returned 0; latest article 18:28 UTC 18 Jul). PIR-06 escalated-watch UNCHANGED, CRITICAL threshold NOT crossed, formal_removal_notice_detected=false, precursor items 0. Methodology improved (WP-API ISO dates now zoned as MYT). Value = coverage-integrity re-confirmation + assessment stability (4th consecutive zero-delta overnight pass). Next meaningful collection = daytime MYT (19 Jul, ~09:00-12:00) for campaign Day-2 events — the expected breakpoint for new content."
   },
 
   "tooling_artifacts_in_raw_scrapes_dir": [
@@ -354,8 +400,11 @@
     "_scrape_cycle_v2.py (v2 — multi-strategy, this cycle's runner)",
     "_fetch_priority.py (priority article full-text fetcher)",
     "_debug_links.py (source link-structure inspector)",
-    "_scrape_results_194028.json (structured cycle results + CRITICAL-flag computation — THIS cycle)",
-    "_scrape_results_182751.json (prior cycle structured results — retained for audit)",
-    "_scrape_results_170837.json (earlier cycle structured results — retained for audit)"
+    "_scrape_results_220325.json (structured cycle results + CRITICAL-flag computation — THIS cycle)",
+    "_scrape_results_205755.json (prior cycle structured results — retained for audit)",
+    "_scrape_results_194028.json (prior cycle structured results — retained for audit)",
+    "_scrape_results_182751.json (earlier cycle structured results — retained for audit)",
+    "_scrape_results_170837.json (earlier cycle structured results — retained for audit)",
+    "_scrape_results_170240.json (earlier cycle structured results — retained for audit)"
   ]
 }
