@@ -1,189 +1,241 @@
-# PRN Negeri Sembilan 2026 — Political Intelligence Operational Workspace (WS1)
+# PRN Negeri Sembilan 2026 — Political Intelligence Workstream (HCR-095)
 
 **Classification:** TLP:AMBER  
 **Repository:** [prn-negeri-sembilan-2026](https://github.com/ahmadfaurani/prn-negeri-sembilan-2026) (HCR-095, Private)  
-**Coverage:** 36 DUN constituencies across 8 Parliamentary seats, Negeri Sembilan State Election 2026  
-**Election Date:** 1 August 2026  
-**Nomination Day:** 18 July 2026  
-**Operational Period:** Pre-Campaign → Polling Day → Post-Election  
+**Coverage:** 36 DUN constituencies across 8 Parliamentary seats  
+**Election:** 16th Negeri Sembilan State Legislative Assembly  
+**Dissolution:** 5 June 2026 | **Nomination Day:** 18 July 2026 | **Polling Day:** 1 August 2026  
+**Baseline (PRN 2023):** PH 17 / BN 14 / PN 5 (19 needed for majority)  
+**Created:** 10 July 2026 | **Last Updated:** 18 July 2026
 
 ---
 
-## Workspace Architecture
+## 1. Mission
 
-This workspace follows the **Intelligence Lifecycle** taxonomy — each directory represents a phase in the collection, processing, analysis, and dissemination cycle. The structure mirrors the proven PRN Johor 2026 operational workspace.
+Produce timely, source-attributed political intelligence to support state campaign leadership, constituency war rooms, and strategic decision-making throughout the PRN Negeri Sembilan 2026 election cycle. All products classified TLP:AMBER and verified using the CVS (Core Truth Validation) framework.
+
+---
+
+## 2. Workspace Structure
 
 ```
 prn-negeri-sembilan-2026/
+├── 00-OPERATIONS/              Frameworks, PIRs, master lists, escalation register
+│   ├── pir-framework.md              PRN16 standard framework (18 PIRs, NS-01 to NS-18)
+│   ├── pir-framework-nomination-day.md  Nomination Day surge framework (25 PIRs, PIR-01 to PIR-25)
+│   ├── pir-quick-reference.md         One-page operations reference card
+│   ├── pir-non-core-candidates.md      Non-core candidate tracking
+│   ├── dun-master-list.md             36 DUN master reference (N01-N36)
+│   ├── election-calendar.md            Full election timeline and phases
+│   ├── escalation-register.md          Live escalation flag tracker (ESC-001 to ESC-011)
+│   └── candidate-tracker.md            36-DUN candidate roll (SPR-verified, continuously updated)
 │
-├── 00-OPERATIONS/                    Framework, PIR, methodology, DUN master list
-├── 01-DAILY-INTELLIGENCE/             Time-series intelligence products
-├── 02-CONSTITUENCY-INTELLIGENCE/      Seat-level intelligence & candidate dossiers
-├── 03-VERIFICATION/                   Fact-checking & source integrity
-├── 04-DATA-AND-SOURCES/               Raw data, SPR results, processed entities
-├── 05-TOOLS-AND-AUTOMATION/           Scripts, templates
-├── 06-INFRASTRUCTURE/                 Logs, deployment config
-└── 07-AUDIT/                          Reports, QA tracking
+├── 01-DAILY-INTELLIGENCE/      Daily briefs, sitreps, coalition analysis
+│   ├── daily-briefs/                   Daily and hourly intelligence briefs
+│   └── sitreps/                        Situation reports
+│
+├── 02-CONSTITUENCY-INTELLIGENCE/  36 DUN constituency profiles
+│   └── constituency-profiles/         N01-N36 individual analysis files
+│
+├── 03-VERIFICATION/            CVS compliance, source register, verification status
+│   ├── cvs-framework.md               Core Truth Validation methodology
+│   ├── source-register.md             All sources tracked with reliability ratings
+│   └── verification-status.md         Per-claim verification status log
+│
+├── 04-DATA-AND-SOURCES/        Raw scrapes, processed entities, SPR official data
+│   ├── raw-scrapes/                    Daily news scrapes (YYYYMMDD format)
+│   ├── processed-entities/            Extracted entities per day (JSON)
+│   ├── spr-data/                       SPR official 2023 results + 2026 candidate list
+│   └── spr-candidate-list-20260718.json  SPR official 2026 candidate list (103 candidates)
+│
+├── 05-TOOLS-AND-AUTOMATION/    Scripts, templates, automation infrastructure
+│   ├── scripts/                        Collection, extraction, sentiment, brief scripts
+│   └── templates/                      Brief, sitrep, and nomination-day templates
+│
+├── 06-INFRASTRUCTURE/          Collection and processing logs
+├── 07-AUDIT/                   Deployment summaries, audit logs
+├── .github/                    Issue templates, PR templates
+├── CONTRIBUTING.md             Operational guidelines for intelligence cell
+├── CHANGELOG.md                Operational changelog
+└── README.md                   This file
 ```
 
 ---
 
-## Directory Breakdown
+## 3. PIR Framework
 
-### 00-OPERATIONS/ (3 files)
-Operational framework documents governing intelligence collection and analysis.
+### Standard Framework (PRN16) — 18 PIRs
 
-- `pir-framework.md` — 12 Priority Intelligence Requirements (PIR) with sub-questions
-- `pir-quick-reference.md` — Quick-reference card for PIR framework
-- `dun-master-list.md` — 36 DUN seats across 8 Parliaments with baseline classification
+| PIR | Question | Cadence |
+|-----|----------|---------|
+| NS-01 | Statewide electoral position | Daily |
+| NS-02 | Post-dissolution realignment | Daily |
+| NS-03 | Government-formation scenarios | Weekly → Daily |
+| NS-04 | DUN electoral risk | Daily |
+| NS-05 | Locality prioritisation | Daily |
+| NS-06 | Turnout risk | Daily → Hourly (Polling Day) |
+| NS-07 | Voter sentiment and issues | Daily |
+| NS-08 | Undecided electorate | 2x Weekly |
+| NS-09 | Youth participation | 2x Weekly |
+| NS-10 | Candidate acceptance | Daily |
+| NS-11 | Opposition strategy | Daily |
+| NS-12 | Stakeholder alignment | Daily |
+| NS-13 | Adat and institutional sensitivity | Event-driven |
+| NS-14 | Dominant narratives | Continuous |
+| NS-15 | Misinformation risk | Continuous |
+| NS-16 | Machinery readiness | Daily |
+| NS-17 | Data readiness | Daily |
+| NS-18 | Campaign-phase readiness | Phase-based |
 
-### 01-DAILY-INTELLIGENCE/ (6 files)
-Time-series intelligence products from automated cronjob pipeline.
+### Nomination Day Surge Framework — 25 PIRs (PIR-01 to PIR-25)
 
-- **`daily-briefs/`** (5) — Consolidated daily intelligence briefs (10 Jul – 14 Jul 2026)
-- **`sitreps/`** (1) — PIR NS-01 Statewide Position assessment (10 Jul 2026)
+Activated 18 July 2026 for the Nomination Day window. Covers:
+- **PIR-01–05:** Candidate configuration, paper rejections, no-shows, contest type, substitutions
+- **PIR-06–07:** Coalition operational arrangements, battleground identification
+- **PIR-08–12:** Candidate quality, demographics, independents, incumbents dropped, grassroots rejection
+- **PIR-13–15:** Machinery mobilisation, ground support failure, crowd patterns
+- **PIR-16–19:** Narratives, public reaction, misinformation, influence networks
+- **PIR-20–22:** Security incidents, legal complaints, leader deployment
+- **PIR-23–24:** Endorsements, resource disparities
+- **PIR-25:** Post-nomination watch
 
-### 02-CONSTITUENCY-INTELLIGENCE/ (36 files)
-Seat-level intelligence for all 36 DUN constituencies.
-
-- **`constituency-profiles/`** (36) — Full DUN seat profiles (N01–N36) with 2023 SPR baseline results, classification, and intelligence gap tracking
-- **`candidate-dossiers/`** — Individual candidate deep-dives (to be populated post-nomination)
-- **`war-room-reports/`** — Rapid-response seat analysis (to be activated for critical seats)
-
-### 03-VERIFICATION/ (0 files — framework ready)
-Source integrity and fact-checking products.
-
-### 04-DATA-AND-SOURCES/ (130+ files)
-Raw data, processed entities, and reference sources.
-
-- **`spr-data/`** (3) — SPR 2023 election results (CSV, JSON, README) — complete for all 36 DUN
-- **`raw-scrapes/`** (~40) — Raw news scrape outputs by date (10 Jul – 14 Jul 2026)
-- **`processed-entities/`** (~90) — Entity extraction outputs by date (politicians, parties, constituencies, organizations, events, issues, locations)
-
-### 05-TOOLS-AND-AUTOMATION/ (6 files)
-Collection, analysis, and processing scripts.
-
-- `ns-daily-collection.sh` — Daily news collection from 10 Malaysian sources
-- `ns-daily-brief.sh` — Daily intelligence brief generator
-- `ns-entity-extraction.sh` — Entity extraction pipeline
-- `ns-sentiment-analysis.sh` — Sentiment analysis pipeline
-- `ns_cvs_extraction_20260712.py` — CVS-compliant entity extraction
-- `ns_entity_extraction_sourced.py` — Source-attributed entity extraction
-
-### 06-INFRASTRUCTURE/ (4 files)
-Operational logs and deployment tracking.
-
-- `collection_20260712_052935.log` — Collection log
-- `collection_20260713_010102.log` — Collection log
-- `collection_20260714_010109.log` — Collection log
-- `extraction_20260714.log` — Entity extraction log
-
-### 07-AUDIT/ (6 files)
-Quality assurance and deployment tracking.
-
-- `DEPLOYMENT_SUMMARY_20260710.md` — Initial deployment summary
-- `COLLECTION_STATUS_20260712.md` — Collection status report
-- `COLLECTION_STATUS_20260713.md` — Collection status report
-- `ENTITY_EXTRACTION_LOG_20260711.md` — Entity extraction QA
-- `ENTITY_EXTRACTION_LOG_20260713.md` — Entity extraction QA
-- `GITHUB_UPLOAD_SUMMARY_20260710.md` — GitHub sync summary
+See `00-OPERATIONS/pir-framework-nomination-day.md` for full framework with EEIs.
 
 ---
 
-## Automated Pipeline (5 Cronjobs)
+## 4. Automated Pipeline (5 Cronjobs)
 
-| Cronjob | Schedule | Job ID | Output Directory |
-|---------|----------|---------|------------------|
-| Daily News Collection | 01:00 UTC | `bf8a4c1fb881` | `04-DATA-AND-SOURCES/raw-scrapes/` |
-| Entity Extraction | 06:00 UTC | `3c9e6756876a` | `04-DATA-AND-SOURCES/processed-entities/` |
-| Sentiment Analysis | 08:00 UTC | `02e588724145` | `04-DATA-AND-SOURCES/processed-entities/` |
-| Daily Intelligence Brief | 09:00 UTC | `b8f69d6f990d` | `01-DAILY-INTELLIGENCE/daily-briefs/` |
-| Git Sync Automation | 10:00 UTC | `2df980e8e094` | Pushes to GitHub |
+| # | Job | Schedule (Normal) | Schedule (Nomination Day) | Delivery |
+|---|-----|-------------------|---------------------------|----------|
+| 1 | News Collection | Daily 01:00 MYT | Every 1 hour | Local |
+| 2 | Entity Extraction | Daily 06:00 MYT | Every 2 hours | Local |
+| 3 | Sentiment Analysis | Daily 08:00 MYT | Every 2 hours | Local |
+| 4 | Intelligence Brief | Daily 09:00 MYT | Every 1 hour | Telegram |
+| 5 | Git Sync | Daily 10:00 MYT | Every 2 hours | Local |
 
----
+**Pipeline flow:** Collection → Entity Extraction → Sentiment Analysis → Intelligence Brief → Git Sync
 
-## 2023 Baseline Results
-
-| Coalition | Seats Won | Key Strongholds |
-|-----------|-----------|-----------------|
-| **PH** | 17 | Seremban urban (DAP), Sikamat (MB seat), Port Dickson |
-| **BN** | 14 | Rural Malay heartland (Jelebu, Kuala Pilah, Rembau, Tampin) |
-| **PN** | 5 | Serting, Labu, Paroi, Bagan Pinang, Gemas |
-
-**Total registered voters:** 864,425  
-**Average turnout:** 68.35%  
-**Closest margin:** N15 Juasseh (78 votes, 0.86%)
+**Sources scraped (13):** Sinar Harian, Bharian, Utusan, NST, The Star, Malaysiakini, Free Malaysia Today, Astro Awani, Bernama, Kosmo, mStar, OhBulan, and one additional source per cycle.
 
 ---
 
-## Seat Priority Classification
+## 5. Election Timeline
 
-### T1: Critical (7 seats, <5% margin)
-- N03 Sungai Lui (4.0%) — BN vs PN
-- N05 Serting (4.3%) — PN vs BN
-- N06 Palong (3.7%) — BN vs PN
-- N09 Lenggeng (3.5%) — BN vs PN
-- N14 Ampangan (2.2%) — PH vs PN
-- N15 Juasseh (0.9%) — BN vs PN
-- N28 Kota (1.2%) — BN vs PN
-
-### T2: Vulnerable (6 seats, <10% margin)
-- N04 Klawang (6.4%) — PH vs PN
-- N07 Jeram Padang (6.8%) — BN vs PN
-- N16 Seri Menanti (5.2%) — BN vs PN
-- N17 Senaling (9.8%) — BN vs PN
-- N18 Pilah (9.5%) — PH vs PN
-- N20 Labu (7.6%) — PN vs PH
+| Date | Event | Phase |
+|------|-------|-------|
+| 5 Jun 2026 | Assembly dissolved | Phase 1 — Pre-Nomination |
+| 10 Jul 2026 | Intelligence workspace deployed | Phase 1 |
+| 18 Jul 2026 | **Nomination Day** | Phase 2 — Nomination |
+| 18–31 Jul 2026 | Campaign Period | Phase 3 — Campaign |
+| 28 Jul 2026 | Early Voting | Phase 4 — Early Voting |
+| 1 Aug 2026 | **Polling Day** | Phase 5 — Polling |
+| 1 Aug+ | Post-Poll Analysis | Phase 6 — Post-Poll |
 
 ---
 
-## Intelligence Lifecycle
+## 6. Current Escalation Flags (as of 18 Jul 2026)
+
+| Flag | Description | Status | Severity |
+|------|-------------|--------|----------|
+| ESC-002 | Sentiment pipeline non-operational (Aras API not wired) | Active | HIGH |
+| ESC-003 | Royal issue sensitivity — indirectly confirmed | Active | MEDIUM |
+| ESC-006 | Opposition unity disruption | **REOPENED** | CRITICAL |
+| ESC-007 | PH Malay seats quantified and threatened | Downgraded | MEDIUM |
+| ESC-009 | BN-PN electoral pact | Downgraded | MEDIUM |
+| ESC-010 | PN internal friction (Muhyiddin vs Samsuri) | **UPGRADED** | CRITICAL |
+| ESC-011 | **NEW:** BERSATU 24-candidate independent deployment | **NEW** | CRITICAL |
+
+See `00-OPERATIONS/escalation-register.md` for full history.
+
+---
+
+## 7. SPR Verified Candidate Configuration (18 Jul 2026)
+
+**Total:** 103 candidates across 36 DUNs  
+**Confirmed by:** SPR/Returning Officer official list
+
+| Party | Candidates | Contesting Under |
+|-------|-----------|------------------|
+| PH (Pakatan Harapan) | 36 | Full slate (all 36 DUNs) |
+| BN (Barisan Nasional) | 25 | Own symbol |
+| BERSATU | 24 | **Own symbol — independent of PN** |
+| PN (Perikatan Nasional) | 11 | Own symbol (likely PAS candidates) |
+| BEBAS (Independent) | 4 | Individual |
+| ASLI | 1 | N.07 Jeram Padang |
+| BERJASA | 1 | N.10 Nilai |
+| PSM | 1 | N.22 Rahang |
+
+**Contest types:** 11 straight fights | 21 three-cornered | 2 four-cornered | 2 five-cornered
+
+**Critical finding:** BERSATU is contesting independently of PN, creating a 4-way split that invalidates the "opposition unity" narrative from 17 July.
+
+See `04-DATA-AND-SOURCES/spr-candidate-list-20260718.json` for structured data.  
+See `01-DAILY-INTELLIGENCE/daily-briefs/PRN-NS-NOMINATION-20260718-PIR01-CANDIDATE-ROLL.md` for full analysis.
+
+---
+
+## 8. Intelligence Products
+
+### Daily Briefs (10 Jul – 18 Jul)
+8 days of daily briefs covering the pre-nomination and nomination period. Briefs include:
+- Executive assessment (5 points)
+- Statewide seat dashboard
+- Coalition dynamics
+- Critical DUN updates
+- Narrative and issue environment
+- Machinery readiness
+- Stakeholder developments
+- Early-warning register
+- Command decisions
+
+### Nomination Day Hourly Briefs
+Hourly briefs produced during the 18 July nomination window with 11-section structure including 36-DUN candidate roll, contest configuration map, and escalation trigger checklist.
+
+### Constituency Profiles
+All 36 DUN constituency profiles (N01–N36) covering:
+- 2023 SPR results (winner, margin, contest type)
+- Demographic breakdown
+- T1/T2/T3 classification
+- Incumbent information
+- Historical trends
+
+---
+
+## 9. Data Collection
+
+- **Raw scrapes:** 9 days (10 Jul – 18 Jul), 13 sources per day
+- **Processed entities:** 8 days of extracted political entities (politicians, parties, constituencies, issues, events, locations, organizations)
+- **SPR 2023 results:** Complete 36-DUN results in CSV and JSON format
+- **SPR 2026 candidate list:** Official 103-candidate list (JSON)
+- **Sentiment analysis:** Daily sentiment tracking (where available)
+
+---
+
+## 10. Git Configuration
 
 ```
-  PLAN          COLLECT           PROCESS          ANALYZE          VERIFY          DISSEMINATE
-   │               │                 │                 │                │                │
-   ▼               ▼                 ▼                 ▼                ▼                ▼
-00-OPERATIONS  04-DATA-AND-     05-TOOLS-AND-     01-DAILY-       03-VERIFICATION  01-DAILY-
-  PIR           SOURCES          AUTOMATION        INTELLIGENCE                       BRIEFS
-  DUN Master    Raw scrapes      Scripts          Daily briefs
-  Framework     SPR data         Templates        Sitreps
-                                                  │
-                                                  ▼
-                                        02-CONSTITUENCY-INTELLIGENCE
-                                          36 DUN profiles
-                                          Candidate dossiers
-                                          War-room reports
-                                                  │
-                                                  ▼
-                                            07-AUDIT
-                                        Reports, QA tracking
+user.name:  ahmadfaurani
+user.email: p62operator@proton.me
+remote:     origin → https://github.com/ahmadfaurani/prn-negeri-sembilan-2026.git
+branch:     main
 ```
 
----
-
-## Key Context: Royal Crisis (April 2026)
-
-- Removal of Datuk Mubarak Dohak as Undang of Sungei Ujong
-- Counter-declaration by 4 Undangs naming Tunku Nadzaruddin as YDP
-- 14 UMNO assemblymen withdrawing support (later reversed by Zahid)
-- PAS cutting ties with Bersatu (9 June 2026)
-- Intelligence questions: impact on Malay voter sentiment, UMNO grassroots machinery, Undang campaigning
+Auto-sync commits use prefix `auto:` and run every 2 hours during Nomination Day surge.
 
 ---
 
-## Related Workstreams
+## 11. Classification and Compliance
 
-| Workstream | Repo | HCR |
-|-----------|------|-----|
-| **PRN Negeri Sembilan 2026** (this) | prn-negeri-sembilan-2026 | HCR-095 |
-| PRN Johor 2026 | PRN-Johor-2026-H | HCR-062 |
-| Intelligence Pipeline Ops | hoi-intelligence-ops | HCR-003 |
-| Journalist Registry | malaysia-journalist-registry | HCR-011 |
+- **All products:** TLP:AMBER
+- **Source attribution:** Required for every claim
+- **Unverified information:** Tagged `[UNVERIFIED]`
+- **Assessments:** Tagged `[ASSESSMENT]`
+- **CVS framework:** 3-tier verification (VERIFIED / MEDIUM / EXCLUDED)
+- **No PII:** IC numbers in SPR data are masked in committed files
 
 ---
 
-## File Inventory
-
-**Total tracked files:** 160+ (124 migrated + 36 constituency profiles + SPR data)  
-**Last sync:** 2026-07-14  
-**Git remote:** `https://github.com/ahmadfaurani/prn-negeri-sembilan-2026.git` (private)
+**Workspace:** `/home/p62operator/.openclaw/workspace-ns/`  
+**Authority:** State Intelligence Director  
+**Classification:** TLP:AMBER  
+**HCR:** HCR-095

@@ -4,10 +4,28 @@ __pycache__/
 *.pyo
 *.log
 
-# Temp files
+# OS artifacts
 .DS_Store
+Thumbs.db
 
-# Old working directories (superseded by new structure)
+# Editor artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sensitive / PII (never commit)
+*.env
+.env.local
+credentials/
+*.key
+*.pem
+
+# Large temporary data (keep raw scrapes, exclude intermediates)
+04-DATA-AND-SOURCES/raw-scrapes/*/collection_metadata.json
+
+# Old working directories (superseded by 8-directory taxonomy)
 narratives/
 opposition/
 stakeholders/
