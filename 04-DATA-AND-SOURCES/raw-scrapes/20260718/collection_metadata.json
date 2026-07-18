@@ -1,10 +1,144 @@
 {
-    "date": "20260718",
-    "timestamp": "20260718_142040",
-    "workspace": "/home/p62operator/.openclaw/workspace-ns",
-    "sources_attempted": 13,
-    "successful": 8,
-    "timeouts": 0,
-    "errors": 5,
-    "success_rate": "61.5%"
+  "date": "20260718",
+  "timestamp": "20260718_153251",
+  "cycle": "nomination-day-surge",
+  "surge_mode": true,
+  "director_priority_approved": "2026-07-18 15:00 MYT",
+  "workspace": "/home/p62operator/.openclaw/workspace-ns",
+  "sources_attempted": 10,
+  "successful": 10,
+  "errors": 0,
+  "recovered": 1,
+  "success_rate": "100% (1 source recovered via alternate URL)",
+  "classification": "TLP:AMBER",
+
+  "pir_priorities": {
+    "PIR-06": "PN-Removal-of-Bersatu Watch (HIGHEST)",
+    "PIR-09": "Candidate Credibility (SECOND)",
+    "PIR-07": "Battleground Assessment (THIRD)"
+  },
+
+  "critical_pir06_alert": {
+    "status": "ELEVATED WATCH — NO formal removal notice issued",
+    "formal_removal_notice_detected": false,
+    "precursor_signal_detected": true,
+    "summary": "As of 15:31 MYT 18 Jul 2026, NO formal PN Supreme Council (Majlis Tertinggi PN) removal notice for Bersatu has been issued. However a HIGH-CONFIDENCE PRECURSOR signal has emerged: suspended Bersatu VP Datuk Seri Ronald Kiandee publicly stated the PN Supreme Council has 'asas kukuh' (strong grounds) to remove Bersatu, following Bersatu fielding candidates against PN partners in 8 seats. This is the strongest pre-formal-notice indicator yet. Monitor Kiandee/PN Supreme Council channels for the formal notice.",
+    "signal_source": "NST + Utusan + BERNAMA wire",
+    "signal_actor": "Datuk Seri Ronald Kiandee (suspended Bersatu VP, MP Beluran) — Facebook post",
+    "signal_keyword_matches": ["asas kukuh", "Majlis Tertinggi", "keluar", "remove", "Bersatu", "PN"]
+  },
+
+  "tier4_seats_bersatu_vs_pn_component": {
+    "confirmed_count": 8,
+    "match_to_pir06_list": "EXACT — all 8 seats (N.04, N.05, N.13, N.14, N.23, N.25, N.31, N.34) confirmed in candidate list",
+    "seats": {
+      "N04_Klawang": {"bersatu": "Muhammad Adib Musa", "pn_component": "Danni Rais (PN-Wawasan)", "ph": "Bakri Sawir (AMANAH-incumbent)", "type": "vs Wawasan"},
+      "N05_Serting": {"bersatu": "Muhammad Noraffendy Mohd Salleh", "pn_component": "Mohd Fairuz Mohd Isa (PN-PAS, 2023 incumbent)", "ph": "Yaacob Mahmood (AMANAH)", "type": "vs PAS"},
+      "N13_Sikamat": {"bersatu": "Datuk Tun Faisal Ismail Aziz", "pn_component": "Datuk Razali Abu Samah (PN-Wawasan)", "ph": "Nor Azman Mohamad (PKR)", "type": "vs Wawasan"},
+      "N14_Ampangan": {"bersatu": "Noor'azah Harun", "pn_component": "Datuk Dr Mohamad Rafie Ab Malek (PN-PAS)", "ph": "Datuk Muhammad Nazri Kassim (PKR)", "type": "vs PAS — Day-1 messaging war seat"},
+      "N23_Mambau": {"bersatu": "N Sarawanan", "pn_component": "Erik Michael (PN-Wawasan)", "ph": "Lee Kai Yet (DAP-incumbent party)", "type": "vs Wawasan"},
+      "N25_Paroi": {"bersatu": "Mohd Nazree Mohd Yunos", "pn_component": "Kamarol Ridzuan Mohd Zain (PN-PAS, 2023 incumbent)", "ph": "Ahmad Shahir Mohd Shah (AMANAH)", "type": "vs PAS"},
+      "N31_Bagan_Pinang": {"bersatu": "Sheikh Junaidy Jamaludin", "pn_component": "Abdul Fatah Zakaria (PN-PAS, 2023 incumbent)", "ph": "Nasir Raman (AMANAH)", "type": "vs PAS"},
+      "N34_Gemas": {"bersatu": "Azman Abdullah", "pn_component": "Ridzuan Ahmad (PN-Wawasan, 2023 incumbent as Bersatu)", "ph": "Siti Aishah Seman (PKR)", "type": "vs Wawasan"}
+    },
+    "component_split": {"vs_PAS": 4, "vs_Wawasan": 4}
+  },
+
+  "pir09_candidate_credibility": {
+    "gerakan_expulsion": {
+      "subject": "Tang Jay Son",
+      "action": "Expelled (pecat) with immediate effect by Gerakan",
+      "reason": "Contested under Bersatu ticket (serious breach of party discipline / contrary to loyalty principle)",
+      "issued_by": "Wong Chia Zhen (Gerakan Sec-Gen)",
+      "seat": "N22 Rahang (4-cornered: vs PH Siaw Meow Kong incumbent, BN Yap Siok Moy, PSM Tinagaran)",
+      "sources": ["NST/BERNAMA", "BHarian", "AstroAwani"],
+      "significance": "SECOND PN-component disciplinary action confirming PN-vs-Bersatu fracture pattern"
+    },
+    "n14_ampangan_day1_messaging_war": {
+      "status": "CONFIRMED on Nomination Day",
+      "ph_frame": "Datuk Muhammad Nazri Kassim (PKR) — '50/50', new face replacing 2023 incumbent Zamrah",
+      "pn_frame": "Datuk Dr Mohamad Rafie Ab Malek (PAS) — 'experienced rep', former 2018 PH WINNER (majority 1,306)",
+      "ph_attack_vector": "Rafie = defector/hopper (lompat/pengkhianat) — won under PH 2018 then jumped to PAS",
+      "bersatu_third_candidate": "Noor'azah Harun (splits anti-PH vote; Tier-4 PIR-06 overlap)",
+      "seat_history": "BN traditional -> PR/PH 2008 (maj 236) -> 2018 PH Rafie (1,306) -> 2023 PH Zamrah (329, thin) -> 2026 open 3-way"
+    },
+    "independents_backgrounds": {
+      "count": 4,
+      "list": [
+        {"seat": "N10 Nilai", "name": "Omar Mohd Isa", "note": "5-cornered fight; Berjasa also present"},
+        {"seat": "N30 Lukut", "name": "Teo Seng Lee", "note": "3-cornered vs PH-DAP incumbent + PN-MIPP"},
+        {"seat": "N33 Sri Tanjung", "name": "Datuk A Saravanan", "note": "'Datuk' title = likely former establishment/MIC figure; 5-cornered"},
+        {"seat": "N33 Sri Tanjung", "name": "Islah Wahyudi Zainudin", "note": "second independent in 5-cornered fight"}
+      ]
+    },
+    "withdrawal": {
+      "subject": "Bujang Abu (75, street musician, ex-govt servant)",
+      "action": "Tarik diri (withdrew) at nomination — failed to submit 2023 election expense report (SPR requirement)",
+      "seat_intended": "N13 Sikamat (Tier-4 seat)",
+      "significance": "Paperwork-related independent withdrawal, NOT a party/Bersatu candidate withdrawal. Minor PIR-09 note; does NOT trigger PIR-06 Tier-4 candidate-withdrawal alert."
+    }
+  },
+
+  "pir07_battleground": {
+    "nomination_day_confirmed": "18 Jul 2026",
+    "total_candidates": 103,
+    "candidate_breakdown": {"PH": 36, "BN": 25, "Bersatu": 24, "PN": 11, "independents": 4, "Berjasa": 1, "Asli": 1, "PSM": 1},
+    "contest_structure": {"straight_1v1": 11, "three_cornered": 21, "four_cornered": 2, "five_cornered": 2},
+    "fragmentation_trend": "Sharply UP vs 2023 (27 straight fights -> 11; 7 three-cornered -> 21)",
+    "marquee_day1_events": [
+      "N01 Chennah: Anthony Loke (PH Sec-Gen/Transport Min) vs Siow Kong Choon (BN-MCA) — straight fight",
+      "N27 Rantau: DS Mohamad Hasan (Tok Mat, BN) vs Dr Azizul Hakim (PH) — straight fight; Zahid+lion-dance procession",
+      "N32 Linggi: MB Aminuddin (PH-incumbent) 3-corner; 'not easy to enter a fortress'",
+      "N14 Ampangan: Day-1 messaging war (see PIR-09)",
+      "BN nom-day ops: Gemencheh (Johari Ghani), Jelebu (3 seats), Rantau/Chembong/Kota (Zahid)"
+    ],
+    "manifesto_and_messaging": {
+      "bn_manifesto_launch": "24 Jul 2026",
+      "bn_focus": "development + cost of living",
+      "anwar_pitch": "Give PH stronger mandate for clean/stable admin under MB Aminuddin",
+      "mb_candidate": "Decided AFTER PRN (not pre-declared)",
+      "bn_pn_framing": "'Understanding' not merger (Wee) — determinant for Melaka & PRU16"
+    }
+  },
+
+  "priority_files_created": [
+    "priority_pir06_kiandee-grounds-remove-bersatu_20260718_153142.md",
+    "priority_pir09_gerakan-expels-tang-jay-son_20260718_153142.md",
+    "priority_pir09_ampangan-day1-messaging-war_20260718_153142.md",
+    "priority_pir07_day1-campaign-battleground_20260718_153142.md"
+  ],
+
+  "sources": [
+    {"source": "malaysiakinicom", "url": "https://www.malaysiakini.com/news/my", "status": "ok", "word_count": 80, "priority_tags": "none", "file": "malaysiakinicom_20260718_153251.md", "pir_relevant": false, "note": "paywall-restricted; minimal content"},
+    {"source": "thmalaysianinsightcom", "url": "https://www.themalaysianinsight.com/", "status": "ok", "word_count": 620, "priority_tags": "none", "file": "thmalaysianinsightcom_20260718_153251.md", "pir_relevant": false, "note": "no PRN NS content on homepage this cycle"},
+    {"source": "nstcommy", "url": "https://www.nst.com.my/news/nation", "status": "ok", "word_count": 749, "priority_tags": "PIR-06(6) PIR-07(3)", "file": "nstcommy_20260718_153251.md", "pir_relevant": true, "note": "Kiandee grounds-remove-Bersatu + Gerakan/Tang Jay Son + 3-cornered + top guns"},
+    {"source": "thestarcommy", "url": "https://www.thestar.com.my/news/nation", "status": "ok", "word_count": 1179, "priority_tags": "none", "file": "thestarcommy_20260718_153251.md", "pir_relevant": "pending-review"},
+    {"source": "utusancommy", "url": "https://www.utusan.com.my/nasional/", "status": "ok", "word_count": 1821, "priority_tags": "PIR-06(19) PIR-07(29)", "file": "utusancommy_20260718_153251.md", "pir_relevant": true, "note": "RICHEST PIR source — Kiandee/Bersatu-PN, Ampangan, Bujang tarik diri, BN nom-day ops"},
+    {"source": "bhariancommy", "url": "https://www.bharian.com.my/berita/nasional", "status": "ok-recovered", "word_count": 505, "priority_tags": "PIR-06 PIR-09 PIR-07", "file": "bhariancommy_20260718_153400.md", "pir_relevant": true, "note": "/sembilan path failed; recovered via /berita/nasional — Gerakan pecat, top guns, Anwar pitch"},
+    {"source": "kosmocommy", "url": "https://www.kosmo.com.my/berita/nasional/", "status": "ok", "word_count": 173, "priority_tags": "none", "file": "kosmocommy_20260718_153251.md", "pir_relevant": "pending-review"},
+    {"source": "astroawanicom", "url": "https://www.astroawani.com/berita-nasional", "status": "ok", "word_count": 592, "priority_tags": "PIR-06(2) PIR-09(2) PIR-07(1)", "file": "astroawanicom_20260718_153251.md", "pir_relevant": true, "note": "BERNAMA-sourced: Tang Jay Son N22 Rahang confirmation + Anwar mandate pitch"},
+    {"source": "mstarcommy", "url": "https://www.mstar.com.my/lokal/sembilan", "status": "ok", "word_count": 95, "priority_tags": "none", "file": "mstarcommy_20260718_153251.md", "pir_relevant": false, "note": "thin content"},
+    {"source": "ohbulancom", "url": "https://www.ohbulan.com/tag/negeri-sembilan/", "status": "ok", "word_count": 629, "priority_tags": "PIR-06(1)", "file": "ohbulancommy_20260718_153251.md", "pir_relevant": true}
+  ],
+
+  "monitor_channels_active": {
+    "kiandee_social": "ACTIVE — Facebook post issued Nomination Day (confirmed source of PIR-06 precursor signal)",
+    "bernama_wire": "ACTIVE — carried Gerakan expulsion + Tang Jay Son candidate confirmation (per PIR-09 spec)",
+    "pn_component_parties": "ACTIVE — Gerakan acted (pecat); PN/PAS/Wawasan contesting Bersatu in 8 seats"
+  },
+
+  "next_cycle_watch": [
+    "PN Supreme Council formal session / statement re: Bersatu removal (PIR-06 CRITICAL trigger)",
+    "Muhyiddin / Hamzah / Hadi / Samsuri response to Kiandee's 'asas kukuh' statement",
+    "Any Bersatu candidate tarik diri in the 8 Tier-4 seats (PIR-06 candidate-withdrawal trigger)",
+    "N14 Ampangan Day-2 messaging: PH 'defector' attack vs PN 'experienced rep' counter (PIR-09)",
+    "Independent backgrounds — Datuk A Saravanan (N33) credibility vetting (PIR-09)"
+  ],
+
+  "prior_cycles_today": {
+    "111951_cycle": "early morning scrape (partial)",
+    "130328_cycle": "midday scrape + manual candidate-list capture (full 36-seat list)",
+    "142040_cycle": "afternoon manual deep-scrape of priority articles",
+    "153251_cycle": "THIS nomination-day-surge cycle (director-approved PIR-prioritized)"
+  }
 }
