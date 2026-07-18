@@ -1,14 +1,32 @@
 {
   "date": "20260718",
-  "timestamp": "2026-07-18T08:46:38.874912+00:00",
-  "source_count": 31,
+  "timestamp": "2026-07-18T11:52:07.328678+00:00",
+  "source_count": 41,
   "entity_type": "locations",
   "extraction_method": "enhanced-pattern-dictionary v2",
   "entity_count": 43,
   "entities": [
     {
+      "name": "Jempol",
+      "count": 40,
+      "sources": [
+        "astroawanicom_20260718_111951.md",
+        "nomination-day-summary-1509.md",
+        "nomination-day-summary-1633.md",
+        "nomination-day-summary-1919.md",
+        "nstcommy_20260718_070937.md",
+        "nstcommy_20260718_083302.md",
+        "nstcommy_20260718_111951.md",
+        "thestarcommy_20260718_111951.md"
+      ],
+      "variants": [
+        "JEMPOL",
+        "Jempol"
+      ]
+    },
+    {
       "name": "Kuala Lumpur",
-      "count": 32,
+      "count": 40,
       "sources": [
         "astroawanicom_20260718_010044.md",
         "astroawanicom_20260718_070937.md",
@@ -17,6 +35,7 @@
         "nstcommy_20260718_010044.md",
         "nstcommy_20260718_070937.md",
         "nstcommy_20260718_083302.md",
+        "nstcommy_20260718_111951.md",
         "thestarcommy_20260718_070937.md",
         "thestarcommy_20260718_083302.md"
       ],
@@ -26,54 +45,23 @@
       ]
     },
     {
-      "name": "Jelebu",
-      "count": 25,
-      "sources": [
-        "astroawanicom_20260718_070937.md",
-        "nomination-day-summary-1509.md",
-        "nomination-day-summary-1633.md",
-        "nstcommy_20260718_070937.md",
-        "nstcommy_20260718_083302.md"
-      ],
-      "variants": [
-        "JELEBU",
-        "Jelebu"
-      ]
-    },
-    {
-      "name": "Johor",
-      "count": 24,
-      "sources": [
-        "astroawanicom_20260718_083302.md",
-        "bhariancommy_20260718_070937.md",
-        "bhariancommy_20260718_083302.md",
-        "nstcommy_20260718_010044.md",
-        "nstcommy_20260718_070937.md",
-        "nstcommy_20260718_083302.md",
-        "thestarcommy_20260718_010044.md",
-        "thestarcommy_20260718_070937.md",
-        "thestarcommy_20260718_083302.md"
-      ],
-      "variants": [
-        "JOHOR",
-        "Johor"
-      ]
-    },
-    {
       "name": "Seremban",
-      "count": 20,
+      "count": 34,
       "sources": [
         "astroawanicom_20260718_010044.md",
         "nomination-day-summary-1509.md",
         "nomination-day-summary-1633.md",
+        "nomination-day-summary-1919.md",
         "nstcommy_20260718_010044.md",
         "nstcommy_20260718_070937.md",
         "nstcommy_20260718_083302.md",
         "thestarcommy_20260718_010044.md",
         "thestarcommy_20260718_083302.md",
+        "thestarcommy_20260718_111951.md",
         "utusancommy_20260718_010044.md",
         "utusancommy_20260718_070937.md",
-        "utusancommy_20260718_083302.md"
+        "utusancommy_20260718_083302.md",
+        "utusancommy_20260718_111951.md"
       ],
       "variants": [
         "SEREMBAN",
@@ -81,14 +69,74 @@
       ]
     },
     {
-      "name": "Port Dickson",
-      "count": 18,
+      "name": "Johor",
+      "count": 33,
       "sources": [
         "astroawanicom_20260718_083302.md",
-        "nomination-day-summary-1509.md",
-        "nomination-day-summary-1633.md",
+        "bhariancommy_20260718_070937.md",
+        "bhariancommy_20260718_083302.md",
+        "bhariancommy_20260718_111951.md",
+        "nstcommy_20260718_010044.md",
         "nstcommy_20260718_070937.md",
         "nstcommy_20260718_083302.md",
+        "nstcommy_20260718_111951.md",
+        "thestarcommy_20260718_010044.md",
+        "thestarcommy_20260718_070937.md",
+        "thestarcommy_20260718_083302.md",
+        "thestarcommy_20260718_111951.md"
+      ],
+      "variants": [
+        "JOHOR",
+        "Johor"
+      ]
+    },
+    {
+      "name": "Jelebu",
+      "count": 27,
+      "sources": [
+        "astroawanicom_20260718_070937.md",
+        "nomination-day-summary-1509.md",
+        "nomination-day-summary-1633.md",
+        "nomination-day-summary-1919.md",
+        "nstcommy_20260718_070937.md",
+        "nstcommy_20260718_083302.md",
+        "nstcommy_20260718_111951.md"
+      ],
+      "variants": [
+        "JELEBU",
+        "Jelebu"
+      ]
+    },
+    {
+      "name": "Melaka",
+      "count": 25,
+      "sources": [
+        "astroawanicom_20260718_010044.md",
+        "astroawanicom_20260718_111951.md",
+        "nomination-day-summary-1509.md",
+        "nomination-day-summary-1633.md",
+        "nomination-day-summary-1919.md",
+        "nstcommy_20260718_070937.md",
+        "thestarcommy_20260718_010044.md",
+        "thestarcommy_20260718_111951.md"
+      ],
+      "variants": [
+        "MELAKA",
+        "Melaka"
+      ]
+    },
+    {
+      "name": "Port Dickson",
+      "count": 25,
+      "sources": [
+        "astroawanicom_20260718_083302.md",
+        "astroawanicom_20260718_111951.md",
+        "nomination-day-summary-1509.md",
+        "nomination-day-summary-1633.md",
+        "nomination-day-summary-1919.md",
+        "nstcommy_20260718_070937.md",
+        "nstcommy_20260718_083302.md",
+        "nstcommy_20260718_111951.md",
         "thestarcommy_20260718_070937.md",
         "thestarcommy_20260718_083302.md"
       ],
@@ -99,15 +147,17 @@
     },
     {
       "name": "Tampin",
-      "count": 18,
+      "count": 24,
       "sources": [
         "nomination-day-summary-1509.md",
         "nomination-day-summary-1633.md",
+        "nomination-day-summary-1919.md",
         "nstcommy_20260718_070937.md",
         "nstcommy_20260718_083302.md",
         "ohbulancom_20260718_010044.md",
         "ohbulancom_20260718_070937.md",
-        "ohbulancom_20260718_083302.md"
+        "ohbulancom_20260718_083302.md",
+        "ohbulancom_20260718_111951.md"
       ],
       "variants": [
         "TAMPIN",
@@ -115,45 +165,67 @@
       ]
     },
     {
-      "name": "Jempol",
-      "count": 12,
-      "sources": [
-        "nomination-day-summary-1509.md",
-        "nomination-day-summary-1633.md",
-        "nstcommy_20260718_070937.md",
-        "nstcommy_20260718_083302.md"
-      ],
-      "variants": [
-        "JEMPOL",
-        "Jempol"
-      ]
-    },
-    {
-      "name": "Melaka",
-      "count": 10,
-      "sources": [
-        "astroawanicom_20260718_010044.md",
-        "nomination-day-summary-1509.md",
-        "nomination-day-summary-1633.md",
-        "nstcommy_20260718_070937.md",
-        "thestarcommy_20260718_010044.md"
-      ],
-      "variants": [
-        "Melaka"
-      ]
-    },
-    {
       "name": "Rembau",
-      "count": 9,
+      "count": 17,
       "sources": [
         "nomination-day-summary-1509.md",
         "nomination-day-summary-1633.md",
+        "nomination-day-summary-1919.md",
         "nstcommy_20260718_070937.md",
-        "nstcommy_20260718_083302.md"
+        "nstcommy_20260718_083302.md",
+        "nstcommy_20260718_111951.md"
       ],
       "variants": [
         "REMBAU",
         "Rembau"
+      ]
+    },
+    {
+      "name": "Nilai",
+      "count": 11,
+      "sources": [
+        "astroawanicom_20260718_010044.md",
+        "nomination-day-summary-1509.md",
+        "nomination-day-summary-1633.md",
+        "nomination-day-summary-1919.md",
+        "thestarcommy_20260718_010044.md",
+        "utusancommy_20260718_010044.md",
+        "utusancommy_20260718_070937.md",
+        "utusancommy_20260718_083302.md",
+        "utusancommy_20260718_111951.md"
+      ],
+      "variants": [
+        "NILAI",
+        "Nilai"
+      ]
+    },
+    {
+      "name": "Petaling Jaya",
+      "count": 10,
+      "sources": [
+        "nstcommy_20260718_111951.md",
+        "thestarcommy_20260718_010044.md",
+        "thestarcommy_20260718_070937.md",
+        "thestarcommy_20260718_083302.md",
+        "thestarcommy_20260718_111951.md"
+      ],
+      "variants": [
+        "PETALING JAYA",
+        "Petaling Jaya"
+      ]
+    },
+    {
+      "name": "Argentina",
+      "count": 7,
+      "sources": [
+        "bhariancommy_20260718_010044.md",
+        "bhariancommy_20260718_083302.md",
+        "bhariancommy_20260718_111951.md",
+        "freemalaysiatodaycom_20260718_010044.md",
+        "thestarcommy_20260718_111951.md"
+      ],
+      "variants": [
+        "Argentina"
       ]
     },
     {
@@ -170,45 +242,56 @@
       ]
     },
     {
-      "name": "Nilai",
-      "count": 7,
-      "sources": [
-        "astroawanicom_20260718_010044.md",
-        "nomination-day-summary-1509.md",
-        "nomination-day-summary-1633.md",
-        "thestarcommy_20260718_010044.md",
-        "utusancommy_20260718_010044.md",
-        "utusancommy_20260718_070937.md",
-        "utusancommy_20260718_083302.md"
-      ],
-      "variants": [
-        "NILAI",
-        "Nilai"
-      ]
-    },
-    {
-      "name": "Petaling Jaya",
+      "name": "Iran",
       "count": 6,
       "sources": [
-        "thestarcommy_20260718_010044.md",
-        "thestarcommy_20260718_070937.md",
-        "thestarcommy_20260718_083302.md"
-      ],
-      "variants": [
-        "PETALING JAYA"
-      ]
-    },
-    {
-      "name": "Iran",
-      "count": 5,
-      "sources": [
         "astroawanicom_20260718_083302.md",
+        "astroawanicom_20260718_111951.md",
         "bhariancommy_20260718_070937.md",
         "freemalaysiatodaycom_20260718_010044.md",
         "freemalaysiatodaycom_20260718_083302.md"
       ],
       "variants": [
         "Iran"
+      ]
+    },
+    {
+      "name": "Kuala Pilah",
+      "count": 6,
+      "sources": [
+        "nomination-day-summary-1509.md",
+        "nomination-day-summary-1919.md",
+        "nstcommy_20260718_070937.md",
+        "nstcommy_20260718_083302.md",
+        "nstcommy_20260718_111951.md"
+      ],
+      "variants": [
+        "KUALA PILAH",
+        "Kuala Pilah"
+      ]
+    },
+    {
+      "name": "Sungai Buloh",
+      "count": 6,
+      "sources": [
+        "nomination-day-summary-1919.md",
+        "nstcommy_20260718_010044.md",
+        "thestarcommy_20260718_111951.md"
+      ],
+      "variants": [
+        "Sungai Buloh"
+      ]
+    },
+    {
+      "name": "Sungai Sedim",
+      "count": 6,
+      "sources": [
+        "astroawanicom_20260718_010044.md",
+        "astroawanicom_20260718_111951.md",
+        "bhariancommy_20260718_010044.md"
+      ],
+      "variants": [
+        "Sungai Sedim"
       ]
     },
     {
@@ -224,14 +307,41 @@
       ]
     },
     {
-      "name": "Sungai Sedim",
+      "name": "Putrajaya",
       "count": 5,
       "sources": [
-        "astroawanicom_20260718_010044.md",
-        "bhariancommy_20260718_010044.md"
+        "thestarcommy_20260718_070937.md",
+        "thestarcommy_20260718_083302.md",
+        "thestarcommy_20260718_111951.md"
       ],
       "variants": [
-        "Sungai Sedim"
+        "PUTRAJAYA",
+        "Putrajaya"
+      ]
+    },
+    {
+      "name": "Taiwan",
+      "count": 5,
+      "sources": [
+        "bhariancommy_20260718_010044.md",
+        "bhariancommy_20260718_083302.md",
+        "bhariancommy_20260718_111951.md"
+      ],
+      "variants": [
+        "Taiwan"
+      ]
+    },
+    {
+      "name": "Johor Baru",
+      "count": 4,
+      "sources": [
+        "nstcommy_20260718_111951.md",
+        "thestarcommy_20260718_010044.md",
+        "thestarcommy_20260718_070937.md",
+        "thestarcommy_20260718_083302.md"
+      ],
+      "variants": [
+        "JOHOR BARU"
       ]
     },
     {
@@ -246,27 +356,29 @@
       ]
     },
     {
-      "name": "Putrajaya",
+      "name": "Sabah",
       "count": 4,
       "sources": [
+        "thestarcommy_20260718_010044.md",
         "thestarcommy_20260718_070937.md",
-        "thestarcommy_20260718_083302.md"
+        "thestarcommy_20260718_083302.md",
+        "thestarcommy_20260718_111951.md"
       ],
       "variants": [
-        "PUTRAJAYA",
-        "Putrajaya"
+        "Sabah"
       ]
     },
     {
-      "name": "Argentina",
-      "count": 3,
+      "name": "Sarawak",
+      "count": 4,
       "sources": [
-        "bhariancommy_20260718_010044.md",
-        "bhariancommy_20260718_083302.md",
-        "freemalaysiatodaycom_20260718_010044.md"
+        "thestarcommy_20260718_010044.md",
+        "thestarcommy_20260718_070937.md",
+        "thestarcommy_20260718_083302.md",
+        "thestarcommy_20260718_111951.md"
       ],
       "variants": [
-        "Argentina"
+        "Sarawak"
       ]
     },
     {
@@ -281,18 +393,6 @@
       ]
     },
     {
-      "name": "Johor Baru",
-      "count": 3,
-      "sources": [
-        "thestarcommy_20260718_010044.md",
-        "thestarcommy_20260718_070937.md",
-        "thestarcommy_20260718_083302.md"
-      ],
-      "variants": [
-        "JOHOR BARU"
-      ]
-    },
-    {
       "name": "Kota Damansara",
       "count": 3,
       "sources": [
@@ -304,15 +404,15 @@
       ]
     },
     {
-      "name": "Kuala Pilah",
+      "name": "Kota Kinabalu",
       "count": 3,
       "sources": [
-        "nomination-day-summary-1509.md",
-        "nstcommy_20260718_070937.md",
-        "nstcommy_20260718_083302.md"
+        "nstcommy_20260718_010044.md",
+        "thestarcommy_20260718_083302.md",
+        "thestarcommy_20260718_111951.md"
       ],
       "variants": [
-        "KUALA PILAH"
+        "KOTA KINABALU"
       ]
     },
     {
@@ -335,30 +435,6 @@
       ],
       "variants": [
         "Perak"
-      ]
-    },
-    {
-      "name": "Sabah",
-      "count": 3,
-      "sources": [
-        "thestarcommy_20260718_010044.md",
-        "thestarcommy_20260718_070937.md",
-        "thestarcommy_20260718_083302.md"
-      ],
-      "variants": [
-        "Sabah"
-      ]
-    },
-    {
-      "name": "Sarawak",
-      "count": 3,
-      "sources": [
-        "thestarcommy_20260718_010044.md",
-        "thestarcommy_20260718_070937.md",
-        "thestarcommy_20260718_083302.md"
-      ],
-      "variants": [
-        "Sarawak"
       ]
     },
     {
@@ -385,17 +461,6 @@
       ]
     },
     {
-      "name": "Taiwan",
-      "count": 3,
-      "sources": [
-        "bhariancommy_20260718_010044.md",
-        "bhariancommy_20260718_083302.md"
-      ],
-      "variants": [
-        "Taiwan"
-      ]
-    },
-    {
       "name": "Forest City",
       "count": 2,
       "sources": [
@@ -414,17 +479,6 @@
       ],
       "variants": [
         "KAJANG"
-      ]
-    },
-    {
-      "name": "Kota Kinabalu",
-      "count": 2,
-      "sources": [
-        "nstcommy_20260718_010044.md",
-        "thestarcommy_20260718_083302.md"
-      ],
-      "variants": [
-        "KOTA KINABALU"
       ]
     },
     {
@@ -505,16 +559,6 @@
       ],
       "variants": [
         "KOTA BARU"
-      ]
-    },
-    {
-      "name": "Sungai Buloh",
-      "count": 1,
-      "sources": [
-        "nstcommy_20260718_010044.md"
-      ],
-      "variants": [
-        "Sungai Buloh"
       ]
     },
     {

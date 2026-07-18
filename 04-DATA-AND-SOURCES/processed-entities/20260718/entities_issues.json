@@ -1,67 +1,75 @@
 {
   "date": "20260718",
-  "timestamp": "2026-07-18T08:46:39.056672+00:00",
-  "source_count": 31,
+  "timestamp": "2026-07-18T11:52:07.569929+00:00",
+  "source_count": 41,
   "entity_type": "issues",
   "extraction_method": "enhanced-pattern-dictionary v2",
   "entity_count": 12,
   "entities": [
     {
-      "name": "PAS-Bersatu rift",
-      "count": 21,
+      "name": "BN-PN electoral pact / seat negotiation",
+      "count": 26,
       "sources": [
         "nomination-day-summary-1509.md",
-        "nomination-day-summary-1633.md",
         "nstcommy_20260718_010044.md",
-        "thestarcommy_20260718_010044.md",
-        "thestarcommy_20260718_070937.md",
         "utusancommy_20260718_010044.md",
         "utusancommy_20260718_070937.md",
-        "utusancommy_20260718_083302.md"
+        "utusancommy_20260718_083302.md",
+        "utusancommy_20260718_111951.md"
       ],
       "relevance": "ns"
     },
     {
-      "name": "BN-PN electoral pact / seat negotiation",
-      "count": 20,
+      "name": "PAS-Bersatu rift",
+      "count": 25,
       "sources": [
         "nomination-day-summary-1509.md",
+        "nomination-day-summary-1633.md",
+        "nomination-day-summary-1919.md",
         "nstcommy_20260718_010044.md",
+        "thestarcommy_20260718_010044.md",
+        "thestarcommy_20260718_070937.md",
+        "thestarcommy_20260718_111951.md",
         "utusancommy_20260718_010044.md",
         "utusancommy_20260718_070937.md",
-        "utusancommy_20260718_083302.md"
+        "utusancommy_20260718_083302.md",
+        "utusancommy_20260718_111951.md"
+      ],
+      "relevance": "ns"
+    },
+    {
+      "name": "Malay vote unity",
+      "count": 21,
+      "sources": [
+        "nomination-day-summary-1509.md",
+        "utusancommy_20260718_010044.md",
+        "utusancommy_20260718_070937.md",
+        "utusancommy_20260718_083302.md",
+        "utusancommy_20260718_111951.md"
       ],
       "relevance": "ns"
     },
     {
       "name": "KWAP / eFishery investment fraud",
-      "count": 17,
+      "count": 20,
       "sources": [
         "bhariancommy_20260718_010044.md",
         "bhariancommy_20260718_070937.md",
         "nstcommy_20260718_070937.md",
         "nstcommy_20260718_083302.md",
+        "nstcommy_20260718_111951.md",
         "thestarcommy_20260718_070937.md",
-        "thestarcommy_20260718_083302.md"
+        "thestarcommy_20260718_083302.md",
+        "thestarcommy_20260718_111951.md"
       ],
       "relevance": "national"
     },
     {
-      "name": "Malay vote unity",
-      "count": 16,
-      "sources": [
-        "nomination-day-summary-1509.md",
-        "utusancommy_20260718_010044.md",
-        "utusancommy_20260718_070937.md",
-        "utusancommy_20260718_083302.md"
-      ],
-      "relevance": "ns"
-    },
-    {
       "name": "Orang Asli land dispute (Kg Sungai Cot)",
-      "count": 11,
+      "count": 13,
       "sources": [
-        "nstcommy_20260718_010044.md"
+        "nstcommy_20260718_010044.md",
+        "thestarcommy_20260718_111951.md"
       ],
       "relevance": "national"
     },
@@ -103,21 +111,22 @@
       "relevance": "national"
     },
     {
+      "name": "Royal succession crisis",
+      "count": 3,
+      "sources": [
+        "nomination-day-summary-1509.md",
+        "nomination-day-summary-1633.md",
+        "nomination-day-summary-1919.md"
+      ],
+      "relevance": "ns"
+    },
+    {
       "name": "Corporate mafia / RCI",
       "count": 2,
       "sources": [
         "nstcommy_20260718_010044.md"
       ],
       "relevance": "national"
-    },
-    {
-      "name": "Royal succession crisis",
-      "count": 2,
-      "sources": [
-        "nomination-day-summary-1509.md",
-        "nomination-day-summary-1633.md"
-      ],
-      "relevance": "ns"
     },
     {
       "name": "Social-media monitoring / slander during polls",

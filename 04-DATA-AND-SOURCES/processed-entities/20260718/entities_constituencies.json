@@ -1,20 +1,61 @@
 {
   "date": "20260718",
-  "timestamp": "2026-07-18T08:46:38.652503+00:00",
-  "source_count": 31,
+  "timestamp": "2026-07-18T11:52:07.026107+00:00",
+  "source_count": 41,
   "entity_type": "constituencies",
   "extraction_method": "enhanced-pattern-dictionary v2",
   "entity_count": 29,
   "entities": [
     {
+      "name": "Jempol",
+      "count": 40,
+      "sources": [
+        "astroawanicom_20260718_111951.md",
+        "nomination-day-summary-1509.md",
+        "nomination-day-summary-1633.md",
+        "nomination-day-summary-1919.md",
+        "nstcommy_20260718_070937.md",
+        "nstcommy_20260718_083302.md",
+        "nstcommy_20260718_111951.md",
+        "thestarcommy_20260718_111951.md"
+      ],
+      "type": "Parliament",
+      "in_master_list": true,
+      "master_list_gap_note": ""
+    },
+    {
+      "name": "Seremban",
+      "count": 34,
+      "sources": [
+        "astroawanicom_20260718_010044.md",
+        "nomination-day-summary-1509.md",
+        "nomination-day-summary-1633.md",
+        "nomination-day-summary-1919.md",
+        "nstcommy_20260718_010044.md",
+        "nstcommy_20260718_070937.md",
+        "nstcommy_20260718_083302.md",
+        "thestarcommy_20260718_010044.md",
+        "thestarcommy_20260718_083302.md",
+        "thestarcommy_20260718_111951.md",
+        "utusancommy_20260718_010044.md",
+        "utusancommy_20260718_070937.md",
+        "utusancommy_20260718_083302.md",
+        "utusancommy_20260718_111951.md"
+      ],
+      "type": "Parliament",
+      "in_master_list": true,
+      "master_list_gap_note": ""
+    },
+    {
       "name": "Linggi",
-      "count": 29,
+      "count": 31,
       "sources": [
         "astroawanicom_20260718_070937.md",
         "astroawanicom_20260718_083302.md",
         "bhariancommy_20260718_070937.md",
         "nomination-day-summary-1509.md",
         "nomination-day-summary-1633.md",
+        "nomination-day-summary-1919.md",
         "nstcommy_20260718_070937.md",
         "thestarcommy_20260718_070937.md"
       ],
@@ -23,66 +64,33 @@
       "master_list_gap_note": ""
     },
     {
-      "name": "Jelebu",
-      "count": 25,
-      "sources": [
-        "astroawanicom_20260718_070937.md",
-        "nomination-day-summary-1509.md",
-        "nomination-day-summary-1633.md",
-        "nstcommy_20260718_070937.md",
-        "nstcommy_20260718_083302.md"
-      ],
-      "type": "Parliament",
-      "in_master_list": true,
-      "master_list_gap_note": ""
-    },
-    {
       "name": "Klawang",
-      "count": 24,
+      "count": 30,
       "sources": [
         "astroawanicom_20260718_070937.md",
         "nomination-day-summary-1509.md",
         "nomination-day-summary-1633.md",
+        "nomination-day-summary-1919.md",
         "utusancommy_20260718_010044.md",
         "utusancommy_20260718_070937.md",
-        "utusancommy_20260718_083302.md"
+        "utusancommy_20260718_083302.md",
+        "utusancommy_20260718_111951.md"
       ],
       "type": "DUN",
       "in_master_list": true,
       "master_list_gap_note": ""
     },
     {
-      "name": "Sikamat",
-      "count": 22,
+      "name": "Jelebu",
+      "count": 27,
       "sources": [
-        "astroawanicom_20260718_010044.md",
-        "bhariancommy_20260718_070937.md",
+        "astroawanicom_20260718_070937.md",
         "nomination-day-summary-1509.md",
         "nomination-day-summary-1633.md",
-        "nstcommy_20260718_070937.md",
-        "utusancommy_20260718_010044.md",
-        "utusancommy_20260718_070937.md",
-        "utusancommy_20260718_083302.md"
-      ],
-      "type": "DUN",
-      "in_master_list": true,
-      "master_list_gap_note": ""
-    },
-    {
-      "name": "Seremban",
-      "count": 20,
-      "sources": [
-        "astroawanicom_20260718_010044.md",
-        "nomination-day-summary-1509.md",
-        "nomination-day-summary-1633.md",
-        "nstcommy_20260718_010044.md",
+        "nomination-day-summary-1919.md",
         "nstcommy_20260718_070937.md",
         "nstcommy_20260718_083302.md",
-        "thestarcommy_20260718_010044.md",
-        "thestarcommy_20260718_083302.md",
-        "utusancommy_20260718_010044.md",
-        "utusancommy_20260718_070937.md",
-        "utusancommy_20260718_083302.md"
+        "nstcommy_20260718_111951.md"
       ],
       "type": "Parliament",
       "in_master_list": true,
@@ -90,13 +98,16 @@
     },
     {
       "name": "Port Dickson",
-      "count": 18,
+      "count": 25,
       "sources": [
         "astroawanicom_20260718_083302.md",
+        "astroawanicom_20260718_111951.md",
         "nomination-day-summary-1509.md",
         "nomination-day-summary-1633.md",
+        "nomination-day-summary-1919.md",
         "nstcommy_20260718_070937.md",
         "nstcommy_20260718_083302.md",
+        "nstcommy_20260718_111951.md",
         "thestarcommy_20260718_070937.md",
         "thestarcommy_20260718_083302.md"
       ],
@@ -105,60 +116,52 @@
       "master_list_gap_note": ""
     },
     {
-      "name": "Tampin",
-      "count": 18,
+      "name": "Sikamat",
+      "count": 25,
       "sources": [
+        "astroawanicom_20260718_010044.md",
+        "bhariancommy_20260718_070937.md",
         "nomination-day-summary-1509.md",
         "nomination-day-summary-1633.md",
+        "nomination-day-summary-1919.md",
         "nstcommy_20260718_070937.md",
-        "nstcommy_20260718_083302.md",
-        "ohbulancom_20260718_010044.md",
-        "ohbulancom_20260718_070937.md",
-        "ohbulancom_20260718_083302.md"
-      ],
-      "type": "Parliament",
-      "in_master_list": true,
-      "master_list_gap_note": ""
-    },
-    {
-      "name": "Jempol",
-      "count": 12,
-      "sources": [
-        "nomination-day-summary-1509.md",
-        "nomination-day-summary-1633.md",
-        "nstcommy_20260718_070937.md",
-        "nstcommy_20260718_083302.md"
-      ],
-      "type": "Parliament",
-      "in_master_list": true,
-      "master_list_gap_note": ""
-    },
-    {
-      "name": "Pertang",
-      "count": 12,
-      "sources": [
-        "astroawanicom_20260718_070937.md",
-        "nomination-day-summary-1509.md",
-        "nomination-day-summary-1633.md",
-        "nstcommy_20260718_070937.md",
-        "nstcommy_20260718_083302.md",
-        "thestarcommy_20260718_070937.md",
-        "thestarcommy_20260718_083302.md"
+        "utusancommy_20260718_010044.md",
+        "utusancommy_20260718_070937.md",
+        "utusancommy_20260718_083302.md",
+        "utusancommy_20260718_111951.md"
       ],
       "type": "DUN",
       "in_master_list": true,
       "master_list_gap_note": ""
     },
     {
-      "name": "Pilah",
-      "count": 9,
+      "name": "Tampin",
+      "count": 24,
       "sources": [
         "nomination-day-summary-1509.md",
+        "nomination-day-summary-1633.md",
+        "nomination-day-summary-1919.md",
         "nstcommy_20260718_070937.md",
         "nstcommy_20260718_083302.md",
-        "utusancommy_20260718_010044.md",
-        "utusancommy_20260718_070937.md",
-        "utusancommy_20260718_083302.md"
+        "ohbulancom_20260718_010044.md",
+        "ohbulancom_20260718_070937.md",
+        "ohbulancom_20260718_083302.md",
+        "ohbulancom_20260718_111951.md"
+      ],
+      "type": "Parliament",
+      "in_master_list": true,
+      "master_list_gap_note": ""
+    },
+    {
+      "name": "Juasseh",
+      "count": 18,
+      "sources": [
+        "nomination-day-summary-1509.md",
+        "nomination-day-summary-1633.md",
+        "nomination-day-summary-1919.md",
+        "nstcommy_20260718_070937.md",
+        "nstcommy_20260718_083302.md",
+        "nstcommy_20260718_111951.md"
       ],
       "type": "DUN",
       "in_master_list": true,
@@ -166,39 +169,64 @@
     },
     {
       "name": "Rembau",
-      "count": 9,
+      "count": 17,
       "sources": [
         "nomination-day-summary-1509.md",
         "nomination-day-summary-1633.md",
+        "nomination-day-summary-1919.md",
         "nstcommy_20260718_070937.md",
-        "nstcommy_20260718_083302.md"
+        "nstcommy_20260718_083302.md",
+        "nstcommy_20260718_111951.md"
       ],
       "type": "Parliament",
       "in_master_list": true,
       "master_list_gap_note": ""
     },
     {
-      "name": "Temiang",
-      "count": 9,
+      "name": "Pilah",
+      "count": 14,
       "sources": [
-        "astroawanicom_20260718_010044.md",
-        "nomination-day-summary-1633.md",
+        "nomination-day-summary-1509.md",
+        "nomination-day-summary-1919.md",
+        "nstcommy_20260718_070937.md",
+        "nstcommy_20260718_083302.md",
+        "nstcommy_20260718_111951.md",
         "utusancommy_20260718_010044.md",
         "utusancommy_20260718_070937.md",
-        "utusancommy_20260718_083302.md"
+        "utusancommy_20260718_083302.md",
+        "utusancommy_20260718_111951.md"
       ],
       "type": "DUN",
       "in_master_list": true,
       "master_list_gap_note": ""
     },
     {
-      "name": "Juasseh",
-      "count": 7,
+      "name": "Pertang",
+      "count": 13,
       "sources": [
+        "astroawanicom_20260718_070937.md",
         "nomination-day-summary-1509.md",
         "nomination-day-summary-1633.md",
+        "nomination-day-summary-1919.md",
         "nstcommy_20260718_070937.md",
-        "nstcommy_20260718_083302.md"
+        "nstcommy_20260718_083302.md",
+        "thestarcommy_20260718_070937.md",
+        "thestarcommy_20260718_083302.md"
+      ],
+      "type": "DUN",
+      "in_master_list": true,
+      "master_list_gap_note": ""
+    },
+    {
+      "name": "Temiang",
+      "count": 11,
+      "sources": [
+        "astroawanicom_20260718_010044.md",
+        "nomination-day-summary-1633.md",
+        "utusancommy_20260718_010044.md",
+        "utusancommy_20260718_070937.md",
+        "utusancommy_20260718_083302.md",
+        "utusancommy_20260718_111951.md"
       ],
       "type": "DUN",
       "in_master_list": true,
@@ -206,28 +234,71 @@
     },
     {
       "name": "Sungai Lui",
-      "count": 6,
+      "count": 7,
       "sources": [
         "astroawanicom_20260718_070937.md",
         "nomination-day-summary-1509.md",
-        "nomination-day-summary-1633.md"
+        "nomination-day-summary-1633.md",
+        "nomination-day-summary-1919.md"
       ],
       "type": "DUN",
       "in_master_list": true,
       "master_list_gap_note": ""
     },
     {
+      "name": "Kuala Pilah",
+      "count": 6,
+      "sources": [
+        "nomination-day-summary-1509.md",
+        "nomination-day-summary-1919.md",
+        "nstcommy_20260718_070937.md",
+        "nstcommy_20260718_083302.md",
+        "nstcommy_20260718_111951.md"
+      ],
+      "type": "Parliament",
+      "in_master_list": true,
+      "master_list_gap_note": ""
+    },
+    {
       "name": "Ampangan",
-      "count": 4,
+      "count": 5,
       "sources": [
         "astroawanicom_20260718_010044.md",
         "utusancommy_20260718_010044.md",
         "utusancommy_20260718_070937.md",
-        "utusancommy_20260718_083302.md"
+        "utusancommy_20260718_083302.md",
+        "utusancommy_20260718_111951.md"
       ],
       "type": "DUN (not in master list - GAP)",
       "in_master_list": false,
       "master_list_gap_note": ""
+    },
+    {
+      "name": "Nilai",
+      "count": 5,
+      "sources": [
+        "astroawanicom_20260718_010044.md",
+        "utusancommy_20260718_010044.md",
+        "utusancommy_20260718_070937.md",
+        "utusancommy_20260718_083302.md",
+        "utusancommy_20260718_111951.md"
+      ],
+      "type": "DUN (not in master list - GAP)",
+      "in_master_list": false,
+      "master_list_gap_note": "Listed among DUNs in Astro Awani nomination-centre caption ('DUN Lenggeng, Nilai, Lobak, Temiang, Sikamat dan Ampangan') but master list has 'Nilam' (N14) instead. Possible master-list error or distinct seat."
+    },
+    {
+      "name": "Chennah",
+      "count": 4,
+      "sources": [
+        "utusancommy_20260718_010044.md",
+        "utusancommy_20260718_070937.md",
+        "utusancommy_20260718_083302.md",
+        "utusancommy_20260718_111951.md"
+      ],
+      "type": "DUN (not in master list - GAP)",
+      "in_master_list": false,
+      "master_list_gap_note": "Named in Utusan article as a mixed DUN ('Chennah, Temiang dan Nilai') but missing from 36-seat master list."
     },
     {
       "name": "Chuah",
@@ -242,41 +313,30 @@
       "master_list_gap_note": ""
     },
     {
-      "name": "Nilai",
+      "name": "Seremban Jaya",
       "count": 4,
       "sources": [
-        "astroawanicom_20260718_010044.md",
         "utusancommy_20260718_010044.md",
         "utusancommy_20260718_070937.md",
-        "utusancommy_20260718_083302.md"
+        "utusancommy_20260718_083302.md",
+        "utusancommy_20260718_111951.md"
       ],
       "type": "DUN (not in master list - GAP)",
       "in_master_list": false,
-      "master_list_gap_note": "Listed among DUNs in Astro Awani nomination-centre caption ('DUN Lenggeng, Nilai, Lobak, Temiang, Sikamat dan Ampangan') but master list has 'Nilam' (N14) instead. Possible master-list error or distinct seat."
+      "master_list_gap_note": "Named as a DUN seat in Utusan article but missing from 36-seat master list."
     },
     {
-      "name": "Chennah",
-      "count": 3,
+      "name": "Sri Tanjung",
+      "count": 4,
       "sources": [
         "utusancommy_20260718_010044.md",
         "utusancommy_20260718_070937.md",
-        "utusancommy_20260718_083302.md"
+        "utusancommy_20260718_083302.md",
+        "utusancommy_20260718_111951.md"
       ],
       "type": "DUN (not in master list - GAP)",
       "in_master_list": false,
-      "master_list_gap_note": "Named in Utusan article as a mixed DUN ('Chennah, Temiang dan Nilai') but missing from 36-seat master list."
-    },
-    {
-      "name": "Kuala Pilah",
-      "count": 3,
-      "sources": [
-        "nomination-day-summary-1509.md",
-        "nstcommy_20260718_070937.md",
-        "nstcommy_20260718_083302.md"
-      ],
-      "type": "Parliament",
-      "in_master_list": true,
-      "master_list_gap_note": ""
+      "master_list_gap_note": "Named as a DUN seat in Utusan article ('MIC menang di DUN Sri Tanjung dan Seremban Jaya') but missing from 36-seat master list (dun-master-list.md)."
     },
     {
       "name": "Lenggeng",
@@ -288,30 +348,6 @@
       "type": "DUN",
       "in_master_list": true,
       "master_list_gap_note": ""
-    },
-    {
-      "name": "Seremban Jaya",
-      "count": 3,
-      "sources": [
-        "utusancommy_20260718_010044.md",
-        "utusancommy_20260718_070937.md",
-        "utusancommy_20260718_083302.md"
-      ],
-      "type": "DUN (not in master list - GAP)",
-      "in_master_list": false,
-      "master_list_gap_note": "Named as a DUN seat in Utusan article but missing from 36-seat master list."
-    },
-    {
-      "name": "Sri Tanjung",
-      "count": 3,
-      "sources": [
-        "utusancommy_20260718_010044.md",
-        "utusancommy_20260718_070937.md",
-        "utusancommy_20260718_083302.md"
-      ],
-      "type": "DUN (not in master list - GAP)",
-      "in_master_list": false,
-      "master_list_gap_note": "Named as a DUN seat in Utusan article ('MIC menang di DUN Sri Tanjung dan Seremban Jaya') but missing from 36-seat master list (dun-master-list.md)."
     },
     {
       "name": "Kota",

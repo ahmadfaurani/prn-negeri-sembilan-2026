@@ -1,48 +1,57 @@
 {
   "date": "20260718",
-  "timestamp": "2026-07-18T08:46:38.479914+00:00",
-  "source_count": 31,
+  "timestamp": "2026-07-18T11:52:06.781045+00:00",
+  "source_count": 41,
   "entity_type": "politicians",
   "extraction_method": "enhanced-pattern-dictionary v2",
-  "entity_count": 34,
+  "entity_count": 38,
   "entities": [
     {
       "name": "Tan Sri Muhyiddin Yassin (Bersatu President)",
-      "count": 75,
+      "count": 104,
       "sources": [
         "bhariancommy_20260718_083302.md",
+        "bhariancommy_20260718_111951.md",
         "freemalaysiatodaycom_20260718_083302.md",
         "nomination-day-summary-1509.md",
         "nomination-day-summary-1633.md",
+        "nomination-day-summary-1919.md",
         "nstcommy_20260718_010044.md",
         "nstcommy_20260718_070937.md",
         "nstcommy_20260718_083302.md",
+        "nstcommy_20260718_111951.md",
         "thestarcommy_20260718_010044.md",
+        "thestarcommy_20260718_111951.md",
         "utusancommy_20260718_010044.md",
         "utusancommy_20260718_070937.md",
-        "utusancommy_20260718_083302.md"
+        "utusancommy_20260718_083302.md",
+        "utusancommy_20260718_111951.md"
       ],
       "aliases": [
         "Muhyiddin",
         "Muhyiddin Yassin",
-        "Tan Sri Muhyiddin Yassin"
+        "Tan Sri Muhyiddin Yassin",
+        "Tan Sri Muhyiddin Yassin."
       ]
     },
     {
       "name": "Aminuddin Harun (NS Menteri Besar)",
-      "count": 45,
+      "count": 61,
       "sources": [
         "astroawanicom_20260718_070937.md",
         "astroawanicom_20260718_083302.md",
         "bhariancommy_20260718_070937.md",
         "nomination-day-summary-1509.md",
         "nomination-day-summary-1633.md",
+        "nomination-day-summary-1919.md",
         "nstcommy_20260718_070937.md",
         "nstcommy_20260718_083302.md",
+        "nstcommy_20260718_111951.md",
         "thestarcommy_20260718_070937.md",
         "utusancommy_20260718_010044.md",
         "utusancommy_20260718_070937.md",
-        "utusancommy_20260718_083302.md"
+        "utusancommy_20260718_083302.md",
+        "utusancommy_20260718_111951.md"
       ],
       "aliases": [
         "Aminuddin",
@@ -51,15 +60,37 @@
       ]
     },
     {
+      "name": "Datuk Seri Ahmad Zahid Hamidi (UMNO Pres.)",
+      "count": 46,
+      "sources": [
+        "astroawanicom_20260718_111951.md",
+        "nomination-day-summary-1509.md",
+        "nomination-day-summary-1633.md",
+        "nomination-day-summary-1919.md",
+        "nstcommy_20260718_070937.md",
+        "nstcommy_20260718_083302.md",
+        "nstcommy_20260718_111951.md",
+        "thestarcommy_20260718_111951.md"
+      ],
+      "aliases": [
+        "Ahmad Zahid Hamidi",
+        "Datuk Seri Dr Ahmad Zahid Hamidi.",
+        "Zahid"
+      ]
+    },
+    {
       "name": "Tan Sri Abdul Hadi Awang (PAS President)",
-      "count": 18,
+      "count": 28,
       "sources": [
         "nomination-day-summary-1509.md",
         "nomination-day-summary-1633.md",
+        "nomination-day-summary-1919.md",
         "nstcommy_20260718_083302.md",
+        "nstcommy_20260718_111951.md",
         "utusancommy_20260718_010044.md",
         "utusancommy_20260718_070937.md",
-        "utusancommy_20260718_083302.md"
+        "utusancommy_20260718_083302.md",
+        "utusancommy_20260718_111951.md"
       ],
       "aliases": [
         "Abdul Hadi Awang",
@@ -68,13 +99,29 @@
       ]
     },
     {
+      "name": "Syed Saddiq (MUDA)",
+      "count": 22,
+      "sources": [
+        "bhariancommy_20260718_070937.md",
+        "bhariancommy_20260718_111951.md",
+        "kosmocommy_20260718_010044.md",
+        "kosmocommy_20260718_070937.md",
+        "kosmocommy_20260718_083302.md",
+        "kosmocommy_20260718_111951.md"
+      ],
+      "aliases": [
+        "Syed Saddiq"
+      ]
+    },
+    {
       "name": "Datuk Seri Dr. Ahmad Samsuri Mokhtar (PN Chairman)",
-      "count": 16,
+      "count": 20,
       "sources": [
         "nomination-day-summary-1633.md",
         "utusancommy_20260718_010044.md",
         "utusancommy_20260718_070937.md",
-        "utusancommy_20260718_083302.md"
+        "utusancommy_20260718_083302.md",
+        "utusancommy_20260718_111951.md"
       ],
       "aliases": [
         "Ahmad Samsuri",
@@ -84,42 +131,86 @@
       ]
     },
     {
-      "name": "Syed Saddiq (MUDA)",
-      "count": 14,
+      "name": "Datuk Seri R. Ramanan (Sungai Buloh MP)",
+      "count": 20,
       "sources": [
-        "bhariancommy_20260718_070937.md",
-        "kosmocommy_20260718_010044.md",
-        "kosmocommy_20260718_070937.md",
-        "kosmocommy_20260718_083302.md"
+        "nomination-day-summary-1919.md",
+        "nstcommy_20260718_010044.md",
+        "thestarcommy_20260718_010044.md",
+        "thestarcommy_20260718_111951.md"
       ],
       "aliases": [
-        "Syed Saddiq"
-      ]
-    },
-    {
-      "name": "Datuk Seri Ahmad Zahid Hamidi (UMNO Pres.)",
-      "count": 11,
-      "sources": [
-        "nomination-day-summary-1509.md",
-        "nomination-day-summary-1633.md",
-        "nstcommy_20260718_070937.md",
-        "nstcommy_20260718_083302.md"
-      ],
-      "aliases": [
-        "Zahid"
+        "Datuk Seri R. Ramanan",
+        "R. Ramanan",
+        "Ramanan"
       ]
     },
     {
       "name": "Datuk Mustapha Nagoor (UMNO NS Sec)",
-      "count": 6,
+      "count": 8,
       "sources": [
         "utusancommy_20260718_010044.md",
         "utusancommy_20260718_070937.md",
-        "utusancommy_20260718_083302.md"
+        "utusancommy_20260718_083302.md",
+        "utusancommy_20260718_111951.md"
       ],
       "aliases": [
         "Datuk Mustapha Nagoor",
         "Mustapha Nagoor"
+      ]
+    },
+    {
+      "name": "Kamarol Ridzuan Mohd. Zain (PAS NS Deputy Comm.)",
+      "count": 8,
+      "sources": [
+        "utusancommy_20260718_010044.md",
+        "utusancommy_20260718_070937.md",
+        "utusancommy_20260718_083302.md",
+        "utusancommy_20260718_111951.md"
+      ],
+      "aliases": [
+        "Kamarol Ridzuan",
+        "Kamarol Ridzuan Mohd. Zain"
+      ]
+    },
+    {
+      "name": "P. Supramanium (MIC NS Chairman)",
+      "count": 8,
+      "sources": [
+        "utusancommy_20260718_010044.md",
+        "utusancommy_20260718_070937.md",
+        "utusancommy_20260718_083302.md",
+        "utusancommy_20260718_111951.md"
+      ],
+      "aliases": [
+        "P. Supramanium",
+        "Supramanium"
+      ]
+    },
+    {
+      "name": "Datuk A. Saravanan",
+      "count": 7,
+      "sources": [
+        "nomination-day-summary-1509.md",
+        "nomination-day-summary-1633.md",
+        "nomination-day-summary-1919.md"
+      ],
+      "aliases": [
+        "Datuk A. Saravanan"
+      ]
+    },
+    {
+      "name": "Datuk Ismail Lasim",
+      "count": 6,
+      "sources": [
+        "nomination-day-summary-1919.md",
+        "nstcommy_20260718_070937.md",
+        "nstcommy_20260718_083302.md",
+        "nstcommy_20260718_111951.md"
+      ],
+      "aliases": [
+        "Dato' Ismail Lasim",
+        "Datuk Ismail Lasim"
       ]
     },
     {
@@ -132,32 +223,6 @@
         "Anwar Ibrahim",
         "Datuk Seri Anwar",
         "Datuk Seri Anwar Ibrahim"
-      ]
-    },
-    {
-      "name": "Kamarol Ridzuan Mohd. Zain (PAS NS Deputy Comm.)",
-      "count": 6,
-      "sources": [
-        "utusancommy_20260718_010044.md",
-        "utusancommy_20260718_070937.md",
-        "utusancommy_20260718_083302.md"
-      ],
-      "aliases": [
-        "Kamarol Ridzuan",
-        "Kamarol Ridzuan Mohd. Zain"
-      ]
-    },
-    {
-      "name": "P. Supramanium (MIC NS Chairman)",
-      "count": 6,
-      "sources": [
-        "utusancommy_20260718_010044.md",
-        "utusancommy_20260718_070937.md",
-        "utusancommy_20260718_083302.md"
-      ],
-      "aliases": [
-        "P. Supramanium",
-        "Supramanium"
       ]
     },
     {
@@ -195,14 +260,13 @@
       ]
     },
     {
-      "name": "Datuk A. Saravanan",
-      "count": 5,
+      "name": "Dato' Ismail Bin Lasim",
+      "count": 3,
       "sources": [
-        "nomination-day-summary-1509.md",
-        "nomination-day-summary-1633.md"
+        "nomination-day-summary-1919.md"
       ],
       "aliases": [
-        "Datuk A. Saravanan"
+        "Dato' Ismail Bin Lasim"
       ]
     },
     {
@@ -228,6 +292,16 @@
       ]
     },
     {
+      "name": "Datuk Armizan Mohd Ali",
+      "count": 2,
+      "sources": [
+        "astroawanicom_20260718_111951.md"
+      ],
+      "aliases": [
+        "Datuk Armizan Mohd Ali"
+      ]
+    },
+    {
       "name": "Datuk Fahmi Fadzil",
       "count": 2,
       "sources": [
@@ -237,17 +311,6 @@
       "aliases": [
         "Datuk Fahmi Fadzil",
         "Datuk Seri Fahmi Fadzil"
-      ]
-    },
-    {
-      "name": "Datuk Ismail Lasim",
-      "count": 2,
-      "sources": [
-        "nstcommy_20260718_070937.md",
-        "nstcommy_20260718_083302.md"
-      ],
-      "aliases": [
-        "Datuk Ismail Lasim"
       ]
     },
     {
@@ -262,17 +325,6 @@
       ]
     },
     {
-      "name": "Datuk Seri R. Ramanan (Sungai Buloh MP)",
-      "count": 2,
-      "sources": [
-        "nstcommy_20260718_010044.md",
-        "thestarcommy_20260718_010044.md"
-      ],
-      "aliases": [
-        "Ramanan"
-      ]
-    },
-    {
       "name": "Datuk Seri Ramlan Harun (EC Chairman)",
       "count": 2,
       "sources": [
@@ -281,6 +333,28 @@
       "aliases": [
         "Datuk Seri Ramlan Harun",
         "Ramlan Harun"
+      ]
+    },
+    {
+      "name": "Tan Sri Muhyiddin Yassin’s",
+      "count": 2,
+      "sources": [
+        "nstcommy_20260718_083302.md",
+        "nstcommy_20260718_111951.md"
+      ],
+      "aliases": [
+        "Tan Sri Muhyiddin Yassin’s"
+      ]
+    },
+    {
+      "name": "Tunku Ismail Sultan Ibrahim",
+      "count": 2,
+      "sources": [
+        "nstcommy_20260718_083302.md",
+        "nstcommy_20260718_111951.md"
+      ],
+      "aliases": [
+        "Tunku Ismail Sultan Ibrahim"
       ]
     },
     {
@@ -344,6 +418,16 @@
       ]
     },
     {
+      "name": "Datuk Seri Dr Wee Ka Siong. Load",
+      "count": 1,
+      "sources": [
+        "thestarcommy_20260718_111951.md"
+      ],
+      "aliases": [
+        "Datuk Seri Dr Wee Ka Siong. Load"
+      ]
+    },
+    {
       "name": "Kamil Munim",
       "count": 1,
       "sources": [
@@ -384,23 +468,13 @@
       ]
     },
     {
-      "name": "Tan Sri Muhyiddin Yassin’s",
+      "name": "Tengku Rosman Tengku Jaafar",
       "count": 1,
       "sources": [
-        "nstcommy_20260718_083302.md"
+        "astroawanicom_20260718_111951.md"
       ],
       "aliases": [
-        "Tan Sri Muhyiddin Yassin’s"
-      ]
-    },
-    {
-      "name": "Tunku Ismail Sultan Ibrahim",
-      "count": 1,
-      "sources": [
-        "nstcommy_20260718_083302.md"
-      ],
-      "aliases": [
-        "Tunku Ismail Sultan Ibrahim"
+        "Tengku Rosman Tengku Jaafar"
       ]
     },
     {
