@@ -1,0 +1,366 @@
+{
+  "date": "20260718",
+  "generated": "2026-07-19T00:10:24+08:00",
+  "generated_utc": "2026-07-18T16:10:24+00:00",
+  "file": "sentiment_161024.json",
+  "workspace": "/home/p62operator/.openclaw/workspace-ns",
+  "classification": "TLP:AMBER",
+  "agent": "PRN Negeri Sembilan 2026 Sentiment Analysis Agent (cron)",
+  "status": "completed (revision 4 — Cycle 6 / 23:31 MYT PIR-priority delta merged into the 22:00 MYT entity extraction)",
+  "method": "agent-manual source-attributed review (CVS-compliant) + SPR official candidate-list cross-reference + director-approved PIR priority weighting",
+  "runtime": "GLM-5.2 (custom) — manual review fallback (ESC-002, Day 8). ns-sentiment-analysis.sh remains a stub; no OpenOSINT/Aras API credentials in environment.",
+  "election_milestone": "NOMINATION DAY (18 Jul 2026) — CAMPAIGN PERIOD DAY 1. Polling day 1 Aug 2026; early voting 28 Jul 2026; BN manifesto launch 24 Jul (DUN Linggi). Electorate 889,490.",
+  "priority_directive": {
+    "approved": "2026-07-18 15:00 MYT (Director)",
+    "statement": "Weight sentiment analysis toward approved PIRs: PIR-06 (PN-Bersatu removal/expulsion/withdrawal narratives), PIR-09 (candidate credibility — disciplinary actions, defections, eligibility), PIR-07 (battleground seats — campaign momentum, candidate reception).",
+    "pir_priority_tags": ["PIR-06", "PIR-09", "PIR-07"],
+    "critical_flag_directive": "Flag any CRITICAL sentiment shift related to PIR-06 (PN-removal-of-Bersatu).",
+    "shift_threshold": "Flag any entity with sharp sentiment shift (>30% change from previous cycle)."
+  },
+  "revision_context": {
+    "prior_revision": {
+      "id": "revision-3",
+      "generated": "2026-07-18T21:56:36+08:00 (13:56 UTC)",
+      "file": "processed-entities/20260718/sentiment_analysis.json",
+      "coverage": "41 source files / 150 entities; batches _010044 + _070937 + _083302 + _111951 + summaries 1509/1633/1919",
+      "distribution": {"positive": 11, "neutral": 9, "negative": 6, "total_scored": 26}
+    },
+    "this_revision": {
+      "id": "revision-4",
+      "trigger": "entities_consolidated.json regenerated at 2026-07-18T14:00:40+00:00 (22:00 MYT) — 55 sources / 232 entities, +14 sources / +82 entities vs revision-3. PLUS the 23:31 MYT PIR-priority collection cycle (priority_pir06/07/09 pointer files + _153251/_153400 raw batch + nomination-day-summary-2220) arrived after the 14:00 UTC extraction.",
+      "coverage": "55 source files / 232 entities (politicians 115, parties 18, constituencies 36, issues 8, events 5, organizations 7, locations 43) + Cycle-5 summary (nomination-day-summary-2220, 22:20 MYT) + Cycle-6 PIR-priority pointer files (23:31 MYT).",
+      "new_batches_since_rev3": [
+        {"batch": "_130328", "cycle": "Cycle 4 (21:03 MYT)", "files": 7, "note": "bharian/kosmo/mstar/nst/ohbulan/thestar/utusan + summary-2103; covered by the 14:00 UTC extraction"},
+        {"batch": "_142040 + manual_*", "cycle": "Cycle 5 (22:20 MYT)", "files": 13, "note": "bharian/nst/thestar/utusan/astroawani/mstar/ohbulan/kosmo + 7 manual files (bujang-tarik-diri, ampangan-ph, ronald-bersatu-pn, nst-fuziah, nst-topguns, bn-fokus, calon-mb) + summary-2220"},
+        {"batch": "_153251/_153400 + priority_pir*", "cycle": "Cycle 6 (23:31 MYT)", "files": 14, "note": "thestar/nst/utusan/astroawani/kosmo/mstar/ohbulan/bharian/malaysiakini/thmalaysianinsight + 4 priority_pir06/07/09 pointer files. PRIORITY PIR content. Arrived AFTER the 14:00 UTC extraction — incorporated via priority-weighted source-attributed review."}
+      ],
+      "method_note": "The 14:00 UTC entity extraction does NOT itself carry PIR tags; PIR-06/09/07 tags are applied by this sentiment agent per the director-approved priority directive, mapping extracted entities/issues to the PIR framework. Priority pointer files (priority_pir06/07/09) and the cycle-5/6 summaries are used to LOCATE priority items; underlying media source files are cited as attribution per CVS standard."
+    }
+  },
+  "source_basis_delta": {
+    "collection_date": "20260718",
+    "total_source_files_rev4": 55,
+    "total_entities_extracted_rev4": 232,
+    "new_editorial_bodies_since_rev3": [
+      "utusancommy_20260718_130328.md (+142040 manual fetches recovered 6 full Utusan article bodies — workhorse for Cycle 5)",
+      "manual_ronald-bersatu-pn_20260718_142040.md (Utusan full body: 'Bersatu tidak lagi mahu bersama PN – Ronald', PJ dateline, 18 Jul 6:23pm — Ronald Kiandee's full quote + official SPR party breakdown attributed to SPR Chairman Ramlan Harun)",
+      "manual_bujang-tarik-diri_20260718_142040.md (Utusan full body: 'Bujang terpaksa tarik diri, dokumen tidak lengkap', Seremban, 18 Jul 7:02pm — Bujang Abu withdrawal)",
+      "manual_ampangan-ph_20260718_142040.md (Utusan full body: 'Kempen berkesan mampu bantu PH pertahankan Ampangan', 18 Jul 7:04pm — Nazri 50/50 + Rafie cross-bloc)",
+      "manual_bn-fokus_20260718_142040.md (Utusan full body: 'BN mahu fokus pembangunan, kos sara hidup rakyat', Jelebu, 18 Jul 5:14pm — Jalaluddin manifesto + Jelebu procession)",
+      "manual_calon-mb_20260718_142040.md (Utusan: 'Calon Menteri Besar diputuskan selepas PRN', 18 Jul 5:12pm — MB-candidate deferred)",
+      "priority_pir06_kiandee-grounds-remove-bersatu_20260718_153142.md (NST: 'PN has grounds to remove Bersatu, says Kiandee', 18 Jul 10:20am; PIR-06 priority pointer — Kiandee = suspended Bersatu VP)",
+      "priority_pir09_gerakan-expels-tang-jay-son_20260718_153142.md (NST/BERNAMA: 'N9 polls: Gerakan expels Tang Jay Son for contesting on Bersatu ticket', 18 Jul 1:16pm; PIR-09 priority pointer)",
+      "priority_pir09_ampangan-day1-messaging-war_20260718_153142.md (Utusan + NST cross-ref: N.14 Ampangan Day-1 messaging war — PH 'defector' vs PN 'experienced rep'; PIR-09+PIR-07 pointer)",
+      "priority_pir07_day1-campaign-battleground_20260718_153142.md (consolidated PIR-07 Day-1 battleground assessment — 8 watch seats + BN ops/walkabouts + Day-1 messaging)",
+      "nomination-day-summary-2220.md (Cycle 5 intelligence product — 7 material deltas vs 21:03; PIR-by-PIR scan)",
+      "utusancommy_20260718_153251.md (Cycle 6: 'Bukan mudah masuk kubu orang – Aminuddin'; 'Persefahaman BN-PN di N.Sembilan penentu di Melaka, PRU16'; 'Lawan Tok Mat macam perlawanan persahabatan PH-BN – Dr. Azizul')",
+      "nstcommy_20260718_153251.md (Cycle 6: NST source recovered — headlines: Tang/Gerakan, Kiandee, Muhyiddin sole-opposition, manifesto 24 Jul, 'no easy path top guns', Fuziah 'respect parties strategy', 3-cornered/5-way)"
+    ],
+    "verified_intelligence_asset": "spr-candidate-list-20260718.json — OFFICIAL SPR candidate list (103 candidates, 36 DUNs). PRIMARY ground truth. Party breakdown SPR-CONFIRMED via SPR Chairman Datuk Seri Ramlan Harun (Utusan/Ronald article, Cycle 5): PH 36 / BN 25 / Bersatu 24 / PN 11 / 4 Ind / BERJASA 1 / ASLI 1 / PSM 1 = 103.",
+    "cvs_standard": "Sentiment based on verified source content only. No pattern-inferred sentiment. All entities source-attributed (verbatim surface match). SPR candidate list = ground truth. PIR priority pointer files + intelligence summaries used only to LOCATE items; media source files cited as attribution per CVS standard."
+  },
+  "entities_analyzed_rev4_delta": 15,
+  "entities_analyzed_cumulative": 41,
+  "sentiment_summary": {
+    "positive": [
+      {
+        "entity": "[Rev4Δ] Jalaluddin Alias (BN NS chief / MP Jelebu / BN candidate N.02 Pertang) — Day-1 campaign momentum + manifesto narrative",
+        "category": "politician (BN campaign lead)",
+        "pir_tags": ["PIR-07", "PIR-16", "PIR-22"],
+        "sentiment": "positive",
+        "score": 0.55,
+        "priority_weight": 1.3,
+        "weighted_score": 0.72,
+        "trend": "NEW — BN state chief personally anchored the Jelebu nomination (procession/berarak at Dewan Besar Kuala Klawang for the 4-DUN Chennah/Pertang/Sg Lui/Klawang cluster) AND crystallised the BN Day-1 narrative ('way forward' manifesto: development, education, welfare, cost of living). First concrete BN machinery+mobilisation+message datum of the campaign.",
+        "rationale": "Utusan (JELEBU, 18 Jul 5:14pm, by Fatin Norizati Mat Isa): BN manifesto focuses on development, education, people's welfare, and cost-of-living (especially the poor), built on the Unity Government 'BB' manifesto with improvements. Manifesto launch 24 Jul at DUN Linggi. Jalaluddin led the berarak procession — visible BN state-leadership mobilisation. Positive for BN campaign momentum (PIR-07) and first dominant campaign narrative (PIR-16). Counterweights the rev3 finding that BN's posture was defensive ('understanding, not merger' containment).",
+        "sources": ["manual_bn-fokus_20260718_142040.md", "utusancommy_20260718_153251.md", "priority_pir07_day1-campaign-battleground_20260718_153142.md", "spr-candidate-list-20260718.json"],
+        "source_reliability": "HIGH — Utusan full article body, byline-confirmed, Jelebu dateline; SPR-verified candidate (N.02 Pertang, BN-UMNO, retained)."
+      },
+      {
+        "entity": "[Rev4Δ] Dr Azizul Hakim Mahdi (PH candidate N.27 Rantau) — civil 'friendship match' framing vs Tok Mat",
+        "category": "politician (PH, Rantau)",
+        "pir_tags": ["PIR-07", "PIR-09"],
+        "sentiment": "positive",
+        "score": 0.53,
+        "priority_weight": 1.3,
+        "weighted_score": 0.69,
+        "trend": "NEW — PH's 34yo Rantau candidate frames the marquee fight against Tok Mat (70) as 'macam perlawanan persahabatan PH-BN' (like a PH-BN friendship match). Positive temperament/civility signal on Day 1.",
+        "rationale": "Utusan (153251): 'Lawan Tok Mat macam perlawanan persahabatan PH-BN – Dr Azizul.' A civil, non-toxic framing of the marquee BN-PH straight fight in Rantau. Positive for candidate reception (PIR-07) and a measured credibility posture (PIR-09). Reinforces the clean/issue-based campaign tone; the 70-vs-34 age contrast (rev3) now carries a respectful rather than confrontational edge. Does not change the 2-cornered BN-PH contest structure.",
+        "sources": ["utusancommy_20260718_153251.md", "spr-candidate-list-20260718.json"],
+        "source_reliability": "MEDIUM-HIGH — Utusan headline + candidate verified (N.27 Rantau, PH, age 34). Headline-level framing."
+      },
+      {
+        "entity": "[Rev4Δ] MB Aminuddin Harun (PH candidate N.32 Linggi) — 'Bukan mudah masuk kubu orang' (defensive-governance framing reinforced)",
+        "category": "politician (incumbent MB / PH Linggi)",
+        "pir_tags": ["PIR-07", "PIR-09"],
+        "sentiment": "positive",
+        "score": 0.61,
+        "priority_weight": 1.3,
+        "weighted_score": 0.79,
+        "trend": "REINFORCED — rev3 0.60 → rev4 0.61 (+0.01, +1.7%). Aminuddin adds a Day-1 quote on his 3-cornered Linggi fight: 'Bukan mudah masuk kubu orang' (not easy to enter someone else's fortress) — a confident but grounded incumbent posture.",
+        "rationale": "Utusan (153251): 'Bukan mudah masuk kubu orang – Aminuddin.' Combined with the rev3 governance framing ('Pentadbiran Aminuddin pacu ekonomi negeri'), the MB now has BOTH a governance record message AND a candid assessment of his new seat. The 3-cornered split (Bersatu Zamri + BN Faizal) structurally helps him. Highest priority-weighted PH positive (incumbent + PIR-07 marquee seat).",
+        "sources": ["utusancommy_20260718_153251.md", "utusancommy_20260718_010044.md", "spr-candidate-list-20260718.json"],
+        "source_reliability": "HIGH — Utusan headline + SPR verified (N.32 Linggi, PH-PKR, age 59)."
+      },
+      {
+        "entity": "[Rev4Δ] Official SPR party breakdown — CONFIRMED at SPR-Chairman level (ground-truth upgrade)",
+        "category": "event/organization (electoral configuration)",
+        "pir_tags": ["PIR-01"],
+        "sentiment": "positive",
+        "score": 0.62,
+        "priority_weight": 1.0,
+        "weighted_score": 0.62,
+        "trend": "UPGRADED — rev3 had the SPR candidate list (ground truth) but the party-by-party count was extractor/BERNAMA-derived. Rev4: SPR Chairman Datuk Seri Ramlan Harun's official breakdown (via Utusan/Ronald article) CONFIRMS PH 36 / BN 25 / Bersatu 24 / PN 11 / 4 Ind / BERJASA 1 / ASLI 1 / PSM 1 = 103.",
+        "rationale": "The candidate-configuration picture is now confirmed at the highest authority (SPR Chairman on record). Bersatu's 24 separate candidacies (running against both BN and PN) is the operational signature of the rupture — SPR-confirmed. This locks in the rev3 structural finding (opposition fractured into 3 forces) as ground truth. Positive for analytical confidence; neutral-to-negative for opposition cohesion.",
+        "sources": ["manual_ronald-bersatu-pn_20260718_142040.md", "nomination-day-summary-2220.md", "spr-candidate-list-20260718.json"],
+        "source_reliability": "HIGH — SPR Chairman on record (via Utusan)."
+      }
+    ],
+    "neutral": [
+      {
+        "entity": "[Rev4Δ] Muhammad Nazri Kassim (PH candidate N.14 Ampangan) — '50/50' self-rating (defensive honesty)",
+        "category": "politician (PH, Ampangan)",
+        "pir_tags": ["PIR-09", "PIR-07", "PIR-16"],
+        "sentiment": "neutral",
+        "score": 0.48,
+        "priority_weight": 1.3,
+        "weighted_score": 0.62,
+        "trend": "NEW — PH's replacement candidate (dropped incumbent Tengku Zamrah) publicly self-rates the seat '50/50' on Nomination Day despite PH holding it 2 terms since 2018.",
+        "rationale": "Utusan (Seremban, 18 Jul 7:04pm, by Nazarudin Shahari): 'peluang untuk PH menang DUN Ampangan adalah 50/50 walaupun PH menduduki kerusi berkenaan selama dua penggal sejak 2018'; vows to meet all 21,336 voters. Honest/defensive posture — signals vulnerability (new candidate, razor-thin 2023 majority 329) but also grounded campaign discipline. Neutral: candid vulnerability acknowledgment offsets by a concrete voter-contact plan. PIR-09 (candidate reception) + PIR-07 (battleground) + ESC-007 (PH Malay seat).",
+        "sources": ["manual_ampangan-ph_20260718_142040.md", "priority_pir09_ampangan-day1-messaging-war_20260718_153142.md", "spr-candidate-list-20260718.json"],
+        "source_reliability": "HIGH — Utusan full body, byline-confirmed, SPR-verified (N.14 Ampangan, PH-PKR)."
+      },
+      {
+        "entity": "[Rev4Δ] N.14 Ampangan (DUN battleground) — Day-1 messaging war (PIR-07 watch seat)",
+        "category": "constituency (battleground)",
+        "pir_tags": ["PIR-07", "PIR-09", "PIR-06"],
+        "sentiment": "neutral",
+        "score": 0.50,
+        "priority_weight": 1.5,
+        "weighted_score": 0.75,
+        "trend": "NEW / ELEVATED to marquee — Ampangan (one of the 4 PH-held Malay seats, ESC-007) becomes a Day-1 marquee: 3-cornered, 2023 majority only 329, dropped PH incumbent, new PH candidate self-rating 50/50, AND a cross-bloc candidate (2018 PH winner now on PN-PAS). PIR-06 overlap: Bersatu (Noor'azah) vs PN-PAS (Rafie) — the Bersatu-vs-PN-component fracture plays out directly here.",
+        "rationale": "Razor-thin PH-held Malay seat (21,336 voters). PH: Nazri (50/50, defensive). PN-PAS: Rafie (2018 PH winner — 'experienced rep' / defector angle). Bersatu: Noor'azah (splits the anti-PH Malay vote). The Bersatu-vs-PN split here cuts BOTH ways: it splits the opposition Malay vote (helps PH) BUT also creates a credibility-contest (PIR-09) between Rafie and Noor'azah. Neutral on the seat itself; HIGH seat-level intelligence value. Highest priority-weighted neutral (PIR-07 × PIR-09 × PIR-06 triple-overlap).",
+        "sources": ["manual_ampangan-ph_20260718_142040.md", "priority_pir09_ampangan-day1-messaging-war_20260718_153142.md", "priority_pir07_day1-campaign-battleground_20260718_153142.md", "spr-candidate-list-20260718.json"],
+        "source_reliability": "HIGH — Utusan full body + PIR priority pointers + SPR verified (3-candidate field)."
+      },
+      {
+        "entity": "[Rev4Δ] MB-candidate decision deferred to post-PRN (BN)",
+        "category": "issue (BN leadership)",
+        "pir_tags": ["PIR-07"],
+        "sentiment": "neutral",
+        "score": 0.50,
+        "priority_weight": 1.3,
+        "weighted_score": 0.65,
+        "trend": "NEW — Jalaluddin (BN NS chief) states the BN MB candidate will be decided AFTER the PRN if BN wins ('several candidates, no shortage of figures; BN Chairman decides'). Removes a Day-1 leadership question.",
+        "rationale": "Utusan (18 Jul 5:12pm): 'Calon Menteri Besar diputuskan selepas PRN.' A neutral/strategic choice — defers internal MB jockeying, avoids a Day-1 factional flashpoint, but leaves the BN leadership pitch unspecified going into the campaign. Watch item (PIR-07): who BN floats as MB affects the statewide narrative.",
+        "sources": ["manual_calon-mb_20260718_142040.md", "nomination-day-summary-2220.md"],
+        "source_reliability": "HIGH — Utusan full body, BN state chief on record."
+      },
+      {
+        "entity": "[Rev4Δ] Fuziah Salleh / PKR — measured 'respect parties' strategy' framing toward Bersatu/PN",
+        "category": "politician/party (PKR)",
+        "pir_tags": ["PIR-09", "PIR-16"],
+        "sentiment": "neutral-positive",
+        "score": 0.52,
+        "priority_weight": 1.3,
+        "weighted_score": 0.68,
+        "trend": "NEW (extends rev2 Fuziah integrity framing). NST: 'PKR, PH respect parties' right to set own strategy' — a measured, non-confrontational framing of Bersatu/PN's separate candidacies.",
+        "rationale": "Fills a tone dimension: rather than attacking the Bersatu breakaway, PH/PKR publicly frames it as each party's prerogative. Neutral-positive — projects coalition confidence/maturity (PIR-16 first-narrative) and avoids escalation (PIR-09). Body bot-blocked (NST); headline-level. Reinforces the rev3 PH 'structural + narrative' edge with a conciliatory tone.",
+        "sources": ["nstcommy_20260718_153251.md", "nomination-day-summary-2220.md"],
+        "source_reliability": "MEDIUM — NST headline only (article body bot-blocked)."
+      },
+      {
+        "entity": "[Rev4Δ] Bujang Abu (Independent, N.13 Sikamat) — withdrawal (incomplete SPR expenses report)",
+        "category": "politician/event (independent withdrawal)",
+        "pir_tags": ["PIR-03"],
+        "sentiment": "neutral",
+        "score": 0.45,
+        "priority_weight": 1.0,
+        "weighted_score": 0.45,
+        "trend": "NEW (minor/procedural). 75yo serial independent withdrew at the nomination centre (Wisma MBS, covering 5 DUNs in Parlimen Seremban) — could not produce the mandatory PRN-2023 election-expenses report. History: 83 votes (2023, spectacles symbol), 15 votes (PRU 2018).",
+        "rationale": "Utusan (Seremban, 18 Jul 7:02pm, by Nazarudin Shahari): 'Bujang terpaksa tarik diri, dokumen tidak lengkap.' NOT an escalation trigger (per cycle-5 trigger assessment): marginal serial independent, contest config unaffected (N.13 already 3-cornered — his exit is WHY it's 3-cornered not 4-cornered). Logged for PIR-03 completeness. Neutral/procedural; very low intelligence weight.",
+        "sources": ["manual_bujang-tarik-diri_20260718_142040.md", "nomination-day-summary-2220.md"],
+        "source_reliability": "HIGH — Utusan full body, byline-confirmed."
+      }
+    ],
+    "negative": [
+      {
+        "entity": "[Rev4Δ][PIR-06 CRITICAL] PN removal-of-Bersatu — Ronald Kiandee PUBLIC ADVOCACY for formal expulsion (senior Bersatu figure)",
+        "category": "issue/party (PIR-06 — PN-removal-of-Bersatu)",
+        "pir_tags": ["PIR-06", "PIR-21"],
+        "sentiment": "negative",
+        "score": 0.76,
+        "priority_weight": 2.0,
+        "weighted_score": 1.52,
+        "trend": "ESCALATION — rev3 ESC-014 framed the NST 'has grounds' headline (Kiandee) as a PRECURSOR/lead. Rev4: the FULL Utusan body (PJ dateline, 18 Jul 6:23pm, by Amirul Aiman Osman) confirms this is EXPLICIT PUBLIC ADVOCACY by a SENIOR BERSATU FIGURE — Datuk Seri Dr. Ronald Kiandee ('Bekas Naib Presiden Bersatu' per Utusan / 'suspended Bersatu vice-president' per NST, MP Beluran). The rupture moves from hypothetical (Star ticker / PN info chief float) to senior-figure-led public advocacy for a FORMAL PN Supreme Council removal.",
+        "rationale": "Kiandee (Facebook post + Utusan/NST): Bersatu's decision to field candidates against PN in 8 DUN seats 'jelas menunjukkan parti itu tidak lagi mahu bersama PN' (clearly shows the party no longer wants to be with PN); 'Majlis Tertinggi Perikatan Nasional mempunyai asas yang kukuh untuk mengeluarkan Bersatu' (the PN Supreme Council has strong grounds to remove Bersatu). EXACT match to PIR-06 keywords 'asas kukuh' + 'Majlis Tertinggi'. The 8 seats are now mapped: 4 vs PAS (Serting, Ampangan, Paroi, Bagan Pinang) + 4 vs Wawasan (Klawang, Sikamat, Mambau, Gemas). STATUS per priority pointer: precursor/lead, NOT yet a formal PN Supreme Council removal notice. This is the SINGLE highest-priority watch item; escalation trigger #2 (coalition restructuring/realignment) is ADJACENT — the closest the cycle has come to a trigger firing. Maximally favourable to the incumbent (PH) — a formally expelled/contested Bersatu further fragments the opposition vote.",
+        "sources": ["manual_ronald-bersatu-pn_20260718_142040.md", "priority_pir06_kiandee-grounds-remove-bersatu_20260718_153142.md", "nstcommy_20260718_153251.md", "nomination-day-summary-2220.md"],
+        "source_reliability": "HIGH — Utusan full article body (byline + PJ dateline) + NST headline corroborate + PIR-06 priority pointer (collector analysis notes). Kiandee identity confirmed (MP Beluran).",
+        "critical_flag": "CRITICAL — PIR-06 (PN-removal-of-Bersatu) sentiment shift. Per director directive: FLAGGED. The qualitative escalation (precursor → senior-figure public advocacy) is the cycle's most material sentiment shift, even though the numeric score delta vs rev3 ESC-014 (+~4%) is below the 30% threshold. See sentiment_shift_flags."
+      },
+      {
+        "entity": "[Rev4Δ] Bersatu-PN fracture (ESC-011) — DEEPENED to senior-figure public advocacy for formalization",
+        "category": "party/issue (PIR-06)",
+        "pir_tags": ["PIR-06"],
+        "sentiment": "negative",
+        "score": 0.75,
+        "priority_weight": 2.0,
+        "weighted_score": 1.50,
+        "trend": "DEEPENED — rev3 0.72 → rev4 0.75 (+0.03, +4.2%). The fracture (already mutual/on-the-record in rev2/rev3: Hadi + Samsuri vs Muhyiddin) now acquires a senior-figure public advocacy for FORMAL expulsion (Kiandee). Three-way: Bersatu vs (PN+PAS).",
+        "rationale": "Progression across the day: 15:09 'could face termination' (Star ticker) → 16:33 'PN info chief floats termination' (summary-1633) → 19:19 'has grounds to remove' (NST, Kiandee, headline) → 22:20 Kiandee's full public advocacy + Utusan body (rev4). The termination threat has moved from hypothetical to senior-figure-led. Bersatu running 24 seats separately (12 vs BN, 8 vs PN) is the rupture's operational signature (SPR-confirmed). CRITICAL; maximally favourable to PH.",
+        "sources": ["manual_ronald-bersatu-pn_20260718_142040.md", "priority_pir06_kiandee-grounds-remove-bersatu_20260718_153142.md", "nomination-day-summary-2220.md"],
+        "source_reliability": "HIGH — multi-source, dateline-confirmed, progression documented."
+      },
+      {
+        "entity": "[Rev4Δ][PIR-09] Tang Jay Son (Bersatu candidate N.22 Rahang) — GERAKAN EXPULSION (party-discipline breach)",
+        "category": "politician (Bersatu, Rahang) — candidate credibility",
+        "pir_tags": ["PIR-09"],
+        "sentiment": "negative",
+        "score": 0.60,
+        "priority_weight": 1.5,
+        "weighted_score": 0.90,
+        "trend": "NEW — second PN-component disciplinary action of the cycle (first: Kiandee/Bersatu signal). Gerakan expels Tang Jay Son with immediate effect for contesting under the Bersatu ticket in N.22 Rahang.",
+        "rationale": "NST/BERNAMA (SEREMBAN, 18 Jul 1:16pm): 'N9 polls: Gerakan expels Tang Jay Son for contesting on Bersatu ticket.' Gerakan Sec-Gen Wong Chia Zhen: 'serious breach of party discipline,' 'contrary to the principle of loyalty,' 'Any member who acts against the interests of the party will face appropriate disciplinary action.' Candidacy STANDS (he is the Bersatu candidate in the 4-cornered Rahang fight: Tang/Bersatu vs Siau Meow Kong/PH-incumbent vs Yap Siok Moy/BN vs S. Tinagaran/PSM). Negative credibility vulnerability (PIR-09): a defector/hopper narrative the PH and BN campaigns can exploit. Pattern: PN-component parties (Gerakan) moving against members who defect to Bersatu — supports the broader PIR-06 fracture. Captured in entities_issues.json ('Pembuangan Tang Jay Son oleh GERAKAN').",
+        "sources": ["priority_pir09_gerakan-expels-tang-jay-son_20260718_153142.md", "nstcommy_20260718_153251.md", "thestarcommy_20260718_153251.md", "entities_issues.json", "spr-candidate-list-20260718.json"],
+        "source_reliability": "HIGH — NST/BERNAMA wire (PIR-09 monitor channel: 'BERNAMA wire for expulsion statements' — CONFIRMED active), Gerakan Sec-Gen on record, SPR-verified candidacy."
+      },
+      {
+        "entity": "[Rev4Δ][PIR-09] Mohamad Rafie Ab Malek (PN-PAS candidate N.14 Ampangan) — 2018 PH WINNER defected to PAS (cross-bloc credibility vulnerability)",
+        "category": "politician (PN-PAS, Ampangan) — candidate credibility / defector",
+        "pir_tags": ["PIR-09", "PIR-07"],
+        "sentiment": "negative",
+        "score": 0.58,
+        "priority_weight": 1.5,
+        "weighted_score": 0.87,
+        "trend": "NEW — cross-bloc candidate datum. Rafie WON Ampangan for PH in 2018 (majority 1,306) before defecting to PAS/PN; now contests the same seat against PH's new candidate (Nazri). A PH→PN defection in a razor-thin (2023 maj 329) PH-held Malay seat.",
+        "rationale": "Utusan (18 Jul 7:04pm): PN frames Rafie as the 'experienced rep' (2018 PH winner); PH's implicit counter-line is the 'defector/hopper' (lompat/pengkhianat) credibility attack — won under PH then jumped to PAS. EXACT match to PIR-09 spec: 'N.14 Ampangan Day-1 messaging war (PH defector vs PN experienced rep for Rafie)'. Confirmed on Nomination Day. This is a two-sided credibility contest: PN leverages Rafie's incumbency/establishment credentials; PH leverages the defection as a trust/integrity attack. Negative for Rafie's individual credibility (defector framing) but a credibility ASSET for PN's candidate-quality pitch. Net negative-leaning. PIR-09 + PIR-07 double-overlap (Ampangan is a named Day-1 battleground).",
+        "sources": ["manual_ampangan-ph_20260718_142040.md", "priority_pir09_ampangan-day1-messaging-war_20260718_153142.md", "spr-candidate-list-20260718.json"],
+        "source_reliability": "HIGH — Utusan full body (seat history documented) + SPR verified (N.14 Ampangan, PN-PAS)."
+      },
+      {
+        "entity": "[Rev4Δ] Bersatu (party) — escalation toward formal expulsion risk",
+        "category": "party (PIR-06)",
+        "pir_tags": ["PIR-06"],
+        "sentiment": "negative",
+        "score": 0.70,
+        "priority_weight": 2.0,
+        "weighted_score": 1.40,
+        "trend": "DEEPENED — rev3 0.68 → rev4 0.70 (+0.02, +2.9%). Bersatu's independent posture (24 seats, fighting allies in 20/24) now carries an active senior-figure-led expulsion risk (Kiandee). Muhyiddin's 'sole opposition' / 'PN supports government' posture (rev2) continues (NST 153251).",
+        "rationale": "Bersatu remains the most disruptive force (16 occurrences baseline; SPR-confirmed 24 separate candidacies). The defiance is unchanged but now faces a public advocacy for formal removal from PN. Defiant for Bersatu itself; negative for opposition cohesion; maximally favourable to PH. Below the 30% shift threshold but directionally deepening toward a coalition-restructuring event.",
+        "sources": ["manual_ronald-bersatu-pn_20260718_142040.md", "nstcommy_20260718_153251.md", "spr-candidate-list-20260718.json"],
+        "source_reliability": "HIGH — SPR verified + multi-source editorial."
+      }
+    ]
+  },
+  "sentiment_distribution": {
+    "rev4_delta": {"positive": 4, "neutral": 5, "negative": 5, "total_scored_delta": 14},
+    "cumulative_merged": {"positive": 15, "neutral": 14, "negative": 11, "total_scored": 40},
+    "baseline_0831": {"positive": 4, "neutral": 4, "negative": 4, "total": 12},
+    "delta_1633": {"positive": 6, "neutral": 5, "negative": 2},
+    "delta_1919": {"positive": 1, "neutral": 0, "negative": 0},
+    "delta_rev4": {"positive": 4, "neutral": 5, "negative": 5},
+    "note": "Revision-4 delta merge. The rev4 delta (4 pos / 5 neu / 5 neg) is QUALITATIVELY WEIGHTED toward the PIR-priority negative axis: 3 of the 5 new negatives are PIR-06/PIR-09 priority items (Kiandee removal advocacy, Tang/Gerakan expulsion, Rafie defector), each carrying priority_weight ≥1.5. The dominant development of Cycle 5/6 is the ESCALATION of the PIR-06 PN-removal-of-Bersatu thread from a precursor (rev3) to SENIOR-FIGURE PUBLIC ADVOCACY for a formal PN Supreme Council expulsion — the closest the cycle has come to escalation trigger #2 firing. The PH-favorable structural tilt STRENGTHENS (Aminuddin defensive-governance + Azizul civil framing + SPR-confirmed configuration), while the opposition-cohesion negatives deepen (Kiandee + Gerakan expulsion + Rafie defector). No nomination-period trigger fired (cycle-5 assessment); trigger #7 (independents in 5-cornered seats) remains on WATCH."
+  },
+  "pir_weighted_entity_scores": {
+    "description": "Entities tagged with director-approved PIR priority tags (PIR-06/09/07) receive a priority_weight multiplier (1.3–2.0) applied to the base score. weighted_score = score × priority_weight. Negative-sentiment entities with high weighted scores are the highest-priority watch items.",
+    "weighting_scheme": {"PIR-06": 2.0, "PIR-09": 1.5, "PIR-07": 1.3, "non-priority": 1.0},
+    "top_priority_watch_items_rev4": [
+      {"rank": 1, "entity": "PN removal-of-Bersatu — Kiandee public advocacy [PIR-06]", "score": 0.76, "priority_weight": 2.0, "weighted_score": 1.52, "sentiment": "negative", "flag": "CRITICAL"},
+      {"rank": 2, "entity": "Bersatu-PN fracture (ESC-011) [PIR-06]", "score": 0.75, "priority_weight": 2.0, "weighted_score": 1.50, "sentiment": "negative", "flag": "CRITICAL"},
+      {"rank": 3, "entity": "Bersatu (party) — expulsion risk [PIR-06]", "score": 0.70, "priority_weight": 2.0, "weighted_score": 1.40, "sentiment": "negative", "flag": "HIGH"},
+      {"rank": 4, "entity": "Tang Jay Son — Gerakan expulsion [PIR-09]", "score": 0.60, "priority_weight": 1.5, "weighted_score": 0.90, "sentiment": "negative", "flag": "HIGH"},
+      {"rank": 5, "entity": "Mohamad Rafie — 2018 PH winner defected to PAS [PIR-09/07]", "score": 0.58, "priority_weight": 1.5, "weighted_score": 0.87, "sentiment": "negative", "flag": "HIGH"},
+      {"rank": 6, "entity": "N.14 Ampangan battleground — Day-1 messaging war [PIR-07/09/06]", "score": 0.50, "priority_weight": 1.5, "weighted_score": 0.75, "sentiment": "neutral", "flag": "HIGH"},
+      {"rank": 7, "entity": "MB Aminuddin (Linggi) — defensive-governance [PIR-07/09]", "score": 0.61, "priority_weight": 1.3, "weighted_score": 0.79, "sentiment": "positive", "flag": "WATCH (PH-favorable)"},
+      {"rank": 8, "entity": "Jalaluddin / BN Day-1 campaign [PIR-07/16/22]", "score": 0.55, "priority_weight": 1.3, "weighted_score": 0.72, "sentiment": "positive", "flag": "WATCH (BN momentum)"},
+      {"rank": 9, "entity": "Dr Azizul (Rantau) — civil framing [PIR-07/09]", "score": 0.53, "priority_weight": 1.3, "weighted_score": 0.69, "sentiment": "positive", "flag": "WATCH (candidate reception)"},
+      {"rank": 10, "entity": "Muhammad Nazri (Ampangan) — 50/50 self-rating [PIR-09/07]", "score": 0.48, "priority_weight": 1.3, "weighted_score": 0.62, "sentiment": "neutral", "flag": "WATCH (PH vulnerability)"}
+    ]
+  },
+  "sentiment_shift_flags": {
+    "threshold": ">30% change from previous cycle (revision-3 → revision-4)",
+    "numeric_shifts": [],
+    "numeric_shifts_note": "No entity exceeds the 30% NUMERIC sentiment-shift threshold in the rev3→rev4 delta. The largest tracked numeric deltas are small escalations within the same sentiment direction: Bersatu-PN fracture (ESC-011) 0.72→0.75 (+4.2%), Bersatu 0.68→0.70 (+2.9%), Aminuddin 0.60→0.61 (+1.7%). No entity FLIPS direction (positive↔negative). The cycle's material movement is a QUALITATIVE escalation of the PIR-06 thread (precursor → senior-figure public advocacy) and the INTRODUCTION of new PIR-09 negative entities (Tang Jay Son expulsion, Rafie defector) — these have no prior score so a numeric delta is undefined (NEW).",
+    "critical_qualitative_shift": {
+      "entity": "PN-removal-of-Bersatu thread (PIR-06)",
+      "prior_state_rev3": "ESC-014 CRITICAL — precursor/lead: NST headline 'PN has grounds to remove Bersatu, says Kiandee.' Framed as the strongest signal yet but not yet a senior-figure-led public advocacy with a full verbatim body.",
+      "new_state_rev4": "ESCALATED — full Utusan body (PJ dateline, 18 Jul 6:23pm) confirms Ronald Kiandee (suspended Bersatu VP / MP Beluran) publicly advocates the PN Supreme Council remove Bersatu ('asas kukuh'); NST corroborates; 8 contested seats mapped (4 vs PAS + 4 vs Wawasan). The termination threat has moved from hypothetical to SENIOR-FIGURE PUBLIC ADVOCACY for formalization.",
+      "classification": "CRITICAL PIR-06 SENTIMENT SHIFT (qualitative escalation toward formal coalition restructuring)",
+      "director_directive_met": "YES — 'Flag any CRITICAL sentiment shift related to PIR-06 (PN-removal-of-Bersatu)' — FLAGGED. This is the cycle's highest-priority alert.",
+      "trigger_proximity": "Escalation trigger #2 (unannounced alliance / coalition restructuring / realignment) is ADJACENT — the closest the cycle has come to a trigger firing. If the PN Supreme Council executes the removal, the opposition restructures MID-CAMPAIGN."
+    },
+    "new_entities_no_prior_score": [
+      "Tang Jay Son (Gerakan expulsion) — NEW negative (PIR-09); no prior score (was a name only in rev3).",
+      "Mohamad Rafie (2018 PH winner → PN-PAS) — NEW negative (PIR-09/07); no prior score.",
+      "Muhammad Nazri Kassim (PH Ampangan, 50/50) — NEW neutral (PIR-09/07); no prior score.",
+      "Jalaluddin campaign/manifesto — NEW positive (PIR-07/16); Jalaluddin was a candidate name in rev3 but had no campaign-narrative sentiment score.",
+      "Dr Azizul Hakim (Rantau, civil framing) — NEW positive (PIR-07/09); was a candidate name in rev3, no sentiment score.",
+      "Bujang Abu (withdrawal) — NEW neutral (PIR-03); no prior score."
+    ]
+  },
+  "priority_alerts": {
+    "PIR-06": {
+      "priority": "CRITICAL",
+      "directive": "Sentiment around PN-Bersatu relationship (removal, expulsion, withdrawal narratives)",
+      "assessment": "ESCALATING toward formalization. The PN-removal-of-Bersatu thread has progressed across the day: 15:09 'could face termination' (Star ticker) → 16:33 'info chief floats termination' (summary-1633) → 19:19 'has grounds to remove' (NST, Kiandee, headline) → 22:20 SENIOR-FIGURE PUBLIC ADVOCACY (Kiandee full Utusan body, MP Beluran, 'asas kukuh' / 'Majlis Tertinggi'). Bersatu contests 24 seats separately (8 vs PN components: 4 vs PAS [Serting, Ampangan, Paroi, Bagan Pinang] + 4 vs Wawasan [Klawang, Sikamat, Mambau, Gemas]). Muhyiddin's 'sole opposition' posture continues (NST 153251). Three-way split: Bersatu vs (PN+PAS). NO formal PN Supreme Council removal notice yet issued (status: precursor/lead, not formal-notice). Maximally favourable to PH.",
+      "key_entities": ["Ronald Kiandee (suspended Bersatu VP / MP Beluran)", "Bersatu (party)", "Muhyiddin Yassin", "PN Supreme Council (Majlis Tertinggi)"],
+      "watch": "Track PN/Bersatu/PAS official channels + Kiandee social media (Facebook — CONFIRMED active signal source) for any formal removal notice, Bersatu retaliation, or candidate withdrawals in the 8 head-to-head seats. Determine whether 'has grounds' is rhetorical pressure or a genuine procedural expulsion in motion."
+    },
+    "PIR-09": {
+      "priority": "HIGH",
+      "directive": "Sentiment around candidate credibility (disciplinary actions, defections, eligibility)",
+      "assessment": "TWO new credibility events confirmed on Day 1: (1) GERAKAN expels Tang Jay Son (immediate effect) for contesting on the Bersatu ticket in N.22 Rahang — party-discipline breach (Sec-Gen Wong Chia Zhen on record). (2) Mohamad Rafie Ab Malek (PN-PAS, N.14 Ampangan) = 2018 PH WINNER who defected to PAS — a cross-bloc defector/hopper framing (PN frames as 'experienced rep'; PH counter-frames as 'defector'). PLUS Bujang Abu (Ind, N.13) eligibility failure (withdrew — incomplete SPR expenses report; marginal, NOT a trigger). The defector/disciplinary pattern supports the broader PIR-06 fracture (PN components moving against Bersatu-crossovers).",
+      "key_entities": ["Tang Jay Son (Bersatu, Rahang)", "Mohamad Rafie Ab Malek (PN-PAS, Ampangan)", "Gerakan (Sec-Gen Wong Chia Zhen)", "Bujang Abu (Ind, withdrew)"],
+      "watch": "Monitor for further PN-component disciplinary actions against Bersatu crossovers (Gerakan-expulsion precedent). Track the Ampangan messaging war (PH 'defector' vs PN 'experienced rep' for Rafie) for voter reception. Watch for any viral allegation materially damaging candidate credibility (trigger #5)."
+    },
+    "PIR-07": {
+      "priority": "HIGH",
+      "directive": "Sentiment around battleground seats (campaign momentum, candidate reception)",
+      "assessment": "Day-1 campaign activity confirmed across the 8 watch seats (N.14, N.15, N.28, N.13, N.32, N.04, N.33, N.10). MARQUEE active: Chennah (Loke vs BN, straight), Rantau (Tok Mat vs Azizul, straight — civil 'friendship match' framing), Linggi (MB Aminuddin, 3-corner — 'not easy to enter a fortress'), Ampangan (50/50 messaging war + cross-bloc Rafie), Sikamat (3-corner + indep withdrawal). BN Day-1 momentum: Jalaluddin-led Jelebu procession + manifesto narrative (launch 24 Jul at DUN Linggi). PH Day-1: defensive-governance (Aminuddin) + civil framing (Azizul) + measured strategy (Fuziah/PKR) + 50/50 candour (Nazri). 25 of 36 seats multi-cornered (69%); 2 five-cornered (N.10 Nilai, N.33 Sri Tanjung) — trigger #7 WATCH (independents splitting decisive segments).",
+      "key_entities": ["N.14 Ampangan", "N.27 Rantau", "N.32 Linggi", "N.01 Chennah", "N.13 Sikamat", "N.04 Klawang", "N.33 Sri Tanjung", "N.10 Nilai", "Jalaluddin Alias", "MB Aminuddin", "Dr Azizul Hakim", "Tok Mat / Mohamad Hasan"],
+      "watch": "Track the Ampangan messaging war (razor-thin 329 majority, 3-cornered). Watch Rantau (Tok Mat vs Azizul — civil tone, 2-cornered clean BN-PH fight). Watch the 2 five-cornered seats (N.10, N.33) for independent vote-splitting. Monitor BN manifesto launch 24 Jul at DUN Linggi for narrative shifts."
+    }
+  },
+  "escalation_flags_update": {
+    "ESC-014-20260718": {
+      "severity": "CRITICAL",
+      "rev4_update": "ESCALATED from precursor (rev3) to SENIOR-FIGURE PUBLIC ADVOCACY. Full Utusan body (PJ dateline, 18 Jul 6:23pm) confirms Ronald Kiandee (suspended Bersatu VP / MP Beluran) publicly states the PN Supreme Council has 'strong grounds' (asas kukuh) to remove Bersatu. NST corroborates. The 8 contested seats mapped (4 vs PAS + 4 vs Wawasan). The termination threat is now senior-figure-led, not hypothetical. Trigger #2 adjacent. No formal PN Supreme Council removal notice yet — status remains precursor/lead, NOT formal-notice. CRITICAL.",
+      "carries_forward": "Escalates ESC-014 (rev3) / ESC-010 / ESC-011 toward formalization. Adjacent to trigger #2."
+    },
+    "ESC-015-20260718": {
+      "severity": "HIGH",
+      "category": "Gerakan expulsion of Tang Jay Son — PN-component disciplinary action against Bersatu crossover (PIR-09)",
+      "status": "NEW (rev4)",
+      "description": "NST/BERNAMA: Gerakan expels Tang Jay Son with immediate effect for contesting under the Bersatu ticket in N.22 Rahang. Sec-Gen Wong Chia Zhen: 'serious breach of party discipline,' 'contrary to principle of loyalty.' The SECOND PN-component disciplinary action of the cycle (first: Kiandee/Bersatu signal). Candidacy stands (Bersatu candidate in 4-cornered Rahang). A defector/hopper credibility vulnerability the PH and BN campaigns can exploit.",
+      "action": "Watch for further PN-component disciplinary actions against Bersatu crossovers (Gerakan-expulsion precedent). Track Tang Jay Son's candidacy stability + the 4-cornered Rahang contest (Tang/Bersatu vs Siau/PH-incumbent vs Yap/BN vs Tinagaran/PSM).",
+      "carries_forward": "NEW flag. Supports PIR-09 (candidate credibility) and the broader PIR-06 fracture (PN components moving against Bersatu).",
+      "pir_tags": ["PIR-09"]
+    },
+    "ESC-007-20260718": {
+      "severity": "HIGH (reinforced)",
+      "rev4_update": "REINFORCED at N.14 Ampangan — PH's replacement candidate (Nazri) self-rates the seat 50/50; the 2018 PH WINNER (Rafie) now contests for PN-PAS (cross-bloc defector). Razor-thin 2023 majority (329); dropped incumbent (Zamrah). 3-cornered (Bersatu Noor'azah splits the anti-PH Malay vote — partially helps PH but adds a credibility contest between Rafie and Noor'azah). One of the 4 PH-held Malay seats; the Bersatu-vs-PN-component fracture (PIR-06) plays out directly here.",
+      "carries_forward": "Reinforces ESC-007 (PH Malay seats). PIR-07 + PIR-09 overlap."
+    },
+    "ESC-011-20260718": {
+      "severity": "CRITICAL",
+      "rev4_update": "DEEPENED to senior-figure public advocacy (Kiandee). Three-way: Bersatu vs (PN+PAS). 0.72→0.75. CRITICAL.",
+      "carries_forward": "Escalates ESC-011 (rev3). PIR-06."
+    },
+    "ESC-002-20260718": {
+      "severity": "HIGH (unchanged)",
+      "status": "CARRIED — Day 8. ns-sentiment-analysis.sh remains a stub. Agent-manual review is the standing CVS-compliant method. This rev4 pass produced via manual source-attributed review + SPR cross-reference + PIR priority weighting."
+    },
+    "triggers_fired": "NONE. Trigger #7 (independents in 5-cornered seats N.10/N.33) remains on WATCH. Trigger #2 (coalition restructuring) is ADJACENT to ESC-014 (PIR-06 Kiandee advocacy) but has NOT fired — no formal PN Supreme Council removal notice, no new alliance, no Bersatu withdrawal from any of the 8 head-to-head seats."
+  },
+  "data_gaps_rev4": [
+    "[Rev4Δ FORWARD-LOOKING] The _153251/_153400 raw batch (Cycle 6, 23:33 MYT) + 4 PIR priority pointer files arrived AFTER the 14:00 UTC entity extraction. PIR-06/09/07 priority content is incorporated via this agent's priority-weighted source-attributed review, but the entities_consolidated.json (14:00 UTC) does NOT itself carry PIR tags or the Cycle-6 raw content. RECOMMENDATION: re-run ns-entity-extraction-enhanced.py on the full 55+ source corpus to fold the Cycle-6 batch into a revision-5 extraction.",
+    "[Rev4Δ ENTITY EXTRACTION GAP] Ronald Kiandee (MP Beluran, suspended Bersatu VP) and Bujang Abu (independent, withdrew) do NOT appear in entities_politicians.json (115 entries) — the extractor missed them. They are sentiment-scored here via direct source attribution (CVS-compliant). Recommend gazetteer update for Kiandee (PIR-06 key monitor target).",
+    "[Rev4Δ CARRIED] 20260716 SENTIMENT ANALYSIS GAP DAY remains unbackfilled (1-day gap in the time series, Day 8).",
+    "[Rev4Δ CARRIED] ESC-002 — ns-sentiment-analysis.sh stub; agent-manual review standing method.",
+    "[Rev4Δ CARRIED] NST article bodies remain bot-blocked (headlines only); bharian bodies unscraped (404/trending bar). Utusan = workhorse (6 full bodies recovered in Cycle 5).",
+    "[Rev4Δ CARRIED] Tok Mat federal title discrepancy (Defence Minister vs DPM) — does not affect heavyweight-candidate sentiment.",
+    "[Rev4Δ CARRIED] N.18 Pilah BN candidate name discrepancy ('S Leza Md Yasin' vs 'Lisa Mat Yassin') — SPR roll authoritative.",
+    "[Rev4Δ CARRIED] Wawasan/Warisan — positioning only, no candidate in SPR list; identity to verify. PN component-ticket labels (PN-WAWASAN, PN-GERAKAN, PN-MIPP, PN-PAS) to confirm."
+  ],
+  "verdict": "CAMPAIGN DAY 1 (18 Jul 2026, late-cycle) DEEPENS the Nomination-Day verdict rather than reversing it. The dominant development is the ESCALATION of the PIR-06 PN-removal-of-Bersatu thread from a PRECURSOR (rev3: NST headline 'has grounds to remove') to SENIOR-FIGURE PUBLIC ADVOCACY for a formal PN Supreme Council expulsion — Ronald Kiandee (suspended Bersatu VP, MP Beluran), in a full Utusan body (PJ dateline, 18 Jul 6:23pm), publicly states Bersatu's 8-seat clash 'clearly shows Bersatu no longer wants to be with PN' and gives the PN Supreme Council 'strong grounds' (asas kukuh) to remove Bersatu. This is the closest the cycle has come to escalation trigger #2 (coalition restructuring) firing; no formal removal notice has yet issued (status: precursor/lead, not formal-notice). The 8 contested seats are now mapped (4 vs PAS: Serting/Ampangan/Paroi/Bagan Pinang; 4 vs Wawasan: Klawang/Sikamat/Mambau/Gemas). The PIR-09 axis activates on Day 1 with TWO new candidate-credibility events: Gerakan's immediate-effect expulsion of Tang Jay Son (for contesting on the Bersatu ticket in N.22 Rahang) and the cross-bloc defector datum at N.14 Ampangan (2018 PH WINNER Mohamad Rafie now on PN-PAS, contested by PH's new candidate Nazri who self-rates the seat 50/50). The PIR-07 battleground axis shows active Day-1 campaign momentum: BN (Jalaluddin-led Jelebu procession + 'way forward' manifesto narrative, launch 24 Jul at DUN Linggi) and PH (Aminuddin defensive-governance 'not easy to enter a fortress' + Azizul civil 'friendship match' framing vs Tok Mat + Fuziah/PKR measured 'respect parties' strategy'). The official SPR party breakdown is CONFIRMED at SPR-Chairman level (PH 36 / BN 25 / Bersatu 24 / PN 11 / 4 Ind / BERJASA 1 / ASLI 1 / PSM 1 = 103). No entity exceeds the 30% numeric sentiment-shift threshold in the rev3→rev4 delta (largest tracked deltas are small same-direction escalations: ESC-011 +4.2%, Bersatu +2.9%); however, the PIR-06 qualitative escalation (precursor → senior-figure public advocacy) is FLAGGED as a CRITICAL sentiment shift per the director directive. Net NS-relevant sentiment remains PH-favorable: the opposition's self-inflicted fragmentation (Bersatu 24 seats fighting allies in 20/24) and the escalation toward a formal Bersatu-PN split maximally benefit the incumbent, while the new PIR-09 disciplinary/defector events (Tang, Rafie) are opposition-cohesion negatives. No nomination-period trigger fired; trigger #7 (independents in 5-cornered seats N.10/N.33) remains on WATCH. CLASSIFICATION: TLP:AMBER."
+}

@@ -1,0 +1,389 @@
+{
+  "date": "20260718",
+  "last_updated_utc": "2026-07-18T16:57:23+00:00",
+  "last_updated_myt": "2026-07-19T00:57:23+08:00",
+  "classification": "TLP:AMBER",
+  "extractor": "prn_ns_entity_extraction_agent (scheduled cron)",
+  "latest_entities_file": "entities_165723.json",
+  "director_priority_approved": "2026-07-18 15:00 MYT",
+  "cycle": "nomination-day-surge (post-153400)",
+  "source_count_total": 86,
+  "counts": {
+    "seats_parsed": 36,
+    "candidate_persons_unique": 103,
+    "national_figures_and_pir_actors": 12,
+    "pir06_watch_figures": 4,
+    "parties": 15,
+    "coalitions": 5,
+    "organizations": 10,
+    "constituencies": 36,
+    "events": 13,
+    "issues_and_signals": 17,
+    "locations": 49,
+    "pir06_tier4_seats": 8,
+    "pir07_watch_seats": 9,
+    "pir09_bersatu_candidates": 24,
+    "pir09_independents": 4
+  },
+  "pir_priority_tags": {
+    "PIR-06": {
+      "title": "PN-Removal-of-Bersatu Watch (HIGHEST)",
+      "status": "ELEVATED WATCH — NO formal removal notice; PRECURSOR signal detected (Kiandee 'asas kukuh')",
+      "tier4_seats": [
+        "N04",
+        "N05",
+        "N13",
+        "N14",
+        "N23",
+        "N25",
+        "N31",
+        "N34"
+      ],
+      "entity_count": 9,
+      "key_entities": [
+        "Datuk Seri Dr. Ronald Kiandee",
+        "Majlis Tertinggi PN",
+        "Tan Sri Muhyiddin Yassin",
+        "Datuk Seri Hamzah Zainudin",
+        "Hadi Awang",
+        "Samsuri Anuar",
+        "Bersatu",
+        "PN",
+        "PAS",
+        "Wawasan",
+        "Gerakan"
+      ]
+    },
+    "PIR-09": {
+      "title": "Candidate Credibility (SECOND)",
+      "bersatu_candidate_seats": [
+        "N02",
+        "N03",
+        "N04",
+        "N05",
+        "N06",
+        "N07",
+        "N09",
+        "N10",
+        "N12",
+        "N13",
+        "N14",
+        "N15",
+        "N16",
+        "N17",
+        "N20",
+        "N22",
+        "N23",
+        "N24",
+        "N25",
+        "N28",
+        "N31",
+        "N32",
+        "N33",
+        "N34"
+      ],
+      "independents": [
+        "Omar Mohd Isa",
+        "Teo Seng Lee",
+        "Datuk A Saravanan",
+        "Islah Wahyudi Zainudin"
+      ],
+      "entity_count": 9,
+      "key_entities": [
+        "Tang Jay Son",
+        "Wong Chia Zhen",
+        "Bujang Abu",
+        "Datuk Dr Mohamad Rafie Ab Malek",
+        "Omar Mohd Isa",
+        "Teo Seng Lee",
+        "Datuk A Saravanan",
+        "Islah Wahyudi Zainudin",
+        "Gerakan"
+      ]
+    },
+    "PIR-07": {
+      "title": "Battleground Assessment (THIRD)",
+      "watch_seats": [
+        "N04",
+        "N05",
+        "N10",
+        "N13",
+        "N14",
+        "N15",
+        "N28",
+        "N32",
+        "N33"
+      ],
+      "entity_count": 10,
+      "key_entities": [
+        "Datuk Seri Anwar Ibrahim",
+        "Datuk Seri Dr. Ahmad Zahid Hamidi",
+        "Datuk Seri Johari Abdul Ghani",
+        "Datuk Seri Jalaluddin Alias",
+        "Datuk Seri Aminuddin Harun",
+        "Anthony Loke Siew Fook",
+        "Datuk Seri Mohamad Hasan",
+        "Tan Sri Annuar Musa",
+        "Dr Wee",
+        "Datuk Seri Ramlan Harun"
+      ]
+    }
+  },
+  "seat_pir_tag_map": [
+    {
+      "code": "N01",
+      "name": "Chennah",
+      "pir_tags": []
+    },
+    {
+      "code": "N02",
+      "name": "Pertang",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N03",
+      "name": "Sungai Lui",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N04",
+      "name": "Klawang",
+      "pir_tags": [
+        "PIR-06",
+        "PIR-07",
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N05",
+      "name": "Serting",
+      "pir_tags": [
+        "PIR-06",
+        "PIR-07",
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N06",
+      "name": "Palong",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N07",
+      "name": "Jeram Padang",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N08",
+      "name": "Bahau",
+      "pir_tags": []
+    },
+    {
+      "code": "N09",
+      "name": "Lenggeng",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N10",
+      "name": "Nilai",
+      "pir_tags": [
+        "PIR-07",
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N11",
+      "name": "Lobak",
+      "pir_tags": []
+    },
+    {
+      "code": "N12",
+      "name": "Temiang",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N13",
+      "name": "Sikamat",
+      "pir_tags": [
+        "PIR-06",
+        "PIR-07",
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N14",
+      "name": "Ampangan",
+      "pir_tags": [
+        "PIR-06",
+        "PIR-07",
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N15",
+      "name": "Juasseh",
+      "pir_tags": [
+        "PIR-07",
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N16",
+      "name": "Seri Menanti",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N17",
+      "name": "Senaling",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N18",
+      "name": "Pilah",
+      "pir_tags": []
+    },
+    {
+      "code": "N19",
+      "name": "Johol",
+      "pir_tags": []
+    },
+    {
+      "code": "N20",
+      "name": "Labu",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N21",
+      "name": "Bukit Kepayang",
+      "pir_tags": []
+    },
+    {
+      "code": "N22",
+      "name": "Rahang",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N23",
+      "name": "Mambau",
+      "pir_tags": [
+        "PIR-06",
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N24",
+      "name": "Seremban Jaya",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N25",
+      "name": "Paroi",
+      "pir_tags": [
+        "PIR-06",
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N26",
+      "name": "Chembong",
+      "pir_tags": []
+    },
+    {
+      "code": "N27",
+      "name": "Rantau",
+      "pir_tags": []
+    },
+    {
+      "code": "N28",
+      "name": "Kota",
+      "pir_tags": [
+        "PIR-07",
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N29",
+      "name": "Chuah",
+      "pir_tags": []
+    },
+    {
+      "code": "N30",
+      "name": "Lukut",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N31",
+      "name": "Bagan Pinang",
+      "pir_tags": [
+        "PIR-06",
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N32",
+      "name": "Linggi",
+      "pir_tags": [
+        "PIR-07",
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N33",
+      "name": "Seri Tanjung",
+      "pir_tags": [
+        "PIR-07",
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N34",
+      "name": "Gemas",
+      "pir_tags": [
+        "PIR-06",
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N35",
+      "name": "Gemencheh",
+      "pir_tags": []
+    },
+    {
+      "code": "N36",
+      "name": "Repah",
+      "pir_tags": []
+    }
+  ],
+  "files_in_folder": [
+    "entities_165723.json (this run — full extraction w/ PIR tags)",
+    "entities_consolidated.json (prior 14:00 UTC run — candidate-list baseline)",
+    "entities_politicians.json / entities_parties.json / entities_constituencies.json / entities_events.json / entities_issues.json / entities_organizations.json / entities_locations.json (prior 14:00 UTC sub-sets)",
+    "entity_metadata.json (this file)",
+    "_build_entities.py (build script)"
+  ],
+  "total_entities": 264
+}

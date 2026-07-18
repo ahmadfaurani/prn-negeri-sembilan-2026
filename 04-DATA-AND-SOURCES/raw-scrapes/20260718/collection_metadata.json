@@ -1,16 +1,28 @@
 {
   "date": "20260718",
-  "timestamp": "20260718_153251",
+  "timestamp": "20260718_170837",
+  "collected_utc": "2026-07-18 17:08:37 UTC (01:08 MYT 19 Jul 2026)",
   "cycle": "nomination-day-surge",
+  "cycle_phase": "Day-1+ (post-nomination, late-night MYT collection window)",
   "surge_mode": true,
   "director_priority_approved": "2026-07-18 15:00 MYT",
   "workspace": "/home/p62operator/.openclaw/workspace-ns",
-  "sources_attempted": 10,
-  "successful": 10,
-  "errors": 0,
-  "recovered": 1,
-  "success_rate": "100% (1 source recovered via alternate URL)",
   "classification": "TLP:AMBER",
+  "source_urls_required": "All content carries source URL; Google News items cite publisher + gnews reference (post-2024 gnews article URLs are protobuf-encrypted and not reversibly decodable)",
+
+  "cycle_summary": {
+    "sources_attempted": 10,
+    "sources_successful": 10,
+    "errors": 0,
+    "strategies_deployed": ["wp-rest-api (utusan,kosmo,ohbulan)", "html-extraction (malaysiakini,astroawani,thestar,tmi,mstar)", "google-news-rss-per-source (nst,bharian,mstar,thestar,astroawani,malaysiakini)", "google-news-rss-universal (PRN+Bersatu / PN+pecat+keluar / nomination)"],
+    "files_written_this_cycle": 25,
+    "priority_files_written_this_cycle": 6,
+    "google_news_feed_files": 3,
+    "results_json": "_scrape_results_170837.json",
+    "bytes_written_this_cycle": 424713,
+    "key_obstacle_resolved": "NST /news/nation is now fully JS-rendered (0 article cards in static HTML) and BHarian returns 403 on direct fetch; both recovered via Google News RSS site-scoped queries.",
+    "key_obstacle_partial": "Malaysiakini full article bodies remain paywalled (lead paragraph only, ~40-84 words); The Star / NST article bodies not directly fetched this cycle (Google News article URLs post-2024 are encrypted; bodies deferred to next cycle's targeted fetch)."
+  },
 
   "pir_priorities": {
     "PIR-06": "PN-Removal-of-Bersatu Watch (HIGHEST)",
@@ -19,18 +31,69 @@
   },
 
   "critical_pir06_alert": {
-    "status": "ELEVATED WATCH — NO formal removal notice issued",
+    "status": "ESCALATED WATCH — NO formal PN Supreme Council (Majlis Tertinggi) removal notice for Bersatu has been issued; HOWEVER the trajectory has visibly shifted from 'PN-removes-Bersatu' to 'Bersatu-exits-PN', with Bersatu president Muhyiddin now publicly hinting at departure.",
     "formal_removal_notice_detected": false,
-    "precursor_signal_detected": true,
-    "summary": "As of 15:31 MYT 18 Jul 2026, NO formal PN Supreme Council (Majlis Tertinggi PN) removal notice for Bersatu has been issued. However a HIGH-CONFIDENCE PRECURSOR signal has emerged: suspended Bersatu VP Datuk Seri Ronald Kiandee publicly stated the PN Supreme Council has 'asas kukuh' (strong grounds) to remove Bersatu, following Bersatu fielding candidates against PN partners in 8 seats. This is the strongest pre-formal-notice indicator yet. Monitor Kiandee/PN Supreme Council channels for the formal notice.",
-    "signal_source": "NST + Utusan + BERNAMA wire",
-    "signal_actor": "Datuk Seri Ronald Kiandee (suspended Bersatu VP, MP Beluran) — Facebook post",
-    "signal_keyword_matches": ["asas kukuh", "Majlis Tertinggi", "keluar", "remove", "Bersatu", "PN"]
+    "escalation_detected": true,
+    "negative_confirmation": "Targeted Google News query 'PN Majlis Tertinggi Bersatu pecat' returned 0 items. Automated CRITICAL-pattern regex (formal PN-MT removal-notice phrasing) matched 0 titles across all collected articles this cycle. Kiandee's statement remains a CALL on the MT to act, not a notice FROM the MT.",
+    "key_new_evidence_this_cycle": [
+      {
+        "rank": "PRIMARY-ESCALATION",
+        "headline": "Goodbye PN?: Muhyiddin raps Samsuri over BN talks, Bersatu to move on",
+        "source": "Malaysiakini",
+        "url": "https://www.malaysiakini.com/news/779941",
+        "key_quote": "After months of escalating tensions with ally PAS, Bersatu president Muhyiddin Yassin today hinted at the party's possible exit from Perikatan Nasional. In a statement wishing PN 'all the best', Muhyiddin hit out at coalition chairperson Ahmad Samsuri Mokhtar for unilaterally deciding to enter an electoral pact with BN and sidelining Bersatu from seat negotiations.",
+        "pir_significance": "PIR-06 monitor target Muhyiddin has moved from denial/defence to publicly hinting at exit and wishing PN 'all the best'. This is the Bersatu-leadership (not a suspended VP) signaling departure — a qualitative escalation. Direction of motion is now two-sided: PN-MT-may-remove-Bersatu (Kiandee) AND Bersatu-may-exit-PN (Muhyiddin)."
+      },
+      {
+        "rank": "CORROBORATING",
+        "headline": "Bersatu the only 'true opposition' left following cooperation between BN and PN, says Muhyiddin",
+        "source": "The Star",
+        "pubdate_gmt": "Sat, 18 Jul 2026 08:46:00 GMT (16:46 MYT 18 Jul)",
+        "pir_significance": "Muhyiddin reframes Bersatu as sole true opposition post BN-PN pact — consistent with exit positioning."
+      },
+      {
+        "rank": "CORROBORATING",
+        "headline": "Bersatu to form new coalition coming after Negri polls, says Muhyiddin / Bersatu to form new bloc after Negri polls",
+        "source": "The Star",
+        "pubdate_gmt": "Fri, 17 Jul 2026 09:50:00 GMT (17:50 MYT 17 Jul) / Fri, 17 Jul 2026 23:24:57 GMT",
+        "pir_significance": "Muhyiddin signals Bersatu will form a NEW coalition/bloc AFTER the Negri Sembilan polls — concrete post-exit plan, pre-nomination-day statement."
+      },
+      {
+        "rank": "CORROBORATING",
+        "headline": "Negri polls: Bersatu's use of own logo shows it wants to part ways with PN, says Annuar Musa",
+        "source": "The Star",
+        "pir_significance": "Bersatu sec-gen Annuar Musa publicly states Bersatu wants to part ways with PN (Bersatu contesting under own flag/logo)."
+      },
+      {
+        "rank": "WATCH-FRAME",
+        "headline": "SNAPSHOT | Johor regent: Excos must be dedicated in their work; Bersatu exit from PN imminent?",
+        "source": "Malaysiakini",
+        "url": "https://www.malaysiakini.com/news/780047",
+        "pubdate_approx": "~20:08 MYT 18 Jul 2026 (5 h before collection)",
+        "pir_significance": "Mainstream outlet now framing exit as 'imminent?' — narrative has entered imminent-departure framing."
+      },
+      {
+        "rank": "RIFT-WIDENING",
+        "headline": "PN rift widens as PAS sends clearest signal yet of sidelining Bersatu",
+        "source": "Malaysiakini",
+        "pir_significance": "PAS now openly sidelining Bersatu — the PAS side of the PN-Bersatu fracture."
+      },
+      {
+        "rank": "PRECURSOR-CONFIRMED-MALAY",
+        "headline": "Bersatu tidak lagi mahu bersama PN - Ronald",
+        "source": "Utusan Malaysia",
+        "url": "https://www.utusan.com.my/nasional/2026/07/bersatu-tidak-lagi-mahu-bersama-pn-ronald/",
+        "key_quote": "Majlis Tertinggi Perikatan Nasional mempunyai asas yang kukuh untuk mengeluarkan Bersatu daripada gabungan Parti Perikatan Nasional. — Datuk Seri Dr. Ronald Kiandee (Bekas Naib Presiden Bersatu / suspended VP, MP Beluran)",
+        "pir_significance": "Malay-language confirmation of the PIR-06 precursor signal first captured at 153251. Kiandee explicitly uses 'mengeluarkan Bersatu' (remove Bersatu) + 'asas kukuh' + 'Majlis Tertinggi'. Still a CALL on PN-MT, not an MT-issued notice."
+      }
+    ],
+    "trajectory_assessment": "CRITICAL threshold (formal PN-MT removal notice) NOT crossed. But the situation has materially escalated: the principal (Bersatu president Muhyiddin) is now publicly hinting at exit and signaling a new post-election bloc, and a mainstream outlet is framing exit as 'imminent'. The most likely near-term outcome is Bersatu voluntarily realigning/exiting AFTER the Aug 1 poll rather than a formal PN-MT expulsion beforehand — but a reactive PN-MT removal notice remains possible if Bersatu candidates actively damage PN partners in the 8 Tier-4 seats.",
+    "tier4_candidate_withdrawal_trigger": "NO Bersatu candidate withdrawals detected in the 8 Tier-4 seats this cycle. (Prior cycle's Bujang withdrawal was an independent, paperwork-related — not a PIR-06 trigger.)"
   },
 
   "tier4_seats_bersatu_vs_pn_component": {
     "confirmed_count": 8,
-    "match_to_pir06_list": "EXACT — all 8 seats (N.04, N.05, N.13, N.14, N.23, N.25, N.31, N.34) confirmed in candidate list",
+    "match_to_pir06_list": "EXACT — all 8 seats (N.04, N.05, N.13, N.14, N.23, N.25, N.31, N.34) confirmed",
     "seats": {
       "N04_Klawang": {"bersatu": "Muhammad Adib Musa", "pn_component": "Danni Rais (PN-Wawasan)", "ph": "Bakri Sawir (AMANAH-incumbent)", "type": "vs Wawasan"},
       "N05_Serting": {"bersatu": "Muhammad Noraffendy Mohd Salleh", "pn_component": "Mohd Fairuz Mohd Isa (PN-PAS, 2023 incumbent)", "ph": "Yaacob Mahmood (AMANAH)", "type": "vs PAS"},
@@ -45,37 +108,36 @@
   },
 
   "pir09_candidate_credibility": {
-    "gerakan_expulsion": {
-      "subject": "Tang Jay Son",
-      "action": "Expelled (pecat) with immediate effect by Gerakan",
-      "reason": "Contested under Bersatu ticket (serious breach of party discipline / contrary to loyalty principle)",
-      "issued_by": "Wong Chia Zhen (Gerakan Sec-Gen)",
-      "seat": "N22 Rahang (4-cornered: vs PH Siaw Meow Kong incumbent, BN Yap Siok Moy, PSM Tinagaran)",
-      "sources": ["NST/BERNAMA", "BHarian", "AstroAwani"],
-      "significance": "SECOND PN-component disciplinary action confirming PN-vs-Bersatu fracture pattern"
-    },
-    "n14_ampangan_day1_messaging_war": {
-      "status": "CONFIRMED on Nomination Day",
-      "ph_frame": "Datuk Muhammad Nazri Kassim (PKR) — '50/50', new face replacing 2023 incumbent Zamrah",
-      "pn_frame": "Datuk Dr Mohamad Rafie Ab Malek (PAS) — 'experienced rep', former 2018 PH WINNER (majority 1,306)",
-      "ph_attack_vector": "Rafie = defector/hopper (lompat/pengkhianat) — won under PH 2018 then jumped to PAS",
-      "bersatu_third_candidate": "Noor'azah Harun (splits anti-PH vote; Tier-4 PIR-06 overlap)",
-      "seat_history": "BN traditional -> PR/PH 2008 (maj 236) -> 2018 PH Rafie (1,306) -> 2023 PH Zamrah (329, thin) -> 2026 open 3-way"
-    },
-    "independents_backgrounds": {
-      "count": 4,
-      "list": [
-        {"seat": "N10 Nilai", "name": "Omar Mohd Isa", "note": "5-cornered fight; Berjasa also present"},
-        {"seat": "N30 Lukut", "name": "Teo Seng Lee", "note": "3-cornered vs PH-DAP incumbent + PN-MIPP"},
-        {"seat": "N33 Sri Tanjung", "name": "Datuk A Saravanan", "note": "'Datuk' title = likely former establishment/MIC figure; 5-cornered"},
-        {"seat": "N33 Sri Tanjung", "name": "Islah Wahyudi Zainudin", "note": "second independent in 5-cornered fight"}
-      ]
-    },
-    "withdrawal": {
-      "subject": "Bujang Abu (75, street musician, ex-govt servant)",
-      "action": "Tarik diri (withdrew) at nomination — failed to submit 2023 election expense report (SPR requirement)",
-      "seat_intended": "N13 Sikamat (Tier-4 seat)",
-      "significance": "Paperwork-related independent withdrawal, NOT a party/Bersatu candidate withdrawal. Minor PIR-09 note; does NOT trigger PIR-06 Tier-4 candidate-withdrawal alert."
+    "new_this_cycle": [
+      {
+        "headline": "MCA Youth sec-gen told to 'stay out of N Sembilan polls' over PN ally disagreement",
+        "source": "Malaysiakini",
+        "url": "https://www.malaysiakini.com/news/780017",
+        "key_quote": "MCA has allegedly instructed its youth wing secretary-general Saw Yee Fung to skip its campaign for the Negeri Sembilan state election, after she openly criticised BN's decision to cooperate with Perikatan Nasional. ... screenshot of a WhatsApp message from MCA secretary-general Chong Sin Woon that says 'you don't have to come' for the state polls.",
+        "pir_significance": "NEW PIR-09 angle: internal BN-component (MCA) disciplinary silencing of a dissenting Youth leader over the BN-PN pact. Party-discipline/credibility dynamic — not a candidate expulsion, but a candidate-campaign exclusion. Adds to the 'PN-component disciplinary actions' pattern (cf. prior cycle's Gerakan pecat of Tang Jay Son)."
+      },
+      {
+        "headline": "From PN camp, Albert calls Harapan supporters 'barking dogs'",
+        "source": "Malaysiakini",
+        "url": "https://www.malaysiakini.com/news/780042",
+        "pir_significance": "Day-1 PN-camp messaging tone (abrasive rhetoric) — character/credibility signal on a PN-side figure."
+      },
+      {
+        "headline": "Negri polls: Lukut to see three-cornered fight as independent joins the fray",
+        "source": "The Star",
+        "pubdate_gmt": "Sat, 18 Jul 2026 04:17:00 GMT (12:17 MYT 18 Jul)",
+        "pir_significance": "Corroborates prior cycle's independent list: N30 Lukut independent = Teo Seng Lee, 3-cornered vs PH-DAP incumbent + PN-MIPP."
+      },
+      {
+        "headline": "Tamim surrenders to police, hopes to campaign for N Sembilan independent candidate",
+        "source": "Malaysiakini (homepage listing)",
+        "pir_significance": "Activist Tamim Dahri (prior cycle: surrendered at Port Dickson over FB threat case) now seeks to campaign for an independent — independent-candidate support-network signal."
+      }
+    ],
+    "carryover_from_prior_cycle": {
+      "gerakan_expulsion": {"subject": "Tang Jay Son", "action": "Expelled (pecat) by Gerakan for contesting under Bersatu ticket", "seat": "N22 Rahang", "reconfirmed_this_cycle": "Yes — The Star republished 18 Jul 13:08 GMT; NST gnews carries it"},
+      "n14_ampangan_day1_messaging_war": {"status": "CONFIRMED on Nomination Day (carryover)", "ph_frame": "Nazri Kassim (PKR) new face", "pn_frame": "Dr Rafie (PAS) 'experienced rep' / 2018 PH winner = defector/hopper attack vector", "bersatu_third": "Noor'azah Harun"},
+      "independents_backgrounds": "4 independents carryover (N10 Omar Mohd Isa, N30 Teo Seng Lee, N33 Datuk A Saravanan, N33 Islah Wahyudi) — no new background vetting surfaced this cycle; Datuk A Saravanan (N33) credibility remains pending"
     }
   },
 
@@ -83,62 +145,115 @@
     "nomination_day_confirmed": "18 Jul 2026",
     "total_candidates": 103,
     "candidate_breakdown": {"PH": 36, "BN": 25, "Bersatu": 24, "PN": 11, "independents": 4, "Berjasa": 1, "Asli": 1, "PSM": 1},
-    "contest_structure": {"straight_1v1": 11, "three_cornered": 21, "four_cornered": 2, "five_cornered": 2},
-    "fragmentation_trend": "Sharply UP vs 2023 (27 straight fights -> 11; 7 three-cornered -> 21)",
-    "marquee_day1_events": [
-      "N01 Chennah: Anthony Loke (PH Sec-Gen/Transport Min) vs Siow Kong Choon (BN-MCA) — straight fight",
-      "N27 Rantau: DS Mohamad Hasan (Tok Mat, BN) vs Dr Azizul Hakim (PH) — straight fight; Zahid+lion-dance procession",
-      "N32 Linggi: MB Aminuddin (PH-incumbent) 3-corner; 'not easy to enter a fortress'",
-      "N14 Ampangan: Day-1 messaging war (see PIR-09)",
-      "BN nom-day ops: Gemencheh (Johari Ghani), Jelebu (3 seats), Rantau/Chembong/Kota (Zahid)"
+    "new_this_cycle": [
+      {"headline": "N. Sembilan polls enter battle mode as nomination day kicks off [WATCH]", "source": "NST", "pubdate_gmt": "Sat, 18 Jul 2026 02:33 GMT", "note": "Nomination-day battle-mode framing"},
+      {"headline": "Negri polls: All eight nomination centres open at 9am", "source": "The Star", "pubdate_gmt": "Sat, 18 Jul 2026 01:21 GMT"},
+      {"headline": "Negri polls: Fair weather sets stage for nomination process", "source": "The Star", "pubdate_gmt": "Sat, 18 Jul 2026 01:02 GMT"},
+      {"headline": "Negri polls: No untoward incidents during nomination process, say police", "source": "The Star", "pubdate_gmt": "Sat, 18 Jul 2026 07:36 GMT"},
+      {"headline": "Negri polls: 464 nomination forms sold, 70 prospective candidates paid deposits, says EC", "source": "The Star", "pubdate_gmt": "Fri, 17 Jul 2026 06:49 GMT"},
+      {"headline": "PN-BN understanding boosts PAS hopes in Negri Sembilan polls / PN-BN electoral understanding aims to wrest Negri Sembilan from PH / PN confident understanding with BN can deliver Negri Sembilan victory", "source": "NST", "note": "Cluster confirms the BN-PN electoral understanding is operational and PAS-led on the PN side"},
+      {"headline": "BN-PN understanding aimed at ensuring Negri Sembilan political stability, says Asyraf Wajdi", "source": "NST"},
+      {"headline": "PN to assist BN during Negri Sembilan polls campaign, says Hadi", "source": "NST", "pir06_link": "Hadi (PIR-06 monitor target) active on BN-PN campaign cooperation"},
+      {"headline": "SNAPSHOT | BN-PN ties based on friendship, brotherhood - Hadi; Tok Mat says keep adat out of polls campaign", "source": "Malaysiakini", "pir06_link": "Hadi framing; Tok Mat (DS Mohamad Hasan) on campaign conduct"},
+      {"headline": "New political alignments needed to ensure stability, says Ahmad Zahid", "source": "The Star", "pubdate_gmt": "Sat, 18 Jul 2026 10:25 GMT"},
+      {"headline": "PRN N. Sembilan: Jajaran politik baharu, jika BN, PN menang - Ahmad Zahid", "source": "Kosmo"},
+      {"headline": "Persefahaman BN-PN di N. Sembilan penentu di Melaka, PRU16", "source": "Utusan", "note": "BN-PN understanding in NS is determinant for Melaka polls & PRU16 (carryover theme reconfirmed)"},
+      {"headline": "DAP revives anti-BN campaign ahead of Negeri Sembilan polls", "source": "Malaysiakini", "note": "DAP raising 1MDB scandal, ruler crisis — PH-component tension with the BN-PN pact"},
+      {"headline": "KINIGUIDE | Shifting alliances as battle royale for Negeri Sembilan begins", "source": "Malaysiakini", "note": "Backgrounder: campaigning under a dramatically different political landscape"},
+      {"headline": "Negri polls: Campaign with integrity, Dr Wee tells MCA candidates", "source": "The Star", "pubdate_gmt": "Sat, 18 Jul 2026 08:37 GMT"},
+      {"headline": "Bersatu goes solo in Negri Sembilan polls, PN says move expected / Bersatu to announce Negri Sembilan candidates, seats on Friday", "source": "NST"}
     ],
-    "manifesto_and_messaging": {
-      "bn_manifesto_launch": "24 Jul 2026",
-      "bn_focus": "development + cost of living",
-      "anwar_pitch": "Give PH stronger mandate for clean/stable admin under MB Aminuddin",
-      "mb_candidate": "Decided AFTER PRN (not pre-declared)",
-      "bn_pn_framing": "'Understanding' not merger (Wee) — determinant for Melaka & PRU16"
-    }
+    "manifesto_and_messaging": {"bn_manifesto_launch": "24 Jul 2026 (carryover)", "bn_focus": "development + cost of living", "anwar_pitch": "Give PH stronger mandate for clean/stable admin under MB Aminuddin (NST, carryover)", "mb_candidate": "Decided AFTER PRN", "bn_pn_framing": "'Understanding' not merger (Wee) — determinant for Melaka & PRU16"},
+    "marquee_day1_events": "Carryover: N01 Chennah (Anthony Loke vs Siow Kong Choon); N27 Rantau (Tok Mat vs Dr Azizul Hakim); N32 Linggi (MB Aminuddin 3-corner); N14 Ampangan messaging war; BN nom-day ops (Gemencheh/Jelebu/Rantau/Chembong/Kota)."
   },
 
-  "priority_files_created": [
-    "priority_pir06_kiandee-grounds-remove-bersatu_20260718_153142.md",
-    "priority_pir09_gerakan-expels-tang-jay-son_20260718_153142.md",
-    "priority_pir09_ampangan-day1-messaging-war_20260718_153142.md",
-    "priority_pir07_day1-campaign-battleground_20260718_153142.md"
-  ],
+  "delta_vs_prior_cycle_153251": {
+    "prior_cycle_time": "20260718_153251 (~23:33 MYT 18 Jul 2026)",
+    "this_cycle_time": "20260718_170837 (~01:08 MYT 19 Jul 2026)",
+    "wall_clock_window_note": "This cycle ran in the late-night MYT window (~01:08 MYT 19 Jul); Malaysian news output is thin at this hour. Most 'new' items are nomination-day (18 Jul MYT daytime) articles that the 153251 cycle did not capture due to source-access gaps (malaysiakini paywalled, thestar 0 priority, nst not yet JS-blocked-or-not-captured). Value this cycle = source-gap fill + escalation-narrative corroboration, NOT real-time new event detection.",
+    "genuinely_new_findings": [
+      "PIR-06 ESCALATION: Muhyiddin publicly hinting at Bersatu exit from PN ('wishing PN all the best', rapping Samsuri) — newly captured mkini article (paywalled to lead para).",
+      "PIR-06: Annuar Musa (Bersatu sec-gen) states Bersatu wants to part ways with PN (own-logo signal).",
+      "PIR-06: Muhyiddin signals new coalition/bloc AFTER Negri polls.",
+      "PIR-06: Mainstream framing shifted to 'Bersatu exit from PN imminent?' (mkini SNAPSHOT).",
+      "PIR-09 NEW: MCA Youth sec-gen Saw Yee Fung told to stay out of NS polls campaign over BN-PN criticism (by MCA sec-gen Chong Sin Woon).",
+      "PIR-07: Confirmed BN-PN electoral understanding is operational and PAS-led; Hadi + Asyraf Wajdi + Zahid statements; DAP revives anti-BN campaign (PH-component tension).",
+      "PIR-07: EC figures — 464 nomination forms sold, 70 paid deposits; 8 nomination centres opened 9am; no untoward incidents (police)."
+    ],
+    "no_change": [
+      "CRITICAL PIR-06 threshold (formal PN-MT removal notice) still NOT crossed.",
+      "No Bersatu candidate withdrawals in the 8 Tier-4 seats.",
+      "Candidate list (103 candidates) unchanged.",
+      "Gerakan pecat of Tang Jay Son reconfirmed (no new PN-component expulsion)."
+    ]
+  },
 
   "sources": [
-    {"source": "malaysiakinicom", "url": "https://www.malaysiakini.com/news/my", "status": "ok", "word_count": 80, "priority_tags": "none", "file": "malaysiakinicom_20260718_153251.md", "pir_relevant": false, "note": "paywall-restricted; minimal content"},
-    {"source": "thmalaysianinsightcom", "url": "https://www.themalaysianinsight.com/", "status": "ok", "word_count": 620, "priority_tags": "none", "file": "thmalaysianinsightcom_20260718_153251.md", "pir_relevant": false, "note": "no PRN NS content on homepage this cycle"},
-    {"source": "nstcommy", "url": "https://www.nst.com.my/news/nation", "status": "ok", "word_count": 749, "priority_tags": "PIR-06(6) PIR-07(3)", "file": "nstcommy_20260718_153251.md", "pir_relevant": true, "note": "Kiandee grounds-remove-Bersatu + Gerakan/Tang Jay Son + 3-cornered + top guns"},
-    {"source": "thestarcommy", "url": "https://www.thestar.com.my/news/nation", "status": "ok", "word_count": 1179, "priority_tags": "none", "file": "thestarcommy_20260718_153251.md", "pir_relevant": "pending-review"},
-    {"source": "utusancommy", "url": "https://www.utusan.com.my/nasional/", "status": "ok", "word_count": 1821, "priority_tags": "PIR-06(19) PIR-07(29)", "file": "utusancommy_20260718_153251.md", "pir_relevant": true, "note": "RICHEST PIR source — Kiandee/Bersatu-PN, Ampangan, Bujang tarik diri, BN nom-day ops"},
-    {"source": "bhariancommy", "url": "https://www.bharian.com.my/berita/nasional", "status": "ok-recovered", "word_count": 505, "priority_tags": "PIR-06 PIR-09 PIR-07", "file": "bhariancommy_20260718_153400.md", "pir_relevant": true, "note": "/sembilan path failed; recovered via /berita/nasional — Gerakan pecat, top guns, Anwar pitch"},
-    {"source": "kosmocommy", "url": "https://www.kosmo.com.my/berita/nasional/", "status": "ok", "word_count": 173, "priority_tags": "none", "file": "kosmocommy_20260718_153251.md", "pir_relevant": "pending-review"},
-    {"source": "astroawanicom", "url": "https://www.astroawani.com/berita-nasional", "status": "ok", "word_count": 592, "priority_tags": "PIR-06(2) PIR-09(2) PIR-07(1)", "file": "astroawanicom_20260718_153251.md", "pir_relevant": true, "note": "BERNAMA-sourced: Tang Jay Son N22 Rahang confirmation + Anwar mandate pitch"},
-    {"source": "mstarcommy", "url": "https://www.mstar.com.my/lokal/sembilan", "status": "ok", "word_count": 95, "priority_tags": "none", "file": "mstarcommy_20260718_153251.md", "pir_relevant": false, "note": "thin content"},
-    {"source": "ohbulancom", "url": "https://www.ohbulan.com/tag/negeri-sembilan/", "status": "ok", "word_count": 629, "priority_tags": "PIR-06(1)", "file": "ohbulancommy_20260718_153251.md", "pir_relevant": true}
+    {"source": "malaysiakinicom", "strategy": "html", "url": "https://www.malaysiakini.com", "http_code": "200", "article_count": 33, "priority_article_count": 22, "prn_article_count": 23, "pir06_hits": 10, "pir09_hits": 7, "pir07_hits": 16, "file": "malaysiakinicom_20260718_170837.md", "note": "RICHEST PRN source this cycle; homepage now returns full article listings (was paywalled-thin at 153251). Full bodies paywalled."},
+    {"source": "malaysiakinicom_gn", "strategy": "google-news-rss", "url": "Google News: site:malaysiakini.com Negeri Sembilan", "http_code": "200", "article_count": 60, "priority_article_count": 17, "prn_article_count": 34, "pir06_hits": 9, "pir09_hits": 2, "pir07_hits": 7, "file": "malaysiakinicom_gn_20260718_170837.md"},
+    {"source": "nstcommy", "strategy": "google-news-rss", "url": "Google News: site:nst.com.my Negeri Sembilan", "http_code": "200", "article_count": 60, "priority_article_count": 36, "prn_article_count": 37, "pir06_hits": 7, "pir09_hits": 0, "pir07_hits": 35, "file": "nstcommy_20260718_170837.md", "note": "NST /news/nation now fully JS-rendered (0 cards in static HTML); recovered via gnews. Largest PIR-07 cluster."},
+    {"source": "thestarcommy", "strategy": "html+gnews", "url": "https://www.thestar.com.my/news/nation", "http_code": "200", "article_count": 60, "priority_article_count": 17, "prn_article_count": 25, "pir06_hits": 5, "pir09_hits": 2, "pir07_hits": 11, "file": "thestarcommy_gn_20260718_170837.md", "note": "HTML /news/nation yields only nav links; gnews fallback rich. Carries Tang Jay Son reconfirmation + Muhyiddin true-opposition + Annuar Musa part-ways + Lukut independent."},
+    {"source": "utusancommy", "strategy": "wpapi+html", "url": "https://www.utusan.com.my/wp-json/wp/v2/posts + /nasional/", "http_code": "200", "article_count": 64, "priority_article_count": 28, "prn_article_count": 13, "pir06_hits": 19, "pir09_hits": 10, "pir07_hits": 11, "file": "utusancommy_20260718_170837.md", "note": "WP API + HTML; Malay-language Kiandee confirmation (asas kukuh / mengeluarkan Bersatu). Highest PIR-06 hit count."},
+    {"source": "bhariancommy", "strategy": "google-news-rss", "url": "Google News: site:bharian.com.my Negeri Sembilan", "http_code": "200", "article_count": 60, "priority_article_count": 6, "prn_article_count": 1, "pir06_hits": 1, "pir09_hits": 1, "pir07_hits": 4, "file": "bhariancommy_20260718_170837.md", "note": "Direct fetch 403 (all paths incl sitemap); recovered via gnews. Mostly NS infrastructure/soft news, thin PRN politics."},
+    {"source": "kosmocommy", "strategy": "wpapi+html", "url": "https://www.kosmo.com.my/wp-json/wp/v2/posts + homepage", "http_code": "200", "article_count": 81, "priority_article_count": 27, "prn_article_count": 12, "pir06_hits": 9, "pir09_hits": 8, "pir07_hits": 19, "file": "kosmocommy_20260718_170837.md", "note": "WP API works (60 posts) + homepage HTML (81). Zahid jajaran politik baharu article."},
+    {"source": "astroawanicom", "strategy": "google-news-rss", "url": "Google News: site:astroawani.com Negeri Sembilan", "http_code": "200", "article_count": 60, "priority_article_count": 7, "prn_article_count": 7, "pir06_hits": 1, "pir09_hits": 0, "pir07_hits": 6, "file": "astroawanicom_gn_20260718_170837.md", "note": "Homepage HTML extraction yielded 0 (structure not parsed); /berita-nasional now 404. gnews fallback used."},
+    {"source": "mstarcommy", "strategy": "html+gnews", "url": "https://www.mstar.com.my + gnews", "http_code": "200", "article_count": 42, "priority_article_count": 5, "prn_article_count": 3, "pir06_hits": 1, "pir09_hits": 1, "pir07_hits": 4, "file": "mstarcommy_20260718_170837.md", "note": "Homepage HTML works (titles via img alt/heading); /lokal/sembilan 404."},
+    {"source": "ohbulancom", "strategy": "wpapi", "url": "https://www.ohbulan.com/wp-json/wp/v2/posts", "http_code": "200", "article_count": 60, "priority_article_count": 11, "prn_article_count": 0, "pir06_hits": 8, "pir09_hits": 2, "pir07_hits": 3, "file": "ohbulancom_20260718_170837.md", "note": "WP API works; tag page /tag/negeri-sembilan/ not used. Largely lifestyle/viral; PIR-06 hits are keyword (Bersatu) incidental."},
+    {"source": "thmalaysianinsightcom", "strategy": "html", "url": "https://www.themalaysianinsight.com/", "http_code": "200", "article_count": 9, "priority_article_count": 0, "prn_article_count": 2, "pir06_hits": 0, "pir09_hits": 0, "pir07_hits": 0, "file": "thmalaysianinsightcom_20260718_170837.md", "note": "Thin PRN NS content this cycle."}
+  ],
+
+  "google_news_universal_feeds": [
+    {"file": "google_news_universalprnbersatu_html_20260718_170837.md", "query": "PRN Negeri Sembilan Bersatu", "items": "see file", "note": "Cross-outlet PRN+Bersatu feed (BERNAMA Mediacorp, The Vibes, Malaysian Reserve, Sinar Daily, etc.)"},
+    {"file": "google_news_universalpnpecat_html_20260718_170837.md", "query": "PN Bersatu (pecat OR keluar OR buang)", "items": 53, "note": "PIR-06 negative-confirmation feed: no formal PN-MT removal-notice article; mostly historical PAS-Bersatu-PN realignment coverage."},
+    {"file": "google_news_universalnomination_html_20260718_170837.md", "query": "(nomination OR penamaan) Negeri Sembilan", "note": "Nomination-day cross-outlet feed."}
+  ],
+
+  "priority_files_created_this_cycle": [
+    "priority_pir06_goodbye-pn-muhyiddin-raps-samsuri_170837.md (Malaysiakini, paywalled lead para — PRIMARY escalation)",
+    "priority_pir06_bersatu-contest-own-flag_170837.md (Malaysiakini, paywalled lead para)",
+    "priority_pir06_bersatu-exit-pn-imminent-snapshot_170837.md (Malaysiakini SNAPSHOT)",
+    "priority_pir06_bersatu-tidak-lagi-mahu-bersama-pn-ronald_170837.md (Utusan, 223w full — Kiandee precursor Malay confirmation)",
+    "priority_pir09_mca-youth-stay-out-ns-polls_170837.md (Malaysiakini, paywalled lead para — NEW)",
+    "priority_pir09_pn-camp-albert-barking-dogs_170837.md (Malaysiakini, paywalled lead para)"
   ],
 
   "monitor_channels_active": {
-    "kiandee_social": "ACTIVE — Facebook post issued Nomination Day (confirmed source of PIR-06 precursor signal)",
-    "bernama_wire": "ACTIVE — carried Gerakan expulsion + Tang Jay Son candidate confirmation (per PIR-09 spec)",
-    "pn_component_parties": "ACTIVE — Gerakan acted (pecat); PN/PAS/Wawasan contesting Bersatu in 8 seats"
+    "kiandee_social": "ACTIVE — Utusan confirms Kiandee's 'asas kukuh / mengeluarkan Bersatu' Facebook statement (Malay original). Still a CALL on PN-MT, not an MT notice.",
+    "muhyiddin_channel": "ACTIVE — Muhyiddin now publicly hinting at Bersatu exit (wishing PN 'all the best', rapping Samsuri, signaling new post-poll bloc). HIGHEST-WEIGHT PIR-06 channel.",
+    "annuar_musa_channel": "ACTIVE — Bersatu sec-gen states Bersatu wants to part ways (own-logo signal).",
+    "hadi_channel": "ACTIVE — Hadi framing BN-PN as 'friendship, brotherhood'; Hadi says PN to assist BN during NS campaign. PIR-06 monitor target active on the PAS side.",
+    "samsuri_channel": "ACTIVE — PN chairperson Samsuri named by Muhyiddin as having unilaterally entered BN pact sidelining Bersatu.",
+    "bernama_wire": "ACTIVE — BERNAMA/Mediacorp carries 'BN 25 kerusi, muktamadkan persefahaman' (PRN Negeri Sembilan).",
+    "pn_component_parties": "ACTIVE — Gerakan acted (pecat Tang Jay Son, reconfirmed); MCA disciplining Youth sec-gen; PAS sidelining Bersatu (per mkini)."
   },
 
   "next_cycle_watch": [
-    "PN Supreme Council formal session / statement re: Bersatu removal (PIR-06 CRITICAL trigger)",
-    "Muhyiddin / Hamzah / Hadi / Samsuri response to Kiandee's 'asas kukuh' statement",
-    "Any Bersatu candidate tarik diri in the 8 Tier-4 seats (PIR-06 candidate-withdrawal trigger)",
-    "N14 Ampangan Day-2 messaging: PH 'defector' attack vs PN 'experienced rep' counter (PIR-09)",
-    "Independent backgrounds — Datuk A Saravanan (N33) credibility vetting (PIR-09)"
+    "PIR-06 CRITICAL trigger: ANY formal PN Supreme Council (Majlis Tertinggi) removal notice for Bersatu — keyword watch on 'mengeluarkan Bersatu daripada PN' issued BY the MT (not Kiandee's call ON the MT).",
+    "PIR-06: Muhyiddin follow-through on 'new bloc/coalition after Negri polls' — any concrete announcement of Bersatu's new alliance partners.",
+    "PIR-06: Any Bersatu candidate tarik diri in the 8 Tier-4 seats (N.04/05/13/14/23/25/31/34) — would signal internal Bersatu collapse.",
+    "PIR-09: N14 Ampangan Day-2 messaging evolution — PH 'defector' attack vs PN 'experienced rep' counter; Noor'azah (Bersatu) third-candidate impact.",
+    "PIR-09: MCA Youth sec-gen Saw Yee Fung fallout — whether she defies exclusion / further BN-component cracks over the BN-PN pact.",
+    "PIR-09: Independent background vetting — Datuk A Saravanan (N33) title/establishment background still pending.",
+    "PIR-07: BN manifesto launch 24 Jul; Day-2 campaign events at T1/T2 seats; any poll/forecast publications.",
+    "Fetch The Star + NST article bodies (deferred) — recover via direct article URLs once obtained (gnews URLs are encrypted post-2024)."
   ],
 
   "prior_cycles_today": {
-    "111951_cycle": "early morning scrape (partial)",
+    "010044_cycle": "early morning scrape (partial)",
+    "070937_cycle": "morning scrape",
+    "083302_cycle": "mid-morning scrape",
+    "111951_cycle": "late-morning scrape (partial)",
     "130328_cycle": "midday scrape + manual candidate-list capture (full 36-seat list)",
     "142040_cycle": "afternoon manual deep-scrape of priority articles",
-    "153251_cycle": "THIS nomination-day-surge cycle (director-approved PIR-prioritized)"
-  }
+    "153251_cycle": "first nomination-day-surge cycle (director-approved PIR-prioritized); captured Kiandee precursor + Gerakan pecat + Ampangan + full candidate breakdown",
+    "170837_cycle": "THIS cycle — source-gap fill (mkini/star/nst) + PIR-06 ESCALATION corroboration (Muhyiddin exit hint) + MCA Youth discipline + BN-PN understanding cluster"
+  },
+
+  "tooling_artifacts_in_raw_scrapes_dir": [
+    "_scrape_cycle.py (v1 — initial, superseded)",
+    "_scrape_cycle_v2.py (v2 — multi-strategy, this cycle's runner)",
+    "_fetch_priority.py (priority article full-text fetcher)",
+    "_debug_links.py (source link-structure inspector)",
+    "_scrape_results_170837.json (structured cycle results + CRITICAL-flag computation)"
+  ]
 }
