@@ -132,6 +132,50 @@
 
 ---
 
+## 12. 🔴 Top 3 High-Impact PIR — For Approval (End of 24-Hour Cycle)
+
+*This section appears in the final brief of each 24-hour cycle. It identifies the 3 PIRs with highest potential impact for the next 24 hours, requiring Director approval to prioritize collection and analysis resources.*
+
+### PIR Priority #1
+
+| Field | Value |
+|-------|-------|
+| **PIR ID** | {{PIR_1_ID}} |
+| **PIR Question** | {{PIR_1_QUESTION}} |
+| **Why High Impact** | {{PIR_1_RATIONALE}} |
+| **Current Status** | {{PIR_1_STATUS}} |
+| **Recommended Action** | {{PIR_1_ACTION}} |
+| **Collection Req** | {{PIR_1_COLLECTION}} |
+| **⏳ Approval** | ⬜ Approved / ⬜ Deferred / ⬜ Rejected |
+
+### PIR Priority #2
+
+| Field | Value |
+|-------|-------|
+| **PIR ID** | {{PIR_2_ID}} |
+| **PIR Question** | {{PIR_2_QUESTION}} |
+| **Why High Impact** | {{PIR_2_RATIONALE}} |
+| **Current Status** | {{PIR_2_STATUS}} |
+| **Recommended Action** | {{PIR_2_ACTION}} |
+| **Collection Req** | {{PIR_2_COLLECTION}} |
+| **⏳ Approval** | ⬜ Approved / ⬜ Deferred / ⬜ Rejected |
+
+### PIR Priority #3
+
+| Field | Value |
+|-------|-------|
+| **PIR ID** | {{PIR_3_ID}} |
+| **PIR Question** | {{PIR_3_QUESTION}} |
+| **Why High Impact** | {{PIR_3_RATIONALE}} |
+| **Current Status** | {{PIR_3_STATUS}} |
+| **Recommended Action** | {{PIR_3_ACTION}} |
+| **Collection Req** | {{PIR_3_COLLECTION}} |
+| **⏳ Approval** | ⬜ Approved / ⬜ Deferred / ⬜ Rejected |
+
+**Director Decision:** Reply with approved/deferred/rejected for each PIR. Approved PIRs receive priority collection allocation for the next 24-hour cycle.
+
+---
+
 ## Sources
 
 - {{SOURCE_1_URL}}

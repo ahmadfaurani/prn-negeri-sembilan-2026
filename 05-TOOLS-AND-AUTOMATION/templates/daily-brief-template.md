@@ -112,6 +112,44 @@
 
 ---
 
+## 11. 🔴 Top 3 High-Impact PIR — For Approval
+
+*Identifies the 3 PIRs with highest potential impact for the next 24 hours. Director approval allocates collection and analysis resources.*
+
+### PIR Priority #1
+
+- **PIR ID:** {{PIR_1_ID}}
+- **Question:** {{PIR_1_QUESTION}}
+- **Why High Impact:** {{PIR_1_RATIONALE}}
+- **Current Status:** {{PIR_1_STATUS}}
+- **Recommended Action:** {{PIR_1_ACTION}}
+- **Collection Requirement:** {{PIR_1_COLLECTION}}
+- **⏳ Approval:** ⬜ Approved / ⬜ Deferred / ⬜ Rejected
+
+### PIR Priority #2
+
+- **PIR ID:** {{PIR_2_ID}}
+- **Question:** {{PIR_2_QUESTION}}
+- **Why High Impact:** {{PIR_2_RATIONALE}}
+- **Current Status:** {{PIR_2_STATUS}}
+- **Recommended Action:** {{PIR_2_ACTION}}
+- **Collection Requirement:** {{PIR_2_COLLECTION}}
+- **⏳ Approval:** ⬜ Approved / ⬜ Deferred / ⬜ Rejected
+
+### PIR Priority #3
+
+- **PIR ID:** {{PIR_3_ID}}
+- **Question:** {{PIR_3_QUESTION}}
+- **Why High Impact:** {{PIR_3_RATIONALE}}
+- **Current Status:** {{PIR_3_STATUS}}
+- **Recommended Action:** {{PIR_3_ACTION}}
+- **Collection Requirement:** {{PIR_3_COLLECTION}}
+- **⏳ Approval:** ⬜ Approved / ⬜ Deferred / ⬜ Rejected
+
+**Director Decision:** Reply with approved/deferred/rejected for each PIR. Approved PIRs receive priority collection allocation for the next 24-hour cycle.
+
+---
+
 ## Sources
 
 - {{SOURCE_1_URL}}
