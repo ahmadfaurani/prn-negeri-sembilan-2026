@@ -1,0 +1,348 @@
+{
+  "cycle": "20260719_051226",
+  "prior_cycle": "20260719_034922",
+  "cutoff_utc": "2026-07-19T03:49:22",
+  "cutoff_myt": "2026-07-19 11:49 MYT",
+  "this_cycle_total_articles": 1151,
+  "prior_cycle_unique_titles": 1065,
+  "genuinely_new_titles_count": 135,
+  "genuinely_new_priority_titles_count": 26,
+  "real_new_priority_after_falsepos_filter": 26,
+  "fresh_priority_items_after_cutoff_count": 3,
+  "fetch_candidates_count": 19,
+  "fresh_priority_items_after_cutoff": [
+    {
+      "title": "[VIDEO] ‘Syed Saddiq Antara Hadiah Birthday Paling Bermakna Untuk Ara’ – BASS",
+      "source": "ohbulancom",
+      "url": "https://ohbulan.com/video-syed-saddiq-antara-hadiah-birthday-paling-bermakna-untuk-ara-bass/",
+      "pubdate": "2026-07-19T04:56:33",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "PRN Negeri Sembilan penentu kerjasama BN dan PN",
+      "source": "utusancommy",
+      "url": "https://www.utusan.com.my/nasional/2026/07/prn-negeri-sembilan-penentu-kerjasama-bn-dan-pn/",
+      "pubdate": "2026-07-19T04:11:55",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "Zakat MAINPP, Timbalan Ketua Menteri ziarah keluarga Allahyarham Shahir",
+      "source": "utusancommy",
+      "url": "https://www.utusan.com.my/nasional/2026/07/zakat-mainpp-timbalan-ketua-menteri-ziarah-keluarga-allahyarham-shahir/",
+      "pubdate": "2026-07-19T03:51:51",
+      "prefix": "[PRIORITY PIR-06]"
+    }
+  ],
+  "genuinely_new_priority_items_top25": [
+    {
+      "title": "Battle for Negeri Sembilan: Heavyweight clashes, opposition rifts set stage for second major electoral battle this year - KLSE Screener",
+      "source": "google_news_universalnomination_html",
+      "url": "",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "Negeri Sembilan poll race begins as nominations kick off - The Vibes",
+      "source": "google_news_universalnomination_html",
+      "url": "",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "Top Story Loke vows to win Malay votes, calls MCA biggest loser in BN-PN pact DAP chief cites service in kampungs as key to retaining his seat. a few seconds ago",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780073",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-09+PIR-07]"
+    },
+    {
+      "title": "SNAPSHOT | Anwar AI chatbot is live, susceptible to manipulation Malaysiakini Team 2 h ago ⋅ 3",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780066",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "COMMENT | Oh, so the state elections are an indicator? Zan Azlee 3 h ago ⋅ 7",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/columns/780063",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "New Johor exco lineup to deliver manifesto pledges, drive Maju Johor 2030 agenda They are committed to ensuring development benefits reach all communities. Bernama 19 h ago ⋅ 23",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780048",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "Tamim surrenders to police, hopes to campaign for N Sembilan independent candidate Self-proclaimed land activist to be brought to Seremban court for remand application. 16 h ago ⋅ 7",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780055",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-09]"
+    },
+    {
+      "title": "Wee: BN-PN pact in N Sembilan not a merger, MCA principles intact UPDATED 5.03PM | NEGERI SEMBILAN POLLS | Each party retains its own ideology and stance, says MCA president. 22 h ago ⋅ 125",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780035",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-06+PIR-09+PIR-07]"
+    },
+    {
+      "title": "SNAPSHOT | Johor regent: Excos must be dedicated in their work; Bersatu exit from PN imminent? What's going on in the news today, with updates at 11am, 2pm, and 6pm. Malaysiakini Team 19 h ago ⋅ 4",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780047",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-06]"
+    },
+    {
+      "title": "Coalition leaders, supporters in full force for N Sembilan polls nominations NEGERI SEMBILAN POLLS | Celebratory atmosphere as election campaign kicks off. 1 d ago ⋅ 30",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780023",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "MCA Youth sec-gen told to 'stay out of N Sembilan polls' over PN ally disagreement Saw questions if party no longer tolerates dissenting views. 1 d ago ⋅ 78",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780017",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-09+PIR-07]"
+    },
+    {
+      "title": "SNAPSHOT | BN-PN ties based on friendship, brotherhood - Hadi; Tok Mat says keep adat out of polls campaign What's going on in the news today, with updates at 11am, 2pm, and 6pm. Malaysiakini Team 23 h ago ⋅ 28",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780030",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "Loke vows to win Malay votes, calls MCA biggest loser in BN-PN pact - Malaysiakini",
+      "source": "malaysiakinicom_gn",
+      "url": "",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-09+PIR-07]"
+    },
+    {
+      "title": "“Rasa macam penjenayah dikehendaki!” - Wanita tahan malu diarah keluar pesawat, rupanya sebab nama ada 34 huruf",
+      "source": "mstarcommy",
+      "url": "https://www.mstar.com.my/travel/destinasi/2026/07/19/rasa-macam-penjenayah-dikehendaki---wanita-tahan-malu-diarah-keluar-pesawat-rupanya-sebab-nama-ada-34-huruf",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-06]"
+    },
+    {
+      "title": "BN-PN electoral understanding strictly to avoid multi-cornered clashes - NST Online",
+      "source": "nstcommy",
+      "url": "",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "BN-PN understanding aimed at ensuring Negri Sembilan political stability, says Asyraf Wajdi [WATCH] - NST Online",
+      "source": "nstcommy",
+      "url": "",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "Melaka clears path to appoint seven unelected assemblymen - NST Online",
+      "source": "nstcommy",
+      "url": "",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "[VIDEO] ‘Syed Saddiq Antara Hadiah Birthday Paling Bermakna Untuk Ara’ – BASS",
+      "source": "ohbulancom",
+      "url": "https://ohbulan.com/video-syed-saddiq-antara-hadiah-birthday-paling-bermakna-untuk-ara-bass/",
+      "pubdate": "2026-07-19T04:56:33",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "Negri polls: Nomination opens for four state seats in Jelebu - The Star",
+      "source": "thestarcommy_gn",
+      "url": "",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "PRN Negeri Sembilan penentu kerjasama BN dan PN",
+      "source": "utusancommy",
+      "url": "https://www.utusan.com.my/nasional/2026/07/prn-negeri-sembilan-penentu-kerjasama-bn-dan-pn/",
+      "pubdate": "2026-07-19T04:11:55",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "Zakat MAINPP, Timbalan Ketua Menteri ziarah keluarga Allahyarham Shahir",
+      "source": "utusancommy",
+      "url": "https://www.utusan.com.my/nasional/2026/07/zakat-mainpp-timbalan-ketua-menteri-ziarah-keluarga-allahyarham-shahir/",
+      "pubdate": "2026-07-19T03:51:51",
+      "prefix": "[PRIORITY PIR-06]"
+    },
+    {
+      "title": "PRN Negeri Sembilan penentu kerjasama BN dan PN",
+      "source": "utusancommy_html",
+      "url": "https://www.utusan.com.my/nasional/2026/07/prn-negeri-sembilan-penentu-kerjasama-bn-dan-pn/",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "Zakat MAINPP, Timbalan Ketua Menteri ziarah keluarga Allahyarham Shahir",
+      "source": "utusancommy_html",
+      "url": "https://www.utusan.com.my/nasional/2026/07/zakat-mainpp-timbalan-ketua-menteri-ziarah-keluarga-allahyarham-shahir/",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-06]"
+    },
+    {
+      "title": "ANWAR Ibrahim menyerahkan Jalur Gemilang kepada Bintara Kanan TLDM, Mohamad Razif Aliff Md. Yusof untuk upacara mengibar Jalur Gemilang pada Majlis Peluncuran Bulan Kebangsaan dan Kibar Jalur Gemilang 2026 di Ipoh hari ini. - UTUSAN/ZULFACHRI ZULKIFLI",
+      "source": "utusancommy_html",
+      "url": "https://www.utusan.com.my/nasional/2026/07/hayati-hargai-perjuangan-capai-kemerdekaan-negara/",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "ABD. Wahid Idris (kiri) dan Aznan Bakar (kanan) bersama Muhammad Fariz Rusadio (dua kanan) dan Muhammad Syakir Radin Ab. Halim pada Malam Wartawan Malaysia 2026 & Hadiah Kewartawanan Malaysia MPI-Petronas 2025 di Hotel Majestic, Kuala Lumpur, kelmarin. – MINGGUAN/AMIR KHALID",
+      "source": "utusancommy_html",
+      "url": "https://www.utusan.com.my/berita/2026/07/utusan-malaysia-rangkul-emas-perak-foto-terbaik-hkm-mpi-petronas-2025/",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    }
+  ],
+  "fetch_candidates_top20": [
+    {
+      "title": "[VIDEO] ‘Syed Saddiq Antara Hadiah Birthday Paling Bermakna Untuk Ara’ – BASS",
+      "source": "ohbulancom",
+      "url": "https://ohbulan.com/video-syed-saddiq-antara-hadiah-birthday-paling-bermakna-untuk-ara-bass/",
+      "pubdate": "2026-07-19T04:56:33",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "PRN Negeri Sembilan penentu kerjasama BN dan PN",
+      "source": "utusancommy",
+      "url": "https://www.utusan.com.my/nasional/2026/07/prn-negeri-sembilan-penentu-kerjasama-bn-dan-pn/",
+      "pubdate": "2026-07-19T04:11:55",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "Zakat MAINPP, Timbalan Ketua Menteri ziarah keluarga Allahyarham Shahir",
+      "source": "utusancommy",
+      "url": "https://www.utusan.com.my/nasional/2026/07/zakat-mainpp-timbalan-ketua-menteri-ziarah-keluarga-allahyarham-shahir/",
+      "pubdate": "2026-07-19T03:51:51",
+      "prefix": "[PRIORITY PIR-06]"
+    },
+    {
+      "title": "Top Story Loke vows to win Malay votes, calls MCA biggest loser in BN-PN pact DAP chief cites service in kampungs as key to retaining his seat. a few seconds ago",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780073",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-09+PIR-07]"
+    },
+    {
+      "title": "SNAPSHOT | Anwar AI chatbot is live, susceptible to manipulation Malaysiakini Team 2 h ago ⋅ 3",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780066",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "COMMENT | Oh, so the state elections are an indicator? Zan Azlee 3 h ago ⋅ 7",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/columns/780063",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "New Johor exco lineup to deliver manifesto pledges, drive Maju Johor 2030 agenda They are committed to ensuring development benefits reach all communities. Bernama 19 h ago ⋅ 23",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780048",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "Tamim surrenders to police, hopes to campaign for N Sembilan independent candidate Self-proclaimed land activist to be brought to Seremban court for remand application. 16 h ago ⋅ 7",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780055",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-09]"
+    },
+    {
+      "title": "Wee: BN-PN pact in N Sembilan not a merger, MCA principles intact UPDATED 5.03PM | NEGERI SEMBILAN POLLS | Each party retains its own ideology and stance, says MCA president. 22 h ago ⋅ 125",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780035",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-06+PIR-09+PIR-07]"
+    },
+    {
+      "title": "SNAPSHOT | Johor regent: Excos must be dedicated in their work; Bersatu exit from PN imminent? What's going on in the news today, with updates at 11am, 2pm, and 6pm. Malaysiakini Team 19 h ago ⋅ 4",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780047",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-06]"
+    },
+    {
+      "title": "Coalition leaders, supporters in full force for N Sembilan polls nominations NEGERI SEMBILAN POLLS | Celebratory atmosphere as election campaign kicks off. 1 d ago ⋅ 30",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780023",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "MCA Youth sec-gen told to 'stay out of N Sembilan polls' over PN ally disagreement Saw questions if party no longer tolerates dissenting views. 1 d ago ⋅ 78",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780017",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-09+PIR-07]"
+    },
+    {
+      "title": "SNAPSHOT | BN-PN ties based on friendship, brotherhood - Hadi; Tok Mat says keep adat out of polls campaign What's going on in the news today, with updates at 11am, 2pm, and 6pm. Malaysiakini Team 23 h ago ⋅ 28",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780030",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "“Rasa macam penjenayah dikehendaki!” - Wanita tahan malu diarah keluar pesawat, rupanya sebab nama ada 34 huruf",
+      "source": "mstarcommy",
+      "url": "https://www.mstar.com.my/travel/destinasi/2026/07/19/rasa-macam-penjenayah-dikehendaki---wanita-tahan-malu-diarah-keluar-pesawat-rupanya-sebab-nama-ada-34-huruf",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-06]"
+    },
+    {
+      "title": "PRN Negeri Sembilan penentu kerjasama BN dan PN",
+      "source": "utusancommy_html",
+      "url": "https://www.utusan.com.my/nasional/2026/07/prn-negeri-sembilan-penentu-kerjasama-bn-dan-pn/",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "Zakat MAINPP, Timbalan Ketua Menteri ziarah keluarga Allahyarham Shahir",
+      "source": "utusancommy_html",
+      "url": "https://www.utusan.com.my/nasional/2026/07/zakat-mainpp-timbalan-ketua-menteri-ziarah-keluarga-allahyarham-shahir/",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-06]"
+    },
+    {
+      "title": "ANWAR Ibrahim menyerahkan Jalur Gemilang kepada Bintara Kanan TLDM, Mohamad Razif Aliff Md. Yusof untuk upacara mengibar Jalur Gemilang pada Majlis Peluncuran Bulan Kebangsaan dan Kibar Jalur Gemilang 2026 di Ipoh hari ini. - UTUSAN/ZULFACHRI ZULKIFLI",
+      "source": "utusancommy_html",
+      "url": "https://www.utusan.com.my/nasional/2026/07/hayati-hargai-perjuangan-capai-kemerdekaan-negara/",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "ABD. Wahid Idris (kiri) dan Aznan Bakar (kanan) bersama Muhammad Fariz Rusadio (dua kanan) dan Muhammad Syakir Radin Ab. Halim pada Malam Wartawan Malaysia 2026 & Hadiah Kewartawanan Malaysia MPI-Petronas 2025 di Hotel Majestic, Kuala Lumpur, kelmarin. – MINGGUAN/AMIR KHALID",
+      "source": "utusancommy_html",
+      "url": "https://www.utusan.com.my/berita/2026/07/utusan-malaysia-rangkul-emas-perak-foto-terbaik-hkm-mpi-petronas-2025/",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "AHMAD Zahid Hamidi hadir pada Program Gerakan Massa Masyarakat Desa (GEMA@KKDW) Peringkat Negeri Sembilan di Felda Palong 8, Jempol hari ini.",
+      "source": "utusancommy_html",
+      "url": "https://www.utusan.com.my/nasional/2026/07/lebih-225000-murid-tabika-kemas-ikuti-program-penghafazan-juzuk-30/",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-09+PIR-07]"
+    }
+  ]
+}

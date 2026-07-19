@@ -171,3 +171,86 @@
 ---
 
 *Index generated 2026-07-19 11:55 MYT (03:55 UTC) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL.*
+
+---
+
+# ═══════════════════════════════════════════════════════════
+# CYCLE 20260719_051226 — 13:12 MYT 19 Jul 2026 (Nomination-Day +1, Campaign Day 1)
+# ═══════════════════════════════════════════════════════════
+
+**Scrape:** `_scrape_20260719.py` (re-run) → `_scrape_results_20260719_051226.json` — **1151 titles** scanned.
+**Freshness:** `_analyze_freshness_20260719_051226.py` vs prior 034922 cycle — 3 fresh items post-11:49 MYT cutoff, 26 genuinely-new priority titles.
+**Priority fetch:** `_fetch_priority_20260719_051226.py` (direct + gnews-resolve) + `_nst_feed_extract_20260719_051226.py` (NST WordPress feed) + `_fmt_fetch_20260719_051226.py` (FMT RSS+direct).
+
+## 📦 FILES CREATED THIS CYCLE: 54 priority files (26 with full body text = 60,645 chars; 28 headline-intelligence)
+- **NEW SOURCE — FMT (Free Malaysia Today):** 19 full-text articles. FMT is curl-friendly with an RSS feed (`/feeds/rss/headlines`) + WordPress content structure. **This is the single largest collection gain of the day** and fills multiple prior-cycle gaps (FMT was uncollected before).
+- **NEW SOURCE PATH — NST WordPress feed** (`nst.com.my/feed`, 50 items, content:encoded): 3 full-text NS articles recovered (bypasses gnews JS-render problem for NST's latest 50).
+- **mkini + Utusan direct:** 5 fetches (2 full text: Utusan 1599c; 3 mkini previews 91–600c due to paywall).
+- **gnews headline-intelligence:** 28 items (NST 10 + NST-Melaka 11 + Star 4 + Vibes 6) saved as title+pubdate+source — gnews protobuf resolution via curl still INFEASIBLE (confirmed: intermediate is 588KB JS SPA, protobuf contains only encrypted tokens, no plaintext URL).
+
+## 🔴 PIR-06 — COALITION OPERATIONAL ARRANGEMENT — MAJOR DEVELOPMENTS
+**Formal-removal threshold (expulsion notice / candidate withdrawal): STILL NOT CROSSED.** But multiple strong precursor signals now cluster:
+
+1. **Muhyiddin hints at NEW COALITION post-NS PRN (PN-exit signal)** — `fmt-bersatu-must-survive-lone-opposition-muhyiddin` (18 Jul 16:52 MYT): Bersatu president frames Bersatu as "country's only credible opposition"; PN's BN arrangement means PN "indirectly supports government." `fmt-quit-pn-gerakan-mipp-bersatu-advised` (19 Jul 09:00 MYT): "Muhyiddin said the party will form a new coalition after the state election, hinting at a PN exit."
+2. **Hadi ↔ Bersatu open warfare** — `fmt-hadi-denies-pas-made-pn-toxic-blames-bersatu` (18 Jul 12:48 MYT): Hadi BLAMES Bersatu — "rift caused by Bersatu's misconduct within PN"; Muhyiddin accuses PAS of defamation. Rift stated at Jempol nomination (Serting, Palong, Jeram Padang, Bahau). PAS severed political ties with Bersatu **June 8**; both remain in PN.
+3. **Machinery sharing CONFIRMED (seat-level)** — `nst-bn-pn-electoral-understanding-strictly-to-avoid-multi-c` (NST full text, 19 Jul 11:59 MYT): Tampin Umno chief Mohd Isam Mohd Isa — **all BN operations rooms in Gemas will remain open to assist the PN (Wawasan) candidate's campaign**; "We do not want any sabotage." Explicit: "merely an understanding to face the election, not a political merger." BN-MCA/MIC relationships "remain intact."
+4. **Coalition seat configuration (CONFIRMED, 3 sources):** BN **25 seats** | PN **11 seats** (PAS + Gerakan 1 + MIPP 1 + Wawasan) | **Bersatu 24 seats SOLO** under own logo | PH solo all 36 | **103 candidates for 36 seats** | BN-PN **no clashes** (Utusan: "tidak bertembung di mana-mana kerusi"). Sources: Utusan full-text (Johari), FMT (×4), NST.
+5. **Hadi wants to EXPAND BN-PN cooperation NATIONWIDE** — `fmt-hadi-denies-pas-made-pn-toxic` + `fmt-pn-bn-ties-ns-more-than-marriage-hadi`: "We will work towards expanding cooperation nationwide." Frames PN-BN ties as "more than a marriage."
+6. **NS PRN = test for PRU16 alliance** — `fmt-zahid-bn-pn-performance-ns-determine-future-alliance` (Zahid) + `utusan-prn-ns-penentu-kerjasama-bn-pn` (Johari, full text): "Keputusan PRN NS menjadi penentu kesinambungan kerjasama BN dengan PN dalam PRU16."
+7. **Analyst consensus — Bersatu wipeout expected** — `fmt-quit-pn-gerakan-mipp-bersatu-advised`: USM's Azeem Fazwan expects Bersatu wiped out in NS; Azmil Tayeb — "all people see is infighting." IIUM's Lau Zhe Wei advises Bersatu to quit PN + take Gerakan/MIPP.
+
+**PIR-06 status: PRECURSORS ACCUMULATING.** No formal expulsion/withdrawal yet → not [CRITICAL]. Muhyiddin "new coalition after state election" is the strongest pre-threshold signal — escalate monitoring for a post-NS-PRN formal announcement.
+
+## 🔴 PIR-07 — HIGHEST-PRIORITY BATTLEGROUNDS — CANDIDATE-LEVEL INTEL (NEW)
+Full candidate names, 2023 majorities, and demographics now captured for marquee seats:
+
+- **N.10 Nilai — 5-CORNER** (`fmt-loke-aide-5-cornered-fight-nilai`): PH J Arul Kumar (Loke's aide, 4th term, since 2013; 2023 maj 10,889) vs BN Lai Chien Kong vs Bersatu V Saravan Kumar vs Berjasa Zamani Ibrahim vs Ind. Omar Isa. Demographics: Malay 42.5%, Chinese 32.6%, Indian 21.9%. Seremban parliamentary (Loke's).
+- **N.33 Sri Tanjung — 5-CORNER** (same article): PH Dr G Rajasekaran (2nd term; 2023 maj 3,996) vs BN A Achutan vs Bersatu M Leevingshwaran vs Ind. A Saravanan & Islah Wahyudi Zainudin. Demographics: Malay 37.2%, Chinese 31.5%, Indian 28.35%. Port Dickson constituency.
+- **Rantau — STRAIGHT FIGHT** (`fmt-tok-mat-straight-fight-ph-rantau`): Tok Mat (Mohamad Hasan, Umno dep. president / FM / ex-MB 2004-2018 / 5 terms; 2023 maj 10,280) vs PH Dr Azizul Hakim Mahdi. Zahid accompanied nomination. Demographics: Malay 54.8%, Indian 27.6%, Chinese 16%.
+- **Kota — 3-CORNER, RAZOR MARGIN** (same Tok Mat article): BN Suhaimi Aini (2023 maj **135 votes** — never left Umno since 1959) vs PH Allif Ibrahim vs Bersatu Akmal Noradzmi Abd Rahim. **HIGHEST-RISK marginal.**
+- **Paroi — 3-CORNER**: PAS/PN Kamarul Ridzuan Zin (incumbent, 2023 maj 5,539) vs PH Ahmad Shahir Shah vs Bersatu Nazree Yunus.
+- **Chembong (N.27) — STRAIGHT FIGHT**: BN Zaifulbahri Idris (since 2008; 2023 maj 4,335) vs PH Danish Nazran Murad.
+- **Gemas — 3-WAY (machinery-sharing seat)** (NST BN-PN understanding): PN/Wawasan vs Bersatu incumbent vs PH. BN gave way to PN here; BN ops rooms assisting PN candidate.
+- **Tampin parliamentary** (NST): 3 state seats, BN aiming to win all 3 via BN-PN understanding.
+
+**Operational:** `nst-ns-polls-one-police-report-received-19-campaign-permi` (19 Jul 12:26 MYT): NS police chief Alzafny Ahmad — 1 report (verbal dispute between supporters, no investigation paper), **19 campaign permits approved**. Matches/supplements prior Kosmo "gaduh mulut" intel. Social-media incitement warning (Penal Code, CMA 1998, Sedition Act 1948).
+
+**Election date CONFIRMED:** Polling **Aug 1**; early voting **July 28**. (FMT ×3)
+
+## 🔴 PIR-16 — FIRST DOMINANT CAMPAIGN NARRATIVES — NOW MAPPED
+1. **"MCA biggest loser in BN-PN pact" + "Loke vows to win Malay votes"** — `mkini-loke-malay-votes-mca-biggest-loser` (FRESH 13:04 MYT, preview 360c) + corroborated by FMT sidebar titles. Loke: BN/PN expect to unseat him in Chennah by sweeping Malay votes + Chinese protest ballots; "I will not give up… strong fight even in Malay areas." **Top PIR-16 narrative of the cycle.**
+2. **"Umno's dangerous dance with PAS"** — `fmt-umno-dangerous-dance-pas-opinion` (19 Jul, opinion, 7009c full text): editorial framing of BN-PAS risk.
+3. **"BN-PAS tie-up will force MCA to make difficult choice"** — `fmt-bn-pas-tie-up-mca-difficult-choice` (19 Jul, 3032c): MCA dilemma narrative.
+4. **"MCA Youth sec-gen told to skip NS campaign"** — `fmt-mca-youth-sec-gen-skip-ns-campaign` (18 Jul, 2819c): MCA internal discipline signal.
+5. **"BN-PN cooperation only to avoid vote splits, says Wee"** — `fmt-bn-pn-cooperation-avoid-vote-splits-wee` (18 Jul, 3403c): Wee Ka Siong (MCA) framing.
+6. **"Lim rejects Islamophobia claim, says Hadi coined green wave term"** — `fmt-lim-rejects-islamophobia-hadi-green-wave` (18 Jul, 1905c): Lim Kit Siang counter-narrative.
+7. **"BN to decide NS MB candidate only if it wins polls"** — `fmt-bn-decide-ns-mb-candidate-only-if-wins` (18 Jul, 1278c): "MB after PRN" narrative.
+8. **"Zan Azlee: state elections as indicator"** — `mkini-zan-azlee-indicator-commentary-v2` (19 Jul 09:49 MYT, preview): indicator framing.
+9. **Melaka DAP withdrawal (corroborating narrative, 14-16 Jul)** — 7 NST headline-intelligence items (Melaka DAP quits state govt / Anwar tells Melaka DAP hold / Ab Rauf mirrored federal unity / Melaka clears path for 7 unelected assemblymen). Full text NOT recovered (gnews JS-render) but titles + pubdates + source confirm the narrative arc that frames DAP acceptance in NS.
+10. **Muhyiddin "Malay unity / ummah unity is a charade"** — `fmt-bersatu-must-survive-lone-opposition-muhyiddin`: counter-narrative accusing Umno/BN of deception.
+
+**Narrative architecture (per bloc):** PH/Loke — "win Malay votes, MCA biggest loser, strong fight in Malay areas"; BN — "stability, Johor formula, NS PRN tests PRU16 alliance, not a merger"; PN/PAS — "more than a marriage, expand nationwide, save the people"; Bersatu/Muhyiddin — "lone credible opposition, new coalition after NS, charade of Malay unity."
+
+## 📈 CYCLE DELTA: 034922 → 051226 (11:49 → 13:12 MYT, ~1h23m)
+- **Titles scanned:** 1164 → 1151 (−13; feed rotation)
+- **Priority files created:** **54** (vs ~15 prior cycle) — driven by FMT + NST-feed source additions
+- **Full-text articles (body>150c):** 26 (vs 3 prior) — **8.7× improvement** from FMT discovery
+- **Total body chars:** 60,645 (vs ~prior) — major text-mass gain
+- **PIR-06 status:** Precursors accumulating (Muhyiddin new-coalition hint + machinery-sharing confirmed + Hadi-Bersatu warfare); formal threshold still NOT crossed.
+
+## 🎯 NEXT-CYCLE RECOMMENDATIONS (14:00-15:00 MYT window)
+1. **PIR-06 (HIGHEST):** Watch for any Muhyiddin/Bersatu Supreme Council statement Saturday afternoon formalizing "new coalition" plan — this would approach/cross the [CRITICAL] threshold. Monitor Bersatu 24 solo-candidate list for any last-minute withdrawal.
+2. **PIR-07:** Capture Day-1 ceramah/walkabout coverage for T1 seats (Linggi/Aminuddin, Sikamat, Chennah/Loke, Rantau/Tok Mat) — expected 14:00-18:00 MYT. Verify NST "Linggi move is risky for PH, says analyst" full text via NST feed (may now be >50 items old; try NST search).
+3. **PIR-16:** Amplification watch — Loke "MCA biggest loser" headline is viral-risk; monitor for MCA rebuttal (Wee/Mah Hang Soon). Recover mkini 780073 full text via JS-render if available.
+4. **NEW SOURCES to exploit:** NST WordPress feed (re-check for newer items), FMT RSS (re-poll for fresh articles), BH/mStar/Awani RSS feeds (untested this cycle).
+5. Continue Melaka DAP full-text recovery (the narrative is dominant but only headline-captured from NST/Star).
+
+## ⚠️ COLLECTION LIMITATIONS (updated)
+- **gnews protobuf resolution via curl: CONFIRMED INFEASIBLE** — intermediate is a 588KB JS SPA; protobuf base64 decodes to encrypted tokens only (no plaintext URL). Headline intelligence (title+pubdate+source) is the ceiling for gnews-only items via curl.
+- **NST WordPress feed:** Only latest 50 items (content:encoded) — older high-value NST articles (Asyraf Wajdi BN-PN stability, Hadi PN-assist-BN, Bersatu goes solo, Loke slams traitors, Linggi risky) fell outside the top-50 window → saved as headline-intelligence only.
+- **Malaysiakini paywall:** 780073 (Loke) + 780063 (Zan Azlee) + 780066 (AI chatbot) + 780048 (Johor exco) captured as previews only (91–600c).
+- **SOLVED this cycle:** FMT (curl-friendly RSS+direct) and NST WordPress feed now provide reliable full-text paths — substantially closes the prior-cycle "JS-render blocker" gap for two major sources.
+
+---
+
+*Cycle 051226 section appended 2026-07-19 13:22 MYT (05:22 UTC) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL.*
