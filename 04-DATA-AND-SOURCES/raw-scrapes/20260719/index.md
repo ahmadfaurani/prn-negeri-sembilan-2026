@@ -254,3 +254,98 @@ Full candidate names, 2023 majorities, and demographics now captured for marquee
 ---
 
 *Cycle 051226 section appended 2026-07-19 13:22 MYT (05:22 UTC) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL.*
+
+---
+
+# ═══════════════════════════════════════════════════════════
+# CYCLE 20260719_064654 — 14:46 MYT 19 Jul 2026 (Nomination-Day +1, Campaign Day 1)
+# ═══════════════════════════════════════════════════════════
+
+**Scrape:** `_scrape_20260719.py` (re-run) → `_scrape_results_20260719_064654.json` — **1160 titles** scanned.
+**Freshness:** `_fresh_and_fetch_20260719_064654.py` vs prior 051226 cycle — 138 genuinely-new titles, **32 genuinely-new PRIORITY titles**, 2 fresh post-13:12 MYT cutoff.
+**Priority fetch:** FMT RSS (content:encoded) + NST WordPress feed + Awani direct + mkini direct + gnews headline-intel.
+**Awani supplement:** `_awani_fetch_20260719_064654.py` — 3 Awani full-text articles (Klawang T1, Kempen-matang narrative, Teka-teki 11 kerusi).
+
+## 📦 FILES CREATED THIS CYCLE: 29 priority files (18 full-text = ~44,684 chars; 10 gnews headline-intel; 1 mkini paywalled preview)
+- **FMT RSS:** 7 full-text articles (content:encoded, no curl fetch needed) — Loke "MCA biggest loser" (EN+BM), Hadi "Bukan retorik" PRU16-model, BN-PN grassroots thumbs-up (EN+BM), Quit-PN-with-Gerakan advised (EN+BM).
+- **NST WordPress feed:** 7 full-text articles — **Tok Mat "Act now or lose chance forever" (14:46 MYT, FRESH)**, **Anwar "Resign if you want to attack unity partners" (14:47 MYT, FRESH)**, **Hadi "Malay-Muslim unity with non-extreme partners incl MCA, MIC" (14:03 MYT, FRESH)**, Anwar "Ali Baba Bujang Lapok" unity speech (12:21 MYT), Johor-formula (Johari), police/permits, Melaka shophouse (non-PIR).
+- **Awani direct:** 3 full-text — **Klawang cousins (N.28 T1 seat, Day-1 campaign, 12:11 MYT)**, Pengundi-kempen-matang narrative (13:58 MYT), Teka-teki-11-kerusi-BN PN candidate list (16 Jul 23:12).
+- **mkini direct:** 1 paywalled preview (Zan Azlee indicator, 507c — corrected URL retry).
+- **gnews headline-intel:** 10 items (Kiandee-quorum, PAS-may-leave analysts, Anthony-Loke-Awani-Intl, PH-lineup-tomorrow, Newswav×3, Star×1, Malay Mail race-begins dup).
+
+## 🔴 PIR-06 — COALITION OPERATIONAL ARRANGEMENT — PRECURSOR ESCALATION (NEW signal)
+**Formal-removal threshold (expulsion notice / candidate withdrawal): STILL NOT CROSSED.** [CRITICAL] NOT triggered. But precursor signals INTENSIFIED this cycle:
+
+1. **NEW PRECURSOR — "Kiandee asks Muhyiddin if Bersatu Supreme Council still has quorum" (NST, headline-intel)** — Kiandee now questions whether Bersatu's Supreme Council even has quorum (implying mass exits have hollowed out the party body). This is an ESCALATION beyond prior "asas kukuh to remove" — from "grounds to remove" to "is the decision-making body even functional?". Genuinely new this cycle (absent from all prior 051226 files). → `priority_pir-06_kiandee-asks-muhyiddin-if-bersatu-supreme-council-still-has-quorum-nst-online_20260719_064654.md`
+2. **"PAS may leave or be expelled from Perikatan after split with Bersatu, say analysts" (The Star, headline-intel)** — inverse-speculation (PAS as the one to leave, not Bersatu) now surfacing in genuinely-new form.
+3. **Hadi "Bukan retorik" — NS as PRU16 political laboratory (FMT, full text 4019c, 09:30 MYT):** Analyst Ahmad Zaharuddin Sani frames Hadi's "more than marriage" as testing a cooperation model that "if succeeds, can expand to PRU16; if fails, both sides can say they never truly married." NS = "makmal politik" (political laboratory). Azmi Hassan: Johor PAS-Umno success is the motivator. → `priority_pir-06_bukan-retorik-hadi-beri-isyarat-uji-model-kerjasama-pn-bn-menjelang-pru16_20260719_064654.md`
+4. **Bersatu advised to QUIT PN with Gerakan+MIPP (FMT, full text 2900c, EN+BM, 09:00 MYT)** — IIUM's Lau Zhe Wei advises Bersatu to leave PN and take Gerakan/MIPP; USM's Azeem Fazwan expects Bersatu wiped out in NS. (Carryover signal re-confirmed with full text this cycle.)
+5. **Awani "Teka-teki 11 kerusi BN terjawab, PN umum baki calon" (full text 1305c, 16 Jul 23:12):** PN announces remaining candidates — resolves the "mystery of 11 BN seats." Confirms seat configuration: BN 25 / PN 11, no clashes.
+
+**PIR-06 status: PRECURSORS ACCUMULATING + ESCALATING (quorum question).** No formal expulsion/withdrawal → not [CRITICAL]. Kiandee quorum question is the strongest pre-threshold signal this cycle — monitor for any Bersatu Supreme Council statement responding to it.
+
+**Tier-4 seat watch (N.04, N.05, N.13, N.14, N.23, N.25, N.31, N.34):** No Bersatu candidate withdrawals reported this cycle. Bersatu 24 solo candidates stable.
+
+## 🔴 PIR-07 — HIGHEST-PRIORITY BATTLEGROUNDS — DAY-1 CAMPAIGN INTEL (NEW)
+
+### N.28 Klawang — T1 SEAT, Day-1 campaign (Awani full text, 12:11 MYT):
+**3-cornered fight:** PH incumbent **Datuk Bakri Sawir** vs PN's **Danni Rais** (Bakri's COUSIN) vs Bersatu's **Muhammad Adib Musa**. **13,355 registered voters.**
+- Day-1 (19 Jul morning): Both cousins campaigned at **Pasar Minggu Kuala Klawang** (Jelebu) at the same time — met peacefully, joked together, no provocation. Bakri: "no special challenge… campaign healthily, follow rules" — even took down flags after Majlis Daerah Jelebu warning. Mature-campaign framing.
+→ `priority_pir-07_awani-dua-sepupu-klawang_20260719_064654.md` — **FRESH Day-1 marquee-seat coverage (highest PIR-07 value this cycle).**
+
+### Tok Mat — Rantau (T1 marquee, NST full text, 14:46 MYT, FRESH):
+Tok Mat (Mohamad Hasan, BN candidate Rantau) at Sendayan Air Base Family Day Carnival: BN-PN understanding "important to safeguard the future of race and religion." First mooted **2018** but "fell through halfway." "**If we don't do it this time, we will miss the boat**… our children and grandchildren will become mere traders in their own country." Frames BN-PN as EXISTENTIAL for Malay future. → `priority_pir-07_n9-polls-act-now-or-lose-chance-forever-says-tok-mat_20260719_064654.md`
+
+### Anwar — discipline warning to federal office-holders (NST full text, 14:47 MYT, FRESH):
+PM Anwar warns ministers/deputy ministers/agency heads to **RESIGN if they intend to use federal positions to attack unity-government partners** during state campaigns. Federal-aligned parties free to contest each other in state polls, but office-holders must keep discipline. Conveyed in discussions yesterday with DPMs Zahid + Fadillah. (Article marked "MORE TO COME" — being updated.) → `priority_pir-07_resign-if-you-want-to-attack-unity-partners-anwar-tells-ministers_20260719_064654.md`
+
+### Hadi — Malay-Muslim unity formula (NST full text, 14:03 MYT, FRESH):
+Hadi (FB post): support PAS+Umno+MCA+MIC+DHPP "non-extreme" formula; extend to Sabah/Sarawak to "save Malaysia." Reject "unnatural Malay groups with DAP" (secular/chauvinist). NS: BN 25 / PN 11 / PAS 5 under PN. Frames NS as PRU16 realignment test. → `priority_pir-06-pir-16_hadi-calls-for-malay-muslim-unity-with-non-extreme-partners-including-mca-mic_20260719_064654.md`
+
+### Anwar — Ali Baba Bujang Lapok unity speech (NST full text, 12:21 MYT):
+At National Month launch (Ipoh): "Unity alone is not enough — the 40 thieves were also united." "Unite to improve lives, not to steal/plunder timber and wealth." Multi-ethnic independence narrative; implicit counter to BN-PN "Malay unity" framing. Fahmi + Perak MB Saarani present. → `priority_pir-07_anwar-invokes-ali-baba-bujang-lapok-to-urge-unity-reject-plunder_20260719_064654.md`
+
+### Loke — MCA "biggest loser" (FMT full text, EN+BM, 12:26 MYT):
+Loke (after Pasar Besar Seremban walkabout): MCA "biggest loser" — surrendered **Lobak, Mambau, Lukut** to PN. MCA contesting 7 seats (mostly straight fights, except Nilai/Temiang/Rahang where Bersatu also contests). "I want to thank Wee Ka Siong for being so generous." BN-PN pact = biggest PH challenge (avoids Malay vote-split, allows vote transfers). PH campaigns "as one team." → `priority_pir-06-pir-16_mca-biggest-loser-in-bn-pn-negeri-sembilan-pact-says-loke_20260719_064654.md`
+
+### Other operational:
+- **PDRM riot simulation** ahead of election (Newswav, headline-intel); **nomination-day-marks-start** (Newswav, headline-intel); **NS race begins** (Malay Mail, headline-intel dup); **PH to unveil lineup "tomorrow night"** (NST, headline-intel — refers to pre-nomination; now superseded by confirmed lineup).
+
+## 🟡 PIR-16 — FIRST DOMINANT CAMPAIGN NARRATIVES — UPDATED
+
+### Narrative architecture (this cycle's contributions):
+1. **"MCA biggest loser" (Loke) — DOMINANT, amplified EN+BM** — now in both languages via FMT (12:26 MYT EN, 13:30 MYT BM). Loke mocks MCA's "generosity" in ceding 3 seats. **Viral-risk: MCA rebuttal watch** (Wee/Mah Hang Soon response expected).
+2. **"NS = political laboratory for PRU16" (Hadi + analysts) — NEW framing** — Hadi "more than marriage" + Zaharuddin Sani "makmal politik" + Azmi Hassan "Johor formula." NS results = market test for a new coalition. Frames every NS seat as a PRU16 indicator.
+3. **"Act now or lose chance forever" (Tok Mat) — EXISTENTIAL Malay-future framing** — racial/religious safeguard; "children become traders in their own country." Directly counters DAP/Madani multi-ethnic narrative.
+4. **"Malay-Muslim unity with non-extreme partners" (Hadi) — EXPANDED** — now explicitly names MCA+MIC+DHPP as acceptable; rejects "unnatural Malay groups with DAP." Penyatuan undi Melayu with conditional multiracial extension.
+5. **"Unity for what? Ali Baba's 40 thieves were also united" (Anwar) — COUNTER-NARRATIVE** — attacks unity-without-purpose; "not to steal/plunder." Madani multi-ethnic counter to BN-PN Malay-unity.
+6. **"Resign to attack unity partners" (Anwar) — DISCIPLINE narrative** — federal-state firewall; office-holders can't use positions against coalition partners.
+7. **"Mature campaign" (Awani voters) — PROCESS narrative** — voters want "kempen matang, calon fokus kehendak rakyat"; Bakri Sawir (Klawang) embodies it (took down warned flags).
+8. **"State elections as indicator" (Zan Azlee, mkini paywalled preview)** — description explicitly: "We will probably see another hung parliament after next general election."
+
+## 📈 CYCLE DELTA: 051226 → 064654 (13:12 → 14:46 MYT, ~1h34m)
+- **Titles scanned:** 1151 → 1160 (+9)
+- **Genuinely-new PRIORITY titles:** 32
+- **Priority files created:** 29 (vs 54 prior — prior cycle had FMT first-discovery surge; this cycle is steady-state + Awani Day-1 campaign)
+- **Full-text articles (body>150c):** 18 (FMT 7 + NST 7 + Awani 3 + mkini 1 preview)
+- **Total body chars:** ~44,684
+- **Fresh (post-13:12 MYT):** 2 NST articles (Tok Mat 14:46, Anwar 14:47) — breaking-news tier; plus Hadi 14:03, Awani 13:58 just inside window.
+- **PIR-06 status change:** PRECURSORS ESCALATED — Kiandee quorum question (new); formal threshold still NOT crossed.
+- **New source path exploited:** Awani direct fetch (berita-politik slug) — curl-friendly static HTML, full text recoverable.
+
+## 🎯 NEXT-CYCLE RECOMMENDATIONS (15:30-16:30 MYT window)
+1. **PIR-06 (HIGHEST):** Watch for Bersatu Supreme Council response to Kiandee's quorum question — a formal statement confirming/denying quorum would be a threshold-adjacent signal. Monitor Muhyiddin's afternoon/evening statements for "new coalition" formalization.
+2. **PIR-07:** Capture afternoon ceramah/walkabout for T1 seats — Klawang (cousins angle, high-viral-risk), Linggi (Aminuddin), Sikamat (Nor Azman vs Tun Faisal), Chennah (Loke vs Siow), Rantau (Tok Mat). Awani homepage re-poll for fresh campaign dispatches.
+3. **PIR-16:** MCA rebuttal watch — Loke "biggest loser" likely draws Wee/Mah response. Anwar "resign to attack" + Tok Mat "act now" are competing discipline/existential narratives — track which dominates evening news cycle.
+4. **Source maintenance:** Re-poll FMT RSS + NST feed for items published after 14:47 MYT. Retry mkini 780073 (Loke) full text via JS-render if available (still paywalled preview 360c).
+5. **Awani:** Construct-slug fetch worked well (3/3 success) — repeat for any new berita-politik titles in next gnews poll.
+
+## ⚠️ COLLECTION LIMITATIONS (updated)
+- **mkini paywall:** 780073 (Loke) still preview-only (360c); 780063 (Zan Azlee) corrected-URL retry = 507c preview. Both paywalled.
+- **gnews protobuf resolution via curl:** STILL infeasible (confirmed across 4 cycles). 10 items this cycle saved as headline-intelligence (title + source + pubdate where available). Kiandee-quorum NST article is headline-intel only — full text requires NST feed (may have rotated past top-50) or JS-render.
+- **The Star / Malay Mail search:** JS-rendered; dups (Malay Mail race-begins) saved as headline-intel only.
+- **SOLVED this cycle:** Awani direct-fetch (berita-politik slug) is curl-friendly — 3/3 full-text success. Added to source toolkit alongside FMT RSS + NST WordPress feed.
+
+---
+
+*Cycle 064654 section appended 2026-07-19 14:50 MYT (06:50 UTC) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL.*
