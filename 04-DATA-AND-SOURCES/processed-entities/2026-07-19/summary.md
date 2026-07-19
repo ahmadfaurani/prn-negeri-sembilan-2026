@@ -241,3 +241,75 @@ This means the **BN-PN operational arrangement and the Bersatu-exit-from-PN traj
 
 ---
 *Entity extraction complete. 226 entities saved to `entities-20260719-1725.json`. 21 new entities, 13 context updates. [CRITICAL] count unchanged at 14 (no new threshold crossed; 12th consecutive cycle). [PRIORITY] count +13 (90→103).*
+
+---
+
+# EXTRACTION RUN 20260719-1954 — Cycle 20260719_182000 (13th cycle, Day-2 dawn)
+
+**Run:** 20260719-1954 (4th carry-forward of Director-approved 19 Jul 17:25 MYT cycle)
+**Source:** `04-DATA-AND-SOURCES/raw-scrapes/20260719/` — cycle 20260719_182000 (02:20 MYT 20 Jul, Campaign Day 2 dawn window — QUIET)
+**Output:** `entities-20260719-1954.json` (**228 entities**: PIR-06=54, PIR-16=67, PIR-07=107; critical=14, priority=105, normal=109)
+**Prior runs today:** 1217 (133) → 1435 (205) → 1725 (226) → **this run (228, +2 new, 7 context updates)**
+**Build script:** `_build_entities_1954.py`
+
+## Cycle 182000 character — QUIET corroboration (Day-2 dawn, post-midnight MYT)
+
+The 182000 fetch produced only **5 files** (4 full-text RSS + 1 gnews headline-intel duplicate). The Malaysian news cycle is dormant post-midnight MYT. **1 genuinely-fresh post-cutoff article** (BH BM "Kalau orang dah tak suka, buat apa nak tunggu - Khaled Nordin", 23:45 MYT 19 Jul). The other 3 full-text items (NST EN Khaled, FMT BM Khaled, FMT BM Loke) are outlet/language DUPLICATE versions of stories already captured in the prior 171500 cycle (which the 1725 run ingested). **All 8 mandatory PIR-06 [CRITICAL]-watch gnews queries returned 0** (kuorum, lebih-hebat, bersatu-exit-pn, sasar-kerajaan-negeri, pdm-klawang, pn-supreme-council, merge-machinery, joint-manifesto).
+
+**PIR-06 [CRITICAL] status: MAINTAINED** (Kiandee quorum escalation, originated 11 Jul, flagged 075200 cycle). **No new [CRITICAL] threshold crossing — 13th consecutive cycle.** Formal PN-MT expulsion notice / Bersatu candidate withdrawal / RoS intervention / "lebih hebat new coalition" formalization / PN Supreme Council statement — all STILL NOT issued.
+
+## What is genuinely NEW this run (2 new entities, 7 context updates)
+
+The 182000 cycle's value is **corroboration/strengthening** of existing entities, not new threshold-crossing signals. The full-text recovery of NST EN + BH BM + FMT BM versions of Khaled Nordin's Johol machinery-launch statement surfaces two analytical angles worth distinct entities:
+
+### 🔴 NEW PIR-06 narrative — "PM discretion on minister appointments (hak mutlak PM / budi bicara PM)"
+Khaled Nordin (Umno VP / Defence Minister) at the BN Johol machinery launch — now **4-outlet** corroborated (Awani BM 23:36 [prior 171500] + NST EN 23:44 + BH BM 23:45 + FMT BM 16:04 [this cycle]). The clearest articulation of the BN counter-line to the resign-narrative:
+> *"PM alone decides ministers' fate" / "urusan lantikan serta kedudukan seorang menteri... hak mutlak Perdana Menteri" / "budi bicara PM" / "kalau orang dah tak suka, buat apa nak tunggu"* (if people don't want you, why wait — implicit jab at Tok Mat resign-ready).
+> *"Tak payahlah (Pemuda PH) nak suruh mana-mana menteri (letak jawatan)... dia cakaplah dengan ketua parti dia."*
+
+This is the BN-side reinforcement of "PM's discretion" framing — responds to (a) AMH resign-call, (b) Tok Mat "ready to resign", (c) Anwar "resign to attack unity partners" warning. Classified **[PRIORITY PIR-06]** — rhetorical, NOT [CRITICAL] (not a formal PN-MT action / expulsion / withdrawal / quorum signal).
+
+### 🔴 NEW PIR-16 narrative — "bipartisan clean-campaign convergence (state-development focus)"
+The 182000 full text reveals Khaled Nordin (BN/Umno VP) **adds a BN VOICE** to the clean-campaign call — previously attributed only to Loke (PH) and Anwar (PM):
+> *"PRN NS seharusnya memberi tumpuan kepada isu berkaitan pembangunan negeri dan bukannya dijadikan medan serangan antara parti... tak perlu guna pendekatan yang boleh menyakitkan hati ataupun saling memburuk-burukkan."*
+> References Zahid (Umno president / BN chairman): *"Seperti ditekankan Presiden UMNO... kempen perlu dijalankan secara berhemah."*
+
+The clean-campaign / state-development-focus call is now **BIPARTISAN**: Loke (PH, 3-publisher NST+BH+Metro) + Anwar (PM, NST 14:47) + Khaled (BN, NST+BH+FMT) + Zahid (BN, via Khaled reference). This converges with the existing Loke "campaign on policies not personal attacks" [211] narrative and **counters the 'derhaka'/personal-attack + resign-narrative friction**. A multi-leader convergence signal — classified **[PRIORITY PIR-16]**.
+
+### Context updates (7) — 182000 corroboration notes appended
+| Entity | Update |
+|---|---|
+| Mohamed Khaled Nordin | "PM hak mutlak / kalau orang dah tak suka" Johol statement now 4-outlet (Awani BM + NST EN + BH BM + FMT BM) |
+| Khaled dismisses AMK resign-call | now 4-outlet; full-text confirms "PM's absolute right/discretion" framing |
+| campaign on policies not personal attacks (Loke) | clean-campaign call now BIPARTISAN (Loke PH + Anwar PM + Khaled BN + Zahid BN) |
+| Ahmad Zahid Hamidi (Zahid) | "kempen berhemah" (prudent campaign) emphasis referenced by Khaled at Johol launch |
+| PH sasar 23 kerusi (safe majority / 8123) | FMT BM 5th-outlet version recovered (16:01 MYT, 3550c); 5-publisher corroboration confirmed |
+| N.19 Johol | Khaled BN machinery launch now 4-outlet corroborated |
+| Saiful Yazan Sulaiman | introduction corroborated NST EN + BH BM + FMT BM |
+
+## Headline Findings (cumulative, 13 cycles) — UNCHANGED structure, reinforced corroboration
+
+The three converging **[CRITICAL] PIR-06 triggers** (Director-designated) remain in play, none newly crossed this cycle:
+1. **"lebih hebat" new-coalition declaration** (Muhyiddin, 17 Jul) — still at hint/bayangan stage; **no formal launch 18-19 Jul** (gnews "lebih hebat" = 0, 13th cycle).
+2. **"sasar bentuk kerajaan negeri" solo governing bid** (Bersatu 24 seats > 19 threshold) — MalaysiaGazette + Sinar 19 Jul; the **PH/Loke "sasar 23 kerusi"** version (this cycle's FMT BM 5th outlet) is PH-attributed and does NOT cross the [CRITICAL] trigger (Bersatu-attributed only).
+3. **Kiandee quorum escalation** (11 Jul, [CRITICAL] flagged 075200) — maintained; Radzi Jidin rebuttal contested (49-vs-23 baseline); no PN-MT convening response.
+
+**"toxic PN" framing** (Muhyiddin) + **"pecat" enforcement** (Gerakan→Tang Jay Son) + **Bersatu KO habis** (Khaled 4-publisher anti-Bersatu) + **"Bersatu kacau daun"** (Wan Saiful + Khaled hard-news FMT) — all sustained.
+
+### The central tension (unchanged, reinforced this cycle)
+PN concedes the NS MB post to BN, merges machinery (gabung jentera), prepares a joint manifesto (manifesto bersepadu), permits joint ceramah (kongsi pentas) — **while Bersatu simultaneously declares a "lebih hebat" post-PRN new coalition, contests 24 seats under its own logo targeting solo state-government formation, frames PN as "toksik", and faces an internal MPT quorum crisis (Kiandee)**. Meanwhile BN's own Umno VP (Khaled) publicly calls for Bersatu to be "KO habis" electorally so BN gets straight fights in PRU16 — and (this cycle's new angle) reinforces the "PM discretion" counter-line + adds a BN voice to the clean-campaign call. The BN-PN operational arrangement and the Bersatu-exit-from-PN trajectory run in parallel on the same ballot.
+
+### Resign-narrative chain (6 beats, unchanged; Khaled "PM hak mutlak" now 4-outlet)
+1. AMH joint statement (10:43 MYT) → 2. Anwar warning (14:47) → 3. Tok Mat "ready to resign" (5-outlet, +Metro BM) → 4. Akmal conditional "I'll resign if Nga quits" → 5. Hassan Karim PKR dissent → 6. Nga resignation pledge context. **Khaled's "PM hak mutlak / kalau orang dah tak suka" (now 4-outlet) reinforces beat 2/3 — the BN counter-line that minister appointments are the PM's absolute discretion.**
+
+## Methodology notes
+- **Cycles covered:** 075200 → 171500 (prior 1725 run, 226 entities) + **182000 (this run, +2 entities, +7 context updates)**.
+- **Source URLs** are direct article URLs where full text was fetched (NST RSS, BH RSS, FMT RSS); the 1 gnews headline-intel duplicate cites the publisher (NST Online) and is not curl-resolvable (gnews protobuf).
+- **[CRITICAL] flags** applied per Director-designated PIR-06 triggers ("pecat"/"keluar"/"tarik diri"/"termination"/"toxic PN"/"kuorum"/"lebih hebat") and Director PIR-16 rule (hard-news corroboration of "Bersatu sasar bentuk kerajaan negeri"). **No new [CRITICAL] threshold crossed this run** (13th consecutive cycle; Kiandee quorum [CRITICAL] from 11 Jul maintained).
+- **[PRIORITY] flags** applied per Director rules: viral-content amplifiers (PIR-16); "fleeing Sikamat"/"not taking for granted"/"derhaka" (PIR-07); rhetorical escalations (Khaled "PM hak mutlak", "Bersatu KO habis", "gelombang Melayu", "Bersatu kacau daun" hard-news pickup). The 2 new entities this run are [PRIORITY] (rhetorical/narrative corroboration, not formal PN-MT action).
+- **This run (1954) supersedes the 1725 run** by incorporating the 182000 cycle: Khaled Johol "PM hak mutlak / kalau orang dah tak suka" 4-outlet corroboration (NST EN + BH BM + FMT BM full-text recovery) + Loke "23 kerusi" FMT BM 5th outlet + bipartisan clean-campaign convergence (Khaled BN voice + Zahid "berhemah" reference).
+- **Honest limitation:** The 182000 cycle is low-yield by nature (Day-2 dawn, post-midnight MYT). The 2 new entities + 7 context updates represent the genuine analytical delta; the bulk of the day's entity inventory (226 of 228) was established in the 1725 run. No fabrication — all entities trace to fetched article URLs.
+
+---
+
+*Entity extraction complete. 228 entities saved to `entities-20260719-1954.json`. 2 new entities, 7 context updates. [CRITICAL] count unchanged at 14 (no new threshold crossed; 13th consecutive cycle). [PRIORITY] count +2 (103→105). Cycle 182000 = QUIET corroboration (Day-2 dawn window): 5 files fetched, 1 genuinely-fresh (BH BM Khaled 23:45 MYT), all 8 mandatory PIR-06 [CRITICAL]-watch gnews queries returned 0. PIR-06 [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle.*

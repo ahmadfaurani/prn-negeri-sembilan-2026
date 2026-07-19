@@ -1,0 +1,84 @@
+{
+  "cycle": "20260719_182000",
+  "cutoff_myt": "01:15",
+  "now_iso": "2026-07-19 18:33:48 UTC",
+  "results": [
+    {
+      "pir": "PIR-06",
+      "slug": "tak-payah-desak-kuasa-pm-tentu-jawatan-menteri-kata-khaled",
+      "file": "priority_pir-06_tak-payah-desak-kuasa-pm-tentu-jawatan-menteri-kata-khaled_20260719_182000.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 1872,
+      "title": "Tak payah desak, kuasa PM tentu jawatan menteri, kata Khaled",
+      "final": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/tak-payah-desak-kuasa-pm-tentu-jawatan-kata-khaled",
+      "pub": "Sun, 19 Jul 2026 16:04:56 +0000",
+      "mode": "FMT-rss",
+      "fresh": false
+    },
+    {
+      "pir": "PIR-16",
+      "slug": "ph-sasar-menang-23-kerusi-untuk-selamat-di-n-sembilan-kata-loke",
+      "file": "priority_pir-16_ph-sasar-menang-23-kerusi-untuk-selamat-di-n-sembilan-kata-loke_20260719_182000.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 3550,
+      "title": "PH sasar menang 23 kerusi untuk ‘selamat’ di N Sembilan, kata Loke",
+      "final": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/ph-sasar-menang-23-kerusi-di-n-sembilan-bentuk-kerajaan-negeri-lebih-stabil",
+      "pub": "Sun, 19 Jul 2026 16:01:50 +0000",
+      "mode": "FMT-rss",
+      "fresh": false
+    },
+    {
+      "pir": "PIR-06",
+      "slug": "pm-alone-decides-ministers-fate-says-khaled",
+      "file": "priority_pir-06_pm-alone-decides-ministers-fate-says-khaled_20260719_182000.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 1450,
+      "title": "PM alone decides ministers' fate, says Khaled",
+      "final": "https://www.nst.com.my/news/nation/2026/07/1492740/pm-alone-decides-ministers-fate-says-khaled",
+      "pub": "Sun, 19 Jul 2026 23:44:55 +0800",
+      "mode": "NST-rss",
+      "fresh": false
+    },
+    {
+      "pir": "PIR-06",
+      "slug": "kalau-orang-dah-tak-suka-buat-apa-nak-tunggu-khaled-nordin",
+      "file": "priority_pir-06_kalau-orang-dah-tak-suka-buat-apa-nak-tunggu-khaled-nordin_20260719_182000.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 1698,
+      "title": "\"Kalau orang dah tak suka, buat apa nak tunggu\" - Khaled Nordin",
+      "final": "https://www.bharian.com.my/berita/nasional/2026/07/1590568/kalau-orang-dah-tak-suka-buat-apa-nak-tunggu-khaled-nordin",
+      "pub": "Sun, 19 Jul 2026 23:45:19 +0000",
+      "mode": "BH-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-06",
+      "slug": "pm-alone-decides-ministers-fate-says-khaled",
+      "file": "priority_pir-06_pm-alone-decides-ministers-fate-says-khaled_20260719_182000_gnews.md",
+      "http": "gnews",
+      "ok": false,
+      "body_len": 0,
+      "title": "PM alone decides ministers' fate, says Khaled",
+      "final": "https://news.google.com/rss/search?q=anwar+tok+mat+resign+when:3d&hl=en-MY&gl=MY&ceid=MY:en",
+      "pub": "Sun, 19 Jul 2026 15:44:55 GMT",
+      "mode": "gnews-headline",
+      "source": "NST Online",
+      "fresh": false
+    }
+  ],
+  "fresh_items": [
+    {
+      "source": "BH",
+      "title": "\"Kalau orang dah tak suka, buat apa nak tunggu\" - Khaled Nordin",
+      "pub": "Sun, 19 Jul 2026 23:45:19 +0000",
+      "url": "https://www.bharian.com.my/berita/nasional/2026/07/1590568/kalau-orang-dah-tak-suka-buat-apa-nak-tunggu-khaled-nordin",
+      "pir": "PIR-06"
+    }
+  ],
+  "results_count": 5,
+  "fresh_count": 1
+}
