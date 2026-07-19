@@ -33,4 +33,4 @@ constituencies/
 intelligence/
 logs/
 reports/
-scripts/
+# NOTE: 'scripts/' rule removed — was blocking 05-TOOLS-AND-AUTOMATION/scripts/ tracking

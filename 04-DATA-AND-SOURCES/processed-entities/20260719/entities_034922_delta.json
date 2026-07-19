@@ -1,0 +1,202 @@
+{
+  "date": "2026-07-19",
+  "collection_date": "20260719",
+  "processing_timestamp_utc": "2026-07-19 03:57:00 UTC",
+  "processing_timestamp_myt": "2026-07-19 11:57 MYT",
+  "file_id": "entities_034922_delta",
+  "cycle": "20260719_034922 (03:48 UTC / 11:48 MYT)",
+  "prior_build": "entities_021231.json (02:12 UTC / 10:12 MYT)",
+  "classification": "TLP:AMBER",
+  "extractor": "PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode",
+  "director_priority_approved": "PIR-06, PIR-09, PIR-07 (cycle 011915); + PIR-16 (mission-level, 19 Jul)",
+  "delta_summary": {
+    "titles_scanned_this_cycle": 1164,
+    "genuinely_new_priority_titles_vs_prior_cycle_024042": 22,
+    "fresh_priority_items_pubdate_ge_1040myt_cutoff": 2,
+    "priority_full_text_files_written_this_cycle": 15,
+    "full_body_articles": 3,
+    "mkini_paywalled_previews": 6,
+    "headline_intelligence_only_gnews": 6,
+    "critical_pir06_formal_removal_hits": 0,
+    "critical_pir06_status": "NOT DETECTED — UNCHANGED across 3 cycles (3489 titles total)"
+  },
+  "new_seats_confirmed_lineup": {
+    "_source": "Malay Mail — 'Fractured alliances, multi-cornered fights shape Negeri Sembilan state election after nominations close' (18 Jul 20:02 MYT)",
+    "_source_file": "priority_pir-07_malaymail-ns-race-begins-nomination-day_20260719_034922.md",
+    "ec_totals": {"candidates": 103, "seats": 36, "straight_fights": 11, "three_cornered": 21, "four_cornered": 2, "five_cornered": 2},
+    "polling_day": "2026-08-01",
+    "nomination_day": "2026-07-18",
+    "legislature_dissolved": "2026-06-26",
+    "marquee_battles": [
+      {"seat": "Chennah", "type": "straight", "candidates": [{"name": "Anthony Loke Siew Fook", "party": "PH-DAP", "role": "DAP sec-gen / Transport Minister, incumbent"}, {"name": "Siow Kong Choon", "party": "BN-MCA"}], "pir_tag": "PIR-07/16 marquee"},
+      {"seat": "Rantau", "type": "straight", "candidates": [{"name": "Mohamad Hasan (Tok Mat)", "party": "BN-Umno", "role": "Umno deputy president, incumbent"}, {"name": "Dr Azizul Hakim Mahdi", "party": "PH-PKR"}], "pir_tag": "PIR-07 marquee"},
+      {"seat": "Linggi (N.32)", "type": "3-cornered", "candidates": [{"name": "Aminuddin Harun", "party": "PH-PKR", "role": "Outgoing MB, moved from Sikamat"}, {"name": "Datuk Mohd Faizal Ramli", "party": "BN", "role": "Strong BN opponent"}, {"name": "Datuk Zamri Md Said", "party": "Bersatu"}], "pir_tag": "PIR-07 T1 — MB moves seat"},
+      {"seat": "Sikamat (N.13)", "type": "3-cornered", "candidates": [{"name": "Nor Azman Mohamad", "party": "PH", "role": "Aminuddin's political secretary"}, {"name": "Datuk Tun Faisal Ismail Aziz", "party": "Bersatu", "role": "Bersatu info chief"}, {"name": "Razali Abu Samah", "party": "Wawasan"}], "pir_tag": "PIR-07 T1 — tests PH without MB on ballot"},
+      {"seat": "Lenggeng", "type": "3-cornered", "candidates": [{"name": "Datuk Mohd Asna Amin", "party": "BN"}, {"name": "Zarinna Abu Zarin", "party": "Amanah"}, {"name": "Zool Amali Hussein", "party": "Bersatu", "role": "former Seremban Umno Youth chief — defector"}], "pir_tag": "PIR-07/16 shifting alliances"},
+      {"seat": "Nilai (N.10)", "type": "5-cornered", "candidates": [{"name": "J. Arul Kumar", "party": "PH-DAP", "role": "incumbent"}, {"name": "Lai Chien Kong", "party": "BN"}, {"name": "V. Saravan Kumar", "party": "Bersatu"}, {"name": "Zamani Ibrahim", "party": "Berjasa"}, {"name": "Omar Isa", "party": "Independent"}], "pir_tag": "PIR-07 T1 — vote-split test"},
+      {"seat": "Sri Tanjung (N.33)", "type": "5-cornered", "candidates": [{"name": "Datuk Dr G. Rajasekaran", "party": "PH"}, {"name": "A. Achutan", "party": "BN"}, {"name": "M. Leevineshwaraan Murugan", "party": "Bersatu"}, {"name": "Datuk A. Saravanan", "party": "Independent"}, {"name": "Islah Wahyudi Sainudin", "party": "Independent"}], "pir_tag": "PIR-07 T1 — vote-split test"},
+      {"seat": "Gemas", "type": "straight", "candidates": [{"name": "Siti Aishah Seman @ Othman", "party": "PH-PKR"}, {"name": "Ridzuan Ahmad", "party": "Wawasan", "role": "PIR-06: Bersatu-quit figure (per The Edge 'incumbent Gemas rep resigns as division chief, quits Bersatu')"}], "pir_tag": "PIR-06 defector/quit signal confirmed"},
+      {"seat": "Bahau", "type": "straight", "candidates": [{"name": "Teo Kok Seong", "party": "PH-DAP", "role": "incumbent"}, {"name": "Chong Fui Ming", "party": "BN-MCA"}]},
+      {"seat": "Kota", "type": "3-cornered", "candidates": [{"name": "Suhaimi Aini", "party": "BN", "role": "incumbent, BN stronghold"}, {"name": "Allif Ibrahim", "party": "PH"}, {"name": "Akmal Noradzmi Abd Rahim", "party": "Bersatu"}]},
+      {"seat": "Lobak", "type": "straight", "candidates": [{"name": "Chew Seh Yong", "party": "PH-DAP"}, {"name": "Dr P. Kumar", "party": "PAS"}]},
+      {"seat": "Bukit Kepayang", "type": "straight", "candidates": [{"name": "Nicole Tan Lee Koon", "party": "PH-DAP", "role": "incumbent"}, {"name": "Lee Boon Shian", "party": "Gerakan"}]},
+      {"seat": "Paroi", "type": "straight", "candidates": [{"name": "Ahmad Shahir Mohd Shah", "party": "Amanah"}, {"name": "Kamarol Ridzuan Mohd Zain", "party": "PAS"}]},
+      {"seat": "Lukut", "type": "straight", "candidates": [{"name": "Choo Ken Hwa", "party": "PH-DAP", "role": "incumbent"}, {"name": "Sathes Kumar Nilameham", "party": "MIPP"}]},
+      {"seat": "Bagan Pinang", "type": "straight", "candidates": [{"name": "Nasir Rahman", "party": "Amanah"}, {"name": "Abdul Fatah Zakaria", "party": "PAS"}]},
+      {"seat": "Repah", "type": "straight", "candidates": [{"name": "S. Veerapan", "party": "PH-DAP", "role": "incumbent"}, {"name": "Koh Kim Swee", "party": "BN-MCA"}]},
+      {"seat": "Jeram Padang", "type": "4-cornered", "candidates": [{"name": "Datuk Mohd Zaidy Abdul Kadir", "party": "BN"}, {"name": "G. Manivann", "party": "PH"}, {"name": "R. Sri Sanjeevan", "party": "Bersatu"}, {"name": "Dayana Dal", "party": "Parti Orang Asli Malaysia (ASLI)"}]},
+      {"seat": "Rahang", "type": "4-cornered", "candidates": [{"name": "Desmond Siau Meow Kong", "party": "PH"}, {"name": "Yap Siok Moy", "party": "BN"}, {"name": "Tang Jay Son", "party": "Bersatu"}, {"name": "T. Tharmaseelan", "party": "Parti Sosialis Malaysia"}]}
+    ]
+  },
+  "new_pir16_narrative_signals": [
+    {
+      "narrative": "BN-PN understanding NOT merger (OFFICIAL framing)",
+      "salience": "DOMINANT",
+      "carriers": [
+        {"speaker": "Wee Ka Siong", "role": "MCA president", "statement": "BN-PN pact in NS not a merger, MCA principles intact; each party retains ideology/stance; pact for strong stable state govt", "pubdate": "18 Jul 14:47 MYT", "source": "Malaysiakini", "file": "priority_pir-06-pir-16_mkini-wee-bn-pn-not-merger_20260719_034922.md"},
+        {"speaker": "Zahid Hamidi", "role": "BN chairman / Umno president", "statement": "BN collaboration with PN merely an understanding, no agreements (carryover)", "source": "carryover prior cycle"},
+        {"speaker": "Hadi Awang", "role": "PAS president", "statement": "BN-PN ties based on friendship, brotherhood", "pubdate": "18 Jul 14:06 MYT", "source": "mkini SNAPSHOT", "file": "priority_pir-16-pir-07_mkini-snapshot-hadi-tokmat-adat_20260719_034922.md"}
+      ],
+      "pir": ["PIR-06", "PIR-16"]
+    },
+    {
+      "narrative": "MCA internal dissent over BN-PN cooperation",
+      "salience": "MEDIUM — shows BN-PN cooperation causing internal friction",
+      "carriers": [
+        {"actor": "Saw Yee Fung", "role": "MCA Youth sec-gen", "statement": "Told to 'stay out of NS polls' over PN ally disagreement; MCA sec-gen Chong Sin Woon WhatsApp: 'you don't have to come'", "pubdate": "18 Jul 10:40 MYT", "source": "Malaysiakini", "file": "priority_pir-07-pir-16_mkini-mca-youth-stay-out_20260719_034922.md"}
+      ],
+      "pir": ["PIR-16", "PIR-06"]
+    },
+    {
+      "narrative": "Melaka DAP withdrawal from state government (MAJOR)",
+      "salience": "DOMINANT — directly frames DAP acceptance in NS PRN Malay seats",
+      "summary": "DAP QUIT the Melaka state govt over a bill allowing appointed/nominated assemblymen; 4 DAP reps moved to opposition bloc; Anwar urged postpone but was 'not briefed'; Melaka CM said 'abrupt exit shuts door on negotiations'; Perak unity govt ties unaffected.",
+      "headlines": [
+        "DAP quits Melaka govt in protest of newly passed bill that allows for unelected assemblymen",
+        "Melaka DAP quits state government over nominated assemblymen Bill (Malay Mail)",
+        "Melaka assembly: Four DAP assemblymen moved to opposition but Amanah's Adly still seated with govt",
+        "Anwar says not briefed on DAP reps who quit Melaka state govt (KLSE Screener / bernama)",
+        "Anwar urges Melaka DAP to postpone decision to quit state govt (The Star)",
+        "Melaka CM: DAP reps' abrupt exit shuts door on negotiations (The Star)",
+        "DAP reps' pullout in Melaka won't affect Perak unity govt ties, says Saarani (The Star)"
+      ],
+      "files": ["priority_pir-16_malaymail-melaka-dap-quits-state-govt_20260719_034922.md", "priority_pir-16_gnews_star-anwar-melaka-dap-postpone_20260719_034922.md", "priority_pir-16_star-anwar-melaka-dap-postpone_20260719_034922.md"],
+      "limitation": "Full-text URLs for The Star + Malay Mail Melaka articles NOT recoverable via curl (JS-rendered search); captured as headline intelligence from gnews RSS.",
+      "pir": ["PIR-16"]
+    },
+    {
+      "narrative": "Bersatu exit from PN imminent? (mkini amplification)",
+      "salience": "MEDIUM-HIGH — disarray narrative, but rhetorical not formal",
+      "carriers": [
+        {"headline": "SNAPSHOT: Bersatu exit from PN imminent?", "pubdate": "18 Jul 18:00 MYT", "source": "Malaysiakini", "file": "priority_pir-06-pir-16_mkini-snapshot-bersatu-exit-pn-imminent_20260719_034922.md"}
+      ],
+      "pir": ["PIR-06", "PIR-16"]
+    },
+    {
+      "narrative": "Keep adat out of polls campaign",
+      "salience": "MEDIUM",
+      "carriers": [
+        {"speaker": "Mohamad Hasan (Tok Mat)", "statement": "keep adat out of polls campaign", "pubdate": "18 Jul 14:06 MYT", "source": "mkini SNAPSHOT", "file": "priority_pir-16-pir-07_mkini-snapshot-hadi-tokmat-adat_20260719_034922.md"}
+      ],
+      "pir": ["PIR-16"]
+    },
+    {
+      "narrative": "Day-1 campaign operations / police conduct",
+      "salience": "MEDIUM",
+      "carriers": [
+        {"headline": "Polis terima laporan gaduh mulut (one election-offense report from nomination day; no investigation paper opened; 19 ceramah permits ALL APPROVED)", "pubdate": "19 Jul 10:54 MYT", "source": "Kosmo", "file": "priority_pir-07_kosmo-polis-gaduh-mulut_20260719_034922.md"},
+        {"headline": "Loke berkempen jangan langgar peraturan (Loke urges traffic-rule compliance, esp. helmet use in motorcycle convoys; spoke after PH candidates met visitors at Pasar Besar Seremban)", "pubdate": "19 Jul 11:32 MYT", "source": "Utusan", "file": "priority_pir-07-pir-16_utusan-loke-berkempen-jalan-raya_20260719_034922.md"}
+      ],
+      "pir": ["PIR-07", "PIR-16"]
+    },
+    {
+      "narrative": "Independent candidate credibility (PIR-09-adjacent)",
+      "salience": "LOW-MEDIUM",
+      "carriers": [
+        {"headline": "Tamim surrenders to police, hopes to campaign for NS independent candidate (self-proclaimed land activist Tamim Dahri Abd Razak, on the run from court charges linked to religious provocation, surrendered at Port Dickson police HQ 12:45pm)", "pubdate": "18 Jul 21:26 MYT", "source": "Malaysiakini", "file": "priority_pir-09-pir-16_mkini-tamim-surrenders-independent_20260719_034922.md"}
+      ],
+      "pir": ["PIR-09", "PIR-16"]
+    }
+  ],
+  "pir06_status_update": {
+    "pir": "PIR-06 — Coalition Operational Arrangement",
+    "formal_removal_notice_detected": false,
+    "threshold_crossed": false,
+    "status": "UNCHANGED across 3 cycles (3489 titles scanned: 1151 + 1174 + 1164)",
+    "bersatu_operational_position": "SOLO under own logo (24 seats), breaking PN state consensus — operational split, NOT formal expulsion",
+    "precursor_call_for_removal_count": 2,
+    "precursor_signals": [
+      {"carrier": "Ronald Kiandee (Bersatu VP)", "statement": "PN has grounds (asas kukuh) to remove Bersatu", "type": "CALL (not notice)", "status": "stable carryover 18 Jul"},
+      {"carrier": "Analysts via NST", "statement": "PAS may leave or be expelled from PN after split with Bersatu", "type": "inverse speculation", "status": "stable carryover"}
+    ],
+    "defector_quit_confirmed": {"seat": "Gemas", "figure": "Ridzuan Ahmad", "from": "Bersatu", "to": "Wawasan", "source": "The Edge (headline, prior cycle) + Malay Mail lineup (this cycle, confirmed)"},
+    "tier4_seat_watch": {"seats": ["N.04", "N.05", "N.13", "N.14", "N.23", "N.25", "N.31", "N.34"], "bersatu_candidate_withdrawals": 0, "N.14_ampangan_status": "PH defector vs PN experienced rep (Rafie) messaging war continues (carryover)"}
+  },
+  "new_politicians_this_cycle": [
+    {"name": "Datuk Mohd Faizal Ramli", "party": "BN", "seat": "Linggi (N.32)", "role": "Strong BN opponent to MB Aminuddin"},
+    {"name": "Datuk Zamri Md Said", "party": "Bersatu", "seat": "Linggi (N.32)"},
+    {"name": "Nor Azman Mohamad", "party": "PH", "seat": "Sikamat (N.13)", "role": "Aminuddin's political secretary"},
+    {"name": "Datuk Tun Faisal Ismail Aziz", "party": "Bersatu", "seat": "Sikamat (N.13)", "role": "Bersatu information chief"},
+    {"name": "Razali Abu Samah", "party": "Wawasan", "seat": "Sikamat (N.13)"},
+    {"name": "Datuk Mohd Asna Amin", "party": "BN", "seat": "Lenggeng"},
+    {"name": "Zarinna Abu Zarin", "party": "Amanah", "seat": "Lenggeng"},
+    {"name": "Zool Amali Hussein", "party": "Bersatu", "seat": "Lenggeng", "role": "former Seremban Umno Youth chief — defector"},
+    {"name": "J. Arul Kumar", "party": "PH-DAP", "seat": "Nilai (N.10)", "role": "incumbent"},
+    {"name": "Lai Chien Kong", "party": "BN", "seat": "Nilai (N.10)"},
+    {"name": "V. Saravan Kumar", "party": "Bersatu", "seat": "Nilai (N.10)"},
+    {"name": "Zamani Ibrahim", "party": "Berjasa", "seat": "Nilai (N.10)"},
+    {"name": "Omar Isa", "party": "Independent", "seat": "Nilai (N.10)"},
+    {"name": "Datuk Dr G. Rajasekaran", "party": "PH", "seat": "Sri Tanjung (N.33)"},
+    {"name": "A. Achutan", "party": "BN", "seat": "Sri Tanjung (N.33)"},
+    {"name": "M. Leevineshwaraan Murugan", "party": "Bersatu", "seat": "Sri Tanjung (N.33)"},
+    {"name": "Datuk A. Saravanan", "party": "Independent", "seat": "Sri Tanjung (N.33)"},
+    {"name": "Islah Wahyudi Sainudin", "party": "Independent", "seat": "Sri Tanjung (N.33)"},
+    {"name": "Siti Aishah Seman @ Othman", "party": "PH-PKR", "seat": "Gemas"},
+    {"name": "Ridzuan Ahmad", "party": "Wawasan", "seat": "Gemas", "pir06_note": "Bersatu-quit figure (former incumbent Gemas rep, resigned division chief)"},
+    {"name": "Chong Fui Ming", "party": "BN-MCA", "seat": "Bahau"},
+    {"name": "Suhaimi Aini", "party": "BN", "seat": "Kota", "role": "incumbent"},
+    {"name": "Allif Ibrahim", "party": "PH", "seat": "Kota"},
+    {"name": "Akmal Noradzmi Abd Rahim", "party": "Bersatu", "seat": "Kota"},
+    {"name": "Chew Seh Yong", "party": "PH-DAP", "seat": "Lobak"},
+    {"name": "Dr P. Kumar", "party": "PAS", "seat": "Lobak"},
+    {"name": "Lee Boon Shian", "party": "Gerakan", "seat": "Bukit Kepayang"},
+    {"name": "Ahmad Shahir Mohd Shah", "party": "Amanah", "seat": "Paroi"},
+    {"name": "Kamarol Ridzuan Mohd Zain", "party": "PAS", "seat": "Paroi"},
+    {"name": "Sathes Kumar Nilameham", "party": "MIPP", "seat": "Lukut"},
+    {"name": "Nasir Rahman", "party": "Amanah", "seat": "Bagan Pinang"},
+    {"name": "Abdul Fatah Zakaria", "party": "PAS", "seat": "Bagan Pinang"},
+    {"name": "Koh Kim Swee", "party": "BN-MCA", "seat": "Repah"},
+    {"name": "Datuk Mohd Zaidy Abdul Kadir", "party": "BN", "seat": "Jeram Padang"},
+    {"name": "G. Manivann", "party": "PH", "seat": "Jeram Padang"},
+    {"name": "R. Sri Sanjeevan", "party": "Bersatu", "seat": "Jeram Padang"},
+    {"name": "Dayana Dal", "party": "Parti Orang Asli Malaysia (ASLI)", "seat": "Jeram Padang"},
+    {"name": "Desmond Siau Meow Kong", "party": "PH", "seat": "Rahang"},
+    {"name": "Yap Siok Moy", "party": "BN", "seat": "Rahang"},
+    {"name": "Tang Jay Son", "party": "Bersatu", "seat": "Rahang"},
+    {"name": "T. Tharmaseelan", "party": "Parti Sosialis Malaysia", "seat": "Rahang"},
+    {"name": "Tamim Dahri Abd Razak", "party": "n/a", "role": "self-proclaimed land activist; surrendered to PD police; hopes to campaign for NS independent candidate", "pir_tag": "PIR-09/16"}
+  ],
+  "new_events_this_cycle": [
+    {"event": "EC confirms final nomination lineup: 103 candidates / 36 seats; 11 straight, 21 three-cornered, 2 four-cornered, 2 five-cornered", "date": "2026-07-18", "source": "Malay Mail"},
+    {"event": "Coalition leaders full force at nominations (8 centres 9am-10am; caretaker MB Aminuddin at PD nomination centre 8:30am)", "date": "2026-07-18", "source": "mkini"},
+    {"event": "NS Police: 1 election-offense report (verbal dispute) from nomination day; no investigation paper; 19 ceramah permits ALL APPROVED", "date": "2026-07-19 10:54 MYT", "source": "Kosmo"},
+    {"event": "Loke campaign Day-1: PH candidates met visitors/traders at Pasar Besar Seremban; Loke urges traffic-rule compliance", "date": "2026-07-19 11:32 MYT", "source": "Utusan"},
+    {"event": "Melaka assembly: 4 DAP reps moved to opposition bloc; Amanah's Adly still seated with govt", "date": "2026-07-18", "source": "gnews aggregate (Malay Mail / The Star / bernama)"},
+    {"event": "Tamim Dahri Abd Razak surrendered at Port Dickson police HQ 12:45pm (on the run from court charges linked to religious provocation)", "date": "2026-07-18", "source": "mkini"}
+  ],
+  "collection_limitations": [
+    "Malaysiakini paywall: 6 high-value mkini articles captured as title+pubdate+preview (~180-513 chars) only",
+    "The Star + Malay Mail search/listing JS-rendered; 2 Melaka DAP + 1 Fahmi article captured as headline intelligence only (full-text URL unrecoverable via curl)",
+    "gnews protobuf links do not redirect to real publisher URLs via curl (JS-rendered intermediates); site-restricted gnews RSS + publisher homepage parsing used as workaround (partial success)",
+    "The Malaysian Insight: homepage returned 0 articles (site structure changed or blocked) — no coverage this cycle"
+  ],
+  "next_cycle_recommendations": [
+    "PIR-06 HIGHEST: maintain formal-removal watch; verify Ridzuan Ahmad Bersatu-quit backstory with a real article (Gemas)",
+    "PIR-16 NEW: recover full text of Melaka DAP withdrawal articles via JS-render (Firecrawl) or direct bernama.com (typically static)",
+    "PIR-07: capture Day-1 walkabout/ops-centre-opening coverage for T1 marquee seats (Linggi, Sikamat, Chennah, Rantau, Nilai, Sri Tanjung) expected 12:00-14:00 MYT",
+    "PIR-09: confirm pubdate of NST 'Senior citizen withdraws from Sikamat' and Tamim remand outcome (Seremban court)",
+    "Retry NST/The Star gnews-only headline recovery via JS-render or direct bernama/static endpoints"
+  ],
+  "index_file": "04-DATA-AND-SOURCES/raw-scrapes/20260719/index.md",
+  "total_entities_in_delta": 42
+}

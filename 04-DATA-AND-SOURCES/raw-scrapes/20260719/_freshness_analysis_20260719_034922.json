@@ -1,0 +1,285 @@
+{
+  "cycle": "20260719_034922",
+  "prior_cycle": "20260719_024042",
+  "cutoff_utc": "2026-07-19T02:40:00",
+  "cutoff_myt": "2026-07-19 10:40 MYT",
+  "this_cycle_total_articles": 1164,
+  "prior_cycle_unique_titles": 1073,
+  "genuinely_new_titles_count": 101,
+  "genuinely_new_priority_titles_count": 22,
+  "real_new_priority_after_falsepos_filter": 22,
+  "fresh_priority_items_after_cutoff_count": 2,
+  "fetch_candidates_count": 14,
+  "fresh_priority_items_after_cutoff": [
+    {
+      "title": "PRN Negeri Sembilan: Polis terima satu laporan ‘gaduh’ mulut",
+      "source": "kosmocommy",
+      "url": "https://www.kosmo.com.my/2026/07/19/prn-negeri-sembilan-polis-terima-satu-laporan-gaduh-mulut/",
+      "pubdate": "2026-07-19T02:54:01",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "Berkempen jangan langgar peraturan jalan raya – Anthony Loke",
+      "source": "utusancommy",
+      "url": "https://www.utusan.com.my/nasional/2026/07/berkempen-jangan-langgar-peraturan-jalan-raya-anthony-loke/",
+      "pubdate": "2026-07-19T03:32:00",
+      "prefix": "[PRIORITY PIR-07]"
+    }
+  ],
+  "genuinely_new_priority_items_top25": [
+    {
+      "title": "Negeri Sembilan race begins as nomination day kicks off - Newswav",
+      "source": "google_news_universalnomination_html",
+      "url": "",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "Negeri Sembilan polls: Rift and realignment among both unity govt and opposition alliances set stage for two weeks of 'frenemies' campaign - The Edge Malaysia",
+      "source": "google_news_universalnomination_html",
+      "url": "",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "Umno sec-gen says BN-Perikatan understanding puts stability first in Negeri Sembilan polls - Malay Mail",
+      "source": "google_news_universalnomination_html",
+      "url": "",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "Negeri Sembilan polls: Rift and realignment among both unity govt and opposition alliances set stage for two weeks of 'frenemies' campaign - KLSE Screener",
+      "source": "google_news_universalnomination_html",
+      "url": "",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "Bersatu to use own logo if not granted permission to use PN logo - The Vibes",
+      "source": "google_news_universalprnbersatu_html",
+      "url": "",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-06]"
+    },
+    {
+      "title": "Polls: PAS-Bersatu split expected to benefit unity govt parties — Analysts - The Malaysian Reserve",
+      "source": "google_news_universalprnbersatu_html",
+      "url": "",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-06+PIR-07]"
+    },
+    {
+      "title": "PRN Negeri Sembilan: Polis terima satu laporan ‘gaduh’ mulut",
+      "source": "kosmocommy",
+      "url": "https://www.kosmo.com.my/2026/07/19/prn-negeri-sembilan-polis-terima-satu-laporan-gaduh-mulut/",
+      "pubdate": "2026-07-19T02:54:01",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "PRN Negeri Sembilan: Polis terima satu laporan ‘gaduh’ mulut",
+      "source": "kosmocommy_html",
+      "url": "https://www.kosmo.com.my/2026/07/19/prn-negeri-sembilan-polis-terima-satu-laporan-gaduh-mulut/",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "SNAPSHOT | Anwar AI chatbot is live, susceptible to manipulation Malaysiakini Team 47 m ago",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780066",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "COMMENT | Oh, so the state elections are an indicator? Zan Azlee 1h ago ⋅ 2",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/columns/780063",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "New Johor exco lineup to deliver manifesto pledges, drive Maju Johor 2030 agenda They are committed to ensuring development benefits reach all communities. Bernama 18 h ago ⋅ 23",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780048",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "Tamim surrenders to police, hopes to campaign for N Sembilan independent candidate Self-proclaimed land activist to be brought to Seremban court for remand application. 14 h ago ⋅ 6",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780055",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-09]"
+    },
+    {
+      "title": "Wee: BN-PN pact in N Sembilan not a merger, MCA principles intact UPDATED 5.03PM | NEGERI SEMBILAN POLLS | Each party retains its own ideology and stance, says MCA president. 21 h ago ⋅ 124",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780035",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-06+PIR-09+PIR-07]"
+    },
+    {
+      "title": "SNAPSHOT | Johor regent: Excos must be dedicated in their work; Bersatu exit from PN imminent? What's going on in the news today, with updates at 11am, 2pm, and 6pm. Malaysiakini Team 18 h ago ⋅ 4",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780047",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-06]"
+    },
+    {
+      "title": "Coalition leaders, supporters in full force for N Sembilan polls nominations NEGERI SEMBILAN POLLS | Celebratory atmosphere as election campaign kicks off. 23 h ago ⋅ 29",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780023",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "MCA Youth sec-gen told to 'stay out of N Sembilan polls' over PN ally disagreement Saw questions if party no longer tolerates dissenting views. 1 d ago ⋅ 77",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780017",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-09+PIR-07]"
+    },
+    {
+      "title": "SNAPSHOT | BN-PN ties based on friendship, brotherhood - Hadi; Tok Mat says keep adat out of polls campaign What's going on in the news today, with updates at 11am, 2pm, and 6pm. Malaysiakini Team 22 h ago ⋅ 28",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780030",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "Negri Polls: Police approve 19 permits for campaign events - The Star",
+      "source": "thestarcommy_gn",
+      "url": "",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "Anwar urges Melaka DAP to postpone decision to quit state govt - The Star",
+      "source": "thestarcommy_gn",
+      "url": "",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "Berkempen jangan langgar peraturan jalan raya – Anthony Loke",
+      "source": "utusancommy",
+      "url": "https://www.utusan.com.my/nasional/2026/07/berkempen-jangan-langgar-peraturan-jalan-raya-anthony-loke/",
+      "pubdate": "2026-07-19T03:32:00",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "Berkempen jangan langgar peraturan jalan raya – Anthony Loke",
+      "source": "utusancommy_html",
+      "url": "https://www.utusan.com.my/nasional/2026/07/berkempen-jangan-langgar-peraturan-jalan-raya-anthony-loke/",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "ANTHONY Loke Siew Fook (tengah) ketika bertemu orang ramai dan beramah mesra sempena PRN Negeri Sembilan di Pasar Besar Seremban hari ini.-UTUSAN/ISKANDAR ISHAK",
+      "source": "utusancommy_html",
+      "url": "https://www.utusan.com.my/nasional/2026/07/berkempen-jangan-langgar-peraturan-jalan-raya-anthony-loke/",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    }
+  ],
+  "fetch_candidates_top20": [
+    {
+      "title": "Berkempen jangan langgar peraturan jalan raya – Anthony Loke",
+      "source": "utusancommy",
+      "url": "https://www.utusan.com.my/nasional/2026/07/berkempen-jangan-langgar-peraturan-jalan-raya-anthony-loke/",
+      "pubdate": "2026-07-19T03:32:00",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "PRN Negeri Sembilan: Polis terima satu laporan ‘gaduh’ mulut",
+      "source": "kosmocommy",
+      "url": "https://www.kosmo.com.my/2026/07/19/prn-negeri-sembilan-polis-terima-satu-laporan-gaduh-mulut/",
+      "pubdate": "2026-07-19T02:54:01",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "PRN Negeri Sembilan: Polis terima satu laporan ‘gaduh’ mulut",
+      "source": "kosmocommy_html",
+      "url": "https://www.kosmo.com.my/2026/07/19/prn-negeri-sembilan-polis-terima-satu-laporan-gaduh-mulut/",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "SNAPSHOT | Anwar AI chatbot is live, susceptible to manipulation Malaysiakini Team 47 m ago",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780066",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "COMMENT | Oh, so the state elections are an indicator? Zan Azlee 1h ago ⋅ 2",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/columns/780063",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "New Johor exco lineup to deliver manifesto pledges, drive Maju Johor 2030 agenda They are committed to ensuring development benefits reach all communities. Bernama 18 h ago ⋅ 23",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780048",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "Tamim surrenders to police, hopes to campaign for N Sembilan independent candidate Self-proclaimed land activist to be brought to Seremban court for remand application. 14 h ago ⋅ 6",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780055",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-09]"
+    },
+    {
+      "title": "Wee: BN-PN pact in N Sembilan not a merger, MCA principles intact UPDATED 5.03PM | NEGERI SEMBILAN POLLS | Each party retains its own ideology and stance, says MCA president. 21 h ago ⋅ 124",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780035",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-06+PIR-09+PIR-07]"
+    },
+    {
+      "title": "SNAPSHOT | Johor regent: Excos must be dedicated in their work; Bersatu exit from PN imminent? What's going on in the news today, with updates at 11am, 2pm, and 6pm. Malaysiakini Team 18 h ago ⋅ 4",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780047",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-06]"
+    },
+    {
+      "title": "Coalition leaders, supporters in full force for N Sembilan polls nominations NEGERI SEMBILAN POLLS | Celebratory atmosphere as election campaign kicks off. 23 h ago ⋅ 29",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780023",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "MCA Youth sec-gen told to 'stay out of N Sembilan polls' over PN ally disagreement Saw questions if party no longer tolerates dissenting views. 1 d ago ⋅ 77",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780017",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-09+PIR-07]"
+    },
+    {
+      "title": "SNAPSHOT | BN-PN ties based on friendship, brotherhood - Hadi; Tok Mat says keep adat out of polls campaign What's going on in the news today, with updates at 11am, 2pm, and 6pm. Malaysiakini Team 22 h ago ⋅ 28",
+      "source": "malaysiakinicom",
+      "url": "https://www.malaysiakini.com/news/780030",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "Berkempen jangan langgar peraturan jalan raya – Anthony Loke",
+      "source": "utusancommy_html",
+      "url": "https://www.utusan.com.my/nasional/2026/07/berkempen-jangan-langgar-peraturan-jalan-raya-anthony-loke/",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    },
+    {
+      "title": "ANTHONY Loke Siew Fook (tengah) ketika bertemu orang ramai dan beramah mesra sempena PRN Negeri Sembilan di Pasar Besar Seremban hari ini.-UTUSAN/ISKANDAR ISHAK",
+      "source": "utusancommy_html",
+      "url": "https://www.utusan.com.my/nasional/2026/07/berkempen-jangan-langgar-peraturan-jalan-raya-anthony-loke/",
+      "pubdate": "",
+      "prefix": "[PRIORITY PIR-07]"
+    }
+  ]
+}
