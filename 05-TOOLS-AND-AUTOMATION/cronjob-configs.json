@@ -1,6 +1,6 @@
 {
   "workstream": "PRN Negeri Sembilan 2026 (HCR-095)",
-  "exported_at": "2026-07-19T09:40:49.088962Z",
+  "exported_at": "2026-07-19T10:21:47.576924Z",
   "repo": "ahmadfaurani/prn-negeri-sembilan-2026",
   "workspace": "/home/p62operator/.openclaw/workspace-ns",
   "total_cronjobs": 5,
@@ -11,7 +11,7 @@
       "schedule": "every 60m",
       "deliver": "local",
       "model": "inherit (default)",
-      "provider": "inherit",
+      "provider": null,
       "enabled_toolsets": [
         "terminal",
         "file"
@@ -26,7 +26,7 @@
       "schedule": "every 120m",
       "deliver": "local",
       "model": "inherit (default)",
-      "provider": "inherit",
+      "provider": null,
       "enabled_toolsets": [
         "terminal",
         "file"
@@ -41,7 +41,7 @@
       "schedule": "every 120m",
       "deliver": "local",
       "model": "inherit (default)",
-      "provider": "inherit",
+      "provider": null,
       "enabled_toolsets": [
         "terminal",
         "file"
@@ -55,7 +55,7 @@
       "name": "PRN Negeri Sembilan 2026 - Daily Intelligence Brief",
       "schedule": "every 60m",
       "deliver": "origin",
-      "model": "Qwen/Qwen3.5-397B-A17B",
+      "model": "inherit (default)",
       "provider": "custom",
       "enabled_toolsets": [
         "terminal",
@@ -72,7 +72,7 @@
       "schedule": "every 120m",
       "deliver": "local",
       "model": "inherit (default)",
-      "provider": "inherit",
+      "provider": null,
       "enabled_toolsets": [
         "terminal"
       ],

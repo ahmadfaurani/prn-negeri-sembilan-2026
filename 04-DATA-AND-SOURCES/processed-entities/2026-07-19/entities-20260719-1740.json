@@ -1,0 +1,628 @@
+{
+  "extraction_run": "2026-07-19T09:39:00Z (17:39 MYT)",
+  "source_dir": "04-DATA-AND-SOURCES/raw-scrapes/20260719/",
+  "cycles_processed": ["20260719_051226", "20260719_075200", "20260719_091800"],
+  "pirs_covered": ["PIR-06", "PIR-07", "PIR-16"],
+  "director_cycle": "19 Jul 14:50 MYT (3rd carry-forward)",
+  "total_entities": 75,
+  "critical_count": 13,
+  "priority_count": 42,
+  "normal_count": 20,
+  "new_flags_addressed": {
+    "pir06_kiandee_quorum_entity": "CRITICAL — entity #7 (Ronald Kiandee quorum question, FMT full text, Clause 13.12)",
+    "pir06_muhyiddin_new_coalition_post_ns_hint": "CRITICAL — entity #2 (Muhyiddin 'bentuk gabungan baharu lebih hebat selepas PRN NS')",
+    "pir16_mca_rebuttal_entities": "Wee Ka Siong rebuttal found (Awani full text, entity #44); Mah Hang Soon response NOT surfaced this cycle (stale index mention only)",
+    "pir16_hardnews_corroboration_bersatu_exit_imminent": "CRITICAL — corroborated by Sinar Harian, Buletin TV3, MalaysiaGazette, Harian Metro, FMT, Utusan Malaysia (entity #47)",
+    "pir07_bn_manifesto_24jul_linggi": "NOT yet surfaced — only stale 2023 scoop.my manifesto hit found (entity #65 note)",
+    "pir07_afternoon_day1_campaign_dispatch": "Covered — Jalaluddin booed at nomination, cousins Klawang pasar, Loke Chennah, Tok Mat Rantau (entities #48-54)"
+  },
+  "entities": [
+    {
+      "entity": "Muhyiddin Yassin",
+      "type": "person",
+      "pir_tag": "PIR-06",
+      "priority": "critical",
+      "source_url": "https://www.sinarharian.com.my/.../bersatu-bentuk-gabungan-baharu-lebih-hebat-selepas-prn-negeri-sembilan-muhyiddin",
+      "context": "Bersatu president; NEW director flag — 'bentuk gabungan baharu lebih hebat selepas PRN Negeri Sembilan' hint at PN exit. Corroborated across Sinar Harian, MalaysiaGazette, Buletin TV3, Harian Metro, Utusan. Also: Bersatu bertanding 24 kerusi guna logo sendiri; utamakan kebajikan rakyat jika diberi mandat."
+    },
+    {
+      "entity": "Bersatu (Parti Pribumi Bersatu Malaysia)",
+      "type": "party",
+      "pir_tag": "PIR-06",
+      "priority": "critical",
+      "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/19/quit-pn-with-gerakan-mipp-in-tow-bersatu-advised",
+      "context": "Contesting 24 of 36 DUN under own logo (broke from PN). Advised by analyst Lau Zhe Wei to quit PN dragging Gerakan+MIPP. Internal crisis (pecat/quorum). Hard-news 'Bersatu exit imminent' narrative corroborated across 6+ outlets."
+    },
+    {
+      "entity": "PAS",
+      "type": "party",
+      "pir_tag": "PIR-06",
+      "priority": "critical",
+      "source_url": "https://www.nst.com.my/news/nation/2026/07/1492319/hadi-calls-malay-muslim-unity-non-extreme-partners-including-mca-mic",
+      "context": "Chairs PN; ended political cooperation with Bersatu last month but both remain in PN. Hadi Awang calls for Malay-Muslim unity incl MCA/MIC; PAS not masuk campur Bersatu logo decision; PAS sedia lawan Bersatu if bertembung."
+    },
+    {
+      "entity": "PN (Perikatan Nasional)",
+      "type": "party",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/19/quit-pn-with-gerakan-mipp-in-tow-bersatu-advised",
+      "context": "Electoral pact with BN for NS (PN 11 seats, BN 25, no overlap). PN lulus rundingan agihan kerusi, guna logo gabungan. Wawasan (4 seats), Gerakan (1), MIPP (1) contest under PN banner."
+    },
+    {
+      "entity": "PN-MT (PN Supreme Leadership Council)",
+      "type": "party",
+      "pir_tag": "PIR-06",
+      "priority": "critical",
+      "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/11/does-bersatu-supreme-council-still-have-a-quorum-kiandee-asks-muhyiddin",
+      "context": "Kiandee called on PN-MT to convene immediately to assess Bersatu's position within coalition amid quorum crisis. 'Interests of PN must take precedence over any individual.' No formal PN-MT expulsion notice / Bersatu withdrawal issued this cycle."
+    },
+    {
+      "entity": "Bersatu Supreme Leadership (MPT)",
+      "type": "party",
+      "pir_tag": "PIR-06",
+      "priority": "critical",
+      "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/11/does-bersatu-supreme-council-still-have-a-quorum-kiandee-asks-muhyiddin",
+      "context": "49-member MPT; Kiandee claims 27 resigned/sacked/suspended → quorum (Clause 13.12) unmet → RoS intervention risk. Radzi Jidin rebutted: quorum 12/23 sufficient, 'jalan seperti biasa'."
+    },
+    {
+      "entity": "Ronald Kiandee",
+      "type": "person",
+      "pir_tag": "PIR-06",
+      "priority": "critical",
+      "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/11/does-bersatu-supreme-council-still-have-a-quorum-kiandee-asks-muhyiddin",
+      "context": "NEW director flag — Kiandee quorum question entity. Suspended Bersatu VP; cited Clause 13.12, 27/49 MPT gone, warned RoS intervention, tied crisis to NS PRN, called PN-MT to convene. Escalation originated 11 Jul; Radzi rebutted same day; no NEW escalation 14:46-17:39 MYT 19 Jul."
+    },
+    {
+      "entity": "Radzi Jidin",
+      "type": "person",
+      "pir_tag": "PIR-06",
+      "priority": "normal",
+      "source_url": "https://www.freemalaysiatoday.com/.../jalan-seperti-biasa-mpt-bersatu-cukup-kuorum-jelas-radzi",
+      "context": "Bersatu VP; formal quorum rebuttal — 'jalan seperti biasa', MPT cukup kuorum (12/23 sufficient), letak jawatan ahli tak jejas mesyuarat. Rebuttal to Kiandee."
+    },
+    {
+      "entity": "Hamzah Zainudin",
+      "type": "person",
+      "pir_tag": "PIR-06",
+      "priority": "critical",
+      "source_url": "https://www.bharian.com.my/.../bersatu-pecat-hamzah-zainudin",
+      "context": "[CRITICAL — pecat/keluar flag] Sacked from Bersatu Feb 2026 at height of leadership tussle with Muhyiddin. Wawasan (his vehicle) + Pejuang admitted into PN (FMT 22 Jun). 'Ceraikan Bersatu hanya alasan keluar PN untuk bersama Hamzah dan Reset' framing."
+    },
+    {
+      "entity": "Wan Saiful",
+      "type": "person",
+      "pir_tag": "PIR-06",
+      "priority": "critical",
+      "source_url": "https://utusan.com.my/.../bersatu-pecat-lima-pemimpin-termasuk-wan-saiful",
+      "context": "[CRITICAL — pecat flag] Among 5 Bersatu leaders sacked (Oct 2025). Also: 'PRN N9: Bersatu dianggap kacau daun, Wan Saiful bimbang pertembungan kerusi Melayu' (Harian Metro 19 Jul)."
+    },
+    {
+      "entity": "Azmin Ali",
+      "type": "person",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.freemalaysiatoday.com/.../dr-sam-pecat-radzi-azmin-berdasarkan-perlembagaan-kata-pemimpin-pas",
+      "context": "Bersatu leader; subject of 'Dr Sam pecat Radzi, Azmin berdasarkan perlembagaan' PAS-leader claim. Also 'Bersatu akan buat post-mortem untuk perkukuh perjuangan parti - Azmin Ali' (Newswav)."
+    },
+    {
+      "entity": "Dr Sam (Samshul Amri)",
+      "type": "person",
+      "pir_tag": "PIR-06",
+      "priority": "normal",
+      "source_url": "https://www.freemalaysiatoday.com/.../dr-sam-pecat-radzi-azmin-berdasarkan-perlembagaan-kata-pemimpin-pas",
+      "context": "PAS leader cited as claiming Radzi & Azmin pecat berdasarkan perlembagaan. Counter-narrative to Bersatu pecat wave."
+    },
+    {
+      "entity": "Annuar Musa",
+      "type": "person",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.freemalaysiatoday.com/.../impossible-for-pn-to-fulfil-bersatu-s-negeri-sembilan-demands-says-annuar",
+      "context": "'Impossible for PN to fulfil Bersatu's Negeri Sembilan demands, says Annuar' (FMT 16 Jul). Signals friction in Bersatu-PN seat negotiation."
+    },
+    {
+      "entity": "Hilman Idham",
+      "type": "person",
+      "pir_tag": "PIR-06",
+      "priority": "normal",
+      "source_url": "https://themalaysianreserve.com/.../hilman-idham-appointed-to-pn-supreme-council-says-bersatu",
+      "context": "Appointed to PN Supreme Council, says Bersatu (Malaysian Reserve, 15 May 2026). Bersatu's PN-MT representation."
+    },
+    {
+      "entity": "Selangor PAS Youth",
+      "type": "party",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.freemalaysiatoday.com/.../bersatu-should-leave-pn-says-selangor-pas-youth",
+      "context": "'Bersatu should leave PN, says Selangor PAS Youth' (FMT 11 Jun). Amplifier of Bersatu-exit narrative from PAS side."
+    },
+    {
+      "entity": "Lau Zhe Wei",
+      "type": "person",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/19/quit-pn-with-gerakan-mipp-in-tow-bersatu-advised",
+      "context": "[PRIORITY — viral amplifier] IIUM analyst; advises Bersatu to quit PN dragging Gerakan+MIPP so PN reduced to Malay/conservative coalition. Drives 'Bersatu exit imminent' hard-news corroboration."
+    },
+    {
+      "entity": "Azeem Fazwan Ahmad Farouk",
+      "type": "person",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/19/quit-pn-with-gerakan-mipp-in-tow-bersatu-advised",
+      "context": "[PRIORITY — viral amplifier] USM analyst; 'Bersatu heading for another wipeout', 'in no position to win seats going solo'. Amplifies Bersatu-exit + disarray narrative."
+    },
+    {
+      "entity": "Azmil Tayeb",
+      "type": "person",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/19/quit-pn-with-gerakan-mipp-in-tow-bersatu-advised",
+      "context": "USM analyst; 'all that people see coming out of Bersatu is the infighting'; Bersatu hasn't distinguished itself from Umno/PAS. Amplifies 'Bersatu in disarray'."
+    },
+    {
+      "entity": "Gerakan / Dominic Lau",
+      "type": "party",
+      "pir_tag": "PIR-06",
+      "priority": "normal",
+      "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/19/quit-pn-with-gerakan-mipp-in-tow-bersatu-advised",
+      "context": "Gerakan (led by Dominic Lau) contesting 1 seat under PN banner; advised to leave PN with Bersatu to strip PN of multiethnic image."
+    },
+    {
+      "entity": "MIPP (Malaysian Indian People's Party)",
+      "type": "party",
+      "pir_tag": "PIR-06",
+      "priority": "normal",
+      "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/19/quit-pn-with-gerakan-mipp-in-tow-bersatu-advised",
+      "context": "Contesting 1 seat under PN banner; advised to follow Bersatu out of PN."
+    },
+    {
+      "entity": "Tang Jay Son",
+      "type": "person",
+      "pir_tag": "PIR-06",
+      "priority": "critical",
+      "source_url": "https://www.astroawani.com/.../prn-negeri-sembilan-tanding-atas-tiket-bersatu-gerakan-pecat-keahlian-tang-jay-son",
+      "context": "[CRITICAL — pecat/keluar flag] Gerakan pecat keahlian Tang Jay Son after he tanding atas tiket Bersatu in NS (Astro Awani 18 Jul). Cross-coalition defection indicator."
+    },
+    {
+      "entity": "Marzuki",
+      "type": "person",
+      "pir_tag": "PIR-06",
+      "priority": "normal",
+      "source_url": "https://newswav.com/.../korum-mesyuarat-mpt-bersatu-tidak-perlu-dijadikan-isu-marzuki",
+      "context": "'Korum mesyuarat MPT Bersatu tidak perlu dijadikan isu' (Newswav 13 Jul). Quorum-deescalation voice."
+    },
+    {
+      "entity": "kuorum (Bersatu MPT quorum crisis)",
+      "type": "narrative",
+      "pir_tag": "PIR-06",
+      "priority": "critical",
+      "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/11/does-bersatu-supreme-council-still-have-a-quorum-kiandee-asks-muhyiddin",
+      "context": "[CRITICAL flag per director] Dominant PIR-06 narrative. Kiandee: 27/49 gone, Clause 13.12, RoS risk, PN stability. Rebuttal: Radzi (cukup), Marzuki (tak perlu jadi isu). Multiple outlets (FMT EN/BM, Sinar, Newswav, aliran)."
+    },
+    {
+      "entity": "Bersatu exit imminent (bentuk gabungan baharu post-NS)",
+      "type": "narrative",
+      "pir_tag": "PIR-06",
+      "priority": "critical",
+      "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/19/quit-pn-with-gerakan-mipp-in-tow-bersatu-advised",
+      "context": "[CRITICAL — hard-news corroboration] Muhyiddin's 'gabungan baharu lebih hebat selepas PRN NS' hint + analyst 'Quit PN' advice. Corroborated by Sinar Harian, Buletin TV3, MalaysiaGazette, Harian Metro, FMT, Utusan Malaysia."
+    },
+    {
+      "entity": "pecat/keluar Bersatu wave",
+      "type": "narrative",
+      "pir_tag": "PIR-06",
+      "priority": "critical",
+      "source_url": "https://www.bharian.com.my/.../bersatu-pecat-hamzah-zainudin",
+      "context": "[CRITICAL flag] Hamzah (Feb 2026), 5 leaders incl Wan Saiful (Oct 2025), lagi pemimpin letak jawatan keluar parti (Newswav 13 Jul), Tang Jay Son (Gerakan pecat). Tied to Hamzah-Muhyiddin tussle."
+    },
+    {
+      "entity": "toxic PN / Bersatu-PAS fallout",
+      "type": "narrative",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/19/quit-pn-with-gerakan-mipp-in-tow-bersatu-advised",
+      "context": "PAS ended cooperation with Bersatu last month (both remain in PN); PAS abandoned Bersatu during Johor campaign; Hadi told voters to back BN in non-PN seats. 'Toxic PN' framing."
+    },
+    {
+      "entity": "Hadi Awang",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.nst.com.my/news/nation/2026/07/1492319/hadi-calls-malay-muslim-unity-non-extreme-partners-including-mca-mic",
+      "context": "PAS president; calls for Malay-Muslim unity with 'non-extreme' partners incl MCA, MIC, DHPP; reject 'unnatural Malay groups with DAP'. Also 'Bukan retorik, Hadi beri isyarat uji model kerjasama PN-BN menjelang PRU16'. Signals PN-BN model for PRU16."
+    },
+    {
+      "entity": "Anthony Loke (Loke Siew Fook)",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.malaysiakini.com/news/780075",
+      "context": "DAP sec-gen, NS DAP chief, Transport Minister, Chennah incumbent. 'MCA biggest loser' quote + 'tekad buktikan pengkritik silap, ikrar pikat undi Melayu'. Sarcastic 'terima kasih MCA/Wee Ka Siong begitu murah hati'. Faces MCA's Siow Kong Choon 1-on-1 in Chennah."
+    },
+    {
+      "entity": "Wee Ka Siong",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.astroawani.com/berita-politik/prn-negeri-sembilan-kerjasama-bn-pn-bukan-satu-gabungan-elak-pecah-undi-presiden-mca",
+      "context": "[PIR-16 NEW — MCA rebuttal entity] MCA president; rebuttal to Loke — 'kerjasama BN-PN bukan satu gabungan, elak pecah undi', MCA akan menentang dasar yang menjejaskan hak majmuk. Earlier quipped MCA 'membantu DAP' by giving 3 seats to PN. Drives MCA-rebuttal narrative."
+    },
+    {
+      "entity": "MCA",
+      "type": "party",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.astroawani.com/berita-politik/prn-negeri-sembilan-keputusan-mca-tidak-letak-calon-di-tiga-kerusi-tradisi-bantu-kemenangan-dap-loke",
+      "context": "'Biggest loser' (per Loke) — gave up 3 traditional seats (Lobak, Mambau, Lukut) to PN. Contesting 7 seats; only Chennah is 1-on-1 vs DAP (Loke). Grassroots 'stay or leave' pressure on BN future."
+    },
+    {
+      "entity": "Mah Hang Soon",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "",
+      "context": "[PIR-16 NEW — MCA rebuttal entity] NOT surfaced this cycle. Only stale index.md mention; no fresh Mah Hang Soon response to Loke 'biggest loser' quote found in 19 Jul scrapes. GAP — to watch for in next cycle."
+    },
+    {
+      "entity": "MCA biggest loser narrative",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.freemalaysiatoday.com/.../mca-biggest-loser-in-bn-pn-negeri-sembilan-pact-says-loke",
+      "context": "Loke's dominant PIR-16 narrative: MCA sacrificed 3 traditional Chinese-majority seats (Lobak, Mambau, Lukut) to PN's DHPP/Wawasan/MIPP. Corroborated FMT, mkini, Awani."
+    },
+    {
+      "entity": "DAP coalition-intolerant / barking dogs",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "",
+      "context": "NOT directly surfaced this cycle. 'Barking dogs' / 'DAP coalition-intolerant' phrasings not found in 19 Jul full-text scrapes (Albert Tei also absent). Watch next cycle."
+    },
+    {
+      "entity": "Albert Tei",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "",
+      "context": "NOT surfaced this cycle. No Albert Tei entity found in 19 Jul scrapes. GAP."
+    },
+    {
+      "entity": "penyatuan undi Melayu (Malay vote consolidation)",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.nst.com.my/news/nation/2026/07/1492319/hadi-calls-malay-muslim-unity-non-extreme-partners-including-mca-mic",
+      "context": "Underlying BN-PN cooperation rationale: avoid perpecahan undi Melayu. Hadi: Malay-Muslim unity; Tok Mat: safeguard future of race and religion; Loke counter: will prove DAP can win Malay votes in Chennah."
+    },
+    {
+      "entity": "majoriti mudah (easy majority)",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.facebook.com/.../parti-pribumi-bersatu-malaysia-bersatu-menyasarkan-untuk-membentuk-kerajaan-nege",
+      "context": "Bersatu menyasarkan membentuk kerajaan NS, calon di 24/36 DUN, 'melebihi jumlah majoriti mudah' (Facebook 19 Jul). Bersatu's optimistic counter-narrative to wipeout predictions."
+    },
+    {
+      "entity": "MB after PRN (menteri besar post)",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/19/pn-agrees-negeri-sembilan-mb-post-for-bn-if-pact-wins-polls-says-jalaluddin",
+      "context": "Jalaluddin: PN agreed MB post for BN if pact wins; no MB candidate or exco allocation discussed yet. Contenders floated: Jalaluddin, Mohamad Hasan, Sufian Maradzi. 'Win first, then discuss positions.'"
+    },
+    {
+      "entity": "Madani government / unity government discipline",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.nst.com.my/news/nation/2026/07/1492353/updated-resign-if-you-want-attack-unity-partners-anwar-tells-ministers",
+      "context": "Anwar directive: ministers/deputy ministers/agency heads must resign if they use federal positions to attack unity-government partners during state campaigns. Applies to Felda, Mara, Risda. Preserve federal working relations."
+    },
+    {
+      "entity": "Anwar Ibrahim",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.nst.com.my/news/nation/2026/07/1492353/updated-resign-if-you-want-attack-unity-partners-anwar-tells-ministers",
+      "context": "PM; 'resign if you want to attack unity partners' directive (NST 19 Jul). Discussed with DPMs Zahid & Fadillah. Federal-state competition boundary discipline."
+    },
+    {
+      "entity": "Ahmad Zahid Hamidi",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.astroawani.com/berita-politik/prn-negeri-sembilan-prestasi-bn-pn-mungkin-jadi-penentu-jajaran-baharu-prn-melaka-pru16-ahmad-zahid",
+      "context": "BN chairman; NS BN-PN 'tactical move' to regain NS. 'Prestasi BN-PN di NS jadi penentu jajaran baharu PRN Melaka & PRU16' — links NS to Melaka fracture/realignment narrative. Also DPM in Anwar unity-govt discipline discussion."
+    },
+    {
+      "entity": "Melaka PH-BN fracture / PRU16 realignment",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.astroawani.com/berita-politik/prn-negeri-sembilan-prestasi-bn-pn-mungkin-jadi-penentu-jajaran-baharu-prn-melaka-pru16-ahmad-zahid",
+      "context": "Zahid: NS BN-PN performance will determine jajaran for PRN Melaka and PRU16. Dynamism of national landscape; Johor (8% GDP growth under BN) cited as proof. NS as realignment testbed."
+    },
+    {
+      "entity": "Umno's dangerous dance with PAS",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.freemalaysiatoday.com/category/opinion/2026/07/19/umnos-dangerous-dance-with-pas",
+      "context": "FMT opinion (18 Jul): Umno 'validating the very force designed to replace it' by opening side door for PAS in NS. 'Friends with benefits' framing; existential concession; Amanat Hadi (1981) context. Counter-narrative to penyatuan undi Melayu."
+    },
+    {
+      "entity": "Muhyiddin graft trial",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "",
+      "context": "PIR-16 listed entity. NOT directly surfaced as a standalone narrative in 19 Jul scrapes (referenced only as background context in Bersatu-exit coverage). Watch for trial-date triggers."
+    },
+    {
+      "entity": "Anwar 'not briefed' / 'postpone'",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "",
+      "context": "Not surfaced as a discrete entity this cycle. Anwar's directive (resign-to-attack) is the closest active Anwar narrative. 'Not briefed'/'postpone' phrasings absent from 19 Jul full-text."
+    },
+    {
+      "entity": "sole opposition",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "",
+      "context": "Not surfaced this cycle. No 'sole opposition' framing found in 19 Jul scrapes."
+    },
+    {
+      "entity": "hard-news corroboration: Bersatu exit imminent",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "critical",
+      "source_url": "https://www.sinarharian.com.my/.../bersatu-bentuk-gabungan-baharu-lebih-hebat-selepas-prn-negeri-sembilan-muhyiddin",
+      "context": "[CRITICAL — director NEW flag] 'Bersatu exit imminent' corroborated by MULTIPLE hard-news outlets: Sinar Harian, Buletin TV3, MalaysiaGazette, Harian Metro, FMT (Quit PN advised), Utusan Malaysia, Astro Awani. Meets hard-news-corroboration CRITICAL threshold."
+    },
+    {
+      "entity": "Jalaluddin Alias",
+      "type": "person",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.nst.com.my/news/regional/2026/07/1492390/n9-polls-treachery-claim-against-me-doesnt-make-sense-says-jalaluddin",
+      "context": "[PRIORITY — defector-framing] NS Umno chief, BN Pertang candidate. Rebutted 'derhaka/treachery' claim (withdrawing support for MB Aminuddin ≠ disloyalty to ruler/Undang). Booed by PH supporters at nomination. Declared PN agreed MB post for BN. PDM Klawang tutup protest."
+    },
+    {
+      "entity": "Aminuddin Harun",
+      "type": "person",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.astroawani.com/berita-politik/prn-negeri-sembilan-aminuddin-berdepan-saingan-tiga-penjuru-di-dun-linggi",
+      "context": "[PRIORITY — 'fleeing Sikamat' defector-framing] Incumbent MB; MOVED from long-held Sikamat to Linggi (3-corner fight). 14 Umno assemblymen withdrew support in April over royal-dispute handling → state assembly dissolved. NST: 'Linggi move is risky for PH, says analyst'."
+    },
+    {
+      "entity": "Mohamad Hasan (Tok Mat)",
+      "type": "person",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.nst.com.my/news/nation/2026/07/1492349/n9-polls-act-now-or-lose-chance-forever-says-tok-mat",
+      "context": "Umno deputy president, NS BN chairman, Rantau candidate (7th term). 'Act now or lose chance forever' — BN-PN understanding first mooted 2018, must not 'miss the boat' for race/religion future. Floated as MB contender."
+    },
+    {
+      "entity": "Tun Faisal Ismail Aziz",
+      "type": "person",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.beritaharian.com.my/.../prn-negeri-sembilan-tun-faisal-tumpu-isu-perbandaran-lama-di-sikamat",
+      "context": "Bersatu information chief; among 24 Bersatu candidates. Contesting Sikamat (3-corner), tumpu isu perbandaran lama. High-profile Bersatu face in NS."
+    },
+    {
+      "entity": "N.13 Sikamat",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.harianmetro.com.my/.../prn-n9-dun-sikamat-pertembungan-tiga-penjuru",
+      "context": "[PRIORITY — defector-framing] 3-corner fight. Aminuddin vacated (moved to Linggi) → 'fleeing Sikamat' framing. PH: Nor Azman (per PIR-07 list); Bersatu: Tun Faisal Ismail Aziz. Aminuddin's former seat."
+    },
+    {
+      "entity": "Nor Azman",
+      "type": "person",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.harianmetro.com.my/.../prn-n9-dun-sikamat-pertembungan-tiga-penjuru",
+      "context": "PH candidate at Sikamat (replacing Aminuddin who moved to Linggi). Per PIR-07 priority battleground list."
+    },
+    {
+      "entity": "N.32 Linggi",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.astroawani.com/berita-politik/prn-negeri-sembilan-aminuddin-berdepan-saingan-tiga-penjuru-di-dun-linggi",
+      "context": "[PRIORITY] Aminuddin Harun (incumbent MB) moved here, 3-corner fight. NST analyst: 'Linggi move is risky for PH'. Director NEW flag: BN manifesto launch 24 Jul at DUN Linggi (not yet surfaced fresh)."
+    },
+    {
+      "entity": "BN manifesto launch 24 Jul at DUN Linggi",
+      "type": "narrative",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.scoop.my/.../manifesto-ph-bn-dilancar-ahad-ini-aminuddin",
+      "context": "[PIR-07 NEW flag] NOT yet surfaced fresh — only STALE 2023 scoop.my manifesto hit found in 19 Jul scrapes (Aminuddin, 04 Aug 2023). 24 Jul 2026 BN manifesto launch at Linggi NOT corroborated this cycle. GAP — high-priority watch for next scrape."
+    },
+    {
+      "entity": "N.14 Ampangan",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://malaysiagazette.com/.../pertembungan-3-penjuru-dun-ampangan",
+      "context": "[PRIORITY] 3-corner fight (MalaysiaGazette 18 Jul). Per PIR-07 list: Nazri Kassim. Tier-4 priority seat."
+    },
+    {
+      "entity": "Nazri Kassim",
+      "type": "person",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://malaysiagazette.com/.../pertembungan-3-penjuru-dun-ampangan",
+      "context": "Candidate at N.14 Ampangan (per PIR-07 priority battleground list). 3-corner fight confirmed."
+    },
+    {
+      "entity": "N.28 Klawang",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.astroawani.com/berita-politik/prn-negeri-sembilan-dua-sepupu-bertembung-raih-sokongan-pengundi-di-pasar-minggu-kuala-klawang",
+      "context": "[PRIORITY — 'not taking for granted'] 3-corner: Bakri Sawir (PH incumbent) vs Danni Rais (PN) — TWO COUSINS — vs Muhammad Adib Musa (Bersatu). 13,355 voters. PDM Klawang tutup protest (Umno not contesting). Day-1 dispatch: cousins met at Pasar Minggu Kuala Klawang, harmonious."
+    },
+    {
+      "entity": "Bakri Sawir",
+      "type": "person",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.astroawani.com/berita-politik/prn-negeri-sembilan-dua-sepupu-bertembung-raih-sokongan-pengundi-di-pasar-minggu-kuala-klawang",
+      "context": "PH incumbent Klawang; cousin of PN rival Danni Rais. Day-1: berkempen secara sihat, turun bendera pasang di pagar stadium atas teguran MD Jelebu."
+    },
+    {
+      "entity": "Danni Rais",
+      "type": "person",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.astroawani.com/berita-politik/prn-negeri-sembilan-dua-sepupu-bertembung-raih-sokongan-pengundi-di-pasar-minggu-kuala-klawang",
+      "context": "PN candidate Klawang; cousin of PH incumbent Bakri Sawir. 3-corner fight."
+    },
+    {
+      "entity": "Muhammad Adib Musa",
+      "type": "person",
+      "pir_tag": "PIR-07",
+      "priority": "normal",
+      "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/19/pdm-klawang-tutup-kerana-tak-faham-kerjasama-bn-pn-kata-jalaluddin",
+      "context": "Bersatu candidate Klawang (3-corner). Bersatu solo-logo contender."
+    },
+    {
+      "entity": "N.25 Labu",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.facebook.com/.../penyandang-kerusi-dun-labu-mohamad-hanifah-abu-baker-yakin-mampu-mempertahankan-",
+      "context": "[PRIORITY] Bersatu incumbent Mohamad Hanifah Abu Baker confident defend, 3-corner saingan. Tier-4 priority seat."
+    },
+    {
+      "entity": "Mohamad Hanifah Abu Baker",
+      "type": "person",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.facebook.com/.../penyandang-kerusi-dun-labu-mohamad-hanifah-abu-baker-yakin-mampu-mempertahankan-",
+      "context": "Bersatu incumbent Labu; yakin mampu mempertahankan kerusi meskipun saingan tiga penjuru."
+    },
+    {
+      "entity": "N.33 Sri Tanjung",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.astroawani.com/.../prn-negeri-sembilan-leevineshwaraan-calon-termuda-tok-mat-antara-paling-otai",
+      "context": "[PRIORITY] Leevineshwaraan (calon termuda, 23 yrs) uji nasib di DUN Sri Tanjung. Tier-4 priority seat."
+    },
+    {
+      "entity": "Leevineshwaraan",
+      "type": "person",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://malaysiagazette.com/.../leevineshwaraan-calon-termuda-uji-nasib-di-dun-sri-tanjung",
+      "context": "Youngest candidate (23) in NS PRN; contesting Sri Tanjung. Day-1 dispatch human-interest entity."
+    },
+    {
+      "entity": "N.10 Nilai",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.rtm.gov.my/.../prn-negeri-sembilan-dun-nilai-saksikan-pertembungan-lima-penjuru",
+      "context": "[PRIORITY] 5-corner fight (lima penjuru) — RTM Portal. Most-contested seat. Tier-4 priority."
+    },
+    {
+      "entity": "Rantau",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.nst.com.my/news/nation/2026/07/1492349/n9-polls-act-now-or-lose-chance-forever-says-tok-mat",
+      "context": "[PRIORITY] Tok Mat (Mohamad Hasan) seeking 7th term. BN-PN understanding origin story (2018). Day-1 dispatch."
+    },
+    {
+      "entity": "N.15 Juasseh",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "normal",
+      "source_url": "https://malaysiagazette.com/.../prn-n-sembilan-tiga-dun-di-kuala-pilah-tiga-penjuru-pilah-dan-johol-satu-lawan-s",
+      "context": "Tier-4 priority seat (per PIR-07 list). Kuala Pilah cluster. Limited discrete coverage this cycle."
+    },
+    {
+      "entity": "N.27 Chembong",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "normal",
+      "source_url": "",
+      "context": "Tier-4 priority seat (per PIR-07 list). Limited discrete coverage this cycle."
+    },
+    {
+      "entity": "N.20 Bembang",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "normal",
+      "source_url": "",
+      "context": "Tier-4 priority seat (per PIR-07 list). Limited discrete coverage this cycle."
+    },
+    {
+      "entity": "Sufian Maradzi",
+      "type": "person",
+      "pir_tag": "PIR-07",
+      "priority": "normal",
+      "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/19/pn-agrees-negeri-sembilan-mb-post-for-bn-if-pact-wins-polls-says-jalaluddin",
+      "context": "Seri Menanti BN candidate; floated by Jalaluddin as one of several qualified MB contenders (alongside Mohamad Hasan, Jalaluddin himself)."
+    },
+    {
+      "entity": "fleeing Sikamat / defector-framing",
+      "type": "narrative",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.nst.com.my/news/regional/2026/07/1492390/n9-polls-treachery-claim-against-me-doesnt-make-sense-says-jalaluddin",
+      "context": "[PRIORITY — director flag] Aminuddin's move Sikamat→Linggi = 'fleeing Sikamat' framing; Jalaluddin's 'derhaka/treachery' rebuttal (withdrawing MB support ≠ disloyalty to ruler). PH supporters booed Jalaluddin at nomination. Core defector-framing narrative."
+    },
+    {
+      "entity": "Day-1 campaign dispatch (nomination 18 Jul / 19 Jul)",
+      "type": "narrative",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.astroawani.com/berita-politik/prn-negeri-sembilan-dua-sepupu-bertembung-raih-sokongan-pengundi-di-pasar-minggu-kuala-klawang",
+      "context": "[PIR-07 NEW flag — afternoon Day-1 dispatch] Nomination 18 Jul (103 candidates, youngest 23 oldest 70), campaign Day-1 19 Jul: cousins Klawang at Pasar Minggu, Loke Chennah tinjau mesya, Tok Mat Rantau Family Day, Jalaluddin booed at Jelebu announcement."
+    },
+    {
+      "entity": "Fadillah Yusof",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "https://www.nst.com.my/news/nation/2026/07/1492353/updated-resign-if-you-want-attack-unity-partners-anwar-tells-ministers",
+      "context": "DPM; in Anwar discipline discussion with Zahid re: federal-state campaign boundary."
+    },
+    {
+      "entity": "Saarani Mohamad",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "https://www.nst.com.my/news/nation/2026/07/1492353/updated-resign-if-you-want-attack-unity-partners-anwar-tells-ministers",
+      "context": "Perak MB; present at Anwar's Madani Kita Programme (Ipoh) where unity-govt discipline directive issued."
+    },
+    {
+      "entity": "Siow Kong Choon",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "https://www.astroawani.com/berita-politik/prn-negeri-sembilan-keputusan-mca-tidak-letak-calon-di-tiga-kerusi-tradisi-bantu-kemenangan-dap-loke",
+      "context": "MCA Youth chief NS; BN challenger to Loke in Chennah (only 1-on-1 DAP-MCA fight)."
+    }
+  ],
+  "gaps_and_watch_items": [
+    "Mah Hang Soon response to Loke 'biggest loser' quote NOT surfaced (only stale index mention) — watch next cycle",
+    "Albert Tei, 'barking dogs', 'sole opposition', Muhyiddin graft trial, Anwar 'not briefed'/'postpone' NOT surfaced as discrete entities this cycle",
+    "BN manifesto launch 24 Jul at DUN Linggi NOT corroborated (only stale 2023 scoop.my hit) — high-priority watch",
+    "Formal PN-MT expulsion notice / Bersatu candidate withdrawal still NOT issued (Kiandee escalation static since 11 Jul)",
+    "N.15 Juasseh, N.27 Chembong, N.20 Bembang: limited discrete coverage — verify candidate names next cycle"
+  ]
+}
