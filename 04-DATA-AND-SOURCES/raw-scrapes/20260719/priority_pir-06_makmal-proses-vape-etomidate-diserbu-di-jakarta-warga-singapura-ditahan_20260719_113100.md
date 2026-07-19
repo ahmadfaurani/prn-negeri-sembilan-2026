@@ -1,0 +1,15 @@
+# [PRIORITY PIR-06] makmal-proses-vape-etomidate-diserbu-di-jakarta-warga-singapura-ditahan
+Source URL: https://www.bharian.com.my/dunia/asean/2026/07/1590396/makmal-proses-vape-etomidate-diserbu-di-jakarta-warga-singapura-ditahan
+Final/redirected URL: https://www.bharian.com.my/dunia/asean/2026/07/1590396/makmal-proses-vape-etomidate-diserbu-di-jakarta-warga-singapura-ditahan
+Collected: 20260719 20260719_113100 UTC (2026-07-19 11:33:17 UTC) | MYT: 19:33 MYT 19 Jul 2026
+Classification: TLP:AMBER
+HTTP: 200 | mode: bh-wp-feed-rss-content
+Note: Full text from bh-wp-feed RSS content:encoded
+Title: Makmal proses vape etomidate diserbu di Jakarta, warga Singapura ditahan
+ArticlePubDate: Sun, 19 Jul 2026 15:42:54 +0000
+Body chars: 2202
+
+## Full text
+==============================================================================
+JAKARTA: Seorang lelaki warga Singapura ditahan di Jakarta Utara Jumaat lalu selepas pihak berkuasa Indonesia menyerbu sebuah rumah dijadikan makmal memproses vape mengandungi etomidate, atau lebih dikenali sebagai Kpods.Media tempatan, IDN Times, melaporkan suspek berusia 34 tahun itu dikenal pasti dengan singkatan LHM dan menggunakan nama samaran Hayden.Ketua Polis Lapangan Terbang Antarabangsa Soekarno-Hatta, Senior Komisioner Wisnu Wardana, berkata seorang warga asing dari Singapura ditahan dan ribuan bahan bukti dirampas dalam operasi berkenaan."Siasatan bermula selepas pihak kastam lapangan terbang memintas dua botol mengandungi 2,200 gram etomidate yang diseludup dari Malaysia," katanya seperti dipetik agensi berita Antara.Menurut beliau, jumlah etomidate yang dirampas itu mencukupi untuk menghasilkan sehingga 2,000 kartrij vape mengandungi bahan berkenaan.Beliau berkata, suspek sedang memproses atau mencampurkan etomidate ketika polis lapangan terbang bersama pihak kastam menyerbu rumah berkenaan.Antara barangan yang dirampas ialah ribuan kartrij vape yang sedia untuk diedarkan dan peralatan makmal mini yang digunakan bagi menghasilkan vape etomidate.Menurut Antara, operasi pengeluaran vape itu baru bermula sehari sebelum serbuan dilakukan.Pihak berkuasa kini menjalankan siasatan bagi menentukan jumlah sebenar kartrij yang dihasilkan dan tempoh operasi sindiket itu dijalankan.Wisnu berkata, suspek bersama semua bahan bukti dibawa ke Ibu Pejabat Polis Lapangan Terbang Soekarno-Hatta untuk siasatan lanjut.Rumah dijadikan lokasi pemprosesan dadah itu, yang terletak di kawasan mewah Pantai Indah Kapuk (PIK), turut disita oleh pihak berkuasa.Sementara itu, Ketua Unit Narkotik Polis Lapangan Terbang Soekarno-Hatta, Michael Kharisma Tandayu, berkata rumah berkenaan disewa oleh seorang lagi warga Singapura yang dipercayai merekrut suspek untuk menghasilkan 500 kartrij vape etomidate sehari.Beliau berkata, suspek tiba di Indonesia pada 13 Julai lalu. Susulan itu, polis dan pihak kastam melancarkan operasi bersama bagi menumpaskan sindiket penyeludupan dadah sebelum membawa kepada penemuan makmal haram di Pantai Indah Kapuk. – AGENSI© New Straits Times Press (M) Bhd
+==============================================================================

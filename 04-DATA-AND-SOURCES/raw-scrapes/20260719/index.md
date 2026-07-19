@@ -8,13 +8,19 @@
 
 ---
 
-## CYCLES RUN TODAY (3 cycles, UTC timestamps)
+## CYCLES RUN TODAY (9 cycles, UTC timestamps)
 
 | Cycle (UTC) | MYT | Titles scanned | Genuinely-new priority titles | Priority full-text fetched | Notes |
 |---|---|---|---|---|---|
 | 20260719_011915 | 09:19 | 1151 | — (baseline) | 4 | First morning cycle; PN-removal watch |
 | 20260719_024042 | 10:40 | 1174 | 136 (mostly re-surfaced) | 2 | Awani 19 ceramah permits; mkini Zan Azlee commentary |
-| **20260719_034922** | **11:49** | **1164** | **22 (real)** | **15** | **Day-1 campaign ops; Melaka DAP withdrawal; BN-PN-not-merger; nomination lineup** |
+| 20260719_034922 | 11:49 | 1164 | 22 (real) | 15 | Day-1 campaign ops; Melaka DAP withdrawal; BN-PN-not-merger; nomination lineup |
+| 20260719_051226 | 13:12 | ~1350 | 40 | 6 | Tok Mat "resign to attack" (PM warning); Bersatu-logo solo; Wawasan Ridzuan |
+| 20260719_064654 | 14:46 | ~1450 | 35 | 8 | BH feed breakthrough; PN-9 formal dissolution; Kiandee quorum [CRITICAL] flag raised |
+| 20260719_075200 | 15:52 | ~1600 | 28 | 7 | Anwar "not briefed" Melaka; Loke MCA "biggest loser"; Muhyiddin solo-24 |
+| 20260719_091800 | 17:18 | ~1850 | 30 | 9 | Bersatu sasar kerajaan negeri (091800); Bersatu exit SNAPSHOT; PN-PAS realignment |
+| 20260719_102500 | 18:25 | ~2042 | 18 | 13 | BH full text; PH manifesto 20 Jul confirmed; MCA cedes Lobak/Mambau/Lukut |
+| **20260719_113100** | **19:31** | **~2042** | **3 genuinely-fresh + ~13 newly-captured** | **3 fresh (31 total incl re-saves)** | **Tok Mat "no hesitation to resign" 19:28 MYT (FRESHEST); Harian Metro "gabung jentera" 18:29 (FIRST machinery-merger hard-news); "Bersatu kacau daun" (Harian Metro) narrative pickup; "makmal politik PRU16" (Hadi/Zahid); 6 new PIR-16 gnews queries** |
 
 ---
 
@@ -630,3 +636,292 @@ Aminuddin Harun (PH, moved from Sikamat to Linggi) — no fresh Day-1 campaign d
 ---
 
 *Cycle 091800 section appended 2026-07-19 17:25 MYT (09:25 UTC) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (no formal-threshold crossing this cycle); new sub-threshold developments: PN-MB-concession + Bersatu-solo-governing-bid + Wawasan-admitted-to-PN + Muhyiddin-PAS warfare.*
+
+---
+
+# ═══════════════════════════════════════════════════════════
+# CYCLE 20260719_102500 — 18:25 MYT 19 Jul 2026 (Nomination-Day +1, Campaign Day 1)
+# 5th carry-forward of 14:50 Director-approved cycle
+# ═══════════════════════════════════════════════════════════
+
+**Fetch:** `_evening_fetch_20260719_102500.py` (FMT RSS + NST WP feed + Awani direct berita-politik paginated + mkini direct 780140-780175 + gnews 13 queries incl. MANDATORY "kuorum" + NEW "lebih hebat" + NEW "gabungan-baharu" + NEW "sasar-kerajaan-negeri" + NEW "pdm-klawang" + Bernama RSS test + BH/Sinar fixed WordPress /feed paths).
+**Prior titles baseline:** 1,912 titles (all 7 prior cycles 011915→091800).
+**Window:** post-17:18 MYT cutoff (evening campaign dispatches 17:00-20:00 MYT).
+
+## 📦 FILES CREATED THIS CYCLE: 472 priority files (31 full-text = 63,956 chars; 441 gnews headline-intel)
+- **🔴 NEW SOURCE BREAKTHROUGH — BH (Berita Harian) WordPress feed WORKS** (`bharian.com.my/feed`, content:encoded): Prior 7 cycles could NOT reach BH (404 on /feed/rss/category/* paths). This cycle's fix (WordPress default `/feed`) recovered **8 BH full-text articles** — including the 2 freshest articles of the entire day (PH manifesto 18:11 MYT, Indian community 18:01 MYT). BH is now a curl-friendly full-text source alongside FMT + NST + Awani.
+- **FMT RSS:** 9 full-text (content:encoded) — **NEW this cycle: EN "Klawang BN polling centre closed in protest" (17:02 MYT, 1145c — EN counterpart of prior BM PDM-Klawang)** + EN "Anwar warns ministers against attacking unity govt allies in state polls" (16:18 MYT, 2066c — EN counterpart of prior BM NST resign-to-attack) + "PM jelas isu kerugian pelaburan KWAP di Dewan Negara esok" (16:31 MYT, 2191c, marginal NS). 6 carryover EN/BM dupes (Loke-MCA, Hadi-bukan-retorik, quit-PN-advised, PN-MB-concedes, PDM-Klawang-BM, Anwar-resign-BM).
+- **NST WordPress feed:** 0 genuinely-new (all 6 items = carryover from prior 091800 cycle — Jalaluddin treachery, Anwar Perak, Anwar resign, Tok Mat act-now, Hadi unity, Loke road-safety).
+- **Awani direct (12 full-text, ALL ok):** **NEW: "PM ingatkan jangan serang rakan kerajaan perpaduan dalam kempen PRN" (17:30 MYT, 1664c, FRESH post-cutoff)** — Awani-specific dispatch of Anwar's discipline warning (Ipoh/Tambun MADANI KITA program). 11 re-saves of prior 091800 Awani items.
+- **mkini direct (780140-780175):** 0 new NS-relevant articles (IDs in this range not NS-tagged or not published yet).
+- **gnews 13 queries (incl. MANDATORY "kuorum" + NEW "lebih hebat" + "gabungan-baharu" + "sasar-kerajaan-negeri" + "pdm-klawang"):** 441 headline-intel files. **Only 2 items marked FRESH (pubdate ≥ 17:00 MYT 19 Jul):** (1) "Jalaluddin yakin BN kekal pertahan Pertang - Utusan Malaysia" (17:56 MYT), (2) "Klawang BN polling centre closed in protest..." (17:02 MYT, EN dup of PDM-Klawang). All "kuorum" items = 11-15 Jul (no new quorum escalation). All "lebih hebat" items = 16-18 Jul (no new formalization). All "bersatu-exit-pn" items = Feb-Jun 2026 historical (no "Bersatu exit imminent" corroboration).
+- **Bernama RSS test:** All 4 attempted paths (bernama.com/en/rss/news.php, /bm/..., /rss/news.php, /feed) returned HTTP non-200. Bernama NOT curl-friendly via these endpoints — remains headline-intel-only via gnews.
+- **Sinar/mStar WordPress /feed:** Sinar `sinarharian.com.my/feed` + mStar `mstar.com.my/feed` + category paths returned HTTP non-200 (likely geo-blocked or non-standard paths). NOT solved this cycle.
+
+## 🔴 PIR-06 — COALITION OPERATIONAL ARRANGEMENT — [CRITICAL] FLAG MAINTAINED, NO NEW THRESHOLD CROSSING
+
+**[CRITICAL] status: MAINTAINED from prior 091800 cycle (Kiandee quorum escalation, originated 11 Jul).** This cycle did NOT detect:
+- Any formal PN-MT expulsion notice for Bersatu
+- Any Bersatu candidate withdrawal (24 solo candidates stable)
+- Any Bersatu Supreme Council statement responding to Kiandee's quorum call
+- Any PN Supreme Council statement convening to "assess Bersatu's position"
+- Any RoS (Registrar of Societies) intervention signal
+- Any NEW Muhyiddin "lebih hebat new coalition" formalization (gnews "lebih-hebat" + "gabungan-baharu" queries returned only 16-18 Jul items, all `fresh: false` — the "lebih hebat" framing originated 17 Jul and has NOT escalated since)
+- Any PDM Klawang reopening (the PDM shutdown story was re-confirmed in EN via FMT 17:02 MYT, but no reopening news; Jalaluddin's prior "1-2 days" reopening expectation still pending)
+
+**"lebih hebat" NEW mandatory query — results:** 7 items, all 16-18 Jul (Sinar, BH, Harian Metro, Newswav, MalaysiaGazette, Facebook), all `fresh: false`. The strongest is "[VIDEO] Bersatu bentuk gabungan baharu lebih hebat selepas PRN Negeri Sembilan - Muhyiddin | Sinar Harian" (17 Jul 18:00 MYT) — this is the same signal captured in prior 091800 cycle. **No escalation into a formal announcement today.** The "lebih hebat" new-coalition framing remains at the "hint/bayangan" stage — NOT a formal coalition launch.
+
+**"kuorum" mandatory query — results:** 20 items, all 11-15 Jul (FMT, Sinar, BH, Newswav, MalaysiaGazette, Berita Harian), all `fresh: false`. No new quorum escalation today. The Kiandee quorum call (11 Jul) + Radzi rebuttal (11 Jul) remain the last formal exchanges. Disputed baseline (49 vs 23 MPT members) still unresolved.
+
+**Tier-4 seat watch (N.04, N.05, N.13, N.14, N.23, N.25, N.31, N.34):** No Bersatu candidate withdrawals. No new N.14 Ampangan intel.
+
+## 🔴 PIR-07 — HIGHEST-PRIORITY BATTLEGROUNDS — EVENING CAMPAIGN INTEL (NEW)
+
+### 🔴 FRESHEST (18:11 MYT): PH MANIFESTO LAUNCH CONFIRMED FOR TOMORROW NIGHT 20 JUL (BH full text, 2094c):
+**PH lancar manifesto malam esok** (BH, 18:11 MYT):
+- **PH manifesto to be launched TOMORROW NIGHT (20 Jul evening)** at **Klana Resort, Seremban.**
+- Will detail plans for NS as **continuation of MB Aminuddin Harun's (Tok Min) administration.**
+- To be officiated by **PH Presidential Council member Datuk Seri Amirudin Shari** (Selangor MB, also Co-Director of NS PRN election operations).
+- Media Secretariat Chief **Datuk Muhammad Zaki Md Sabri**: "excellence of Aminuddin's (Tok Min) administration will be the best factor" + sessions to explain to voters ongoing.
+- Campaign installations comply with EC + local authority rules.
+- **Police report filed** at IPK Seremban against a man (believed party member) who insulted the **Yang di-Pertuan Besar Negeri Sembilan** in a social-media comment — PH urges all parties to avoid 3R issues and not insult Raja-Raja Melayu / Adat institutions.
+- → `priority_pir-07_ph-lancar-manifesto-malam-esok_20260719_102500.md` — **HIGHEST-VALUE new article this cycle. Sets the next major PIR-07 event (PH manifesto, 20 Jul).**
+
+### Indian community stability narrative (BH full text, 18:01 MYT, 2488c):
+**PRN Negeri Sembilan: Komuniti India perlu pilih kestabilan jangka panjang - penganalisis politik** (BH):
+- Political analyst **Datuk Anbumani Balan**: Indian community should choose based on **long-term political stability**, evaluating state + federal gov performance — NOT power-grab politics.
+- "Stability is the basis for economic growth, employment, investment, welfare."
+- Indian voters increasingly critical, no longer sentiment-driven; votes "don't just determine who forms the state government but shape the development trajectory for years ahead."
+- **Directly relevant to 5-corner seats N.10 Nilai (21.9% Indian) + N.33 Sri Tanjung (28.35% Indian)** — Indian vote = potential kingmaker in mixed seats.
+- → `priority_pir-07_prn-negeri-sembilan-komuniti-india-perlu-pilih-kestabilan-jangka-panjang-pengana_20260719_102500.md`
+
+### Awani: Anwar discipline warning (FRESH 17:30 MYT, 1664c):
+**PM ingatkan jangan serang rakan kerajaan perpaduan dalam kempen PRN** (Awani):
+- Awani-specific FRESH dispatch (17:30 MYT — just after prior 17:18 MYT cutoff). Anwar at MADANI KITA program in **Tambun, Ipoh** (Perak).
+- Office-holders who attack unity-govt partners during state campaigns "will create a severe political arena (medan politik yang parah)" and must resign.
+- Discussed with DPMs Zahid + Fadillah. Parties same at Federal level may contest at state level — allowed in democracy.
+- → `priority_pir-07_berita-politik-pm-ingatkan-jangan-serang-rakan-kerajaan-perpaduan-dalam-kempen-p_20260719_102500.md` (Awani version; NST 14:47 + FMT/BH BM versions captured in prior 091800)
+
+### Utusan: Jalaluddin confident BN retains Pertang (FRESH 17:56 MYT, headline-intel):
+**Jalaluddin yakin BN kekal pertahan Pertang - Utusan Malaysia** (gnews headline-intel, 17:56 MYT):
+- Jalaluddin expresses confidence BN will retain/defend **Pertang** — the "derhaka" friction seat where he's the BN candidate.
+- Fresh Utusan headline (17:56 MYT) — Day-1 evening campaign statement. Follows his 15:36 MYT "treachery rebuttal" (prior 091800 NST) and 15:53 MYT Harian Metro version.
+- → `priority_pir-07_jalaluddin-yakin-bn-kekal-pertahan-pertang-utusan-malaysia_20260719_102500.md` (gnews headline-intel)
+
+### PDM Klawang — EN version (FMT, 17:02 MYT, 1145c):
+**Klawang BN polling centre closed in protest after seat ceded to PN, says Jalaluddin** (FMT EN):
+- English counterpart of the prior BM "PDM Klawang tutup" story (prior 091800 FMT BM 15:33 MYT). Confirms the PDM shutdown in English for the first time. Content matches the BM version (Klawang ceded to PN's Danni Rais; BN PDM shut in protest; Jalaluddin expects reopening 1-2 days; Umno NS will instruct supporters to vote PN in ceded seats).
+- → `priority_pir-06-pir-07_klawang-bn-polling-centre-closed-in-protest-after-seat-ceded-to-pn-says-jalaludd_20260719_102500.md`
+
+## 🟡 PIR-16 — FIRST DOMINANT CAMPAIGN NARRATIVES — UPDATED (this cycle's contributions)
+
+1. **PH manifesto "continuity of Aminuddin / Tok Min administration" framing** (BH 18:11 MYT) — PH's manifesto will frame itself around **Aminuddin's track record (Tok Min)** as the best factor. This is the PH counter-narrative to BN's "stability/Johor formula" framing — PH = incumbent-performance continuity, BN = coalition-stability novelty.
+
+2. **"Indian community = stability kingmaker" narrative** (BH 18:01 MYT) — analyst Anbumani Balan pitches stability to Indian voters, explicitly framing Indian votes as "determining who forms the state government." Directly relevant to the DAP-acceptance question in mixed seats — if Indian voters choose "stability" (PH), it counters the BN-PN "Malay unity" pitch that sidelines minority votes.
+
+3. **Anwar discipline narrative — Awani amplification (17:30 MYT)** — the "resign to attack unity partners" theme now has 3 outlet versions (NST EN 14:47, FMT/BH BM, Awani 17:30). The Awani version adds "medan politik yang parah" (severe political arena) framing — escalates the rhetoric. Federal-state firewall narrative hardening across the evening cycle.
+
+4. **PIR-16 [CRITICAL] check — "Bersatu exit imminent?" hard-news corroboration: STILL NOT DETECTED.** gnews "bersatu-exit-pn" query returned items all dated **Feb-Jun 2026** (all `fresh: false`). ZERO items from 18-19 Jul 2026. No hard-news outlet corroborated "Bersatu exit from PN imminent?" in the 17:18-18:28 MYT window. The mkini SNAPSHOT "Bersatu exit from PN imminent?" (18 Jul 18:00, prior 034922 cycle) remains the lone viral-tier item. **PIR-16 [CRITICAL] threshold NOT CROSSED.**
+
+5. **MCA rebuttal watch — NO genuinely-new MCA rebuttal.** gnews "mca-loke-rebuttal" query returned only historical items (Jun-Sep 2025) + the original Loke "biggest loser" article. No Wee Ka Siong or Mah Hang Soon escalation beyond the "BN-PN not a coalition, avoid vote split" defense (prior 075200 Awani full text). MCA rebuttal watch continues.
+
+6. **"sasar bentuk kerajaan negeri" hard-news corroboration: NOT detected this cycle.** gnews "sasar-kerajaan-negeri" query returned 0 fresh items (all pre-19 Jul). The Muhyiddin "Bersatu sasar bentuk kerajaan negeri solo (24 seats)" framing (prior 091800) has NOT been picked up by additional hard-news outlets today. Threshold NOT crossed.
+
+## 📈 CYCLE DELTA: 091800 → 102500 (17:18 → 18:28 MYT, ~1h10m)
+- **Prior titles baseline:** 1,912 (all 7 prior cycles)
+- **Priority files created:** 472 (31 full-text + 441 gnews headline-intel) — driven by 13 gnews queries (3 NEW: lebih-hebat, gabungan-baharu, sasar-kerajaan-negeri, pdm-klawang)
+- **Full-text articles (body>150c):** 31 — but genuinely-new (not re-saves) = **~7 articles** (BH 8 incl. 2 false-positives + FMT EN Klawang + FMT EN Anwar + Awani Anwar 17:30 = ~7 genuinely new; 22 are re-saves of prior 091800 content)
+- **Total body chars (full-text):** 63,956
+- **Genuinely-fresh post-cutoff (post-17:18 MYT) content:**
+  - **BH "PH lancar manifesto malam esok" 18:11 MYT** — FRESHEST + highest-value (manifesto launch date confirmed)
+  - **BH "Komuniti India perlu pilih kestabilan" 18:01 MYT** — Indian-vote stability narrative
+  - **Awani "PM ingatkan jangan serang rakan kerajaan" 17:30 MYT** — FRESH Awani Anwar discipline
+  - **Utusan "Jalaluddin yakin BN kekal pertahan Pertang" 17:56 MYT** — FRESH headline-intel
+  - **FMT EN "Klawang BN polling centre closed" 17:02 MYT** — EN version of PDM-Klawang
+- **PIR-06 status:** **[CRITICAL] MAINTAINED** (Kiandee quorum, prior 075200). No new formal-threshold crossing. No new "lebih hebat" formalization (all 16-18 Jul). No quorum escalation (all 11-15 Jul). No PDM Klawang reopen.
+- **PIR-16 status:** NOT [CRITICAL] — "Bersatu exit imminent?" + "sasar bentuk kerajaan negeri" hard-news corroboration NOT detected (all gnews items historical). MCA rebuttal NOT materialized.
+- **NEW source path SOLVED:** BH (Berita Harian) WordPress feed (`bharian.com.my/feed`) — 8 full-text articles including the 2 freshest of the day. Closes a persistent 7-cycle gap.
+
+## 🎯 NEXT-CYCLE RECOMMENDATIONS (19:30-20:30 MYT window)
+1. **PIR-06 ([CRITICAL] watch — HIGHEST):** Maintain formal-removal watch. The "lebih hebat" new-coalition framing (17 Jul) has NOT escalated — monitor Muhyiddin's evening ceramah for any formalization. Re-poll gnews "lebih-hebat" + "pn-supreme-council" + "kuorum" for any 19 Jul evening items. PDM Klawang reopening watch (Jalaluddin said "1-2 days" — could materialize 20-21 Jul).
+2. **PIR-07:** **PH MANIFESTO LAUNCH 20 JUL EVENING at Klana Resort, Seremban** — this is the next major PIR-07 event. Monitor for pre-launch leaks/teasers tonight + full coverage tomorrow. BN manifesto launch 24 Jul at DUN Linggi + Pertang (prior intel). Capture evening ceramah/ops-centre for T1 seats (Chennah, Linggi, Sikamat, Rantau, Klawang, Pertang). Jalaluddin "confident BN retains Pertang" (17:56 MYT) — track Pertang coverage.
+3. **PIR-16:** MCA rebuttal watch continues — Loke "biggest loser/helps DAP" still dominant; no Wee/Mah escalation. Track whether the PH "continuity of Aminuddin/Tok Min" manifesto framing + "Indian stability" narrative counter the BN "stability/Johor formula" pitch. "Bersatu exit imminent?" + "sasar bentuk kerajaan negeri" hard-news corroboration watch continues.
+4. **Source maintenance:** Re-poll FMT RSS + NST feed + **BH feed (NEW working path)** for post-18:11 MYT items. Awani homepage re-poll for evening berita-politik. mkini try 780176-780200.
+5. **NEW sources to test:** Sinar Harian — try `sinarharian.com.my/index.php/feed` or `rss.sinarharian.com.my`; Harian Metro remains HTTP 000 (geo-blocked). Bernama RSS endpoints all failed — try `bernama.com/rss` or `rss.bernama.com`.
+
+## ⚠️ COLLECTION LIMITATIONS (updated)
+- **SOLVED this cycle:** **BH (Berita Harian) WordPress feed (`bharian.com.my/feed`) now works** — 8 full-text articles including the 2 freshest of the day (PH manifesto 18:11 MYT, Indian community 18:01 MYT). Prior 7 cycles could only reach BH via gnews headline-intel; this cycle closes that gap. BH joins FMT + NST + Awani as curl-friendly full-text sources.
+- **Bernama RSS:** All 4 attempted paths (en/rss/news.php, bm/rss/news.php, rss/news.php, /feed) returned HTTP non-200. Bernama NOT curl-friendly via these endpoints.
+- **Sinar Harian / mStar:** WordPress `/feed` + `/category/<slug>/feed` paths returned HTTP non-200 (likely geo-blocked or non-standard). NOT solved. Headline-intel only via gnews.
+- **Harian Metro:** Still HTTP 000 (geo-blocked from this VM). Headline-intel only via gnews.
+- **gnews protobuf resolution via curl:** STILL infeasible (7th cycle confirmation). 441 items this cycle saved as headline-intel. Only 2 marked FRESH (Jalaluddin-Pertang, PDM-Klawang-EN).
+- **mkini paywall:** IDs 780140-780175 returned 0 NS-relevant articles.
+- **Awani pagination:** berita-politik?page=2 returned 0 additional NS-relevant links. NS coverage concentrated in top 15 berita-politik links.
+- **False positives in BH feed:** 4 BH articles caught by broad NS_RE but NOT genuinely NS-relevant (Cheng Hoe football, banjir flood, vape etomidate drug lab "makmal", Melaka tourism MBOR). Genuinely NS-relevant BH = 4 of 8 (PH manifesto, Indian community, Anwar resign-to-attack BM, KWAP-marginal).
+
+---
+
+*Cycle 102500 section appended 2026-07-19 18:32 MYT (10:32 UTC) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (no formal-threshold crossing this cycle). NEW source breakthrough: BH WordPress feed now working. Freshest article: PH manifesto launch confirmed for 20 Jul evening (BH 18:11 MYT).*
+
+# ═══════════════════════════════════════════════════════════
+## CYCLE 20260719_113100 — 19:31 MYT 19 Jul (Campaign Day 1, Evening Surge Window)
+# ═══════════════════════════════════════════════════════════
+
+**Fetch:** `_evening_fetch_20260719_113100.py` (6th carry-forward; FMT RSS + NST WP feed + Awani direct berita-politik + mkini direct 780140-780210 + **19 gnews queries incl. 6 NEW PIR-16 queries** [makmal-politik, anwar-not-briefed, bersatu-kacau-daun, barking-dogs, amirudin-shari-ns, ns-ops-centre] + Bernama RSS test + BH/Sinar fixed WordPress /feed paths + URL-guess for PDM-Klawang-reopen / Muhyiddin-new-coalition threads).
+**Prior titles baseline:** 2,042 titles (all 8 prior cycles 011915→102500, 1,198 files).
+**Window:** post-18:28 MYT cutoff (evening campaign dispatches 18:28-19:31 MYT).
+
+## 📦 FILES CREATED THIS CYCLE: 488 (31 full-text = 64,649 chars; 457 unique gnews headline-intel from 532 items)
+- **FMT RSS:** 9 articles saved (all RSS content:encoded, body ok) — but ALL are re-saves of prior 102500 content (pubdates 04:26–09:02 GMT = 12:26–17:02 MYT, all pre-cutoff). The title-based dedup did not catch them (FMT title normalization drift), but the URLs/publish-times are identical to the 102500 cycle. **0 genuinely-new FMT articles.**
+- **NST WordPress feed:** 0 items returned (HTTP 200 but feed parsed 0 items — likely a transient empty feed or endpoint hiccup this cycle).
+- **Awani direct (13 full-text, ALL ok):** **3 genuinely-NEW** (not in prior 102500 Awani set); 10 are re-saves of 102500 Awani articles (known Awani URL-path dedup gap — the dedup compares URL paths against a title-based set, so Awani articles re-fetch every cycle). The 3 genuinely-new:
+  - **`ph-umum-manifesto-esok` (18:30:37 MYT, FRESH)** — PH manifesto launch confirmed tomorrow night
+  - **`saya-tak-ada-keberatan-letak-jawatan-mohamad-hasan` (19:28:50 MYT, FRESH)** — Tok Mat responds to Anwar resign warning
+  - **`ph-jangan-masuk-campur-pendirian-politik-bn` (18:22:51 MYT, just pre-cutoff)** — Syahir/PAS rebuts PH Youth resign demand
+- **mkini direct (780140-780210):** 0 new NS-relevant articles (71 IDs polled; none NS-tagged or new).
+- **gnews 19 queries (incl. 6 NEW PIR-16 queries):** 532 headline-intel items → 457 unique files (75 slug-collisions deduped). **Genuinely-fresh (pubdate ≥ 18:28 MYT 19 Jul): 1** — Harian Metro "PRN N9: BN-PN gabung jentera, tekad rampas Negeri Sembilan" (10:29:40 GMT = 18:29 MYT). The 6 NEW queries surfaced significant **historical-but-newly-captured** headline-intel (see PIR-16 below). The mandatory "kuorum" (20 items, all 11–15 Jul, fresh:no) and "lebih-hebat" (74 items, all 16–18 Jul, fresh:no) queries returned **NO new escalation**.
+- **Bernama RSS:** All 4 paths HTTP 404 (unchanged — Bernama NOT curl-friendly).
+- **BH WordPress feed (`bharian.com.my/feed`):** 9 articles saved (8 genuine + 1 new false-positive "makmal vape etomidate"). **All 9 are re-saves of prior 102500 BH content** (pubdates 15:42–18:11 MYT, all pre-18:28 cutoff). The BH pubdates are MYT-labeled-as-GMT (a known Malaysian RSS bug): the is_fresh function parsed "18:11 GMT" as 18:11 UTC (02:11 MYT next day) → flagged 8 BH items as "FRESH" — **these are FALSE POSITIVES**. The genuinely-fresh BH content this cycle = 0 (all 8 BH articles were captured in 102500).
+- **Sinar/mStar WordPress /feed + /category paths:** HTTP 404 (unchanged — NOT solved).
+- **URL-guess (PDM-Klawang-reopen, Muhyiddin-new-coalition):** All 5 guesses HTTP 404 or non-article. No PDM Klawang reopen story found; no Muhyiddin new-coalition formalization article found.
+
+## 🔴 PIR-06 — COALITION OPERATIONAL ARRANGEMENT — [CRITICAL] FLAG MAINTAINED, NO NEW THRESHOLD CROSSING
+
+**[CRITICAL] status: MAINTAINED from prior 075200 cycle (Kiandee quorum escalation, originated 11 Jul).** This cycle did NOT detect:
+- Any formal PN-MT expulsion notice for Bersatu
+- Any Bersatu candidate withdrawal (24 solo Bersatu-logo candidates stable; Gerakan expelled Tang Jay Son for running on Bersatu ticket — a Gerakan disciplinary action, NOT a Bersatu withdrawal)
+- Any PN/Bersatu Supreme Council statement convening to assess Bersatu's position
+- Any RoS intervention signal
+- Any NEW "lebih hebat new coalition" formalization (gnews "lebih-hebat" 74 items all 16–18 Jul, fresh:no; "gabungan-baharu" 53 items all pre-19 Jul, fresh:no — the "lebih hebat" framing originated 17 Jul and has NOT escalated into a formal announcement)
+- Any PDM Klawang reopening (URL-guess returned 404; the shutdown story stands, no reopen news)
+
+**NEW this cycle — PIR-06 hard-news corroboration of BN-PN MACHINERY MERGER (NOT [CRITICAL] — it's cooperation, not expulsion):**
+- 🔴 **Harian Metro (18:29 MYT, FRESH): "PRN N9: BN-PN gabung jentera, tekad rampas Negeri Sembilan"** — **FIRST hard-news corroboration of the BN-PN machinery merger ("gabung jentera")** for the NS campaign. "Tekad rampas" = determined to seize/capture NS. This directly hits PIR-06 keyword "machinery sharing." This is an operational-cooperation signal (the BN-PN seat-swap + joint-campaign machinery), NOT a formal expulsion/withdrawal/quorum event → **[PRIORITY PIR-06] but NOT [CRITICAL].** → `priority_pir-06_prn-n9-bn-pn-gabung-jentera-tekad-rampas-negeri-sembilan_20260719_113100.md` (gnews headline-intel; Harian Metro geo-blocked, full text not curl-recoverable)
+
+**NEW this cycle — "toxic PN / new coalition" framing corroboration (rhetorical, pre-19 Jul):**
+- **Buletin TV3 (17 Jul 20:35 MYT): "PRN Negeri Sembilan: PN toksik, BERSATU rancang jajaran politik baharu – Muhyiddin"** — Muhyiddin calls PN "toxic" and says Bersatu plans a NEW political lineup. This is the precursor to the "lebih hebat" new-coalition framing. Newly-captured via prn-ns-bersatu query (Buletin TV3 not in prior cycles). → `priority_pir-06_prn-negeri-sembilan-pn-toksik-bersatu-rancang-jajaran-politik-baharu-muhyiddin_20260719_113100.md`
+- **FMT (19 Jul 09:30 MYT): "Bukan retorik, Hadi beri isyarat uji model kerjasama PN-BN menjelang PRU16"** — Hadi Awang gives signal to TEST a PN-BN cooperation model toward PRU16. "Bukan retorik" (not just rhetoric). This is the "makmal politik / PRU16" framing — NS PRN as a testbed for PRU16 coalition arrangements. Newly-captured via makmal-politik query. → `priority_pir-06_bukan-retorik-hadi-beri-isyarat-uji-model-kerjasama-pn-bn-menjelang-pru16_20260719_113100.md`
+- **Awani full text (18 Jul 17:42 MYT): Zahid — "Prestasi BN-PN di N Sembilan jadi penentu jajaran PRU16"** — Zahid (BN chairman): BN-PN performance in NS will determine the lineup/direction of both coalitions for PRN Melaka and PRU16. "Will evaluate NS PRN dynamics first before any broader cooperation." BN offers Johor (~8% GDP growth) + Pahang track record; NS GDP 4.6% (below national 5.2%). → `priority_pir-07_berita-politik-prn-negeri-sembilan-prestasi-bn-pn-mungkin-jadi-penentu-jajaran-b_20260719_113100.md` (the FMT headline counterpart was carryover; this Awani FULL TEXT with GDP/Johor/Pahang detail is genuinely-new)
+- **BH (18 Jul 14:43 MYT): "PRN Negeri Sembilan: Jajaran BN-PN di depan"** — BN-PN lineup ahead. Newly-captured via gabungan-baharu query.
+- **MalaysiaGazette (carryover-era): Aminuddin — "Kerjasama politik BN-PN 'agak ganjil' di Negeri Sembilan"** — caretaker MB calls BN-PN cooperation "rather odd." Newly-captured via ns-ops-centre query.
+
+**Tier-4 seat watch (N.04, N.05, N.13, N.14, N.23, N.25, N.31, N.34):** No Bersatu candidate withdrawals. NEW: **BH (15:47 MYT) "Maira pertaruh status anak jati tawan DUN Labu"** — Maira bets "anak jati" (native-son) status to capture **Labu (N.25)** — a Tier-4 seat. Newly-captured via bersatu-kacau-daun query. → `priority_pir-*_maira-pertaruh-status-anak-jati-tawan-dun-labu_20260719_113100.md`
+
+## 🟠 PIR-07 — HIGHEST-PRIORITY BATTLEGROUNDS — EVENING CAMPAIGN INTEL (NEW THIS CYCLE)
+
+### 🔴 FRESHEST (19:28 MYT): TOK MAT RESPONDS TO ANWAR RESIGN WARNING (Awani full text, 2794c):
+**"Saya tak ada keberatan letak jawatan" – Mohamad Hasan** (Awani, 19:28:50 MYT, FRESH):
+- Tok Mat (DPM/FM, BN dep chairman, Rantau candidate): **"no hesitation to leave his ministerial post if ordered by PM Anwar."**
+- BUT defends BN campaign: "BN campaign in NS PRN only aims to deliver message to voters, NO element/motive to vilify the Unity Government (Kerajaan Perpaduan)."
+- "If there's an order from PM for me to leave post, I have no hesitation."
+- Campaign statements are "normal in politics, shouldn't be seen as personal enmity between contesting parties." "I'm not small-hearted (tak kecil hati)."
+- Warns: BN's prior GE defeat caused by extreme slander (fitnah); fake WhatsApp messages, cartoons, hantaran from fake accounts expected to influence voters. "All fake accounts designed to pit Malaysians against each other."
+- Re: AMH (Angkatan Muda Harapan) urging BN ministers/deputies to resign after BN-PN NS cooperation — "up to PM, since he appoints ministers and deputy ministers."
+- → `priority_pir-07_berita-politik-prn-negeri-sembilan-saya-tak-ada-keberatan-letak-jawatan-mohamad-_20260719_113100.md` — **HIGHEST-VALUE genuinely-fresh article this cycle. Day-1 evening campaign statement from BN deputy chairman defending the Rantau seat + engaging the Anwar resign-to-attack narrative.**
+
+### 🔴 PH MANIFESTO LAUNCH — 20 JUL EVENING (CONFIRMED 2nd source, FRESH 18:30 MYT):
+**"PH umum manifesto esok"** (Awani, 18:30:37 MYT, FRESH):
+- PH manifesto to be announced/launched **TOMORROW NIGHT (20 Jul evening)** — confirms prior BH "PH lancar manifesto malam esok" (18:11 MYT, 102500 cycle). Awani is the 2nd independent source.
+- Datuk Muhammad Zaki Md Sabri (PH NS Election Ops Co-Director): manifesto focuses on **CONTINUITY of development and prosperity since PH led state govt in 2018.** "Detailed holistically by top party leadership for sustainable economic and social impact."
+- "Secretariat will inform details of location and leadership presence."
+- Day-2 campaign: satisfied with logistics + positive voter support. Hopes all parties maintain healthy campaign, avoid 3R (royalty/religion/race).
+- → `priority_pir-07_berita-politik-prn-negeri-sembilan-ph-umum-manifesto-esok_20260719_113100.md`
+
+### BN MANIFESTO — 24 JUL CONFIRMED (Kosmo, newly-captured headline-intel):
+**"PRN Negeri Sembilan: BN umum manifesto 24 Julai"** (Kosmo Digital, 18 Jul 13:59 MYT):
+- Confirms BN manifesto launch **24 July** — matches prior intel (BN manifesto 24 Jul at DUN Linggi + Pertang). Now corroborated by Kosmo Digital headline. → `priority_pir-07_prn-negeri-sembilan-bn-umum-manifesto-24-julai_20260719_113100.md`
+
+### Klawang (N.28) — "TWO COUSINS" NARRATIVE (Awani full text, 12:11 MYT, genuinely-new):
+**"Dua sepupu bertembung raih sokongan pengundi di Pasar Minggu Kuala Klawang"** (Awani):
+- **Bakri Sawir (PH incumbent) vs Danni Rais (PN) are COUSINS (sepupu)** — met at Pasar Minggu Kuala Klawang (Kuala Klawang weekly market), Day-2 campaign. Both canvassed voters/traders at the same time, same aisle — "tenang dan harmoni" (calm, harmonious), even joked (bergurau senda).
+- Bakri: "no special challenge; campaign healthily per rules." Took down flags at stadium fence after Jelebu District Council warning — "if we don't respect the law, how to ask others to?"
+- **Klawang = 3-cornered: Bakri (PH) vs Danni Rais (PN) vs Muhammad Adib Musa (Bersatu).** 13,355 registered voters.
+- This confirms the BN-PN seat arrangement in Klawang: BN ceded Klawang to PN's Danni (the PDM-Klawang-shutdown-in-protest seat); Bakri (PH) vs Danni (PN) vs Adib (Bersatu solo).
+- → `priority_pir-07_berita-politik-prn-negeri-sembilan-dua-sepupu-bertembung-raih-sokongan-pengundi-_20260719_113100.md` — **NEW T1-seat human-interest narrative; "cousins" angle on the Klawang battleground.**
+
+### Linggi (N.32) — Aminuddin development pledge (Sinar Harian, 18 Jul, newly-captured):
+**"Aminuddin mahu bangunkan pelabuhan, kawasan perindustrian di Linggi"** — caretaker MB Aminuddin (PH, now contesting Linggi N.32 after moving from Sikamat) pledges to develop a port + industrial area in Linggi. T1-seat development messaging. → `priority_pir-*_aminuddin-mahu-bangunkan-pelabuhan-kawasan-perindustrian-di-linggi_20260719_113100.md`
+
+### Gerakan expels Tang Jay Son (Awani full text, 18 Jul 20:22 MYT, genuinely-new):
+- Gerakan expelled Tang Jay Son immediately for running on Bersatu ticket in NS PRN. Tang = Bersatu candidate for **Rahang (4-cornered)**: Siau Meow Kong (PH) vs Yap Siok Moy (BN) vs Tang Jay Son (Bersatu) vs S. Tinagaran (PSM). PIR-06-adjacent (Bersatu solo-logo candidate; cross-coalition disciplinary). → `priority_pir-07_berita-politik-prn-negeri-sembilan-tanding-atas-tiket-bersatu-gerakan-pecat-keah_20260719_113100.md`
+
+## 🟡 PIR-16 — FIRST DOMINANT CAMPAIGN NARRATIVES — UPDATED (NEW PIR-16 queries surfaced major narrative intel)
+
+### 🔴 NARRATIVE PICKUP: "BERSATU KACAU DAUN" — EXACT PIR-16 KEYWORD (Harian Metro, newly-captured):
+**"PRN N9: BERSATU dianggap 'kacau daun', Wan Saiful bimbang pertembungan kerusi Melayu"** (Harian Metro, 08:31:35 GMT = 16:31 MYT):
+- **Bersatu is characterized as "kacau daun" (spoiler/meddlesome)**; **Wan Saiful (Bersatu VP) worried about Malay-seat clashes** (pertembungan kerusi Melayu) — multi-cornered fights splitting the Malay vote.
+- This is the EXACT "Bersatu kacau daun" + "Wan Saiful" narrative the mission's PIR-16 NEW keyword list requested. **Hard-news (Harian Metro) pickup of the "Bersatu as spoiler" narrative.**
+- **[CRITICAL] check:** This is the "Bersatu kacau daun" narrative, NOT "Bersatu exit imminent?" and NOT "sasar bentuk kerajaan negeri." → **[PRIORITY PIR-16] but NOT [CRITICAL]** (the [CRITICAL] trigger requires corroboration of "Bersatu exit imminent?" or "sasar bentuk kerjaan negeri"). → `priority_pir-06-pir-16_prn-n9-bersatu-dianggap-kacau-daun-wan-saiful-bimbang-pertembungan-kerusi-melayu_20260719_113100.md`
+
+### 🔴 Loke FULL MCA narrative — 3 ceded seats named (Awani full text, 13:48 MYT, genuinely-new):
+**"Keputusan MCA tidak letak calon di tiga kerusi tradisi bantu kemenangan DAP – Loke"** (Awani):
+- **MCA cedes 3 traditional seats to PN: Lobak, Mambau, Lukut.** (These now have PN candidates instead of MCA.)
+- Loke: "Thank you to MCA president Wee Ka Siong for being so 'generous' (murah hati) helping DAP by not contesting." "If we (DAP) lose we'll still fight, but MCA is very generous — up to MCA members to judge."
+- MCA contests **7 seats: Chennah, Bahau, Nilai, Temiang, Rahang, Chuah, Repah.** Only **Chennah** is 1-on-1 (Loke vs MCA's Siow Kong Choon).
+- "MCA sacrificed 3 traditional seats for exchange so PN won't place candidates in some BN areas. Goal: avoid vote split + facilitate support transfer (pemindahan sokongan)."
+- Loke confident DAP defends all 11 seats it contests → PH forms state govt. "PH is the best choice vs the BN-PN coalition."
+- 889,490 registered voters (867,151 ordinary + 16,884 military/spouses + 5,455 police early voters).
+- → `priority_pir-07_berita-politik-prn-negeri-sembilan-keputusan-mca-tidak-letak-calon-di-tiga-kerus_20260719_113100.md` — **Full PIR-16 "MCA biggest loser" narrative with specific ceded seats. Loke's "murah hati/terima kasih Wee" is the taunt the mission's PIR-16 keyword list tracks.**
+
+### "ujian formula" framing — Syahir/PAS rebuts PH Youth resign demand (Awani full text, 18:22 MYT, nearly-fresh):
+**"PH jangan masuk campur pendirian politik BN, kerjasama masih ujian formula – Syahir"** (Awani):
+- Syahir Che Sulaiman (PAS, Bachok MP): PH Youth's demand for BN ministers to resign is "awkward and excessive (janggal dan keterlaluan)."
+- "PH shouldn't interfere or determine UMNO/BN's political stance — they're Madani Govt allies."
+- "Why is PH anxious when PN-BN cooperation is limited to 'understanding' for NS PRN?" Raises: why no resignation issue when BN-PH clashed in 56 Johor seats?
+- **"Any PN-BN cooperation after NS PRN is still at the 'ujian formula' (testing-formula) stage — all parties cautious, considering grassroots views."**
+- Claims MCA's reaction shows doubt about the cooperation. "Confidence in Madani Govt eroding; PM + PH face people's assessment, especially Malay voters."
+- **Seat split confirmed: BN contests 25 seats, PN places candidates in 11 seats** (25+11=36, straight fights under the understanding; Bersatu's 24 solo-logo candidates run separately, creating multi-cornered fights).
+- → `priority_pir-07_berita-politik-prn-negeri-sembilan-ph-jangan-masuk-campur-pendirian-politik-bn-k_20260719_113100.md`
+
+### "derhaka" rebuttal cycle (PIR-16 "derhaka" keyword, newly-captured):
+- **BH (15:02 MYT): "'Tak masuk akal tuduh saya derhaka, jangan spin, tanam kebencian' – Jalaluddin"** — Jalaluddin (Pertang BN candidate): "Doesn't make sense to accuse me of treachery (derhaka), don't spin, don't plant hatred." The Pertang derhaka-friction rebuttal, newly-captured. (Prior 102500 captured the NST + Harian Metro versions; this is the BH version.)
+- **BH (14:47 MYT): "PRN NS: DNA UMNO, BN bukan penderhaka – Onn Hafiz"** — Onn Hafiz (Johor MB): "UMNO/BN DNA is not treacherous (penderhaka)." Broader BN defense against the derhaka framing. → `priority_pir-16_prn-ns-dna-umno-bn-bukan-penderhaka-onn-hafiz_20260719_113100.md`
+
+### Melaka DAP withdrawal — "Anwar not briefed / postpone" (NEW anwar-not-briefed query, headline-intel):
+- "Anwar tells Melaka DAP to put state exit on hold" (NST) | "Anwar urges DAP Melaka to delay exit from state government as political standoff deepens" (The Vibes) | "Melaka DAP to hold press conference amid speculation of exiting state government" (The Vibes) | "Melaka assembly: Four DAP assemblymen moved to opposition but Amanah's Adly still seated with govt bloc" (The Edge) — the "Anwar not briefed / postpone" Melaka-DAP narrative (PIR-16), newly-captured via the anwar-not-briefed query. These corroborate the prior-cycle Melaka-DAP intel.
+
+### PIR-16 [CRITICAL] check — "Bersatu exit imminent?" + "sasar bentuk kerajaan negeri" hard-news corroboration: STILL NOT DETECTED.
+- gnews "bersatu-exit-pn" query (52 items) returned items all dated Feb–Jun 2026 (all fresh:no). ZERO items from 18–19 Jul. No hard-news outlet corroborated "Bersatu exit from PN imminent?" in the 18:28–19:31 MYT window. The mkini SNAPSHOT "Bersatu exit from PN imminent?" (18 Jul 18:00) remains the lone viral-tier item. **PIR-16 [CRITICAL] threshold NOT CROSSED.**
+- gnews "sasar-kerajaan-negeri" query (65 items, 39 NS-relevant) returned 0 fresh items (all pre-19 Jul). The Muhyiddin "Bersatu sasar bentuk kerajaan negeri solo (24 seats)" framing (prior 091800) has NOT been picked up by additional hard-news outlets today. Threshold NOT crossed.
+- **MCA rebuttal watch — NO genuinely-new MCA rebuttal.** gnews "mca-loke-rebuttal" (5 items) returned only historical items (Jun–Sep 2025) + the original Loke "biggest loser" article. No Wee Ka Siong or Mah Hang Soon escalation. MCA rebuttal watch continues.
+
+### Additional PIR-16 narrative intel (newly-captured via new queries, historical but relevant):
+- **"Dilema PRU16 Anwar: bubar awal atau tunggu habis penggal?" (scoop.my)** — Anwar's PRU16 dilemma: dissolve early or wait. makmal-politik framing.
+- **"Kemelut di Negeri Sembilan zahir tanda awal kesan luar jangka kepada UMNO – Rafizi" (Sinar Harian)** — Rafizi: NS crisis shows early signs of unexpected impact on UMNO.
+- **"Kerjasama PN-BN melangkaui nilai 'perkahwinan' – Presiden PAS" (Sinar Harian)** — PAS president: PN-BN cooperation exceeds "marriage" value.
+- **"PRN, PRU-16 bakal saksikan pertembungan tiga penjuru BN-PH-PN – Suhaizan" (MalaysiaGazette)** — PRN + PRU16 will see three-cornered BN-PH-PN clashes.
+- **"BN-PN tak bincang siapa nak jadi MB dan EXCO NS, Jalaluddin akui 'stok' banyak" (BH)** — BN-PN haven't discussed MB/EXCO; Jalaluddin admits "plenty of stock."
+
+## 📈 CYCLE DELTA: 102500 → 113100 (18:28 → 19:31 MYT, ~1h3m)
+- **Prior titles baseline:** 2,042 (all 8 prior cycles)
+- **Files created:** 488 (31 full-text + 457 unique gnews headline-intel)
+- **Genuinely-fresh post-cutoff (post-18:28 MYT) content: 3 articles:**
+  - **Awani "PH umum manifesto esok" 18:30 MYT** — PH manifesto launch 20 Jul confirmed (2nd source)
+  - **Awani "Tok Mat: saya tak ada keberatan letak jawatan" 19:28 MYT** — FRESHEST; Tok Mat responds to Anwar resign warning
+  - **Harian Metro "PRN N9: BN-PN gabung jentera, tekad rampas NS" 18:29 MYT** — FIRST hard-news machinery-merger corroboration (gnews headline-intel)
+- **Nearly-fresh (just pre-cutoff, genuinely-new):** Awani "Syahir: PH jangan masuk campur pendirian BN" 18:22 MYT
+- **Genuinely-new (not fresh, newly-captured) high-value items:** Loke MCA 3-seats (Awani 13:48), Klawang cousins (Awani 12:11), Zahid PRU16 (Awani 18 Jul), Gerakan/Tang (Awani 18 Jul), Bersatu kacau daun (Harian Metro 16:31), Hadi bukan retorik (FMT 09:30), Jalaluddin derhaka rebuttal (BH 15:02), Onn Hafiz bukan penderhaka (BH 14:47), Maira Labu (BH 15:47), Aminuddin Linggi port (Sinar 18 Jul), BN manifesto 24 Jul (Kosmo 18 Jul), Buletin TV3 PN toksik (17 Jul)
+- **PIR-06 status:** **[CRITICAL] MAINTAINED** (Kiandee quorum, prior 075200). No new formal-threshold crossing. NEW: Harian Metro hard-news "gabung jentera" machinery-merger corroboration (NOT CRITICAL — cooperation, not expulsion). "lebih hebat" NOT escalated (all 16–18 Jul). No quorum escalation (all 11–15 Jul). No PDM Klawang reopen. No Bersatu candidate withdrawal.
+- **PIR-16 status:** NOT [CRITICAL] — "Bersatu exit imminent?" + "sasar bentuk kerajaan negeri" hard-news corroboration NOT detected (all gnews items historical). MCA rebuttal NOT materialized. NEW: "Bersatu kacau daun" narrative pickup (Harian Metro — exact mission keyword, [PRIORITY] not [CRITICAL]); Loke full MCA 3-seats narrative; "ujian formula" framing (Syahir); "makmal politik PRU16" framing (Hadi/Zahid); "derhaka" rebuttal cycle (Jalaluddin/Onn Hafiz).
+- **NEW gnews queries added:** 6 (makmal-politik, anwar-not-briefed, bersatu-kacau-daun, barking-dogs, amirudin-shari-ns, ns-ops-centre) — barking-dogs returned 0 items; the other 5 surfaced significant narrative intel.
+
+## 🎯 NEXT-CYCLE RECOMMENDATIONS (20:30-21:30 MYT window / 20 Jul morning)
+1. **PIR-06 ([CRITICAL] watch — HIGHEST):** Maintain formal-removal watch. The Harian Metro "gabung jentera" (18:29 MYT) is the first hard-news machinery-merger corroboration — monitor whether it escalates into a formal BN-PN joint-ops-centre announcement or joint-ceramah schedule. "lebih hebat" new-coalition framing (17 Jul) has NOT escalated — monitor Muhyiddin's evening/night ceramah for any formalization. Re-poll gnews "lebih-hebat" + "pn-supreme-council" + "kuorum" for any 19 Jul night items. PDM Klawang reopening watch (Jalaluddin said "1-2 days" — could materialize 20–21 Jul).
+2. **PIR-07:** **PH MANIFESTO LAUNCH 20 JUL EVENING** (location TBC by secretariat) — capture full coverage tomorrow. **BN MANIFESTO 24 JUL at DUN Linggi + Pertang** — confirmed by Kosmo. Capture evening ceramah/ops-centre for T1 seats: Chennah (Loke vs Siow), Rantau (Tok Mat — track his "no hesitation to resign" evening statement fallout), Klawang (cousins Bakri vs Danni), Linggi (Aminuddin port pledge), Pertang (Jalaluddin derhaka rebuttal), Labu (Maira anak jati). Track whether Tok Mat's "no hesitation to leave post" draws an Anwar/PH response.
+3. **PIR-16:** MCA rebuttal watch continues — Loke "murah hati/terima kasih Wee" taunt is now full-text (Awani); no Wee/Mah escalation yet. Track whether "Bersatu kacau daun" (Harian Metro) escalates to additional outlets or draws a Wan Saiful/Bersatu rebuttal. "Bersatu exit imminent?" + "sasar bentuk kerajaan negeri" hard-news corroboration watch continues. "makmal politik PRU16" framing (Hadi/Zahid) — monitor if it hardens into a formal PRU16 coalition test announcement.
+4. **Source maintenance:** Re-poll FMT RSS + **BH feed (working path `bharian.com.my/feed`)** + Awani berita-politik for post-19:31 MYT items. NST feed returned 0 items this cycle — re-test. mkini try 780211-780240. Fix Awani URL-path dedup (compare against prior Awani URL-path set, not title set) to stop re-fetching the same 10 articles.
+5. **NEW sources to test:** Sinar Harian — try `sinarharian.com.my/index.php/feed` or `rss.sinarharian.com.my`; Harian Metro remains HTTP 000 (geo-blocked) — its "gabung jentera" + "kacau daun" headlines are only recoverable as gnews headline-intel. Bernama RSS endpoints all 404 — try `bernama.com/rss` or `rss.bernama.com`.
+
+## ⚠️ COLLECTION LIMITATIONS (updated)
+- **Awani URL-path dedup gap (NEW note):** The Awani section dedups against `prior_titles_norm` (a TITLE-based set) using URL PATHS — so Awani articles re-fetch every cycle. 10 of 13 Awani articles this cycle were re-saves of 102500 content. The 3 genuinely-new (PH manifesto esok, Tok Mat, Syahir) were correctly captured. Recommend fixing: build a prior Awani URL-path set separately.
+- **BH timezone false-positive (NEW note):** BH's WordPress feed labels MYT pubdates as GMT (a known Malaysian RSS bug). is_fresh parsed "18:11 GMT" as 18:11 UTC → flagged 8 BH items "FRESH" — these are FALSE POSITIVES (actual = 18:11 MYT = 10:11 UTC, pre-cutoff). Genuinely-fresh BH content this cycle = 0.
+- **NST feed returned 0 items this cycle** (HTTP 200 but empty parse) — transient; re-test next cycle.
+- **Harian Metro:** Still HTTP 000 (geo-blocked). Its 2 high-value headlines this cycle ("gabung jentera" + "kacau daun") are gnews headline-intel only — full text NOT curl-recoverable.
+- **Bernama RSS:** All 4 paths HTTP 404. NOT curl-friendly.
+- **Sinar Harian / mStar:** WordPress `/feed` paths HTTP 404 (geo-blocked or non-standard). NOT solved. Headline-intel only via gnews.
+- **gnews protobuf resolution via curl:** STILL infeasible (8th cycle confirmation). 532 items → 457 unique files (slug-collision dedup). Only 1 marked genuinely-FRESH (Harian Metro gabung jentera).
+- **mkini paywall:** IDs 780140-780210 returned 0 NS-relevant articles.
+
+---
+
+*Cycle 113100 section appended 2026-07-19 19:33 MYT (11:33 UTC) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (no formal-threshold crossing this cycle). Genuinely-fresh post-18:28 MYT content: 3 articles (PH manifesto esok 18:30, Tok Mat resign 19:28, Harian Metro gabung jentera 18:29). NEW PIR-16 queries surfaced "Bersatu kacau daun" (Harian Metro) + "makmal politik PRU16" (Hadi/Zahid) narratives. Freshest article: Tok Mat "no hesitation to leave post" (Awani 19:28 MYT).*
