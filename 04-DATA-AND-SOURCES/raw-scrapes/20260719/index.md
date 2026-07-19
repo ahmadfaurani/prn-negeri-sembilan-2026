@@ -349,3 +349,120 @@ Loke (after Pasar Besar Seremban walkabout): MCA "biggest loser" — surrendered
 ---
 
 *Cycle 064654 section appended 2026-07-19 14:50 MYT (06:50 UTC) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL.*
+
+---
+
+# ═══════════════════════════════════════════════════════════
+# CYCLE 20260719_075200 — 15:50 MYT 19 Jul 2026 (Nomination-Day +1, Campaign Day 1)
+# 3rd carry-forward of 14:50 Director-approved cycle
+# ═══════════════════════════════════════════════════════════
+
+**Fetch:** `_afternoon_fetch_20260719_075200.py` (FMT RSS + NST WP feed + Awani direct + mkini direct 780074-780109 + gnews 6 queries incl. NEW "kuorum") + `_quorum_direct_fetch_20260719_075200.py` (FMT Kiandee-quorum URL-guess recovery).
+**Prior titles baseline:** 1,595 titles (all 4 prior cycles 011915→064654).
+**Window:** post-14:46 MYT cutoff (afternoon campaign dispatches 14:00-18:00 MYT).
+
+## 📦 FILES CREATED THIS CYCLE: 284 priority files (34 full-text = ~73,830 chars; 249 gnews headline-intel; 1 thin)
+- **FMT RSS:** 7 full-text (content:encoded) — mostly EN/BM dupes of prior-cycle Loke-MCA + Hadi-bukan-retorik + quit-PN-advised + akar-umbi (RSS re-saves; content matches prior 064654 captures).
+- **NST WordPress feed:** 8 full-text — **NEW: "N9 polls: 'Treachery' claim against me doesn't make sense, says Jalaluddin" (15:36 MYT, FRESH afternoon)**; Anwar Perak RM15.3m (non-NS); [UPDATED] Anwar resign-to-attack (14:47); Tok Mat act-now (14:46); Hadi unity (14:03); Cousins-aside (13:26, NST ver of Klawang); Fahmi AI (12:52); police/permits (12:26).
+- **Awani direct (12 full-text, ALL ok):** **Tang Jay Son sacked from Gerakan for contesting on Bersatu ticket (Rahang 4-corner)**; **Zahid: BN-PN NS performance determines new alignment for Melaka PRN + PRU16 (Jempol/Felda Palong 8, 18 Jul 17:42)**; **Loke: MCA ceded 3 traditional seats (Lobak/Mambau/Lukut) to PN "helps DAP win" (19 Jul 13:48, full DAP candidate list)**; **Wee: BN-PN not a coalition, avoid vote split (18 Jul 17:49)**; Fuziah "gadai kepercayaan" PKR won't gamble trust (18 Jul 16:09); Leevineshwaraan youngest/Tok Mat veteran (18 Jul 06:57); Anwar mandate-kukuh; dua-sepupu Klawang; pengundi-kempen-matang; polis-19-permit; teka-teki-11-kerusi; onn-hafiz (Johor, misclassified).
+- **mkini direct (780074-780109):** **3 NEW full-text — mkini 780075 "Loke tekad buktikan pengkritik silap, ikrar pikat undi Melayu" (19 Jul 13:28, 3620c, FULL-TEXT recovery of prior paywalled 360c preview — Chennah demographics: 47.8% Malay↑ from 44% in 2018, 6.3% Orang Asli, 42.6% Chinese; PH vote DROPPED to 44% by PRU15, BN+PN combined 56% → if repeats Loke LOSES)**; "Kes ugutan di FB, aktivis direman dua hari" (Tamim remand 2 days, 1137c); "DAP the real racist, Hamzah says when quizzed on Hadi's pendatang remark" (276c thin).
+- **FMT Kiandee-quorum URL-guess recovery (PIR-06 NEW req):** **5 full-text — FMT EN Kiandee quorum (3034c, 11 Jul 14:39 MYT) + BM (3113c) + FMT EN Radzi rebuttal (1862c, 11 Jul 17:37)**; BM Radzi + Sanjeevan thin (302c, slug mismatch).
+- **gnews 6 queries (incl. NEW "kuorum"):** 249 headline-intel files — kuorum (20 incl. dups), kuorum-kiandee (10), prn-ns-bersatu (99), bersatu-exit-pn (41), ns-campaign-ceramah (40), ns-manifesto (57). All gnews protobuf URLs remain curl-unresolvable (JS SPA).
+
+## 🔴 [CRITICAL] PIR-06 — KIANDEE QUORUM ESCALATION — FLAGGED [CRITICAL] THIS CYCLE
+
+**Director-designated [CRITICAL] trigger ("Kiandee quorum escalation") now FULLY CORROBORATED with full text** via the mandatory NEW "kuorum" gnews query + FMT direct-URL recovery. This is an ESCALATION in classification vs prior cycle 064654 (which held quorum at "precursor, not [CRITICAL]") — driven by newly-recovered full text revealing the escalation is stronger than the headline.
+
+### Full substance (FMT EN, 11 Jul 14:39 MYT, 3034c full text):
+**Suspended** Bersatu VP **Ronald Kiandee** (suspended March for breaching party constitution) questions whether Bersatu Supreme Council (MPT) still has quorum:
+- Cites **Clause 13.12 of Bersatu's constitution** — requires MORE THAN HALF of council members present for valid meeting.
+- Claims Bersatu MPT has **49 members**; **27 have either quit the party, resigned from posts, been sacked or suspended** → only ~22 remain → NO quorum.
+- "Muhyiddin has failed to manage the party's internal crisis. The failure to prove that the quorum can be met will raise serious questions over the **validity of every decision made by the Supreme Council**."
+- Warns Bersatu risks "administrative limbo"; could require **Registrar of Societies (RoS) intervention**.
+- **EXPLICITLY TIED TO NS PRN:** "The crisis could also disrupt Perikatan Nasional's administration and strategic planning, particularly ahead of the **Negeri Sembilan state election**."
+- **KEY ESCALATION:** "Kiandee called on the **PN Supreme Council to convene immediately to assess Bersatu's position within the coalition** and consider steps to ensure PN's stability." → This is a call for the COALITION (PN) to act on a member (Bersatu) — threshold-adjacent to a formal PN action.
+- Context: sackings/suspensions follow Muhyiddin vs Hamzah Zainudin leadership tussle (Hamzah sacked Feb).
+
+### Bersatu formal rebuttal (FMT, Radzi Jidin, 11 Jul 17:37 MYT, 1862c):
+VP **Radzi Jidin** responds: minimum quorum = **12 out of 23 current members** (constitution: half of total MPT). "Jalan seperti biasa" — MPT meetings/admin proceed normally. **DISCREPANCY:** Radzi's baseline = 23 members; Kiandee's = 49 (original). The different baselines suggest MPT was reconstituted/reshuffled after mass exits — the dispute is CONTESTED, not resolved. Resignations include **Abu Bakar Hamzah (Bersatu Perlis chief / MB Perlis)**.
+
+### Multi-outlet corroboration (gnews "kuorum" query):
+FMT (EN+BM) | Sinar Harian ("Cukupkah kuorum Bersatu untuk bermesyuarat? - Ronald Kiandee", 11 Jul 08:13) | Berita Harian ("Peletakan jawatan ahli MPT Bersatu tidak jejas kuorum - Radzi Jidin", 11 Jul) | Newswav (Marzuki "tidak perlu dijadikan isu", 13 Jul; "Lagi pemimpin Bersatu letak jawatan, keluar parti", 13 Jul) | **MalaysiaGazette ("Isu kuorum hanya alasan sekat Bersatu bertanding PRN NS – Sanjeevan", 15 Jul — Sanjeevan = Bersatu Rahang candidate R. Sri Sanjeevan, frames quorum as pretext to block Bersatu from NS PRN)**.
+
+### [CRITICAL] assessment — honest caveats:
+- **Escalation ORIGINATED 11 Jul 2026** (8 days ago), NOT in this cycle's 14:46-15:57 MYT window. No NEW quorum escalation occurred this afternoon.
+- Bersatu **formally rebutted** same day (Radzi: quorum 12/23 sufficient) — contesting/defusing the premise.
+- Nomination (18 Jul) **proceeded with Bersatu fielding 24 solo candidates** — quorum issue did not block Bersatu's participation.
+- **Formal PN-MT expulsion notice / Bersatu candidate withdrawal still NOT issued** → the highest [CRITICAL] sub-threshold (formal-notice) remains UNCROSSED.
+- **[CRITICAL] flag rationale:** Director's explicit PIR-06 designation ("Kiandee quorum escalation = [CRITICAL]") + this cycle's full-text corroboration confirming (a) the quorum call is real & multi-outlet, (b) Kiandee called for **PN Supreme Council to convene to assess Bersatu's position** (closest to formal PN action on Bersatu to date), (c) explicitly NS-PRN-linked, (d) RoS intervention raised, (e) the dispute is CONTESTED (49-vs-23 baseline discrepancy unresolved). Flag is escalated from prior "precursor" to [CRITICAL] on evidentiary grounds; Director retains discretion given the timeline.
+
+→ **Tagged [CRITICAL]:** `priority_pir-06_fmt-kiandee-quorum-bersatu-supreme-council-en_20260719_075200.md` + `_bm_...` (EN+BM full text). Related gnews kuorum headline-intel files retain PIR-06 PRIORITY tag.
+
+## 🔴 PIR-06 — OTHER COALITION-OPERATIONAL DEVELOPMENTS (this cycle)
+
+1. **Bersatu AIMS TO FORM STATE GOVERNMENT solo (MalaysiaGazette/Sinar, 19 Jul):** "Bersatu sasar bentuk kerajaan negeri, tanding 24 kerusi DUN NS – Muhyiddin" (gnews headline-intel) + "Bersatu utamakan kebajikan rakyat jika diberi mandat – Muhyiddin" (Sinar 19 Jul 07:43). Bersatu's 24 solo-candidate strategy is framed as a governing bid, not just opposition — reinforces Muhyiddin's "new coalition after NS / lone credible opposition" framing (carryover).
+2. **Gerakan expels Tang Jay Son for contesting on Bersatu ticket (Awani full text, 18 Jul 20:22):** Gerakan sec-gen Wong Chia Zhen — immediate expulsion, "serious disciplinary violation against party loyalty principles." Tang = Bersatu candidate Rahang (4-corner: PH Siau Meow Kong / BN Yap Siok Moy / Bersatu Tang Jay Son / PSM Tinagaran). **PIR-06-adjacent:** shows Bersatu attracting/accepting Gerakan defectors → intra-PN friction (Gerakan is a PN component). NOT a PN-MT expulsion of Bersatu.
+3. **Zahid links NS PRN → Melaka PRN + PRU16 realignment (Awani full text, 18 Jul 17:42, Jempol):** "Prestasi kerjasama BN-PN di PRN NS akan jadi penentu hala tuju kedua-dua gabungan pada pilihan raya akan datang... jajaran politik baharu bagi PRN Melaka dan PRU16." NS KDNK growth 4.6% (below national 5.2%); Johor ~8% under BN. **This DIRECTLY connects the PIR-16 Melaka-fracture narrative to NS PRN** — the NS result will reshape Melaka state-election alignment.
+4. **Wee: BN-PN NOT a coalition, avoid vote split (Awani full text, 18 Jul 17:49):** Wee Ka Siong — strategic to avoid multi-cornered fights, NOT a merger; each party keeps ideology; MCA protects multiracial/Chinese-edu/religious-freedom interests; "kerjasama melandaskan kepimpinan rakyat, bukan sokongan tanpa syarat." BN 25 / PN 11. (Re-confirmes prior 051226 framing with full Awani text.)
+5. **"Undur jika guna pentas Persekutuan serang lawan" (Sinar 19 Jul 07:41, gnews):** echoes Anwar's "resign to attack unity partners" discipline theme — federal-state firewall.
+6. **Wan Saiful: Bersatu "messing things up" for BN, PN candidates (The Vibes 19 Jul 07:09, gnews):** Wan Saiful (sacked Bersatu) commentary on Bersatu disarray. PIR-06 disarray-narrative amplification.
+
+**PIR-06 status: [CRITICAL] (Kiandee quorum escalation, flagged this cycle).** Formal PN-MT expulsion / Bersatu candidate withdrawal still NOT issued. Precursors now include: quorum call (11 Jul, [CRITICAL-flagged) + Muhyiddin new-coalition hint + Gerakan-Tang pecat + Zahid Melaka-PRU16 link + Wan Saiful disarray claim.
+
+**Tier-4 seat watch (N.04, N.05, N.13, N.14, N.23, N.25, N.31, N.34):** No Bersatu candidate withdrawals. N.14 Ampangan: no new this cycle. **NEW: N.13 Sikamat / Pertang friction** — Jalaluddin (BN Pertang candidate, NS Umno liaison chairman) rebuts PH "derhaka" (treachery) accusation over withdrawing support for MB Aminuddin (see PIR-07).
+
+## 🔴 PIR-07 — HIGHEST-PRIORITY BATTLEGROUNDS — AFTERNOON CAMPAIGN INTEL (NEW)
+
+### FRESH afternoon (15:36 MYT): Jalaluddin "treachery" rebuttal — Pertang seat (NST full text):
+**N9 polls: 'Treachery' claim against me doesn't make sense, says Jalaluddin** (NST, 15:36 MYT, 2070c) — **FRESHEST article this cycle.** Datuk Seri Jalaluddin Alias (NS Umno liaison chairman, **BN candidate Pertang**) questions PH "derhaka" accusations. He withdrew support for MB Aminuddin Harun — says that's NOT treachery ("treachery = disloyalty to ruler/Undang, not to MB"). Booed/jeered by PH supporters at Jelebu nomination when his name announced (he had applauded the PH candidate's announcement earlier, respecting democratic process). "Do not spin the issue... do not instil hatred." **NEW PIR-07 seat (Pertang) + PIR-16 friction narrative (PH-BN "derhaka" framing).** → `priority_pir-07_n9-polls-treachery-claim-against-me-doesn-t-make-sense-says-jalaluddin_20260719_075200.md`
+
+### N.33 Sri Tanjung — candidate profile (Awani + gnews, 18-19 Jul):
+**Leevineshwaraan calon termuda, Tok Mat antara paling 'otai'** (Awani 18 Jul 06:57, full text 2158c + gnews headline-intel). Leevineshwaraan Murugan = **youngest NS PRN candidate** (Bersatu, N.33 Sri Tanjung 5-corner); Tok Mat = among most veteran. Confirms N.33 5-corner lineup (PH Dr G Rajasekaran / BN A Achutan / Bersatu M Leevineshwaraan / Indep A Saravanan / Indep Islah Wahyudi).
+
+### N.07 Chennah — Loke defends (mkini + Awani full text, 19 Jul):
+**Loke tekad buktikan pengkritik silap, ikrar pikat undi Melayu** (mkini 780075, 19 Jul 13:28, 3620c FULL TEXT). Chennah demographics now CONFIRMED: **47.8% Malay (↑ from 44% in 2018), 6.3% Orang Asli, 42.6% Chinese, 2% Indian.** PH vote DROPPED to 44% by PRU15; BN+PN combined 56% → if PRU15 pattern repeats on 1 Aug, **Loke LOSES Chennah.** Loke holds Chennah since 2013. Loke: won't give up, strong fight in Malay areas (Kampung Chennah, Kg Sungai Buloh, Simpang Durian). **MCA ceded Lobak/Mambau/Lukut to PN** (PAS Pendukung / Wawasan / MIPP candidates) — DAP strongholds. Loke mocks Wee "murah hati." → `priority_pir-16_loke-tekad-buktikan-pengkritik-silap-ikrar-pikat-undi-melayu_20260719_075200.md` (PIR-16+PIR-07)
+**Awani (19 Jul 13:48, 2925c):** Loke walkabout with 6 PH candidates at Pasar Besar Seremban — **Ho Weng Wah (Temiang), Lee Kai Yet (Mambau), Siau Meow Kong (Rahang), Nicole Tan (Bukit Kepayang), S. Mugunthan (Seremban Jaya), Chew Seh Yong (Lobak).** MCA contests 7 seats (Chennah, Bahau, Nilai, Temiang, Rahang, Chuah, Repah) — only Chennah straight fight (Loke vs Siow Kong Choon). DAP confident defends all 11. **Total voters: 889,490** (867,151 normal / 16,884 military / 5,455 police). Polling Aug 1, early voting Jul 28.
+
+### N.28 Klawang — NST version (13:26 MYT):
+"Cousins put politics aside during campaign trail encounter" (NST, 13:26) — NST version of the Klawang cousins story (Awani had it 12:11). Bakri Sawir (PH) vs Danni Rais (PN, cousin) vs Bersatu Muhammad Adib Musa. 13,355 voters. Peaceful Pasar Minggu Kuala Klawang encounter.
+
+### PKR position (Fuziah, Awani 18 Jul 16:09, 2280c):
+Fuziah Salleh (PKR sec-gen): PKR won't "gadai kepercayaan" (gamble trust) for political victory; respects each party's right to choose strategy; PN announced 11 seats after BN declared 25. PKR principled-position framing of BN-PN cooperation.
+
+## 🟡 PIR-16 — FIRST DOMINANT CAMPAIGN NARRATIVES — UPDATED (this cycle's contributions)
+
+1. **"MCA biggest loser" / "MCA helps DAP" — DOMINANT, now FULL TEXT in mkini+Awani:** mkini 780075 (3620c) + Awani (2925c) + Sinar "Terima kasih MCA kerana nak 'bantu DAP' di tiga DUN - Anthony Loke" (19 Jul 05:12). Loke thanks Wee for ceding Lobak/Mambau/Lukut. **MCA rebuttal watch: Wee "BN-PN not a coalition, avoid vote split" (Awani full text) IS the MCA defense** — frames pact as principled (stability, multiracial interests), not surrender. No Mah Hang Soon response yet.
+2. **"NS PRN = PRU16/Melaka-PRN realignment test" — EXPANDED:** Zahid (Awani): NS BN-PN performance → new alignment for Melaka PRN + PRU16. Reinforces Hadi "makmal politik" + Johari "penentu kerjasama" from prior cycles. **This is the PIR-16 Melaka-fracture hardening into the NS PRN frame** — the Director's exact focus.
+3. **"Treachery (derhaka)" framing — NEW friction narrative:** PH labels Jalaluddin's MB-support withdrawal as "derhaka"; Jalaluddin rebuts (treachery = to ruler, not MB). PH supporters booed him at Jelebu nomination. PH-BN personal-level animosity narrative.
+4. **"Bersatu messing things up" (Wan Saiful, The Vibes 19 Jul) + "Bersatu sasar bentuk kerajaan negeri" (Muhyiddin):** disarray-vs-ambition tension — Bersatu framed as both chaotic (Wan Saiful) and governing-aspirant (Muhyiddin solo 24 seats).
+5. **"Resign to attack unity partners" (Anwar) → "Undur jika guna pentas Persekutuan" (Sinar):** discipline/federal-state firewall narrative amplified across outlets.
+6. **PIR-16 [CRITICAL] check — "Bersatu exit imminent?" hard-news corroboration:** gnews "bersatu-exit-pn" query returned **0 items from 18-19 Jul** — all matches are HISTORICAL (Bersatu pecat Hamzah/Tun M/Wan Saiful from 2024-25 crises). **NO hard-news outlet corroborated "Bersatu exit from PN imminent?" in the 14:46-15:57 MYT window.** PIR-16 [CRITICAL] threshold (hard-news corroboration of "Bersatu exit imminent?") **NOT CROSSED this cycle.** The mkini SNAPSHOT "Bersatu exit from PN imminent?" (18 Jul 18:00, prior cycle) remains the lone viral-tier item.
+
+## 📈 CYCLE DELTA: 064654 → 075200 (14:46 → 15:50 MYT, ~1h04m)
+- **Prior titles baseline:** 1,595 (all 4 prior cycles)
+- **Priority files created:** **284** (vs 29 prior) — driven by 6 gnews queries incl. NEW "kuorum" (249 headline-intel) + 34 full-text
+- **Full-text articles (body>150c):** **34** (FMT 12 + NST 8 + Awani 12 + mkini 3 + FMT-quorum-recovery 5 [3 substantive] − overlaps)
+- **Total body chars:** ~73,830 (vs ~44,684 prior) — **1.65× gain**
+- **Fresh (post-14:46 MYT):** 1 NST article (Jalaluddin treachery 15:36) + mkini Loke 13:28 + Awani Loke-MCA 13:48 (both just inside window)
+- **PIR-06 status change:** **ESCALATED to [CRITICAL]** — Kiandee quorum escalation fully corroborated with full text (Director-designated trigger). Prior cycle held "precursor, not [CRITICAL]"; this cycle's full-text recovery (via mandatory "kuorum" query) confirmed the call for PN Supreme Council to assess Bersatu's position + NS-PRN link → [CRITICAL] flagged with timeline caveats.
+- **PIR-16 status:** NOT [CRITICAL] — "Bersatu exit imminent?" hard-news corroboration NOT detected this cycle (gnews 0 current items).
+- **NEW source path:** FMT direct-URL guess (date+slug) recovered 11 Jul Kiandee-quorum full text that FMT RSS (latest-50) and FMT search (Next.js JS) could not reach.
+
+## 🎯 NEXT-CYCLE RECOMMENDATIONS (16:30-17:30 MYT window)
+1. **PIR-06 ([CRITICAL] watch):** Monitor for (a) any PN Supreme Council statement responding to Kiandee's call to assess Bersatu's position, (b) any Bersatu Supreme Council meeting outcome on quorum, (c) RoS intervention signal, (d) Muhyiddin evening statement formalizing "new coalition." The [CRITICAL] flag stays until either a formal PN-MT expulsion notice OR a definitive Bersatu/Radzi statement closing the quorum dispute.
+2. **PIR-07:** Capture evening ceramah/ops-centre openings for T1 marquee seats — Chennah (Loke vs Siow, highest-stakes straight fight; mkini now has full demographics), Linggi (Aminuddin MB-move), Sikamat (Nor Azman vs Tun Faisal), Rantau (Tok Mat), Klawang (cousins), Pertang (Jalaluddin "derhaka" friction — NEW hot seat). Re-poll Awani homepage for fresh berita-politik dispatches.
+3. **PIR-16:** MCA rebuttal watch — Loke "biggest loser/helps DAP" now dominant across mkini+Awani+Sinar; monitor for Wee/Mah Hang Soon escalation beyond the "not a merger" defense. Track whether Zahid's Melaka-PRN+PRU16 realignment framing gets picked up by evening analysts.
+4. **Source maintenance:** Re-poll FMT RSS + NST feed for post-15:50 items. Retry FMT BM Radzi-quorum + Sanjeevan slugs (thin this cycle — slug mismatch; try FMT category/date archive). The Vibes (Wan Saiful) + Sinar (Muhyiddin) are JS-rendered — headline-intel only via gnews.
+5. **mkini:** Continue scanning news IDs 780110+ for fresh afternoon articles.
+
+## ⚠️ COLLECTION LIMITATIONS (updated)
+- **FMT search:** Next.js SPA (`/_next/static/`) — 0 article links parseable via curl; direct-URL guess (date+slug) is the working workaround (recovered Kiandee-quorum EN+BM+Radzi full text). FMT RSS (latest-50) misses articles >50 items old.
+- **gnews protobuf resolution via curl:** STILL infeasible (5th cycle confirmation). 249 items this cycle saved as headline-intelligence (title+pubdate+publisher). "kuorum" query (NEW requirement) returned 20 items (10 unique) — all from 11-15 Jul, confirming the quorum story is pre-this-cycle in origin.
+- **mkini paywall:** 780075 (Loke) RECOVERED full text (3620c) — mkini BM news articles sometimes served free; 780077 (Hamzah pendatang) thin (276c, paywalled). Scanning sequential IDs 780074-780109 is effective for discovery.
+- **Sinar Harian / The Vibes / Malay Mail / The Star:** JS-rendered — headline-intel only via gnews.
+- **NST Kiandee-quorum full text:** NOT recovered via NST search (JS-rendered search page); the FMT EN+BM versions ARE the full-text equivalent (same story, different outlet). NST version remains headline-intel only.
+- **SOLVED this cycle:** FMT direct-URL-guess path closes the 11 Jul Kiandee-quorum full-text gap (Director's NEW requirement satisfied).
+
+---
+
+*Cycle 075200 section appended 2026-07-19 15:58 MYT (07:58 UTC) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation raised this cycle per Director PIR-06 designation.*
