@@ -1,0 +1,15 @@
+# [PRIORITY PIR-16] hannah-yeoh-dimasyhur-presiden-majlis-pengakap-wilayah-persekutuan
+Source URL: https://www.bharian.com.my/berita/nasional/2026/07/1590484/hannah-yeoh-dimasyhur-presiden-majlis-pengakap-wilayah-persekutuan
+Final/redirected URL: https://www.bharian.com.my/berita/nasional/2026/07/1590484/hannah-yeoh-dimasyhur-presiden-majlis-pengakap-wilayah-persekutuan
+Collected: 20260719 20260719_153300 UTC (2026-07-19 15:36:15 UTC) | MYT: 23:36 MYT 19 Jul 2026
+Classification: TLP:AMBER
+HTTP: 200 | mode: BH-rss-content
+Note: Full text from BH RSS content:encoded (no curl fetch needed)
+Title: Hannah Yeoh dimasyhur Presiden Majlis Pengakap Wilayah Persekutuan
+ArticlePubDate: Sun, 19 Jul 2026 17:51:38 +0000
+Body chars: 2151
+
+## Full text
+==============================================================================
+KUALA LUMPUR: Menteri di Jabatan Perdana Menteri (Wilayah Persekutuan), Hannah Yeoh hari ini dimasyhurkan sebagai Presiden Majlis Pengakap Negeri Wilayah Persekutuan. Istiadat pemasyhuran berlangsung sempena Majlis Penyampaian Pingat dan Sijil Pengakap Raja Wilayah Persekutuan Kuala Lumpur 2026 di Auditorium Bandaraya di sini. Hannah ketika berucap pada majlis itu turut mengumumkan peruntukan menteri berjumlah RM20,000 sebagai sumbangan bagi memacu aktiviti pengakap di wilayah itu. "Sebagai tanda sokongan kepada usaha ini, saya dengan sukacitanya telah memperuntukkan RM10,000 kepada Persekutuan Pengakap Malaysia Wilayah Persekutuan Kuala Lumpur untuk mereka merangka lebih banyak lagi program semasa cuti sekolah untuk melibatkan yang muda. "Hari ini, saya nak tambah lagi RM10,000 supaya peruntukan ini boleh diterjemahkan kepada lebih banyak lagi latihan yang boleh melibatkan kumpulan belia yang tidak mampu untuk bersama anda dalam program-program," katanya. Majlis itu turut menyaksikan pemasyhuran Pengarah Eksekutif Dewan Bandaraya Kuala Lumpur (DBKL) Rosli Nordin sebagai Yang Dipertua Majlis Pengakap Negeri Wilayah Persekutuan Kuala Lumpur. Pada majlis sama, Hannah menyampaikan Sijil Pengakap Raja kepada 58 penerima iaitu anugerah tertinggi yang diberikan kepada ahli pengakap yang berjaya memenuhi syarat-syarat ketat dalam aspek kepimpinan, kemahiran, ketahanan diri, khidmat masyarakat serta penghayatan terhadap Persetiaan dan Undang-undang Pengakap. Pengiktirafan itu adalah simbol kecemerlangan tertinggi dalam pergerakan Pengakap Malaysia dan menjadi bukti keupayaan mereka sebagai pemimpin muda yang berdisiplin, berintegriti serta mempunyai semangat khidmat yang tinggi kepada masyarakat dan negara. Beliau turut menyampaikan Sijil Kepujian Ketua Pengakap Negara kepada 75 penerima serta Sijil Wangsa Wilayah Pengakap Wilayah Persekutuan kepada 108 penerima yang masing-masing terdiri dalam kalangan pemimpin pengakap. Turut hadir Ketua Pengakap Negara, Mejar Jeneral Datuk Prof Dr Mohd Zin Bidin dan Ahli Majlis Pengakap Negara yang juga Yang Dipertua Dewan Rakyat, Tan Sri Johari Abdul. © New Straits Times Press (M) Bhd
+==============================================================================
