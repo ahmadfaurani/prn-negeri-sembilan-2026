@@ -6,52 +6,63 @@
 
 ---
 
-## Active Approvals (24-Hour Cycle: 18 Jul 15:00 – 19 Jul 15:00 MYT)
+## Active Approvals (Current 24-Hour Cycle: 19 Jul 11:00 – 20 Jul 11:00 MYT)
 
-### ✅ Cycle 1 — Approved 18 Jul 2026, ~15:00 MYT
+Approved from brief `PRN-NS-NOMINATION-20260719-1100.md` (Qwen model, first successful post-fix run).
 
-| Priority | PIR ID | Question (Short) | Approval | Action Authorized |
-|----------|--------|-------------------|----------|-------------------|
-| #1 | **PIR-06** | Coalition operational arrangements (PN-removal-of-Bersatu watch) | ✅ Approved | Dedicated PN-removal watch cell; track Supreme Council channels for formal removal notice; model seat-by-seat impact of Bersatu withdrawal in 20 affected DUNs |
-| #2 | **PIR-09** | Candidate credibility / eligibility vulnerabilities | ✅ Approved | Sweep all 24 BERSATU candidates for prior PN-component affiliations; build candidate-credibility watchlist; track N.14 messaging war; cross-check 4 independents' backgrounds |
-| #3 | **PIR-07** | Highest-priority battlegrounds post-nomination | ✅ Approved | Produce refreshed post-nomination battleground matrix; score T1/T2 seats on 5 factors; prioritize N.14 Ampangan for Day-1 PH resource deployment; pre-position field reporting at 8 Tier-4 seats |
+### PIR-06 — Coalition Operational Arrangement (BN / PN / PH / Smaller Parties) ✅ APPROVED
 
-**Director Decision:** "Approved All PIR Recommendations"  
-**Effective:** 18 Jul 2026, ~15:00 MYT  
-**Expires:** 19 Jul 2026, ~15:00 MYT (next 24-hour cycle)
+**Question:** What is the actual operational arrangement between BN, PN, PH and smaller parties?
 
----
+**Why Now:** Bidirectional Bersatu–PN rupture is the single majority-altering dynamic. Rhetoric escalated this cycle (Hadi "toxic PN", PN info chief "termination", Ridzuan Ahmad quits). If rhetoric converts to formal PN-MT expulsion or Tier-4 withdrawals, battleground calculus flips.
 
-## Collection Priority Allocation
-
-Approved PIRs receive priority collection allocation for the next 24-hour cycle:
-
-### PIR-06 (Highest Priority) — PN-Removal-of-Bersatu Watch
-- **Watch keywords:** pecat, termination, remove, keluar, withdraw, tarik diri, Majlis Tertinggi, asas kukuh
-- **Monitor:** PN Supreme Council, Bersatu Supreme Council, PAS official statements, Muhyiddin/Samsuri/Hadi/Kiandee/Hamzah social media
-- **Alert trigger:** ANY formal removal notice → immediate Telegram escalation
-- **Target seats:** 8 Tier-4 (N.04, N.05, N.13, N.14, N.23, N.25, N.31, N.34) + 12 Tier-3
-
-### PIR-09 (Second Priority) — Candidate Credibility Watchlist
-- **Sweep:** All 24 BERSATU candidates for prior PN-component affiliations (Gerakan precedent)
-- **Track:** N.14 Ampangan Day-1 messaging war (PH "defector" vs PN "experienced rep")
-- **Verify:** 4 independents' backgrounds (N.10 Omar Mohd Isa, N.30 Teo Seng Lee, N.33 Datuk A Saravanan + Islah Wahyudi)
-- **Monitor:** PN-component party channels for further expulsion statements
-
-### PIR-07 (Third Priority) — Battleground Matrix Refresh
-- **Produce:** Post-nomination battleground matrix scoring (a) 2023 margin, (b) incumbent status, (c) Tier-4/Tier-3 exposure, (d) cross-bloc defection impact, (e) opposition fragmentation benefit/harm
-- **Priority seats:** N.14 (immediate Day-1 deployment), N.15 (78-vote margin), N.28 (135-vote margin), N.13 (open seat)
-- **Pre-position:** Field reporting at 8 Tier-4 seats for Bersatu withdrawal signals
+**Collection Requirement:**
+- Tier-4 seat-level monitoring at 8 DUNs (N.04/05/13/14/23/25/31/34)
+- Recover Ridzuan Ahmad body (NST wpapi 404)
+- Track PN-MT and Bersatu supreme leadership channels
+- Google News: `PN Bersatu (pecat OR keluar OR buang OR tarik diri OR "toxic PN")`
+- Monitor reciprocal BN-PN machinery-sharing (shared stages, joint ceramah)
 
 ---
 
-## Historical Record
+### PIR-07 — Highest-Priority Battlegrounds After Nominations Close ✅ APPROVED
 
-| Cycle | Date | PIRs Recommended | Decision | Director |
-|-------|------|-----------------|----------|----------|
-| 1 | 18 Jul 2026 14:31 | PIR-06, PIR-09, PIR-07 | All Approved | DAF |
+**Question:** Which constituencies emerge as the highest-priority battlegrounds after nominations close?
+
+**Why Now:** T1 seats (N.14, N.15, N.28, N.13) are where the election is won or lost. Day-1 messaging already live at N.14 (Nazri Kassim "not taking defence for granted") and N.32 ("fleeing Sikamat" counter-narrative). Utusan editorial designates 5 hot seats.
+
+**Collection Requirement:**
+- Per-seat Day-1 event tracking at T1 seats + Utusan hot seats (N.32/N.27/N.20/N.25)
+- Candidate launch events, walkabouts, ops-centre openings, ceramah schedules
+- N.14 defector framing, N.32 MB-vs-BN messaging, N.27 détente test
+- Re-assess 5-corner vote fragmentation (N.10, N.33)
+- Capture BN "majoriti mudah" / "MB after PRN" narrative deployment
+- Razor-margin seats N.15 (78-vote) and N.28 (135-vote) despite editorial omission
 
 ---
 
-**Workspace:** `/home/p62operator/.openclaw/workspace-ns/`  
-**Classification:** TLP:AMBER
+### PIR-16 — First Dominant Campaign Narratives ✅ APPROVED
+
+**Question:** What are the first dominant campaign narratives introduced by each candidate and coalition?
+
+**Why Now:** First substantive Day-1 narrative piece produced this cycle — Utusan rencana framing PRN NS as DAP acceptance test and Loke leadership test. Three high-impact sub-narratives: (i) Loke–adat linkage, (ii) Melaka DAP withdrawal, (iii) "Aminuddin fled Sikamat" counter-narrative. Narratives set in first 24 hours anchor the campaign.
+
+**Collection Requirement:**
+- Track "Aminuddin fled Sikamat / adat" frame amplification (N.32, statewide)
+- Monitor "DAP meddles in adat / can't compromise" frame across 13 non-Malay DUNs
+- "Bersatu in disarray" counter-frame (Hadi "toxic PN" + Ridzuan resignation)
+- Albert Tei "barking dogs" clip amplification (N.04, Tier-4)
+- Muhyiddin graft-trial thread viral potential
+- Per-bloc narrative tracking: PH (continuity/stability), BN (way forward/MB after PRN), Bersatu (sole opposition), PN (Malay unity)
+
+---
+
+## Previous Approvals (18 Jul Cycle — Superseded)
+
+### PIR-06 — PN-Removal-of-Bersatu Watch ✅ APPROVED (carried forward)
+### PIR-09 — Candidate Credibility ✅ APPROVED (deferred to background collection)
+### PIR-07 — Battleground Matrix ✅ APPROVED (carried forward, merged with current PIR-07)
+
+---
+
+*Director Decision Log: All approvals recorded by State Intelligence Director, 19 Jul 2026.*

@@ -1,0 +1,28 @@
+[
+  {
+    "pir": "PIR-07",
+    "slug": "mkini-zan-azlee-indicator-commentary",
+    "file": "priority_pir-07_mkini-zan-azlee-indicator-commentary_20260719_024042.md",
+    "http": "200",
+    "ok": true,
+    "body_len": 513,
+    "title": "COMMENT | Oh, so the state elections are an indicator?",
+    "final": "https://www.malaysiakini.com/columns/780063",
+    "pub": "2026-07-19 09:49:47+08:00",
+    "mode": "direct",
+    "note": "mkini COMMENT | 'Oh, so the state elections are an indicator?' by Zan Azlee (~09:56 MYT 19 Jul, ~44m before scrape). Fresh PIR-07 commentary on whether NS polls are a national indicator."
+  },
+  {
+    "pir": "PIR-07",
+    "slug": "awani-polis-lulus-19-permit-ceramah",
+    "file": "priority_pir-07_awani-polis-lulus-19-permit-ceramah_20260719_024042.md",
+    "http": "200",
+    "ok": true,
+    "body_len": 1728,
+    "title": "PRN Negeri Sembilan: Polis lulus 19 permit ceramah kempen",
+    "final": "https://www.astroawani.com/berita-politik/prn-negeri-sembilan-polis-lulus-19-permit-ceramah-kempen",
+    "pub": "2026-07-19T10:07:18+0800",
+    "mode": "direct",
+    "note": "Astro Awani: Police approve 19 ceramah (campaign talk) permits for PRN NS — Day-1 campaign-ops signal (PIR-07). Homepage-extracted headline; fetching full body to confirm date/detail."
+  }
+]
