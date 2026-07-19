@@ -6,21 +6,22 @@
 
 ---
 
-## Active Approvals (Current 24-Hour Cycle: 19 Jul 14:50 – 20 Jul 14:50 MYT)
+## Active Approvals (Current 24-Hour Cycle: 19 Jul 17:25 – 20 Jul 17:25 MYT)
 
-Approved from brief `PRN-NS-NOMINATION-20260719-1450.md` — Director approved all 3 PIRs.
+Approved from brief `PRN-NS-NOMINATION-20260719-1725.md` — Director approved all 3 PIRs.
 
-### PIR-06 — Coalition Operational Arrangement ✅ APPROVED (CARRY-FORWARD, 3rd cycle)
+### PIR-06 — Coalition Operational Arrangement ✅ APPROVED (CARRY-FORWARD, 4th cycle, [CRITICAL])
 
 **Question:** What is the actual operational arrangement between BN, PN, PH and smaller parties?
 
-**Why Now:** Kiandee's quorum question escalates from "grounds to remove" to "is decision-making body functional?" — strongest pre-threshold signal to date. Muhyiddin "new coalition post-NS" hint requires monitoring for formalization. Bersatu 24 solo candidates stable but "imminent?" viral amplification creates threshold-adjacent pressure.
+**Why Now:** Kiandee's quorum question remains the formal [CRITICAL] flag. This cycle significantly strengthened evidentiary basis: (a) Bersatu contesting AGAINST PN components in 8 seats (Berita Harian), (b) RoS complaint disrupted PN seat negotiations (Sinar), (c) "Lebih hebat new coalition after NS" (Sinar), (d) Wawasan admitted into PN (coalition structure fully mapped), (e) Muhyiddin-PAS open warfare. PN concedes MB to BN while Bersatu campaigns for solo government — two incompatible post-election scenarios. Formal expulsion/withdrawal NOT detected (9 passes) → threshold-adjacent.
 
 **Action:**
 - Continuous monitoring of PN-MT, Bersatu Supreme Leadership, PAS Supreme Council official channels
-- Google News: `PN Bersatu (pecat OR keluar OR buang OR tarik diri OR "toxic PN" OR "kuorum")`
+- Google News: `PN Bersatu (kuorum OR "quorum" OR pecat OR keluar OR buang OR tarik diri OR "toxic PN" OR "lebih hebat")`
 - Tier-4 seat-level watch (N.04/05/13/14/23/25/31/34) for any Bersatu candidate withdrawal
-- Recover NST "Kiandee asks if Bersatu Supreme Council has quorum" full text (gnews → JS-render or direct)
+- Monitor PDM Klawang reopen status (Jalaluddin expects 1-2 days)
+- Recover Harian Metro/BH full text via alternative paths (HTTP 000/404 this cycle)
 
 ---
 
@@ -28,34 +29,38 @@ Approved from brief `PRN-NS-NOMINATION-20260719-1450.md` — Director approved a
 
 **Question:** What are the first dominant campaign narratives introduced by each candidate and coalition?
 
-**Why Now:** Melaka PH-BN fracture is now multi-source dominant (+600% amplification) — structurally negative for BN-PH coalition model and introduces "DAP coalition-intolerant" frame entering NS PRN. Loke "MCA biggest loser" quote is viral-risk (MCA rebuttal expected). "Bersatu exit imminent?" is viral amplification at PIR-06+16 overlap.
+**Why Now:** Loke "MCA biggest loser" is DOMINANT (full text EN+BM, mkini 3620c, Awani 2925c) — MCA rebuttal watch (Wee/Mah Hang Soon NOT materialized beyond "not a merger" defense). "Bersatu in disarray" narrative [CRITICAL] maintained — hard-news corroboration NOT detected this cycle. "MB after PRN" CONFIRMED (Jalaluddin, FMT). "Bersatu kacau daun" NEW narrative vector (Wan Saiful, Harian Metro) — challenges "penyatuan undi Melayu." NS = PRU16 "makmal politik" framing surfacing (Hadi + analysts).
 
 **Action:**
 - Track MCA rebuttal to Loke quote (Wee/Mah Hang Soon response expected within hours)
-- Monitor Melaka fracture narrative hardening into NS PRN campaign frame (DAP coalition-intolerant)
-- Track Anwar "not briefed" / "postpone" framing for Madani-government intervention
-- Capture "Bersatu exit imminent?" corroboration by hard-news outlets (NST/Star/Utusan/Astro) — would escalate from viral-amplification to formal-notice tier
-- Per-bloc narrative tracking: PH (continuity), BN (way-forward), Bersatu (sole-opposition), PN (Malay-unity)
+- Monitor whether "Bersatu sasar bentuk kerajaan negeri" escalates from ambition-statement to hard-news corroboration of "Bersatu exit imminent?"
+- Track "kacau daun" narrative pickup — PAS/Umno responses (defending Bersatu or piling on)
+- Per-bloc narrative tracking: PH (continuity), BN (way-forward + MB concession), Bersatu (sole-opposition + solo-governing-bid), PN (Malay-unity + Wawasan admitted)
 
 ---
 
-### PIR-07 — Highest-Priority Battlegrounds ✅ APPROVED (CARRY-FORWARD, 3rd cycle)
+### PIR-07 — Highest-Priority Battlegrounds ✅ APPROVED (CARRY-FORWARD, 4th cycle)
 
 **Question:** Which constituencies emerge as the highest-priority battlegrounds after nominations close?
 
-**Why Now:** Day-1 campaign-ops coverage partially captured (Loke/Chennah, Klawang cousins). Other T1 marquee seats (Linggi, Sikamat, Rantau, Nilai) expected to generate afternoon coverage. BN manifesto launch 24 Jul (DUN Linggi) approaching. 5-cornered vote-fragmentation risk (N.10, N.33) requires monitoring.
+**Why Now:** Day-1 campaign-ops coverage enriched (Loke/Chennah + road-safety, Klawang cousins + PDM-shutdown, Tok Mat existential). Other T1 marquee seats (Linggi/Aminuddin, Sikamat/Nor Azman, Rantau/Tok Mat, Nilai 5-cornered, Sri Tanjung 5-cornered) require evening coverage. BN manifesto launch 24 Jul (DUN Linggi) approaching. Jalaluddin "derhaka" friction (Pertang) now corroborated by 2 hard-news outlets (NST + Harian Metro).
 
 **Action:**
-- Capture afternoon ceramah/walkabout/ops-centre coverage for T1 seats: Linggi (Aminuddin), Sikamat (Nor Azman), Rantau (Tok Mat), Nilai (5-cornered), Sri Tanjung (5-cornered)
-- Re-poll Awani/FMT/NST feeds for fresh Day-1 campaign dispatches (14:00-18:00 MYT window)
+- Capture evening ceramah/walkabout/ops-centre coverage for T1 seats: Linggi (Aminuddin), Sikamat (Nor Azman), Rantau (Tok Mat), Chennah (Loke), Klawang (cousins + PDM reopen status), Pertang (Jalaluddin)
+- Re-poll Awani/FMT/NST feeds for fresh Day-1 campaign dispatches (18:00-20:00 MYT window)
 - Monitor BN "majoriti mudah" confidence claim for independent poll/forecast corroboration
-- Watch 7 Bersatu-vs-PN direct-clash seats for campaign friction (PIR-06/07 overlap)
+- Watch 8 Bersatu-vs-PN direct-clash seats for campaign friction (PIR-06/07 overlap)
 
 ---
 
 ## Previous Approvals
 
-### 19 Jul 11:00 Cycle (Superseded by 14:50 cycle)
+### 19 Jul 14:50 Cycle (Superseded by 17:25 cycle)
+- PIR-06 ✅ APPROVED (carried forward, 3rd cycle)
+- PIR-16 ✅ APPROVED (carried forward, elevated)
+- PIR-07 ✅ APPROVED (carried forward, 3rd cycle)
+
+### 19 Jul 11:00 Cycle (Superseded)
 - PIR-06 ✅ APPROVED (carried forward)
 - PIR-07 ✅ APPROVED (carried forward)
 - PIR-16 ✅ APPROVED (carried forward, elevated)
@@ -67,4 +72,4 @@ Approved from brief `PRN-NS-NOMINATION-20260719-1450.md` — Director approved a
 
 ---
 
-*Director Decision Log: All approvals recorded by State Intelligence Director, 19 Jul 2026 14:50 MYT.*
+*Director Decision Log: All approvals recorded by State Intelligence Director, 19 Jul 2026 17:25 MYT.*

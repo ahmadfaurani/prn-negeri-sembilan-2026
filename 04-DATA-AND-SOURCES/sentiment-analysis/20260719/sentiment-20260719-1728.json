@@ -1,0 +1,403 @@
+{
+  "metadata": {
+    "date": "20260719",
+    "generated": "2026-07-19T17:28:00+08:00",
+    "generated_utc": "2026-07-19T09:28:00Z",
+    "classification": "TLP:AMBER",
+    "agent": "PRN Negeri Sembilan 2026 Sentiment Analysis Agent (cron)",
+    "revision": "revision-11",
+    "latest_sentiment_file": "sentiment-analysis/20260719/sentiment-20260719-1728.json",
+    "prior_revision_file": "sentiment-analysis/20260719/sentiment-20260719-0710.json",
+    "prior_revision": "revision-10 (2026-07-19T15:10:00+08:00, cycle 064654)",
+    "entity_build": "processed-entities/20260719/entities-20260719-0714.json (223 entities, 114,922 bytes, lint-passed, CURRENT) — FULL-TEXT consolidation build. rev10 used entities-20260719-0507.json (167 entities) + 064654 enrichment; rev11 ingests the full 223-entity build (56 new entities + 23 context upgrades).",
+    "new_full_text_sources_rev11": [
+      "FMT RSS (content:encoded) — 19 full-text articles (NEW SOURCE, largest single-day full-text gain; substantially closes prior JS-render blocker gap)",
+      "NST WordPress feed (content:encoded) — 7 full-text articles",
+      "Astro Awani direct (berita-politik slug) — 3 full-text articles"
+    ],
+    "election_milestone": "Campaign Period Day 1 (Nomination Day 18 Jul 2026 closed; Day-1 19 Jul, afternoon window 14:00-18:00 MYT — this pass at 17:28 MYT). Polling 1 Aug 2026; early voting 28 Jul; BN manifesto launch 24 Jul (DUN Linggi). Electorate 889,490.",
+    "score_convention": "SIGNED per mission directive: negative sentiment = negative score (-1.0 to -0.1); neutral = -0.1 to +0.1; positive = +0.1 to +1.0.",
+    "priority_directive": {
+      "approved": "2026-07-19 (Director) — 19 Jul 14:50 Cycle, 3rd carry-forward",
+      "pir_priority_tags": ["PIR-06", "PIR-07", "PIR-16"],
+      "weighting_scheme": {"PIR-06": 2.0, "PIR-16": 1.8, "PIR-07": 1.3, "non-priority": 1.0},
+      "pir_06_rules": {
+        "track_sentiment_toward": ["PN", "Bersatu", "Muhyiddin", "Hadi", "Hamzah", "Kiandee", "Ridzuan Ahmad"],
+        "new_kiandee_quorum_question": "is Bersatu Supreme Council functional?",
+        "new_muhyiddin_new_coalition_post_ns_hint": "track sentiment",
+        "critical_threshold": "Flag sharp sentiment shifts (>30% change) for any PIR-06 entity",
+        "monitor": "toxic PN / termination / pecat / kuorum sentiment trajectory",
+        "alert": "If Bersatu sentiment turns sharply negative (internal-fracture signal), flag [CRITICAL]"
+      },
+      "pir_07_rules": {
+        "track_per_seat": ["N.14", "N.15", "N.28", "N.13", "N.32", "N.27", "N.20", "N.25", "N.10", "N.33", "Rantau"],
+        "new_bn_manifesto_launch_24_jul": "sentiment at DUN Linggi",
+        "new_afternoon_day1_dispatch": "14:00-18:00 MYT window sentiment",
+        "critical_threshold": "Flag any seat where incumbent/leading candidate sentiment drops >20%",
+        "alert": "If defector-framing sentiment intensifies at N.14, flag [PRIORITY]"
+      },
+      "pir_16_rules": {
+        "track_narrative_sentiment": ["DAP/Loke", "MCA rebuttal", "Bersatu in disarray", "Bersatu exit imminent", "barking dogs", "graft-trial frame", "Melaka PH-BN fracture"],
+        "new_mca_biggest_loser_quote": "MCA biggest loser quote sentiment + MCA rebuttal sentiment trajectory",
+        "new_dap_coalition_intolerant_frame": "across 13 non-Malay DUNs",
+        "new_bersatu_exit_imminent_track": "viral-amplification vs hard-news-corroboration sentiment",
+        "critical_viral_amplification": "Flag any narrative showing rapid viral amplification (>50% volume increase)",
+        "critical_hard_news_corroboration": "If hard-news outlet corroborates 'Bersatu exit imminent?' = [CRITICAL] (escalation tier)",
+        "monitor": "majoriti mudah (BN confidence) vs not taking for granted (PH defence)"
+      }
+    },
+    "headline_finding_rev11": "[CRITICAL — ESCALATION TIER] PIR-16 hard-news-corroboration rule FIRES: FMT full text (19 Jul 09:00 MYT) confirms 'Muhyiddin said the party will form a new coalition after the state election, hinting at a PN exit' — this is the hard-news corroboration of the mkini 'Bersatu exit from PN imminent?' SNAPSHOT that rev10 had only at viral-amplification tier. The 'Bersatu exit imminent?' narrative escalates from viral-amplification CRITICAL (rev10) to hard-news-corroborated CRITICAL escalation-tier (rev11). Concurrently, the FMT full-text 'Umno dangerous dance with PAS' opinion (7009c, citing Amanat Hadi 1981) is the highest-risk NEW viral-amplifier, and the 'DAP coalition-intolerant' frame (Hadi 'reject unnatural Malay groups with DAP') gains a counter-narrative (Lim Lip Eng green-wave provenance). Formal PN-MT removal notice STILL NOT DETECTED (9th consecutive pass).",
+    "counts": {
+      "entities_scored": 68,
+      "sentiment_distribution": {"positive": 23, "neutral": 15, "negative": 30},
+      "alert_distribution": {"critical": 7, "priority": 12, "none": 49},
+      "delta_new_entities_rev11": 14,
+      "delta_revised_entities_rev11": 8,
+      "carried_entities_rev11": 46
+    }
+  },
+
+  "alerts": {
+    "critical": [
+      {
+        "id": "ESC-017-ESCALATED",
+        "pir": "PIR-16+06",
+        "entity": "'Bersatu exit from PN imminent?' / 'Muhyiddin new coalition after state election' narrative",
+        "trigger": "PIR-16 HARD-NEWS CORROBORATION rule FIRES (rev11 NEW). rev10 had this at viral-amplification tier (mkini SNAPSHOT +3 vectors). rev11: FMT FULL TEXT (19 Jul 09:00 MYT) — 'Muhyiddin said the party will form a new coalition after the state election, hinting at a PN exit.' FMT is a hard-news outlet; the full-text confirmation escalates the narrative from viral-amplification CRITICAL to HARD-NEWS-CORROBORATED CRITICAL (escalation tier per directive).",
+        "status": "ESCALATED to escalation tier. -0.60 (rev10) -> -0.72 (rev11). Strongest pre-threshold PIR-06 signal AND dominant PIR-16 narrative.",
+        "threshold_crossed": true,
+        "trend": "declining (hard-news corroborated)"
+      },
+      {
+        "id": "ESC-014",
+        "pir": "PIR-06",
+        "entity": "PN-removal-of-Bersatu thread (master narrative)",
+        "trigger": "Bersatu internal-fracture signal sharp-negative (qualitative rule fires; numeric >30% shift NOT breached). Kiandee quorum attack (NST headline-intel) + analyst wipeout consensus (FMT full text: Azeem 'not in position to win solo' + Azmil 'all people see is infighting') + Lau Zhe Wei 'quit PN take Gerakan/MIPP' advice (FMT full text).",
+        "status": "CARRIED + ESCALATED. -0.85 -> -0.86. Formal PN-MT removal notice STILL NOT DETECTED (9 consecutive passes since 170837).",
+        "threshold_crossed": false,
+        "trend": "declining (deepening toward formalization; still pre-threshold)"
+      },
+      {
+        "id": "ESC-011",
+        "pir": "PIR-06",
+        "entity": "Bersatu-PN fracture (three-sided, full-text reinforced)",
+        "trigger": "Three-sided (Kiandee/PN + Muhyiddin/Bersatu + Hadi/PAS). rev11: FMT FULL TEXT reinforces all three sides — Hadi 'blames Bersatu misconduct' (full text), Muhyiddin 'charade to deceive the Malays' + 'new coalition PN exit hint' (full text), PAS severed political ties June 8 (full text operational fact).",
+        "status": "CARRIED + ESCALATED (full-text reinforcement). -0.84 -> -0.85.",
+        "threshold_crossed": false,
+        "trend": "declining"
+      },
+      {
+        "id": "PIR-06-BERSATU",
+        "pir": "PIR-06",
+        "entity": "Bersatu (party)",
+        "trigger": "Bersatu sentiment turns sharply negative on internal-fracture signal (per directive rule). rev11 full-text reinforcement: Kiandee quorum (is Supreme Council functional?) + FMT full-text analyst consensus (Lau/Azeem/Azmil) + Muhyiddin PN-exit hint + Ridzuan quit + PAS severed ties June 8.",
+        "status": "ESCALATED. -0.80 (rev10) -> -0.82 (rev11). CRITICAL per directive rule.",
+        "threshold_crossed": true,
+        "trend": "declining (sharp-negative internal-fracture, full-text confirmed)"
+      },
+      {
+        "id": "PIR-06-MUHYIDDIN",
+        "pir": "PIR-06",
+        "entity": "Muhyiddin Yassin (Bersatu president)",
+        "trigger": "Internal-fracture signal applies to Bersatu president. rev11: FMT FULL TEXT — 'new coalition after state election, hinting at PN exit' (strongest pre-threshold) + 'Bersatu must survive as lone opposition' + 'charade to deceive the Malays' (counter to Malay-unity). Kiandee quorum names him directly.",
+        "status": "ESCALATED. -0.84 (rev10) -> -0.86 (rev11).",
+        "threshold_crossed": true,
+        "trend": "declining"
+      },
+      {
+        "id": "ESC-017-PREV",
+        "pir": "PIR-16",
+        "entity": "'Bersatu in disarray' viral-amplification narrative (>50% volume, rev10 origin)",
+        "trigger": "rev10 fired PIR-16 >50% viral-amplification rule (3 new attack vectors in one cycle: quorum + PAS-expel + quit-advice). rev11: amplified + hard-news-corroborated (see ESC-017-ESCALATED). Retained as the viral layer beneath the escalation-tier.",
+        "status": "CARRIED (subsumed under ESC-017-ESCALATED). -0.60 stable on the disarray-framing dimension.",
+        "threshold_crossed": true,
+        "trend": "declining (amplifying)"
+      },
+      {
+        "id": "PIR-06-TOXIC-PN",
+        "pir": "PIR-06",
+        "entity": "'toxic PN' claim / Hadi-blames-Bersatu claim-counterclaim (full text)",
+        "trigger": "rev11: FMT FULL TEXT (18 Jul 12:48 MYT) — Hadi 'rift caused by Bersatu misconduct within PN'; Muhyiddin counter 'PAS made PN toxic, baseless allegations.' Strongest internal-rupture discourse signal, full-text confirmed both sides.",
+        "status": "CARRIED, full-text reinforced. -0.70.",
+        "threshold_crossed": false,
+        "trend": "stable (deepened, two-sided on the record)"
+      }
+    ],
+    "priority": [
+      {
+        "id": "ESC-020-NEW",
+        "pir": "PIR-16",
+        "entity": "'Umno's dangerous dance with PAS' (FMT opinion, 7009c, viral-amplifier)",
+        "trigger": "NEW rev11. FMT FULL-TEXT opinion (19 Jul) — highest-risk viral-amplifier opinion piece this cycle. 'By quietly opening the side door for PAS in NS, Umno is committing the oldest form of political miscalculation: validating the very force designed to replace it.' Cites Amanat Hadi (1981, Umno supporters as 'infidels'). 'The tiger is always hungry, and it does not care for understandings.' Warns urban non-Malay alienation (Seremban, Rasah, Nilai). Single high-impact opinion; viral-amplification watch.",
+        "status": "NEW PRIORITY. -0.60.",
+        "trend": "improving visibility (viral-amplifier risk)"
+      },
+      {
+        "id": "ESC-021-NEW",
+        "pir": "PIR-16",
+        "entity": "'DAP coalition-intolerant' frame (Hadi 'reject unnatural Malay groups with DAP') across 13 non-Malay DUNs",
+        "trigger": "NEW rev11, director-flagged. Hadi (NST 19 Jul 14:03 full text): reject 'unnatural Malay groups that are with DAP, namely fanatical secular and extreme chauvinist groups that threaten Islam and the Malay community.' Frames DAP as existential threat; targets the 13 non-Malay DUNs where DAP defends. Counter-narrative: Lim Lip Eng (FMT full text) rejects Hadi's Islamophobia claim, cites green-wave provenance (Hadi coined 'gelombang hijau' 2018) + Tuan Ibrahim 'PAS never claimed sole embodiment of Islam.'",
+        "status": "NEW PRIORITY. Frame -0.45 (negative for DAP); counter +0.35 (Lim). Net contested.",
+        "trend": "declining (frame intensifying; counter-narrative emerging)"
+      },
+      {
+        "id": "ESC-018",
+        "pir": "PIR-16",
+        "entity": "'MCA biggest loser' (Loke) + MCA rebuttal trajectory",
+        "trigger": "rev10 NEW PRIORITY. rev11: FMT FULL TEXT EN — Loke mocks MCA 'surrendered' Lobak, Mambau, Lukut to PN; 'I want to thank Wee Ka Siong for being so generous.' MCA rebuttal trajectory: Wee 'not an alliance, not a merger' (FMT full text) + internal dissent (Saw Yee Fung told to stay out). Rebuttal is CONTAINMENT, not counter-attack — MCA on the defensive.",
+        "status": "CARRIED PRIORITY. -0.45 -> -0.50 (MCA defensive posture deepens).",
+        "trend": "declining (MCA rebuttal = containment, not counter-attack)"
+      },
+      {
+        "id": "ESC-019",
+        "pir": "PIR-16",
+        "entity": "Harapan Youth (AMH) demands BN ministers quit Cabinet",
+        "trigger": "rev10 NEW PRIORITY. PM Anwar responded ('resign to attack unity partners', NST full text 14:47 MYT) — confirms AMH demand rose to PM-intervention level. Amplification signal.",
+        "status": "CARRIED PRIORITY. -0.40 stable.",
+        "trend": "stable (amplification signal held)"
+      },
+      {
+        "id": "ESC-016",
+        "pir": "PIR-16+07",
+        "entity": "Melaka PH-BN fracture (DAP withdrawal from state government)",
+        "trigger": "rev9 origin (+600% source). rev11: corroborated by 7 NST headline-intel items (Ab Rauf 'PH only mirrored federal unity', Anwar postpone, Melaka clears path, DAP quits, DAP backs reps) + mkini preview. Amanah's Adly stayed with govt (DAP isolated). Still dominant PIR-16 frame for DAP acceptance in NS Malay seats.",
+        "status": "CARRIED PRIORITY. -0.42 stable (no NEW Melaka content; visibility shifting to NS Day-1).",
+        "trend": "stable"
+      },
+      {
+        "id": "PIR-07-FLEEING-SIKAMAT",
+        "pir": "PIR-07",
+        "entity": "'fleeing Sikamat' narrative (directed at Aminuddin)",
+        "trigger": "Director-flagged monitor. Persists (carryover), NOT intensifying. Aminuddin denies, frames as strategic ('pindah kawasan'). 'Aminuddin fled Sikamat' frame NOT gaining negative traction.",
+        "status": "PRIORITY WATCH (active, not intensifying). -0.45 stable.",
+        "trend": "stable"
+      },
+      {
+        "id": "PIR-07-N14-DEFECTOR",
+        "pir": "PIR-07",
+        "entity": "N.14 Ampangan defector-framing (PH 'defector' attack on PN's Rafie)",
+        "trigger": "Director-flagged: 'If defector-framing sentiment intensifies at N.14, flag [PRIORITY].' Framing ACTIVE (Day-1 messaging war: PH 'defector' vs PN 'experienced rep') but NOT intensifying.",
+        "status": "PRIORITY WATCH (present, not intensifying). -0.15 stable.",
+        "trend": "stable"
+      },
+      {
+        "id": "PIR-16-BARKING-DOGS",
+        "pir": "PIR-16",
+        "entity": "'barking dogs' (Albert Tei insult narrative)",
+        "trigger": "High viral-potential; full body NOT fetched (paywalled). Headline+description derived. Amplification watch continues.",
+        "status": "PRIORITY WATCH (carried). -0.55 stable.",
+        "trend": "stable"
+      },
+      {
+        "id": "PIR-16-MUHYIDDIN-GRAFT-TRIAL",
+        "pir": "PIR-16",
+        "entity": "Muhyiddin graft-trial frame (RM1m Bersatu / Nepturis)",
+        "trigger": "Director PIR-16 monitor. 'Company gave Bersatu RM1m for unknown reasons, witness tells court.' Active trial narrative draining Bersatu/Muhyiddin credibility. mkini paywalled (preview only).",
+        "status": "PRIORITY WATCH (carried). -0.55 stable.",
+        "trend": "stable"
+      },
+      {
+        "id": "PIR-16-BERSATU-ADVISED-QUIT",
+        "pir": "PIR-06+16",
+        "entity": "Bersatu advised to quit PN with Gerakan/MIPP (analyst consensus, FMT full text)",
+        "trigger": "rev11 full text: IIUM Lau Zhe Wei advises Bersatu quit PN + take Gerakan/MIPP (strip PN of multiethnic image). Corroborates Muhyiddin new-coalition hint.",
+        "status": "PRIORITY. -0.55.",
+        "trend": "declining (analyst consensus hardening)"
+      },
+      {
+        "id": "PIR-16-BERSATU-WIPEOUT",
+        "pir": "PIR-06+16",
+        "entity": "'Bersatu heading for wipeout in NS' (analyst consensus, FMT full text)",
+        "trigger": "rev11 full text: USM Azeem Fazwan 'Bersatu in no position to win seats going solo'; USM Azmil Tayeb 'all people see coming out of Bersatu is the infighting.' Reinforces ESC-017.",
+        "status": "PRIORITY. -0.70.",
+        "trend": "declining (analyst consensus)"
+      },
+      {
+        "id": "PIR-07-AMINUDDIN-WATCH",
+        "pir": "PIR-07",
+        "entity": "Aminuddin Harun (PH incumbent MB, N.32 Linggi)",
+        "trigger": "Director-flagged monitor ('fleeing Sikamat' impact). NO >20% sentiment drop; stable at +0.62. Priority-watch (director monitor), no critical.",
+        "status": "PRIORITY WATCH only (no critical). +0.62 stable.",
+        "trend": "stable"
+      }
+    ]
+  },
+
+  "entities": [
+    {"entity": "Muhyiddin Yassin", "pir_tag": "PIR-06", "sentiment": "negative", "score": -0.86, "trend": "declining", "alert": "critical", "source_count": 11, "rationale": "rev11 FMT FULL TEXT escalation: 'will form a new coalition after the state election, hinting at a PN exit' (19 Jul 09:00, strongest pre-threshold) + 'Bersatu must survive as lone opposition' + 'charade to deceive the Malays.' Kiandee quorum names him directly. Hadi blame-shift + analyst-wipeout + graft-trial ongoing. Internal-fracture signal applies to Bersatu president. -0.84 -> -0.86."},
+    {"entity": "Bersatu", "pir_tag": "PIR-06", "sentiment": "negative", "score": -0.82, "trend": "declining", "alert": "critical", "source_count": 14, "rationale": "rev11 FMT full-text reinforcement: Kiandee quorum (is Supreme Council functional?) + analyst consensus (Azeem 'not in position to win solo', Azmil 'infighting', Lau 'quit PN') + Muhyiddin PN-exit hint + Ridzuan quit + PAS severed ties June 8 (full-text fact). 24 own-logo seats, 8 Bersatu-vs-PN clashes. Internal-fracture sharp-negative -> CRITICAL per directive. -0.80 -> -0.82."},
+    {"entity": "Bersatu-PN fracture (three-sided, full-text reinforced)", "pir_tag": "PIR-06", "sentiment": "negative", "score": -0.85, "trend": "declining", "alert": "critical", "source_count": 10, "rationale": "rev11 FMT full text reinforces all three sides: Hadi 'blames Bersatu misconduct', Muhyiddin 'charade' + 'new coalition PN exit', PAS severed ties June 8. -0.84 -> -0.85."},
+    {"entity": "PN-removal-of-Bersatu thread (master PIR-06 narrative)", "pir_tag": "PIR-06", "sentiment": "negative", "score": -0.86, "trend": "declining", "alert": "critical", "source_count": 12, "rationale": "Kiandee quorum attack (internal-legitimacy) + analyst wipeout consensus (FMT full text) + Muhyiddin PN-exit hint (FMT full text). Formal PN-MT notice STILL NOT detected (9 passes). -0.85 -> -0.86."},
+    {"entity": "'Bersatu exit from PN imminent?' / Muhyiddin new-coalition-post-NS narrative", "pir_tag": "PIR-06+16", "sentiment": "negative", "score": -0.72, "trend": "declining", "alert": "critical", "source_count": 8, "rationale": "[CRITICAL ESCALATION TIER] rev11: FMT FULL TEXT (19 Jul 09:00) — 'Muhyiddin said the party will form a new coalition after the state election, hinting at a PN exit.' This is the HARD-NEWS CORROBORATION of the mkini 'Bersatu exit imminent?' SNAPSHOT that the PIR-16 CRITICAL escalation rule requires. Escalates from rev10 viral-amplification CRITICAL (-0.60) to hard-news-corroborated CRITICAL escalation-tier (-0.72). Strongest pre-threshold signal + dominant PIR-16 narrative."},
+    {"entity": "'toxic PN' claim / Hadi-blames-Bersatu claim-counterclaim (full text)", "pir_tag": "PIR-06", "sentiment": "negative", "score": -0.70, "trend": "stable", "alert": "critical", "source_count": 6, "rationale": "rev11 FMT FULL TEXT (18 Jul 12:48): Hadi 'rift caused by Bersatu misconduct within PN'; Muhyiddin 'PAS made PN toxic, baseless allegations.' Claim/counter-claim = strongest internal-rupture discourse, both sides on the record. Director PIR-06 'toxic PN' monitor."},
+    {"entity": "Kiandee quorum question (is Bersatu Supreme Council functional?)", "pir_tag": "PIR-06", "sentiment": "negative", "score": -0.75, "trend": "declining", "alert": "critical", "source_count": 3, "rationale": "Director-flagged NEW PIR-06 signal. Kiandee escalated from 'asas kukuh to remove' to questioning whether Bersatu Supreme Council even has quorum (NST headline-intel, 19 Jul). Internal-legitimacy attack; termination-adjacent. Threshold NOT crossed; strongest pre-threshold sub-signal. Watch for Bersatu Supreme Council formal response."},
+    {"entity": "Muhyiddin new coalition after state election (PN-exit hint, FMT full text)", "pir_tag": "PIR-06", "sentiment": "negative", "score": -0.78, "trend": "declining", "alert": "critical", "source_count": 4, "rationale": "Director-flagged NEW PIR-06 signal. FMT FULL TEXT (19 Jul 09:00): 'form a new coalition after the state election, hinting at a PN exit.' Corroborates mkini 'imminent?' SNAPSHOT + Lau Zhe Wei 'quit PN' advice. Strongest pre-threshold signal. Approaches threshold; not yet formal withdrawal."},
+    {"entity": "Hadi Awang (PAS president)", "pir_tag": "PIR-06", "sentiment": "neutral", "score": -0.35, "trend": "improving", "alert": "none", "source_count": 10, "rationale": "MIXED (improving on coalition-arrangement): blame-shift on Bersatu (FMT full text) offsets by inclusive coalition-building (PAS+Umno+MCA+MIC+DHPP 'non-extreme' formula, NST full text) + 'lebih daripada berkahwin' (more than marriage) + 'Bukan retorik' PRU16-laboratory. On-offense for PN/PAS positioning. -0.40 -> -0.35."},
+    {"entity": "Ronald Kiandee (Bersatu VP, PN info chief)", "pir_tag": "PIR-06", "sentiment": "neutral", "score": -0.20, "trend": "declining", "alert": "none", "source_count": 4, "rationale": "Originator of PIR-06 'asas kukuh' removal call + NEW quorum-question escalation (questions Bersatu Supreme Council functionality). On-offense for PN; the quorum attack is termination-adjacent (coalition-cohesion negative). Neutral-to-slightly-negative for coalition stability."},
+    {"entity": "Ridzuan Ahmad (Bersatu-quit figure, now Wawasan/Gemas)", "pir_tag": "PIR-06", "sentiment": "neutral", "score": 0.05, "trend": "stable", "alert": "none", "source_count": 4, "rationale": "Confirmed keluar signal: resigned as Bersatu division chief + quit party; now contesting Gemas under Wawasan (PN). Corroborated NST + Malay Mail + The Edge. His quit = Bersatu-cohesion negative (scored under Bersatu); for him personally neutral strategic move."},
+    {"entity": "PN (coalition, PAS-led rump)", "pir_tag": "PIR-06", "sentiment": "neutral", "score": 0.30, "trend": "stable", "alert": "none", "source_count": 9, "rationale": "Grassroots thumbs-up (FMT full text BM) + 11 seats no BN clashes (operational success) + Hadi coalition-building + teka-teki PN candidate list confirmed (Awani). Structurally hollowed by Bersatu 24-solo but operationally holding. Slightly positive."},
+    {"entity": "Hamzah Zainudin (Bersatu/PN Sec-Gen)", "pir_tag": "PIR-06", "sentiment": "neutral", "score": -0.15, "trend": "stable", "alert": "none", "source_count": 2, "rationale": "Not directly quoted this cycle. Carryover watch figure per director PIR-06 list. Low source count."},
+    {"entity": "Ahmad Samsuri Mokhtar (PN chairman, PAS VP)", "pir_tag": "PIR-06", "sentiment": "neutral", "score": 0.10, "trend": "stable", "alert": "none", "source_count": 3, "rationale": "Announced remaining PN candidates (teka-teki, Awani full text). PN operational lead. Neutral."},
+    {"entity": "Bersatu goes solo under own logo (24 seats)", "pir_tag": "PIR-06", "sentiment": "negative", "score": -0.62, "trend": "stable", "alert": "none", "source_count": 7, "rationale": "FULL TEXT confirmed across FMT x4, NST, Awani. Breaks PN state consensus; recreates vote-splitting. PAS severed ties June 8 (full text). Strongest operational-split confirmation; NOT a formal expulsion."},
+    {"entity": "PAS severed political ties with Bersatu (June 8, FMT full text)", "pir_tag": "PIR-06", "sentiment": "negative", "score": -0.40, "trend": "stable", "alert": "none", "source_count": 3, "rationale": "Operational fact, FMT full text confirmed. Both remain in PN; used same logo for Johor polls. Underpins operational-split narrative."},
+    {"entity": "Bersatu advised to quit PN with Gerakan/MIPP (analyst, FMT full text)", "pir_tag": "PIR-06+16", "sentiment": "negative", "score": -0.55, "trend": "declining", "alert": "priority", "source_count": 3, "rationale": "IIUM Lau Zhe Wei (FMT full text): Bersatu should quit PN now + take Gerakan/MIPP (strip PN of multiethnic image). Corroborates Muhyiddin new-coalition hint."},
+    {"entity": "Bersatu heading for wipeout in NS (analyst consensus, FMT full text)", "pir_tag": "PIR-06+16", "sentiment": "negative", "score": -0.70, "trend": "declining", "alert": "priority", "source_count": 3, "rationale": "USM Azeem Fazwan 'in no position to win seats going solo'; USM Azmil Tayeb 'all people see coming out of Bersatu is the infighting.' Reinforces ESC-017 disarray narrative."},
+    {"entity": "BN-PN grassroots endorsement (FMT full text BM)", "pir_tag": "PIR-06", "sentiment": "positive", "score": 0.48, "trend": "improving", "alert": "none", "source_count": 5, "rationale": "rev11 full text: FMT BM grassroots thumbs-up, multiple named supporters (Mohamad Yusof, Noorizan, Jefri, Mohd Zuki, Abu Ubaidah), 'Penyatuan ummah inilah yang diharapkan oleh akar umbi Umno', hope nationwide expansion + 'noktah perpecahan.' Partially offsets UMNO-divisional-dissent. +0.45 -> +0.48."},
+    {"entity": "BN-PN understanding NOT merger (Wee/Isam/Zahid/Hadi, full text)", "pir_tag": "PIR-16", "sentiment": "neutral", "score": 0.15, "trend": "stable", "alert": "none", "source_count": 7, "rationale": "rev11 FMT + NST full text: Wee 'not an alliance, not a merger' + Isam 'merely an understanding, not a political merger' (machinery-sharing in Gemas) + Zahid 'merely an understanding, no agreements' + Hadi 'lebih daripada berkahwin but dinilai semasa ke semasa.' DOMINANT official-framing containment narrative, 3-source corroborated."},
+    {"entity": "PN-BN grassroots machinery-sharing at seat level (Gemas, NST full text)", "pir_tag": "PIR-06", "sentiment": "positive", "score": 0.35, "trend": "stable", "alert": "none", "source_count": 2, "rationale": "NST full text (19 Jul 11:59): Tampin Umno chief Mohd Isam — all BN ops rooms in Gemas open to assist PN (Wawasan) candidate. 'Not a political merger.' 'We do not want any sabotage.' Seat-level cooperation CONFIRMED."},
+    {"entity": "Zahid: NS performance determines future alliance (FMT full text)", "pir_tag": "PIR-06+16", "sentiment": "neutral", "score": 0.20, "trend": "stable", "alert": "none", "source_count": 3, "rationale": "FMT full text: Zahid — BN will assess NS performance before deciding wider PN cooperation; NS = test for PRU16 alliance. 'Politics is very dynamic.' Bellwether/realignment framing. Adjacent to trigger #2."},
+
+    {"entity": "Aminuddin Harun (PH incumbent MB, N.32 Linggi)", "pir_tag": "PIR-07", "sentiment": "positive", "score": 0.62, "trend": "stable", "alert": "priority", "source_count": 9, "rationale": "No >20% drop; stable. 'fleeing Sikamat' persists but NOT intensifying (frame is 'pindah kawasan', not 'fled'). 3-cornered Linggi split structurally helps PH incumbent. Priority-watch (director monitor), no critical."},
+    {"entity": "'fleeing Sikamat' narrative (directed at Aminuddin)", "pir_tag": "PIR-07", "sentiment": "negative", "score": -0.45, "trend": "stable", "alert": "priority", "source_count": 5, "rationale": "Director PIR-07 monitor. Persists, NOT intensifying. Aminuddin denies, frames as strategic choice. 'Aminuddin fled Sikamat' frame NOT gaining negative traction."},
+    {"entity": "N.32 Linggi (3-cornered MB battle)", "pir_tag": "PIR-07", "sentiment": "positive", "score": 0.35, "trend": "stable", "alert": "none", "source_count": 6, "rationale": "Aminuddin (PH) vs Faizal Ramli (BN) vs Zamri (Bersatu). 3-cornered split structurally helps PH incumbent. 'not taking for granted' + 'fleeing Sikamat' both anchored here. BN manifesto launch 24 Jul at DUN Linggi = upcoming watch."},
+    {"entity": "N.28 Klawang (3-cornered, cousins, Awani full text)", "pir_tag": "PIR-07", "sentiment": "positive", "score": 0.40, "trend": "stable", "alert": "none", "source_count": 4, "rationale": "rev10 gap FILLED, rev11 full-text confirmed: Bakri Sawir (PH incumbent) vs Danni Rais (PN, Bakri's cousin) vs Muhammad Adib Musa (Bersatu). 13,355 voters. Cousins campaigned peacefully at Pasar Minggu Kuala Klawang (Awani 19 Jul 12:11); Bakri 'no special challenge, campaign healthily.' HIGHEST PIR-07 value. Incumbent confident, NO drop. +0.35 -> +0.40."},
+    {"entity": "Datuk Bakri Sawir (N.28 Klawang PH incumbent)", "pir_tag": "PIR-07", "sentiment": "positive", "score": 0.45, "trend": "stable", "alert": "none", "source_count": 2, "rationale": "Confident Day-1 posture; took down warned flags; 'brotherly fight' with cousin Danni Rais; mature-campaign framing. Positive incumbent signal, no drop. +0.40 -> +0.45."},
+    {"entity": "Danni Rais (N.28 Klawang PN candidate, Bakri's cousin)", "pir_tag": "PIR-07", "sentiment": "neutral", "score": 0.10, "trend": "stable", "alert": "none", "source_count": 2, "rationale": "PN challenger; Bakri's cousin; peaceful campaign. 'Two cousins face off' marquee Day-1 storyline. Confirmed via Awani teka-teki (16 Jul) + Day-1 article. Neutral challenger posture."},
+    {"entity": "Muhammad Adib Musa (N.28 Klawang Bersatu candidate)", "pir_tag": "PIR-07", "sentiment": "negative", "score": -0.15, "trend": "stable", "alert": "none", "source_count": 1, "rationale": "Bersatu third-force splitter in 3-cornered Klawang. Splits opposition vote; structurally helps PH incumbent. Negative for opposition cohesion."},
+    {"entity": "N.27 Chembong (straight fight, BN incumbent, FMT full text)", "pir_tag": "PIR-07", "sentiment": "positive", "score": 0.35, "trend": "improving", "alert": "none", "source_count": 2, "rationale": "rev11 FMT full text recovered: BN Zaifulbahri Idris (since 2008; 2023 maj 4,335) vs PH Danish Nazran Murad. Straight fight, BN incumbent edge. +0.30 -> +0.35."},
+    {"entity": "Zaifulbahri Idris (N.27 Chembong BN incumbent)", "pir_tag": "PIR-07", "sentiment": "positive", "score": 0.40, "trend": "stable", "alert": "none", "source_count": 1, "rationale": "Has represented Chembong since 2008; 4,335-vote majority 2023. Strong incumbent. NEW this build."},
+    {"entity": "Danish Nazran Murad (N.27 Chembong PH candidate)", "pir_tag": "PIR-07", "sentiment": "neutral", "score": 0.0, "trend": "stable", "alert": "none", "source_count": 1, "rationale": "PH challenger in straight fight vs BN incumbent. NEW this build."},
+    {"entity": "N.13 Sikamat (3-cornered, 'fleeing Sikamat' anchor)", "pir_tag": "PIR-07", "sentiment": "positive", "score": 0.40, "trend": "stable", "alert": "none", "source_count": 5, "rationale": "Nor Azman (PH, Aminuddin's pol-sec) vs Tun Faisal (Bersatu) vs Razali (Wawasan). 3-cornered split helps PH. 'fleeing Sikamat' anchored here (Aminuddin vacated). No new negative."},
+    {"entity": "N.14 Ampangan (defector-framing watch)", "pir_tag": "PIR-07", "sentiment": "negative", "score": -0.15, "trend": "stable", "alert": "priority", "source_count": 4, "rationale": "Director PIR-07 watch. PH Nazri Kassim vs PN Rafie (confirmed Awani teka-teki). Day-1 messaging war (PH 'defector' vs PN 'experienced rep') ACTIVE but NOT intensifying. Priority-watch per directive."},
+    {"entity": "Nazri Kassim (N.14 PH candidate)", "pir_tag": "PIR-07", "sentiment": "positive", "score": 0.10, "trend": "stable", "alert": "none", "source_count": 2, "rationale": "PH defence posture. Slightly positive."},
+    {"entity": "Datuk Dr Mohamad Rafie Ab Malek (N.14 PN candidate 'Rafie')", "pir_tag": "PIR-07", "sentiment": "negative", "score": -0.25, "trend": "stable", "alert": "priority", "source_count": 2, "rationale": "Confirmed via Awani teka-teki (16 Jul 23:12). Under PH 'defector' attack. PN 'experienced rep' counter-framing. Priority-watch linked to N.14 defector-framing."},
+    {"entity": "N.15 Juasseh (BN unfazed, 3-cornered)", "pir_tag": "PIR-07", "sentiment": "positive", "score": 0.20, "trend": "stable", "alert": "none", "source_count": 2, "rationale": "BN 'unfazed' by 3-cornered (Datuk Ismail Lasim). BN confidence."},
+    {"entity": "N.20 Bembang", "pir_tag": "PIR-07", "sentiment": "neutral", "score": 0.0, "trend": "stable", "alert": "none", "source_count": 1, "rationale": "Candidate detail NOT recovered. 'N.20 Bembang' <-> 'Bahau' mapping unconfirmed. Kept per director list. Honest limitation."},
+    {"entity": "N.25 Labu", "pir_tag": "PIR-07", "sentiment": "neutral", "score": 0.0, "trend": "stable", "alert": "none", "source_count": 1, "rationale": "Candidate detail NOT recovered. Kept per director list. Honest limitation."},
+    {"entity": "N.10 Nilai (5-cornered vote-split test)", "pir_tag": "PIR-07", "sentiment": "neutral", "score": -0.05, "trend": "stable", "alert": "none", "source_count": 3, "rationale": "FMT full text: DAP J. Arul Kumar (Loke's aide, 4th term, 2023 maj 10,889) + 4 others. Malay 42.5%/Chinese 32.6%/Indian 21.9%. 5-cornered high split-risk; strong DAP incumbent. Trigger #7 watch."},
+    {"entity": "N.33 Sri Tanjung (5-cornered vote-split test)", "pir_tag": "PIR-07", "sentiment": "negative", "score": -0.15, "trend": "stable", "alert": "none", "source_count": 3, "rationale": "FMT full text: PH Dr Rajasekaran (2nd term, 2023 maj 3,996) + 4 others incl Bersatu youngest (23). Malay 37.2%/Chinese 31.5%/Indian 28.35%. 5-cornered highest split-risk. Trigger #7 watch."},
+    {"entity": "Rantau (Tok Mat straight fight, FMT full text)", "pir_tag": "PIR-07", "sentiment": "positive", "score": 0.50, "trend": "stable", "alert": "none", "source_count": 4, "rationale": "FMT full text: Tok Mat (2023 maj 10,280) vs PH Dr Azizul Hakim Mahdi. Malay 54.8%/Indian 27.6%/Chinese 16%. Day-1 'act now or lose forever' + lion dance. BN heavyweight. Mixed seat, Rembau parliamentary."},
+    {"entity": "Kota (razor 135 margin, 3-cornered, FMT full text)", "pir_tag": "PIR-07", "sentiment": "negative", "score": -0.15, "trend": "stable", "alert": "none", "source_count": 1, "rationale": "NEW. FMT full text: BN Suhaimi Aini (incumbent, 2023 maj 135 — RAZOR, highest-risk marginal; never left Umno since 1959) vs PH Allif Ibrahim vs Bersatu Akmal Noradzmi. 3-cornered BN stronghold under threat. NEW this build."},
+    {"entity": "Paroi (3-cornered correction, FMT full text)", "pir_tag": "PIR-07", "sentiment": "neutral", "score": -0.05, "trend": "stable", "alert": "none", "source_count": 2, "rationale": "FMT CORRECTION: 3-cornered (not straight fight per Malay Mail). PAS/PN Kamarul Ridzuan (incumbent, 2023 maj 5,539) vs PH Ahmad Shahir vs Bersatu Nazree Yunus. Discrepancy; FMT more detailed/recent."},
+    {"entity": "Pertang (3-way, Jalaluddin potential MB, FMT full text)", "pir_tag": "PIR-07", "sentiment": "positive", "score": 0.20, "trend": "stable", "alert": "none", "source_count": 2, "rationale": "FMT full text: BN Jalaluddin Alias (seeking 3rd term, touted MB) vs PH Umry Abdul Khois vs Bersatu Faizal Fadli Idrus. Jelebu parliamentary."},
+    {"entity": "Mohamad Hasan / Tok Mat (BN candidate Rantau)", "pir_tag": "PIR-07", "sentiment": "positive", "score": 0.58, "trend": "stable", "alert": "none", "source_count": 6, "rationale": "rev11 NST full text: 'act now or lose chance forever' (14:46 MYT) — existential Malay-future ('children become traders in their own country'); first mooted 2018, fell through. On-message for BN base; racially/religiously charged. Heavyweight 2-cornered vs PH. Stable."},
+    {"entity": "Datuk Mohd Faizal Ramli (N.32 BN candidate)", "pir_tag": "PIR-07", "sentiment": "positive", "score": 0.54, "trend": "stable", "alert": "none", "source_count": 3, "rationale": "Mature challenger; 'Linggi stronghold cannot be taken for granted' framing (director 'not taking for granted' monitor). 3-cornered vs Aminuddin + Zamri."},
+    {"entity": "Anwar Ibrahim (PM, coalition manager)", "pir_tag": "PIR-07", "sentiment": "positive", "score": 0.42, "trend": "improving", "alert": "none", "source_count": 5, "rationale": "rev11 NST full text: 'resign if you want to attack unity partners' (discipline, 14:47, conveyed with Zahid+Fadillah) + 'Ali Baba 40 thieves were also united' multi-ethnic counter (12:21). Managing coalition discipline (response to AMH). Positive for coalition coherence. +0.40 -> +0.42."},
+    {"entity": "Johari Abdul Ghani (Umno VP, Johor formula)", "pir_tag": "PIR-07", "sentiment": "positive", "score": 0.40, "trend": "stable", "alert": "none", "source_count": 2, "rationale": "NST full text: 'adapt Johor formula for NS' (party strength + candidate selection + machinery). 'Cannot assume same formula applies automatically.' Cautious strategic. Positive for BN machinery."},
+    {"entity": "Day-1 campaign operations (19 permits, peaceful)", "pir_tag": "PIR-07", "sentiment": "positive", "score": 0.45, "trend": "improving", "alert": "none", "source_count": 3, "rationale": "Director PIR-07 'Afternoon Day-1 dispatch (14:00-18:00 MYT window)' — this pass at 17:28 MYT, within window. NST full text: 1 election-offense report (verbal dispute, no investigation); 19 ceramah permits ALL APPROVED. Klawang cousins peaceful. Loke Day-1 at Pasar Besar Seremban. Mature-campaign framing dominant."},
+    {"entity": "BN manifesto launch 24 Jul at DUN Linggi (upcoming)", "pir_tag": "PIR-07", "sentiment": "neutral", "score": 0.0, "trend": "stable", "alert": "none", "source_count": 1, "rationale": "Director PIR-07 NEW monitor. BN manifesto launch confirmed for 24 Jul at DUN Linggi (N.32 — Aminuddin's seat). UPCOMING (5 days); no sentiment yet. Watch for narrative shifts at the launch."},
+
+    {"entity": "Anthony Loke Siew Fook (DAP sec-gen, Chennah)", "pir_tag": "PIR-16", "sentiment": "positive", "score": 0.50, "trend": "improving", "alert": "none", "source_count": 6, "rationale": "Director PIR-16 track (DAP/Loke). rev11 FMT FULL TEXT EN: 'MCA biggest loser in BN-PN NS pact' — mocks MCA 'surrendered' Lobak/Mambau/Lukut; 'I want to thank Wee Ka Siong for being so generous.' Day-1 urged traffic-rule compliance at Pasar Besar Seremban. Defends Chennah (straight fight vs MCA Siow Kong Choon). Active/on-offense Day-1. +0.45 -> +0.50."},
+    {"entity": "'MCA biggest loser' (Loke quote, FMT full text) + MCA rebuttal trajectory", "pir_tag": "PIR-16", "sentiment": "negative", "score": -0.50, "trend": "declining", "alert": "priority", "source_count": 5, "rationale": "Director PIR-16 NEW monitor. FMT FULL TEXT EN. Loke mocks MCA 'generosity' ceding Lobak/Mambau/Lukut. MCA rebuttal trajectory: Wee 'not an alliance, not a merger' (containment) + MCA Youth sec-gen Saw Yee Fung told to 'stay out' (internal dissent). Rebuttal = CONTAINMENT not counter-attack -> MCA on defensive. -0.45 -> -0.50."},
+    {"entity": "MCA (party, internal dissent + defensive)", "pir_tag": "PIR-16", "sentiment": "negative", "score": -0.42, "trend": "declining", "alert": "priority", "source_count": 5, "rationale": "Under dual pressure: Loke 'biggest loser' mockery (external) + Saw Yee Fung dissent/told-to-stay-out (internal). Wee containment line. Defensive posture deepening."},
+    {"entity": "Wee Ka Siong (MCA president, containment carrier)", "pir_tag": "PIR-16", "sentiment": "neutral", "score": -0.10, "trend": "stable", "alert": "none", "source_count": 3, "rationale": "FMT full text: 'cooperation does not amount to an alliance; not a merger; not a new party.' Carrier of 'not a merger' containment. Defensive-neutral."},
+    {"entity": "'DAP coalition-intolerant' frame (Hadi, across 13 non-Malay DUNs)", "pir_tag": "PIR-16", "sentiment": "negative", "score": -0.45, "trend": "declining", "alert": "priority", "source_count": 3, "rationale": "Director PIR-16 NEW monitor. Hadi (NST full text 14:03): reject 'unnatural Malay groups with DAP, namely fanatical secular and extreme chauvinist groups that threaten Islam and the Malay community.' Frames DAP as existential threat; targets 13 non-Malay DUNs DAP defends. NEW this build."},
+    {"entity": "Lim Lip Eng (Kepong MP, DAP, green-wave/Islamophobia counter)", "pir_tag": "PIR-16", "sentiment": "positive", "score": 0.35, "trend": "improving", "alert": "none", "source_count": 2, "rationale": "NEW. FMT full text: rejects Hadi's Islamophobia claim; says Hadi himself coined 'gelombang hijau' (green wave) in 2018 (Harakah) — 4 years before GE15. 'PAS cannot use religion as an armour against political criticism.' Cites Tuan Ibrahim. Counter-narrative to DAP-coalition-intolerant frame. NEW this build."},
+    {"entity": "Tuan Ibrahim Tuan Man (PAS deputy president, cited counter-Hadi)", "pir_tag": "PIR-16", "sentiment": "neutral", "score": 0.15, "trend": "stable", "alert": "none", "source_count": 1, "rationale": "NEW. Cited by Lim Lip Eng: 'PAS had never claimed to be the sole embodiment of Islam' — used to counter Hadi's Islamophobia framing. NEW this build."},
+    {"entity": "'gelombang hijau / green wave' provenance contest", "pir_tag": "PIR-16", "sentiment": "neutral", "score": -0.10, "trend": "stable", "alert": "none", "source_count": 2, "rationale": "NEW. Active framing contest: Hadi says DAP used 'green wave' post-GE15 to stigmatise PAS/Muslims (Islamophobia); Lim counters with 2018 provenance (Hadi coined it). NEW this build."},
+    {"entity": "'Umno's dangerous dance with PAS' (FMT opinion, viral-amplifier)", "pir_tag": "PIR-16", "sentiment": "negative", "score": -0.60, "trend": "improving", "alert": "priority", "source_count": 1, "rationale": "NEW. FMT FULL-TEXT opinion (19 Jul, 7009c) — highest-risk viral-amplifier opinion piece this cycle. 'By quietly opening the side door for PAS in NS, Umno is validating the very force designed to replace it.' Cites Amanat Hadi (1981). 'The tiger is always hungry, and it does not care for understandings.' Warns urban non-Malay alienation (Seremban, Rasah, Nilai). Single high-impact opinion; viral-amplification watch. NEW this build."},
+    {"entity": "Amanat Hadi (1981, historical reference)", "pir_tag": "PIR-16", "sentiment": "negative", "score": -0.40, "trend": "stable", "alert": "none", "source_count": 1, "rationale": "NEW. 1981 Amanat Hadi labelled Umno supporters 'infidels' — cited in FMT 'dangerous dance' opinion as historical frame for why Umno-PAS cooperation is risky. Umno 'inviting back the very force it spent half a century containing.' NEW this build."},
+    {"entity": "'charade to deceive the Malays' (Muhyiddin counter)", "pir_tag": "PIR-16", "sentiment": "negative", "score": -0.45, "trend": "stable", "alert": "none", "source_count": 2, "rationale": "NEW. FMT full text Muhyiddin (18 Jul 16:52): accuses Umno/BN of using 'ummah unity'/'Malay unity' to win Malay voters — 'charade to deceive the eyes of the Malays.' Claims Bersatu 'free of all this charade' + anti-kleptocracy founding. Direct counter to Tok Mat/Hadi Malay-unity framing. NEW this build."},
+    {"entity": "Melaka PH-BN fracture (DAP withdrawal, multi-source dominant)", "pir_tag": "PIR-16", "sentiment": "negative", "score": -0.42, "trend": "stable", "alert": "priority", "source_count": 8, "rationale": "Corroborated by 7 NST headline-intel items + mkini preview. Amanah's Adly stayed with govt (DAP isolated). Ab Rauf 'PH only mirrored federal unity in Melaka.' Still dominant PIR-16 frame for DAP acceptance in NS Malay seats. Stable/declining visibility as cycle shifts to NS Day-1."},
+    {"entity": "'barking dogs' (Albert Tei insult narrative)", "pir_tag": "PIR-16", "sentiment": "negative", "score": -0.55, "trend": "stable", "alert": "priority", "source_count": 2, "rationale": "High viral-potential; full body NOT fetched (paywalled). Headline+description derived. Amplification watch continues."},
+    {"entity": "Albert Tei (PN-camp businessperson)", "pir_tag": "PIR-16", "sentiment": "negative", "score": -0.50, "trend": "stable", "alert": "priority", "source_count": 2, "rationale": "Linked to 'barking dogs' narrative; PN-camp negative framing. Identity beyond 'businessperson in PN shirt' pending."},
+    {"entity": "Muhyiddin graft-trial frame (RM1m Bersatu / Nepturis)", "pir_tag": "PIR-16", "sentiment": "negative", "score": -0.55, "trend": "stable", "alert": "priority", "source_count": 2, "rationale": "Director PIR-16 monitor. 'Company gave Bersatu RM1m for unknown reasons, witness tells court.' Active trial draining Bersatu/Muhyiddin credibility. mkini paywalled (preview)."},
+    {"entity": "Harapan Youth (AMH) demands BN ministers quit Cabinet", "pir_tag": "PIR-16", "sentiment": "negative", "score": -0.40, "trend": "stable", "alert": "priority", "source_count": 3, "rationale": "Viral amplifier. PM Anwar responded directly ('resign to attack unity partners') — confirms AMH demand rose to PM-intervention level. Amplification signal held."},
+    {"entity": "'DAP revives anti-BN campaign' (1MDB/ruler-crisis attack)", "pir_tag": "PIR-16", "sentiment": "negative", "score": -0.35, "trend": "stable", "alert": "none", "source_count": 2, "rationale": "mkini (Zarrah Morden): DAP brings up 1MDB, ruler crisis, political manoeuvres. Negative for BN (opposition attack)."},
+    {"entity": "'adat dispute' / NS ruler-crisis campaign issue", "pir_tag": "PIR-16", "sentiment": "negative", "score": -0.35, "trend": "stable", "alert": "none", "source_count": 4, "rationale": "Live PIR-16 narrative (Rembau chieftain sacked 3 nobles, court injunction, Loke 'penyaluran dana' controversy with Balai Undang Luak Sungai Ujong). Tok Mat 'keep adat out of polls.' Anwar 'don't campaign on NS ruler crisis.' Not intensifying this cycle."},
+    {"entity": "'penyatuan undi Melayu' (Malay vote unity, expanded)", "pir_tag": "PIR-16", "sentiment": "positive", "score": 0.35, "trend": "improving", "alert": "none", "source_count": 6, "rationale": "rev11 full text expanded: Kosmo 'memaksimumkan pengundian Melayu' + Hadi 'Malay-Muslim unity with non-extreme partners' (NST) + FMT BM grassroots 'penyatuan ummah' + Muhyiddin counter 'charade to deceive Malays' + Tok Mat 'safeguard future of race and religion.' Active positive BN-PN coalition narrative; contested by Muhyiddin."},
+    {"entity": "'NS = makmal politik' (political laboratory for PRU16, FMT full text)", "pir_tag": "PIR-16", "sentiment": "neutral", "score": 0.15, "trend": "improving", "alert": "none", "source_count": 4, "rationale": "rev11 FMT BM full text: Zaharuddin Sani (Global Asia Consulting) 'NS sedang dijadikan makmal politik.' Every NS seat as PRU16 indicator. Azmi Hassan: Johor PAS-Umno success motivator. Corroborates Zahid + Johari + Utusan. 'The most important question is not whether the bride and groom agree, but whether the children accept the new marriage.' +0.10 -> +0.15."},
+    {"entity": "Ahmad Zaharuddin Sani Ahmad Sabri (analyst, makmal politik carrier)", "pir_tag": "PIR-16", "sentiment": "neutral", "score": 0.15, "trend": "stable", "alert": "none", "source_count": 1, "rationale": "NEW. Global Asia Consulting analyst. Carrier of 'makmal politik' framing. 'Bukan sekadar retorik.' NEW this build."},
+    {"entity": "Azmi Hassan (Felo Majlis Profesor Negara, Johor formula)", "pir_tag": "PIR-16", "sentiment": "neutral", "score": 0.10, "trend": "stable", "alert": "none", "source_count": 1, "rationale": "NEW. Johor PAS-Umno success motivates NS understanding. 'Pengorbanan PAS mungkin dikatakan berbaloi.' Model not necessarily applicable to all states. NEW this build."},
+    {"entity": "Wong Chin Huat (Sunway University analyst)", "pir_tag": "PIR-16", "sentiment": "negative", "score": -0.25, "trend": "stable", "alert": "none", "source_count": 1, "rationale": "NEW. MCA weaker in NS than Johor. Non-Malays unwilling to stake future on MCA if perceive PH-defeat risk. 'If PH collapses in NS, BN and PN would collaborate further in GE16.' DAP/supporters concerned. NEW this build."},
+    {"entity": "Lau Zhe Wei (IIUM analyst, advises Bersatu quit PN)", "pir_tag": "PIR-06+16", "sentiment": "negative", "score": -0.40, "trend": "declining", "alert": "priority", "source_count": 2, "rationale": "FMT full text: advises Bersatu quit PN + take Gerakan/MIPP. MCA benefits from BN-PAS alliance (PAS vote transfer — Johor MCA doubled to 8). 'Second option (BN-PAS) may be better for MCA.' NEW this build."},
+    {"entity": "Azeem Fazwan Ahmad Farouk (USM analyst, Bersatu wipeout)", "pir_tag": "PIR-06+16", "sentiment": "negative", "score": -0.55, "trend": "declining", "alert": "priority", "source_count": 1, "rationale": "FMT full text: expects Bersatu wiped out in NS — 'in no position to win seats going solo.' Lacks strong political base. NEW this build."},
+    {"entity": "Azmil Tayeb (USM analyst, 'all people see is infighting')", "pir_tag": "PIR-06+16", "sentiment": "negative", "score": -0.50, "trend": "declining", "alert": "priority", "source_count": 1, "rationale": "FMT full text: Bersatu problems run deeper than PAS issues; hasn't distinguished itself from Umno/PAS. 'All that people see coming out of Bersatu is the infighting.' NEW this build."},
+    {"entity": "'Act now or lose chance forever' (Tok Mat existential, NST full text)", "pir_tag": "PIR-16", "sentiment": "positive", "score": 0.40, "trend": "improving", "alert": "none", "source_count": 2, "rationale": "NST full text (14:46 MYT): Tok Mat at Sendayan Air Base Family Day — 'If we don't do it this time, we will miss the boat… our children and grandchildren will become mere traders in their own country.' Existential Malay-future; energizes BN base; counters DAP/Madani multi-ethnic narrative."},
+    {"entity": "'Malay-Muslim unity with non-extreme partners' (Hadi, NST full text)", "pir_tag": "PIR-16", "sentiment": "positive", "score": 0.30, "trend": "improving", "alert": "none", "source_count": 2, "rationale": "NST full text (14:03): PAS+Umno+MCA+MIC+DHPP 'non-extreme' formula; extend to Sabah/Sarawak to 'save Malaysia.' Reject 'unnatural Malay groups with DAP' (-> DAP coalition-intolerant frame). Constructive coalition-building (the inclusion side)."},
+    {"entity": "'Ali Baba 40 thieves were also united' (Anwar counter, NST full text)", "pir_tag": "PIR-16", "sentiment": "positive", "score": 0.35, "trend": "improving", "alert": "none", "source_count": 2, "rationale": "NST full text (12:21): Anwar at National Month launch (Ipoh) — 'Unity alone is not enough… the 40 thieves were also united.' 'Unite to improve quality of life, not to steal or plunder.' Multi-ethnic counter to BN-PN Malay-unity + Tok Mat existential. +0.30 -> +0.35."},
+    {"entity": "'Resign to attack unity partners' (Anwar discipline, NST full text)", "pir_tag": "PIR-16", "sentiment": "positive", "score": 0.25, "trend": "improving", "alert": "none", "source_count": 2, "rationale": "NST full text (14:47): ministers/deputy ministers must resign if using federal positions to attack unity-govt partners in state campaigns. Conveyed to DPMs Zahid + Fadillah. Federal-state firewall. Response to AMH."},
+    {"entity": "'Mature campaign' (Awani voters, Bakri embodies)", "pir_tag": "PIR-16", "sentiment": "positive", "score": 0.40, "trend": "improving", "alert": "none", "source_count": 2, "rationale": "Awani full text (13:58): Rembau voters want 'kempen matang, calon fokus kehendak rakyat'; 'Rakyat sekarang sudah cerdik.' Bakri Sawir (Klawang) embodies it. Process narrative. +0.35 -> +0.40."},
+    {"entity": "'MB after PRN' referendum frame (FMT full text, Jalaluddin)", "pir_tag": "PIR-16", "sentiment": "negative", "score": -0.25, "trend": "stable", "alert": "none", "source_count": 2, "rationale": "FMT full text: Jalaluddin 'BN to decide NS MB candidate only if it wins'; 'several leaders capable.' Aminuddin seat-move + MB-credibility referendum. Pressure on Aminuddin. -0.30 -> -0.25."},
+    {"entity": "'sole opposition' / Bersatu lone-opposition frame (FMT full text)", "pir_tag": "PIR-16", "sentiment": "negative", "score": -0.50, "trend": "declining", "alert": "none", "source_count": 3, "rationale": "FMT full text Muhyiddin (18 Jul 16:52): 'Bersatu must survive as lone opposition'; PN 'indirectly supports the government.' Frames opposition identity. -0.35 -> -0.50 (deepens with PN-exit hint)."},
+    {"entity": "'majoriti mudah' (BN confidence)", "pir_tag": "PIR-16", "sentiment": "neutral", "score": 0.0, "trend": "stable", "alert": "none", "source_count": 1, "rationale": "Director PIR-16 monitor. NOT yet directly quoted in recovered full text. Latent — watch for Day-2/Day-3 poll/forecast corroboration or BN manifesto launch (24 Jul)."},
+    {"entity": "'not taking for granted' (PH/BN defence)", "pir_tag": "PIR-16", "sentiment": "neutral", "score": 0.15, "trend": "stable", "alert": "none", "source_count": 2, "rationale": "Director PIR-16 monitor (counter to 'majoriti mudah'). Faizal Ramli 'Linggi stronghold cannot be taken for granted' active defensive framing. NST headline-intel 'Linggi move is risky for PH, says analyst' adds analyst-layer."},
+    {"entity": "Datuk Mohd Isam Mohd Isa (Tampin Umno chief, machinery-sharing)", "pir_tag": "PIR-06", "sentiment": "positive", "score": 0.35, "trend": "stable", "alert": "none", "source_count": 1, "rationale": "NEW. NST full text: all BN ops rooms in Gemas open to assist PN (Wawasan) candidate. 'Not a political merger.' BN-MCA/MIC relationships intact. Seat-level cooperation CONFIRMED. NEW this build."},
+    {"entity": "Teka-teki 11 kerusi BN terjawab (Awani full text, PN candidate list)", "pir_tag": "PIR-06", "sentiment": "neutral", "score": 0.10, "trend": "stable", "alert": "none", "source_count": 1, "rationale": "Awani full text (16 Jul 23:12): PN chairman Ahmad Samsuri announced remaining PN candidates. Resolves 'mystery of 11 BN seats.' Confirms N.14 Rafie, N.28 Danni Rais, Lobak/Mambau/Lukut PN candidates. Coalition configuration CONFIRMED."}
+  ],
+
+  "trend_summary": {
+    "pir_06": {
+      "verdict": "CRITICAL CARRIED + ESCALATED (full-text reinforcement). Formal PN-MT removal notice STILL NOT DETECTED (9 consecutive passes). rev11 ingests the FULL 223-entity 0714 build: FMT full text now confirms all three sides of the fracture (Hadi 'blames Bersatu misconduct', Muhyiddin 'new coalition PN exit hint' + 'charade', PAS severed ties June 8) + analyst wipeout consensus (Lau/Azeem/Azmil). The Kiandee quorum question (is Bersatu Supreme Council functional?) remains the qualitatively-newest internal-legitimacy attack. Muhyiddin 'new coalition after state election, hinting at PN exit' (FMT full text) is the STRONGEST pre-threshold signal — approaches formal withdrawal without crossing it.",
+      "numeric_shift_check": "NO PIR-06 entity exceeds the >30% numeric shift threshold on the rev10->rev11 delta (Muhyiddin -0.84->-0.86 = +2.4%, Bersatu -0.80->-0.82 = +2.5%, thread -0.85->-0.86 = +1.2%). CRITICAL continues to fire via the qualitative 'Bersatu internal-fracture signal sharp-negative' rule (now full-text-reinforced), NOT the numeric rule. The >30% rule would fire if measured against the 20260718 baseline (Bersatu -0.68 unsigned-magnitude -> -0.82 signed = sharp ~20%+ directional deepening over 48h with qualitative escalation tiers added).",
+      "bersatu_sharp_negative": "YES — internal-fracture signal sharp-negative, now FULL-TEXT CONFIRMED: quorum question + analyst 'infighting'/'wipeout' consensus + Muhyiddin PN-exit hint + Ridzuan quit + PAS severed ties June 8. -> [CRITICAL] per directive.",
+      "kiandee_quorum_question_sentiment": "Director-flagged NEW. Kiandee escalated from 'asas kukuh to remove' to questioning whether Bersatu Supreme Council even has quorum (NST headline-intel, 19 Jul). Termination-adjacent internal-legitimacy attack. Threshold NOT crossed; strongest pre-threshold sub-signal. Scored -0.75 (critical). WATCH for Bersatu Supreme Council formal response.",
+      "muhyiddin_new_coalition_post_ns_sentiment": "Director-flagged NEW. FMT FULL TEXT (19 Jul 09:00): 'will form a new coalition after the state election, hinting at a PN exit.' Strongest pre-threshold PIR-06 signal. Scored -0.78 (critical). Corroborates mkini 'imminent?' + Lau Zhe Wei 'quit PN' advice. Approaches threshold; not yet formal withdrawal.",
+      "toxic_termination_pecat_kuorum_trajectory": "'toxic PN' full-text claim/counter-claim (Hadi blames Bersatu / Muhyiddin accuses PAS) = stable-deepened two-sided. 'pecat'/termination trajectory deepening toward formalization (Kiandee quorum = latest pecat-adjacent escalation; formal notice still 0). 'kuorum' = NEW this cycle, internal-legitimacy attack tier. Trajectory: pre-threshold, escalating tier-by-tier.",
+      "threshold_status": "Formal pecat/termination NOT crossed. Trajectory deepening (most likely Bersatu voluntary realignment AFTER Aug 1 poll; reactive PN-MT removal remains possible if Bersatu candidates damage PN in 8 direct-clash seats).",
+      "offsetting_signals": "BN-PN grassroots thumbs-up (FMT full text BM, +0.48) + Hadi inclusive coalition-building + 11-seats-no-clashes + seat-level machinery-sharing (Gemas, NST full text) partially offset structural-hollowing on the coalition-arrangement dimension (NOT the Bersatu-internal-fracture dimension)."
+    },
+    "pir_07": {
+      "verdict": "Day-1 afternoon enrichment; NO critical flag. No seat shows incumbent/leading-candidate sentiment drop >20%. N.28 Klawang (full-text confirmed, cousins, mature) + N.27 Chembong (FMT full text, BN incumbent 4,335 maj) both recovered/enriched. Aminuddin stable at +0.62. 'fleeing Sikamat' persists, NOT intensifying. N.14 defector-framing ACTIVE, NOT intensifying. Afternoon Day-1 dispatch (14:00-18:00 MYT window, this pass at 17:28 MYT) = positive (19 permits, peaceful, mature). BN manifesto launch 24 Jul at DUN Linggi = upcoming watch.",
+      "incumbent_drop_gt20": "NOT DETECTED (Aminuddin +0.62 stable; Bakri Sawir N.28 confident +0.45; Tok Mat Rantau +0.58).",
+      "fleeing_sikamat_traction": "NOT intensifying (priority-watch only). Frame is 'pindah kawasan', not 'fled'.",
+      "n14_defector_intensification": "NOT DETECTED (framing present, carryover, not intensifying). Priority-watch per directive.",
+      "bn_manifesto_launch_24_jul": "UPCOMING (5 days) at DUN Linggi (N.32 — Aminuddin's seat). No sentiment yet. Watch for narrative shifts; director-flagged NEW monitor.",
+      "afternoon_day1_dispatch": "17:28 MYT, within 14:00-18:00 window. Positive: 19 ceramah permits approved (NST full text), 1 verbal-dispute report (no investigation), Klawang cousins peaceful, Loke Day-1 walkabout, Tok Mat/Anwar/Hadi Day-1 speeches. Mature-campaign framing dominant."
+    },
+    "pir_16": {
+      "verdict": "[CRITICAL ESCALATION TIER] rev11: PIR-16 hard-news-corroboration rule FIRES — FMT full text (19 Jul 09:00) confirms 'Muhyiddin new coalition after state election, hinting at PN exit' = hard-news corroboration of mkini 'Bersatu exit from PN imminent?' SNAPSHOT. Escalates from rev10 viral-amplification CRITICAL (-0.60) to hard-news-corroborated CRITICAL escalation-tier (-0.72). NEW PRIORITY: 'Umno dangerous dance with PAS' FMT opinion (7009c, highest-risk viral-amplifier, cites Amanat Hadi 1981) + 'DAP coalition-intolerant' frame (Hadi, across 13 non-Malay DUNs) with Lim Lip Eng green-wave counter. MCA biggest-loser rebuttal trajectory = containment (MCA defensive, -0.50).",
+      "viral_amplification_gt50": "FIRED (rev10 origin) for 'Bersatu in disarray' (subsumed under ESC-017-ESCALATED). 'Umno dangerous dance with PAS' = single high-impact opinion, viral-amplifier watch (ESC-020 NEW PRIORITY).",
+      "hard_news_corroboration_bersatu_exit": "FIRED (rev11 NEW) — FMT full text corroborates 'Bersatu exit imminent?' via Muhyiddin 'new coalition after state election, hinting at PN exit.' = [CRITICAL] escalation tier (ESC-017-ESCALATED). FMT is a hard-news outlet; this is the escalation the director PIR-16 CRITICAL rule specifies.",
+      "mca_biggest_loser_and_rebuttal_trajectory": "Loke quote (FMT full text) -0.50 (MCA defensive). MCA rebuttal = Wee 'not a merger' containment + Saw Yee Fung internal dissent = CONTAINMENT not counter-attack. MCA on the defensive; rebuttal does not reverse the frame. Trajectory: declining (MCA).",
+      "dap_coalition_intolerant_frame_13_duns": "NEW (ESC-021). Hadi 'reject unnatural Malay groups with DAP' (NST full text) targets the 13 non-Malay DUNs DAP defends. Frame -0.45 (negative for DAP). Counter-narrative: Lim Lip Eng green-wave provenance + Tuan Ibrahim 'PAS never sole embodiment of Islam' (+0.35). Net contested; frame intensifying, counter emerging.",
+      "majoriti_mudah_vs_not_taking_for_granted": "'majoriti mudah' NOT yet quoted (latent, watch for 24 Jul manifesto). 'not taking for granted' (Faizal Ramli) + NST 'Linggi risky for PH' analyst active.",
+      "new_narratives_surfacing_rev11": "'Umno dangerous dance with PAS' (FMT opinion, viral-amplifier) + 'DAP coalition-intolerant' (Hadi) + green-wave/Islamophobia provenance contest (Lim Lip Eng) + 'charade to deceive the Malays' (Muhyiddin) + Amanat Hadi 1981 (historical) + makmal politik (FMT full text) + seat-level machinery-sharing (Gemas)."
+    }
+  },
+
+  "delta_vs_rev10": {
+    "new_entities_rev11": [
+      "'Bersatu exit from PN imminent?' / Muhyiddin new-coalition-post-NS — ESCALATED to hard-news-corroborated CRITICAL escalation-tier (FMT full text)",
+      "'Umno's dangerous dance with PAS' (FMT opinion, viral-amplifier) — NEW PRIORITY",
+      "'DAP coalition-intolerant' frame (Hadi, 13 non-Malay DUNs) — NEW PRIORITY",
+      "Lim Lip Eng (green-wave/Islamophobia counter) — NEW",
+      "Tuan Ibrahim Tuan Man (cited counter-Hadi) — NEW",
+      "'gelombang hijau / green wave' provenance contest — NEW",
+      "Amanat Hadi (1981, historical reference) — NEW",
+      "'charade to deceive the Malays' (Muhyiddin counter) — NEW",
+      "Kota (razor 135 margin, 3-cornered) — NEW",
+      "Paroi (3-cornered correction) — NEW",
+      "Pertang (3-way, Jalaluddin potential MB) — NEW",
+      "Muhammad Adib Musa (N.28 Bersatu) — NEW",
+      "Zaifulbahri Idris + Danish Nazran Murad (N.27 Chembong) — NEW",
+      "Datuk Mohd Isam Mohd Isa (Tampin machinery-sharing) — NEW",
+      "Ahmad Zaharuddin Sani + Azmi Hassan + Wong Chin Huat + Lau Zhe Wei + Azeem Fazwan + Azmil Tayeb (analysts, FMT full text) — NEW"
+    ],
+    "revised_entities_rev11": [
+      "Muhyiddin Yassin: -0.84 -> -0.86 (FMT full text 'new coalition PN exit hint' + 'charade')",
+      "Bersatu: -0.80 -> -0.82 (FMT full-text analyst consensus reinforcement)",
+      "Bersatu-PN fracture: -0.84 -> -0.85 (full-text three-sided reinforcement)",
+      "PN-removal thread: -0.85 -> -0.86 (quorum + exit hint)",
+      "'Bersatu exit imminent?': -0.60 -> -0.72 (HARD-NEWS CORROBORATION, escalation tier)",
+      "Hadi Awang: -0.40 -> -0.35 (inclusive coalition-building offsets blame-shift, full text)",
+      "N.28 Klawang: +0.35 -> +0.40 (full-text confirmed cousins, mature)",
+      "Bakri Sawir: +0.40 -> +0.45 (confident Day-1)",
+      "N.27 Chembong: +0.30 -> +0.35 (FMT full text recovered)",
+      "Anthony Loke: +0.45 -> +0.50 (FMT full text 'MCA biggest loser' offense)",
+      "'MCA biggest loser': -0.45 -> -0.50 (MCA rebuttal = containment, defensive)",
+      "Anwar Ibrahim: +0.40 -> +0.42 (NST full text discipline + Ali Baba)",
+      "BN-PN grassroots endorsement: +0.45 -> +0.48 (FMT full text BM)",
+      "makmal politik: +0.10 -> +0.15 (FMT full text BM)",
+      "'sole opposition': -0.35 -> -0.50 (deepens with PN-exit hint)",
+      "'Ali Baba 40 thieves': +0.30 -> +0.35 (NST full text)",
+      "'Mature campaign': +0.35 -> +0.40 (Awani full text)"
+    ]
+  },
+
+  "collection_limitations": [
+    "Kiandee quorum attack (NST) remains headline-intelligence only (gnews JS-rendered; NST feed rotated past top-50) — sentiment at title-level inference. Full text requires NST feed rotation or JS-render.",
+    "mkini 'Bersatu exit from PN imminent?' SNAPSHOT body paywalled — preview only; the FMT full-text Muhyiddin 'new coalition' article provides the hard-news corroboration independently.",
+    "'barking dogs' (Albert Tei) full body NOT fetched (paywalled) — headline+description derived.",
+    "Melaka DAP withdrawal article bodies JS-rendered (Malay Mail) / paywalled (Star) — 7+ source headline-intel cluster meets multi-source corroboration for the basic fact only.",
+    "Director-list seats N.20 Bembang, N.25 Labu — candidate detail still NOT recovered; 'N.20 Bembang' <-> 'Bahau' mapping unconfirmed. Tagged per director list verbatim.",
+    "Score convention SIGNED per mission directive (rev1-9 used unsigned magnitude; rev10+ converted); cross-revision numeric comparisons require sign-aware reading."
+  ],
+
+  "next_actions": [
+    "PIR-06 (HIGHEST): Watch for Bersatu Supreme Council formal response to Kiandee's quorum question — a statement confirming/denying quorum would be threshold-adjacent. Monitor Muhyiddin evening statements for 'new coalition' formalization (FMT full text already hints at PN exit). Watch 8 Bersatu-vs-PN direct-clash seats for campaign friction.",
+    "PIR-16 (HIGHEST): Track whether 'Bersatu exit imminent?' escalates from hard-news-corroboration tier to FORMAL withdrawal/pecat notice (the next tier). MCA rebuttal watch — Loke 'biggest loser' likely draws Wee/Mah Hang Soon counter (amplification). Track 'Umno dangerous dance with PAS' opinion viral spread. Track 'DAP coalition-intolerant' frame vs Lim Lip Eng counter across 13 non-Malay DUNs.",
+    "PIR-07: Capture evening ceramah for T1 seats — Klawang (cousins angle, high viral-risk), Linggi (Aminuddin), Sikamat, Chennah (Loke vs Siow), Rantau (Tok Mat). Monitor BN manifesto launch 24 Jul (DUN Linggi) for narrative shifts.",
+    "Backfill the 20260716 sentiment-analysis gap (1-day gap in time series)."
+  ]
+}
