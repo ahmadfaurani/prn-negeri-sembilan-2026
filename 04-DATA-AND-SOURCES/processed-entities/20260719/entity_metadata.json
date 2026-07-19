@@ -1,0 +1,210 @@
+{
+  "date": "20260719",
+  "last_updated_utc": "2026-07-19T02:14:04+00:00",
+  "last_updated_myt": "2026-07-19T10:14:04+08:00",
+  "classification": "TLP:AMBER",
+  "extractor": "prn_ns_entity_extraction_agent (scheduled cron)",
+  "latest_entities_file": "entities_021231.json",
+  "prior_entities_file": "entities_233104.json",
+  "director_priority_approved": "2026-07-18 15:00 MYT",
+  "cycle": "nomination-day-surge + Day-2 morning enrichment (011915: 3 brand-new fulltext priority articles 08:28-09:18 MYT 19 Jul — Kosmo PIR-06, Utusan PIR-07 DAP-direction rencana, Utusan PIR-07 Felda; 103-candidate roster UNCHANGED; PIR-06 threshold still NOT crossed)",
+  "source_count_total": 89,
+  "build_character": "ENRICHMENT / CORROBORATION BUILD — 3 new fulltext articles; 3 new peripheral figures (Ahmad Badri, Shabery, Tunku Nadzaruddin); 1 new NS org (Balai Undang Luak Sungai Ujong); 2 new non-contesting party refs (Bersama, Urimai); NS adat/istana crisis surfaces as PRN campaign issue (Aminuddin seat-move + Loke dana controversy); Melaka PH-BN fracture; Tamim red-notice escalation; Leevineshwaraan full name; PIR-06 strongest operational-split confirmation ('keluar konsensus PN negeri'); 103-candidate roster UNCHANGED; CRITICAL PIR-06 threshold still NOT crossed.",
+  "delta_vs_prior_build": {
+    "prior_build": "entities_233104.json",
+    "this_build": "entities_021231.json",
+    "cycles_ingested": [
+      "011915"
+    ],
+    "genuinely_new_entities": 7,
+    "enriched_existing_entities": 6,
+    "corroborating_reconfirmations": 12,
+    "verification": "collection_metadata.json (011915) + this agent's reconciliation of 3 priority fulltext articles + gnews headlines vs entities_233104 baseline (231029 cycle)."
+  },
+  "counts": {
+    "seats_parsed": 36,
+    "candidate_persons_unique": 103,
+    "national_figures_and_pir_actors": 18,
+    "pir06_watch_figures": 4,
+    "parties": 17,
+    "coalitions": 5,
+    "organizations": 22,
+    "constituencies": 36,
+    "events": 41,
+    "issues_and_signals": 49,
+    "locations": 53,
+    "pir06_tier4_seats": 8,
+    "pir07_watch_seats": 9,
+    "pir09_bersatu_candidates": 24,
+    "pir09_independents": 4,
+    "peripheral_referenced_figures": 2,
+    "confirmation_passes_since_170837": 0,
+    "pir07_battleground_seats_tagged": 11,
+    "genuinely_new_entities_this_build": 7,
+    "enriched_existing_entities_this_build": 6,
+    "new_named_figures": [
+      "Tan Sri Ahmad Badri Mohd. Zahir",
+      "Datuk Seri Ahmad Shabery Cheek",
+      "Tunku Nadzaruddin"
+    ],
+    "confirmed_full_names": [
+      "Leevineshwaraan Murugan (Bersatu N33, age 23)"
+    ],
+    "new_organizations": [
+      "Balai Undang Luak Sungai Ujong",
+      "Felda (campaign-adjacent)"
+    ],
+    "new_parties_referenced": [
+      "Bersama (sat out NS)",
+      "Urimai (filed MACC report, not contesting)"
+    ],
+    "new_events_this_build": 11,
+    "new_issues_this_build": 12,
+    "candidate_roster_changed": false,
+    "pir06_threshold_crossed": false
+  },
+  "pir_priority_tags": {
+    "PIR-06": {
+      "title": "PN-Removal-of-Bersatu Watch (HIGHEST)",
+      "status": "ESCALATED WATCH — UNCHANGED this cycle (011915). NO formal PN-MT removal notice. TWO-SIDED trajectory still ACTIVE. 011915 added STRONGEST operational-split confirmation to date: Kosmo fulltext states Bersatu 'keluar daripada konsensus PN negeri', 24 own-logo seats, 'memecah undi di kawasan-kawasan kritikal'. BN-PN pact components explicitly PAS/Gerakan/Wawasan/MIPP (BN25+PN11). Still NOT a formal MT removal notice. Trajectory unchanged: Bersatu voluntary realignment/exit AFTER Aug 1 poll most likely; reactive PN-MT removal remains possible if Bersatu candidates damage PN partners in Tier-4 seats.",
+      "formal_removal_notice_detected": false,
+      "escalation_detected": true,
+      "this_cycle_new_pir06_content": true,
+      "new_this_cycle": [
+        "Kosmo fulltext (09:05 MYT 19 Jul): Bersatu 'keluar daripada konsensus PN negeri' + 24 own-logo seats + 'memecah undi di kawasan-kawasan kritikal' — strongest operational-split confirmation (corroborative, NOT a removal notice)",
+        "Kosmo: BN-PN pact components explicitly PAS/Gerakan/Wawasan/MIPP; BN25+PN11 to avoid friendly fights & maximise Malay vote",
+        "NST WP-API probes (2x) returned HTTP 404 — no usable text; no escalation there"
+      ],
+      "tier4_seats": [
+        "N04",
+        "N05",
+        "N13",
+        "N14",
+        "N23",
+        "N25",
+        "N31",
+        "N34"
+      ],
+      "key_entities": [
+        "Tan Sri Muhyiddin Yassin",
+        "Datuk Seri Dr. Ronald Kiandee",
+        "Datuk Seri Hamzah Zainudin",
+        "Majlis Tertinggi PN",
+        "Bersatu",
+        "PN",
+        "PAS",
+        "Gerakan",
+        "Wawasan",
+        "MIPP",
+        "Datuk Seri Dr. Ahmad Samsuri Mokhtar"
+      ]
+    },
+    "PIR-09": {
+      "title": "Candidate Credibility (SECOND)",
+      "status": "ACTIVE. 103-candidate roster UNCHANGED (no new candidates, no withdrawals, no Tier-4 withdrawals). New headline-level legal-status development: red notice applied for Tamim Dahri (Anwar statement, mkini gnews) — escalation beyond baseline surrender+remand. N.14 Ampangan Day-1 messaging war unchanged. No new Bersatu-candidate bankruptcy/court-eligibility findings this cycle.",
+      "bersatu_candidate_seats": [
+        "N02",
+        "N03",
+        "N04",
+        "N05",
+        "N06",
+        "N07",
+        "N09",
+        "N10",
+        "N12",
+        "N13",
+        "N14",
+        "N15",
+        "N16",
+        "N17",
+        "N20",
+        "N22",
+        "N23",
+        "N24",
+        "N25",
+        "N28",
+        "N31",
+        "N32",
+        "N33",
+        "N34"
+      ],
+      "independents": [
+        "Omar Mohd Isa",
+        "Teo Seng Lee",
+        "Datuk A Saravanan",
+        "Islah Wahyudi Zainudin"
+      ],
+      "key_entities": [
+        "Tang Jay Son",
+        "Wong Chia Zhen",
+        "Bujang Abu",
+        "Datuk Dr Mohamad Rafie Ab Malek",
+        "Omar Mohd Isa",
+        "Teo Seng Lee",
+        "Datuk A Saravanan",
+        "Islah Wahyudi Zainudin",
+        "Gerakan",
+        "Bersatu",
+        "Albert Tei",
+        "Saw Yee Fung",
+        "Chong Sin Woon",
+        "Tamim Dahri Abd Razak",
+        "Datuk Alzafny Ahmad",
+        "Datuk Dr Wee Ka Siong",
+        "Leevineshwaraan Murugan (full name confirmed 011915)"
+      ],
+      "new_this_cycle": [
+        "Red notice applied for Tamim Dahri (Anwar statement, mkini gnews) — escalation of independent-candidate legal status",
+        "Anwar: 'Don't campaign on NS ruler crisis' (mkini gnews) — links Tamim legal status to adat/royal crisis",
+        "Leevineshwaraan Murugan full name confirmed (Bersatu N33, age 23, youngest) — Kosmo fulltext"
+      ]
+    },
+    "PIR-07": {
+      "title": "Battleground Assessment (THIRD)",
+      "status": "ENRICHED. 011915 added the NS adat/istana crisis as an explicit PRN campaign issue (Utusan rencana fulltext) — Aminuddin seat-move linked to adat crisis; Loke 'penyaluran dana' controversy with Balai Undang Luak Sungai Ujong; Melaka PH-BN fracture (4 DAP+1 Amanah ADUN withdrew) blows to Kerajaan Perpaduan narrative; Loke leadership-referendum framing; 41 kampung baru Cina / 13 DUN non-Malay-majority / UEC; MCA 4->8 Johor pressure. 5 hot seats & 7 Bersatu-vs-PN clash seats UNCHANGED.",
+      "watch_seats": [
+        "N04",
+        "N05",
+        "N10",
+        "N13",
+        "N14",
+        "N15",
+        "N28",
+        "N32",
+        "N33"
+      ],
+      "key_entities": [
+        "Datuk Seri Anwar Ibrahim",
+        "Datuk Seri Dr. Ahmad Zahid Hamidi",
+        "Datuk Seri Johari Abdul Ghani",
+        "Datuk Seri Jalaluddin Alias",
+        "Datuk Seri Aminuddin Harun",
+        "Anthony Loke Siew Fook",
+        "Datuk Seri Mohamad Hasan",
+        "Tan Sri Annuar Musa",
+        "Datuk Dr Wee Ka Siong",
+        "Datuk Seri Ramlan Harun",
+        "Datuk Dr Asyraf Wajdi Dusuki",
+        "Datuk Alzafny Ahmad",
+        "Balai Undang Luak Sungai Ujong (NEW org)",
+        "Tunku Nadzaruddin (NEW royal figure)",
+        "Tan Sri Ahmad Badri Mohd. Zahir (peripheral)",
+        "Datuk Seri Ahmad Shabery Cheek (peripheral)"
+      ],
+      "new_this_cycle": [
+        "NS adat/istana crisis surfaces as PRN campaign issue (Utusan rencana 09:18 MYT 19 Jul) — Aminuddin criticised; seat-move linked to adat crisis",
+        "Loke 'penyaluran dana' + Balai Undang Luak Sungai Ujong controversy — Loke denies DAP interfering in adat/royal institution",
+        "Melaka PH-BN fracture (4 DAP+1 Amanah ADUN withdrew support) — blow to Kerajaan Perpaduan narrative",
+        "Loke leadership-referendum framing; DAP defending all 11 seats (PRU-14 2018 & PRN 2023)",
+        "41 kampung baru Cina / 13 DUN non-Malay majority; UEC recognition active issue; MCA 4->8 Johor",
+        "Peripheral: Ahmad Badri Mohd. Zahir new Felda Chairman (campaign-adjacent)"
+      ]
+    }
+  },
+  "seat_pir_tag_map": [],
+  "files_in_folder": [
+    "entities_021231.json (THIS run — Day-2 morning ENRICHMENT build; 011915 cycle: 3 new fulltext articles; adat/istana crisis + Melaka fracture + Tamim red notice + Ahmad Badri/Shabery/Tunku Nadzaruddin + Balai Undang Luak Sungai Ujong; 103-candidate roster unchanged; PIR-06 threshold still NOT crossed)",
+    "entities_233104.json (prior run — 231029 cycle Day-2 dawn enrichment; 20260718 folder)"
+  ],
+  "total_entities": 351
+}

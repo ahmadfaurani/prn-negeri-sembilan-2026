@@ -1,0 +1,52 @@
+[
+  {
+    "pir": "PIR-07",
+    "slug": "prn-ns-penentu-hala-tuju-dap-utusan",
+    "file": "priority_pir-07_prn-ns-penentu-hala-tuju-dap-utusan_20260719_011915.md",
+    "http": "200",
+    "ok": true,
+    "body_len": 6227,
+    "title": "PRN Negeri Sembilan penentu hala tuju DAP",
+    "final": "https://www.utusan.com.my/rencana/2026/07/prn-negeri-sembilan-penentu-hala-tuju-dap/"
+  },
+  {
+    "pir": "PIR-06",
+    "slug": "percaturan-bn-ph-bersatu-kosmo",
+    "file": "priority_pir-06_percaturan-bn-ph-bersatu-kosmo_20260719_011915.md",
+    "http": "200",
+    "ok": true,
+    "body_len": 3640,
+    "title": "Percaturan BN-PH-Bersatu",
+    "final": "https://www.kosmo.com.my/2026/07/19/percaturan-bn-ph-bersatu/"
+  },
+  {
+    "pir": "PIR-07",
+    "slug": "felda-martabat-peneroka-anwar-utusan",
+    "file": "priority_pir-07_felda-martabat-peneroka-anwar-utusan_20260719_011915.md",
+    "http": "200",
+    "ok": true,
+    "body_len": 2217,
+    "title": "Felda mesti terus angkat martabat peneroka - Anwar",
+    "final": "https://www.utusan.com.my/nasional/2026/07/felda-mesti-terus-angkat-martabat-peneroka-anwar/"
+  },
+  {
+    "pir": "PIR-06",
+    "slug": "bersatu-crossroads-nst-retry",
+    "file": "priority_pir-06_bersatu-crossroads-nst-retry_20260719_011915.md",
+    "http": "404",
+    "ok": false,
+    "body_len": 0,
+    "mode": "wpapi",
+    "final": "https://www.nst.com.my/wp-json/wp/v2/posts?search=bersatu+crossroads&per_page=5"
+  },
+  {
+    "pir": "PIR-06",
+    "slug": "nst-ns-recent-wpapi",
+    "file": "priority_pir-06_nst-ns-recent-wpapi_20260719_011915.md",
+    "http": "404",
+    "ok": false,
+    "body_len": 0,
+    "mode": "wpapi",
+    "final": "https://www.nst.com.my/wp-json/wp/v2/posts?search=negeri+sembilan+bersatu&per_page=10"
+  }
+]
