@@ -1,0 +1,2471 @@
+{
+  "metadata": {
+    "version": "revision-15",
+    "date": "2026-07-19",
+    "generated": "2026-07-20T05:50:00+08:00",
+    "generated_utc": "2026-07-19T21:50:00Z",
+    "tlp": "AMBER",
+    "mission": "PRN Negeri Sembilan 2026 Sentiment Analysis",
+    "agent": "PRN NS 2026 Sentiment Analysis Agent (cron)",
+    "entity_build": "processed-entities/2026-07-19/entities-20260719-1954.json (228 entities, 13 cycles, 14 critical/105 priority/109 normal). Finalized 01:54 MYT 20 Jul. Supersedes the 226-entity 1725 build used by rev14 (finalized 01:24 MYT 20 Jul). +2 new entities + 7 context updates from the 182000 cycle (Day-2 dawn, post-midnight MYT). CYCLE CLASSIFICATION: QUIET corroboration window — 5 files fetched, 1 genuinely fresh (BH BM Khaled 'PM hak mutlak' 23:45); all 8 mandatory PIR-06 [CRITICAL]-watch gnews queries returned 0. NEW ENTITIES: (1) 'PM discretion on minister appointments (hak mutlak PM)' PIR-06 [PRIORITY] — Khaled BN counter-line to resign-narrative, 4-outlet (Awani BM + NST EN + BH BM + FMT BM); (2) 'bipartisan clean-campaign convergence (state-development focus)' PIR-16 [PRIORITY] — Loke(PH)+Anwar(PM)+Khaled(BN)+Zahid(BN) cross-partisan convergence. No new [CRITICAL] threshold crossed (13th consecutive cycle).",
+    "prior_revision_file": "sentiment-analysis/2026-07-19/sentiment-20260720-0130.json",
+    "prior_revision": "revision-14 (2026-07-20T01:30:00+08:00, 235 entities, 13 critical/48 priority), built on the 226-entity 1725 build",
+    "score_convention": "SIGNED (-1.0 to +1.0). Negative = -1.0 to < -0.20; Neutral = -0.20 to +0.20 (marginal/mixed band); Positive = > +0.20 to +1.0.",
+    "pir_weights": "PIR-06=2.0, PIR-16=1.8, PIR-07=1.3, non-priority=1.0",
+    "critical_threshold": "Sharp sentiment shift >30% change for any PIR-06 entity; Bersatu sharp-negative internal-fracture signal = [CRITICAL]. PIR-16 CRITICAL if hard-news corroborates 'Bersatu exit imminent?' OR Bersatu-attributed 'sasar bentuk kerajaan negeri'.",
+    "election_context": "PRN Negeri Sembilan 2026 - Campaign Day 2 (Nomination 18 Jul; Day-1 19 Jul; Day-2 20 Jul). Polling 1 Aug; early voting 28 Jul; BN manifesto launch 24 Jul (DUN Linggi + Pertang); PH manifesto launch 20 Jul (Amirudin Shari, Klana Resort). Electorate 889,490 (103 candidates, 36 seats; simple-majority threshold 19).",
+    "director_cycle": "19 Jul 17:25 MYT (4th carry-forward)",
+    "entity_count": 237,
+    "critical_count": 13,
+    "priority_count": 51,
+    "none_count": 173
+  },
+  "entities": [
+    {
+      "entity": "Muhyiddin Yassin",
+      "pir_tag": "PIR-06",
+      "sentiment": "negative",
+      "score": -0.92,
+      "trend": "declining",
+      "alert": "critical",
+      "source_count": 11,
+      "rationale": "rev13 -0.90 -> rev14 -0.92. SIXTH converging [CRITICAL] trigger: Khaled Nordin (Umno VP/Defence Minister) 4-publisher 'Pastikan Bersatu KO habis-habis' + 'kacau daun' (NST+BH+Metro+FMT 23:49-00:16 MYT) — FIRST BN-VP-level hard-news call for Bersatu's ELECTORAL ELIMINATION. Plus 153300 'Bersatu now sole opposition party' (The Vibes 18 Jul) self-positioning. Now 6 triggers: lebih-hebat, sasar-kerajaan solo 24-seat, PN-toksik, quorum+RoS, Hamzah rebuke, Khaled elimination call. Bersatu sharp-negative internal-fracture signal CONFIRMED -> [CRITICAL]."
+    },
+    {
+      "entity": "Bersatu",
+      "pir_tag": "PIR-06",
+      "sentiment": "negative",
+      "score": -0.88,
+      "trend": "declining",
+      "alert": "critical",
+      "source_count": 12,
+      "rationale": "rev13 -0.86 -> rev14 -0.88. SEVENTH trigger: Khaled 'KO habis' + 'kacau daun' hard-news 4-publisher. 24 own-logo seats + lebih-hebat + sasar-kerajaan + PN-toksik + quorum + Hamzah rebuke + Khaled elimination. Bersatu sharp-negative internal-fracture signal CONFIRMED -> [CRITICAL]."
+    },
+    {
+      "entity": "Bersatu-PN fracture (3-sided)",
+      "pir_tag": "PIR-06",
+      "sentiment": "negative",
+      "score": -0.89,
+      "trend": "declining",
+      "alert": "critical",
+      "source_count": 9,
+      "rationale": "rev13 -0.88 -> rev14 -0.89. Khaled (BN VP) elimination call adds a BN-voice to the 3-sided fracture (Bersatu vs PAS/Wawasan vs PN-MT, now + BN-VP anti-Bersatu). Intra-opposition + intra-coalition warfare."
+    },
+    {
+      "entity": "PN-removal-of-Bersatu thread",
+      "pir_tag": "PIR-06",
+      "sentiment": "negative",
+      "score": -0.9,
+      "trend": "declining",
+      "alert": "critical",
+      "source_count": 8,
+      "rationale": "rev13 -0.89 -> rev14 -0.90. Khaled 'KO habis' electoral-elimination rhetoric pushes toward removal trajectory (BN-VP voice). Formal PN-MT expulsion notice STILL NOT issued (11th consecutive pass). Trajectory: pre-threshold; most likely Bersatu voluntary realignment AFTER 1 Aug poll."
+    },
+    {
+      "entity": "lebih hebat new coalition",
+      "pir_tag": "PIR-06",
+      "sentiment": "negative",
+      "score": -0.78,
+      "trend": "declining",
+      "alert": "critical",
+      "source_count": 6,
+      "rationale": "Carried rev13. Muhyiddin (Sinar 17 Jul + BH + Metro + MalaysiaGazette + Newswav + Buletin TV3): NEW 'lebih hebat' coalition after PRN NS. >50% viral amplification fires. No formal launch 18-19 Jul — remains hint/bayangan stage. PRU16 realignment vehicle."
+    },
+    {
+      "entity": "sasar bentuk kerajaan negeri (Bersatu solo governing bid)",
+      "pir_tag": "PIR-16",
+      "sentiment": "negative",
+      "score": -0.8,
+      "trend": "declining",
+      "alert": "critical",
+      "source_count": 2,
+      "rationale": "Carried rev13. MalaysiaGazette + Sinar (19 Jul 15:37-15:53): Bersatu sasar bentuk kerajaan negeri, tanding 24 kerusi (EXCEEDS simple-majority 19). Director rule: hard-news corroboration = [CRITICAL]. 171500 NOTE: Loke 'PH sasar 23 kerusi' is PH-attributed safe-majority (scored separately PRIORITY); the Bersatu-attributed 24-seat solo version remains the [CRITICAL] signal. DIRECTLY CONTRADICTS PN-MB-concedes-to-BN + joint-manifesto."
+    },
+    {
+      "entity": "toxic PN (Muhyiddin framing)",
+      "pir_tag": "PIR-06",
+      "sentiment": "negative",
+      "score": -0.78,
+      "trend": "declining",
+      "alert": "critical",
+      "source_count": 6,
+      "rationale": "Carried rev13. 171500 Metro BM full text corroborates Muhyiddin 'PN sudah jadi parti toksik' + Hamzah rebuttal. Multi-outlet hard-news. Director 'toxic PN' = [CRITICAL] rule. Intra-opposition warfare Wawasan(Hamzah) vs Bersatu(Muhyiddin)."
+    },
+    {
+      "entity": "kuorum (Bersatu MPT quorum dispute)",
+      "pir_tag": "PIR-06",
+      "sentiment": "negative",
+      "score": -0.65,
+      "trend": "declining",
+      "alert": "critical",
+      "source_count": 7,
+      "rationale": "Carried rev13. Kiandee (11 Jul) vs Radzi (11 Jul): disputed baseline 49 vs 23 MPT members, Clause 13.12. Sanjeevan frames 'alasan sekat Bersatu bertanding'. Dispute CONTESTED not resolved. Director-designated [CRITICAL]."
+    },
+    {
+      "entity": "RoS complaint disrupting PN seat negotiations",
+      "pir_tag": "PIR-06",
+      "sentiment": "negative",
+      "score": -0.62,
+      "trend": "declining",
+      "alert": "critical",
+      "source_count": 3,
+      "rationale": "Carried rev13. Tun Faisal (Bersatu info chief, Sikamat candidate) confirms RoS complaint disrupted PN seat negotiations (Sinar 15 Jul). Kiandee warns 'administrative limbo'. RoS-intervention-adjacent [CRITICAL] sub-threshold; NOT full RoS action."
+    },
+    {
+      "entity": "Bersatu Supreme Leadership (MPT)",
+      "pir_tag": "PIR-06",
+      "sentiment": "negative",
+      "score": -0.72,
+      "trend": "declining",
+      "alert": "critical",
+      "source_count": 5,
+      "rationale": "Carried rev13. Kiandee claims 27/49 MPT gone -> ~22 remain -> NO quorum. Radzi rebutted: 12/23 sufficient. Disputed baseline UNRESOLVED."
+    },
+    {
+      "entity": "PN Supreme Council (PN-MT)",
+      "pir_tag": "PIR-06",
+      "sentiment": "negative",
+      "score": -0.55,
+      "trend": "declining",
+      "alert": "critical",
+      "source_count": 3,
+      "rationale": "Carried rev13. Kiandee called PN-MT to convene re: Bersatu. Closest-to-formal-PN-action signal. No PN-MT expulsion notice 11 cycles."
+    },
+    {
+      "entity": "pecat Tang Jay Son (Gerakan)",
+      "pir_tag": "PIR-06",
+      "sentiment": "negative",
+      "score": -0.4,
+      "trend": "declining",
+      "alert": "critical",
+      "source_count": 2,
+      "rationale": "Carried rev13. Gerakan expelled Tang Jay Son secara serta-merta (Awani 18 Jul 20:22) for contesting on Bersatu ticket in Rahang. Director flag: any 'pecat' = [CRITICAL]-tier. Bersatu attracting Gerakan defectors -> intra-PN friction."
+    },
+    {
+      "entity": "Ronald Kiandee",
+      "pir_tag": "PIR-06",
+      "sentiment": "negative",
+      "score": -0.25,
+      "trend": "declining",
+      "alert": "critical",
+      "source_count": 3,
+      "rationale": "Carried rev13. Suspended Bersatu VP; cited Clause 13.12, 27/49 MPT gone. Confirmed 'former Bersatu VP' at NST merge-machinery event. Director-designated [CRITICAL] trigger."
+    },
+    {
+      "entity": "Perikatan Nasional (PN)",
+      "pir_tag": "PIR-06",
+      "sentiment": "neutral",
+      "score": 0.3,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 5,
+      "rationale": "Mixed: ops deepening (gabung+joint ma..."
+    },
+    {
+      "entity": "PAS",
+      "pir_tag": "PIR-06",
+      "sentiment": "negative",
+      "score": -0.22,
+      "trend": "improving",
+      "alert": "none",
+      "source_count": 5,
+      "rationale": "rev13 -0.25 -> rev14 -0.22 (improving..."
+    },
+    {
+      "entity": "Hadi Awang",
+      "pir_tag": "PIR-06",
+      "sentiment": "negative",
+      "score": -0.22,
+      "trend": "improving",
+      "alert": "none",
+      "source_count": 5,
+      "rationale": "rev13 -0.25 -> rev14 -0.22 (improving..."
+    },
+    {
+      "entity": "Barisan Nasional (BN)",
+      "pir_tag": "PIR-06",
+      "sentiment": "positive",
+      "score": 0.4,
+      "trend": "improving",
+      "alert": "none",
+      "source_count": 8,
+      "rationale": "rev13 +0.35 -> rev14 +0.40. Khaled 'g..."
+    },
+    {
+      "entity": "UMNO",
+      "pir_tag": "PIR-06",
+      "sentiment": "neutral",
+      "score": 0.18,
+      "trend": "declining",
+      "alert": "none",
+      "source_count": 6,
+      "rationale": "BN lead party; 25 NS seats; receives..."
+    },
+    {
+      "entity": "MCA",
+      "pir_tag": "PIR-16",
+      "sentiment": "negative",
+      "score": -0.48,
+      "trend": "declining",
+      "alert": "priority",
+      "source_count": 7,
+      "rationale": "rev13 -0.45 -> rev14 -0.48. TRIPLE pressure: Loke 'biggest loser' mockery (external) + Saw Yee Fung told to skip NS + Chong Sin Woon WhatsApp 'you don't need to come' (internal, viral 9,100 likes). Wee/Mah Hang Soon containment line. Defensive posture deepening."
+    },
+    {
+      "entity": "MIC",
+      "pir_tag": "PIR-06",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "BN component; Hadi-named non-extreme..."
+    },
+    {
+      "entity": "DHPP",
+      "pir_tag": "PIR-06",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "BN component; Hadi-named non-extreme..."
+    },
+    {
+      "entity": "MIPP (Malaysian Indian People's Party)",
+      "pir_tag": "PIR-06",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "PN component; contesting Lukut (one o..."
+    },
+    {
+      "entity": "Gerakan",
+      "pir_tag": "PIR-06",
+      "sentiment": "neutral",
+      "score": -0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 2,
+      "rationale": "PN component; expelled Tang Jay Son f..."
+    },
+    {
+      "entity": "Pejuang",
+      "pir_tag": "PIR-06",
+      "sentiment": "neutral",
+      "score": -0.05,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Admitted into PN alongside Wawasan (F..."
+    },
+    {
+      "entity": "Wawasan (Parti Wawasan Negara)",
+      "pir_tag": "PIR-06",
+      "sentiment": "neutral",
+      "score": -0.15,
+      "trend": "stable",
+      "alert": "priority",
+      "source_count": 3,
+      "rationale": "Director-flagged. Hamzah's party; admitted to PN. VP Wan Saiful at joint-manifesto meeting. Ridzuan Ahmad = Gemas candidate. Component-party churn signal. Wawasan+PAS bloc visibly stabilizes PN vs Bersatu exit."
+    },
+    {
+      "entity": "Hamzah Zainudin",
+      "pir_tag": "PIR-06",
+      "sentiment": "neutral",
+      "score": -0.2,
+      "trend": "declining",
+      "alert": "priority",
+      "source_count": 4,
+      "rationale": "Carried rev13. Wawasan president (sacked Bersatu Feb 2026). PUBLICLY REBUKED Muhyiddin 'don't call PAS toxic, remember who helped you become PM' (FMT 19:46 4-outlet). Met PN candidates Razali+Dr Rafie. First leader-to-leader intra-opposition warfare signal."
+    },
+    {
+      "entity": "Annuar Musa",
+      "pir_tag": "PIR-06",
+      "sentiment": "negative",
+      "score": -0.35,
+      "trend": "declining",
+      "alert": "priority",
+      "source_count": 4,
+      "rationale": "PN info chief; confirmed BN-PN JOINT MANIFESTO (NST 20:31 + BH 19:58). 'Impossible for PN to fulfil Bersatu's NS demands'. Muhyiddin fires back at Annuar. Opinion-tier exit amplifier + joint-manifesto carrier."
+    },
+    {
+      "entity": "Ahmad Samsuri Mokhtar (Samsuri)",
+      "pir_tag": "PIR-06",
+      "sentiment": "neutral",
+      "score": 0.15,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 3,
+      "rationale": "PN chairman; approved PN-BN talks con..."
+    },
+    {
+      "entity": "Tun Faisal Ismail Aziz",
+      "pir_tag": "PIR-06",
+      "sentiment": "neutral",
+      "score": -0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 3,
+      "rationale": "N.13 Sikamat Bersatu candidate. Filed..."
+    },
+    {
+      "entity": "Radzi Jidin",
+      "pir_tag": "PIR-06",
+      "sentiment": "neutral",
+      "score": -0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 3,
+      "rationale": "Formal quorum rebuttal (FMT 11 Jul 17..."
+    },
+    {
+      "entity": "Ridzuan Ahmad",
+      "pir_tag": "PIR-06",
+      "sentiment": "neutral",
+      "score": 0.05,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 4,
+      "rationale": "Bersatu-quit figure; now Wawasan/Gema..."
+    },
+    {
+      "entity": "Ahmad Zahid Hamidi (Zahid)",
+      "pir_tag": "PIR-06",
+      "sentiment": "neutral",
+      "score": 0.22,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 4,
+      "rationale": "Awani: 'prestasi BN-PN penentu jajara... | rev15: referenced by Khaled re: 'kempen berhemah' (NST EN + BH BM + FMT BM); adds BN-president voice to the clean-campaign convergence. source_count 3->4; score +0.20->+0.22."
+    },
+    {
+      "entity": "Sufian Maradzi",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "BN Seri Menanti candidate; named by J..."
+    },
+    {
+      "entity": "Mohd Isam Mohd Isa",
+      "pir_tag": "PIR-06",
+      "sentiment": "positive",
+      "score": 0.35,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 2,
+      "rationale": "BH: all BN ops rooms in Gemas/Tampin..."
+    },
+    {
+      "entity": "Abu Bakar Hamzah",
+      "pir_tag": "PIR-06",
+      "sentiment": "neutral",
+      "score": -0.2,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Bersatu Perlis chief / former MB Perl..."
+    },
+    {
+      "entity": "Marzuki",
+      "pir_tag": "PIR-06",
+      "sentiment": "neutral",
+      "score": 0.05,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "'Korum MPT Bersatu tidak perlu dijadi..."
+    },
+    {
+      "entity": "Wong Chia Zhen",
+      "pir_tag": "PIR-06",
+      "sentiment": "neutral",
+      "score": -0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Gerakan sec-gen; issued Tang Jay Son..."
+    },
+    {
+      "entity": "Takiyuddin Hassan",
+      "pir_tag": "PIR-06",
+      "sentiment": "neutral",
+      "score": 0.15,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 2,
+      "rationale": "PN secretary-general; present at gabu..."
+    },
+    {
+      "entity": "Muhammad Sanusi Md Nor",
+      "pir_tag": "PIR-06",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "PN election director (Kedah MB). 'Gel..."
+    },
+    {
+      "entity": "Bersatu goes solo under own logo (24 seats)",
+      "pir_tag": "PIR-06",
+      "sentiment": "negative",
+      "score": -0.62,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 7,
+      "rationale": "Full-text confirmed across FMT, NST,..."
+    },
+    {
+      "entity": "PAS severed political ties with Bersatu (June 8)",
+      "pir_tag": "PIR-06",
+      "sentiment": "negative",
+      "score": -0.4,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 3,
+      "rationale": "Operational fact. Both remain in PN;..."
+    },
+    {
+      "entity": "Bersatu advised to quit PN with Gerakan/MIPP",
+      "pir_tag": "PIR-06",
+      "sentiment": "negative",
+      "score": -0.55,
+      "trend": "declining",
+      "alert": "priority",
+      "source_count": 2,
+      "rationale": "Lau Zhe Wei (IIUM, FMT): Bersatu should quit PN + take Gerakan/MIPP. Corroborates Muhyiddin lebih-hebat hint."
+    },
+    {
+      "entity": "Bersatu heading for wipeout in NS (analyst consensus)",
+      "pir_tag": "PIR-16",
+      "sentiment": "negative",
+      "score": -0.72,
+      "trend": "declining",
+      "alert": "priority",
+      "source_count": 4,
+      "rationale": "rev13 -0.70 -> rev14 -0.72. Azeem Fazwan 'in no position to win seats going solo.' Azmil Tayeb 'all people see is infighting.' Wan Saiful 'kacau daun' + Khaled 'KO habis'. Reinforces exit trajectory."
+    },
+    {
+      "entity": "Selangor PAS Youth",
+      "pir_tag": "PIR-06",
+      "sentiment": "negative",
+      "score": -0.3,
+      "trend": "stable",
+      "alert": "priority",
+      "source_count": 1,
+      "rationale": "'Bersatu should leave PN' (FMT 11 Jun). Amplifier of Bersatu-exit narrative from PAS side."
+    },
+    {
+      "entity": "gabung jentera (machinery merger)",
+      "pir_tag": "PIR-06",
+      "sentiment": "positive",
+      "score": 0.48,
+      "trend": "improving",
+      "alert": "none",
+      "source_count": 4,
+      "rationale": "rev13 +0.45 -> rev14 +0.48. 171500 Me..."
+    },
+    {
+      "entity": "BN-PN joint manifesto (manifesto bersepadu)",
+      "pir_tag": "PIR-06",
+      "sentiment": "positive",
+      "score": 0.48,
+      "trend": "improving",
+      "alert": "none",
+      "source_count": 5,
+      "rationale": "rev13 +0.45 -> rev14 +0.48. 171500 Me..."
+    },
+    {
+      "entity": "Wawasan admitted to PN",
+      "pir_tag": "PIR-06",
+      "sentiment": "neutral",
+      "score": -0.15,
+      "trend": "stable",
+      "alert": "priority",
+      "source_count": 3,
+      "rationale": "Director-flagged. FMT 22 Jun: Hamzah's Wawasan + Pejuang admitted into PN. Coalition structure: PN = PAS+Gerakan+MIPP+Wawasan; Bersatu SOLO (24 seats). Resolves 'mystery of 11 PN seats' (Ridzuan=Wawasan in Gemas)."
+    },
+    {
+      "entity": "PDM Klawang shutdown/reopen",
+      "pir_tag": "PIR-06",
+      "sentiment": "negative",
+      "score": -0.22,
+      "trend": "declining",
+      "alert": "priority",
+      "source_count": 3,
+      "rationale": "rev13 -0.20 -> rev14 -0.22. FMT BM 19 Jul 15:33 (Jalaluddin) + FMT EN 17:02: BN PDM in Klawang (N.28) SHUT DOWN in protest over seat ceded to PN's Danni Rais. Jalaluddin expects reopen 1-2 days. Grassroots-level BN-PN friction. Monitor reopen."
+    },
+    {
+      "entity": "Mohamed Khaled Nordin",
+      "pir_tag": "PIR-06",
+      "sentiment": "negative",
+      "score": -0.31,
+      "trend": "declining",
+      "alert": "priority",
+      "source_count": 5,
+      "rationale": "NEW. Umno VP / Defence Minister / MP Kota Tinggi. 4-publisher (NST+BH+Metro+FMT, 23:49-00:16 MYT 19-20 Jul). Anti-Bersatu electoral-elimination: 'Pastikan Bersatu di NS KO habis-habis' / 'make sure Bersatu gets knocked out'. Frames Bersatu 'ditubuhkan nak ganti UMNO' + 'kacau daun'. Pro BN-PN: 'persefahaman BN-PN beri kelebihan vs Johor'; 'gelombang Melayu ke BN'. Dismisses AMK resign-call. Spoke at Johol BN machinery launch. Rhetorical escalation; NOT formal PN-MT action. [PRIORITY]. | rev15 (182000 quiet corroboration): 'PM hak mutlak / kalau orang dah tak suka' Johol framing now 4-outlet (Awani BM + NST EN + BH BM + FMT BM); source_count 4->5 (Awani added). Score -0.30 -> -0.31 (marginal deepening, no new hard-news escalation). [CRITICAL] count unchanged; rhetorical, NOT formal PN-MT action."
+    },
+    {
+      "entity": "Hassan Karim",
+      "pir_tag": "PIR-06",
+      "sentiment": "neutral",
+      "score": -0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "NEW. PKR MP Pasir Gudang. Intra-PH di..."
+    },
+    {
+      "entity": "Bersatu KO habis (electoral-elimination call)",
+      "pir_tag": "PIR-06",
+      "sentiment": "negative",
+      "score": -0.55,
+      "trend": "declining",
+      "alert": "priority",
+      "source_count": 4,
+      "rationale": "NEW. Khaled Nordin 4-publisher (NST+BH+Metro+FMT 23:49-00:16 MYT). 'Pastikan BERSATU di NS KO habis' — urges voters reject Bersatu so all 24 lose deposits, paving way for BN straight fights next PRU. Director PIR-06 keywords 'keluar/pecat/tarik diri' = coalition-membership actions; THIS is electoral-elimination rhetoric by a BN (not PN) leader — adjacent but NOT formal PN-MT expulsion/withdrawal. [PRIORITY] not [CRITICAL]."
+    },
+    {
+      "entity": "gelombang Melayu ke BN (Malay wave to BN)",
+      "pir_tag": "PIR-06",
+      "sentiment": "positive",
+      "score": 0.35,
+      "trend": "improving",
+      "alert": "none",
+      "source_count": 2,
+      "rationale": "NEW. Khaled Nordin (BH+Metro 00:13-00..."
+    },
+    {
+      "entity": "PN kongsi pentas dengan BN (joint ceramah)",
+      "pir_tag": "PIR-06",
+      "sentiment": "positive",
+      "score": 0.4,
+      "trend": "improving",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "NEW. Utusan 12:13 MYT (headline only)..."
+    },
+    {
+      "entity": "Khaled dismisses AMK resign-call",
+      "pir_tag": "PIR-06",
+      "sentiment": "neutral",
+      "score": -0.16,
+      "trend": "stable",
+      "alert": "priority",
+      "source_count": 4,
+      "rationale": "NEW. Khaled (Awani 23:36 MYT) dismiss... | rev15: now 4-outlet corroborated (Awani BM 23:36 + NST EN 23:44 + BH BM 23:45 + FMT BM 16:04); alert upgraded none->priority; source_count 1->4. 'PM discretion / dia cakaplah dengan ketua parti dia' framing confirmed."
+    },
+    {
+      "entity": "Bersatu exit from PN imminent? (mkini SNAPSHOT)",
+      "pir_tag": "PIR-16",
+      "sentiment": "negative",
+      "score": -0.55,
+      "trend": "stable",
+      "alert": "priority",
+      "source_count": 3,
+      "rationale": "Carried rev13. 153300+171500: gnews 'bersatu exit pn'=0 + 'sasar kerajaan negeri'=0 (12th consecutive cycle). No hard-news corroboration of THAT exact framing. mkini SNAPSHOT (18 Jul 18:00) remains lone viral-tier item. [CRITICAL] threshold NOT CROSSED — [PRIORITY] only. Substantive exit signals (lebih-hebat -0.78, sasar -0.80) ARE [CRITICAL] hard-news, scored separately."
+    },
+    {
+      "entity": "Bersatu in disarray (Wan Saiful kacau daun + Kiandee + resignations + Khaled)",
+      "pir_tag": "PIR-16",
+      "sentiment": "negative",
+      "score": -0.7,
+      "trend": "declining",
+      "alert": "priority",
+      "source_count": 5,
+      "rationale": "rev13 -0.65 -> rev14 -0.70. UPGRADED: Khaled Nordin 4-publisher 'kacau daun' + 'KO habis' hard-news (FIRST BN-VP-level corroboration) + Wan Saiful kacau daun (Metro 16:31) + Kiandee quorum + MPT resignations + analyst wipeout consensus + Hamzah rebuke. Director-listed 'Bersatu in disarray' entity, deepening."
+    },
+    {
+      "entity": "Anthony Loke",
+      "pir_tag": "PIR-16",
+      "sentiment": "positive",
+      "score": 0.52,
+      "trend": "improving",
+      "alert": "none",
+      "source_count": 9,
+      "rationale": "rev13 +0.50 -> rev14 +0.52. NEW 17150..."
+    },
+    {
+      "entity": "Wee Ka Siong",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": -0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 3,
+      "rationale": "Awani: 'kerjasama BN-PN bukan perkara..."
+    },
+    {
+      "entity": "Mah Hang Soon",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": -0.1,
+      "trend": "stable",
+      "alert": "priority",
+      "source_count": 0,
+      "rationale": "WATCH entity (Director PIR-16 list); no statement/response to Loke 'biggest loser' taunt across 10 cycles. Only Wee's 'not a coalition' defense surfaced."
+    },
+    {
+      "entity": "MCA biggest loser (Loke) + MCA rebuttal trajectory",
+      "pir_tag": "PIR-16",
+      "sentiment": "negative",
+      "score": -0.52,
+      "trend": "declining",
+      "alert": "priority",
+      "source_count": 6,
+      "rationale": "rev13 -0.50 -> rev14 -0.52. Loke mocks MCA 'generosity' ceding 3 seats. MCA rebuttal = Wee containment + Saw Yee Fung told to skip NS (internal, viral 9,100 likes) + Chong Sin Woon WhatsApp. Rebuttal = CONTAINMENT not counter-attack -> MCA defensive, deepening."
+    },
+    {
+      "entity": "Bersatu kacau daun (Wan Saiful + Khaled)",
+      "pir_tag": "PIR-16",
+      "sentiment": "negative",
+      "score": -0.58,
+      "trend": "declining",
+      "alert": "priority",
+      "source_count": 4,
+      "rationale": "rev13 -0.50 -> rev14 -0.58 (ESCALATED). UPGRADED 171500: Khaled Nordin (Umno VP/Defence Minister) attributes 'Bersatu hanya kacau daun' in hard-news 4-publisher (FMT BM+BH BM+Metro BM+NST EN, 23:49-00:16 MYT) — FIRST hard-news corroboration of this PIR-16 narrative keyword by BN-VP-level voice. Plus Wan Saiful (Metro 19 Jul 16:31). Challenges 'penyatuan undi Melayu'. [PRIORITY] not [CRITICAL] (CRITICAL trigger = 'Bersatu exit imminent?' or 'sasar bentuk kerajaan' hard-news — neither newly crossed)."
+    },
+    {
+      "entity": "Wan Saiful Wan Jan",
+      "pir_tag": "PIR-16",
+      "sentiment": "negative",
+      "score": -0.3,
+      "trend": "declining",
+      "alert": "priority",
+      "source_count": 3,
+      "rationale": "Sacked Bersatu, now Wawasan VP. 'Bersatu messing things up' (The Vibes 19 Jul). 'Bersatu kacau daun' (Metro 16:31). Present at joint-manifesto meeting. Disarray-narrative amplification."
+    },
+    {
+      "entity": "Albert Tei",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": -0.5,
+      "trend": "stable",
+      "alert": "priority",
+      "source_count": 0,
+      "rationale": "WATCH entity (Director PIR-16 list); 0 fresh items across 10 cycles. Linked to 'barking dogs' narrative."
+    },
+    {
+      "entity": "barking dogs",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": -0.55,
+      "trend": "stable",
+      "alert": "priority",
+      "source_count": 0,
+      "rationale": "WATCH entity (Director PIR-16 list); gnews query returned 0 items across cycles. Retained as watch-entity."
+    },
+    {
+      "entity": "majoriti mudah (BN confidence)",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 0,
+      "rationale": "Director PIR-16 monitor. NOT directly..."
+    },
+    {
+      "entity": "Muhyiddin graft trial",
+      "pir_tag": "PIR-16",
+      "sentiment": "negative",
+      "score": -0.55,
+      "trend": "stable",
+      "alert": "priority",
+      "source_count": 2,
+      "rationale": "Director PIR-16 monitor. Court of Appeal (18 Jun) upheld High Court finding Muhyiddin defamed Lim Guan Eng re: Yayasan Albukhary. Backdrop to 'lebih hebat' PRU16 positioning."
+    },
+    {
+      "entity": "sole opposition (Muhyiddin lone credible opposition)",
+      "pir_tag": "PIR-16",
+      "sentiment": "negative",
+      "score": -0.5,
+      "trend": "declining",
+      "alert": "none",
+      "source_count": 4,
+      "rationale": "rev13 -0.50 stable. 153300 corroborat..."
+    },
+    {
+      "entity": "MB after PRN (PN concedes MB to BN)",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": 0.15,
+      "trend": "improving",
+      "alert": "none",
+      "source_count": 4,
+      "rationale": "rev13 +0.15. Jalaluddin (FMT 15:27):..."
+    },
+    {
+      "entity": "penyatuan undi Melayu",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": 0.15,
+      "trend": "declining",
+      "alert": "none",
+      "source_count": 7,
+      "rationale": "rev13 +0.20 -> rev14 +0.15 (further d..."
+    },
+    {
+      "entity": "makmal politik PRU16 framing",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": 0.25,
+      "trend": "improving",
+      "alert": "none",
+      "source_count": 5,
+      "rationale": "Carried rev13. Hadi 'bukan retorik' +..."
+    },
+    {
+      "entity": "Malay-Muslim unity with non-extreme partners (Hadi)",
+      "pir_tag": "PIR-16",
+      "sentiment": "positive",
+      "score": 0.3,
+      "trend": "improving",
+      "alert": "none",
+      "source_count": 2,
+      "rationale": "Awani: PAS+UMNO+MCA+MIC+DHPP 'non-ext..."
+    },
+    {
+      "entity": "Act now or lose chance forever (Tok Mat)",
+      "pir_tag": "PIR-16",
+      "sentiment": "positive",
+      "score": 0.4,
+      "trend": "improving",
+      "alert": "none",
+      "source_count": 2,
+      "rationale": "Tok Mat existential Malay-future: 'mi..."
+    },
+    {
+      "entity": "Ali Baba Bujang Lapok / 40 thieves (Anwar counter)",
+      "pir_tag": "PIR-16",
+      "sentiment": "positive",
+      "score": 0.35,
+      "trend": "improving",
+      "alert": "none",
+      "source_count": 2,
+      "rationale": "Anwar (NST 12:21): '40 thieves were a..."
+    },
+    {
+      "entity": "Mature campaign / kempen matang",
+      "pir_tag": "PIR-16",
+      "sentiment": "positive",
+      "score": 0.4,
+      "trend": "improving",
+      "alert": "none",
+      "source_count": 2,
+      "rationale": "Voters urge mature campaign; Bakri Sa..."
+    },
+    {
+      "entity": "Melaka PH-BN fracture / DAP withdrawal",
+      "pir_tag": "PIR-16",
+      "sentiment": "negative",
+      "score": -0.42,
+      "trend": "stable",
+      "alert": "priority",
+      "source_count": 8,
+      "rationale": "Carried rev13. DAP withdrew from Melaka state govt; Ab Rauf+Adly still seated. Anwar 'not briefed'. Opposition weaponises as 'DAP coalition-intolerant'. Stable; visibility shifting to NS Day-1."
+    },
+    {
+      "entity": "Anwar 'not briefed' (Melaka DAP fallout)",
+      "pir_tag": "PIR-16",
+      "sentiment": "negative",
+      "score": -0.3,
+      "trend": "stable",
+      "alert": "priority",
+      "source_count": 1,
+      "rationale": "Malay Mail (15 Jul): Anwar yet to receive briefing. Feeds DAP-coalition-intolerant counter-narrative."
+    },
+    {
+      "entity": "DAP coalition-intolerant (Hadi frame)",
+      "pir_tag": "PIR-16",
+      "sentiment": "negative",
+      "score": -0.45,
+      "trend": "declining",
+      "alert": "priority",
+      "source_count": 3,
+      "rationale": "Hadi: reject 'unnatural Malay groups with DAP' — frames DAP as threat in 13 non-Malay DUNs. Counter: Lim Kit Siang rejects Islamophobia; Madani reforms (Teo). Frame intensifying; counter emerging."
+    },
+    {
+      "entity": "Lim Kit Siang",
+      "pir_tag": "PIR-16",
+      "sentiment": "positive",
+      "score": 0.3,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Awani: 'tolak Islamophobia, gelombang..."
+    },
+    {
+      "entity": "derhaka friction (Pertang)",
+      "pir_tag": "PIR-16",
+      "sentiment": "negative",
+      "score": -0.2,
+      "trend": "declining",
+      "alert": "priority",
+      "source_count": 4,
+      "rationale": "Carried rev13. NST 15:36 + Metro 15:53 + BH 15:02 'Tak masuk akal tuduh saya derhaka'. PH labels Jalaluddin MB-withdrawal 'derhaka'; Jalaluddin rebuts (treachery = to ruler/Undang, NOT to MB). Onn Hafiz 'DNA UMNO bukan penderhaka'. Director rule: 'derhaka' at Pertang = [PRIORITY]."
+    },
+    {
+      "entity": "Onn Hafiz",
+      "pir_tag": "PIR-16",
+      "sentiment": "positive",
+      "score": 0.25,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Johor MB; 'DNA UMNO bukan penderhaka'..."
+    },
+    {
+      "entity": "AMH resign-call (PH Youth joint statement)",
+      "pir_tag": "PIR-16",
+      "sentiment": "negative",
+      "score": -0.4,
+      "trend": "stable",
+      "alert": "priority",
+      "source_count": 5,
+      "rationale": "Carried rev13. AMH (Awani 10:43, 4-outlet) calls BN Ministers+Deputies to resign. 153300+171500: Hassan Karim (PKR MP) pushback 'Tak pelik... PH juga selepas PRU 2008 mengatur strategi jatuhkan BN' + Khaled dismisses AMK. Intra-PH dissent added. Resign-narrative trigger."
+    },
+    {
+      "entity": "resign-to-attack unity partners (federal-state firewall)",
+      "pir_tag": "PIR-16",
+      "sentiment": "positive",
+      "score": 0.35,
+      "trend": "improving",
+      "alert": "none",
+      "source_count": 4,
+      "rationale": "Carried rev13. Anwar directive (NST+F..."
+    },
+    {
+      "entity": "Akmal counter-escalation (Umno Youth, Nga resign too)",
+      "pir_tag": "PIR-16",
+      "sentiment": "negative",
+      "score": -0.35,
+      "trend": "stable",
+      "alert": "priority",
+      "source_count": 6,
+      "rationale": "rev13 -0.35. 171500 NST full text (23:59): 'the day Nga submits his, I will submit mine.' Context: Nga allegedly pledged to resign if BN won Johor (Newswav+MSN 17 Jul) — Akmal calling out pre-existing pledge, not just deflecting. Resign-narrative now BOTH sides."
+    },
+    {
+      "entity": "Akmal Noradzmi",
+      "pir_tag": "PIR-16",
+      "sentiment": "negative",
+      "score": -0.35,
+      "trend": "stable",
+      "alert": "priority",
+      "source_count": 5,
+      "rationale": "Umno Youth chief, Melaka exco. Counter-escalation to AMH: 'I'll quit Melaka exco if Nga resigns as minister' (FMT EN 12:40 + BM 11:44). Attacks PH Youth resign-call as 'janggal dan keterlaluan'."
+    },
+    {
+      "entity": "Nga Kor Meng",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": -0.1,
+      "trend": "stable",
+      "alert": "priority",
+      "source_count": 2,
+      "rationale": "DAP vice-chairman, Housing Minister. TARGET of Akmal counter-demand. 171500: Nga resignation pledge context (allegedly pledged to resign if BN won Johor). DAP/Nga response NOT yet detected."
+    },
+    {
+      "entity": "Madani reforms continuity (Teo Nie Ching)",
+      "pir_tag": "PIR-16",
+      "sentiment": "positive",
+      "score": 0.42,
+      "trend": "improving",
+      "alert": "none",
+      "source_count": 2,
+      "rationale": "rev13 +0.40 -> rev14 +0.42. 153300 co..."
+    },
+    {
+      "entity": "Teo Nie Ching",
+      "pir_tag": "PIR-16",
+      "sentiment": "positive",
+      "score": 0.42,
+      "trend": "improving",
+      "alert": "none",
+      "source_count": 2,
+      "rationale": "DAP Women's chief, Kulai MP. PH dinne..."
+    },
+    {
+      "entity": "Gobind Singh Deo",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": 0.15,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "DAP national chairman; PH dinner (22:..."
+    },
+    {
+      "entity": "Cha Kee Chin",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 2,
+      "rationale": "NS DAP secretary; PH dinner (22:07) +..."
+    },
+    {
+      "entity": "Ammar Atan",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": -0.2,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "AMH info chief / AMANAH Youth deputy;..."
+    },
+    {
+      "entity": "Ho Chi Yang",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": -0.2,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "DAPSY national publicity secretary; c..."
+    },
+    {
+      "entity": "Danish Hairudin",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": -0.2,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "PKR Youth info chief; co-signatory AM..."
+    },
+    {
+      "entity": "Syazana Nasir",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": -0.2,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "WARDA communications bureau director;..."
+    },
+    {
+      "entity": "Saw Yee Fung",
+      "pir_tag": "PIR-16",
+      "sentiment": "negative",
+      "score": -0.22,
+      "trend": "declining",
+      "alert": "priority",
+      "source_count": 2,
+      "rationale": "rev13 -0.20 -> rev14 -0.22. 171500 TRP: MCA Youth sec-gen publicly questioned BN-PAS cooperation, contradicting what she told Johor voters. Chong Sin Woon WhatsApp 'you don't need to come' (4:58 PM); Saw screenshot+posted publicly (9,100 likes). FIRST concrete MCA-leader pushback vs BN-PN/PAS. Viral amplifier = [PRIORITY]."
+    },
+    {
+      "entity": "Chong Sin Woon",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": -0.12,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 2,
+      "rationale": "MCA sec-gen; sent WhatsApp to Saw Yee..."
+    },
+    {
+      "entity": "'Umno dangerous dance with PAS' (FMT opinion)",
+      "pir_tag": "PIR-16",
+      "sentiment": "negative",
+      "score": -0.6,
+      "trend": "stable",
+      "alert": "priority",
+      "source_count": 1,
+      "rationale": "FMT FULL-TEXT opinion: 'By quietly opening the side door for PAS in NS, Umno is validating the very force designed to replace it.' Cites Amanat Hadi (1981). Warns urban non-Malay alienation. Highest-risk viral-amplifier opinion."
+    },
+    {
+      "entity": "Amanat Hadi (1981, historical reference)",
+      "pir_tag": "PIR-16",
+      "sentiment": "negative",
+      "score": -0.4,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "1981 Amanat Hadi labelled Umno suppor..."
+    },
+    {
+      "entity": "'charade to deceive the Malays' (Muhyiddin counter)",
+      "pir_tag": "PIR-16",
+      "sentiment": "negative",
+      "score": -0.45,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 2,
+      "rationale": "Muhyiddin: accuses Umno/BN of using '..."
+    },
+    {
+      "entity": "Syahir Che Sulaiman",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "PAS Bachok MP; rebuts PH Youth resign..."
+    },
+    {
+      "entity": "Lau Zhe Wei (IIUM analyst)",
+      "pir_tag": "PIR-16",
+      "sentiment": "negative",
+      "score": -0.4,
+      "trend": "declining",
+      "alert": "priority",
+      "source_count": 2,
+      "rationale": "Advises Bersatu quit PN + take Gerakan/MIPP. MCA benefits from BN-PAS alliance (Johor MCA doubled to 8)."
+    },
+    {
+      "entity": "Azeem Fazwan (USM analyst)",
+      "pir_tag": "PIR-16",
+      "sentiment": "negative",
+      "score": -0.55,
+      "trend": "declining",
+      "alert": "priority",
+      "source_count": 1,
+      "rationale": "Expects Bersatu wiped out in NS — 'in no position to win seats going solo.' Lacks strong political base."
+    },
+    {
+      "entity": "Azmil Tayeb (USM analyst)",
+      "pir_tag": "PIR-16",
+      "sentiment": "negative",
+      "score": -0.5,
+      "trend": "declining",
+      "alert": "priority",
+      "source_count": 1,
+      "rationale": "Bersatu problems run deeper than PAS issues; hasn't distinguished itself from Umno/PAS. 'All people see is infighting.'"
+    },
+    {
+      "entity": "Ahmad Zaharuddin Sani (analyst)",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": 0.15,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Carrier of 'makmal politik' framing...."
+    },
+    {
+      "entity": "Azmi Hassan (analyst)",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Johor PAS-Umno success motivates NS P..."
+    },
+    {
+      "entity": "Zan Azlee (commentator)",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Frames state elections as bellwether..."
+    },
+    {
+      "entity": "Johor formula / stability",
+      "pir_tag": "PIR-16",
+      "sentiment": "positive",
+      "score": 0.25,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "BN pitch: Johor as model of stability..."
+    },
+    {
+      "entity": "Indian community stability kingmaker",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": 0.15,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Anbumani Balan (BH 18:01): Indian com..."
+    },
+    {
+      "entity": "Anbumani Balan",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Political analyst; pitches stability..."
+    },
+    {
+      "entity": "ujian formula (Syahir PAS)",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Syahir: PN-BN cooperation still at 'u..."
+    },
+    {
+      "entity": "Undi Melayu merosot (PH strategy shift)",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": -0.2,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Analyst notes declining Malay support..."
+    },
+    {
+      "entity": "Rafizi Ramli",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": -0.2,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "'Kemelut PRN N9 zahir tanda awal kesa..."
+    },
+    {
+      "entity": "Fuziah Salleh",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.2,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "PKR sec-gen; 'gadai kepercayaan rakya..."
+    },
+    {
+      "entity": "Saarani",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Perak MB; Anwar National Month launch..."
+    },
+    {
+      "entity": "Ab Rauf",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": -0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Melaka CM; 'DAP reps abrupt exit shut..."
+    },
+    {
+      "entity": "Adly",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Amanah's Adly; maintains support for..."
+    },
+    {
+      "entity": "campaign on policies not personal attacks (Loke)",
+      "pir_tag": "PIR-16",
+      "sentiment": "positive",
+      "score": 0.42,
+      "trend": "improving",
+      "alert": "none",
+      "source_count": 4,
+      "rationale": "NEW. Loke (NST+BH+Metro 23:51-00:06 M... | rev15: clean-campaign call now BIPARTISAN - Khaled (BN) echoes 'tumpu isu pembangunan negeri, bukan serang peribadi' + references Zahid 'berhemah' (NST EN + BH BM + FMT BM). Convergence spans Loke(PH)+Anwar(PM)+Khaled(BN)+Zahid(BN). source_count 3->4; score +0.40->+0.42."
+    },
+    {
+      "entity": "Loke not campaigning in Rantau (unity-govt harmony)",
+      "pir_tag": "PIR-16",
+      "sentiment": "positive",
+      "score": 0.3,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 3,
+      "rationale": "NEW. Loke (NST+BH+Metro): chose NOT t..."
+    },
+    {
+      "entity": "PH sasar 23 kerusi (safe majority / 8123)",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": 0.27,
+      "trend": "improving",
+      "alert": "priority",
+      "source_count": 5,
+      "rationale": "NEW. Loke (5-publisher NST+FMT EN+FMT BM+BH BM+Metro BM, 16:01-00:21 MYT 19-20 Jul). PH targets 23 of 36 for 'safe' majority. Math: 17 current; 18=tie; 19=simple 'apa sahaja boleh berlaku'; 23=safe. '8123'=Aug 1, target 23. Frames 2026 crisis: 14 Umno ADUN withdrew support + 5 PN backdoor attempt. Defends Aminuddin. Director 'majoriti mudah' adjacent — Loke says 19 'majoriti mudah' NOT enough. [PRIORITY PIR-16] NOT [CRITICAL] (PH-attributed, per Director rule only Bersatu-attributed 'sasar' = CRITICAL). | rev15 (182000): FMT BM 5th-outlet full text recovered ('PH sasar menang 23 kerusi untuk selamat di N Sembilan', 3550c) - confirms the 5-publisher count already scored in rev14. score +0.25->+0.27 on full-text confirmation; source_count unchanged at 5."
+    },
+    {
+      "entity": "MCA told her to stay home (Saw Yee Fung vs Chong Sin Woon)",
+      "pir_tag": "PIR-16",
+      "sentiment": "negative",
+      "score": -0.3,
+      "trend": "declining",
+      "alert": "priority",
+      "source_count": 2,
+      "rationale": "NEW. TRP (17-19 Jul): Saw Yee Fung publicly questioned BN-PAS cooperation, contradicting her Johor voter messaging. Chong Sin Woon WhatsApp '森州州选妳不需要来' (4:58 PM); Saw screenshot posted publicly (9,100 likes). FIRST concrete MCA-leader pushback vs BN-PN/PAS. Top leadership (Wee/Mah) still silent. Viral amplifier = [PRIORITY]."
+    },
+    {
+      "entity": "Teng Chang Khim",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": -0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "NEW. DAP leader (Selangor Speaker / s..."
+    },
+    {
+      "entity": "Nga resignation pledge (Johor precondition)",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": -0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 2,
+      "rationale": "NEW context. Nga Kor Ming allegedly p..."
+    },
+    {
+      "entity": "Tuanku Muhriz Tuanku Munawir",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "NEW. Yang di-Pertuan Besar Negeri Sem..."
+    },
+    {
+      "entity": "April 19 royal crisis (4 undangs claim Tuanku Muhriz removed)",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": -0.1,
+      "trend": "stable",
+      "alert": "priority",
+      "source_count": 1,
+      "rationale": "NEW. April 19 2026: NS's four undangs (traditional chieftains) claimed Tuanku Muhriz removed as Yang di-Pertuan Besar — sparking royal+political crisis. Resulted in all 14 Umno ADUN withdrawing support for MB Aminuddin + 5 PN ADUN attempting 'backdoor government.' THE TRIGGER for Aug 1 NS PRN. Loke uses this to justify PH's 'safe majority 23' target. [PRIORITY] — central to understanding the election's origin."
+    },
+    {
+      "entity": "14 Umno ADUN withdrew support + 5 PN backdoor attempt",
+      "pir_tag": "PIR-16",
+      "sentiment": "negative",
+      "score": -0.3,
+      "trend": "stable",
+      "alert": "priority",
+      "source_count": 1,
+      "rationale": "NEW. Loke speech (NST+FMT 16:03): 'Fourteen Umno assemblymen withdrew their support (for the MB) and joined forces with five PN assemblymen to attempt to form a backdoor government.' PH's political-crisis framing to justify fresh/stable mandate. Note: some of these 14 Umno ADUN are now BN candidates. [PRIORITY] — core PH campaign narrative."
+    },
+    {
+      "entity": "Anwar Ibrahim (PM, coalition manager)",
+      "pir_tag": "PIR-07",
+      "sentiment": "positive",
+      "score": 0.45,
+      "trend": "improving",
+      "alert": "none",
+      "source_count": 6,
+      "rationale": "Carried rev13. 'resign if you want to..."
+    },
+    {
+      "entity": "PH (Pakatan Harapan)",
+      "pir_tag": "PIR-07",
+      "sentiment": "positive",
+      "score": 0.42,
+      "trend": "improving",
+      "alert": "none",
+      "source_count": 5,
+      "rationale": "rev13 +0.40 -> rev14 +0.42. Incumbent..."
+    },
+    {
+      "entity": "PKR",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "PH component (Aminuddin, Fuziah's par..."
+    },
+    {
+      "entity": "Aminuddin Harun (PH incumbent MB, N.32 Linggi)",
+      "pir_tag": "PIR-07",
+      "sentiment": "positive",
+      "score": 0.62,
+      "trend": "stable",
+      "alert": "priority",
+      "source_count": 10,
+      "rationale": "Carried rev13. NO >20% drop; stable. 171500: 'lebih selesa berkempen dalam kumpulan kecil' (Metro 16:47) — caretaker MB status gives no advantage; Linggi traditionally BN stronghold. Loke defends: 'done nothing wrong, not corrupt, not arrogant.' 3-cornered Linggi split structurally helps PH incumbent. PH manifesto centres on 'kesinambungan Tok Min'. Priority-watch (director monitor), no critical."
+    },
+    {
+      "entity": "N.32 Linggi (Aminuddin MB move + BN manifesto 24 Jul)",
+      "pir_tag": "PIR-07",
+      "sentiment": "positive",
+      "score": 0.35,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 7,
+      "rationale": "Aminuddin (PH) vs BN Mohd Faizal Raml..."
+    },
+    {
+      "entity": "'fleeing Sikamat' narrative (directed at Aminuddin)",
+      "pir_tag": "PIR-07",
+      "sentiment": "negative",
+      "score": -0.45,
+      "trend": "stable",
+      "alert": "priority",
+      "source_count": 6,
+      "rationale": "Carried rev13. Persists NOT intensifying. 171500: Aminuddin 'lebih selesa berkempen dalam kumpulan kecil' at Linggi (Metro 16:47) — acknowledges caretaker no advantage; 'pindah kawasa' framing. 'fled' frame not gaining traction."
+    },
+    {
+      "entity": "no easy path for political top guns",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": -0.1,
+      "trend": "stable",
+      "alert": "priority",
+      "source_count": 1,
+      "rationale": "Director [PRIORITY] flag. NST (18 Jul): no easy path for NS political top guns. Nazri Kassim (PH Ampangan) 'tidak memandang mudah' embodies this. Battle 'tougher than Johor' (The Vibes)."
+    },
+    {
+      "entity": "N.13 Sikamat (Nor Azman vs Tun Faisal, 3-corner)",
+      "pir_tag": "PIR-07",
+      "sentiment": "positive",
+      "score": 0.4,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 5,
+      "rationale": "Nor Azman (PH, Aminuddin's pol-sec) v..."
+    },
+    {
+      "entity": "Nor Azman Mohamad (PH N.13 Sikamat)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 2,
+      "rationale": "Aminuddin's political secretary; defe..."
+    },
+    {
+      "entity": "Razali Abu Samah (PN/Wawasan N.13 Sikamat)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 2,
+      "rationale": "PN/Wawasan candidate N.13 Sikamat (Ti..."
+    },
+    {
+      "entity": "N.28 Klawang (PDM shutdown + cousins contest)",
+      "pir_tag": "PIR-07",
+      "sentiment": "positive",
+      "score": 0.25,
+      "trend": "declining",
+      "alert": "none",
+      "source_count": 5,
+      "rationale": "rev13 +0.30 -> rev14 +0.25 (declining..."
+    },
+    {
+      "entity": "Bakri Sawir (PH Klawang incumbent)",
+      "pir_tag": "PIR-07",
+      "sentiment": "positive",
+      "score": 0.45,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 2,
+      "rationale": "Confident Day-1 posture; 'brotherly f..."
+    },
+    {
+      "entity": "Danni Rais (PN Klawang, Bakri's cousin)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 2,
+      "rationale": "PN challenger; Bakri's cousin; peacef..."
+    },
+    {
+      "entity": "Muhammad Adib Musa (Bersatu Klawang)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": -0.15,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Bersatu third-force splitter in 3-cor..."
+    },
+    {
+      "entity": "Mohamad Hasan / Tok Mat (BN Rantau)",
+      "pir_tag": "PIR-07",
+      "sentiment": "positive",
+      "score": 0.62,
+      "trend": "improving",
+      "alert": "none",
+      "source_count": 8,
+      "rationale": "rev13 +0.62. 171500: 5th outlet (Metr..."
+    },
+    {
+      "entity": "Rantau (Tok Mat seat, straight fight)",
+      "pir_tag": "PIR-07",
+      "sentiment": "positive",
+      "score": 0.5,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 4,
+      "rationale": "Tok Mat (2023 maj 10,280) vs PH Dr Az..."
+    },
+    {
+      "entity": "Dr Azizul Hakim Mahdi (PKR/PH Rantau)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "PKR/PH candidate Rantau (straight fig..."
+    },
+    {
+      "entity": "Pertang (derhaka friction, Jalaluddin)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": -0.2,
+      "trend": "declining",
+      "alert": "priority",
+      "source_count": 5,
+      "rationale": "Carried rev13. 3-cornered: BN Jalaluddin (defends) vs 2 challengers. 'derhaka' friction corroborated (BH+NST+Metro). Jalaluddin rebuttal 'tak masuk akal... jangan spin, tanam kebencian.' Director rule: 'derhaka' at Pertang = [PRIORITY]. BN manifesto launch 24 Jul here (alongside Linggi)."
+    },
+    {
+      "entity": "Jalaluddin Alias (NS Umno chief, BN Pertang)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.05,
+      "trend": "declining",
+      "alert": "priority",
+      "source_count": 6,
+      "rationale": "Multi-role: (1) PN concedes MB to BN (FMT 15:27), (2) PDM Klawang shutdown (FMT 15:33), (3) 'derhaka' rebuttal (NST 15:36+BH 15:02+Metro 15:53), (4) MB-stock candidate, (5) 'yakin BN kekal pertahan Pertang' (Utusan 17:56), (6) thanks Perikatan (Malay Mail). Booed at Jelebu nomination. Under defector-framing pressure but strong rebuttal. Net slightly positive (MB-stock) but declining (friction)."
+    },
+    {
+      "entity": "N.14 Ampangan (Nazri Kassim, defector-framing watch)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": -0.15,
+      "trend": "stable",
+      "alert": "priority",
+      "source_count": 3,
+      "rationale": "Carried rev13. Director PIR-07 watch. 3-corner. Muhammad Nazri Kassim (PH incumbent, 'tidak memandang mudah' = Director [PRIORITY] 'not taking for granted') vs Dr Rafie (PN/Wawasan, Hamzah met him NST 19:49). Defector-framing ACTIVE NOT intensifying. Priority-watch per directive."
+    },
+    {
+      "entity": "Muhammad Nazri Kassim (PH N.14 Ampangan, Datuk)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "priority",
+      "source_count": 2,
+      "rationale": "PH candidate N.14 Ampangan (incumbent, Datuk); 'tidak memandang mudah' (not taking for granted) — Director [PRIORITY] flag. gerak kerja kempen perlu diperkemaskan."
+    },
+    {
+      "entity": "Dr Rafie Abd Malek (PN N.14 Ampangan)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.05,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 2,
+      "rationale": "PN candidate N.14 Ampangan (Tier-4);..."
+    },
+    {
+      "entity": "N.27 Chembong (Zaifulbahri vs Danish Nazran)",
+      "pir_tag": "PIR-07",
+      "sentiment": "positive",
+      "score": 0.35,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 2,
+      "rationale": "Straight fight: Zaifulbahri Idris (BN..."
+    },
+    {
+      "entity": "Zaifulbahri Idris (BN N.27 Chembong)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "BN candidate N.27 Chembong (since 200..."
+    },
+    {
+      "entity": "Danish Nazran Murad (PH N.27 Chembong)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.05,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "PH candidate N.27 Chembong (straight..."
+    },
+    {
+      "entity": "N.15 Juasseh",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.2,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Tier-4 priority seat. BN 'unfazed' by..."
+    },
+    {
+      "entity": "N.20 Bembang",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 0,
+      "rationale": "Director-listed Tier-4 seat. Candidat..."
+    },
+    {
+      "entity": "N.25 Labu (Maira anak jati, Bersatu)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "improving",
+      "alert": "none",
+      "source_count": 2,
+      "rationale": "Carried rev13. Bersatu candidate Mair..."
+    },
+    {
+      "entity": "Maira (Bersatu N.25 Labu candidate)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.15,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Bersatu candidate N.25 Labu. 'Anak ja..."
+    },
+    {
+      "entity": "Ahmad Faez (PH N.25 Labu, Orang Asli focus)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "PH candidate N.25 Labu (Tier-4); Oran..."
+    },
+    {
+      "entity": "N.10 Nilai (5-corner, 21.9% Indian)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": -0.05,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 3,
+      "rationale": "5-corner fight; 21.9% Indian electora..."
+    },
+    {
+      "entity": "J Arul Kumar (PH N.10 Nilai, Loke's aide)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "PH candidate N.10 Nilai (5-cornered);..."
+    },
+    {
+      "entity": "Lai Chien Kong (BN/MCA N.10 Nilai)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": -0.05,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "BN (MCA) candidate N.10 Nilai (5-corn..."
+    },
+    {
+      "entity": "V Saravan Kumar (Bersatu N.10 Nilai)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": -0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Bersatu candidate N.10 Nilai (5-cornered)."
+    },
+    {
+      "entity": "Zamani Ibrahim (Berjasa N.10 Nilai)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": -0.15,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Berjasa candidate N.10 Nilai (5-cornered)."
+    },
+    {
+      "entity": "Omar Isa (Indep N.10 Nilai)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": -0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Independent candidate N.10 Nilai (5-c..."
+    },
+    {
+      "entity": "N.33 Sri Tanjung (5-corner, 28.35% Indian)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": -0.15,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 3,
+      "rationale": "5-corner fight; 28.35% Indian (highes..."
+    },
+    {
+      "entity": "Dr G Rajasekaran (PH N.33 Sri Tanjung)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "PH candidate N.33 Sri Tanjung (5-corn..."
+    },
+    {
+      "entity": "A Achutan (BN N.33 Sri Tanjung)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": -0.05,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "BN candidate N.33 Sri Tanjung (5-corn..."
+    },
+    {
+      "entity": "M Leevineshwaraan Murugan (Bersatu N.33, youngest)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": -0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Bersatu candidate N.33 Sri Tanjung (5..."
+    },
+    {
+      "entity": "A Saravanan (Indep N.33 Sri Tanjung)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": -0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Independent candidate N.33 Sri Tanjun..."
+    },
+    {
+      "entity": "Islah Wahyudi Sainudin (Indep N.33 Sri Tanjung)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": -0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Independent candidate N.33 Sri Tanjun..."
+    },
+    {
+      "entity": "Chennah (Loke vs Siow straight fight, 47.8% Malay)",
+      "pir_tag": "PIR-07",
+      "sentiment": "positive",
+      "score": 0.35,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 3,
+      "rationale": "Carried rev13. Loke's incumbent seat..."
+    },
+    {
+      "entity": "Chennah demographics risk (Loke LOSES if PRU15 repeats)",
+      "pir_tag": "PIR-07",
+      "sentiment": "negative",
+      "score": -0.28,
+      "trend": "stable",
+      "alert": "priority",
+      "source_count": 2,
+      "rationale": "rev13 -0.30 -> rev14 -0.28 (slight ease). mkini 780075: 47.8% Malay (up from 44% in 2018), 6.3% Orang Asli, 42.6% Chinese, 2% Indian; PH vote DROPPED to 44% by PRU15; BN+PN combined 56% -> if PRU15 repeats, Loke LOSES. 171500: Loke rebuttal — transport-minister advantage + full-time team + Kampung Madani projects. Risk persists; counter emerging."
+    },
+    {
+      "entity": "Siow Kong Choon (MCA NS Youth, Chennah challenger)",
+      "pir_tag": "PIR-16",
+      "sentiment": "neutral",
+      "score": 0.05,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 2,
+      "rationale": "BN Chennah candidate directly challen..."
+    },
+    {
+      "entity": "Kota (3-corner, razor 135-vote margin)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": -0.15,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "3-corner contest. 2023 margin razor-t..."
+    },
+    {
+      "entity": "Suhaimi Aini (BN Kota, 135-vote margin)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.05,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "BN candidate Kota (defends); 2023 maj..."
+    },
+    {
+      "entity": "Allif Ibrahim (PH Kota)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.05,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "PH candidate Kota (3-cornered)."
+    },
+    {
+      "entity": "Akmal Noradzmi Abd Rahim (Bersatu Kota)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": -0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Bersatu (solo-logo) candidate Kota (3..."
+    },
+    {
+      "entity": "Gemas (Ridzuan Wawasan, BN ops rooms assist PN)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 2,
+      "rationale": "STRAIGHT FIGHT (machinery-sharing sea..."
+    },
+    {
+      "entity": "Siti Aishah Seman (PKR/PH Gemas)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "PKR/PH candidate Gemas (straight figh..."
+    },
+    {
+      "entity": "Lenggeng (3-corner, Zool Amali defector)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 2,
+      "rationale": "3-CORNERED; BN Mohd Asna Amin vs Aman..."
+    },
+    {
+      "entity": "Mohd Asna Amin (BN Lenggeng)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "BN candidate Lenggeng (3-cornered); m..."
+    },
+    {
+      "entity": "Zarinna Abu Zarin (Amanah/PH Lenggeng)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.05,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Amanah/PH candidate Lenggeng (3-cornered)."
+    },
+    {
+      "entity": "Zool Amali Hussein (Bersatu Lenggeng, defector)",
+      "pir_tag": "PIR-07",
+      "sentiment": "negative",
+      "score": -0.2,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Bersatu (solo-logo) candidate Lenggen..."
+    },
+    {
+      "entity": "Rahang (4-corner, Tang Jay Son pecat)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": -0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 2,
+      "rationale": "4-CORNERED; PH Desmond Siau Meow Kong..."
+    },
+    {
+      "entity": "Desmond Siau Meow Kong (PH Rahang)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.05,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "PH candidate Rahang (4-cornered); one..."
+    },
+    {
+      "entity": "Yap Siok Moy (BN/MCA Rahang)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": -0.05,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "BN (MCA) candidate Rahang (4-cornered)."
+    },
+    {
+      "entity": "T. Tharmaseelan (PSM Rahang)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": -0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "PSM candidate Rahang (4-cornered)."
+    },
+    {
+      "entity": "Tang Jay Son (Bersatu Rahang, pecat)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": -0.15,
+      "trend": "stable",
+      "alert": "priority",
+      "source_count": 1,
+      "rationale": "Bersatu (solo-logo) candidate Rahang (4-cornered); EXPELLED secara serta-merta from Gerakan for contesting on Bersatu ticket (Awani 18 Jul 20:22) — [CRITICAL] 'pecat' enforcement; Bersatu attracting Gerakan defectors -> intra-PN friction."
+    },
+    {
+      "entity": "Lobak (DAP vs PAS, MCA ceded)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.05,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "STRAIGHT FIGHT (urban); DAP Chew Seh..."
+    },
+    {
+      "entity": "Chew Seh Yong (DAP/PH Lobak)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.15,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "DAP/PH candidate Lobak (straight figh..."
+    },
+    {
+      "entity": "Dr P Kumar (PAS/PN Lobak)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": -0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "PAS/PN candidate Lobak (straight figh..."
+    },
+    {
+      "entity": "Bukit Kepayang (DAP vs Gerakan)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.05,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "STRAIGHT FIGHT (urban); DAP incumbent..."
+    },
+    {
+      "entity": "Nicole Tan Lee Koon (DAP/PH Bukit Kepayang)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.15,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "DAP/PH incumbent Bukit Kepayang (stra..."
+    },
+    {
+      "entity": "Lee Boon Shian (Gerakan/BN Bukit Kepayang)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": -0.05,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Gerakan/BN candidate Bukit Kepayang (..."
+    },
+    {
+      "entity": "Paroi (Amanah vs PAS)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "STRAIGHT FIGHT (urban); Amanah Ahmad..."
+    },
+    {
+      "entity": "Ahmad Shahir Mohd Shah (Amanah/PH Paroi)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Amanah/PH candidate Paroi (straight f..."
+    },
+    {
+      "entity": "Kamarol Ridzuan Mohd Zain (PAS/PN Paroi)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": -0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "PAS/PN candidate Paroi (straight figh..."
+    },
+    {
+      "entity": "Lukut (DAP vs MIPP, MCA ceded)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.05,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "STRAIGHT FIGHT (coastal/Port Dickson)..."
+    },
+    {
+      "entity": "Choo Ken Hwa (DAP/PH Lukut)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.15,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "DAP/PH incumbent Lukut (straight figh..."
+    },
+    {
+      "entity": "Sathes Kumar Nilameham (MIPP/PN Lukut)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": -0.05,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "MIPP/PN candidate Lukut (straight fig..."
+    },
+    {
+      "entity": "Bagan Pinang (Amanah vs PAS)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.0,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "STRAIGHT FIGHT (coastal/Port Dickson)..."
+    },
+    {
+      "entity": "Nasir Rahman (Amanah/PH Bagan Pinang)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Amanah/PH candidate Bagan Pinang (str..."
+    },
+    {
+      "entity": "Abdul Fatah Zakaria (PAS/PN Bagan Pinang)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": -0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "PAS/PN candidate Bagan Pinang (straig..."
+    },
+    {
+      "entity": "Bahau (DAP vs MCA)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.05,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "STRAIGHT FIGHT; DAP incumbent Teo Kok..."
+    },
+    {
+      "entity": "Teo Kok Seong (DAP/PH Bahau)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.15,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "DAP/PH incumbent Bahau (straight figh..."
+    },
+    {
+      "entity": "Chong Fui Ming (MCA/BN Bahau)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": -0.05,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "MCA/BN candidate Bahau (straight figh..."
+    },
+    {
+      "entity": "Repah (DAP vs MCA)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.05,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "STRAIGHT FIGHT; DAP incumbent S. Veer..."
+    },
+    {
+      "entity": "S Veerapan (DAP/PH Repah)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.15,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "DAP/PH incumbent Repah (straight figh..."
+    },
+    {
+      "entity": "Koh Kim Swee (MCA/BN Repah)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": -0.05,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "MCA/BN candidate Repah (straight figh..."
+    },
+    {
+      "entity": "Jeram Padang (4-corner, Sri Sanjeevan quorum-critic)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": -0.05,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 2,
+      "rationale": "4-CORNERED; BN Mohd Zaidy Abdul Kadir..."
+    },
+    {
+      "entity": "Mohd Zaidy Abdul Kadir (BN Jeram Padang)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "BN candidate Jeram Padang (4-cornered)."
+    },
+    {
+      "entity": "G Manivann (PH Jeram Padang)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.05,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "PH candidate Jeram Padang (4-cornered)."
+    },
+    {
+      "entity": "R Sri Sanjeevan (Bersatu Jeram Padang, quorum-critic)",
+      "pir_tag": "PIR-07",
+      "sentiment": "negative",
+      "score": -0.2,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Bersatu (solo-logo) candidate Jeram P..."
+    },
+    {
+      "entity": "Dayana Dal (ASLI Jeram Padang)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.05,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Parti Orang Asli/ASLI candidate Jeram..."
+    },
+    {
+      "entity": "Temiang (PH Ho Weng Wah)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.05,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "MCA contests (one of 7 MCA seats); PH..."
+    },
+    {
+      "entity": "Ho Weng Wah (DAP/PH Temiang)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "DAP/PH candidate Temiang; one of 6 PH..."
+    },
+    {
+      "entity": "Mambau (DAP Lee Kai Yet, MCA ceded)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.05,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "MCA CEEDED to PN per BN-PN pact (one..."
+    },
+    {
+      "entity": "Lee Kai Yet (DAP/PH Mambau)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "DAP/PH candidate Mambau; one of 6 PH..."
+    },
+    {
+      "entity": "Seremban Jaya (PH S Mugunthan)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.05,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "PH's S. Mugunthan."
+    },
+    {
+      "entity": "S Mugunthan (DAP/PH Seremban Jaya)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "DAP/PH candidate Seremban Jaya; one o..."
+    },
+    {
+      "entity": "Seri Menanti (BN Sufian Maradzi, MB-stock)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "BN's Sufian Maradzi (MB-candidate stock)."
+    },
+    {
+      "entity": "PH manifesto launch (20 Jul, continuity of Tok Min)",
+      "pir_tag": "PIR-07",
+      "sentiment": "positive",
+      "score": 0.32,
+      "trend": "improving",
+      "alert": "none",
+      "source_count": 5,
+      "rationale": "rev13 +0.30 -> rev14 +0.32. BH+Awani+..."
+    },
+    {
+      "entity": "BN manifesto launch 24 Jul (DUN Linggi + Pertang)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.18,
+      "trend": "improving",
+      "alert": "none",
+      "source_count": 4,
+      "rationale": "rev13 +0.15 -> rev14 +0.18. 4-source..."
+    },
+    {
+      "entity": "Amirudin Shari (Selangor MB, PH NS ops Co-Director)",
+      "pir_tag": "PIR-07",
+      "sentiment": "positive",
+      "score": 0.3,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Selangor MB / PH Majlis Presiden memb..."
+    },
+    {
+      "entity": "Muhammad Zaki Md Sabri (PH media secretariat chief)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.15,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "PH NS Media Secretariat chief / Bilik..."
+    },
+    {
+      "entity": "Day-1 campaign operations (evening dispatch, 19 permits)",
+      "pir_tag": "PIR-07",
+      "sentiment": "positive",
+      "score": 0.45,
+      "trend": "improving",
+      "alert": "none",
+      "source_count": 3,
+      "rationale": "Carried rev13. Evening Day-1 dispatch..."
+    },
+    {
+      "entity": "Alzafny Ahmad (NS police chief)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.2,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 2,
+      "rationale": "Carried rev13. NST (19 Jul 12:26): 19..."
+    },
+    {
+      "entity": "19 campaign permits approved",
+      "pir_tag": "PIR-07",
+      "sentiment": "positive",
+      "score": 0.3,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 2,
+      "rationale": "NS police received 19 ceramah permit..."
+    },
+    {
+      "entity": "103 candidates / 36 seats",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "EC confirms 103 candidates / 36 seats..."
+    },
+    {
+      "entity": "Fadillah (DPM, Anwar discipline discussion)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "DPM; mentioned in Anwar resign-to-att..."
+    },
+    {
+      "entity": "Tamim Dahri Abd Razak (land activist, remand)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": -0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Land activist / independent; surrende..."
+    },
+    {
+      "entity": "Mazalan Maarop (Seremban Umno chief)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "Seremban Umno chief; present at gabun..."
+    },
+    {
+      "entity": "BN confident of winning alone",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.15,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "The Edge (18 Jul): BN confident of wi..."
+    },
+    {
+      "entity": "N.19 Johol (Saiful Yazan vs Mohd Zailan, straight fight)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.15,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 4,
+      "rationale": "NEW. DUN Johol (N.19). Site of Khaled... | rev15: Khaled BN machinery launch at Johol now 4-outlet corroborated (Awani BM + NST EN + BH BM + FMT BM, 23:36-23:45/16:04). source_count 2->4; score +0.10->+0.15 (visibility uptick)."
+    },
+    {
+      "entity": "Saiful Yazan Sulaiman (BN Johol incumbent)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.12,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 4,
+      "rationale": "NEW. BN incumbent candidate DUN Johol... | rev15: BN incumbent introduction at Johol machinery launch corroborated NST EN + BH BM + FMT BM. source_count 1->4; score +0.10->+0.12."
+    },
+    {
+      "entity": "Mohd Zailan Mohd Munawar (PH Johol)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.05,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "NEW. PH candidate DUN Johol (N.19). S..."
+    },
+    {
+      "entity": "Aminuddin small-group campaign style (caretaker no advantage)",
+      "pir_tag": "PIR-07",
+      "sentiment": "neutral",
+      "score": 0.1,
+      "trend": "stable",
+      "alert": "priority",
+      "source_count": 1,
+      "rationale": "NEW. Aminuddin (Metro 16:47 MYT): prefers small-group campaigning (2-3 people) at Linggi — 'sejak 2008 saya berkempen macam ini.' Explicitly states caretaker MB status gives NO advantage: 'MB pun sekarang dah dipanggil caretaker saja... saya tidak boleh buat apa-apa keputusan.' Acknowledges Linggi traditionally BN stronghold. Positive Indian voter reception at Pekan Pasir Panjang. Director 'fleeing Sikamat' adjacent. [PRIORITY]."
+    },
+    {
+      "entity": "Aminuddin honest-not-corrupt defense (Loke)",
+      "pir_tag": "PIR-07",
+      "sentiment": "positive",
+      "score": 0.3,
+      "trend": "stable",
+      "alert": "priority",
+      "source_count": 1,
+      "rationale": "NEW. Loke (NST+FMT 16:03) defends MB Aminuddin as PH MB-retention candidate: 'done nothing wrong, not corrupt, not abused position, humble, willing to work with everyone.' 'PH inclusive — represents all races.' Frames PH as seeking fresh mandate to retain Aminuddin as MB. Counter to BN-PN 'stability/Malay-unity' — PH's pitch = incumbent-performance continuity + inclusive governance. [PRIORITY]."
+    },
+    {
+      "entity": "Loke transport-minister advantage for Chennah",
+      "pir_tag": "PIR-07",
+      "sentiment": "positive",
+      "score": 0.25,
+      "trend": "stable",
+      "alert": "none",
+      "source_count": 1,
+      "rationale": "NEW. Loke rebuts 'neglected Chennah'..."
+    },
+    {
+      "entity": "PM discretion on minister appointments (hak mutlak PM / budi bicara PM)",
+      "pir_tag": "PIR-06",
+      "sentiment": "neutral",
+      "score": -0.15,
+      "trend": "stable",
+      "alert": "priority",
+      "source_count": 4,
+      "rationale": "NEW rev15. Khaled Nordin (Umno VP/Defence Minister) BN counter-line to the resign-narrative, now 4-outlet corroborated via the 182000 cycle (Awani BM 23:36 + NST EN 23:44 + BH BM 23:45 + FMT BM 16:04 MYT 19-20 Jul). At the Johol BN machinery launch: 'PM alone decides ministers' fate' / 'urusan lantikan serta kedudukan seorang menteri... hak mutlak Perdana Menteri' / 'budi bicara PM' / 'kalau orang dah tak suka, buat apa nak tunggu.' Frames ministerial tenure as exclusive PM prerogative - deflects AMH/AMK resign-demand ('dia cakaplah dengan ketua parti dia') and implicitly jabs Tok Mat 'ready to resign'. Stabilizing/containment framing within the coalition-cohesion frame; mildly negative as a partisan deflection of an accountability demand. NOT a formal PN-MT expulsion/withdrawal/quorum signal => [PRIORITY] not [CRITICAL]. Quiet-corroboration cycle; no escalation threshold crossed."
+    },
+    {
+      "entity": "bipartisan clean-campaign convergence (state-development focus)",
+      "pir_tag": "PIR-16",
+      "sentiment": "positive",
+      "score": 0.42,
+      "trend": "improving",
+      "alert": "priority",
+      "source_count": 4,
+      "rationale": "NEW rev15. Cross-partisan convergence on clean, policy-focused campaigning now spans FOUR leaders: Loke (PH, NST+BH+Metro 'campaign on policies not personal attacks') + Anwar (PM, NST 14:47 'resign to attack unity partners' firewall) + Khaled Nordin (BN/Umno VP, NST EN + BH BM + FMT BM, 23:44-23:45/16:04: 'PRN NS seharusnya memberi tumpuan kepada isu berkaitan pembangunan negeri... bukannya medan serangan antara parti') + Zahid Hamidi (BN/Umno president, referenced by Khaled: 'Seperti ditekankan Presiden UMNO... kempen perlu dijalankan secara berhemah'). Counters the 'derhaka'/personal-attack + resign-narrative friction. A de-escalation / norms-strengthening signal across the partisan divide. [PRIORITY PIR-16] - multi-leader convergence. Quiet-corroboration cycle; the convergence firms up but no viral amplification >50% this cycle."
+    }
+  ],
+  "trend_summary": {
+    "revision": "revision-15 (built on entities-20260719-1954.json, 228 entities, 13 cycles, finalized 01:54 MYT 20 Jul)",
+    "cycle_classification": "QUIET corroboration (Day-2 dawn, post-midnight MYT). The 182000 cycle fetched 5 files of which 1 was genuinely fresh (BH BM Khaled 'PM hak mutlak' 23:45). All 8 mandatory PIR-06 [CRITICAL]-watch gnews queries returned 0. The 1954 build adds +2 new entities + 7 context updates over the 226-entity 1725 build used by rev14. NO new [CRITICAL] threshold crossed (13th consecutive cycle). rev15 carries rev14 forward with corroborating nudges.",
+    "pir_06": {
+      "verdict": "[CRITICAL CARRIED - 13th consecutive cycle; no new threshold]. Bersatu sharp-negative internal-fracture signal CONFIRMED and stable across the SEVEN converging triggers (quorum+RoS two-pronged; 'lebih hebat' new-coalition; 'sasar bentuk kerajaan' solo-24-seat; 'PN toksik'; Hamzah rebuke; Khaled 'KO habis' elimination call; Khaled 'kacau daun'). Muhyiddin -0.92 and Bersatu -0.88 UNCHANGED this cycle (no >30% shift; no shift at all). The 182000 cycle added only CORROBORATION: Khaled's 'PM hak mutlak / budi bicara PM' Johol framing widened from 1-outlet (Awani) to 4-outlet (Awani BM + NST EN + BH BM + FMT BM) -> NEW entity 'PM discretion on minister appointments' [PRIORITY] (BN counter-line to the resign-narrative; rhetorical, NOT a formal PN-MT expulsion/withdrawal/quorum signal). Khaled Nordin score -0.30 -> -0.31 (marginal), source_count 4 -> 5.",
+      "numeric_shift_check": "rev14 -> rev15 deltas: Muhyiddin -0.92 stable (0%); Bersatu -0.88 stable (0%); Bersatu-PN fracture -0.89 stable; PN-removal -0.90 stable; toxic PN -0.78 stable; kuorum -0.65 stable; RoS -0.62 stable; lebih hebat -0.78 stable; sasar bentuk kerajaan -0.80 stable; pecat Tang Jay Son -0.40 stable; Kiandee -0.25 stable. Khaled Nordin -0.30 -> -0.31 (+3.3%, well under 30%). NO PIR-06 entity crossed the >30% sharp-shift threshold. [CRITICAL] continues via the qualitative Bersatu sharp-negative internal-fracture rule.",
+      "bersatu_sharp_negative": "YES - internal-fracture signal sharp-negative, multi-publisher hard-news CONFIRMED across SEVEN converging triggers; STABLE (not escalating) this cycle. Formal PN-MT expulsion notice / Bersatu withdrawal absent for the 13th consecutive cycle. Most likely near-term path remains Bersatu voluntary 'lebih hebat' exit + solo-24 contesting, NOT formal pecat.",
+      "lebih_hebat_new_coalition_sentiment": "Director-flagged. Carried -0.78 CRITICAL. No escalation 13th cycle. Muhyiddin confirmed Bersatu will form a new, 'more formidable' coalition after PRN NS; remains at hint/bayangan stage; no formal launch 18-19 Jul.",
+      "sasar_bentuk_kerajaan_sentiment": "Director-flagged. Carried -0.80 CRITICAL. Bersatu contests 24 seats under own logo (EXCEEDS simple-majority 19) targeting solo state-government formation; hard-news (MalaysiaGazette + Sinar) = [CRITICAL]. DIRECTLY CONTRADICTS PN-MB-concedes-to-BN + joint-manifesto + kongsi-pentas. Loke 'PH sasar 23 kerusi' is PH-attributed safe-majority (PRIORITY, NOT CRITICAL). No change this cycle.",
+      "wawasan_admission_sentiment": "Carried -0.15 PRIORITY. Hamzah's Wawasan + Pejuang admitted into PN; Wawasan+PAS bloc stabilizes PN against Bersatu exit. No change this cycle.",
+      "ros_complaint_disruption_sentiment": "Carried -0.62 CRITICAL. Two-pronged: Kiandee RoS-intervention re: MPT quorum + Tun Faisal RoS complaint disrupting PN seat negotiations. No change this cycle.",
+      "pdm_klawang_reopen_sentiment": "Carried -0.22 PRIORITY WATCH. PDM Klawang shut 'kerana tak faham kerjasama BN-PN' (Jalaluddin); expects reopen 1-2 days. No fresh update this cycle; watch Day-2 for reopen confirmation.",
+      "toxic_termination_pecat_kuorum_lebih_hebat_trajectory": "All carried, STABLE. 'toxic PN' -0.78 CRITICAL; 'lebih hebat' -0.78 CRITICAL; 'kuorum' -0.65 CRITICAL; 'pecat' (Tang Jay Son, Gerakan) -0.40 declining. Formal pecat/termination NOT crossed. Khaled 'KO habis' electoral-elimination rhetoric adjacent but NOT a formal PN-MT action (BN-VP voice, voters-targeted).",
+      "threshold_status": "Formal pecat/termination NOT crossed (13th consecutive cycle). 7 converging [CRITICAL] triggers; formal PN-MT expulsion notice absent. Trajectory deepening via Khaled elimination rhetoric (rev14) but FLAT this cycle.",
+      "bn_pn_cooperation_stages": "4-stage BN-PN cooperation formalization (from rev14) UNCHANGED this cycle: (1) seat-swap, (2) gabung-jentera machinery merger +0.48, (3) manifesto bersepadu joint manifesto +0.48, (4) kongsi pentas joint ceramah +0.40, plus MB-concession-to-BN +0.15. WATCH: does 24 Jul BN manifesto launch become a JOINT BN-PN event?",
+      "pm_discretion_new_entity": "NEW [PRIORITY] entity 'PM discretion on minister appointments (hak mutlak PM)'. Khaled's BN counter-line to the resign-narrative (AMH demand / Tok Mat ready / Anwar firewall), 4-outlet. Frames ministerial tenure as PM prerogative; deflects the resign-demand. [PRIORITY] not [CRITICAL] (rhetorical, not PN-MT formal action).",
+      "offsetting_signals": "Cooperation signals carried FLAT this cycle: gabung-jentera +0.48, joint-manifesto +0.48, kongsi-pentas +0.40, MB-concession +0.15, BN +0.40, PAS/Hadi -0.22. Khaled 'gelombang Melayu ke BN' +0.30 carried. Zahid +0.20 -> +0.22 (clean-campaign 'berhemah' reference). No new cooperation-stage escalation this cycle."
+    },
+    "pir_16": {
+      "verdict": "[CRITICAL CARRIED - 'sasar bentuk kerajaan' + 'lebih hebat' persist at CRITICAL; STABLE]. The 182000 cycle adds the NEW 'bipartisan clean-campaign convergence' [PRIORITY] (+0.42) - the clean-campaign / state-development-focus call now spans Loke(PH) + Anwar(PM) + Khaled(BN) + Zahid(BN), a cross-partisan de-escalation / norms-strengthening signal that counters the 'derhaka'/personal-attack + resign-narrative friction. 'campaign on policies' (Loke) firmed +0.40 -> +0.42 (4-publisher). NO viral amplification >50% this cycle (quiet dawn window).",
+      "viral_amplification_gt50": "NOT FIRED this cycle (quiet dawn; no narrative showed >50% volume increase). 'lebih hebat' viral amplification remains a carried (rev13-14) signal, not re-triggered.",
+      "hard_news_corroboration_bersatu_exit_or_sasar": "FIRED (carried) - 'sasar bentuk kerajaan' (Bersatu-attributed, MalaysiaGazette + Sinar) = [CRITICAL] and 'lebih hebat' (multi-publisher) = [CRITICAL] both persist. The specific 'Bersatu exit imminent?' mkini framing remains PRIORITY (viral-tier) because hard-news corroboration of THAT exact framing is absent across 13 cycles; substantial evidence exists for the adjacent 'sasar' + 'lebih hebat' signals.",
+      "bersatu_kacau_daun_sentiment": "Carried -0.58 PRIORITY (rev14 escalation with FIRST BN-VP Khaled corroboration). NOT re-escalated this cycle. Challenges 'penyatuan undi Melayu' (+0.15 carried, further declining) - Bersatu 24 solo + 8 overlaps + Khaled elimination rhetoric frames Bersatu as the splitter.",
+      "sasar_vs_mb_after_prn_vs_joint_manifesto_vs_kongsi_pentas": "4-way tension UNCHANGED: 'sasar bentuk kerajaan' -0.80 CRITICAL (Bersatu solo 24-seat) vs 'MB after PRN' +0.15 (PN concedes MB to BN) vs 'BN-PN joint manifesto' +0.48 vs 'kongsi pentas' +0.40. NEW 'PM discretion' framing (Khaled) sidesteps the resign-axis by asserting PM prerogative.",
+      "makmal_politik_sentiment": "Carried +0.25 improving. Hadi + Zahid + Zaharuddin Sani + Annuar: NS PRN as political laboratory for PRU16 PN-BN cooperation model. 'Ujian formula' stage per Syahir. No change this cycle.",
+      "bipartisan_clean_campaign_convergence_new": "NEW [PRIORITY] entity. Cross-partisan clean-campaign / state-development-focus convergence: Loke(PH) + Anwar(PM) + Khaled(BN) + Zahid(BN). +0.42 improving, 4-source. De-escalation signal; counters derhaka/personal-attack + resign friction. No viral >50% this cycle.",
+      "mca_biggest_loser_and_rebuttal_trajectory": "Carried STABLE. MCA -0.48 declining (triple pressure: Loke 'biggest loser' + Saw Yee Fung told to skip NS + Chong Sin Woon WhatsApp viral 9,100 likes). Wee/Mah Hang Soon still silent. Rebuttal = containment. No fresh MCA escalation this cycle.",
+      "dap_coalition_intolerant_frame_13_duns": "Carried -0.45. Hadi 'reject unnatural Malay groups with DAP' targets 13 non-Malay DUNs. Counter: Lim Kit Siang rejects Islamophobia; Madani reforms (Teo). No change this cycle.",
+      "majoriti_mudah_vs_not_taking_for_granted": "'majoriti mudah' NOT yet quoted (latent, watch 24 Jul BN manifesto). 'not taking for granted' (Nazri) + 'no easy path for political top guns' active. Loke 'PH sasar 23 kerusi' +0.27 improving - implicitly says 19 'majoriti mudah' is NOT enough (23 = safe).",
+      "resign_narrative_chain": "Carried STABLE; Khaled adds BN-VP containment this cycle. Chain: AMH joint statement -> Anwar firewall -> Tok Mat 'ready to resign' -> Akmal conditional -> Hassan Karim PKR dissent -> Nga pledge context -> Khaled 'dismisses AMK' (now 4-outlet) + 'PM discretion' (NEW). The resign-axis is being contained from BOTH the PM (Anwar firewall) and BN-VP (Khaled prerogative framing) sides.",
+      "madani_reforms_continuity_ph_counter": "Carried +0.42 improving (Teo Nie Ching). PH's strongest incumbent-performance pitch; DAP 'undeterred' after Johor. No change this cycle."
+    },
+    "pir_07": {
+      "verdict": "NO critical flag. No seat shows incumbent/leading-candidate sentiment drop >20% (Aminuddin +0.62 stable; Bakri Sawir +0.45 stable; Tok Mat +0.62 stable). Director-flagged seats carried, NOT intensifying: Pertang 'derhaka' (corroborated, Jalaluddin rebuttal); PDM Klawang shutdown/reopen (persists, watch Day-2 reopen); N.14 Ampangan defector-framing (active not intensifying); 'fleeing Sikamat' (persists not intensifying). N.19 Johol + Saiful Yazan corroborated to 4-outlet this cycle.",
+      "incumbent_drop_gt20": "NOT DETECTED. Aminuddin +0.62 stable; Bakri Sawir +0.45 stable; Tok Mat +0.62 stable/improving; Saiful Yazan +0.12 stable; Zaifulbahri +0.10 stable. No incumbent/leading-candidate drop >20%.",
+      "pertang_derhaka_friction": "Carried [PRIORITY]. Corroborated (BH+NST+Metro). Jalaluddin rebuttal 'tak masuk akal tuduh saya derhaka'; Onn Hafiz 'DNA UMNO bukan penderhaka'. Active + corroborated; rebuttal contains intensification. BN manifesto launch 24 Jul here (alongside Linggi). No fresh escalation this cycle.",
+      "pdm_klawang_shutdown_reopen_impact": "Carried [PRIORITY WATCH]. PDM Klawang tutup 'kerana tak faham kerjasama BN-PN'; Jalaluddin expects reopen 1-2 days. N.28 Klawang +0.25 declining (carried). Incumbent Bakri Sawir +0.45 stable. Watch Day-2 for reopen.",
+      "n14_defector_intensification": "NOT DETECTED (framing present, carryover, not intensifying). N.14 Ampangan -0.15 stable. Nazri Kassim (PH, 'tidak memandang mudah' = Director [PRIORITY]) + Dr Rafie (PN/Wawasan).",
+      "bn_manifesto_launch_24_jul": "UPCOMING (4 days) at DUN Linggi (N.32) + Pertang. 4-source corroborated. HIGH-PRIORITY watch: JOINT BN-PN launch given Annuar 'manifesto bersepadu' + kongsi-pentas 4-stage formalization? Trajectory suggests likely.",
+      "ph_manifesto_launch_20_jul": "TODAY (20 Jul), officiated Amirudin Shari, Klana Resort. 5-outlet corroborated. Centres on 'kesinambungan Tok Min' (Aminuddin continuity). +0.32 improving (carried). Watch for Day-2 coverage.",
+      "evening_day1_to_day2_dawn_dispatch": "rev15 captures the post-midnight / Day-2-dawn window: Khaled 'PM hak mutlak' 4-outlet corroboration + Loke '23 kerusi' FMT BM full-text recovery. Quiet cycle; 19 permits approved, 1 election-offense report (verbal dispute, no investigation paper).",
+      "n19_johol_corroboration": "N.19 Johol +0.10 -> +0.15 (Khaled BN machinery launch now 4-outlet: Awani BM + NST EN + BH BM + FMT BM). Saiful Yazan Sulaiman (BN incumbent) +0.10 -> +0.12, source_count 1 -> 4. Mohd Zailan (PH) unchanged."
+    },
+    "delta_vs_rev14": {
+      "new_entities_rev15": [
+        "PM discretion on minister appointments (hak mutlak PM) - [NEW PIR-06, PRIORITY, 4-outlet Khaled BN counter-line to resign-narrative]",
+        "bipartisan clean-campaign convergence (state-development focus) - [NEW PIR-16, PRIORITY, +0.42, Loke+Anwar+Khaled+Zahid cross-partisan]"
+      ],
+      "revised_entities_rev15": [
+        "Mohamed Khaled Nordin: -0.30 -> -0.31; source_count 4 -> 5 (Awani added for 'PM hak mutlak' framing); [PRIORITY]",
+        "Khaled dismisses AMK resign-call: -0.15 -> -0.16; alert none -> priority; source_count 1 -> 4 (4-outlet corroborated)",
+        "campaign on policies not personal attacks (Loke): +0.40 -> +0.42; source_count 3 -> 4 (bipartisan expansion)",
+        "Ahmad Zahid Hamidi (Zahid): +0.20 -> +0.22; source_count 3 -> 4 ('berhemah' clean-campaign reference)",
+        "PH sasar 23 kerusi (safe majority / 8123): +0.25 -> +0.27; source_count 5 unchanged (FMT BM 5th-outlet full-text confirms count)",
+        "N.19 Johol (Saiful Yazan vs Mohd Zailan): +0.10 -> +0.15; source_count 2 -> 4 (Khaled machinery launch 4-outlet)",
+        "Saiful Yazan Sulaiman (BN Johol incumbent): +0.10 -> +0.12; source_count 1 -> 4 (introduction corroborated)"
+      ],
+      "unchanged_critical_entities": [
+        "Muhyiddin Yassin -0.92, Bersatu -0.88, Bersatu-PN fracture -0.89, PN-removal -0.90, lebih hebat -0.78, sasar bentuk kerajaan -0.80, toxic PN -0.78, kuorum -0.65, RoS -0.62, pecat Tang Jay Son -0.40, Kiandee -0.25, PN Supreme Council -0.55, Bersatu MPT -0.72 - ALL UNCHANGED (13th consecutive cycle, no new threshold)."
+      ]
+    },
+    "collection_limitations": [
+      "rev15 ingests the 228-entity 1954 build (cycle 182000, finalized ~01:54 MYT 20 Jul = Day-2 dawn). It is a QUIET corroboration cycle: 5 files fetched, 1 genuinely fresh (BH BM Khaled 23:45); all 8 mandatory PIR-06 [CRITICAL]-watch gnews queries returned 0. Sentiment deltas are corroborating nudges, not escalations.",
+      "rev15 inherits all rev14 collection limitations (Kiandee NST headline-intelligence only; mkini 'Bersatu exit imminent?' body paywalled; 'barking dogs' Albert Tei paywalled; N.20 Bembang candidate detail unrecovered; Mah Hang Soon response to Loke 'biggest loser' not surfaced).",
+      "Day-2 dawn is a low-activity window; ceramah/ground coverage resumes Day-2 daytime. Watch for PDM Klawang reopen confirmation, PH manifesto 20 Jul coverage, and any Bersatu Supreme Council response to the quorum+RoS pressure.",
+      "Folder migration: rev15 writes to 2026-07-19 (hyphenated, per mission YYYY-MM-DD spec). The 20260716 sentiment-analysis 1-day gap remains unfilled.",
+      "Score convention SIGNED per mission directive (rev1-9 unsigned; rev10+ converted). PIR weights PIR-06=2.0, PIR-16=1.8, PIR-07=1.3.",
+      "Alert-count change rev14->rev15: priority 48 -> 51 (+2 new entities both priority; +1 'Khaled dismisses AMK' upgraded none->priority on 4-outlet corroboration). Critical 13 unchanged. None 174 -> 173."
+    ],
+    "next_actions": [
+      "PIR-06 (HIGHEST): Watch Bersatu Supreme Council formal response to Kiandee quorum + RoS two-pronged pressure (13 cycles, no formal action). Monitor Muhyiddin 'lebih hebat'/'sasar' for FORMAL launch/withdrawal (would cross next tier). Watch 24 Jul BN manifesto launch - JOINT BN-PN event? Monitor PDM Klawang reopen (Day-2).",
+      "PIR-16 (HIGHEST): Track 'bipartisan clean-campaign convergence' - does it hold through Day-2 ceramah or fracture under 'derhaka'/resign pressure? Watch MCA rebuttal (Wee/Mah Hang Soon counter to Loke 'biggest loser'). Track Khaled 'PM discretion' framing - does it draw PH/AMH response? Watch 'majoriti mudah' at BN manifesto 24 Jul.",
+      "PIR-07: Capture Day-2 ceramah for T1 seats - Klawang (cousins + PDM reopen), Linggi (Aminuddin + BN manifesto 24 Jul JOINT?), Chennah (Loke vs Siow, demographics risk + transport-minister rebuttal), Rantau (Tok Mat), Pertang (derhaka), Johol (Khaled machinery). Monitor razor-margin Kota + 5-corner Nilai/Sri Tanjung. Watch Nga response.",
+      "Backfill the 20260716 sentiment-analysis 1-day gap. Reconcile folder migration (hyphenated 2026-07-19 vs non-hyphenated 20260719)."
+    ]
+  }
+}

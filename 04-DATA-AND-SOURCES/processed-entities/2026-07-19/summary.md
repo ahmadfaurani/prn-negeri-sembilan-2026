@@ -313,3 +313,85 @@ PN concedes the NS MB post to BN, merges machinery (gabung jentera), prepares a 
 ---
 
 *Entity extraction complete. 228 entities saved to `entities-20260719-1954.json`. 2 new entities, 7 context updates. [CRITICAL] count unchanged at 14 (no new threshold crossed; 13th consecutive cycle). [PRIORITY] count +2 (103→105). Cycle 182000 = QUIET corroboration (Day-2 dawn window): 5 files fetched, 1 genuinely-fresh (BH BM Khaled 23:45 MYT), all 8 mandatory PIR-06 [CRITICAL]-watch gnews queries returned 0. PIR-06 [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle.*
+
+
+---
+
+## Extraction Run 20260719-2225 (5th carry-forward; cycles 200000 + 212300 incorporated)
+
+**Run basis:** Same Director-approved 19 Jul 17:25 MYT cycle (4th carry-forward label retained per Director mission spec). This run extends the entity corpus with the two cycles fetched AFTER the 1954 run:
+
+- **200000 cycle** (04:03 MYT 20 Jul cutoff): 1 fresh NST RSS file (Zahid World Cup hosting — sports/non-PRN, marginal context-update only)
+- **212300 cycle** (05:25 MYT 20 Jul cutoff): 12 files total — 3 fresh RSS false-positives (Argentina-Spain World Cup final + Fahmi RTM sports coverage, all non-PIR) + 9 gnews headline-intel duplicates of prior-cycle items (including the verified FALSE-POSITIVE KOHA.net "kuorum" hit — a Kosovo/Albania assembly resolution on missing persons, UNRELATED to Bersatu/PN-MT)
+
+**Output:** `entities-20260719-2225.json` — **230 entities** (228 base + 2 new): PIR-06=55, PIR-07=107, PIR-16=66 + 1 dual-tag context-update; critical=14, priority=107, normal=109.
+
+**Cumulative prior runs:** 1217 (133 entities, 4 cycles) → 1435 (205 entities, 8 cycles) → 1725 (226 entities, 12 cycles) → 1954 (228 entities, 13 cycles) → **2225 (230 entities, 15 cycles)**
+
+### What's NEW this run (2 new entities, 3 context updates)
+
+#### 🟢 NEW PIR-06 entities (2 — both [PRIORITY], cooperation-hardening vector)
+
+1. **Zambry (Zambry Abd Kadir)** — NEW PIR-06 [PRIORITY] person. Umno Secretary-General (former Perak MB). Headline-intel (Newswav, 18 Jul 09:22 MYT, gnews): Zambry (BN/Umno Sec-Gen) met Samsuri (PN chairman / Terengganu MB) in **Port Dickson** — an NS constituency (N.05, Director PIR-06 Tier-4 seat). Cross-surfaced via the mandatory "Bersatu sole opposition Muhyiddin" gnews query.
+
+2. **BN-PN pact Port Dickson meeting (Zambry-Samsuri)** — NEW PIR-06 [PRIORITY] narrative. The leadership-level BN-PN pact confirmation on NS soil. Pre-dates the 19 Jul 4-stage formalization trajectory (seat-swap → gabung jentera → manifesto bersepadu → kongsi pentas). The Zambry-Samsuri PD meeting is the **POLITICAL-LEADERSHIP tier** of that trajectory — the precursor enabling the operational tiers that followed. **First explicit Tier-4-seat (N.05) leadership-meeting intel**: a PIR-06 cooperation signal on Tier-4 turf.
+
+> ⚠️ These two entities are on the **cooperation-hardening** vector, NOT the coalition-fracture vector. They REINFORCE the BN-PN pact and do NOT cross the [CRITICAL] threshold (which is reserved for "pecat/keluar/tarik diri/toxic PN/kuorum/lebih hebat" entities on the fracture vector). The [CRITICAL] flag (Kiandee quorum escalation) remains MAINTAINED on the FRACTURE vector; this run strengthens the COUNTER-vector.
+
+#### 🔄 Context updates (3)
+
+1. **"sole opposition" narrative** — now **5-outlet corroborated**: FMT (18 Jul 16:52) + The Vibes (18 Jul) + NST (18 Jul 08:31) + The Star (18 Jul 23:24) + Malay Mail (18 Jul 08:53). The NST/Star/Malay Mail items were freshly surfaced this cycle as gnews headline-intel cross-surfaced via the "Bersatu sole opposition Muhyiddin" query. Hard-news corroboration of Muhyiddin's "Bersatu sole opposition" framing is now multi-publisher. **PIR-16 [PRIORITY]** — narrative reinforcement, NOT a [CRITICAL] "Bersatu exit imminent?" corroboration (the Director [CRITICAL] trigger requires hard-news of an actual imminent exit, not just self-positioning as the sole opposition voice).
+
+2. **"Bersatu exit from PN imminent?" narrative** — **14th consecutive cycle** (200000 + 212300) with ZERO fresh hard-news items from the mandatory gnews "bersatu exit pn" query. The 212300 cycle's sole "kuorum" gnews hit was a verified **FALSE POSITIVE** (KOHA.net article on a Kosovo/Albania assembly resolution on missing persons — unrelated to PN-MT / Bersatu). **[CRITICAL] threshold (hard-news corroboration of 'Bersatu exit imminent?') STILL NOT CROSSED — remains [PRIORITY PIR-16].** mkini SNAPSHOT (18 Jul 18:00) remains the lone viral-tier item.
+
+3. **Ahmad Zahid Hamidi (Zahid)** — marginal context-update: NST "Malaysia dreams of hosting World Cup, says Zahid" (20 Jul 03:15 MYT, Bangi Semarak Subuh programme, Argentina-Spain World Cup final giant-screen viewing). Zahid voices national aspiration to host FIFA World Cup. **Non-PRN / sports context**; not a PIR-06 threshold signal. Zahid remains BN chairman / Umno president; no new NS-PRN-relevant statement captured in the 200000 or 212300 cycles.
+
+### PIR-06 [CRITICAL] status — MAINTAINED, 15th consecutive cycle with no threshold crossing
+
+| # | Trigger | Status |
+|---|---------|--------|
+| 1 | **"lebih hebat" new-coalition declaration** (Muhyiddin, Sinar 17 Jul) | [CRITICAL] MAINTAINED — no formal launch 18-20 Jul |
+| 2 | **"sasar bentuk kerajaan negeri" Bersatu solo 24-seat governing bid** (MalaysiaGazette + Sinar 19 Jul) | [CRITICAL] MAINTAINED — Bersatu-attributed hard-news confirmed; no formal withdrawal of solo bid |
+| 3 | **Kiandee quorum escalation** (FMT 11 Jul) | [CRITICAL] MAINTAINED — formal PN-MT expulsion notice / Bersatu withdrawal NOT issued across 15 cycles |
+
+**[CRITICAL]-tier adjacent signals (sustained, not escalated):**
+- toxic PN (Muhyiddin) — Hamzah rebuttal, no new escalation
+- pecat Tang Jay Son (Gerakan) — no new intra-PN pecat events
+- RoS complaint disrupting PN seat negotiations (Tun Faisal) — no formal RoS action
+- gabung jentera (machinery merger) — operationalized, no fracture
+- kuorum (MPT quorum dispute) — contested, not resolved; gnews "kuorum" surfaced KOHA.net false positive only
+
+**Day-2 dawn window (20 Jul 01:17–05:25 MYT) = LOW YIELD.** The 200000 and 212300 cycles produced no new election developments — Day-2 dawn news cycle is dominated by overnight sports content (World Cup final) and historical-but-newly-surfaced gnews headline-intel. The genuinely-new analytical delta is limited to the Zambry-Samsuri Port Dickson meeting (an 18 Jul item freshly surfaced via gnews, not a new same-day development).
+
+### Tier-4 seat watch (Director PIR-06 list)
+
+| Seat | Status this run |
+|------|-----------------|
+| N.04 | No new intel; no Bersatu candidate withdrawals |
+| **N.05** | **NEW: Zambry-Samsuri Port Dickson meeting — first explicit Tier-4 (N.05) leadership-meeting intel (PIR-06 cooperation signal on Tier-4 turf)** |
+| N.13 (Sikamat) | No new intel; Tun Faisal (Bersatu) vs Razali (Wawasan/PN) vs Nor Azman (PH) |
+| N.14 (Ampangan) | No new intel; Dr Rafie (PN) vs Nazri Kassim (PH) |
+| N.23 | No new intel; no Bersatu candidate withdrawals |
+| N.25 (Labu) | No new intel; Maira (Bersatu) vs Ahmad Faez (PH) |
+| N.31 | No new intel; no Bersatu candidate withdrawals |
+| N.34 | No new intel; no Bersatu candidate withdrawals |
+
+### Watch entities (Director PIR-16 list — retained, no new intel this run)
+
+- **Mah Hang Soon** (MCA) — no statement/response detected; MCA rebuttal watch continues (only Wee's "not a coalition" defense has surfaced)
+- **Albert Tei** — 0 fresh items across 15 cycles
+- **"barking dogs"** — 0 fresh items across 15 cycles
+- **"majoriti mudah"** — not surfaced this cycle
+- **Muhyiddin graft trial** — not surfaced in today's collection
+
+### Pipeline status
+
+- **Total cycles run 2026-07-19:** 15+ (075200 → 212300 UTC = 15:25–05:25 MYT span)
+- **Total titles scanned:** ~2,500+
+- **Total entities:** 230 (PIR-06=55, PIR-07=107, PIR-16=66 + 1 dual-tag context-update; critical=14, priority=107, normal=109)
+- **PIR-06 [CRITICAL] flag:** MAINTAINED — formal PN Supreme Council expulsion/removal notice for Bersatu = **0 hits across ~2,500+ titles scanned** (15th consecutive cycle with no [CRITICAL] threshold crossing on the fracture vector)
+- **Day-2 dawn posture:** LOW YIELD. Next significant content window expected to be the **PH manifesto launch 20 Jul evening (Klana Resort, Seremban)** — Amirudin Shari officiating. Watch for the BN manifesto launch 24 Jul at DUN Linggi + Pertang (potential JOINT BN-PN event per Annuar's "manifesto bersepadu" confirmation).
+
+---
+
+*Run 2225 appended 2026-07-20 ~05:30 MYT (21:30 UTC 19 Jul) by PRN NS 2026 Entity Extraction Agent. TLP:AMBER. All entities carry source_url. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (15th consecutive cycle with no formal-threshold crossing on the fracture vector). Day-2 dawn window QUIET: 2 genuinely-new analytical items only (Zambry + BN-PN pact PD meeting, both PIR-06 [PRIORITY] cooperation-vector). The KOHA.net "kuorum" gnews hit was verified as a FALSE POSITIVE (Kosovo assembly, not Bersatu MPT).*

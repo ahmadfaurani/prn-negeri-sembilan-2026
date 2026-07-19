@@ -1563,3 +1563,105 @@ First run of this cycle (THIS_TS=195600) returned HTTP 000 for NST/BH/Utusan/TRP
 ---
 
 *Cycle 200000 section appended 2026-07-20 04:05 MYT (20:05 UTC 19 Jul) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (no formal-threshold crossing this cycle; 14th cycle with no [CRITICAL] threshold crossing). Day-2 pre-dawn window QUIET: 1 file created (NST World Cup/Zahid FALSE POSITIVE — sports/football, not NS PRN); 0 genuinely-new NS PRN articles; all sources returned content already collected. Operational note: transient network blip on first run (all 6 RSS feeds HTTP 000) recovered on re-test; failed-run JSON removed; successful re-run at 200000. All 8 mandatory PIR-06 [CRITICAL]-watch gnews queries returned 0. Genuinely-fresh post-02:33 MYT 20 Jul: 1 article (false positive). No new NS PRN intelligence to deliver → SILENT per mission rule.*
+
+---
+
+# ═══════════════════════════════════════════════════════════
+## CYCLE 20260719_212300 — 05:23 MYT 20 Jul (Campaign Day 2, Dawn Window — QUIET)
+# 13th carry-forward of 14:50 Director-approved cycle (mission brief: 4th carry-forward)
+# ═══════════════════════════════════════════════════════════
+
+**Fetch:** `_dawn2_fetch_20260719_212300.py` (FMT RSS + NST WP + BH WP + Utusan WP + TRP feed + Harian Metro /feed [all content:encoded] + Awani direct berita-politik [URL-path dedup fix maintained] + mkini direct 780451-780510 + **28 gnews queries incl. 5 NEW** [PH manifesto launch, Amirudin Shari manifesto, Bersatu sole opposition Muhyiddin, kongsi pentas BN PN, Anwar warning ministers BN]).
+**Prior titles baseline:** ~3,760 titles (all 14 prior cycles 011915→200000, ~2,100+ files).
+**Window:** post-04:00 MYT 20 Jul cutoff (Day-2 dawn; Malaysian news cycle dormant, pre-dawn MYT). Low-yield window expected and confirmed.
+
+## 📦 FILES CREATED THIS CYCLE: 12 (3 RSS full-text = false positives; 9 gnews headline-intel = historical but newly-surfaced; 0 Awani direct; 0 mkini)
+- **FMT RSS:** 50 total | 21 NS-relevant | **0 genuinely-new**
+- **NST feed:** 50 total | 12 NS-relevant | **0 genuinely-new**
+- **BH WP:** 50 total | 16 NS-relevant | **1 "new" (FALSE POSITIVE — "Argentina, Sepanyol terikat tanpa jaringan" 04:08 MYT, World Cup football, matched NS_RE on incidental token)**
+- **Utusan WP:** 10 total | 3 NS-relevant | **0 genuinely-new**
+- **TRP feed:** 30 total | 9 NS-relevant | **0 genuinely-new**
+- **Harian Metro /feed (PERMANENT):** 51 total | 18 NS-relevant | **2 "new" (BOTH FALSE POSITIVES — "Argentina, Sepanyol terikat babak pertama" 04:04 MYT + "Fahmi puas hati prestasi RTM" 04:45 MYT — World Cup football + RTM sports broadcasting; Fahmi is Comms Minister but item is not NS PRN)**
+- **Awani direct (URL-path dedup fix maintained):** 0 genuinely-new berita-politik links (all current links already in prior_awani_paths, 20 catalogued). No new Awani NS content published in the 04:00-05:25 MYT 20 Jul window.
+- **mkini direct 780451-780510:** 0 new NS-relevant articles (60 IDs polled). The most-recent mkini NS article remains 780075 (Loke, prior 075200).
+- **gnews 28 queries (incl. 5 NEW):** 9 NS-relevant new headline-intel items saved. **0 genuinely-fresh** (all pre-cutoff; pubdates 18-19 Jul). Queries returning new items: "kuorum" (1 — FALSE POSITIVE, see PIR-06), "manifesto PH Negeri Sembilan" (1), "Bersatu sole opposition Muhyiddin" (4 — NEW query), "Anwar warning ministers BN" (3 — NEW query). **All 8 mandatory PIR-06 [CRITICAL]-watch queries** EXCEPT "kuorum" returned 0: lebih hebat (0), bersatu exit pn (0), sasar kerajaan negeri (0), pdm klawang (0), pn supreme council (0), merge machinery BN PN (0), joint manifesto BN PN (0). The "kuorum" hit is a FALSE POSITIVE (KOHA.net foreign-assembly resolution — see below). The 3 NEW queries (PH manifesto launch, Amirudin Shari manifesto, kongsi pentas BN PN) all returned 0.
+- **gnews-overwrite-RSS FIX:** APPLIED — 1 collision correctly handled ("Resign if you want to attack unity partners... [WATCH]" NST duplicate → `_gnews.md` suffix applied; no overwrite).
+
+## 🔴 PIR-06 — COALITION OPERATIONAL ARRANGEMENT — [CRITICAL] FLAG MAINTAINED, NO NEW THRESHOLD CROSSING (15th cycle)
+
+**[CRITICAL] status: MAINTAINED from prior 075200 cycle (Kiandee quorum escalation, originated 11 Jul).** This cycle did NOT detect (15th cycle confirmation):
+- Any formal PN-MT expulsion notice for Bersatu
+- Any Bersatu candidate withdrawal (24 solo Bersatu-logo candidates stable)
+- Any Kiandee/PN quorum escalation — **the "kuorum" gnews hit was a FALSE POSITIVE**: source = **KOHA.net** (foreign-policy/assembly outlet), title = "The assembly discussed with pain, but there was no quorum to vote on the resolution for the missing" (pub Sun 19 Jul 18:48 GMT = 02:48 MYT 20 Jul, pre-cutoff). This is a foreign assembly (likely Knesset/international) humanitarian-resolution story, **entirely unrelated to Malaysian PN-MT/Bersatu/Kiandee quorum.** Matched NS_RE on the "quorum" token only. **Not a [CRITICAL] threshold crossing.**
+- Any PN/Bersatu Supreme Council statement (gnews "pn supreme council" 0 items)
+- Any RoS intervention signal
+- Any "lebih hebat new coalition" formalization (gnews "lebih hebat" 0 items)
+- Any PDM Klawang reopening (gnews "pdm klawang" + "PDM Klawang reopen" both 0 items; shutdown story stands from prior 091800/102500)
+- Any NEW machinery-merger or joint-manifesto escalation (gnews "merge machinery" + "joint manifesto" both 0 items — the prior 131200/171500 NST/BH/METRO captures remain the freshest)
+
+### 🔴 NEW THIS CYCLE — gnews headline-intel (historical, newly-surfaced PIR-06 cooperation corroboration):
+**"BN-PN pact comes alive in Port Dickson as Zambry, Samsuri meet"** (Newswav, 18 Jul 01:22 GMT = 09:22 MYT, headline-intel):
+- **Zambry (UMNO Sec-Gen) + Samsuri (PN chairman) met in Port Dickson** — Port Dickson is an NS constituency (N.05, a PIR-06 Tier-4 seat). Leadership-level BN-PN meeting on NS soil. Newly-captured via the "Bersatu sole opposition Muhyiddin" query (cross-surfaced).
+- → `priority_pir-06_bn-pn-pact-comes-alive-in-port-dickson-as-zambry-samsuri-meet_20260719_212300.md`
+- **Significance:** A NEW PIR-06 cooperation-formalization data point — a top-level BN-PN leadership meeting in an NS Tier-4 constituency. Corroborates the BN-PN machinery-merger + joint-manifesto trajectory (prior 131200/171500). Pre-cutoff (18 Jul) but genuinely-new to the collection. **[PRIORITY PIR-06] — NOT [CRITICAL]** (cooperation signal, not expulsion/withdrawal/quorum).
+
+**"Muhyiddin says Bersatu remains sole opposition voice"** (NST Online, 18 Jul 08:31 GMT) + **"'Bersatu lone opposition party in Parliament'"** (The Star, 18 Jul 23:24 GMT) + **"Muhyiddin claims Bersatu is Parliament's only true Opposition amid shifting alliances"** (Malay Mail, 18 Jul 08:53 GMT):
+- The **"Bersatu sole opposition" PIR-16 keyword** is now **4-outlet corroborated** (NST + The Star + Malay Mail + prior The Vibes 18 Jul from 153300 cycle). Muhyiddin positions Bersatu as the only true opposition party (in Parliament/federal), distinct from PN-PAS which now cooperates with BN.
+- → 3 files saved this cycle (NST, The Star, Malay Mail headline-intel).
+- **[PRIORITY PIR-06+PIR-16]** — the "sole opposition" self-positioning is the PIR-16 "sole opposition" narrative keyword, multi-outlet. **NOT [CRITICAL]** — the [CRITICAL] trigger is specifically "Bersatu exit imminent?" or "Bersatu sasar bentuk kerajaan negeri", neither corroborated this cycle. Note: "sole opposition in Parliament" is a FEDERAL framing, not the state-level "sasar bentuk kerajaan negeri" escalation.
+
+**Tier-4 seat watch (N.04, N.05, N.13, N.14, N.23, N.25, N.31, N.34):** No Bersatu candidate withdrawals. NEW: Zambry-Samsuri Port Dickson meeting (above) is the first explicit Tier-4-seat (N.05) leadership-meeting intel — a PIR-06 cooperation signal on Tier-4 turf.
+
+## 🟠 PIR-07 — HIGHEST-PRIORITY BATTLEGROUNDS — NO NEW THIS CYCLE
+- No new PIR-07 battleground content. PH manifesto launch 20 Jul evening (officiated by Selangor MB Amirudin Shari; "manifesto for continuity"; 5-outlet corroborated) + BN manifesto 24 Jul at DUN Linggi + Pertang (4-source corroborated) remain the next major PIR-07 events — capture full coverage when they publish (20 Jul evening onward).
+- The NEW gnews queries "PH manifesto launch Negeri Sembilan" + "Amirudin Shari manifesto" both returned 0 (the launch event is tonight, 20 Jul evening — coverage expected in MYT evening/21 Jul morning cycles).
+- Tier-4 seats: N.13 Sikamat, N.14 Ampangan, N.25 Labu — no new intel. The Zambry-Samsuri Port Dickson (N.05) meeting is the only Tier-4 movement this cycle.
+
+## 🟡 PIR-16 — FIRST DOMINANT CAMPAIGN NARRATIVES — NEWLY-SURFACED CORROBORATION (historical, pre-cutoff)
+
+### 🔴 "Bersatu sole opposition" — 4-OUTLET CORROBORATION (see PIR-06 above):
+- The "sole opposition" PIR-16 narrative keyword is now multi-outlet: NST Online + The Star + Malay Mail (this cycle) + The Vibes (prior 153300). Muhyiddin consistently positions Bersatu as the only true opposition (vs PN-PAS cooperating with BN). **[PRIORITY PIR-16]** — NOT [CRITICAL] (the [CRITICAL] trigger is "Bersatu exit imminent?" or "Bersatu sasar bentuk kerajaan negeri"; "sole opposition in Parliament" is a federal framing, not the state-government-targeting escalation).
+
+### 🔴 Anwar "resign if you attack unity partners" warning — multi-outlet corroboration (gnews, "Anwar warning ministers BN" query):
+- **"Resign if you attack fellow Unity Government partners, Anwar enforces discipline"** (The Vibes, 19 Jul 08:36 GMT = 16:36 MYT, headline-intel) — The Vibes version of the Anwar warning that triggered the Tok Mat "ready to resign" narrative (prior 131200). Newly-captured.
+- **"Resign if you want to attack unity partners, Anwar tells ministers [WATCH]"** (NST Online, 19 Jul 14:25 GMT = 22:25 MYT + duplicate 06:47 GMT) — NST WATCH (video) version of the Anwar warning. Newly-captured.
+- → 3 files saved (The Vibes + 2 NST versions; 1 collision handled by gnews-overwrite-RSS FIX → `_gnews.md` suffix).
+- **Significance:** Enriches the resign-narrative trigger mapping. The Anwar warning is now multi-outlet (The Vibes + NST WATCH + prior NST/FMT/BH text versions). PIR-16 resign-narrative: AMH demand → **Anwar warning (now multi-outlet)** → Tok Mat "ready to resign" → Akmal "Nga resign too" → Hassan Karim PKR dissent → Nga resignation-pledge context. The Anwar warning is the 2nd node in this chain, now better-sourced.
+
+### PH "continuity" narrative (gnews, "manifesto PH Negeri Sembilan" query):
+- **"Negeri Sembilan voters called on to back PH for continuity of stable and integrity-based govt"** (Newswav, 19 Jul 02:47 GMT = 10:47 MYT, headline-intel) — PH "continuity of stable, integrity-based govt" framing. Corroborates the Day-1 Teo/Loke "Madani reforms / manifesto for continuity" dinner narrative (prior 142800/153300/171500). Newly-captured. → `priority_pir-16_negeri-sembilan-voters-called-on-to-back-ph-for-continuity-of-stable-and-integri_20260719_212300.md`
+
+### PIR-16 [CRITICAL] check — "Bersatu exit imminent?" + "sasar bentuk kerajaan negeri" hard-news corroboration: STILL NOT DETECTED.
+- gnews "bersatu exit pn" 0 items this cycle (15th cycle confirmation — all historical Feb-Jun 2026). No hard-news outlet corroborated "Bersatu exit from PN imminent?" in the 04:00-05:25 MYT 20 Jul window. The mkini SNAPSHOT "Bersatu exit from PN imminent?" (18 Jul 18:00, prior 034922) remains the lone viral-tier item. **PIR-16 [CRITICAL] threshold NOT CROSSED.**
+- gnews "sasar kerajaan negeri" 0 items this cycle. Muhyiddin "Bersatu sasar bentuk kerajaan negeri solo (24 seats)" framing (prior 091800) NOT picked up by additional hard-news. Threshold NOT crossed.
+- **MCA rebuttal watch:** gnews "mca loke rebuttal" 0 items this cycle. MCA Youth chief Saw Yee Fung's public questioning of BN-PAS cooperation (TRP, 17 Jul, prior 153300) remains the closest-to-rebuttal pickup. MCA top-leadership (Wee/Mah) rebuttal watch continues (no escalation).
+
+## 📈 CYCLE DELTA: 200000 → 212300 (04:00 → 05:23 MYT 20 Jul, ~1h23m)
+- **Prior titles baseline:** ~3,760 (all 14 prior cycles)
+- **Files created:** 12 (3 RSS full-text = false positives + 9 gnews headline-intel)
+- **Genuinely-fresh post-cutoff (post-04:00 MYT 20 Jul): 3 items — ALL FALSE POSITIVES** (BH Argentina/Sepanyol World Cup 04:08, METRO Argentina/Sepanyol babak pertama 04:04, METRO Fahmi RTM sports 04:45). Genuinely-fresh NS PRN content = 0.
+- **Genuinely-new (pre-cutoff, newly-captured) high-value:** 9 gnews headline-intel items (all 18-19 Jul, historical but newly-surfaced):
+  - "BN-PN pact comes alive in Port Dickson as Zambry, Samsuri meet" (Newswav 18 Jul) — **NEW PIR-06 cooperation signal** (Zambry-Samsuri leadership meeting in NS Tier-4 seat N.05)
+  - "Bersatu sole opposition" ×3 (NST + The Star + Malay Mail, 18 Jul) — **4-outlet corroboration** of the "sole opposition" PIR-16 keyword (with prior The Vibes)
+  - Anwar "resign if you attack unity partners" ×3 (The Vibes + NST WATCH ×2, 19 Jul) — multi-outlet corroboration of the resign-narrative trigger
+  - PH "continuity of stable, integrity-based govt" (Newswav 19 Jul) — PH continuity narrative corroboration
+- **False-positive rate (HIGH this cycle for fresh items):** 3 of 3 fresh items are false positives (World Cup football + RTM sports broadcasting) — the Day-2 dawn window surfaces sports content (World Cup 20 Jul) rather than NS PRN. Honest trade-off documented. The "kuorum" gnews hit is also a false positive (KOHA.net foreign assembly).
+- **PIR-06 status:** **[CRITICAL] MAINTAINED** (Kiandee quorum, prior 075200). No new formal-threshold crossing (15th cycle). The "kuorum" gnews hit was a FALSE POSITIVE (KOHA.net foreign-assembly resolution — verified, unrelated to PN-MT/Bersatu). NEW sub-threshold: Zambry-Samsuri Port Dickson meeting (PIR-06 cooperation on Tier-4 N.05 turf); "Bersatu sole opposition" 4-outlet corroboration (federal framing, PIR-16 keyword).
+- **PIR-16 status:** NOT [CRITICAL] — "Bersatu exit imminent?" + "sasar bentuk kerajaan negeri" hard-news corroboration NOT detected (15th cycle). MCA rebuttal NOT escalated. NEW corroboration: "sole opposition" 4-outlet; Anwar warning multi-outlet; PH continuity narrative.
+- **Source status:** All 7 curl-friendly sources (FMT + NST + BH + Utusan + TRP + METRO + Awani) confirmed HTTP 200 + reachable. Sinar/mStar/Bernama remain unresolved (HTTP 404 across all tested paths, 15th cycle — not retested this cycle, low priority). mkini paywall: 780451-780510 returned 0 new NS.
+- **Awani URL-path dedup fix:** CONTINUES WORKING (5th cycle) — 0 genuinely-new Awani articles (all current berita-politik links already in prior_awani_paths, 20 catalogued).
+- **gnews-overwrite-RSS FIX:** APPLIED — 1 collision correctly handled (NST "Resign if you want to attack unity partners... [WATCH]" duplicate → `_gnews.md` suffix; no overwrite). Fix confirmed stable across 5 cycles.
+
+## ⚠️ COLLECTION LIMITATIONS (updated)
+- **"kuorum" gnews false positive (NEW note):** The mandatory PIR-06 [CRITICAL]-watch query "kuorum" returned 1 item this cycle — but it was a FALSE POSITIVE from KOHA.net (foreign-assembly humanitarian-resolution story, English title "The assembly discussed with pain, but there was no quorum to vote on the resolution for the missing"). Matched NS_RE on the "quorum" token only. **Verified as unrelated to Malaysian PN-MT/Bersatu/Kiandee quorum.** Not a [CRITICAL] threshold crossing. This is the first non-zero "kuorum" hit across 15 cycles — important to flag as a false positive to avoid misreporting a quorum escalation. Recommend: future cycles add a Malaysia-context filter to the "kuorum" query (e.g. "kuorum PN" or "kuorum Bersatu" or "kiandee quorum") to reduce foreign-assembly false positives.
+- **Day-2 dawn window sports-false-positive pattern (NEW note):** All 3 genuinely-fresh RSS items this cycle are World Cup football / RTM sports-broadcasting (Argentina-Spain match 20 Jul, Fahmi RTM sports). The pre-dawn MYT window surfaces overnight sports content rather than NS PRN. Honest trade-off of the broad NS_RE (catches "fahmi", incidental tokens). Documented for analyst filtering.
+- **Harian Metro /feed (PERMANENT SOURCE — CONFIRMED STABLE, 3rd cycle):** HTTP 200, 51 items, content:encoded present. 2 "new" items this cycle (both false positives — World Cup). Source remains stable.
+- **Sinar Harian / mStar / Bernama (15th cycle, UNRESOLVED):** Not retested this cycle (all paths HTTP 404/000 across 14 prior cycles). Low priority given 7 working curl-friendly full-text sources.
+- **Awani URL-path dedup fix (CONTINUES WORKING, 5th cycle):** 0 genuinely-new Awani articles (all current berita-politik links already in prior_awani_paths, 20 catalogued). No new Awani NS content published in the 04:00-05:25 MYT 20 Jul window.
+- **gnews-overwrite-RSS FIX (maintained, 5th cycle):** 1 collision correctly handled (NST duplicate → `_gnews.md` suffix). Fix confirmed stable.
+- **gnews protobuf resolution via curl:** STILL infeasible (15th cycle confirmation). 9 items this cycle → 9 files. 0 genuinely-fresh.
+- **mkini paywall:** IDs 780451-780510 returned 0 NS-relevant articles (60 IDs polled). The most-recent mkini NS article remains 780075 (Loke, prior 075200). mkini NS coverage appears to lag RSS/gnews by 24h+.
+
+---
+
+*Cycle 212300 section appended 2026-07-20 05:27 MYT (21:27 UTC 19 Jul) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (no formal-threshold crossing this cycle; 15th cycle with no [CRITICAL] threshold crossing). Day-2 dawn window QUIET: 12 files created (3 RSS false-positives [World Cup football + RTM sports] + 9 gnews headline-intel historical-but-newly-surfaced). Genuinely-fresh post-04:00 MYT 20 Jul: 3 items — ALL false positives. Genuinely-fresh NS PRN content: 0. IMPORTANT: the "kuorum" gnews hit was a FALSE POSITIVE (KOHA.net foreign-assembly resolution, verified unrelated to PN-MT/Bersatu) — NOT a [CRITICAL] threshold crossing. NEW corroboration deltas (historical, newly-captured): "Bersatu sole opposition" now 4-outlet (NST + The Star + Malay Mail + prior The Vibes); Zambry-Samsuri Port Dickson meeting (Newswav 18 Jul — NEW PIR-06 cooperation signal on Tier-4 N.05 turf); Anwar "resign if you attack unity partners" multi-outlet (The Vibes + NST WATCH); PH "continuity of stable, integrity-based govt" (Newswav). All 8 mandatory PIR-06 [CRITICAL]-watch gnews queries returned 0 genuine PN/Bersatu hits. Freshest genuinely-NS article: none this cycle (all fresh items = false positives).*
