@@ -1,0 +1,3507 @@
+{
+  "date": "20260718",
+  "collection_date": "20260718",
+  "processing_timestamp_utc": "2026-07-18T23:31:04+00:00",
+  "processing_timestamp_myt": "2026-07-19T07:31:04+08:00",
+  "file_id": "entities_233104",
+  "cycle": "nomination-day-surge + Day-2 dawn enrichment (231029 cycle: FIRST genuinely-new-content cycle after 4 zero-delta passes; 2 brand-new Utusan PIR-07 articles 06:40/06:45 MYT 19 Jul + PIR-09 component-party items; entities_211155 baseline + 231029 enrichment)",
+  "classification": "TLP:AMBER",
+  "extractor": "prn_ns_entity_extraction_agent (scheduled cron)",
+  "director_priority_approved": "2026-07-18 15:00 MYT",
+  "source_count_total": 86,
+  "source_files_pir_relevant": [
+    "priority_pir06_kiandee-grounds-remove-bersatu_20260718_153142.md",
+    "priority_pir09_gerakan-expels-tang-jay-son_20260718_153142.md",
+    "priority_pir09_ampangan-day1-messaging-war_20260718_153142.md",
+    "priority_pir07_day1-campaign-battleground_20260718_153142.md",
+    "nstcommy_20260718_153251.md",
+    "utusancommy_20260718_153251.md",
+    "bhariancommy_20260718_153400.md",
+    "astroawanicom_20260718_153251.md",
+    "thestarcommy_20260718_153251.md",
+    "ohbulancom_20260718_153251.md",
+    "priority_pir06_bersatu-tidak-lagi-mahu-bersama-pn-ronald_170837.md",
+    "priority_pir06_bersatu-exit-pn-imminent-snapshot_170837.md",
+    "priority_pir06_bersatu-contest-own-flag_170837.md",
+    "priority_pir06_goodbye-pn-muhyiddin-raps-samsuri_170837.md",
+    "priority_pir09_mca-youth-stay-out-ns-polls_170837.md",
+    "priority_pir09_pn-camp-albert-barking-dogs_170837.md",
+    "malaysiakinicom_20260718_182751.md",
+    "nstcommy_20260718_182751.md",
+    "utusancommy_20260718_182751.md",
+    "thestarcommy_gn_20260718_182751.md",
+    "google_news_universalpnpecat_html_20260718_182751.md",
+    "collection_metadata.json (182751 cycle — stability/confirmation + 170837 escalation audit)",
+    "_scrape_results_194028.json (194028 cycle — 2nd zero-delta overnight confirmation pass, 0 new titles)",
+    "_scrape_results_205755.json (205755 cycle — 3rd zero-delta overnight confirmation pass, 0 new titles)",
+    "nstcommy_20260718_194028.md (NST gnews — surfaced English '103 candidates confirmed for 36-seat NS election', corroborating the already-counted 103/36 figure)",
+    "collection_metadata.json (205755 cycle — 3rd-pass stability + PIR-06 escalated-watch unchanged audit)",
+    "priority_pir-07_5-hot-seats-utusan_20260718_231029.md (NEW — 5 hot seats FULL candidate matchups + role affiliations; Utusan Elementor full-text 06:40 MYT 19 Jul)",
+    "priority_pir-07_3-coalitions-clash-utusan_20260718_231029.md (NEW — 3 coalitions strategy; Bersatu 24 own-logo seats + 7 Bersatu-vs-PN clash seats; 103 candidates/seat-structure from SPR Ramlan; Alzafny police; Utusan full-text 06:45 MYT 19 Jul)",
+    "priority_pir-06_bersatu-crossroads-nst_20260718_231029.md (NEW — NST 'Bersatu at a crossroads amid BN-PN cooperation'; headline-only, full text deferred gnews-encrypted; PIR-06 corroboration NOT a removal notice)",
+    "priority_pir-07_aminuddin-linggi-mstar_20260718_231029.md (NEW full-text — Aminuddin confident on Linggi move; 4-term Sikamat -> Linggi; mStar)",
+    "priority_pir-07_dap-revives-anti-bn-mkini_20260718_231029.md (NEW intro — DAP anti-BN fundraising dinner Bandar Utama 11; 1MDB, ruler crisis; paywalled)",
+    "priority_pir-07_nominations-full-force-mkini_20260718_231029.md (NEW intro — coalition leaders full force; Aminuddin at PD District Admin Complex 8:30am; Bernama)",
+    "priority_pir-07_kiniguide-shifting-alliances-mkini_20260718_231029.md (NEW intro — KiniGuide: BN post-Johor-landslide, 2023 BN+PH pact vs PN; paywalled)",
+    "priority_pir-09_tamim-independent-mkini_20260718_231029.md (NEW intro — Tamim Dahri Abd Razak, 33, surrenders at PD IPD 12:45pm -> Seremban court remand; NST quotes Alzafny; paywalled)",
+    "priority_pir-09_wee-bnpn-not-merger-mkini_20260718_231029.md (NEW intro — MCA president Wee Ka Siong: BN-PN pact not a merger, each party retains ideology; CONFIRMS full name; paywalled)",
+    "priority_pir-07_36-seats-contest-astro_20260718_231029.md (NEW headline-only — Astro Awani via gnews; redundant w/ Utusan 3-coalitions; body not extracted)",
+    "collection_metadata.json (231029 cycle — FIRST new-content cycle; 2 brand-new Utusan PIR-07 articles + PIR-09 component items; PIR-06 escalated-watch unchanged)"
+  ],
+  "pir_priorities": {
+    "PIR-06": "PN-Removal-of-Bersatu Watch (HIGHEST) — STATUS: ESCALATED (two-sided trajectory)",
+    "PIR-09": "Candidate Credibility (SECOND)",
+    "PIR-07": "Battleground Assessment (THIRD)"
+  },
+  "delta_vs_prior_build_165723": {
+    "prior_build": "entities_165723.json (16:57 UTC / 00:57 MYT 19 Jul)",
+    "this_build": "entities_190215.json (19:02 UTC / 03:02 MYT 19 Jul)",
+    "cycle_window_ingested": [
+      "170837 (source-gap fill + PIR-06 ESCALATION: Muhyiddin exit hint)",
+      "182751 (stability/confirmation pass — 0 new articles, deep-overnight MYT)"
+    ],
+    "genuinely_new_findings": [
+      "PIR-06 ESCALATION: Muhyiddin publicly hinting at Bersatu exit from PN ('wishing PN all the best', rapping PN chairperson Ahmad Samsuri Mokhtar) — qualitative escalation (Bersatu-leadership signal).",
+      "PIR-06: Muhyiddin signals Bersatu to form new coalition/bloc AFTER Negri polls (concrete post-exit plan).",
+      "PIR-06: Mainstream framing shifted to 'Bersatu exit from PN imminent?' (mkini SNAPSHOT).",
+      "PIR-06: Hadi denies PAS made PN 'toxic', blames Bersatu (blame-shifting); PAS openly sidelining Bersatu (PN rift widens).",
+      "PIR-06: Annuar Musa states Bersatu wants to part ways with PN (own-logo signal) — speaker-label caveat flagged.",
+      "PIR-09 NEW: MCA Youth sec-gen Saw Yee Fung excluded from NS campaign over BN-PN criticism (directive by MCA sec-gen Chong Sin Woon).",
+      "PIR-09 NEW: Albert Tei 'barking dogs' rhetoric at Jelebu nomination centre — PN-side abrasive Day-1 tone.",
+      "PIR-09 NEW: Activist Tamim Dahri to campaign for an independent candidate (support-network signal).",
+      "PIR-07 NEW: Asyraf Wajdi on BN-PN stability; DAP revives anti-BN campaign; Zahid 'new alignments'; Chuah/Lukut/Bagan Pinang crystallizing."
+    ],
+    "corrections": [
+      "'Dr Samsuri Anuar' (role 'Bersatu leader / Terengganu MB') corrected to 'Datuk Seri Dr. Ahmad Samsuri Mokhtar' (PN Chairperson / Terengganu MB, PAS/PN — NOT Bersatu)."
+    ],
+    "no_change": [
+      "CRITICAL PIR-06 threshold (formal PN-MT removal notice) still NOT crossed.",
+      "No Bersatu candidate withdrawals in the 8 Tier-4 seats.",
+      "Candidate list (103 candidates) unchanged.",
+      "Gerakan pecat of Tang Jay Son reconfirmed (no new PN-component candidate expulsion).",
+      "PIR-09 N.14 Ampangan Day-1 messaging war unchanged.",
+      "PIR-07 BN manifesto launch date (24 Jul) and candidate breakdown unchanged."
+    ]
+  },
+  "counts": {
+    "seats_parsed": 36,
+    "candidate_persons_unique": 103,
+    "national_figures_and_pir_actors": 18,
+    "pir06_watch_figures": 4,
+    "parties": 15,
+    "coalitions": 5,
+    "organizations": 11,
+    "constituencies": 36,
+    "events": 30,
+    "issues_and_signals": 37,
+    "locations": 53,
+    "pir06_tier4_seats": 8,
+    "pir07_watch_seats": 9,
+    "pir09_bersatu_candidates": 24,
+    "pir09_independents": 4,
+    "peripheral_referenced_figures": 2,
+    "confirmation_passes_since_170837": 0,
+    "pir07_battleground_seats_tagged": 11,
+    "genuinely_new_entities_this_build": 1,
+    "enriched_existing_entities_this_build": 4,
+    "new_named_figures": [
+      "Datuk Alzafny Ahmad"
+    ],
+    "confirmed_full_names": [
+      "Wee Ka Siong (MCA president)",
+      "Tamim Dahri Abd Razak (activist)"
+    ]
+  },
+  "seats": [
+    {
+      "code": "N01",
+      "name": "Chennah",
+      "voters": "14422",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "name": "Siow Kong Choon",
+          "ticket": "BN-MCA",
+          "party_raw": "BN-MCA"
+        },
+        {
+          "name": "Anthony Loke Siew Fook",
+          "ticket": "PH-DAP",
+          "party_raw": "PH-DAP"
+        }
+      ],
+      "winner_2023": "Anthony Loke Siew Fook",
+      "winner_2023_ticket": "PH-DAP",
+      "pir_tags": []
+    },
+    {
+      "code": "N02",
+      "name": "Pertang",
+      "voters": "12873",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Datuk Seri Jalaluddin Alias",
+          "ticket": "BN-UMNO",
+          "party_raw": "BN-UMNO"
+        },
+        {
+          "name": "Mohd Umry Abdul Khois",
+          "ticket": "PH-PKR",
+          "party_raw": "PH-PKR"
+        },
+        {
+          "name": "Mohd Faizal Fadli Mohd Idrus",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        }
+      ],
+      "winner_2023": "Datuk Seri Jalaluddin Alias",
+      "winner_2023_ticket": "BN-UMNO",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N03",
+      "name": "Sungai Lui",
+      "voters": "19684",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Datuk Mohd Razi Mohd Ali",
+          "ticket": "BN-UMNO",
+          "party_raw": "BN-UMNO"
+        },
+        {
+          "name": "Nazrul Hisham Abdul Mansor",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "Zainal Fikri Abd Kadir",
+          "ticket": "PH-PKR",
+          "party_raw": "PH-PKR"
+        }
+      ],
+      "winner_2023": "Mohd Razi Mohd Ali",
+      "winner_2023_ticket": "BN-UMNO",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N04",
+      "name": "Klawang",
+      "voters": "13355",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Muhammad Adib Musa",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "Danni Rais",
+          "ticket": "PN-WAWASAN",
+          "party_raw": "PN-WAWASAN"
+        },
+        {
+          "name": "Datuk Bakri Sawir",
+          "ticket": "PH-AMANAH",
+          "party_raw": "PH-AMANAH"
+        }
+      ],
+      "winner_2023": "Datuk Bakri Sawir",
+      "winner_2023_ticket": "PH-AMANAH",
+      "pir_tags": [
+        "PIR-06",
+        "PIR-07",
+        "PIR-09"
+      ],
+      "pir06_tier4_detail": {
+        "bersatu": "Muhammad Adib Musa",
+        "pn_component": "Danni Rais (Wawasan)",
+        "type": "vs Wawasan"
+      }
+    },
+    {
+      "code": "N05",
+      "name": "Serting",
+      "voters": "30599",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Mohd Fairuz Mohd Isa",
+          "ticket": "PN-PAS",
+          "party_raw": "PN-PAS"
+        },
+        {
+          "name": "Muhammad Noraffendy Mohd Salleh",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "Yaacob Mahmood",
+          "ticket": "PH-AMANAH",
+          "party_raw": "PH-AMANAH"
+        }
+      ],
+      "winner_2023": "Mohd Fairuz Mohd Isa",
+      "winner_2023_ticket": "PN-PAS",
+      "pir_tags": [
+        "PIR-06",
+        "PIR-07",
+        "PIR-09"
+      ],
+      "pir06_tier4_detail": {
+        "bersatu": "Muhammad Noraffendy Mohd Salleh",
+        "pn_component": "Mohd Fairuz Mohd Isa (PAS, 2023 incumbent)",
+        "type": "vs PAS"
+      }
+    },
+    {
+      "code": "N06",
+      "name": "Palong",
+      "voters": "23555",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Datuk Mustapha Nagoor",
+          "ticket": "BN-UMNO",
+          "party_raw": "BN-UMNO"
+        },
+        {
+          "name": "Muhammad Zahin Zinal Abidin",
+          "ticket": "PH-PKR",
+          "party_raw": "PH-PKR"
+        },
+        {
+          "name": "Rebin Birham",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        }
+      ],
+      "winner_2023": "Mustapha Nagoor",
+      "winner_2023_ticket": "BN-UMNO",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N07",
+      "name": "Jeram Padang",
+      "voters": "16590",
+      "candidate_count": 4,
+      "candidates": [
+        {
+          "name": "Sri Sanjeevan Ramakrishnan",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "G Manivannan",
+          "ticket": "PH-PKR",
+          "party_raw": "PH-PKR"
+        },
+        {
+          "name": "Dayana Dal",
+          "ticket": "ASLI",
+          "party_raw": "ASLI"
+        },
+        {
+          "name": "Datuk Mohd Zaidy Abdul Kadir",
+          "ticket": "BN-UMNO",
+          "party_raw": "BN-UMNO"
+        }
+      ],
+      "winner_2023": "Datuk Mohd Zaidy Abdul Kadir",
+      "winner_2023_ticket": "BN-UMNO",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N08",
+      "name": "Bahau",
+      "voters": "25972",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "name": "Teo Kok Seong",
+          "ticket": "PH-DAP",
+          "party_raw": "PH-DAP"
+        },
+        {
+          "name": "Chong Fui Ming",
+          "ticket": "BN-MCA",
+          "party_raw": "BN-MCA"
+        }
+      ],
+      "winner_2023": "Teo Kok Seong",
+      "winner_2023_ticket": "PH-DAP",
+      "pir_tags": []
+    },
+    {
+      "code": "N09",
+      "name": "Lenggeng",
+      "voters": "28880",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Zarinna Abu Zarin",
+          "ticket": "PH-AMANAH",
+          "party_raw": "PH-AMANAH"
+        },
+        {
+          "name": "Datuk Mohd Asna Amin",
+          "ticket": "BN-UMNO",
+          "party_raw": "BN-UMNO"
+        },
+        {
+          "name": "Zool Amali Hussin",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        }
+      ],
+      "winner_2023": "Mohd Asna Amin",
+      "winner_2023_ticket": "BN-UMNO",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N10",
+      "name": "Nilai",
+      "voters": "45911",
+      "candidate_count": 5,
+      "candidates": [
+        {
+          "name": "Zamani Ibrahim",
+          "ticket": "BERJASA",
+          "party_raw": "BERJASA"
+        },
+        {
+          "name": "J Arul Kumar",
+          "ticket": "PH-DAP",
+          "party_raw": "PH-DAP"
+        },
+        {
+          "name": "Omar Mohd Isa",
+          "ticket": "BEBAS",
+          "party_raw": "BEBAS"
+        },
+        {
+          "name": "Lai Chien Kong",
+          "ticket": "BN-MCA",
+          "party_raw": "BN-MCA"
+        },
+        {
+          "name": "Datuk V. Saravana Kumar",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        }
+      ],
+      "winner_2023": "J Arul Kumar",
+      "winner_2023_ticket": "PH-DAP",
+      "pir_tags": [
+        "PIR-07",
+        "PIR-09"
+      ],
+      "pir09_note": "5-cornered; indep Omar Mohd Isa + Berjasa present."
+    },
+    {
+      "code": "N11",
+      "name": "Lobak",
+      "voters": "23079",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "name": "Dr P. Kumar",
+          "ticket": "PN-PAS",
+          "party_raw": "PN-PAS"
+        },
+        {
+          "name": "Chew Seh Yong",
+          "ticket": "PH-DAP",
+          "party_raw": "PH-DAP"
+        }
+      ],
+      "winner_2023": "Chew Seh Yong",
+      "winner_2023_ticket": "PH-DAP",
+      "pir_tags": []
+    },
+    {
+      "code": "N12",
+      "name": "Temiang",
+      "voters": "12947",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Ho Weng Wah",
+          "ticket": "PH-DAP",
+          "party_raw": "PH-DAP"
+        },
+        {
+          "name": "Leaw Kok Chan",
+          "ticket": "BN-MCA",
+          "party_raw": "BN-MCA"
+        },
+        {
+          "name": "Fazly Hamid",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        }
+      ],
+      "winner_2023": "Ng Chin Tsai",
+      "winner_2023_ticket": "PH-DAP",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N13",
+      "name": "Sikamat",
+      "voters": "34103",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Datuk Tun Faisal Ismail Aziz",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "Datuk Razali Abu Samah",
+          "ticket": "PN-Wawasan",
+          "party_raw": "PN-Wawasan"
+        },
+        {
+          "name": "Nor Azman Mohamad",
+          "ticket": "PH-PKR",
+          "party_raw": "PH-PKR"
+        }
+      ],
+      "winner_2023": "Datuk Seri Aminuddin Harun",
+      "winner_2023_ticket": "PH-PKR",
+      "pir_tags": [
+        "PIR-06",
+        "PIR-07",
+        "PIR-09"
+      ],
+      "pir06_tier4_detail": {
+        "bersatu": "Datuk Tun Faisal Ismail Aziz",
+        "pn_component": "Datuk Razali Abu Samah (Wawasan)",
+        "type": "vs Wawasan"
+      },
+      "pir09_note": "Indep Bujang Abu (75) withdrew (tarik diri) — incomplete SPR docs; NOT a Bersatu/party withdrawal.",
+      "pir07_hot_seat": {
+        "rank": 2,
+        "designation": "Kerusi panas (hot seat) #2 — Utusan 5-hot-seats",
+        "character": "Aminuddin's old seat (held since 2008); now defended by his political secretary; 3-cornered; PIR-06 Tier-4 (Bersatu vs Wawasan)",
+        "matchup": {
+          "ph": "Nor Azman Mohamad — Setiausaha Politik kepada MB Aminuddin (defending Aminuddin's former seat)",
+          "bersatu": "Datuk Tun Faisal Ismail Aziz — Ketua Penerangan Bersatu (Bersatu Information Chief)",
+          "pn": "Datuk Razali Abu Samah — PN (Wawasan)"
+        }
+      }
+    },
+    {
+      "code": "N14",
+      "name": "Ampangan",
+      "voters": "21336",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Datuk Muhammad Nazri Kassim",
+          "ticket": "PH-PKR",
+          "party_raw": "PH-PKR"
+        },
+        {
+          "name": "Noor'azah Harun",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "Datuk Dr Mohamad Rafie Ab Malek",
+          "ticket": "PN-PAS",
+          "party_raw": "PN-PAS"
+        }
+      ],
+      "winner_2023": "Tengku Zamrah Tengku Sulaiman",
+      "winner_2023_ticket": "PH-PKR",
+      "pir_tags": [
+        "PIR-06",
+        "PIR-07",
+        "PIR-09"
+      ],
+      "pir06_tier4_detail": {
+        "bersatu": "Noor'azah Harun",
+        "pn_component": "Datuk Dr Mohamad Rafie Ab Malek (PAS)",
+        "type": "vs PAS"
+      },
+      "pir09_note": "Day-1 messaging war: PH Nazri '50/50' vs PAS Rafie (former 2018 PH winner, defector angle) vs Bersatu Noor'azah (splits anti-PH vote).",
+      "pir07_hot_seat": {
+        "rank": 3,
+        "designation": "Kerusi panas (hot seat) #3 — Utusan 5-hot-seats",
+        "character": "Thinnest 2023 margin (329); 3-cornered; PIR-06 Tier-4 (Bersatu vs PAS); PIR-09 Day-1 messaging war",
+        "matchup": {
+          "ph": "Datuk (Muhammad) Nazri Kassim — Timbalan Pengerusi Majlis Pimpinan Negeri Keadilan NS (new candidate; aliases: 'Datuk Nazri Kassim')",
+          "pn": "Datuk Dr. Mohamad Rafie Ab. Malek — PN-PAS, bekas ADUN Ampangan (former ADUN; 2018 PH winner, defector/hopper angle)",
+          "bersatu": "Noor'azah Harun — Bersatu"
+        },
+        "result_2023_margin": "329 votes (Tengku Zamrah PH-PKR won 2023)",
+        "note": "PH working hard to retain; new candidate vs former ADUN (PN) vs Bersatu."
+      }
+    },
+    {
+      "code": "N15",
+      "name": "Juasseh",
+      "voters": "13671",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Mohd Zuhaimi Md Yusof",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "Datuk Ismail Lasim",
+          "ticket": "BN-UMNO",
+          "party_raw": "BN-UMNO"
+        },
+        {
+          "name": "Mohd Aidil Abdullah",
+          "ticket": "PH-PKR",
+          "party_raw": "PH-PKR"
+        }
+      ],
+      "winner_2023": "Puan Sri Bibi Sharliza Mohd Khalid",
+      "winner_2023_ticket": "BN-UMNO",
+      "pir_tags": [
+        "PIR-07",
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N16",
+      "name": "Seri Menanti",
+      "voters": "10105",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Muhammad Sufian Maradzi",
+          "ticket": "BN-UMNO",
+          "party_raw": "BN-UMNO"
+        },
+        {
+          "name": "Mohd Kamarul Arifin Mohd Wafa",
+          "ticket": "PH-PKR",
+          "party_raw": "PH-PKR"
+        },
+        {
+          "name": "Datuk Seri Megat D. Shahriman Zaharudin",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        }
+      ],
+      "winner_2023": "Muhammad Sufian Maradzi",
+      "winner_2023_ticket": "BN-UMNO",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N17",
+      "name": "Senaling",
+      "voters": "9903",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Mohamad Qayyum Abd Jalil",
+          "ticket": "BN-UMNO",
+          "party_raw": "BN-UMNO"
+        },
+        {
+          "name": "Mohd Izaffi Istear Khan",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "Mohd Hanis Alimin",
+          "ticket": "PH-AMANAH",
+          "party_raw": "PH-AMANAH"
+        }
+      ],
+      "winner_2023": "Datuk Ismail Lasim",
+      "winner_2023_ticket": "BN",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N18",
+      "name": "Pilah",
+      "voters": "18034",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "name": "S Leza Md Yasin",
+          "ticket": "BN-UMNO",
+          "party_raw": "BN-UMNO"
+        },
+        {
+          "name": "Datuk Noorzunita Begum Mohd Ibrahim",
+          "ticket": "PH-PKR",
+          "party_raw": "PH-PKR"
+        }
+      ],
+      "winner_2023": "Noorzunita Begum Mohd Ibrahim",
+      "winner_2023_ticket": "PH-PKR",
+      "pir_tags": []
+    },
+    {
+      "code": "N19",
+      "name": "Johol",
+      "voters": "12331",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "name": "Mohd Zailan Mohd Munawar",
+          "ticket": "PH-AMANAH",
+          "party_raw": "PH-AMANAH"
+        },
+        {
+          "name": "Datuk Saiful Yazan Sulaiman",
+          "ticket": "BN-UMNO",
+          "party_raw": "BN-UMNO"
+        }
+      ],
+      "winner_2023": "Saiful Yazan Sulaiman",
+      "winner_2023_ticket": "BN-UMNO",
+      "pir_tags": []
+    },
+    {
+      "code": "N20",
+      "name": "Labu",
+      "voters": "32884",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Datuk Ahmad Faez Abdul Razak",
+          "ticket": "PH-PKR",
+          "party_raw": "PH-PKR"
+        },
+        {
+          "name": "Mohamad Hanifah Abu Baker",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "Siti Nur Umaira Hasim",
+          "ticket": "BN-UMNO",
+          "party_raw": "BN-UMNO"
+        }
+      ],
+      "winner_2023": "Mohamad Hanifah Abu Baker",
+      "winner_2023_ticket": "PN-BERSATU",
+      "pir_tags": [
+        "PIR-09",
+        "PIR-07"
+      ],
+      "pir07_hot_seat": {
+        "rank": 5,
+        "designation": "Kerusi panas (hot seat) #5 — Utusan 5-hot-seats (PIR-07 tag ADDED this cycle via designation)",
+        "character": "Bersatu incumbent defending; 3-cornered; PIR-06 Tier-4-adjacent (Bersatu incumbent vs PH vs BN)",
+        "matchup": {
+          "bersatu": "Mohamad Hanifah Abu Baker — Bersatu incumbent / Ketua Badan Pimpinan Bersatu NS",
+          "ph": "Datuk Ahmad Faez Abdul Razak — Penyelaras DUN Labu (PH-PKR)",
+          "bn": "Siti Umaira Hasim — BN (aliases: 'Siti Nur Umaira Hasim')"
+        }
+      }
+    },
+    {
+      "code": "N21",
+      "name": "Bukit Kepayang",
+      "voters": "49568",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "name": "Nicole Tan Lee Koon",
+          "ticket": "PH-DAP",
+          "party_raw": "PH-DAP"
+        },
+        {
+          "name": "Lee Boon Shian",
+          "ticket": "PN-GERAKAN",
+          "party_raw": "PN-GERAKAN"
+        }
+      ],
+      "winner_2023": "Nicole Tan Lee Koon",
+      "winner_2023_ticket": "PH-DAP",
+      "pir_tags": []
+    },
+    {
+      "code": "N22",
+      "name": "Rahang",
+      "voters": "19715",
+      "candidate_count": 4,
+      "candidates": [
+        {
+          "name": "Desmond Siau Meow Kong",
+          "ticket": "PH-DAP",
+          "party_raw": "PH-DAP"
+        },
+        {
+          "name": "S. Tinagaran",
+          "ticket": "PSM",
+          "party_raw": "PSM"
+        },
+        {
+          "name": "Yap Siok Moy",
+          "ticket": "BN-MCA",
+          "party_raw": "BN-MCA"
+        },
+        {
+          "name": "Tang Jay Son",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        }
+      ],
+      "winner_2023": "Desmond Siau Meow Kong",
+      "winner_2023_ticket": "PH-DAP",
+      "pir_tags": [
+        "PIR-09"
+      ],
+      "pir09_note": "4-cornered: Tang Jay Son (Bersatu, ex-Gerakan expelled) vs Siau Meow Kong (PH inc) vs Yap Siok Moy (BN) vs S Tinagaran (PSM)."
+    },
+    {
+      "code": "N23",
+      "name": "Mambau",
+      "voters": "30346",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Lee Kai Yet",
+          "ticket": "PH-DAP",
+          "party_raw": "PH-DAP"
+        },
+        {
+          "name": "N Sarawanan",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "Erik Michael",
+          "ticket": "PN-WAWASAN",
+          "party_raw": "PN-WAWASAN"
+        }
+      ],
+      "winner_2023": "Yap Yew Weng",
+      "winner_2023_ticket": "PH-DAP",
+      "pir_tags": [
+        "PIR-06",
+        "PIR-09"
+      ],
+      "pir06_tier4_detail": {
+        "bersatu": "N Sarawanan",
+        "pn_component": "Erik Michael (Wawasan)",
+        "type": "vs Wawasan"
+      }
+    },
+    {
+      "code": "N24",
+      "name": "Seremban Jaya",
+      "voters": "33015",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Datuk RT Thinalan",
+          "ticket": "BN-MIC",
+          "party_raw": "BN-MIC"
+        },
+        {
+          "name": "R Mahendran",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "S Mugunthan",
+          "ticket": "PH-DAP",
+          "party_raw": "PH-DAP"
+        }
+      ],
+      "winner_2023": "P Gunasekaren",
+      "winner_2023_ticket": "PH-DAP",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N25",
+      "name": "Paroi",
+      "voters": "64998",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Ahmad Shahir Mohd Shah",
+          "ticket": "PH-AMANAH",
+          "party_raw": "PH-AMANAH"
+        },
+        {
+          "name": "Mohd Nazree Mohd Yunos",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "Kamarol Ridzuan Mohd Zain",
+          "ticket": "PN-PAS",
+          "party_raw": "PN-PAS"
+        }
+      ],
+      "winner_2023": "Kamarol Ridzuan Mohd Zain",
+      "winner_2023_ticket": "PN-PAS",
+      "pir_tags": [
+        "PIR-06",
+        "PIR-09",
+        "PIR-07"
+      ],
+      "pir06_tier4_detail": {
+        "bersatu": "Mohd Nazree Mohd Yunos",
+        "pn_component": "Kamarol Ridzuan Mohd Zain (PAS, 2023 incumbent)",
+        "type": "vs PAS"
+      },
+      "pir07_hot_seat": {
+        "rank": 4,
+        "designation": "Kerusi panas (hot seat) #4 — Utusan 5-hot-seats (PIR-07 tag ADDED this cycle via designation)",
+        "character": "Largest electorate in NS; 3-cornered; PIR-06 Tier-4 (Bersatu vs PAS incumbent)",
+        "matchup": {
+          "pn": "Kamarol Ridzuan Mohd Zin — PN-PAS incumbent (largest-electorate seat; aliases: 'Kamarol Ridzuan Mohd Zain')",
+          "ph": "Ahmad Shahir Mohd. Shah — Setiausaha Akhbar kepada MB NS / Setiausaha Pemuda Amanah Nasional",
+          "bersatu": "Mohd. Nazree Mohd. Yunus — Ketua Penerangan Bersatu NS (aliases: 'Mohd Nazree Mohd Yunos')"
+        }
+      }
+    },
+    {
+      "code": "N26",
+      "name": "Chembong",
+      "voters": "26547",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "name": "Danish Nazran Murad",
+          "ticket": "PH-PKR",
+          "party_raw": "PH-PKR"
+        },
+        {
+          "name": "Datuk Zaifulbahri Idris",
+          "ticket": "BN-UMNO",
+          "party_raw": "BN-UMNO"
+        }
+      ],
+      "winner_2023": "Datuk Zaifulbahri Idris",
+      "winner_2023_ticket": "BN-UMNO",
+      "pir_tags": []
+    },
+    {
+      "code": "N27",
+      "name": "Rantau",
+      "voters": "34831",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "name": "Dr Azizul Hakim Mahdi",
+          "ticket": "PH-PKR",
+          "party_raw": "PH-PKR"
+        },
+        {
+          "name": "Datuk Seri Mohamad Hasan",
+          "ticket": "BN-UMNO",
+          "party_raw": "BN-UMNO"
+        }
+      ],
+      "winner_2023": "Datuk Seri Mohamad Hasan",
+      "winner_2023_ticket": "BN-UMNO",
+      "pir_tags": []
+    },
+    {
+      "code": "N28",
+      "name": "Kota",
+      "voters": "16744",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Akmal Noradzmi Abd Rahim",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "Muhammad Allif Ibrahim",
+          "ticket": "PH-AMANAH",
+          "party_raw": "PH-AMANAH"
+        },
+        {
+          "name": "Suhaimi Aini",
+          "ticket": "BN-UMNO",
+          "party_raw": "BN-UMNO"
+        }
+      ],
+      "winner_2023": "Suhaimi Aini",
+      "winner_2023_ticket": "BN-UMNO",
+      "pir_tags": [
+        "PIR-07",
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N29",
+      "name": "Chuah",
+      "voters": "15129",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "name": "Pau Jeou Ching",
+          "ticket": "BN-MCA",
+          "party_raw": "BN-MCA"
+        },
+        {
+          "name": "Datuk Yew Boon Lye",
+          "ticket": "PH-PKR",
+          "party_raw": "PH-PKR"
+        }
+      ],
+      "winner_2023": "Yew Boon Lye",
+      "winner_2023_ticket": "PH-PKR",
+      "pir_tags": []
+    },
+    {
+      "code": "N30",
+      "name": "Lukut",
+      "voters": "28219",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Choo Ken Hwa",
+          "ticket": "PH-DAP",
+          "party_raw": "PH-DAP"
+        },
+        {
+          "name": "Sathes Kumar Nilameham",
+          "ticket": "PN-MIPP",
+          "party_raw": "PN-MIPP"
+        },
+        {
+          "name": "Teo Seng Lee",
+          "ticket": "Bebas",
+          "party_raw": "Bebas"
+        }
+      ],
+      "winner_2023": "Choo Ken Hwa",
+      "winner_2023_ticket": "PH-DAP",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N31",
+      "name": "Bagan Pinang",
+      "voters": "27451",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Sheikh Junaidy Jamaludin",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "Abdul Fatah Zakaria",
+          "ticket": "PN-PAS",
+          "party_raw": "PN-PAS"
+        },
+        {
+          "name": "Nasir Raman",
+          "ticket": "PH-AMANAH",
+          "party_raw": "PH-AMANAH"
+        }
+      ],
+      "winner_2023": "Abdul Fatah Zakaria",
+      "winner_2023_ticket": "PN-PAS",
+      "pir_tags": [
+        "PIR-06",
+        "PIR-09"
+      ],
+      "pir06_tier4_detail": {
+        "bersatu": "Sheikh Junaidy Jamaludin",
+        "pn_component": "Abdul Fatah Zakaria (PAS, 2023 incumbent)",
+        "type": "vs PAS"
+      }
+    },
+    {
+      "code": "N32",
+      "name": "Linggi",
+      "voters": "20677",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Datuk Zamri Md Said",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "Datuk Mohd Faizal Ramli",
+          "ticket": "BN-UMNO",
+          "party_raw": "BN-UMNO"
+        },
+        {
+          "name": "Datuk Seri Aminuddin Harun",
+          "ticket": "PH-PKR",
+          "party_raw": "PH-PKR"
+        }
+      ],
+      "winner_2023": "Datuk Mohd Faizal Ramli",
+      "winner_2023_ticket": "BN-UMNO",
+      "pir_tags": [
+        "PIR-07",
+        "PIR-09"
+      ],
+      "pir07_hot_seat": {
+        "rank": 1,
+        "designation": "Kerusi panas (hot seat) #1 — Utusan 5-hot-seats (06:40 MYT 19 Jul)",
+        "character": "MB Aminuddin's marquee seat-move (Sikamat -> Linggi); BN fortress; 3-cornered",
+        "matchup": {
+          "ph": "Datuk Seri Aminuddin Harun — Pengerusi PH NS / Menteri Besar / Ahli Parlimen Port Dickson (moved from Sikamat after 4 terms)",
+          "bn": "Datuk Mohd Faizal Ramli — BN incumbent (2023 winner); BN fortress seat",
+          "bersatu": "Datuk Zamri Md. Yunus — Bersatu (aliases: 'Datuk Zamri Md Said' [mStar spelling]; Utusan spells 'Md. Yunus')"
+        },
+        "result_2023": "Mohd Faizal (BN) beat Zamri (then PN) by 1,461 majority",
+        "note": "Aminuddin taking a 'big risk' entering a long-time BN stronghold though he is PD MP."
+      }
+    },
+    {
+      "code": "N33",
+      "name": "Seri Tanjung",
+      "voters": "19590",
+      "candidate_count": 5,
+      "candidates": [
+        {
+          "name": "A Achuthan",
+          "ticket": "BN-MIC",
+          "party_raw": "BN-MIC"
+        },
+        {
+          "name": "Datuk A Saravanan",
+          "ticket": "Bebas",
+          "party_raw": "Bebas"
+        },
+        {
+          "name": "M Leevineshwaraan",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "Islah Wahyudi Zainudin",
+          "ticket": "Bebas",
+          "party_raw": "Bebas"
+        },
+        {
+          "name": "Datuk Dr G Rajasekaran",
+          "ticket": "PH-PKR",
+          "party_raw": "PH-PKR"
+        }
+      ],
+      "winner_2023": "Dr G Rajasekaran",
+      "winner_2023_ticket": "PH-PKR",
+      "pir_tags": [
+        "PIR-07",
+        "PIR-09"
+      ],
+      "pir09_note": "5-cornered; 2 independents incl Datuk A Saravanan ('Datuk' title — likely former establishment/MIC figure)."
+    },
+    {
+      "code": "N34",
+      "name": "Gemas",
+      "voters": "29600",
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "name": "Azman Abdullah",
+          "ticket": "BERSATU",
+          "party_raw": "BERSATU"
+        },
+        {
+          "name": "Ridzuan Ahmad",
+          "ticket": "PN-WAWASAN",
+          "party_raw": "PN-WAWASAN"
+        },
+        {
+          "name": "Siti Aishah Seman @ Othman",
+          "ticket": "PH-PKR",
+          "party_raw": "PH-PKR"
+        }
+      ],
+      "winner_2023": "Ridzuan Ahmad",
+      "winner_2023_ticket": "PN-BERSATU",
+      "pir_tags": [
+        "PIR-06",
+        "PIR-09"
+      ],
+      "pir06_tier4_detail": {
+        "bersatu": "Azman Abdullah",
+        "pn_component": "Ridzuan Ahmad (Wawasan, 2023 incumbent as Bersatu)",
+        "type": "vs Wawasan"
+      }
+    },
+    {
+      "code": "N35",
+      "name": "Gemencheh",
+      "voters": "24916",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "name": "Suhaimizan Bizar",
+          "ticket": "BN-UMNO",
+          "party_raw": "BN-UMNO"
+        },
+        {
+          "name": "Abd Latif A Tambi",
+          "ticket": "PH-AMANAH",
+          "party_raw": "PH-AMANAH"
+        }
+      ],
+      "winner_2023": "Suhaimizan Bizar",
+      "winner_2023_ticket": "BN-UMNO",
+      "pir_tags": []
+    },
+    {
+      "code": "N36",
+      "name": "Repah",
+      "voters": "27910",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "name": "Koh Kim Swee",
+          "ticket": "BN-MCA",
+          "party_raw": "BN-MCA"
+        },
+        {
+          "name": "S Veerapan",
+          "ticket": "PH-DAP",
+          "party_raw": "PH-DAP"
+        }
+      ],
+      "winner_2023": "S Veerapan",
+      "winner_2023_ticket": "PH-DAP",
+      "pir_tags": []
+    }
+  ],
+  "politicians": {
+    "candidate_persons_unique": [
+      "Siow Kong Choon",
+      "Anthony Loke Siew Fook",
+      "Datuk Seri Jalaluddin Alias",
+      "Mohd Umry Abdul Khois",
+      "Mohd Faizal Fadli Mohd Idrus",
+      "Datuk Mohd Razi Mohd Ali",
+      "Nazrul Hisham Abdul Mansor",
+      "Zainal Fikri Abd Kadir",
+      "Muhammad Adib Musa",
+      "Danni Rais",
+      "Datuk Bakri Sawir",
+      "Mohd Fairuz Mohd Isa",
+      "Muhammad Noraffendy Mohd Salleh",
+      "Yaacob Mahmood",
+      "Datuk Mustapha Nagoor",
+      "Muhammad Zahin Zinal Abidin",
+      "Rebin Birham",
+      "Sri Sanjeevan Ramakrishnan",
+      "G Manivannan",
+      "Dayana Dal",
+      "Datuk Mohd Zaidy Abdul Kadir",
+      "Teo Kok Seong",
+      "Chong Fui Ming",
+      "Zarinna Abu Zarin",
+      "Datuk Mohd Asna Amin",
+      "Zool Amali Hussin",
+      "Zamani Ibrahim",
+      "J Arul Kumar",
+      "Omar Mohd Isa",
+      "Lai Chien Kong",
+      "Datuk V. Saravana Kumar",
+      "Dr P. Kumar",
+      "Chew Seh Yong",
+      "Ho Weng Wah",
+      "Leaw Kok Chan",
+      "Fazly Hamid",
+      "Datuk Tun Faisal Ismail Aziz",
+      "Datuk Razali Abu Samah",
+      "Nor Azman Mohamad",
+      "Datuk Muhammad Nazri Kassim",
+      "Noor'azah Harun",
+      "Datuk Dr Mohamad Rafie Ab Malek",
+      "Mohd Zuhaimi Md Yusof",
+      "Datuk Ismail Lasim",
+      "Mohd Aidil Abdullah",
+      "Muhammad Sufian Maradzi",
+      "Mohd Kamarul Arifin Mohd Wafa",
+      "Datuk Seri Megat D. Shahriman Zaharudin",
+      "Mohamad Qayyum Abd Jalil",
+      "Mohd Izaffi Istear Khan",
+      "Mohd Hanis Alimin",
+      "S Leza Md Yasin",
+      "Datuk Noorzunita Begum Mohd Ibrahim",
+      "Mohd Zailan Mohd Munawar",
+      "Datuk Saiful Yazan Sulaiman",
+      "Datuk Ahmad Faez Abdul Razak",
+      "Mohamad Hanifah Abu Baker",
+      "Siti Nur Umaira Hasim",
+      "Nicole Tan Lee Koon",
+      "Lee Boon Shian",
+      "Desmond Siau Meow Kong",
+      "S. Tinagaran",
+      "Yap Siok Moy",
+      "Tang Jay Son",
+      "Lee Kai Yet",
+      "N Sarawanan",
+      "Erik Michael",
+      "Datuk RT Thinalan",
+      "R Mahendran",
+      "S Mugunthan",
+      "Ahmad Shahir Mohd Shah",
+      "Mohd Nazree Mohd Yunos",
+      "Kamarol Ridzuan Mohd Zain",
+      "Danish Nazran Murad",
+      "Datuk Zaifulbahri Idris",
+      "Dr Azizul Hakim Mahdi",
+      "Datuk Seri Mohamad Hasan",
+      "Akmal Noradzmi Abd Rahim",
+      "Muhammad Allif Ibrahim",
+      "Suhaimi Aini",
+      "Pau Jeou Ching",
+      "Datuk Yew Boon Lye",
+      "Choo Ken Hwa",
+      "Sathes Kumar Nilameham",
+      "Teo Seng Lee",
+      "Sheikh Junaidy Jamaludin",
+      "Abdul Fatah Zakaria",
+      "Nasir Raman",
+      "Datuk Zamri Md Said",
+      "Datuk Mohd Faizal Ramli",
+      "Datuk Seri Aminuddin Harun",
+      "A Achuthan",
+      "Datuk A Saravanan",
+      "M Leevineshwaraan",
+      "Islah Wahyudi Zainudin",
+      "Datuk Dr G Rajasekaran",
+      "Azman Abdullah",
+      "Ridzuan Ahmad",
+      "Siti Aishah Seman @ Othman",
+      "Suhaimizan Bizar",
+      "Abd Latif A Tambi",
+      "Koh Kim Swee",
+      "S Veerapan"
+    ],
+    "candidate_records_with_pir_tags": [
+      {
+        "name": "Siow Kong Choon",
+        "ticket": "BN-MCA",
+        "seat": "N01 Chennah",
+        "pir_tags": []
+      },
+      {
+        "name": "Anthony Loke Siew Fook",
+        "ticket": "PH-DAP",
+        "seat": "N01 Chennah",
+        "pir_tags": [
+          "PIR-07"
+        ],
+        "national_role": "PH Secretary-General / Transport Minister"
+      },
+      {
+        "name": "Datuk Seri Jalaluddin Alias",
+        "ticket": "BN-UMNO",
+        "seat": "N02 Pertang",
+        "pir_tags": [
+          "PIR-07"
+        ],
+        "national_role": "UMNO NS Liaison Chief / MP Jelebu"
+      },
+      {
+        "name": "Mohd Umry Abdul Khois",
+        "ticket": "PH-PKR",
+        "seat": "N02 Pertang",
+        "pir_tags": []
+      },
+      {
+        "name": "Mohd Faizal Fadli Mohd Idrus",
+        "ticket": "BERSATU",
+        "seat": "N02 Pertang",
+        "pir_tags": [
+          "PIR-09"
+        ]
+      },
+      {
+        "name": "Datuk Mohd Razi Mohd Ali",
+        "ticket": "BN-UMNO",
+        "seat": "N03 Sungai Lui",
+        "pir_tags": []
+      },
+      {
+        "name": "Nazrul Hisham Abdul Mansor",
+        "ticket": "BERSATU",
+        "seat": "N03 Sungai Lui",
+        "pir_tags": [
+          "PIR-09"
+        ]
+      },
+      {
+        "name": "Zainal Fikri Abd Kadir",
+        "ticket": "PH-PKR",
+        "seat": "N03 Sungai Lui",
+        "pir_tags": []
+      },
+      {
+        "name": "Muhammad Adib Musa",
+        "ticket": "BERSATU",
+        "seat": "N04 Klawang",
+        "pir_tags": [
+          "PIR-06",
+          "PIR-07",
+          "PIR-09"
+        ]
+      },
+      {
+        "name": "Danni Rais",
+        "ticket": "PN-WAWASAN",
+        "seat": "N04 Klawang",
+        "pir_tags": [
+          "PIR-06",
+          "PIR-07"
+        ],
+        "national_role": "PN-Wawasan N04; son of veteran politician Rais Yatim (collector note)"
+      },
+      {
+        "name": "Datuk Bakri Sawir",
+        "ticket": "PH-AMANAH",
+        "seat": "N04 Klawang",
+        "pir_tags": [
+          "PIR-06",
+          "PIR-07"
+        ]
+      },
+      {
+        "name": "Mohd Fairuz Mohd Isa",
+        "ticket": "PN-PAS",
+        "seat": "N05 Serting",
+        "pir_tags": [
+          "PIR-06",
+          "PIR-07"
+        ]
+      },
+      {
+        "name": "Muhammad Noraffendy Mohd Salleh",
+        "ticket": "BERSATU",
+        "seat": "N05 Serting",
+        "pir_tags": [
+          "PIR-06",
+          "PIR-07",
+          "PIR-09"
+        ]
+      },
+      {
+        "name": "Yaacob Mahmood",
+        "ticket": "PH-AMANAH",
+        "seat": "N05 Serting",
+        "pir_tags": [
+          "PIR-06",
+          "PIR-07"
+        ]
+      },
+      {
+        "name": "Datuk Mustapha Nagoor",
+        "ticket": "BN-UMNO",
+        "seat": "N06 Palong",
+        "pir_tags": []
+      },
+      {
+        "name": "Muhammad Zahin Zinal Abidin",
+        "ticket": "PH-PKR",
+        "seat": "N06 Palong",
+        "pir_tags": []
+      },
+      {
+        "name": "Rebin Birham",
+        "ticket": "BERSATU",
+        "seat": "N06 Palong",
+        "pir_tags": [
+          "PIR-09"
+        ]
+      },
+      {
+        "name": "Sri Sanjeevan Ramakrishnan",
+        "ticket": "BERSATU",
+        "seat": "N07 Jeram Padang",
+        "pir_tags": [
+          "PIR-09"
+        ]
+      },
+      {
+        "name": "G Manivannan",
+        "ticket": "PH-PKR",
+        "seat": "N07 Jeram Padang",
+        "pir_tags": []
+      },
+      {
+        "name": "Dayana Dal",
+        "ticket": "ASLI",
+        "seat": "N07 Jeram Padang",
+        "pir_tags": []
+      },
+      {
+        "name": "Datuk Mohd Zaidy Abdul Kadir",
+        "ticket": "BN-UMNO",
+        "seat": "N07 Jeram Padang",
+        "pir_tags": []
+      },
+      {
+        "name": "Teo Kok Seong",
+        "ticket": "PH-DAP",
+        "seat": "N08 Bahau",
+        "pir_tags": []
+      },
+      {
+        "name": "Chong Fui Ming",
+        "ticket": "BN-MCA",
+        "seat": "N08 Bahau",
+        "pir_tags": []
+      },
+      {
+        "name": "Zarinna Abu Zarin",
+        "ticket": "PH-AMANAH",
+        "seat": "N09 Lenggeng",
+        "pir_tags": []
+      },
+      {
+        "name": "Datuk Mohd Asna Amin",
+        "ticket": "BN-UMNO",
+        "seat": "N09 Lenggeng",
+        "pir_tags": []
+      },
+      {
+        "name": "Zool Amali Hussin",
+        "ticket": "BERSATU",
+        "seat": "N09 Lenggeng",
+        "pir_tags": [
+          "PIR-09"
+        ]
+      },
+      {
+        "name": "Zamani Ibrahim",
+        "ticket": "BERJASA",
+        "seat": "N10 Nilai",
+        "pir_tags": [
+          "PIR-07"
+        ]
+      },
+      {
+        "name": "J Arul Kumar",
+        "ticket": "PH-DAP",
+        "seat": "N10 Nilai",
+        "pir_tags": [
+          "PIR-07"
+        ]
+      },
+      {
+        "name": "Omar Mohd Isa",
+        "ticket": "BEBAS",
+        "seat": "N10 Nilai",
+        "pir_tags": [
+          "PIR-07",
+          "PIR-09"
+        ]
+      },
+      {
+        "name": "Lai Chien Kong",
+        "ticket": "BN-MCA",
+        "seat": "N10 Nilai",
+        "pir_tags": [
+          "PIR-07"
+        ]
+      },
+      {
+        "name": "Datuk V. Saravana Kumar",
+        "ticket": "BERSATU",
+        "seat": "N10 Nilai",
+        "pir_tags": [
+          "PIR-07",
+          "PIR-09"
+        ]
+      },
+      {
+        "name": "Dr P. Kumar",
+        "ticket": "PN-PAS",
+        "seat": "N11 Lobak",
+        "pir_tags": []
+      },
+      {
+        "name": "Chew Seh Yong",
+        "ticket": "PH-DAP",
+        "seat": "N11 Lobak",
+        "pir_tags": []
+      },
+      {
+        "name": "Ho Weng Wah",
+        "ticket": "PH-DAP",
+        "seat": "N12 Temiang",
+        "pir_tags": []
+      },
+      {
+        "name": "Leaw Kok Chan",
+        "ticket": "BN-MCA",
+        "seat": "N12 Temiang",
+        "pir_tags": []
+      },
+      {
+        "name": "Fazly Hamid",
+        "ticket": "BERSATU",
+        "seat": "N12 Temiang",
+        "pir_tags": [
+          "PIR-09"
+        ]
+      },
+      {
+        "name": "Datuk Tun Faisal Ismail Aziz",
+        "ticket": "BERSATU",
+        "seat": "N13 Sikamat",
+        "pir_tags": [
+          "PIR-06",
+          "PIR-07",
+          "PIR-09"
+        ]
+      },
+      {
+        "name": "Datuk Razali Abu Samah",
+        "ticket": "PN-Wawasan",
+        "seat": "N13 Sikamat",
+        "pir_tags": [
+          "PIR-06",
+          "PIR-07"
+        ]
+      },
+      {
+        "name": "Nor Azman Mohamad",
+        "ticket": "PH-PKR",
+        "seat": "N13 Sikamat",
+        "pir_tags": [
+          "PIR-06",
+          "PIR-07"
+        ]
+      },
+      {
+        "name": "Datuk Muhammad Nazri Kassim",
+        "ticket": "PH-PKR",
+        "seat": "N14 Ampangan",
+        "pir_tags": [
+          "PIR-06",
+          "PIR-07"
+        ]
+      },
+      {
+        "name": "Noor'azah Harun",
+        "ticket": "BERSATU",
+        "seat": "N14 Ampangan",
+        "pir_tags": [
+          "PIR-06",
+          "PIR-07",
+          "PIR-09"
+        ]
+      },
+      {
+        "name": "Datuk Dr Mohamad Rafie Ab Malek",
+        "ticket": "PN-PAS",
+        "seat": "N14 Ampangan",
+        "pir_tags": [
+          "PIR-06",
+          "PIR-07",
+          "PIR-09"
+        ],
+        "national_role": "Former 2018 PH winner (defected to PAS) — PIR-09 defector angle"
+      },
+      {
+        "name": "Mohd Zuhaimi Md Yusof",
+        "ticket": "BERSATU",
+        "seat": "N15 Juasseh",
+        "pir_tags": [
+          "PIR-07",
+          "PIR-09"
+        ]
+      },
+      {
+        "name": "Datuk Ismail Lasim",
+        "ticket": "BN-UMNO",
+        "seat": "N15 Juasseh",
+        "pir_tags": [
+          "PIR-07"
+        ]
+      },
+      {
+        "name": "Mohd Aidil Abdullah",
+        "ticket": "PH-PKR",
+        "seat": "N15 Juasseh",
+        "pir_tags": [
+          "PIR-07"
+        ]
+      },
+      {
+        "name": "Muhammad Sufian Maradzi",
+        "ticket": "BN-UMNO",
+        "seat": "N16 Seri Menanti",
+        "pir_tags": []
+      },
+      {
+        "name": "Mohd Kamarul Arifin Mohd Wafa",
+        "ticket": "PH-PKR",
+        "seat": "N16 Seri Menanti",
+        "pir_tags": []
+      },
+      {
+        "name": "Datuk Seri Megat D. Shahriman Zaharudin",
+        "ticket": "BERSATU",
+        "seat": "N16 Seri Menanti",
+        "pir_tags": [
+          "PIR-09"
+        ]
+      },
+      {
+        "name": "Mohamad Qayyum Abd Jalil",
+        "ticket": "BN-UMNO",
+        "seat": "N17 Senaling",
+        "pir_tags": []
+      },
+      {
+        "name": "Mohd Izaffi Istear Khan",
+        "ticket": "BERSATU",
+        "seat": "N17 Senaling",
+        "pir_tags": [
+          "PIR-09"
+        ]
+      },
+      {
+        "name": "Mohd Hanis Alimin",
+        "ticket": "PH-AMANAH",
+        "seat": "N17 Senaling",
+        "pir_tags": []
+      },
+      {
+        "name": "S Leza Md Yasin",
+        "ticket": "BN-UMNO",
+        "seat": "N18 Pilah",
+        "pir_tags": []
+      },
+      {
+        "name": "Datuk Noorzunita Begum Mohd Ibrahim",
+        "ticket": "PH-PKR",
+        "seat": "N18 Pilah",
+        "pir_tags": []
+      },
+      {
+        "name": "Mohd Zailan Mohd Munawar",
+        "ticket": "PH-AMANAH",
+        "seat": "N19 Johol",
+        "pir_tags": []
+      },
+      {
+        "name": "Datuk Saiful Yazan Sulaiman",
+        "ticket": "BN-UMNO",
+        "seat": "N19 Johol",
+        "pir_tags": []
+      },
+      {
+        "name": "Datuk Ahmad Faez Abdul Razak",
+        "ticket": "PH-PKR",
+        "seat": "N20 Labu",
+        "pir_tags": []
+      },
+      {
+        "name": "Mohamad Hanifah Abu Baker",
+        "ticket": "BERSATU",
+        "seat": "N20 Labu",
+        "pir_tags": [
+          "PIR-09"
+        ]
+      },
+      {
+        "name": "Siti Nur Umaira Hasim",
+        "ticket": "BN-UMNO",
+        "seat": "N20 Labu",
+        "pir_tags": []
+      },
+      {
+        "name": "Nicole Tan Lee Koon",
+        "ticket": "PH-DAP",
+        "seat": "N21 Bukit Kepayang",
+        "pir_tags": []
+      },
+      {
+        "name": "Lee Boon Shian",
+        "ticket": "PN-GERAKAN",
+        "seat": "N21 Bukit Kepayang",
+        "pir_tags": []
+      },
+      {
+        "name": "Desmond Siau Meow Kong",
+        "ticket": "PH-DAP",
+        "seat": "N22 Rahang",
+        "pir_tags": []
+      },
+      {
+        "name": "S. Tinagaran",
+        "ticket": "PSM",
+        "seat": "N22 Rahang",
+        "pir_tags": []
+      },
+      {
+        "name": "Yap Siok Moy",
+        "ticket": "BN-MCA",
+        "seat": "N22 Rahang",
+        "pir_tags": []
+      },
+      {
+        "name": "Tang Jay Son",
+        "ticket": "BERSATU",
+        "seat": "N22 Rahang",
+        "pir_tags": [
+          "PIR-09"
+        ],
+        "national_role": "Ex-Gerakan, expelled for contesting on Bersatu ticket — PIR-09"
+      },
+      {
+        "name": "Lee Kai Yet",
+        "ticket": "PH-DAP",
+        "seat": "N23 Mambau",
+        "pir_tags": [
+          "PIR-06"
+        ]
+      },
+      {
+        "name": "N Sarawanan",
+        "ticket": "BERSATU",
+        "seat": "N23 Mambau",
+        "pir_tags": [
+          "PIR-06",
+          "PIR-09"
+        ]
+      },
+      {
+        "name": "Erik Michael",
+        "ticket": "PN-WAWASAN",
+        "seat": "N23 Mambau",
+        "pir_tags": [
+          "PIR-06"
+        ]
+      },
+      {
+        "name": "Datuk RT Thinalan",
+        "ticket": "BN-MIC",
+        "seat": "N24 Seremban Jaya",
+        "pir_tags": []
+      },
+      {
+        "name": "R Mahendran",
+        "ticket": "BERSATU",
+        "seat": "N24 Seremban Jaya",
+        "pir_tags": [
+          "PIR-09"
+        ]
+      },
+      {
+        "name": "S Mugunthan",
+        "ticket": "PH-DAP",
+        "seat": "N24 Seremban Jaya",
+        "pir_tags": []
+      },
+      {
+        "name": "Ahmad Shahir Mohd Shah",
+        "ticket": "PH-AMANAH",
+        "seat": "N25 Paroi",
+        "pir_tags": [
+          "PIR-06"
+        ]
+      },
+      {
+        "name": "Mohd Nazree Mohd Yunos",
+        "ticket": "BERSATU",
+        "seat": "N25 Paroi",
+        "pir_tags": [
+          "PIR-06",
+          "PIR-09"
+        ]
+      },
+      {
+        "name": "Kamarol Ridzuan Mohd Zain",
+        "ticket": "PN-PAS",
+        "seat": "N25 Paroi",
+        "pir_tags": [
+          "PIR-06"
+        ]
+      },
+      {
+        "name": "Danish Nazran Murad",
+        "ticket": "PH-PKR",
+        "seat": "N26 Chembong",
+        "pir_tags": []
+      },
+      {
+        "name": "Datuk Zaifulbahri Idris",
+        "ticket": "BN-UMNO",
+        "seat": "N26 Chembong",
+        "pir_tags": []
+      },
+      {
+        "name": "Dr Azizul Hakim Mahdi",
+        "ticket": "PH-PKR",
+        "seat": "N27 Rantau",
+        "pir_tags": []
+      },
+      {
+        "name": "Datuk Seri Mohamad Hasan",
+        "ticket": "BN-UMNO",
+        "seat": "N27 Rantau",
+        "pir_tags": [
+          "PIR-07"
+        ],
+        "national_role": "Deputy Finance Minister / 'Tok Mat'"
+      },
+      {
+        "name": "Akmal Noradzmi Abd Rahim",
+        "ticket": "BERSATU",
+        "seat": "N28 Kota",
+        "pir_tags": [
+          "PIR-07",
+          "PIR-09"
+        ]
+      },
+      {
+        "name": "Muhammad Allif Ibrahim",
+        "ticket": "PH-AMANAH",
+        "seat": "N28 Kota",
+        "pir_tags": [
+          "PIR-07"
+        ]
+      },
+      {
+        "name": "Suhaimi Aini",
+        "ticket": "BN-UMNO",
+        "seat": "N28 Kota",
+        "pir_tags": [
+          "PIR-07"
+        ]
+      },
+      {
+        "name": "Pau Jeou Ching",
+        "ticket": "BN-MCA",
+        "seat": "N29 Chuah",
+        "pir_tags": []
+      },
+      {
+        "name": "Datuk Yew Boon Lye",
+        "ticket": "PH-PKR",
+        "seat": "N29 Chuah",
+        "pir_tags": []
+      },
+      {
+        "name": "Choo Ken Hwa",
+        "ticket": "PH-DAP",
+        "seat": "N30 Lukut",
+        "pir_tags": []
+      },
+      {
+        "name": "Sathes Kumar Nilameham",
+        "ticket": "PN-MIPP",
+        "seat": "N30 Lukut",
+        "pir_tags": []
+      },
+      {
+        "name": "Teo Seng Lee",
+        "ticket": "Bebas",
+        "seat": "N30 Lukut",
+        "pir_tags": [
+          "PIR-09"
+        ]
+      },
+      {
+        "name": "Sheikh Junaidy Jamaludin",
+        "ticket": "BERSATU",
+        "seat": "N31 Bagan Pinang",
+        "pir_tags": [
+          "PIR-06",
+          "PIR-09"
+        ]
+      },
+      {
+        "name": "Abdul Fatah Zakaria",
+        "ticket": "PN-PAS",
+        "seat": "N31 Bagan Pinang",
+        "pir_tags": [
+          "PIR-06"
+        ]
+      },
+      {
+        "name": "Nasir Raman",
+        "ticket": "PH-AMANAH",
+        "seat": "N31 Bagan Pinang",
+        "pir_tags": [
+          "PIR-06"
+        ]
+      },
+      {
+        "name": "Datuk Zamri Md Said",
+        "ticket": "BERSATU",
+        "seat": "N32 Linggi",
+        "pir_tags": [
+          "PIR-07",
+          "PIR-09"
+        ]
+      },
+      {
+        "name": "Datuk Mohd Faizal Ramli",
+        "ticket": "BN-UMNO",
+        "seat": "N32 Linggi",
+        "pir_tags": [
+          "PIR-07"
+        ]
+      },
+      {
+        "name": "Datuk Seri Aminuddin Harun",
+        "ticket": "PH-PKR",
+        "seat": "N32 Linggi",
+        "pir_tags": [
+          "PIR-07"
+        ],
+        "national_role": "Caretaker Menteri Besar (moved N13->N32)"
+      },
+      {
+        "name": "A Achuthan",
+        "ticket": "BN-MIC",
+        "seat": "N33 Seri Tanjung",
+        "pir_tags": [
+          "PIR-07"
+        ]
+      },
+      {
+        "name": "Datuk A Saravanan",
+        "ticket": "Bebas",
+        "seat": "N33 Seri Tanjung",
+        "pir_tags": [
+          "PIR-07",
+          "PIR-09"
+        ]
+      },
+      {
+        "name": "M Leevineshwaraan",
+        "ticket": "BERSATU",
+        "seat": "N33 Seri Tanjung",
+        "pir_tags": [
+          "PIR-07",
+          "PIR-09"
+        ]
+      },
+      {
+        "name": "Islah Wahyudi Zainudin",
+        "ticket": "Bebas",
+        "seat": "N33 Seri Tanjung",
+        "pir_tags": [
+          "PIR-07",
+          "PIR-09"
+        ]
+      },
+      {
+        "name": "Datuk Dr G Rajasekaran",
+        "ticket": "PH-PKR",
+        "seat": "N33 Seri Tanjung",
+        "pir_tags": [
+          "PIR-07"
+        ]
+      },
+      {
+        "name": "Azman Abdullah",
+        "ticket": "BERSATU",
+        "seat": "N34 Gemas",
+        "pir_tags": [
+          "PIR-06",
+          "PIR-09"
+        ]
+      },
+      {
+        "name": "Ridzuan Ahmad",
+        "ticket": "PN-WAWASAN",
+        "seat": "N34 Gemas",
+        "pir_tags": [
+          "PIR-06"
+        ]
+      },
+      {
+        "name": "Siti Aishah Seman @ Othman",
+        "ticket": "PH-PKR",
+        "seat": "N34 Gemas",
+        "pir_tags": [
+          "PIR-06"
+        ]
+      },
+      {
+        "name": "Suhaimizan Bizar",
+        "ticket": "BN-UMNO",
+        "seat": "N35 Gemencheh",
+        "pir_tags": []
+      },
+      {
+        "name": "Abd Latif A Tambi",
+        "ticket": "PH-AMANAH",
+        "seat": "N35 Gemencheh",
+        "pir_tags": []
+      },
+      {
+        "name": "Koh Kim Swee",
+        "ticket": "BN-MCA",
+        "seat": "N36 Repah",
+        "pir_tags": []
+      },
+      {
+        "name": "S Veerapan",
+        "ticket": "PH-DAP",
+        "seat": "N36 Repah",
+        "pir_tags": []
+      }
+    ],
+    "national_figures_and_pir_actors": [
+      {
+        "name": "Datuk Seri Dr. Ronald Kiandee",
+        "aliases": [
+          "Ronald Kiandee",
+          "Datuk Seri Ronald Kiandee"
+        ],
+        "role": "Former/suspended Bersatu Vice-President; MP Beluran",
+        "party": "Bersatu",
+        "pir_tags": [
+          "PIR-06"
+        ],
+        "pir06_role": "PRIMARY PIR-06 actor — issued Facebook statement (Nomination Day) that PN Supreme Council (Majlis Tertinggi) has 'asas kukuh' (strong grounds) to remove Bersatu, after Bersatu fielded candidates vs PN partners in 8 seats. PRECURSOR signal (no formal removal notice yet).",
+        "sources": [
+          "NST",
+          "Utusan",
+          "BERNAMA wire"
+        ]
+      },
+      {
+        "name": "Wong Chia Zhen",
+        "role": "Gerakan Secretary-General",
+        "party": "Gerakan (PN component)",
+        "pir_tags": [
+          "PIR-09"
+        ],
+        "pir09_role": "Issued immediate-effect expulsion (pecat) of Tang Jay Son for contesting on Bersatu ticket — 'serious breach of party discipline / contrary to principle of loyalty'.",
+        "sources": [
+          "NST/BERNAMA",
+          "BHarian",
+          "AstroAwani",
+          "The Star"
+        ]
+      },
+      {
+        "name": "Datuk Seri Anwar Ibrahim",
+        "aliases": [
+          "Anwar Ibrahim"
+        ],
+        "role": "Prime Minister; PH Chairman",
+        "party": "PH/PKR",
+        "pir_tags": [
+          "PIR-07"
+        ],
+        "pir07_role": "Asked NS voters to give PH a stronger mandate for clean/stable administration under MB Aminuddin.",
+        "sources": [
+          "NST",
+          "BHarian",
+          "AstroAwani",
+          "The Star"
+        ]
+      },
+      {
+        "name": "Datuk Seri Dr. Ahmad Zahid Hamidi",
+        "aliases": [
+          "Zahid Hamidi",
+          "Ahmad Zahid Hamidi"
+        ],
+        "role": "Deputy Prime Minister; BN Chairman",
+        "party": "BN/UMNO",
+        "pir_tags": [
+          "PIR-07"
+        ],
+        "pir07_role": "Escorted BN candidates (Tok Mat-Rantau, Zaifulbahri-Chembong, Suhaimi Aini-Kota) with lion-dance procession to Dewan Seri Rembau; also GEMA@KKDW program at Felda Palong 8, Jempol.",
+        "sources": [
+          "Utusan"
+        ]
+      },
+      {
+        "name": "Datuk Seri Johari Abdul Ghani",
+        "aliases": [
+          "Johari Abdul Ghani"
+        ],
+        "role": "UMNO Vice-President",
+        "party": "BN/UMNO",
+        "pir_tags": [
+          "PIR-07"
+        ],
+        "pir07_role": "Escorted BN candidate Suhaimizan Bizar (Gemencheh) to Dewan Perdana Tampin on Nomination Day.",
+        "sources": [
+          "Utusan"
+        ]
+      },
+      {
+        "name": "Tan Sri Muhyiddin Yassin",
+        "aliases": [
+          "Muhyiddin"
+        ],
+        "role": "Bersatu President; former PM",
+        "party": "Bersatu",
+        "pir_tags": [
+          "PIR-06"
+        ],
+        "pir06_role": "Positioned Bersatu as sole opposition voice; key figure to watch for response to Kiandee 'asas kukuh' statement (PIR-06 next-cycle watch).",
+        "sources": [
+          "NST",
+          "Utusan"
+        ]
+      },
+      {
+        "name": "Datuk Seri Hamzah Zainudin",
+        "aliases": [
+          "Hamzah Zainudin"
+        ],
+        "role": "Founder of Parti Wawasan Negara; PN Secretary-General",
+        "party": "Wawasan/PN",
+        "pir_tags": [
+          "PIR-06"
+        ],
+        "pir06_role": "Wawasan contests Bersatu in 4 of the 8 Tier-4 seats (Klawang, Sikamat, Mambau, Gemas). PIR-06 watch figure.",
+        "sources": [
+          "NST (priority_pir06 file)",
+          "collection_metadata"
+        ]
+      },
+      {
+        "name": "Datuk Seri Ramlan Harun",
+        "role": "Chairman, Suruhanjaya Pilihan Raya (SPR)",
+        "party": "(official/independent)",
+        "pir_tags": [
+          "PIR-07"
+        ],
+        "pir07_role": "Confirmed 103 candidates for PRN NS 2026 (PH 36, BN 25, Bersatu 24, PN 11, 4 independents, Berjasa/Asli/PSM 1 each).",
+        "sources": [
+          "Utusan"
+        ]
+      },
+      {
+        "name": "Datuk Alzafny Ahmad",
+        "aliases": [
+          "Alzafny Ahmad"
+        ],
+        "role": "Ketua Polis Negeri Sembilan (Negeri Sembilan Police Chief)",
+        "party": "(official / PDRM)",
+        "pir_tags": [
+          "PIR-07",
+          "PIR-09"
+        ],
+        "pir07_role": "Held a press conference at Kompleks Pentadbiran Daerah Port Dickson on Nomination Day: confirmed 2,373 PDRM officers deployed for nomination security; 8 nomination centres ran smoothly with no untoward incidents / no police reports; each centre drew 1,000-2,500 supporters (Jempol most, Kuala Pilah least); reminded candidates to campaign ethically and avoid 3R (religion, rulers, race) provocations. (Utusan 3-coalitions, full text.)",
+        "pir09_role": "Quoted (via NST) in Malaysiakini: activist Tamim Dahri Abd Razak (33) surrendered himself at the Port Dickson district police HQ at ~12:45pm; to be brought to Seremban court for remand application (religious-provocation charges). PIR-09 independent-support-network context.",
+        "sources": [
+          "Utusan (priority_pir-07_3-coalitions-clash-utusan_20260718_231029)",
+          "Malaysiakini (priority_pir-09_tamim-independent-mkini_20260718_231029)"
+        ],
+        "first_captured_cycle": "231029"
+      },
+      {
+        "name": "Bujang Abu",
+        "role": "Independent candidate (withdrew); 75-yr-old street musician / ex-govt servant",
+        "party": "Independent (Bebas)",
+        "pir_tags": [
+          "PIR-09"
+        ],
+        "pir09_role": "Tarik diri (withdrew) at nomination for N13 Sikamat — failed to submit 2023 election expense report (SPR requirement). Paperwork-related; NOT a Bersatu/party withdrawal. Minor PIR-09 note.",
+        "sources": [
+          "Utusan",
+          "collection_metadata"
+        ]
+      },
+      {
+        "name": "Fuziah",
+        "role": "PKR / PH spokesperson (quoted re: parties' right to set own strategy)",
+        "party": "PKR/PH",
+        "pir_tags": [
+          "PIR-07"
+        ],
+        "pir07_role": "Quoted: 'PKR, PH respect parties' right to set own strategy for N9 polls'. (Full identity not expanded in source.)",
+        "sources": [
+          "NST"
+        ]
+      },
+      {
+        "name": "Tan Sri Annuar Musa",
+        "aliases": [
+          "Annuar Musa"
+        ],
+        "role": "Senior BN/UMNO figure",
+        "party": "BN/UMNO",
+        "pir_tags": [
+          "PIR-07",
+          "PIR-06"
+        ],
+        "pir07_role": "At Port Dickson on Nomination Day; stated BN-PN will campaign together / share ceramah stage ('BN-PN akan kempen bersama, kongsi pentas ceramah').",
+        "sources": [
+          "Utusan",
+          "The Star (gnews)",
+          "collection_metadata (170837 cycle)"
+        ],
+        "pir06_role": "The Star reports 'Bersatu's use of own logo shows it wants to part ways with PN, says Annuar Musa' — publicly states Bersatu wants to part ways with PN (own-logo signal). CAVEAT: collection_metadata.json labels the speaker 'Bersatu sec-gen Annuar Musa'; however the known Bersatu Secretary-General is Datuk Seri Hamzah Zainudin, and the prominent 'Tan Sri Annuar Musa' is the BN/UMNO veteran. Naming ambiguity flagged — statement retained under this entry; do not conflate with Hamzah Zainudin."
+      },
+      {
+        "name": "Datuk Dr Wee Ka Siong",
+        "aliases": [
+          "Dr Wee",
+          "Wee Ka Siong",
+          "Wee"
+        ],
+        "role": "MCA President; BN component leader",
+        "party": "BN/MCA",
+        "pir_tags": [
+          "PIR-07",
+          "PIR-09"
+        ],
+        "pir07_role": "Stated BN-Perikatan have an 'understanding' for NS polls, NOT a merger (The Star); framed as determinant for Melaka & PRU16. Reconfirmed this cycle (mkini 780035) with full name confirmed.",
+        "sources": [
+          "The Star",
+          "Malaysiakini (priority_pir-09_wee-bnpn-not-merger-mkini_20260718_231029)"
+        ],
+        "pir09_role": "MCA president. Publicly clarified (press conference, mkini 780035) that the BN-PN electoral pact for NS is NOT a merger — each party retains its own ideology and stance; aimed at ensuring continued development under a strong, stable state government. Followed backlash over the BN-PN cooperation decision. Full name now CONFIRMED in source text (was previously inferred).",
+        "name_confirmation_note": "Full name 'Wee Ka Siong' now explicitly stated in mkini 780035 (231029 cycle) — prior build carried this as an inference; inference caveat removed."
+      },
+      {
+        "name": "Albert Tei",
+        "aliases": [
+          "Albert Tei (businessperson)"
+        ],
+        "role": "Businessperson; PN supporter (not a candidate)",
+        "party": "PN (supporter, not member-confirmed)",
+        "pir_tags": [
+          "PIR-09"
+        ],
+        "pir09_role": "Day-1 PN-camp messaging tone incident: admitted targeting PH/Harapan supporters gathered outside Dewan Besar Kuala Klawang (Jelebu) nomination centre, labelling them 'barking dogs' (25-sec video clip, dressed in PN shirt). Abrasive rhetoric — character/credibility signal on a PN-side figure. Malaysiakini news/780042.",
+        "sources": [
+          "Malaysiakini (priority_pir09_pn-camp-albert-barking-dogs_170837)"
+        ]
+      },
+      {
+        "name": "Saw Yee Fung",
+        "role": "MCA Youth Secretary-General",
+        "party": "MCA (BN component)",
+        "pir_tags": [
+          "PIR-09",
+          "PIR-07"
+        ],
+        "pir09_role": "Allegedly instructed by MCA to skip the NS state election campaign after she openly criticised BN's decision to cooperate with PN. Revealed via lengthy Facebook post with screenshot of a WhatsApp message from MCA Sec-Gen Chong Sin Woon ('you don't have to come'). Internal BN-component disciplinary silencing of a dissenting Youth leader over the BN-PN pact — campaign-exclusion (not a candidate expulsion). Adds to the PN-component disciplinary-actions pattern (cf. Gerakan pecat of Tang Jay Son).",
+        "sources": [
+          "Malaysiakini (priority_pir09_mca-youth-stay-out-ns-polls_170837)"
+        ]
+      },
+      {
+        "name": "Chong Sin Woon",
+        "role": "MCA Secretary-General",
+        "party": "MCA (BN component)",
+        "pir_tags": [
+          "PIR-09",
+          "PIR-07"
+        ],
+        "pir09_role": "Issued the WhatsApp directive 'you don't have to come' to MCA Youth sec-gen Saw Yee Fung, excluding her from the NS campaign over her public criticism of the BN-PN cooperation. MCA disciplinary/credibility dynamic — PIR-09 party-discipline signal.",
+        "sources": [
+          "Malaysiakini (priority_pir09_mca-youth-stay-out-ns-polls_170837)"
+        ]
+      },
+      {
+        "name": "Tamim Dahri Abd Razak",
+        "aliases": [
+          "Tamim",
+          "Tamim Dahri"
+        ],
+        "role": "Activist (surrendered to police); self-proclaimed land activist; age 33",
+        "party": "(independent-aligned)",
+        "pir_tags": [
+          "PIR-09"
+        ],
+        "pir09_role": "Self-proclaimed land activist Tamim Dahri Abd Razak (33), on the run from court charges linked to religious provocation, surrendered to police at the Port Dickson district police HQ at ~12:45pm on Nomination Day (NST quoted NS police chief Datuk Alzafny Ahmad). To be brought to Seremban court for a remand application. Has publicly stated he hopes to campaign for an Negeri Sembilan independent candidate (which independent not specified in captured text). Independent-candidate support-network signal.",
+        "sources": [
+          "Malaysiakini (priority_pir-09_tamim-independent-mkini_20260718_231029)",
+          "Malaysiakini (mkini homepage + mkini gnews, 170837/182751 cycles)",
+          "New Straits Times (quoted via mkini)"
+        ]
+      },
+      {
+        "name": "Datuk Dr Asyraf Wajdi Dusuki",
+        "aliases": [
+          "Asyraf Wajdi"
+        ],
+        "role": "UMNO figure (former Minister); quoted re: BN-PN understanding",
+        "party": "BN/UMNO",
+        "pir_tags": [
+          "PIR-07"
+        ],
+        "pir07_role": "Stated the BN-PN understanding is aimed at ensuring Negri Sembilan political stability (NST). BN-PN electoral-understanding cluster corroboration.",
+        "sources": [
+          "NST (nstcommy gnews, 170837/182751 cycles)"
+        ]
+      }
+    ],
+    "pir06_watch_figures": [
+      {
+        "name": "Tan Sri Muhyiddin Yassin",
+        "note": "Already listed above — PIR-06 response watch."
+      },
+      {
+        "name": "Datuk Seri Hamzah Zainudin",
+        "note": "Already listed above — PIR-06 response watch."
+      },
+      {
+        "name": "Tan Sri Abdul Hadi Awang",
+        "aliases": [
+          "Hadi Awang"
+        ],
+        "role": "PAS President",
+        "party": "PAS/PN",
+        "pir_tags": [
+          "PIR-06"
+        ],
+        "pir06_role": "Watch for response to Kiandee 'asas kukuh' statement (collection_metadata next_cycle_watch).",
+        "sources": [
+          "collection_metadata"
+        ]
+      },
+      {
+        "name": "Datuk Seri Dr. Ahmad Samsuri Mokhtar",
+        "aliases": [
+          "Ahmad Samsuri Mokhtar",
+          "Samsuri",
+          "Samsuri Mokhtar",
+          "Dr Samsuri Anuar (prior misreading)"
+        ],
+        "role": "PN Chairperson; Menteri Besar of Terengganu",
+        "party": "PAS/PN",
+        "pir_tags": [
+          "PIR-06"
+        ],
+        "pir06_role": "PN chairperson named by Muhyiddin as having UNILATERALLY entered an electoral pact with BN and sidelined Bersatu from seat negotiations — the trigger for Muhyiddin's exit hint. Samsuri separately signals PN may CONTINUE BN cooperation if NS results prove positive (NST, 17 Jul). HIGHEST-WEIGHT PIR-06 actor on the PN/PAS side. CORRECTION: prior build listed 'Dr Samsuri Anuar' as a 'Bersatu leader' — that was an error; the Terengganu MB / PN chairperson is Ahmad Samsuri Mokhtar (PAS/PN, not Bersatu).",
+        "sources": [
+          "Malaysiakini (priority_pir06_goodbye-pn-muhyiddin-raps-samsuri_170837)",
+          "NST (PN may continue BN cooperation, says Samsuri)",
+          "collection_metadata (170837/182751 cycles)"
+        ],
+        "name_correction_note": "Corrected from 'Dr Samsuri Anuar' (prior build misreading) to 'Datuk Seri Dr. Ahmad Samsuri Mokhtar'."
+      }
+    ],
+    "peripheral_referenced_figures": [
+      {
+        "name": "Tan Sri Rais Yatim",
+        "role": "Veteran politician (father of Danni Rais, PN-Wawasan N04)",
+        "pir_tags": [
+          "PIR-07"
+        ],
+        "note": "Referenced in collector analysis only; not a 2026 candidate.",
+        "sources": [
+          "priority_pir07 file (collector note)"
+        ]
+      },
+      {
+        "name": "Tunku Ismail Sultan Ibrahim",
+        "role": "Johor Regent (TMJ)",
+        "pir_tags": [
+          "PIR-06"
+        ],
+        "pir06_role": "Referenced in Malaysiakini SNAPSHOT framing 'Bersatu exit from PN imminent?' — mainstream outlet now framing exit as imminent (narrative-stage signal, not an action by TMJ). Peripheral; included for PIR-06 narrative-frame monitoring.",
+        "note": "Referenced in a KINI SNAPSHOT headline; not a 2026 NS candidate and not an active PIR-06 actor.",
+        "sources": [
+          "Malaysiakini (priority_pir06_bersatu-exit-pn-imminent-snapshot_170837)"
+        ]
+      }
+    ],
+    "total_unique_persons": 125
+  },
+  "parties": [
+    "UMNO",
+    "MCA",
+    "MIC",
+    "PAS",
+    "Bersatu (Parti Pribumi Bersatu Malaysia)",
+    "Gerakan",
+    "DAP",
+    "PKR",
+    "Amanah (AMANAH)",
+    "Wawasan (Parti Wawasan Negara)",
+    "MIPP",
+    "Berjasa (Barisan Jamaah Islamiah Semalaysia)",
+    "Asli (Parti Orang Asli Malaysia)",
+    "PSM (Parti Sosialis Malaysia)",
+    "Bebas (Independent)"
+  ],
+  "coalitions": [
+    "PH (Pakatan Harapan)",
+    "BN (Barisan Nasional)",
+    "PN (Perikatan Nasional)",
+    "Pakatan Rakyat (PR) — historical coalition (pre-PH, referenced re: 2008 Ampangan)",
+    "Kerajaan Perpaduan (Unity Government) — federal, referenced re: BN role"
+  ],
+  "organizations": [
+    "Suruhanjaya Pilihan Raya (SPR) — Election Commission",
+    "Majlis Tertinggi PN (PN Supreme Council) — PIR-06 critical body (grounds to remove Bersatu)",
+    "Dewan Undangan Negeri (DUN) Negeri Sembilan",
+    "EXCO Negeri Sembilan",
+    "Majlis Bandaraya Seremban (MBS)",
+    "Badan Perhubungan UMNO Negeri Sembilan",
+    "Polis Diraja Malaysia (PDRM)",
+    "Pasukan Penguat Kuasa Kempen Pilihan Raya (PP-KPR) — SPR campaign-enforcement teams (36 stood up for PRN NS)",
+    "BERNAMA (national news wire)",
+    "NSTP (New Straits Times Press)",
+    "IPD Port Dickson"
+  ],
+  "constituencies": [
+    {
+      "code": "N01",
+      "name": "Chennah",
+      "pir_tags": []
+    },
+    {
+      "code": "N02",
+      "name": "Pertang",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N03",
+      "name": "Sungai Lui",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N04",
+      "name": "Klawang",
+      "pir_tags": [
+        "PIR-06",
+        "PIR-07",
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N05",
+      "name": "Serting",
+      "pir_tags": [
+        "PIR-06",
+        "PIR-07",
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N06",
+      "name": "Palong",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N07",
+      "name": "Jeram Padang",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N08",
+      "name": "Bahau",
+      "pir_tags": []
+    },
+    {
+      "code": "N09",
+      "name": "Lenggeng",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N10",
+      "name": "Nilai",
+      "pir_tags": [
+        "PIR-07",
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N11",
+      "name": "Lobak",
+      "pir_tags": []
+    },
+    {
+      "code": "N12",
+      "name": "Temiang",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N13",
+      "name": "Sikamat",
+      "pir_tags": [
+        "PIR-06",
+        "PIR-07",
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N14",
+      "name": "Ampangan",
+      "pir_tags": [
+        "PIR-06",
+        "PIR-07",
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N15",
+      "name": "Juasseh",
+      "pir_tags": [
+        "PIR-07",
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N16",
+      "name": "Seri Menanti",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N17",
+      "name": "Senaling",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N18",
+      "name": "Pilah",
+      "pir_tags": []
+    },
+    {
+      "code": "N19",
+      "name": "Johol",
+      "pir_tags": []
+    },
+    {
+      "code": "N20",
+      "name": "Labu",
+      "pir_tags": [
+        "PIR-09",
+        "PIR-07"
+      ]
+    },
+    {
+      "code": "N21",
+      "name": "Bukit Kepayang",
+      "pir_tags": []
+    },
+    {
+      "code": "N22",
+      "name": "Rahang",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N23",
+      "name": "Mambau",
+      "pir_tags": [
+        "PIR-06",
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N24",
+      "name": "Seremban Jaya",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N25",
+      "name": "Paroi",
+      "pir_tags": [
+        "PIR-06",
+        "PIR-09",
+        "PIR-07"
+      ]
+    },
+    {
+      "code": "N26",
+      "name": "Chembong",
+      "pir_tags": []
+    },
+    {
+      "code": "N27",
+      "name": "Rantau",
+      "pir_tags": []
+    },
+    {
+      "code": "N28",
+      "name": "Kota",
+      "pir_tags": [
+        "PIR-07",
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N29",
+      "name": "Chuah",
+      "pir_tags": []
+    },
+    {
+      "code": "N30",
+      "name": "Lukut",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N31",
+      "name": "Bagan Pinang",
+      "pir_tags": [
+        "PIR-06",
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N32",
+      "name": "Linggi",
+      "pir_tags": [
+        "PIR-07",
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N33",
+      "name": "Seri Tanjung",
+      "pir_tags": [
+        "PIR-07",
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N34",
+      "name": "Gemas",
+      "pir_tags": [
+        "PIR-06",
+        "PIR-09"
+      ]
+    },
+    {
+      "code": "N35",
+      "name": "Gemencheh",
+      "pir_tags": []
+    },
+    {
+      "code": "N36",
+      "name": "Repah",
+      "pir_tags": []
+    }
+  ],
+  "events": [
+    "PRN Negeri Sembilan 2026 (Pilihan Raya Negeri ke-16)",
+    "Hari Penamaan Calon (Nomination Day, 18 Julai 2026)",
+    "Hari Pengundian (Polling Day, 1 Ogos 2026)",
+    "Pengundian Awal (Early Voting, 28 Julai 2026)",
+    "Kempen PRN Negeri Sembilan (campaign period ~2 weeks)",
+    "Pelancaran Manifesto BN (24 Julai 2026, DUN Linggi) [PIR-07]",
+    "Perarakan tarian singa Rantau — Zahid escorts Tok Mat/Zaifulbahri/Suhaimi Aini to Dewan Seri Rembau (Nom Day) [PIR-07]",
+    "Ops Penamaan Calon BN Jelebu — Chennah/Pertang/Sungai Lui/Klawang to Dewan Besar Kuala Klawang (Nom Day) [PIR-07]",
+    "Ops Penamaan Calon BN Gemencheh — Johari Abdul Ghani escorts Suhaimizan Bizar to Dewan Perdana Tampin (Nom Day) [PIR-07]",
+    "Kempen Bersama BN-PN / Kongsi Pentas Ceramah — Annuar Musa statement (Port Dickson) [PIR-07]",
+    "Pecatan Tang Jay Son oleh GERAKAN (immediate-effect, Nomination Day) [PIR-09]",
+    "Kenyataan Ronald Kiandee 'asas kukuh' (Facebook post, Nomination Day) — PIR-06 PRECURSOR signal [PIR-06]",
+    "Penarikan diri Bujang Abu (N13 Sikamat) — dokumen SPR tidak lengkap [PIR-09]",
+    "Kenyataan Muhyiddin 'Goodbye PN?' — Bersatu president hinting at exit, wishing PN 'all the best', rapping PN chairperson Ahmad Samsuri Mokhtar over unilateral BN pact (captured 170837) [PIR-06]",
+    "Isyarat Muhyiddin: Bersatu akan bentuk gabungan/blok baharu SELEPAS PRN Negeri Sembilan [PIR-06]",
+    "SNAPSHOT Malaysiakini 'Bersatu exit from PN imminent?' — mainstream narrative entered imminent-departure framing [PIR-06]",
+    "Hadi nafi PAS jadikan PN 'toxic', salahkan Bersatu pula (Free Malaysia Today) — blame-shifting (PAS side) [PIR-06]",
+    "Arahan MCA kekaluar Saw Yee Fung (Youth sec-gen) daripada kempen PRN NS — WhatsApp Chong Sin Woon 'you don't have to come' [PIR-09]",
+    "Insiden Albert Tei 'barking dogs' di Dewan Besar Kuala Klawang (Jelebu) — retorik kasar penyokong PN terhadap penyokong Harapan pada Hari Penamaan Calon [PIR-09]",
+    "Penyerahan Tamim Dahri di Port Dickson (kes ugutan FB) + niat kempen calon bebas [PIR-09]",
+    "DAP hidupkan semula kempen anti-BN (skandal 1MDB, krisis ruler) — ketegangan komponen PH dengan persefahaman BN-PN [PIR-07]",
+    "BN-PN understanding aimed at ensuring NS political stability — Asyraf Wajdi (NST) [PIR-07]",
+    "Chuah, Lukut, Bagan Pinang contests take shape (NST) — crystallizing battleground seats [PIR-07]",
+    "Sidang Akhbar SPR (Pengerusa SPR Datuk Seri Ramlan Harun) — pengesahan 103 calon / 36 kerusi / struktur pertandingan 11-21-2-2 / 94L-9P / termuda 23-tertua 70 / kempen hingga 11.59pm 31 Jul [PIR-07]",
+    "Sidang Akhbar Polis (Ketua Polis NS Datuk Alzafny Ahmad) di Kompleks Pentadbiran Daerah Port Dickson — 2,373 PDRM, 8 pusat penamaan lancar tanpa insiden, tiada laporan polis [PIR-07]",
+    "Majlis makan malam penggalang dana DAP (Bandar Utama 11 community hall, malam sebelum kempen) — DAP hidupkan semula kempen anti-BN (1MDB, krisis ruler) [PIR-07]",
+    "Kehadiran penuh pemimpin/penyokong gabungan Hari Penamaan Calon — Aminuddin tiba di Auditorium Kompleks Pentadbiran Daerah Port Dickson ~8:30pag (Bernama) [PIR-07]",
+    "Penyerahan Tamim Dahri Abd Razak (33) di IPD Port Dickson ~12:45tgh -> bawa ke mahkamah Seremban untuk permohonan reman [PIR-09]",
+    "Sidang akhbar Wee Ka Siong (presiden MCA) — pact BN-PN bukan penggabungan, setiap parti kekal ideologi [PIR-09, PIR-07]",
+    "KiniGuide Malaysiakini 'Shifting alliances as battle royale for Negeri Sembilan begins' — BN masuk selepas kemenangan besar Johor; lanskap politik berubah [PIR-07]"
+  ],
+  "issues_and_signals": [
+    {
+      "issue": "Perpecahan Bersatu-PN (Bersatu-PN split)",
+      "pir_tags": [
+        "PIR-06"
+      ]
+    },
+    {
+      "issue": "Isyarat pra-pembuangan Bersatu daripada PN — Kiandee 'asas kukuh' (precursor, no formal notice yet)",
+      "pir_tags": [
+        "PIR-06"
+      ]
+    },
+    {
+      "issue": "Bersatu vs komponen PN di 8 kerusi Tier-4 (N04,N05,N13,N14,N23,N25,N31,N34)",
+      "pir_tags": [
+        "PIR-06"
+      ]
+    },
+    {
+      "issue": "Disiplin komponen PN terhadap defector ke Bersatu (Gerakan pecat Tang Jay Son)",
+      "pir_tags": [
+        "PIR-06",
+        "PIR-09"
+      ]
+    },
+    {
+      "issue": "Kredibiliti calon / defector-hopper (Rafie 2018 PH -> PAS/PN, N14 Ampangan)",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "issue": "Peperangan mesej Day-1 N14 Ampangan (PH 'defector' vs PN 'experienced rep')",
+      "pir_tags": [
+        "PIR-09",
+        "PIR-07"
+      ]
+    },
+    {
+      "issue": "Latar belakang calon bebas — Datuk A Saravanan (N33) credibility vetting",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "issue": "Penarikan diri calon bebas (Bujang Abu, dokumen — bukan calon parti)",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "issue": "Fragmentasi kerusi (1v1: 27->11; 3-penjuru: 7->21; 4-penjuru: 2; 5-penjuru: 2)",
+      "pir_tags": [
+        "PIR-07"
+      ]
+    },
+    {
+      "issue": "Persefahaman BN-PN (bukan penggabungan) — penentu Melaka & PRU16 (Wee)",
+      "pir_tags": [
+        "PIR-07"
+      ]
+    },
+    {
+      "issue": "Calon Menteri Besar diputuskan selepas PRN (BN; tidak diumum awal)",
+      "pir_tags": [
+        "PIR-07"
+      ]
+    },
+    {
+      "issue": "Mandat kukuh PH (Anwar) — kesinambungan pentadbiran bersih/stabil di bawah MB Aminuddin",
+      "pir_tags": [
+        "PIR-07"
+      ]
+    },
+    {
+      "issue": "Pencalonan semula MB Aminuddin N.13 -> N.32 (caretaker MB seat move)",
+      "pir_tags": [
+        "PIR-07"
+      ]
+    },
+    {
+      "issue": "Pertembungan tokoh utama (marquee fights: N01 Loke vs Siow; N27 Tok Mat vs Dr Azizul)",
+      "pir_tags": [
+        "PIR-07"
+      ]
+    },
+    {
+      "issue": "Calon Bebas/penyingkir undi (independents splitting votes)",
+      "pir_tags": [
+        "PIR-07",
+        "PIR-09"
+      ]
+    },
+    {
+      "issue": "Penyandang diganti/berpindah (incumbents replaced/moved)",
+      "pir_tags": [
+        "PIR-07"
+      ]
+    },
+    {
+      "issue": "Penyatuan undi Melayu (Malay vote consolidation)",
+      "pir_tags": [
+        "PIR-07"
+      ]
+    },
+    {
+      "issue": "Muhyiddin (Bersatu president) secara terbuka menggambarkan kemungkinan Bersatu keluar PN ('wishing PN all the best', raps Samsuri) — ESCALATION kualitatif (signal kepimpinan Bersatu, bukan VP digantung)",
+      "pir_tags": [
+        "PIR-06"
+      ]
+    },
+    {
+      "issue": "Trajektori PIR-06 kini dua sisi: PN-MT-mungkin-buang-Bersatu (Kiandee) DAN Bersatu-mungkin-keluar-PN (Muhyiddin)",
+      "pir_tags": [
+        "PIR-06"
+      ]
+    },
+    {
+      "issue": "Bersatu akan bentuk gabungan/bloc baharu selepas PRN NS (Muhyiddin) — pelan konkrit pasca-keluar",
+      "pir_tags": [
+        "PIR-06"
+      ]
+    },
+    {
+      "issue": "Framing media arus perdana beralih ke 'Bersatu exit from PN imminent?' (mkini SNAPSHOT) — naratif peringkat pemergian imminent",
+      "pir_tags": [
+        "PIR-06"
+      ]
+    },
+    {
+      "issue": "Hadi nafi PAS jadikan PN 'toxic', salahkan Bersatu — blame-shifting (sisi PAS dalam retak PN)",
+      "pir_tags": [
+        "PIR-06"
+      ]
+    },
+    {
+      "issue": "PN rift widens — PAS hantar isyarat paling jelas untuk menyingkirkan Bersatu (mkini)",
+      "pir_tags": [
+        "PIR-06"
+      ]
+    },
+    {
+      "issue": "Annuar Musa: penggunaan logo sendiri Bersatu tunjuk ia mahu berpisah dengan PN (caveat: pelabelan 'Bersatu sec-gen' oleh collector berkonflik dengan Hamzah Zainudin; nama prominent ialah veteran BN/UMNO)",
+      "pir_tags": [
+        "PIR-06"
+      ]
+    },
+    {
+      "issue": "Disiplin dalaman komponen BN: MCA kaluar Youth sec-gen Saw Yee Fung dari kempen NS atas kritik BN-PN (Arahan Chong Sin Woon)",
+      "pir_tags": [
+        "PIR-09",
+        "PIR-07"
+      ]
+    },
+    {
+      "issue": "Retorik kasar kempen Day-1 pihak PN — Albert Tei 'barking dogs' (Jelebu) — isyarat karakter/kredibiliti penyokong PN",
+      "pir_tags": [
+        "PIR-09",
+        "PIR-07"
+      ]
+    },
+    {
+      "issue": "Rangkaian sokongan calon bebas — aktivis Tamim Dahri niat kempen calon bebas (calon tidak dinyatakan dalam teks tertangkap)",
+      "pir_tags": [
+        "PIR-09"
+      ]
+    },
+    {
+      "issue": "DAP hidupkan semula kempen anti-BN (1MDB, krisis ruler) — ketegangan komponen PH dengan persefahaman BN-PN",
+      "pir_tags": [
+        "PIR-07"
+      ]
+    },
+    {
+      "issue": "Jajaran politik baharu perlu pasti kestabilan (Zahid) — framing 'new political alignments'",
+      "pir_tags": [
+        "PIR-07"
+      ]
+    },
+    {
+      "issue": "Bersatu bertanding 24 kerusi bawah NAMA & LAMBANG sendiri KALI PERTAMA dalam pilihan raya — isyarat schism empirik peringkat undi (masih komponen PN)",
+      "pir_tags": [
+        "PIR-06",
+        "PIR-07"
+      ]
+    },
+    {
+      "issue": "Bersatu bertembung de­ngan calon PN di 7 kawasan DUN — schism empirik peringkat undi (Sikamat N13, Ampangan N14, Paroi N25, Labu N20 + 3 lagi pending senarai penuh)",
+      "pir_tags": [
+        "PIR-06",
+        "PIR-07"
+      ]
+    },
+    {
+      "issue": "5 kerusi panas diwartakan Utusan (Linggi N32, Sikamat N13, Ampangan N14, Paroi N25, Labu N20) dengan padanan calon penuh + afiliasi peranan",
+      "pir_tags": [
+        "PIR-07"
+      ]
+    },
+    {
+      "issue": "NST analysis 'Bersatu at a crossroads amid BN-PN cooperation' — PIR-06 corroborative (BUKAN notis MT; teks penuh tertangguh gnews-encrypted)",
+      "pir_tags": [
+        "PIR-06"
+      ]
+    },
+    {
+      "issue": "Konfigurasi calon: 94 lelaki / 9 wanita; calon termuda 23 (M. Leevineshwaraan, Bersatu N33), tertua 70 (Abd. Latif A. Tambi, PH N35)",
+      "pir_tags": [
+        "PIR-07",
+        "PIR-09"
+      ]
+    },
+    {
+      "issue": "Tempoh kempen sehingga 11.59 malam 31 Julai 2026; SPR tubuhkan 36 PP-KPR untuk pantau kempen; amaran jauhi hasutan/perkauman/agama (3R)",
+      "pir_tags": [
+        "PIR-07"
+      ]
+    },
+    {
+      "issue": "Tiada kertas penamaan calon ditolak; 8 pusat penamaan lancar tanpa insiden; 2,373 PDRM digerakkan; penyokong 1,000-2,500 pusat (Jempol paling ramai, Kuala Pilah paling sedikit)",
+      "pir_tags": [
+        "PIR-07"
+      ]
+    },
+    {
+      "issue": "MCA president Wee Ka Siong (nama penuh disahkan) — pact BN-PN bukan penggabungan; setiap parti kekal ideologi/pendirian (mkini 780035)",
+      "pir_tags": [
+        "PIR-09",
+        "PIR-07"
+      ]
+    }
+  ],
+  "locations": {
+    "constituency_and_district_locations": [
+      "Ampangan",
+      "Bagan Pinang",
+      "Bahau",
+      "Bukit Kepayang",
+      "Chennah",
+      "Chuah",
+      "Gemas",
+      "Gemenceh",
+      "Jelebu",
+      "Jempol",
+      "Jeram Padang",
+      "Johol",
+      "Juasseh",
+      "Klawang",
+      "Kota",
+      "Kuala Lumpur",
+      "Kuala Pilah",
+      "Labu",
+      "Lenggeng",
+      "Linggi",
+      "Lobak",
+      "Lukut",
+      "Mambau",
+      "Nilai",
+      "Palong",
+      "Paroi",
+      "Pertang",
+      "Pilah",
+      "Port Dickson",
+      "Putrajaya",
+      "Rahang",
+      "Rantau",
+      "Rembau",
+      "Repah",
+      "Senaling",
+      "Seremban",
+      "Seremban Jaya",
+      "Seri Menanti",
+      "Serting",
+      "Sikamat",
+      "Sungai Lui",
+      "Tampin",
+      "Temiang"
+    ],
+    "nomination_centres_and_venues": [
+      "Dewan Besar Kuala Klawang (Jelebu) — nomination centre [PIR-07]",
+      "Dewan Seri Rembau (Rantau) — nomination centre [PIR-07]",
+      "Dewan Perdana Tampin (Gemencheh) — nomination centre [PIR-07]",
+      "Wisma Majlis Bandaraya Seremban / Wisma MBS Forest Heights — nomination centre (Sikamat, Ampangan et al.) [PIR-07]",
+      "Felda Palong 8, Jempol — GEMA@KKDW program venue (Zahid) [PIR-07]",
+      "Parlimen Seremban (federal constituency)",
+      "Auditorium Kompleks Pentadbiran Daerah Port Dickson — nomination centre (Aminuddin arrival ~8:30am, Bernama) [PIR-07]",
+      "Kompleks Pentadbiran Daerah Port Dickson — venue for NS Police Chief (Alzafny Ahmad) nomination-day press conference [PIR-07]",
+      "Bandar Utama 11 community hall (Petaling Jaya) — DAP fundraising dinner venue, eve of campaign (anti-BN messaging) [PIR-07] — peripheral_non_prn",
+      "IPD Port Dickson (district police HQ) — Tamim Dahri Abd Razak surrender ~12:45pm (Nomination Day) [PIR-09]"
+    ],
+    "peripheral_non_prn": [
+      "Petaling Jaya (PJ)",
+      "Klang Valley",
+      "Bagan Datuk",
+      "Kluang",
+      "Kuantan",
+      "Kangar",
+      "Kinabatangan"
+    ]
+  },
+  "pir_priority_index": {
+    "PIR-06": {
+      "title": "PN-Removal-of-Bersatu Watch (HIGHEST)",
+      "status": "ESCALATED WATCH — UNCHANGED this cycle. NO formal PN-MT removal notice; TWO-SIDED trajectory ACTIVE (PN-MT-may-remove-Bersatu via Kiandee AND Bersatu-may-exit-PN via Muhyiddin). 231029 cycle added CORROBORATIVE PIR-06 content only: (a) NST 'Bersatu at a crossroads amid BN-PN cooperation' (headline, full text deferred); (b) Utusan empirically confirms Bersatu contests 24 DUN seats under OWN logo (first time) and CLASHES WITH PN CANDIDATES IN 7 SEATS — tangible ballot-level schism, NOT a formal MT removal notice. Trajectory unchanged: Bersatu voluntary realignment/exit AFTER Aug 1 poll most likely; reactive PN-MT removal remains possible if Bersatu candidates damage PN partners in Tier-4 seats.",
+      "formal_removal_notice_detected": false,
+      "precursor_signal_detected": true,
+      "primary_actor": "Datuk Seri Dr. Ronald Kiandee (suspended/former Bersatu VP, MP Beluran)",
+      "signal_keywords": [
+        "asas kukuh",
+        "Majlis Tertinggi",
+        "keluar",
+        "remove",
+        "Bersatu",
+        "PN"
+      ],
+      "critical_body": "Majlis Tertinggi PN (PN Supreme Council)",
+      "tier4_seats": [
+        "N04",
+        "N05",
+        "N13",
+        "N14",
+        "N23",
+        "N25",
+        "N31",
+        "N34"
+      ],
+      "tier4_component_split": {
+        "vs_PAS": 4,
+        "vs_Wawasan": 4
+      },
+      "watch_figures_next_cycle": [
+        "Tan Sri Muhyiddin Yassin",
+        "Datuk Seri Hamzah Zainudin",
+        "Tan Sri Abdul Hadi Awang",
+        "Datuk Seri Dr. Ahmad Samsuri Mokhtar"
+      ],
+      "entities": [
+        "Datuk Seri Dr. Ronald Kiandee",
+        "Tan Sri Muhyiddin Yassin",
+        "Datuk Seri Hamzah Zainudin",
+        "Majlis Tertinggi PN",
+        "Bersatu",
+        "PN",
+        "PAS",
+        "Wawasan",
+        "Gerakan",
+        "Datuk Seri Dr. Ahmad Samsuri Mokhtar"
+      ],
+      "seat_entities": [
+        "N04 Muhammad Adib Musa (Bersatu) vs Danni Rais (Wawasan)",
+        "N05 Muhammad Noraffendy Mohd Salleh (Bersatu) vs Mohd Fairuz Mohd Isa (PAS, 2023 incumbent)",
+        "N13 Datuk Tun Faisal Ismail Aziz (Bersatu) vs Datuk Razali Abu Samah (Wawasan)",
+        "N14 Noor'azah Harun (Bersatu) vs Datuk Dr Mohamad Rafie Ab Malek (PAS)",
+        "N23 N Sarawanan (Bersatu) vs Erik Michael (Wawasan)",
+        "N25 Mohd Nazree Mohd Yunos (Bersatu) vs Kamarol Ridzuan Mohd Zain (PAS, 2023 incumbent)",
+        "N31 Sheikh Junaidy Jamaludin (Bersatu) vs Abdul Fatah Zakaria (PAS, 2023 incumbent)",
+        "N34 Azman Abdullah (Bersatu) vs Ridzuan Ahmad (Wawasan, 2023 incumbent as Bersatu)"
+      ],
+      "escalation_detected": true,
+      "trajectory": "TWO-SIDED (PN-MT-may-remove-Bersatu AND Bersatu-may-exit-PN)",
+      "muhyiddin_exit_hint": {
+        "headline": "Goodbye PN?: Muhyiddin raps Samsuri over BN talks, Bersatu to move on",
+        "source": "Malaysiakini",
+        "url": "https://www.malaysiakini.com/news/779941",
+        "first_captured_cycle": "170837",
+        "reconfirmed_182751": true,
+        "significance": "Bersatu-leadership exit signal (qualitative escalation vs Kiandee precursor)"
+      },
+      "new_bloc_after_polls": {
+        "headline": "Bersatu to form new coalition/bloc after Negri polls, says Muhyiddin",
+        "source": "The Star",
+        "first_captured_cycle": "170837",
+        "reconfirmed_182751": true,
+        "significance": "Concrete post-exit plan, pre-nomination-day statement"
+      },
+      "imminent_framing": {
+        "headline": "SNAPSHOT | Bersatu exit from PN imminent?",
+        "source": "Malaysiakini",
+        "url": "https://www.malaysiakini.com/news/780047",
+        "first_captured_cycle": "170837",
+        "significance": "Mainstream narrative entered imminent-departure framing"
+      },
+      "hadi_blame_shift": {
+        "headline": "Hadi denies PAS made PN 'toxic', blames Bersatu instead",
+        "source": "Free Malaysia Today",
+        "first_captured_cycle": "170837",
+        "reconfirmed_182751": true,
+        "significance": "PAS-side blame-shifting (PAS sidelining Bersatu)"
+      },
+      "pas_sidelining_signal": {
+        "headline": "PN rift widens as PAS sends clearest signal yet of sidelining Bersatu",
+        "source": "Malaysiakini",
+        "first_captured_cycle": "170837",
+        "significance": "PAS openly sidelining Bersatu"
+      },
+      "samsuri_entity_correction": "Prior 'Dr Samsuri Anuar' (Bersatu leader) corrected to 'Datuk Seri Dr. Ahmad Samsuri Mokhtar' (PN chairperson / Terengganu MB).",
+      "nst_crossroads_corroboration": {
+        "headline": "Negri Sembilan polls: Bersatu at a crossroads amid BN-PN cooperation",
+        "source": "New Straits Times",
+        "pubdate_gmt": "Sat, 18 Jul 2026 23:00:40 GMT (07:00 MYT 19 Jul)",
+        "url": "gnews-encrypted; direct URL not recovered",
+        "first_captured_cycle": "231029",
+        "significance": "NST analysis piece corroborating the Muhyiddin exit-positioning thesis. NOT a formal MT removal notice. Full text deferred (gnews encrypted / NST JS-rendered).",
+        "file": "priority_pir-06_bersatu-crossroads-nst_20260718_231029.md"
+      },
+      "bersatu_own_logo_empirical_schism": {
+        "fact": "Bersatu contests 24 DUN seats under its OWN name/logo (first time) and clashes with PN candidates in 7 seats",
+        "source": "Utusan (priority_pir-07_3-coalitions-clash-utusan_20260718_231029, full text)",
+        "first_captured_cycle": "231029",
+        "significance": "Strongest on-the-ground evidence to date of the PN-Bersatu fracture — a PN component running against its own coalition under a separate logo. NOT a formal MT removal notice.",
+        "clash_seats_named": [
+          "N13 Sikamat",
+          "N14 Ampangan",
+          "N25 Paroi",
+          "N20 Labu",
+          "(3 further pending full cross-check)"
+        ],
+        "clash_seats_confirmed_count": 7
+      }
+    },
+    "PIR-09": {
+      "title": "Candidate Credibility (SECOND)",
+      "bersatu_candidates_count": 24,
+      "bersatu_candidate_seats": [
+        "N02",
+        "N03",
+        "N04",
+        "N05",
+        "N06",
+        "N07",
+        "N09",
+        "N10",
+        "N12",
+        "N13",
+        "N14",
+        "N15",
+        "N16",
+        "N17",
+        "N20",
+        "N22",
+        "N23",
+        "N24",
+        "N25",
+        "N28",
+        "N31",
+        "N32",
+        "N33",
+        "N34"
+      ],
+      "independents": {
+        "Omar Mohd Isa": "N10 Nilai",
+        "Teo Seng Lee": "N30 Lukut",
+        "Datuk A Saravanan": "N33 Sri Tanjung",
+        "Islah Wahyudi Zainudin": "N33 Sri Tanjung"
+      },
+      "independents_count": 4,
+      "rafie_n14": "Datuk Dr Mohamad Rafie Ab Malek (PN-PAS) — former 2018 PH winner, defector/hopper angle",
+      "gerakan_expulsion": {
+        "subject": "Tang Jay Son",
+        "seat": "N22 Rahang",
+        "issued_by": "Wong Chia Zhen (Gerakan Sec-Gen)",
+        "action": "Expelled (pecat) immediate effect"
+      },
+      "withdrawal": {
+        "subject": "Bujang Abu",
+        "seat_intended": "N13 Sikamat",
+        "type": "Independent (paperwork, NOT party)",
+        "triggers_pir06_tier4_alert": false
+      },
+      "entities": [
+        "Tang Jay Son",
+        "Wong Chia Zhen",
+        "Bujang Abu",
+        "Datuk Dr Mohamad Rafie Ab Malek",
+        "Omar Mohd Isa",
+        "Teo Seng Lee",
+        "Datuk A Saravanan",
+        "Islah Wahyudi Zainudin",
+        "Gerakan",
+        "Bersatu",
+        "Albert Tei",
+        "Saw Yee Fung",
+        "Chong Sin Woon",
+        "Tamim Dahri Abd Razak"
+      ],
+      "mca_youth_exclusion": {
+        "subject": "Saw Yee Fung (MCA Youth sec-gen)",
+        "directed_by": "Chong Sin Woon (MCA sec-gen)",
+        "action": "Excluded from NS campaign (WhatsApp: 'you don't have to come') over BN-PN criticism",
+        "type": "Campaign-exclusion (internal BN-component discipline, NOT candidate expulsion)",
+        "first_captured_cycle": "170837",
+        "reconfirmed_182751": true
+      },
+      "albert_tei_rhetoric": {
+        "actor": "Albert Tei (businessperson, PN supporter)",
+        "venue": "Dewan Besar Kuala Klawang (Jelebu) nomination centre",
+        "action": "Labelled Harapan supporters 'barking dogs' (25-sec video, PN shirt)",
+        "type": "Day-1 abrasive rhetoric — character/credibility signal on PN-side figure",
+        "first_captured_cycle": "170837"
+      },
+      "tamim_independent_support": {
+        "actor": "Tamim Dahri Abd Razak (activist, 33, self-proclaimed land activist)",
+        "context": "Surrendered at Port Dickson district police HQ ~12:45pm (Nomination Day); to be brought to Seremban court for remand (religious-provocation charges); intends to campaign for an NS independent candidate (which one not specified).",
+        "police_source": "NST quoted NS police chief Datuk Alzafny Ahmad",
+        "type": "Independent-candidate support-network signal",
+        "first_captured_cycle": "170837",
+        "enriched_cycle": "231029 (full name + age + surrender timing + remand)"
+      },
+      "wee_ka_siong_clarification": {
+        "actor": "Datuk Dr Wee Ka Siong (MCA president — full name CONFIRMED this cycle)",
+        "statement": "BN-PN electoral pact in NS is NOT a merger; each party retains its own ideology and stance; aimed at strong/stable state government for continued development.",
+        "source": "Malaysiakini (priority_pir-09_wee-bnpn-not-merger-mkini_20260718_231029, intro)",
+        "first_captured_cycle": "231029",
+        "type": "Component-party messaging (BN side) — follows backlash over BN-PN cooperation"
+      }
+    },
+    "PIR-07": {
+      "title": "Battleground Assessment (THIRD)",
+      "nomination_day": "18 Jul 2026",
+      "polling_day": "1 Aug 2026",
+      "early_voting": "28 Jul 2026",
+      "total_candidates": 103,
+      "candidate_breakdown": {
+        "PH": 36,
+        "BN": 25,
+        "Bersatu": 24,
+        "PN": 11,
+        "independents": 4,
+        "Berjasa": 1,
+        "Asli": 1,
+        "PSM": 1
+      },
+      "contest_structure": {
+        "straight_1v1": 11,
+        "three_cornered": 21,
+        "four_cornered": 2,
+        "five_cornered": 2
+      },
+      "fragmentation_trend": "Sharply UP vs 2023 (straight 27->11; three-cornered 7->21)",
+      "watch_seats": [
+        "N04",
+        "N05",
+        "N10",
+        "N13",
+        "N14",
+        "N15",
+        "N28",
+        "N32",
+        "N33"
+      ],
+      "marquee_day1_events": [
+        "N01 Chennah: Anthony Loke (PH) vs Siow Kong Choon (BN-MCA) — straight fight",
+        "N27 Rantau: Mohamad Hasan (Tok Mat, BN) vs Dr Azizul Hakim (PH) — straight fight; Zahid + lion-dance",
+        "N32 Linggi: MB Aminuddin (PH-incumbent) 3-corner; 'not easy to enter a fortress'",
+        "N14 Ampangan: Day-1 messaging war (see PIR-09)",
+        "BN ops: Gemencheh (Johari Ghani), Jelebu (Jalaluddin), Rantau/Chembong/Kota (Zahid)"
+      ],
+      "messaging": {
+        "bn_manifesto_launch": "24 Jul 2026 (DUN Linggi)",
+        "mb_candidate": "decided AFTER PRN",
+        "anwar_pitch": "stronger PH mandate",
+        "bn_pn_framing": "understanding not merger (Wee)"
+      },
+      "entities": [
+        "Datuk Seri Anwar Ibrahim",
+        "Datuk Seri Dr. Ahmad Zahid Hamidi",
+        "Datuk Seri Johari Abdul Ghani",
+        "Datuk Seri Jalaluddin Alias",
+        "Datuk Seri Aminuddin Harun",
+        "Anthony Loke Siew Fook",
+        "Datuk Seri Mohamad Hasan",
+        "Tan Sri Annuar Musa",
+        "Datuk Dr Wee Ka Siong",
+        "Datuk Seri Ramlan Harun",
+        "Datuk Dr Asyraf Wajdi Dusuki",
+        "Datuk Alzafny Ahmad"
+      ],
+      "asyraf_wajdi_statement": "BN-PN understanding aimed at ensuring NS political stability (Asyraf Wajdi, NST)",
+      "dap_anti_bn_revival": "DAP revives anti-BN campaign (1MDB scandal, ruler crisis) — PH-component tension with BN-PN pact (mkini)",
+      "zahid_new_alignments": "New political alignments needed to ensure stability (Zahid) — jajaran politik baharu framing",
+      "crystallizing_seats": [
+        "N29 Chuah",
+        "N30 Lukut",
+        "N31 Bagan Pinang"
+      ],
+      "candidate_count_corroboration": {
+        "fact": "103 candidates for 36-seat PRN NS ke-16",
+        "malay_full_text_source": "Utusan 'Tiga gabungan bertembung' (priority_pir-07_3-coalitions-clash-utusan_20260718_231029, full text, SPR Ramlan Harun press conference)",
+        "english_source": "New Straits Times (nstcommy gnews, 194028/205755 cycles)",
+        "prior_malay_source": "Kosmo '103 calon sah bertanding rebut 36 kerusi DUN – SPR'",
+        "status": "Reconfirmation of the already-counted figure; Utusan full-text now the primary Malay source. No new entity."
+      },
+      "journalist_designated_hot_seats": {
+        "source": "Utusan 'Lima kerusi panas jadi tumpuan' (priority_pir-07_5-hot-seats-utusan_20260718_231029, full text, 06:40 MYT 19 Jul)",
+        "seats": [
+          {
+            "code": "N32",
+            "name": "Linggi",
+            "rank": 1,
+            "matchup": "Aminuddin (PH/MB) vs Datuk Mohd Faizal Ramli (BN inc) vs Datuk Zamri Md Yunus (Bersatu); 2023 Faizal beat Zamri-PN by 1,461"
+          },
+          {
+            "code": "N13",
+            "name": "Sikamat",
+            "rank": 2,
+            "matchup": "Nor Azman (PH, Aminuddin's pol-sec) vs Datuk Tun Faisal (Bersatu, info chief) vs Datuk Razali (PN-Wawasan); Aminuddin's old seat 2008-"
+          },
+          {
+            "code": "N14",
+            "name": "Ampangan",
+            "rank": 3,
+            "matchup": "Datuk Nazri Kassim (PH new) vs Datuk Dr Mohamad Rafie (PN, ex-ADUN) vs Noor'azah (Bersatu); 2023 margin 329"
+          },
+          {
+            "code": "N25",
+            "name": "Paroi",
+            "rank": 4,
+            "matchup": "Kamarol Ridzuan (PN-PAS inc, largest electorate) vs Ahmad Shahir (PH, MB press-sec/Amanah Youth sec) vs Mohd Nazree (Bersatu, NS info chief)"
+          },
+          {
+            "code": "N20",
+            "name": "Labu",
+            "rank": 5,
+            "matchup": "Mohamad Hanifah (Bersatu inc, NS chief) vs Datuk Ahmad Faez (PH, Labu coord) vs Siti Umaira (BN)"
+          }
+        ],
+        "note": "Utusan journalist designation; overlaps director-approved PIR-07 watch seats at N13/N14/N32; N25 Paroi & N20 Labu ADDED as PIR-07-relevant this cycle via this designation (both already PIR-06 Tier-4 / PIR-09 Bersatu seats)."
+      },
+      "bersatu_vs_pn_clash_seats": {
+        "confirmed_count": 7,
+        "named": [
+          "N13 Sikamat",
+          "N14 Ampangan",
+          "N25 Paroi",
+          "N20 Labu"
+        ],
+        "pending_full_cross_check": 3,
+        "source": "Utusan (priority_pir-07_3-coalitions-clash-utusan_20260718_231029, full text)",
+        "significance": "Empirical ballot-level schism: a PN component (Bersatu) running against its own coalition (PN) under a separate logo — strongest on-the-ground PN-Bersatu fracture evidence (PIR-06 + PIR-07)."
+      },
+      "operational_detail_231029": {
+        "gender_split": "94 men / 9 women",
+        "youngest": "M. Leevineshwaraan (Bersatu, N33), 23",
+        "oldest": "Abd. Latif A. Tambi (PH, N35 Gemencheh), 70",
+        "campaign_window": "until 11:59pm 31 July 2026",
+        "pp_kpr_teams": 36,
+        "nomination_centres": 8,
+        "papers_rejected": 0,
+        "pdrm_deployed": 2373,
+        "supporters_per_centre": "1,000-2,500 (Jempol most, Kuala Pilah least)",
+        "incidents": "none / no police reports",
+        "source": "Utusan 3-coalitions (Ramlan Harun SPR + Alzafny Ahmad PDRM press conferences)"
+      }
+    }
+  },
+  "peripheral": {
+    "media_bylines": [
+      "Nazarudin Shahari (Utusan photographer/reporter)",
+      "Amirul Aiman Osman (Utusan)",
+      "Fatin Norizati Mat Isa (Utusan)",
+      "Iskandar Ishak (Utusan)",
+      "Nor Ain Mohamed Radhi (NST)",
+      "Bernama (wire)"
+    ],
+    "note": "Media byline names appear in collected content but are not political entities; listed for completeness only."
+  },
+  "delta_vs_prior_build_190215": {
+    "prior_build": "entities_190215.json (19:02 UTC / 03:02 MYT 19 Jul)",
+    "this_build": "entities_211155.json (21:11 UTC / 05:11 MYT 19 Jul)",
+    "cycle_window_ingested": [
+      "194028 (19:40 UTC / 03:40 MYT 19 Jul — 2nd zero-delta overnight confirmation pass)",
+      "205755 (20:57 UTC / 04:57 MYT 19 Jul — 3rd zero-delta overnight confirmation pass)"
+    ],
+    "delta_verification_method": "Programmatic normalized title set-difference on _scrape_results priority_titles across 182751 / 194028 / 205755 (this agent). 194028->205755 delta = 0 titles. 182751->194028/205755 delta = +1 / -1 (NST English '103 candidates confirmed' corroborating an already-counted fact; Samsuri title rotated off gnews top-60 but already captured at 170837).",
+    "genuinely_new_findings": [],
+    "corroborating_reconfirmations": [
+      "NST (English): '103 candidates confirmed for 36-seat Negri Sembilan election' — English-language confirmation of the already-captured Kosmo Malay '103 calon sah bertanding rebut 36 kerusi DUN – SPR'. The 103-candidate / 36-seat figures are already in entities_190215 counts (candidate_persons_unique=103, seats_parsed=36). No new entity; logged as a corroborating source."
+    ],
+    "no_change": [
+      "CRITICAL PIR-06 threshold (formal PN-MT removal notice) still NOT crossed — 3rd consecutive overnight pass.",
+      "PIR-06 escalated-watch assessment (two-sided: PN-MT-may-remove-Bersatu via Kiandee AND Bersatu-may-exit-PN via Muhyiddin) UNCHANGED. No new Muhyiddin/Kiandee/Hadi/Annuar Musa/Samsuri/Hamzah statements this window.",
+      "No Bersatu candidate withdrawals in the 8 Tier-4 seats (N04,N05,N13,N14,N23,N25,N31,N34).",
+      "Candidate list unchanged: 103 candidates, 36 seats, breakdown {PH:36, BN:25, Bersatu:24, PN:11, independents:4, Berjasa:1, Asli:1, PSM:1}.",
+      "PIR-09 N.14 Ampangan Day-1 messaging war unchanged (no Day-2 campaign content — overnight window).",
+      "Gerakan pecat of Tang Jay Son reconfirmed (no new PN-component candidate expulsion).",
+      "PIR-07 BN manifesto launch date (24 Jul) and candidate breakdown unchanged.",
+      "All monitor channels quiet (deep-overnight MYT ~03:40–04:57; Day-2 campaign events begin daytime MYT 19 Jul)."
+    ],
+    "entity_set_delta": {
+      "added": 0,
+      "removed": 0,
+      "modified": 0,
+      "net": 0
+    }
+  },
+  "prior_entities_file": "entities_211155.json",
+  "delta_vs_prior_build_211155": {
+    "prior_build": "entities_211155.json (21:11 UTC / 05:11 MYT 19 Jul)",
+    "this_build": "entities_233104.json (23:31 UTC / 07:31 MYT 19 Jul)",
+    "cycle_window_ingested": [
+      "231029 (23:10 UTC / 07:10 MYT 19 Jul — 5th overnight/dawn pass; FIRST genuinely-new-content cycle after 4 consecutive zero-delta passes)"
+    ],
+    "delta_verification_method": "collection_metadata.json (231029 cycle) documents: 2 genuinely brand-new Utusan PIR-07 articles at 06:40 & 06:45 MYT 19 Jul (22:40 & 22:45 UTC 18 Jul) with Elementor full-text extraction; plus freshly-captured PIR-09 component-party items (Wee, Tamim) and PIR-07 mkini intros (DAP anti-BN, nominations full-force, KiniGuide). PIR-06 substance already fully captured at 170837; NST 'Bersatu at a crossroads' headline captured this cycle (full text deferred, gnews encrypted). This agent read all 10 priority_*.md files from the 231029 cycle and reconciled against the entities_211155 baseline.",
+    "genuinely_new_findings": [
+      "NEW NAMED FIGURE: Datuk Alzafny Ahmad — Ketua Polis Negeri Sembilan (NS Police Chief). Quoted in Utusan 3-coalitions (nomination security press conference, 2,373 PDRM) AND mkini Tamim article (Tamim surrender ~12:45pm PD IPD). PIR-07 + PIR-09.",
+      "FORMAL '5 HOT SEATS' BATTLEGROUN DESIGNATION (Utusan full-text): Linggi N32, Sikamat N13, Ampangan N14, Paroi N25, Labu N20 — each with FULL candidate matchups + role affiliations (e.g. Aminuddin = MB/PD MP; Tun Faisal = Bersatu info chief; Nazri Kassim = PKR NS dep chief; Rafie = ex-ADUN; Hanifah = Bersatu NS chief). PIR-07 substantially enriched.",
+      "7 BERSATU-vs-PN CLASH SEATS CONFIRMED (Utusan full-text): Bersatu contests 24 seats under OWN logo (first time) and clashes with PN candidates in 7 seats — empirical ballot-level schism (PIR-06 + PIR-07). 4 named (Sikamat, Ampangan, Paroi, Labu); 3 pending full cross-check.",
+      "FULL NAME CONFIRMATION: 'Dr Wee' -> 'Datuk Dr Wee Ka Siong' (MCA president) explicitly named in mkini 780035 (prior build carried full name as inference; inference caveat removed).",
+      "FULL NAME + DETAIL: 'Tamim Dahri' -> 'Tamim Dahri Abd Razak', age 33, self-proclaimed land activist; surrendered at PD IPD ~12:45pm -> Seremban court remand (religious-provocation charges).",
+      "OPERATIONAL DETAIL (PIR-07): 94M/9W; youngest 23 (Leevineshwaraan Bersatu), oldest 70 (Abd Latif PH); campaign to 11:59pm 31 Jul; 36 PP-KPR teams; 8 centres; 0 papers rejected; 2,373 PDRM; supporters 1,000-2,500/centre (Jempol most, Kuala Pilah least); no incidents.",
+      "PIR-06 CORROBORATION: NST 'Bersatu at a crossroads amid BN-PN cooperation' (pubDate 07:00 MYT 19 Jul) — analysis piece, NOT a removal notice; full text deferred (gnews encrypted).",
+      "NEW EVENTS: SPR Ramlan press conference; Alzafny police press conference; DAP Bandar Utama 11 fundraising dinner; Aminuddin PD nomination ~8:30am; Tamim surrender; Wee press conference; KiniGuide.",
+      "NEW ORGANIZATION: PP-KPR (Pasukan Penguat Kuasa Kempen Pilihan Raya) — 36 SPR campaign-enforcement teams.",
+      "NEW LOCATIONS: Auditorium Kompleks Pentadbiran Daerah Port Dickson; Kompleks Pentadbiran Daerah Port Dickson; Bandar Utama 11 community hall (PJ); IPD Port Dickson (Tamim surrender).",
+      "PIR-07 TAG ADDED to N20 Labu & N25 Paroi (via Utusan 5-hot-seats designation) — director-approved watch_seats list (9) preserved unchanged; these 2 are journalist-designated battlegrounds overlapping PIR-06 Tier-4."
+    ],
+    "corroborating_reconfirmations": [
+      "103 candidates / 36 seats / breakdown {PH:36, BN:25, Bersatu:24, PN:11, ind:4, Berjasa:1, Asli:1, PSM:1} — reconfirmed via Utusan full-text (Ramlan Harun SPR press conference).",
+      "Seat structure 11 two-cornered / 21 three-cornered / 2 four-cornered / 2 five-cornered — reconfirmed.",
+      "N32 Linggi: Aminuddin (PH/MB) vs Faizal (BN) vs Zamri (Bersatu); 2023 Faizal beat Zamri-PN by 1,461 — reconfirmed by both Utusan 5-hot-seats and mStar aminuddin-linggi full-text.",
+      "Aminuddin held Sikamat 4 terms (since 2008), moved to Linggi — reconfirmed.",
+      "BN manifesto launch 24 Jul — reconfirmed (carryover).",
+      "DAP revives anti-BN campaign (1MDB, ruler crisis) — reconfirmed (mkini intro)."
+    ],
+    "no_change": [
+      "CRITICAL PIR-06 threshold (formal PN-MT removal notice) STILL NOT crossed.",
+      "Candidate roster UNCHANGED: 103 candidates, 36 seats — NO new candidates discovered (Alzafny/Abd-Latif-age are details on already-listed figures; Abd Latif A Tambi already in N35 Gemencheh).",
+      "No Bersatu candidate withdrawals in the 8 Tier-4 seats (N04,N05,N13,N14,N23,N25,N31,N34).",
+      "Gerakan pecat of Tang Jay Son reconfirmed (no new PN-component candidate expulsion).",
+      "PIR-09 N.14 Ampangan Day-1 messaging war core unchanged (Day-2 dawn, no new Day-2 campaign content yet).",
+      "PIR-06 escalated-watch two-sided trajectory (PN-MT-may-remove-Bersatu AND Bersatu-may-exit-PN) UNCHANGED.",
+      "PIR-07 director-approved watch_seats (9: N04,N05,N10,N13,N14,N15,N28,N32,N33) UNCHANGED.",
+      "All PIR-06 monitor channels (Kiandee/Muhyiddin/Annuar Musa/Hadi/Samsuri/Hamzah) — no new output this cycle."
+    ],
+    "entity_set_delta": {
+      "added": 1,
+      "removed": 0,
+      "modified": 7,
+      "net": 1,
+      "added_entities": [
+        "Datuk Alzafny Ahmad (NS Police Chief)"
+      ],
+      "modified_entities": [
+        "Dr Wee -> Datuk Dr Wee Ka Siong (full name confirmed)",
+        "Tamim Dahri -> Tamim Dahri Abd Razak (full name + age 33 + surrender detail)",
+        "N20 Labu (+PIR-07 tag + hot-seat detail)",
+        "N25 Paroi (+PIR-07 tag + hot-seat detail)",
+        "N32 Linggi (+hot-seat matchup detail)",
+        "N13 Sikamat (+hot-seat matchup detail)",
+        "N14 Ampangan (+hot-seat matchup detail)"
+      ]
+    }
+  }
+}

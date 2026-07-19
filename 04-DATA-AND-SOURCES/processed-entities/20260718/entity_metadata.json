@@ -1,49 +1,59 @@
 {
   "date": "20260718",
-  "last_updated_utc": "2026-07-18T21:11:55+00:00",
-  "last_updated_myt": "2026-07-19T05:11:55+08:00",
+  "last_updated_utc": "2026-07-18T23:31:04+00:00",
+  "last_updated_myt": "2026-07-19T07:31:04+08:00",
   "classification": "TLP:AMBER",
   "extractor": "prn_ns_entity_extraction_agent (scheduled cron)",
-  "latest_entities_file": "entities_211155.json",
-  "prior_entities_file": "entities_190215.json",
+  "latest_entities_file": "entities_233104.json",
+  "prior_entities_file": "entities_211155.json",
   "director_priority_approved": "2026-07-18 15:00 MYT",
-  "cycle": "nomination-day-surge + overnight confirmation (170837 escalation + 182751/194028/205755 three consecutive zero-delta confirmation passes; no new entities)",
+  "cycle": "nomination-day-surge + Day-2 dawn enrichment (231029: FIRST new-content cycle after 4 zero-delta passes; 2 brand-new Utusan PIR-07 articles + PIR-09 component items)",
   "source_count_total": 86,
-  "build_character": "CONFIRMATION / STABILITY BUILD — zero new entities; entities_190215 baseline carried forward unchanged.",
+  "build_character": "ENRICHMENT / CORROBORATION BUILD — 1 new named figure (Alzafny, NS police chief); Wee Ka Siong + Tamim full names confirmed; 5 hot seats formally designated (full matchups); 7 Bersatu-vs-PN clash seats confirmed; PIR-06/07/09 enriched; 103-candidate roster UNCHANGED; CRITICAL PIR-06 threshold still NOT crossed.",
   "delta_vs_prior_build": {
-    "prior_build": "entities_190215.json",
-    "this_build": "entities_211155.json",
+    "prior_build": "entities_211155.json",
+    "this_build": "entities_233104.json",
     "cycles_ingested": [
-      "194028",
-      "205755"
+      "231029"
     ],
-    "genuinely_new_entities": 0,
-    "corroborating_reconfirmations": 1,
-    "verification": "Programmatic normalized title set-difference: 194028->205755 = 0 new titles."
+    "genuinely_new_entities": 1,
+    "enriched_existing_entities": 7,
+    "corroborating_reconfirmations": 6,
+    "verification": "collection_metadata.json (231029) + this agent's reconciliation of 10 priority_*.md files vs entities_211155 baseline."
   },
   "counts": {
     "seats_parsed": 36,
     "candidate_persons_unique": 103,
-    "national_figures_and_pir_actors": 17,
+    "national_figures_and_pir_actors": 18,
     "pir06_watch_figures": 4,
     "parties": 15,
     "coalitions": 5,
-    "organizations": 10,
+    "organizations": 11,
     "constituencies": 36,
-    "events": 23,
-    "issues_and_signals": 29,
-    "locations": 49,
+    "events": 30,
+    "issues_and_signals": 37,
+    "locations": 53,
     "pir06_tier4_seats": 8,
     "pir07_watch_seats": 9,
     "pir09_bersatu_candidates": 24,
     "pir09_independents": 4,
     "peripheral_referenced_figures": 2,
-    "confirmation_passes_since_170837": 3
+    "confirmation_passes_since_170837": 0,
+    "pir07_battleground_seats_tagged": 11,
+    "genuinely_new_entities_this_build": 1,
+    "enriched_existing_entities_this_build": 4,
+    "new_named_figures": [
+      "Datuk Alzafny Ahmad"
+    ],
+    "confirmed_full_names": [
+      "Wee Ka Siong (MCA president)",
+      "Tamim Dahri Abd Razak (activist)"
+    ]
   },
   "pir_priority_tags": {
     "PIR-06": {
       "title": "PN-Removal-of-Bersatu Watch (HIGHEST)",
-      "status": "ESCALATED WATCH — UNCHANGED across 3 overnight passes. NO formal PN-MT removal notice; TWO-SIDED trajectory ACTIVE (PN-MT-may-remove-Bersatu via Kiandee AND Bersatu-may-exit-PN via Muhyiddin). Bersatu PRESIDENT publicly hinting at exit; mainstream framing 'imminent?'. No new PIR-06 statements in the 194028/205755 overnight window.",
+      "status": "ESCALATED WATCH — UNCHANGED this cycle. NO formal PN-MT removal notice; TWO-SIDED trajectory ACTIVE (PN-MT-may-remove-Bersatu via Kiandee AND Bersatu-may-exit-PN via Muhyiddin). 231029 cycle added CORROBORATIVE PIR-06 content only: (a) NST 'Bersatu at a crossroads amid BN-PN cooperation' (headline, full text deferred); (b) Utusan empirically confirms Bersatu contests 24 DUN seats under OWN logo (first time) and CLASHES WITH PN CANDIDATES IN 7 SEATS — tangible ballot-level schism, NOT a formal MT removal notice. Trajectory unchanged: Bersatu voluntary realignment/exit AFTER Aug 1 poll most likely; reactive PN-MT removal remains possible if Bersatu candidates damage PN partners in Tier-4 seats.",
       "formal_removal_notice_detected": false,
       "escalation_detected": true,
       "tier4_seats": [
@@ -68,6 +78,11 @@
         "Wawasan",
         "Gerakan",
         "Datuk Seri Dr. Ahmad Samsuri Mokhtar"
+      ],
+      "this_cycle_new_pir06_content": true,
+      "new_this_cycle": [
+        "NST 'Bersatu at a crossroads amid BN-PN cooperation' (headline, full text deferred) — corroborative, NOT a removal notice",
+        "Utusan empirically confirms Bersatu 24 own-logo seats + 7 Bersatu-vs-PN clash seats — ballot-level schism, NOT a removal notice"
       ]
     },
     "PIR-09": {
@@ -119,7 +134,14 @@
         "Albert Tei",
         "Saw Yee Fung",
         "Chong Sin Woon",
-        "Tamim Dahri"
+        "Tamim Dahri Abd Razak",
+        "Datuk Alzafny Ahmad (context: Tamim surrender)",
+        "Datuk Dr Wee Ka Siong",
+        "Tamim Dahri Abd Razak"
+      ],
+      "new_this_cycle": [
+        "Wee Ka Siong full name confirmed (MCA president) — BN-PN pact not a merger (mkini 780035)",
+        "Tamim Dahri Abd Razak full name + age 33 + surrender detail (mkini 780055)"
       ]
     },
     "PIR-07": {
@@ -145,9 +167,16 @@
         "Anthony Loke Siew Fook",
         "Datuk Seri Mohamad Hasan",
         "Tan Sri Annuar Musa",
-        "Dr Wee",
+        "Datuk Dr Wee Ka Siong",
         "Datuk Seri Ramlan Harun",
-        "Datuk Dr Asyraf Wajdi Dusuki"
+        "Datuk Dr Asyraf Wajdi Dusuki",
+        "Datuk Alzafny Ahmad"
+      ],
+      "new_this_cycle": [
+        "5 hot seats formally designated (Linggi N32, Sikamat N13, Ampangan N14, Paroi N25, Labu N20) with full candidate matchups + role affiliations (Utusan full-text)",
+        "7 Bersatu-vs-PN clash seats confirmed (4 named: Sikamat, Ampangan, Paroi, Labu; 3 pending)",
+        "Operational detail: 94M/9W; youngest 23 (Leevineshwaraan), oldest 70 (Abd Latif); campaign to 11:59pm 31 Jul; 36 PP-KPR; 8 centres; 0 papers rejected; 2,373 PDRM",
+        "PIR-07 tag added to N20 Labu & N25 Paroi (Utusan hot-seat designation; director watch list unchanged)"
       ]
     }
   },
@@ -289,7 +318,8 @@
       "code": "N20",
       "name": "Labu",
       "pir_tags": [
-        "PIR-09"
+        "PIR-09",
+        "PIR-07"
       ]
     },
     {
@@ -324,7 +354,8 @@
       "name": "Paroi",
       "pir_tags": [
         "PIR-06",
-        "PIR-09"
+        "PIR-09",
+        "PIR-07"
       ]
     },
     {
@@ -401,6 +432,7 @@
     }
   ],
   "files_in_folder": [
+    "entities_233104.json (THIS run — Day-2 dawn ENRICHMENT build; 231029 cycle: 1 new figure Alzafny + Wee/Tamim full names + 5 hot seats + 7 clash seats + operational detail; 103-candidate roster unchanged; PIR-06 threshold still NOT crossed)",
     "entities_211155.json (THIS run — confirmation/stability build; 194028+205755 zero-delta passes; no new entities; NST English 103/36 corroboration logged)",
     "entities_190215.json (prior run 19:02 UTC — 170837 PIR-06 escalation ingested, Samsuri corrected, new PIR-09 entities)",
     "entities_165723.json (prior run 16:57 UTC — nomination-day-surge baseline w/ PIR tags)",
@@ -410,5 +442,5 @@
     "_build_entities.py / _build_entities_190215.py (prior build scripts)",
     "_build_entities_211155.py (this run's build script)"
   ],
-  "total_entities": 291
+  "total_entities": 297
 }
