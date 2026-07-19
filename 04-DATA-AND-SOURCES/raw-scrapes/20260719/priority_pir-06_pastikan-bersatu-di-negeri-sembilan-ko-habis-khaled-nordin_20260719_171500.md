@@ -1,0 +1,15 @@
+# [PRIORITY PIR-06] pastikan-bersatu-di-negeri-sembilan-ko-habis-khaled-nordin
+Source URL: https://www.bharian.com.my/berita/nasional/2026/07/1590574/pastikan-bersatu-di-negeri-sembilan-ko-habis-khaled-nordin
+Final/redirected URL: https://www.bharian.com.my/berita/nasional/2026/07/1590574/pastikan-bersatu-di-negeri-sembilan-ko-habis-khaled-nordin
+Collected: 20260719 20260719_171500 UTC (2026-07-19 17:16:45 UTC) | MYT: 01:16 MYT 20 Jul 2026
+Classification: TLP:AMBER
+HTTP: 200 | mode: BH-rss-content
+Note: Full text from BH RSS content:encoded (no curl fetch needed)
+Title: "Pastikan BERSATU di Negeri Sembilan KO habis" - Khaled Nordin
+ArticlePubDate: Sun, 19 Jul 2026 23:58:18 +0000
+Body chars: 1984
+
+## Full text
+==============================================================================
+KUALA PILAH: Ahli serta penyokong UMNO dan Barisan Nasional (BN) khususnya di Negeri Sembilan diharap mencontohi pengundi Johor dengan menolak BERSATU pada Pilihan Raya Negeri (PRN) kali ini. Naib Presiden UMNO, Datuk Seri Mohamed Khaled Nordin berkata dengan penolakan itu juga, semua 24 calon BERSATU yang bertanding akan kehilangan deposit mereka. Beliau yang juga Ahli Parlimen Kota Tinggi berharap Negeri Sembilan akan turut mengekalkan rekod seperti Johor bagi memastikan BERSATU tidak mendapat sokongan dalam pilihan raya. "Kerana apa... kerana BERSATU itu diwujudkan dahulu nak ganti UMNO. Jadi, Negeri Sembilan mesti sahkan keputusan Johor dan pastikan BERSATU di Negeri Sembilan 'KO' habis. "Supaya bila Pilihan Raya Umum (PRU), tak payah dia bertanding apa-apa kerusi Parlimen. Senang BN satu lawan satu dengan parti mana? "Macam sekarang ini (dalam PRN Negeri Sembilan) satu lawan satu yang akan memudahkan dan memastikan kita kembali menguasai negara kita," katanya semasa berucap pada Majlis Pengenalan Calon dan Pelancaran Jentera Barisan Nasional (BN) Johol. Sebelum ini, BERSATU dilaporkan berikrar akan melaksanakan mandat diberikan rakyat sebaik mungkin sekiranya berjaya membentuk kerajaan negeri pada PRN Negeri Sembilan. Presidennya Tan Sri Muhyiddin Yassin berkata, parti itu bertanding di 24 daripada 36 kerusi Dewan Undangan Negeri (DUN), sekali gus melepasi jumlah majoriti mudah sebanyak 19 kerusi yang diperlukan untuk membentuk kerajaan negeri. Mengulas lanjut, Mohamed Khaled turut menyifatkan kemasukan BERSATU dalam PRN Negeri Sembilan sebagai 'kacau daun'. Menteri Pertahanan itu berkata, disebabkan itu, BN seharusnya tidak boleh mempunyai kemenangan tipis di setiap kerusi yang ditanding dalam pilihan raya kali ini. "Atas sebab itulah kita tak boleh ada kemenangan tipis kerusi. Kita nak pastikan dan saya percaya orang Melayu faham, kalau bagi BN sedikit, bagi BERSATU sedikit... BERSATU ini kacau daun," katanya. © New Straits Times Press (M) Bhd
+==============================================================================

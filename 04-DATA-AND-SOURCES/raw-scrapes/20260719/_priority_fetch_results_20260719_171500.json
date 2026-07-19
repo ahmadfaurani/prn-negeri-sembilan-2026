@@ -1,0 +1,639 @@
+{
+  "cycle": "20260719_171500",
+  "cutoff_myt": "23:33",
+  "now_iso": "2026-07-19 17:16:45 UTC",
+  "results": [
+    {
+      "pir": "PIR-06+PIR-16",
+      "slug": "bersatu-hanya-kacau-daun-khaled-gesa-pengundi-n-sembilan-bagi-ko",
+      "file": "priority_pir-06-pir-16_bersatu-hanya-kacau-daun-khaled-gesa-pengundi-n-sembilan-bagi-ko_20260719_171500.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 2054,
+      "title": "Bersatu hanya kacau daun, Khaled gesa pengundi N Sembilan bagi ‘KO’",
+      "final": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/bersatu-hanya-kacau-daun-khaled-gesa-pengundi-n-sembilan-bagi-ko",
+      "pub": "Sun, 19 Jul 2026 16:12:00 +0000",
+      "mode": "FMT-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-07+PIR-16",
+      "slug": "ph-targets-23-seats-for-safe-majority-in-negeri-sembilan-says-loke",
+      "file": "priority_pir-07-pir-16_ph-targets-23-seats-for-safe-majority-in-negeri-sembilan-says-loke_20260719_171500.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 3278,
+      "title": "PH targets 23 seats for ‘safe’ majority in Negeri Sembilan, says Loke",
+      "final": "https://www.freemalaysiatoday.com/category/nation/2026/07/20/ph-targets-23-seats-for-safe-majority-in-negeri-sembilan-says-loke",
+      "pub": "Sun, 19 Jul 2026 16:03:11 +0000",
+      "mode": "FMT-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-07",
+      "slug": "ph-sasar-menang-sekurang-kurangnya-23-kerusi-di-n-sembilan",
+      "file": "priority_pir-07_ph-sasar-menang-sekurang-kurangnya-23-kerusi-di-n-sembilan_20260719_171500.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 870,
+      "title": "PH sasar menang sekurang-kurangnya 23 kerusi di N Sembilan",
+      "final": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/ph-sasar-menang-23-kerusi-di-n-sembilan-bentuk-kerajaan-negeri-lebih-stabil",
+      "pub": "Sun, 19 Jul 2026 16:01:50 +0000",
+      "mode": "FMT-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-07+PIR-16",
+      "slug": "negri-sembilan-polls-campaign-on-policies-not-personal-attacks-says-loke",
+      "file": "priority_pir-07-pir-16_negri-sembilan-polls-campaign-on-policies-not-personal-attacks-says-loke_20260719_171500.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 2152,
+      "title": "Negri Sembilan polls: Campaign on policies, not personal attacks, says Loke",
+      "final": "https://www.nst.com.my/news/regional/2026/07/1492756/negri-sembilan-polls-campaign-policies-not-personal-attacks-says-loke",
+      "pub": "Mon, 20 Jul 2026 00:06:58 +0800",
+      "mode": "NST-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-07+PIR-16",
+      "slug": "negri-sembilan-polls-ph-targets-23-seats-to-form-stable-govt-says-loke",
+      "file": "priority_pir-07-pir-16_negri-sembilan-polls-ph-targets-23-seats-to-form-stable-govt-says-loke_20260719_171500.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 2769,
+      "title": "Negri Sembilan polls: PH targets 23 seats to form stable govt, says Loke",
+      "final": "https://www.nst.com.my/news/regional/2026/07/1492754/negri-sembilan-polls-ph-targets-23-seats-form-stable-govt-says-loke",
+      "pub": "Mon, 20 Jul 2026 00:01:20 +0800",
+      "mode": "NST-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-16",
+      "slug": "akmal-i-ll-resign-as-exco-if-nga-quits-cabinet",
+      "file": "priority_pir-16_akmal-i-ll-resign-as-exco-if-nga-quits-cabinet_20260719_171500.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 1009,
+      "title": "Akmal: I'll resign as exco if Nga quits Cabinet",
+      "final": "https://www.nst.com.my/news/nation/2026/07/1492751/akmal-ill-resign-exco-if-nga-quits-cabinet",
+      "pub": "Sun, 19 Jul 2026 23:59:26 +0800",
+      "mode": "NST-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-06+PIR-07",
+      "slug": "negri-sembilan-polls-make-sure-bersatu-gets-knocked-out-khaled-tells-voters",
+      "file": "priority_pir-06-pir-07_negri-sembilan-polls-make-sure-bersatu-gets-knocked-out-khaled-tells-voters_20260719_171500.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 2129,
+      "title": "Negri Sembilan polls: Make sure Bersatu gets knocked out, Khaled tells voters",
+      "final": "https://www.nst.com.my/news/regional/2026/07/1492742/negri-sembilan-polls-make-sure-bersatu-gets-knocked-out-khaled-tells",
+      "pub": "Sun, 19 Jul 2026 23:49:07 +0800",
+      "mode": "NST-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-06",
+      "slug": "persefahaman-bn-pn-di-negeri-sembilan-beri-kelebihan-khaled-nordin",
+      "file": "priority_pir-06_persefahaman-bn-pn-di-negeri-sembilan-beri-kelebihan-khaled-nordin_20260719_171500.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 1762,
+      "title": "Persefahaman BN-PN di negeri Sembilan beri kelebihan - Khaled Nordin",
+      "final": "https://www.bharian.com.my/berita/nasional/2026/07/1590578/persefahaman-bn-pn-di-negeri-sembilan-beri-kelebihan-khaled-nordin",
+      "pub": "Mon, 20 Jul 2026 00:13:53 +0000",
+      "mode": "BH-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-16",
+      "slug": "prn-ns-ph-sasar-menang-23-kerusi-untuk-bentuk-kerajaan-negeri-lebih-stabil-loke",
+      "file": "priority_pir-16_prn-ns-ph-sasar-menang-23-kerusi-untuk-bentuk-kerajaan-negeri-lebih-stabil-loke_20260719_171500.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 2874,
+      "title": "PRN NS: PH sasar menang 23 kerusi untuk bentuk kerajaan negeri lebih stabil - Loke",
+      "final": "https://www.bharian.com.my/berita/nasional/2026/07/1590576/prn-ns-ph-sasar-menang-23-kerusi-untuk-bentuk-kerajaan-negeri-lebih",
+      "pub": "Mon, 20 Jul 2026 00:06:15 +0000",
+      "mode": "BH-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-06",
+      "slug": "pastikan-bersatu-di-negeri-sembilan-ko-habis-khaled-nordin",
+      "file": "priority_pir-06_pastikan-bersatu-di-negeri-sembilan-ko-habis-khaled-nordin_20260719_171500.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 1984,
+      "title": "\"Pastikan BERSATU di Negeri Sembilan KO habis\" - Khaled Nordin",
+      "final": "https://www.bharian.com.my/berita/nasional/2026/07/1590574/pastikan-bersatu-di-negeri-sembilan-ko-habis-khaled-nordin",
+      "pub": "Sun, 19 Jul 2026 23:58:18 +0000",
+      "mode": "BH-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-16",
+      "slug": "prn-ns-kempen-patut-tumpu-tawaran-bukan-serang-peribadi-loke",
+      "file": "priority_pir-16_prn-ns-kempen-patut-tumpu-tawaran-bukan-serang-peribadi-loke_20260719_171500.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 2434,
+      "title": "PRN NS: Kempen patut tumpu tawaran, bukan serang peribadi - Loke",
+      "final": "https://www.bharian.com.my/berita/nasional/2026/07/1590570/prn-ns-kempen-patut-tumpu-tawaran-bukan-serang-peribadi-loke",
+      "pub": "Sun, 19 Jul 2026 23:51:10 +0000",
+      "mode": "BH-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-07",
+      "slug": "prn-n9-beri-kelebihan-kepada-bn-mohamed-khaled",
+      "file": "priority_pir-07_prn-n9-beri-kelebihan-kepada-bn-mohamed-khaled_20260719_171500.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 1827,
+      "title": "PRN N9 beri kelebihan kepada BN - Mohamed Khaled",
+      "final": "https://www.hmetro.com.my/mutakhir/2026/07/1386705/prn-n9-beri-kelebihan-kepada-bn-mohamed-khaled",
+      "pub": "Mon, 20 Jul 2026 00:56:38 +0000",
+      "mode": "METRO-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-16",
+      "slug": "prn-n9-ph-sasar-menang-23-kerusi-untuk-bentuk-kerajaan-negeri-lebih-stabil-loke",
+      "file": "priority_pir-16_prn-n9-ph-sasar-menang-23-kerusi-untuk-bentuk-kerajaan-negeri-lebih-stabil-loke_20260719_171500.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 2871,
+      "title": "PRN N9: PH sasar menang 23 kerusi untuk bentuk kerajaan negeri lebih stabil - Loke",
+      "final": "https://www.hmetro.com.my/mutakhir/2026/07/1386700/prn-n9-ph-sasar-menang-23-kerusi-untuk-bentuk-kerajaan-negeri-lebih-stabil",
+      "pub": "Mon, 20 Jul 2026 00:21:05 +0000",
+      "mode": "METRO-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-06",
+      "slug": "prn-n9-pastikan-bersatu-di-sini-ko-habis-mohamed-khaled",
+      "file": "priority_pir-06_prn-n9-pastikan-bersatu-di-sini-ko-habis-mohamed-khaled_20260719_171500.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 2006,
+      "title": "PRN N9: 'Pastikan BERSATU di sini KO habis' - Mohamed Khaled",
+      "final": "https://www.hmetro.com.my/mutakhir/2026/07/1386698/prn-n9-pastikan-bersatu-di-sini-ko-habis-mohamed-khaled",
+      "pub": "Mon, 20 Jul 2026 00:16:33 +0000",
+      "mode": "METRO-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-07",
+      "slug": "prn-n9-soal-pelantikan-kedudukan-menteri-hak-mutlak-perdana-menteri",
+      "file": "priority_pir-07_prn-n9-soal-pelantikan-kedudukan-menteri-hak-mutlak-perdana-menteri_20260719_171500.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 1774,
+      "title": "PRN N9: Soal pelantikan, kedudukan menteri hak mutlak Perdana Menteri",
+      "final": "https://www.hmetro.com.my/mutakhir/2026/07/1386694/prn-n9-soal-pelantikan-kedudukan-menteri-hak-mutlak-perdana-menteri",
+      "pub": "Sun, 19 Jul 2026 23:55:00 +0000",
+      "mode": "METRO-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-16",
+      "slug": "prn-n9-kempen-patut-tumpu-tawaran-bukan-serang-peribadi-loke",
+      "file": "priority_pir-16_prn-n9-kempen-patut-tumpu-tawaran-bukan-serang-peribadi-loke_20260719_171500.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 2431,
+      "title": "PRN N9: Kempen patut tumpu tawaran bukan serang peribadi - Loke",
+      "final": "https://www.hmetro.com.my/mutakhir/2026/07/1386692/prn-n9-kempen-patut-tumpu-tawaran-bukan-serang-peribadi-loke",
+      "pub": "Sun, 19 Jul 2026 23:53:15 +0000",
+      "mode": "METRO-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-16",
+      "slug": "mengapa-sepanyol-tidak-menyanyi-lagu-kebangsaan",
+      "file": "priority_pir-16_mengapa-sepanyol-tidak-menyanyi-lagu-kebangsaan_20260719_171500.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 3052,
+      "title": "Mengapa Sepanyol tidak menyanyi lagu kebangsaan?",
+      "final": "https://www.hmetro.com.my/arena/bola-sepak/2026/07/1386679/mengapa-sepanyol-tidak-menyanyi-lagu-kebangsaan",
+      "pub": "Sun, 19 Jul 2026 22:08:21 +0000",
+      "mode": "METRO-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-16",
+      "slug": "epilepsi-halang-bapa-yamal-beri-sokongan-di-stadium",
+      "file": "priority_pir-16_epilepsi-halang-bapa-yamal-beri-sokongan-di-stadium_20260719_171500.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 2370,
+      "title": "Epilepsi halang bapa Yamal beri sokongan di stadium",
+      "final": "https://www.hmetro.com.my/arena/bola-sepak/2026/07/1386665/epilepsi-halang-bapa-yamal-beri-sokongan-di-stadium",
+      "pub": "Sun, 19 Jul 2026 21:05:19 +0000",
+      "mode": "METRO-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-06+PIR-07",
+      "slug": "prn-n9-pn-bn-bakal-tampil-manifesto-bersepadu-annuar",
+      "file": "priority_pir-06-pir-07_prn-n9-pn-bn-bakal-tampil-manifesto-bersepadu-annuar_20260719_171500.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 2468,
+      "title": "PRN N9: PN-BN bakal tampil manifesto bersepadu - Annuar",
+      "final": "https://www.hmetro.com.my/mutakhir/2026/07/1386654/prn-n9-pn-bn-bakal-tampil-manifesto-bersepadu-annuar",
+      "pub": "Sun, 19 Jul 2026 20:22:19 +0000",
+      "mode": "METRO-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-07",
+      "slug": "pokok-tumbang-berusia-19-tahun-dbkl-bakal-pasang-400-pengesan-pokok-secara-berpe",
+      "file": "priority_pir-07_pokok-tumbang-berusia-19-tahun-dbkl-bakal-pasang-400-pengesan-pokok-secara-berpe_20260719_171500.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 3190,
+      "title": "Pokok tumbang berusia 19 tahun, DBKL bakal pasang 400 pengesan pokok secara berperingkat",
+      "final": "https://www.hmetro.com.my/mutakhir/2026/07/1386650/pokok-tumbang-berusia-19-tahun-dbkl-bakal-pasang-400-pengesan-pokok-secara",
+      "pub": "Sun, 19 Jul 2026 20:13:29 +0000",
+      "mode": "METRO-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-07+PIR-16",
+      "slug": "prn-n9-saya-sedia-letak-jawatan-jika-ada-arahan-pm-tok-mat",
+      "file": "priority_pir-07-pir-16_prn-n9-saya-sedia-letak-jawatan-jika-ada-arahan-pm-tok-mat_20260719_171500.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 2060,
+      "title": "PRN N9: 'Saya sedia letak jawatan jika ada arahan PM' - Tok Mat",
+      "final": "https://www.hmetro.com.my/mutakhir/2026/07/1386644/prn-n9-saya-sedia-letak-jawatan-jika-ada-arahan-pm-tok-mat",
+      "pub": "Sun, 19 Jul 2026 19:42:31 +0000",
+      "mode": "METRO-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-16",
+      "slug": "kes-pemain-b-12-meninggal-dunia-polis-tunggu-siasatan-makmal-teliti-sejarah-peru",
+      "file": "priority_pir-16_kes-pemain-b-12-meninggal-dunia-polis-tunggu-siasatan-makmal-teliti-sejarah-peru_20260719_171500.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 2520,
+      "title": "Kes pemain B-12 meninggal dunia: Polis tunggu siasatan makmal, teliti sejarah perubatan",
+      "final": "https://www.hmetro.com.my/mutakhir/2026/07/1386635/kes-pemain-b-12-meninggal-dunia-polis-tunggu-siasatan-makmal-teliti-sejarah",
+      "pub": "Sun, 19 Jul 2026 18:52:02 +0000",
+      "mode": "METRO-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-06",
+      "slug": "prn-n9-bn-pn-gabung-jentera-tekad-rampas-negeri-sembilan",
+      "file": "priority_pir-06_prn-n9-bn-pn-gabung-jentera-tekad-rampas-negeri-sembilan_20260719_171500.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 2233,
+      "title": "PRN N9: BN-PN gabung jentera, tekad rampas Negeri Sembilan",
+      "final": "https://www.hmetro.com.my/mutakhir/2026/07/1386631/prn-n9-bn-pn-gabung-jentera-tekad-rampas-negeri-sembilan",
+      "pub": "Sun, 19 Jul 2026 18:29:40 +0000",
+      "mode": "METRO-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-16",
+      "slug": "lagi-kes-lelaki-dibaham-buaya-di-kinabatangan",
+      "file": "priority_pir-16_lagi-kes-lelaki-dibaham-buaya-di-kinabatangan_20260719_171500.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 1611,
+      "title": "Lagi kes lelaki dibaham buaya di Kinabatangan",
+      "final": "https://www.hmetro.com.my/mutakhir/2026/07/1386629/lagi-kes-lelaki-dibaham-buaya-di-kinabatangan",
+      "pub": "Sun, 19 Jul 2026 18:10:29 +0000",
+      "mode": "METRO-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-07",
+      "slug": "prn-n9-ph-lancar-manifesto-malam-esok",
+      "file": "priority_pir-07_prn-n9-ph-lancar-manifesto-malam-esok_20260719_171500.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 2780,
+      "title": "PRN N9: PH lancar manifesto malam esok",
+      "final": "https://www.hmetro.com.my/mutakhir/2026/07/1386625/prn-n9-ph-lancar-manifesto-malam-esok",
+      "pub": "Sun, 19 Jul 2026 18:00:57 +0000",
+      "mode": "METRO-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-16",
+      "slug": "sim-minta-siasatan-menyeluruh-kes-sindiket-pemerdagangan-orang-di-bukit-mertajam",
+      "file": "priority_pir-16_sim-minta-siasatan-menyeluruh-kes-sindiket-pemerdagangan-orang-di-bukit-mertajam_20260719_171500.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 1697,
+      "title": "Sim minta siasatan menyeluruh kes sindiket pemerdagangan orang di Bukit Mertajam",
+      "final": "https://www.hmetro.com.my/mutakhir/2026/07/1386610/sim-minta-siasatan-menyeluruh-kes-sindiket-pemerdagangan-orang-di-bukit",
+      "pub": "Sun, 19 Jul 2026 17:20:30 +0000",
+      "mode": "METRO-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-07+PIR-16",
+      "slug": "12-kontena-mengandungi-makanan-sejuk-beku-bernilai-rm3-42-juta-diragui-halal-dit",
+      "file": "priority_pir-07-pir-16_12-kontena-mengandungi-makanan-sejuk-beku-bernilai-rm3-42-juta-diragui-halal-dit_20260719_171500.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 3172,
+      "title": "12 kontena mengandungi makanan sejuk beku bernilai RM3.42 juta diragui halal ditahan",
+      "final": "https://www.hmetro.com.my/mutakhir/2026/07/1386588/12-kontena-mengandungi-makanan-sejuk-beku-bernilai-rm342-juta-diragui-halal",
+      "pub": "Sun, 19 Jul 2026 16:58:26 +0000",
+      "mode": "METRO-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-07+PIR-16",
+      "slug": "prn-n9-aminuddin-lebih-selesa-berkempen-dalam-kumpulan-kecil",
+      "file": "priority_pir-07-pir-16_prn-n9-aminuddin-lebih-selesa-berkempen-dalam-kumpulan-kecil_20260719_171500.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 2624,
+      "title": "PRN N9: Aminuddin lebih selesa berkempen dalam kumpulan kecil",
+      "final": "https://www.hmetro.com.my/mutakhir/2026/07/1386583/prn-n9-aminuddin-lebih-selesa-berkempen-dalam-kumpulan-kecil",
+      "pub": "Sun, 19 Jul 2026 16:47:37 +0000",
+      "mode": "METRO-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-07",
+      "slug": "prn-negeri-sembilan-kalau-orang-dah-tak-suka-buat-apa-nak-tunggu-khaled-nordin",
+      "file": "priority_pir-07_prn-negeri-sembilan-kalau-orang-dah-tak-suka-buat-apa-nak-tunggu-khaled-nordin_20260719_171500.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 2863,
+      "title": "PRN Negeri Sembilan: 'Kalau orang dah tak suka, buat apa nak tunggu?' - Khaled Nordin | Awani",
+      "final": "https://www.astroawani.com/berita-politik/prn-negeri-sembilan-kalau-orang-dah-tak-suka-buat-apa-nak-tunggu-khaled-nordin",
+      "pub": "2026-07-19T23:36:52+0800",
+      "mode": "awani-direct"
+    },
+    {
+      "pir": "PIR-06+PIR-07",
+      "slug": "negri-sembilan-polls-make-sure-bersatu-gets-knocked-out-khaled-tells-voters",
+      "file": "priority_pir-06-pir-07_negri-sembilan-polls-make-sure-bersatu-gets-knocked-out-khaled-tells-voters_20260719_171500_gnews.md",
+      "http": "gnews",
+      "ok": false,
+      "body_len": 0,
+      "title": "Negri Sembilan polls: Make sure Bersatu gets knocked out, Khaled tells voters",
+      "final": "https://news.google.com/rss/search?q=joint+manifesto+BN+PN+when:3d&hl=en-MY&gl=MY&ceid=MY:en",
+      "pub": "Sun, 19 Jul 2026 15:49:07 GMT",
+      "mode": "gnews-headline",
+      "source": "NST Online",
+      "fresh": false
+    },
+    {
+      "pir": "PIR-07",
+      "slug": "pakatan-to-reveal-its-game-plan-for-negeri-sembilan-polls-with-new-manifesto-mon",
+      "file": "priority_pir-07_pakatan-to-reveal-its-game-plan-for-negeri-sembilan-polls-with-new-manifesto-mon_20260719_171500.md",
+      "http": "gnews",
+      "ok": false,
+      "body_len": 0,
+      "title": "Pakatan to reveal its game plan for Negeri Sembilan polls with new manifesto Monday night",
+      "final": "https://news.google.com/rss/search?q=manifesto+PH+Negeri+Sembilan+when:3d&hl=en-MY&gl=MY&ceid=MY:en",
+      "pub": "Sun, 19 Jul 2026 12:17:00 GMT",
+      "mode": "gnews-headline",
+      "source": "Malay Mail",
+      "fresh": false
+    },
+    {
+      "pir": "PIR-07",
+      "slug": "ph-urged-to-keep-negeri-sembilan-for-madani-reforms",
+      "file": "priority_pir-07_ph-urged-to-keep-negeri-sembilan-for-madani-reforms_20260719_171500.md",
+      "http": "gnews",
+      "ok": false,
+      "body_len": 0,
+      "title": "PH urged to keep Negeri Sembilan for Madani reforms",
+      "final": "https://news.google.com/rss/search?q=manifesto+PH+Negeri+Sembilan+when:3d&hl=en-MY&gl=MY&ceid=MY:en",
+      "pub": "Sun, 19 Jul 2026 14:42:17 GMT",
+      "mode": "gnews-headline",
+      "source": "Newswav",
+      "fresh": false
+    },
+    {
+      "pir": "PIR-16",
+      "slug": "akmal-i-ll-resign-as-exco-if-nga-quits-cabinet",
+      "file": "priority_pir-16_akmal-i-ll-resign-as-exco-if-nga-quits-cabinet_20260719_171500_gnews.md",
+      "http": "gnews",
+      "ok": false,
+      "body_len": 0,
+      "title": "Akmal: I'll resign as exco if Nga quits Cabinet",
+      "final": "https://news.google.com/rss/search?q=Nga+resign+Akmal+when:3d&hl=en-MY&gl=MY&ceid=MY:en",
+      "pub": "Sun, 19 Jul 2026 15:59:26 GMT",
+      "mode": "gnews-headline",
+      "source": "NST Online",
+      "fresh": false
+    }
+  ],
+  "fresh_items": [
+    {
+      "source": "FMT",
+      "title": "Bersatu hanya kacau daun, Khaled gesa pengundi N Sembilan bagi ‘KO’",
+      "pub": "Sun, 19 Jul 2026 16:12:00 +0000",
+      "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/bersatu-hanya-kacau-daun-khaled-gesa-pengundi-n-sembilan-bagi-ko",
+      "pir": "PIR-06+PIR-16"
+    },
+    {
+      "source": "FMT",
+      "title": "PH targets 23 seats for ‘safe’ majority in Negeri Sembilan, says Loke",
+      "pub": "Sun, 19 Jul 2026 16:03:11 +0000",
+      "url": "https://www.freemalaysiatoday.com/category/nation/2026/07/20/ph-targets-23-seats-for-safe-majority-in-negeri-sembilan-says-loke",
+      "pir": "PIR-07+PIR-16"
+    },
+    {
+      "source": "FMT",
+      "title": "PH sasar menang sekurang-kurangnya 23 kerusi di N Sembilan",
+      "pub": "Sun, 19 Jul 2026 16:01:50 +0000",
+      "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/ph-sasar-menang-23-kerusi-di-n-sembilan-bentuk-kerajaan-negeri-lebih-stabil",
+      "pir": "PIR-07"
+    },
+    {
+      "source": "NST",
+      "title": "Negri Sembilan polls: Campaign on policies, not personal attacks, says Loke",
+      "pub": "Mon, 20 Jul 2026 00:06:58 +0800",
+      "url": "https://www.nst.com.my/news/regional/2026/07/1492756/negri-sembilan-polls-campaign-policies-not-personal-attacks-says-loke",
+      "pir": "PIR-07+PIR-16"
+    },
+    {
+      "source": "NST",
+      "title": "Negri Sembilan polls: PH targets 23 seats to form stable govt, says Loke",
+      "pub": "Mon, 20 Jul 2026 00:01:20 +0800",
+      "url": "https://www.nst.com.my/news/regional/2026/07/1492754/negri-sembilan-polls-ph-targets-23-seats-form-stable-govt-says-loke",
+      "pir": "PIR-07+PIR-16"
+    },
+    {
+      "source": "NST",
+      "title": "Akmal: I'll resign as exco if Nga quits Cabinet",
+      "pub": "Sun, 19 Jul 2026 23:59:26 +0800",
+      "url": "https://www.nst.com.my/news/nation/2026/07/1492751/akmal-ill-resign-exco-if-nga-quits-cabinet",
+      "pir": "PIR-16"
+    },
+    {
+      "source": "NST",
+      "title": "Negri Sembilan polls: Make sure Bersatu gets knocked out, Khaled tells voters",
+      "pub": "Sun, 19 Jul 2026 23:49:07 +0800",
+      "url": "https://www.nst.com.my/news/regional/2026/07/1492742/negri-sembilan-polls-make-sure-bersatu-gets-knocked-out-khaled-tells",
+      "pir": "PIR-06+PIR-07"
+    },
+    {
+      "source": "BH",
+      "title": "Persefahaman BN-PN di negeri Sembilan beri kelebihan - Khaled Nordin",
+      "pub": "Mon, 20 Jul 2026 00:13:53 +0000",
+      "url": "https://www.bharian.com.my/berita/nasional/2026/07/1590578/persefahaman-bn-pn-di-negeri-sembilan-beri-kelebihan-khaled-nordin",
+      "pir": "PIR-06"
+    },
+    {
+      "source": "BH",
+      "title": "PRN NS: PH sasar menang 23 kerusi untuk bentuk kerajaan negeri lebih stabil - Loke",
+      "pub": "Mon, 20 Jul 2026 00:06:15 +0000",
+      "url": "https://www.bharian.com.my/berita/nasional/2026/07/1590576/prn-ns-ph-sasar-menang-23-kerusi-untuk-bentuk-kerajaan-negeri-lebih",
+      "pir": "PIR-16"
+    },
+    {
+      "source": "BH",
+      "title": "\"Pastikan BERSATU di Negeri Sembilan KO habis\" - Khaled Nordin",
+      "pub": "Sun, 19 Jul 2026 23:58:18 +0000",
+      "url": "https://www.bharian.com.my/berita/nasional/2026/07/1590574/pastikan-bersatu-di-negeri-sembilan-ko-habis-khaled-nordin",
+      "pir": "PIR-06"
+    },
+    {
+      "source": "BH",
+      "title": "PRN NS: Kempen patut tumpu tawaran, bukan serang peribadi - Loke",
+      "pub": "Sun, 19 Jul 2026 23:51:10 +0000",
+      "url": "https://www.bharian.com.my/berita/nasional/2026/07/1590570/prn-ns-kempen-patut-tumpu-tawaran-bukan-serang-peribadi-loke",
+      "pir": "PIR-16"
+    },
+    {
+      "source": "METRO",
+      "title": "PRN N9 beri kelebihan kepada BN - Mohamed Khaled",
+      "pub": "Mon, 20 Jul 2026 00:56:38 +0000",
+      "url": "https://www.hmetro.com.my/mutakhir/2026/07/1386705/prn-n9-beri-kelebihan-kepada-bn-mohamed-khaled",
+      "pir": "PIR-07"
+    },
+    {
+      "source": "METRO",
+      "title": "PRN N9: PH sasar menang 23 kerusi untuk bentuk kerajaan negeri lebih stabil - Loke",
+      "pub": "Mon, 20 Jul 2026 00:21:05 +0000",
+      "url": "https://www.hmetro.com.my/mutakhir/2026/07/1386700/prn-n9-ph-sasar-menang-23-kerusi-untuk-bentuk-kerajaan-negeri-lebih-stabil",
+      "pir": "PIR-16"
+    },
+    {
+      "source": "METRO",
+      "title": "PRN N9: 'Pastikan BERSATU di sini KO habis' - Mohamed Khaled",
+      "pub": "Mon, 20 Jul 2026 00:16:33 +0000",
+      "url": "https://www.hmetro.com.my/mutakhir/2026/07/1386698/prn-n9-pastikan-bersatu-di-sini-ko-habis-mohamed-khaled",
+      "pir": "PIR-06"
+    },
+    {
+      "source": "METRO",
+      "title": "PRN N9: Soal pelantikan, kedudukan menteri hak mutlak Perdana Menteri",
+      "pub": "Sun, 19 Jul 2026 23:55:00 +0000",
+      "url": "https://www.hmetro.com.my/mutakhir/2026/07/1386694/prn-n9-soal-pelantikan-kedudukan-menteri-hak-mutlak-perdana-menteri",
+      "pir": "PIR-07"
+    },
+    {
+      "source": "METRO",
+      "title": "PRN N9: Kempen patut tumpu tawaran bukan serang peribadi - Loke",
+      "pub": "Sun, 19 Jul 2026 23:53:15 +0000",
+      "url": "https://www.hmetro.com.my/mutakhir/2026/07/1386692/prn-n9-kempen-patut-tumpu-tawaran-bukan-serang-peribadi-loke",
+      "pir": "PIR-16"
+    },
+    {
+      "source": "METRO",
+      "title": "Mengapa Sepanyol tidak menyanyi lagu kebangsaan?",
+      "pub": "Sun, 19 Jul 2026 22:08:21 +0000",
+      "url": "https://www.hmetro.com.my/arena/bola-sepak/2026/07/1386679/mengapa-sepanyol-tidak-menyanyi-lagu-kebangsaan",
+      "pir": "PIR-16"
+    },
+    {
+      "source": "METRO",
+      "title": "Epilepsi halang bapa Yamal beri sokongan di stadium",
+      "pub": "Sun, 19 Jul 2026 21:05:19 +0000",
+      "url": "https://www.hmetro.com.my/arena/bola-sepak/2026/07/1386665/epilepsi-halang-bapa-yamal-beri-sokongan-di-stadium",
+      "pir": "PIR-16"
+    },
+    {
+      "source": "METRO",
+      "title": "PRN N9: PN-BN bakal tampil manifesto bersepadu - Annuar",
+      "pub": "Sun, 19 Jul 2026 20:22:19 +0000",
+      "url": "https://www.hmetro.com.my/mutakhir/2026/07/1386654/prn-n9-pn-bn-bakal-tampil-manifesto-bersepadu-annuar",
+      "pir": "PIR-06+PIR-07"
+    },
+    {
+      "source": "METRO",
+      "title": "Pokok tumbang berusia 19 tahun, DBKL bakal pasang 400 pengesan pokok secara berperingkat",
+      "pub": "Sun, 19 Jul 2026 20:13:29 +0000",
+      "url": "https://www.hmetro.com.my/mutakhir/2026/07/1386650/pokok-tumbang-berusia-19-tahun-dbkl-bakal-pasang-400-pengesan-pokok-secara",
+      "pir": "PIR-07"
+    },
+    {
+      "source": "METRO",
+      "title": "PRN N9: 'Saya sedia letak jawatan jika ada arahan PM' - Tok Mat",
+      "pub": "Sun, 19 Jul 2026 19:42:31 +0000",
+      "url": "https://www.hmetro.com.my/mutakhir/2026/07/1386644/prn-n9-saya-sedia-letak-jawatan-jika-ada-arahan-pm-tok-mat",
+      "pir": "PIR-07+PIR-16"
+    },
+    {
+      "source": "METRO",
+      "title": "Kes pemain B-12 meninggal dunia: Polis tunggu siasatan makmal, teliti sejarah perubatan",
+      "pub": "Sun, 19 Jul 2026 18:52:02 +0000",
+      "url": "https://www.hmetro.com.my/mutakhir/2026/07/1386635/kes-pemain-b-12-meninggal-dunia-polis-tunggu-siasatan-makmal-teliti-sejarah",
+      "pir": "PIR-16"
+    },
+    {
+      "source": "METRO",
+      "title": "PRN N9: BN-PN gabung jentera, tekad rampas Negeri Sembilan",
+      "pub": "Sun, 19 Jul 2026 18:29:40 +0000",
+      "url": "https://www.hmetro.com.my/mutakhir/2026/07/1386631/prn-n9-bn-pn-gabung-jentera-tekad-rampas-negeri-sembilan",
+      "pir": "PIR-06"
+    },
+    {
+      "source": "METRO",
+      "title": "Lagi kes lelaki dibaham buaya di Kinabatangan",
+      "pub": "Sun, 19 Jul 2026 18:10:29 +0000",
+      "url": "https://www.hmetro.com.my/mutakhir/2026/07/1386629/lagi-kes-lelaki-dibaham-buaya-di-kinabatangan",
+      "pir": "PIR-16"
+    },
+    {
+      "source": "METRO",
+      "title": "PRN N9: PH lancar manifesto malam esok",
+      "pub": "Sun, 19 Jul 2026 18:00:57 +0000",
+      "url": "https://www.hmetro.com.my/mutakhir/2026/07/1386625/prn-n9-ph-lancar-manifesto-malam-esok",
+      "pir": "PIR-07"
+    },
+    {
+      "source": "METRO",
+      "title": "Sim minta siasatan menyeluruh kes sindiket pemerdagangan orang di Bukit Mertajam",
+      "pub": "Sun, 19 Jul 2026 17:20:30 +0000",
+      "url": "https://www.hmetro.com.my/mutakhir/2026/07/1386610/sim-minta-siasatan-menyeluruh-kes-sindiket-pemerdagangan-orang-di-bukit",
+      "pir": "PIR-16"
+    },
+    {
+      "source": "METRO",
+      "title": "12 kontena mengandungi makanan sejuk beku bernilai RM3.42 juta diragui halal ditahan",
+      "pub": "Sun, 19 Jul 2026 16:58:26 +0000",
+      "url": "https://www.hmetro.com.my/mutakhir/2026/07/1386588/12-kontena-mengandungi-makanan-sejuk-beku-bernilai-rm342-juta-diragui-halal",
+      "pir": "PIR-07+PIR-16"
+    },
+    {
+      "source": "METRO",
+      "title": "PRN N9: Aminuddin lebih selesa berkempen dalam kumpulan kecil",
+      "pub": "Sun, 19 Jul 2026 16:47:37 +0000",
+      "url": "https://www.hmetro.com.my/mutakhir/2026/07/1386583/prn-n9-aminuddin-lebih-selesa-berkempen-dalam-kumpulan-kecil",
+      "pir": "PIR-07+PIR-16"
+    }
+  ],
+  "results_count": 33,
+  "fresh_count": 28
+}

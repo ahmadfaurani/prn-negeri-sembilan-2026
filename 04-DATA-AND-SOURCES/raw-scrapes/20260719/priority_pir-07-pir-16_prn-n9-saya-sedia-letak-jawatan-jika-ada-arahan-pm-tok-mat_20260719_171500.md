@@ -1,0 +1,15 @@
+# [PRIORITY PIR-07+PIR-16] prn-n9-saya-sedia-letak-jawatan-jika-ada-arahan-pm-tok-mat
+Source URL: https://www.hmetro.com.my/mutakhir/2026/07/1386644/prn-n9-saya-sedia-letak-jawatan-jika-ada-arahan-pm-tok-mat
+Final/redirected URL: https://www.hmetro.com.my/mutakhir/2026/07/1386644/prn-n9-saya-sedia-letak-jawatan-jika-ada-arahan-pm-tok-mat
+Collected: 20260719 20260719_171500 UTC (2026-07-19 17:16:45 UTC) | MYT: 01:16 MYT 20 Jul 2026
+Classification: TLP:AMBER
+HTTP: 200 | mode: METRO-rss-content
+Note: Full text from METRO RSS content:encoded (no curl fetch needed)
+Title: PRN N9: 'Saya sedia letak jawatan jika ada arahan PM' - Tok Mat
+ArticlePubDate: Sun, 19 Jul 2026 19:42:31 +0000
+Body chars: 2060
+
+## Full text
+==============================================================================
+am@hmetro.com.my Rembau: "Saya tak ada keberatan untuk meletakkan jawatan, jika ada arahan Perdana Menteri untuk saya meletak jawatan," kata Timbalan Pengerusi Barisan Nasional (BN), Datuk Seri Mohamad Hasan. Beliau yang juga Menteri Luar berkata, tiada dalam kalangan pemimpin BN memburukkan Kerajaan Perpaduan sepanjang kempen Pilihan Raya Negeri (PRN) Negeri Sembilan setakat ini. "Kita tak ada memburuk-burukkan, tak sentuh peribadi. Dalam kempen, kita nak pastikan mesej kita sampai kepada semua pengundi. "Terpulang kepada Perdana Menteri kerana beliau yang melantik menteri dan timbalan menteri," katanya kepada media selepas menghadiri program bersama warga Pusat Daerah Mengundi (PDM), Taman Kelab Tuanku Mambau di sini, petang ini. Beliau mengulas peringatan Perdana Menteri, Datuk Seri Anwar Ibrahim yang memberi amaran kepada mana-mana menteri, timbalan menteri dan pemegang jawatan dalam agensi kerajaan supaya tidak menggunakan kedudukan untuk menyerang rakan Kerajaan Persekutuan ketika berkempen pada PRN. Anwar dilaporkan berkata, mana-mana pihak berkaitan yang melakukan perkara itu akan diminta berundur daripada jawatan yang disandang. Mohamad yang akan mempertahankan kerusi Dewan Undangan Negeri (DUN) Rantau pada PRN kali ini, menyifatkan kenyataan politik sebagai perkara biasa dalam musim pilihan raya. "Saya pun tak kecil hati tapi masing-masing jangan cepat sangat meloncat-loncat. Dalam pilihan raya ini biasalah, dulu pun begitu juga. "Tak bermakna pula kita nak bermusuh secara peribadi, tidak. Kita nak supaya rakyat faham, supaya mereka memberikan sokongan kepada BN. "Kita pujuklah mereka dan kita pastikan jangan termakan fitnah-fitnah lagi. Pada 2018 (PRU) dulu, kalahnya BN bukan kerana apa, tetapi kerana fitnah melampau," katanya. Beliau turut mengingatkan pengundi supaya jangan termakan fitnah termasuk menerusi media sosial yang sengaja untuk melaga-lagakan rakyat Malaysia. "Saya minta kita berfikiran secara rasional dan ketika berkempen tidak menyerang peribadi seseorang," katanya. © New Straits Times Press (M) Bhd
+==============================================================================

@@ -1,0 +1,15 @@
+# [PRIORITY PIR-07+PIR-16] negri-sembilan-polls-campaign-on-policies-not-personal-attacks-says-loke
+Source URL: https://www.nst.com.my/news/regional/2026/07/1492756/negri-sembilan-polls-campaign-policies-not-personal-attacks-says-loke
+Final/redirected URL: https://www.nst.com.my/news/regional/2026/07/1492756/negri-sembilan-polls-campaign-policies-not-personal-attacks-says-loke
+Collected: 20260719 20260719_171500 UTC (2026-07-19 17:16:45 UTC) | MYT: 01:16 MYT 20 Jul 2026
+Classification: TLP:AMBER
+HTTP: 200 | mode: NST-rss-content
+Note: Full text from NST RSS content:encoded (no curl fetch needed)
+Title: Negri Sembilan polls: Campaign on policies, not personal attacks, says Loke
+ArticlePubDate: Mon, 20 Jul 2026 00:06:58 +0800
+Body chars: 2152
+
+## Full text
+==============================================================================
+SEREMBAN: DAP secretary-general Anthony Loke said election campaigns should focus on the policies and offerings that parties intend to bring to the people, rather than using personal attacks. He said that was why he has chosen not to launch personal attacks against any cabinet member throughout the Negeri Sembilan election campaign period. "We need to campaign based on what we want to offer and clarify our position. I have taken the position of not attacking any leader or bringing up anything, especially involving cabinet ministers, because they are my colleagues. "We meet every week at cabinet meetings and have many responsibilities that we need to carry out together," he told reporters after a Pakatan Harapan dinner held in conjunction with the state election here today. Loke, who is transport minister, said he had taken this position in line with Prime Minister Datuk Seri Anwar Ibrahim's advice today that individuals holding government positions should maintain discipline and refrain from attacking the federal government while campaigning in elections. He also pointed out that he chose not to campaign in the Rantau constituency, which is being contested by Foreign Minister and Barisan Nasional deputy chairman Datuk Seri Mohamad Hasan, in order to preserve harmony within the unity government. Instead, he said his focus was on the Chennah seat, which he is contesting, as well as seats contested by DAP candidates. He is also helping Menteri Besar Datuk Seri Aminuddin Harun campaign for the Linggi seat. Meanwhile, he said his position as transport minister was an advantage for Chennah, dismissing claims that he had neglected the constituency due to his busy schedule as a minister. As a minister, he was able to channel more benefits to Chennah residents, including allocations for the implementation of Kampung Madani projects, he said. "More importantly, it is what I can do for the constituency. I also have a highly dedicated full-time team to manage the constituency and assist the residents," he added. Early voting for the state election will be on July 28, with polling day on Aug 1. © New Straits Times Press (M) Bhd
+==============================================================================
