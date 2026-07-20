@@ -1,0 +1,970 @@
+[
+  {
+    "entity": "PN concedes MB post to BN",
+    "type": "narrative",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.utusan.com.my/nasional/2026/07/pn-beri-laluan-bn-jadi-mb-jika-menang-prn-negeri-sembilan/",
+    "context": "Utusan BM corroboration of morning MalayMail capture. Jalaluddin Alias confirms PN made 'deklarasi awal' to yield MB post to BN should alliance win. MB candidates named: Tok Mat (Mohamad Hasan), Jalaluddin Alias, Sufian Maradzi. Final decision up to BN chairman. Significant PIR-06 cooperation-arrangement signal."
+  },
+  {
+    "entity": "Mohamad Hasan (Tok Mat)",
+    "type": "person",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.utusan.com.my/nasional/2026/07/pn-beri-laluan-bn-jadi-mb-jika-menang-prn-negeri-sembilan/",
+    "context": "Umno deputy president, BN deputy chairman, Foreign Minister, N.27 Rantau candidate. Named by Jalaluddin as primary MB candidate. Frames BN-PN as 'electoral strategy not political coalition' (Sinar 788524). Says willing to relinquish Cabinet post if PM orders. Currently in Manila for Asean FM meeting — absent from Rantau campaign 2+ days."
+  },
+  {
+    "entity": "Sufian Maradzi (Muhammad Sufian Maradzi)",
+    "type": "person",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.utusan.com.my/nasional/2026/07/pn-beri-laluan-bn-jadi-mb-jika-menang-prn-negeri-sembilan/",
+    "context": "BN-UMNO candidate N.16 Seri Menanti. Named by Jalaluddin alongside Tok Mat as potential MB candidate. 2023 majority only 370 votes — marginal seat. New PIR-06 MB-succession intel."
+  },
+  {
+    "entity": "Jalaluddin Alias (Datuk Seri Jalaluddin Alias)",
+    "type": "person",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.utusan.com.my/nasional/2026/07/pn-beri-laluan-bn-jadi-mb-jadi-mb-jika-menang-prn-negeri-sembilan/",
+    "context": "Negeri Sembilan Umno chief, BN candidate N.02 Pertang. Thanks PN for 'deklarasi awal' yielding MB to BN. Deflects MB question from himself to Tok Mat/Sufian. Conducting Orang Asli Kampung Putra + Felda Pasoh 4 (Jelebu) outreach. PIR-07 'derhaka' friction context — conciliatory posture toward PN."
+  },
+  {
+    "entity": "Khairy Jamaluddin (KJ)",
+    "type": "person",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/kerjasama-bn-pn-isyarat-kepada-ph-kata-khairy",
+    "context": "Former Umno Youth chief, former Rembau MP. NEW sharper framing at Subang Umno meeting: 'sensitiviti orang Melayu' (federal govt ignoring Malay sensitivities) + 'isyarat kepada PH' (BN-PN = signal to PH, not permanent break). BN should NOT leave unity govt — stability until GE16. FMT BM+EN new outlet (3rd outlet corroboration after Sinar 788573 + MalayMail). Reinforces 'makmal politik' + 'Anwar not briefed' threads."
+  },
+  {
+    "entity": "Noh Omar",
+    "type": "person",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788495/berita/politik/kerjasama-umno-pas-mampu-bentuk-kerajaan-selangor-noh-omar",
+    "context": "Former Selangor Umno chief. NEW detailed seat projections: UMNO-PAS cooperation could win ~34 of 56 Selangor DUN seats + 6 parliament (Kuala Selangor, Shah Alam, Sepang, Hulu Langat, Gombak, Sungai Buloh). NS formula = 'pencetus gelombang politik' → Selangor → PRU16. Met Hadi Awang in 2018 re: Selangor. Noh-Loke exchange escalation emerging. More detailed than morning FMT 'blue wave' capture."
+  },
+  {
+    "entity": "Onn Hafiz Ghazi (Datuk Onn Hafiz Ghazi)",
+    "type": "person",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788481/berita/politik/onn-hafiz-bawa-formula-kemenangan-besar-bn-johor-ke-negeri-sembilan",
+    "context": "Johor MB. Brings BN Johor winning formula to NS at Tampin/Gemencheh event (Sunday 19 Jul). Two Johor victory 'secrets': gerak kerja berpasukan (teamwork, all components in one saf) + countering fitnah/tohmahan/janji tidak realistik. JOHOR YOUTH VOLUNTEERS PHYSICALLY DEPLOYED TO TAMPIN — direct machinery-sharing CONFIRMED. 'Kita menangkan BN di Negeri Sembilan, insya-ALLAH.'"
+  },
+  {
+    "entity": "Suhaimizan Bizar (Datuk Suhaimizan Bizar)",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788481/berita/politik/onn-hafiz-bawa-formula-kemenangan-besar-bn-johor-ke-negeri-sembilan",
+    "context": "BN-UMNO candidate N.35 Gemas (Gemencheh). Incumbent (2023 majority 2,434). Present at Onn Hafiz Tampin machinery launch. NEW PIR-07 candidate name from Gemencheh event."
+  },
+  {
+    "entity": "Koh Kim Swee",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788481/berita/politik/onn-hafiz-bawa-formula-kemenangan-besar-bn-johor-ke-negeri-sembilan",
+    "context": "BN-MCA candidate N.36 Repah. Present at Onn Hafiz Tampin machinery launch. NEW PIR-07 candidate name. MCA contests 7 NS seats (Chennah, Bahau, Nilai, Temiang, Rahang, Chuah, Repah)."
+  },
+  {
+    "entity": "Mohd Isam Mohd Isa (Datuk Mohd Isam Mohd Isa)",
+    "type": "person",
+    "pir_tag": "PIR-06",
+    "priority": "normal",
+    "source_url": "https://www.sinarharian.com.my/article/788481/berita/politik/onn-hafiz-bawa-formula-kemenangan-besar-bn-johor-ke-negeri-sembilan",
+    "context": "Tampin UMNO chief. Hosted Onn Hafiz at Program Perjumpaan Jentera PRN NS + Pelancaran Gerak Gempur BN Tampin (Gemencheh, Sunday)."
+  },
+  {
+    "entity": "Wee Ka Siong (Datuk Seri Dr Wee Ka Siong / Ka Siong)",
+    "type": "person",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788589/berita/politik/terima-kasih-anthony-loke-ingatkan-mca---ka-siong",
+    "context": "MCA President. FORMALLY responds to Loke 'MCA biggest loser' remark — RESOLVES PIR-16 carry-forward flag. Conciliatory 'thanks-for-the-reminder' framing (not counter-attack): 'Kritikan menjadikan kami lebih merendah diri.' Acknowledges MCA has won 0 NS DUN seats since 2013 (13 years). 7 seats contested, 3 not contested (Lobak/Lukut/Mambau — too thin). MCA 'bukan janji bulan dan bintang' essentially 'starting afresh' in NS. Grateful for Johor 3 DUN seats; hopes NS voters give another chance."
+  },
+  {
+    "entity": "Mohd Syahir Che Sulaiman (Mohd Syahir)",
+    "type": "person",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788502/berita/politik/sepatutnya-pemuda-ph-desak-exco-perak-pahang-letak-jawatan-dulu---mohd-syahir",
+    "context": "PAS MP Bachok. NEW voice in resign-narrative. Rebukes AMH: 'Why PH anxious in Putrajaya when BN-PN only NS PRN persefahaman?' Notes no resignation demand when BN-PH clashed in 56 Johor seats. EXPANDS resign-narrative to Perak + Pahang PH Exco; invokes 'Tindakan DAP Melaka wajar dijadikan contoh' (PIR-16 Melaka PH-BN fracture keyword). 'PMX and PH sedang menghitung hari' — unity-govt-end escalation. Post-PRN BN-PN = 'ujian formula'."
+  },
+  {
+    "entity": "AMH (Angkatan Muda Harapan)",
+    "type": "party",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788502/berita/politik/sepatutnya-pemuda-ph-desak-exco-perak-pahang-letak-jawatan-dulu---mohd-syahir",
+    "context": "PH Youth wing coalition. Calls for ALL BN ministers/deputy ministers to resign from Cabinet following BN's open cooperation with PN. Frames BN-PN as proving BN doesn't appreciate Anwar's trust. Target of Mohd Syahir's rebuttal (Johor precedent). Carryover signal now reinforced."
+  },
+  {
+    "entity": "Ahmad Zahid Hamidi (Zahid)",
+    "type": "person",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788502/berita/politik/sepatutnya-pemuda-ph-desak-exco-perak-pahang-letak-jawatan-dulu---mohd-syahir",
+    "context": "BN chairman, DPM. Referenced by Kamil Munim (PKR Youth) as wanting PM post — 'berpakat dengan pembangkang untuk bina momentum jatuhkan Anwar.' Frames NS BN-PN as 'medan menguji formula penyatuan Melayu dan Islam' with PRU16 potential. Sidebar: 'Kejayaan PRN Johor jadi pembakar semangat BN cipta kemenangan di NS - Ahmad Zahid.' Target of AMH resignation demand."
+  },
+  {
+    "entity": "Anwar Ibrahim (PMX)",
+    "type": "person",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/pemuda-pkr-dakwa-kerjasama-bn-pn-mahu-cabar-kepimpinan-anwar",
+    "context": "PM/Finance Minister. Target of PKR Youth Kamil Munim's 'topple-Anwar plot' framing. Issued 'resign if you attack unity partners' discipline warning. KJ: federal govt 'kurang peka terhadap sensitiviti orang Melayu.' Mohd Syahir: 'PMX and PH sedang menghitung hari.' Defends KWAP/eFishery (RM12.9b profit context). Political secretary Kamil Munim = intra-PKR escalation."
+  },
+  {
+    "entity": "Kamil Munim",
+    "type": "person",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/pemuda-pkr-dakwa-kerjasama-bn-pn-mahu-cabar-kepimpinan-anwar",
+    "context": "PKR Youth chief, political secretary to PM/Finance Minister Anwar. Claims BN-PN cooperation driven by political interest not rakyat agenda — 'membina momentum untuk cabar kepimpinan Anwar.' 'Zahid nak jadi PM berpakat dengan pembangkang... modus operandi sama sepertimana Dr Mahathir disingkirkan.' Notable intra-unity-govt friction — Anwar's own political sec framing BN-PN as leadership-toppling plot."
+  },
+  {
+    "entity": "Hassan Karim",
+    "type": "person",
+    "pir_tag": "PIR-06",
+    "priority": "normal",
+    "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/pemuda-pkr-dakwa-kerjasama-bn-pn-mahu-cabar-kepimpinan-anwar",
+    "context": "Pasir Gudang MP (PKR). Dissenting intra-PH voice: calls BN-PN cooperation 'normal in politics' — 'PH shouldn't complain and sigh.' Notes BN cooperated with PH after GE14, so BN-PN cooperating to seize NS from PH is analogous. Counterbalance to Kamil Munim's escalation."
+  },
+  {
+    "entity": "Shahrul Adnan (Mohamad Shahrul Adnan)",
+    "type": "person",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/selangor-pkr-youth-urges-ph-to-reassess-ties-with-bn",
+    "context": "Selangor PKR Youth deputy chief. Urges PH to reassess BN ties after BN-PN NS cooperation: 'If BN is free to work with PN to oppose PH in NS, why should PH regard BN cooperation as beyond question?' EXPANDS morning's 'Pemuda PKR topple-Anwar' thread to Selangor PKR Youth — intra-PH pressure to break with BN at state level. PH-BN formed Selangor govt (34/56 in 2023); PN got 22."
+  },
+  {
+    "entity": "sensitiviti orang Melayu narrative (KJ)",
+    "type": "narrative",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/kerjasama-bn-pn-isyarat-kepada-ph-kata-khairy",
+    "context": "NEW sharper KJ formulation (FMT BM+EN): 'sebahagian ahli Umno merasakan kerajaan persekutuan kurang memberi perhatian terhadap sensitiviti orang Melayu.' Sharpens prior 'ada sesuatu yang tak kena' unity-govt critique. PIR-16 'penyatuan undi Melayu' + 'Anwar not briefed' adjacent. BN should NOT leave govt — just 'send signal to PH not to take UMNO/BN for granted.'"
+  },
+  {
+    "entity": "isyarat kepada PH narrative (KJ)",
+    "type": "narrative",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/kerjasama-bn-pn-isyarat-kepada-ph-kata-khairy",
+    "context": "KJ framing: BN-PN cooperation = 'isyarat' (signal) to PH — not permanent break from unity govt. PH uses Umno's presence as excuse for reform failures: 'Seolah-olah mereka menyalahkan Umno atas kegagalan mereka sendiri.' Context: PH-BN ties soured after BN solo in Johor PRN (11 Jul); deteriorated with BN-PN NS alliance."
+  },
+  {
+    "entity": "blue wave Johor→NS→Selangor→Putrajaya GE16 narrative (Noh Omar)",
+    "type": "narrative",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788495/berita/politik/kerjasama-umno-pas-mampu-bentuk-kerajaan-selangor-noh-omar",
+    "context": "Noh Omar escalates: NS formula = 'pencetus gelombang politik' → Selangor → PRU16. NEW detailed projections: ~34/56 Selangor DUN + 6 parliament seats winnable via straight fights. 'Blue wave began in Johor, moving to NS, will positively impact Selangor, by GE16 BN and PN will return to power.' Three-cornered Umno/PAS/PH only benefits PH (cites Khairy's Sungai Buloh GE15 defeat). PIR-16 'makmal politik PRU16' + 'majoriti mudah' adjacent."
+  },
+  {
+    "entity": "Johor→NS machinery transfer (Onn Hafiz)",
+    "type": "narrative",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788481/berita/politik/onn-hafiz-bawa-formula-kemenangan-besar-bn-johor-ke-negeri-sembilan",
+    "context": "CONFIRMED via Onn Hafiz Tampin event. Johor youth volunteers physically coming to Parlimen Tampin to help NS campaign: 'Budak-budak Johor nak sokong budak-budak Negeri Sembilan. Kita datang untuk membantu.' Direct machinery-sharing across state borders. Onn Hafiz shares two Johor victory secrets (teamwork + countering slander). PIR-06 operational arrangement confirmed."
+  },
+  {
+    "entity": "MCA semak dan imbang narrative (Ka Siong)",
+    "type": "narrative",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788363/berita/politik/kerjasama-bn-pn-elak-pecah-undi-ideologi-parti-tetap-kekal---ka-siong",
+    "context": "Wee Ka Siong Saturday press conf: BN-PN = elak pecah undi (vote-split avoidance), NOT merger. Each party keeps ideologi/pendirian/peranan. MCA positioning = 'semak dan imbang' (check and balance) within BN-PN. Will oppose any policy harming mixed-community rights. 'Persefahaman berlandaskan kepentian rakyat, bukan sokongan tanpa syarat.'"
+  },
+  {
+    "entity": "BN-PN = electoral strategy not coalition narrative (Tok Mat + Ka Siong)",
+    "type": "narrative",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788363/berita/politik/kerjasama-bn-pn-elak-pecah-undi-ideologi-parti-tetap-kekal---ka-siong",
+    "context": "Reinforced by both Tok Mat (Sinar 788524 — 'strategi pilihan raya bukan gabungan politik') and Ka Siong (Sinar 788363 — 'elak pecah undi, bukan bergabung'). KEY framing to manage unity-govt optics — distinguishes tactical electoral understanding from formal coalition, allowing BN to remain in federal govt while opposing PH in NS."
+  },
+  {
+    "entity": "perpaduan hipokrit narrative (Ka Siong)",
+    "type": "narrative",
+    "pir_tag": "PIR-06",
+    "priority": "normal",
+    "source_url": "https://www.sinarharian.com.my/article/788363/berita/politik/kerjasama-bn-pn-elak-pecah-undi-ideologi-parti-tetap-kekal---ka-siong",
+    "context": "Ka Siong: if Unity Govt is just power-sharing but fails reform/solve rakyat problems = 'perpaduan yang hipokrit' (hypocritical unity). Critique of DAP: 'politik melabel dan retorik berunsur konfrontasi' drove social division. 'BN is the only party able to unite the middle ground.' PIR-16 'DAP coalition-intolerant' adjacent."
+  },
+  {
+    "entity": "PDM Klawang reopen",
+    "type": "narrative",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788589/berita/politik/terima-kasih-anthony-loke-ingatkan-mca---ka-siong",
+    "context": "UNRESOLVED — hour 20+ of Jalaluddin '1–2 days' window (20 Jul MYT business hours progressing). No reopening detected. All mandatory gnews [CRITICAL]-watch queries (PDM Klawang buka semula) returned 0. Status remains the longest-standing unresolved PIR-06 [CRITICAL]-watch flag."
+  },
+  {
+    "entity": "lebih hebat new coalition",
+    "type": "narrative",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788589/berita/politik/terima-kasih-anthony-loke-ingatkan-mca---ka-siong",
+    "context": "NOT DETECTED — 21st cycle with no formalization. No 'lebih hebat new coalition' entity emerged. gnews critical-keyword scan across 357 priority headlines = 0 hits. Flag maintained as [CRITICAL]-watch but no threshold crossing."
+  },
+  {
+    "entity": "RoS complaint disrupting PN seat negotiations",
+    "type": "narrative",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788589/berita/politik/terima-kasih-anthony-loke-ingatkan-mca---ka-siong",
+    "context": "NOT DETECTED — no RoS intervention in today's content. Seat allocation (BN 25 / PN 11 / Bersatu 24 solo / PH 36 solo) remains stable per 103-calon list. No formal RoS complaint disrupting negotiations."
+  },
+  {
+    "entity": "Wawasan admitted to PN",
+    "type": "narrative",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "CONFIRMED via 103-calon list: PN component breakdown = PAS 5 + Wawasan 4 + Gerakan 1 + MIPP 1 = 11 seats. Wawasan (Hamzah Zainudin's party) formally part of PN umbrella, fielding 4 candidates: Danni Rais (N.04 Klawang), Razali Abu Samah (N.13 Sikamat), Eric Michael (N.23 Mambau), Ridzuan Ahmad (N.34 Gemas)."
+  },
+  {
+    "entity": "Friends of BN",
+    "type": "party",
+    "pir_tag": "PIR-06",
+    "priority": "normal",
+    "source_url": "https://www.sinarharian.com.my/article/788481/berita/politik/onn-hafiz-bawa-formula-kemenangan-besar-bn-johor-ke-negeri-sembilan",
+    "context": "BN component in Johor (alongside UMNO/MCA/MIC). Onn Hafiz cites 'rakan-rakan Friends of BN' as part of Johor's gerak kerja berpasukan victory formula being transferred to NS."
+  },
+  {
+    "entity": "topple-Anwar plot narrative (PKR Youth)",
+    "type": "narrative",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/pemuda-pkr-dakwa-kerjasama-bn-pn-mahu-cabar-kepimpinan-anwar",
+    "context": "Kamil Munim (PKR Youth chief, Anwar's political sec): BN-PN = 'membina momentum politik untuk mencabar kepimpinan Anwar.' 'Zahid nak jadi PM berpakat dengan pembangkang... modus operandi sama sepertimana Dr Mahathir disingkirkan. Selepas itu, mereka pula akan bercakaran merebut kuasa.' Notable intra-unity-govt friction escalation. Expanded by Selangor PKR Youth (Shahrul Adnan)."
+  },
+  {
+    "entity": "Bersatu kacau daun narrative (Khaled)",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/bersatu-hanya-kacau-daun-khaled-gesa-pengundi-n-sembilan-bagi-ko",
+    "context": "Khaled Nordin labels Bersatu 'hanya kacau daun' in NS, urges voters 'KO habis-habisan' so Bersatu has no footing for PRU. Full RSS text recovered this cycle (enrichment of prior 171500 capture). References Johor deposit-loss precedent. Narrative stable; NOT escalated to hard-news [CRITICAL] 'Bersatu exit imminent' corroboration."
+  },
+  {
+    "entity": "makmal politik PRU16 narrative (KJ + Noh Omar)",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.malaymail.com/news/malaysia/2026/07/20/khairy-malay-vote-unity-could-help-bn-perikatan-reclaim-selangor/228271",
+    "context": "ESCALATED — now corroborated by 3 named UMNO figures (KJ, Noh Omar, Khaled morning) across 3 outlets (Sinar, MalayMail/Kosmo, FMT). KJ: NS as 'test/reference' for BN-PN → Selangor → GE16. 'If Malay votes no longer divided, formula could give us advantage to reclaim Selangor.' Noh: NS = 'pencetus gelombang politik' → PRU16 with 34/56 Selangor projections. 'Wait for NS results first' before any Selangor talks."
+  },
+  {
+    "entity": "penyatuan Melayu-Islam narrative (Sinar 788548)",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788548/berita/politik/ph-jual-prestasi-bn-pn-laung-penyatuan-melayu-islam",
+    "context": "DOMINANT campaign-narrative framing crystallised: 'PH jual prestasi, BN-PN laung penyatuan Melayu-Islam.' Sinar analysis (pub 20 Jul 09:00 MYT): NS expected to be among fiercest contests due to political realignment; PH campaigns on performance/governance record; BN-PN chants 'penyatuan Melayu-Islam.' (Sinar Premium paywall — intro only captured.) This is THE dominant PIR-16 narrative dichotomy."
+  },
+  {
+    "entity": "MCA biggest loser narrative (Loke) → Wee conciliatory rebuttal",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788446/berita/politik/terima-kasih-mca-kerana-nak-bantu-dap-di-tiga-dun---anthony-loke",
+    "context": "LOOP CLOSED. Loke (Sinar 788446, Sunday Pasar Besar Seremban) sarcastically thanked MCA for 'helping DAP' by not contesting 3 traditional seats (Lobak/Lukut/Mambau) — strategy to ensure PN doesn't contest MCA seats, redirect Malay voters to BN. Only at Chennah did strategy succeed (no 3-cornered with Bersatu). Wee responded (788589) conciliatorily: 'thanks for the reminder.' Mah Hang Soon still silent. MCA positioned as humble/underdog/starting-afresh."
+  },
+  {
+    "entity": "DAP Melaka model narrative (Mohd Syahir)",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788502/berita/politik/sepatutnya-pemuda-ph-desak-exco-perak-pahang-letak-jawatan-dulu---mohd-syahir",
+    "context": "Mohd Syahir directly invokes PIR-16 'Melaka withdrawal' / 'Melaka PH-BN fracture' keyword: 'Tindakan DAP Melaka wajar dijadikan contoh' (DAP Melaka's action should be the model). Argues PH Youth should demand PH Exco in Perak and Pahang resign FIRST — using DAP Melaka's precedent as the template. NEW state-level expansion of resign-narrative beyond NS/ federal."
+  },
+  {
+    "entity": "PMX menghitung hari narrative (Mohd Syahir)",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788502/berita/politik/sepatutnya-pemuda-ph-desak-exco-perak-pahang-letak-jawatan-dulu---mohd-syahir",
+    "context": "Mohd Syahir escalation: 'PMX and PH sedang menghitung hari' (PMX and PH are counting days). Unity-govt-end framing — suggests Anwar's government is in its final days. Combined with 'MCA's reaction shows doubt' + 'PH themselves no longer confident in Madani govt strength' (citing prior 'Kalah atau menang PRN Johor, saya tetap Perdana Menteri' boast)."
+  },
+  {
+    "entity": "resign-narrative expansion to Perak + Pahang",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788502/berita/politik/sepatutnya-pemuda-ph-desak-exco-perak-pahang-letak-jawatan-dulu---mohd-syahir",
+    "context": "Resign-narrative chain: AMH (call BN ministers resign) → Anwar warning (resign if attack) → Tok Mat (ready to resign) → Akmal (Nga resign too) → Mohd Syahir (EXPANDS to Perak + Pahang PH Exco + DAP Melaka model). NEW states added. Why demand didn't arise when BN-PH clashed in 56 Johor seats? Cautious 'ujian formula' for post-PRN BN-PN."
+  },
+  {
+    "entity": "sasar bentuk kerajaan negeri (Bersatu solo-governing bid)",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788589/berita/politik/terima-kasih-anthony-loke-ingatkan-mca---ka-siong",
+    "context": "NOT CORROBORATED — 21st cycle with no hard-news outlet confirming 'Bersatu sasar bentuk kerajaan negeri' as fact. The PIR-16 [CRITICAL] trigger remains uncrossed. NOTE: 'PH sasar menang 23 kerusi untuk bentuk kerajaan lebih stabil' (Loke) was a FALSE POSITIVE (PH's seat-count target, NOT Bersatu's solo-governing bid) — detector tightened to require 'bersatu' co-occurrence."
+  },
+  {
+    "entity": "Bersatu exit imminent",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788589/berita/politik/terima-kasih-anthony-loke-ingatkan-mca---ka-siong",
+    "context": "NOT CORROBORATED — 21st cycle with no hard-news outlet confirming 'Bersatu exit imminent?' The 'Bersatu kacau daun' characterisation (Khaled) and 'makmal politik PRU16' framing (KJ + Noh Omar) continue to escalate but remain characterisations, NOT formalised events. PIR-16 [CRITICAL] = NOT crossed."
+  },
+  {
+    "entity": "Muhyiddin graft trial (Jana Wibawa RM24.4m Gemas road)",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.utusan.com.my/nasional/2026/07/syarikat-dicadangkan-muhyiddin-terima-rm24-4-juta-bayaran-projek-jana-wibawa",
+    "context": "Court told JKR paid RM24.4m to KCJ Engineering Sdn Bhd (KESB) for Jana Wibawa project linked to ex-PM Muhyiddin. KESB among 54 contractors Muhyiddin gave to ex-Finance Minister Tengku Zafrul for 54 Jana Wibawa projects (direct negotiation/Design & Build). PROJECT: new road connecting Felda Bukit Jalor to Gemas, NS — total contract RM62m. 17th witness Wan Hasnan Wan Musa (JKR NS director). NS/Gemas link — Gemas = seat where Wawasan's Ridzuan Ahmad (ex-Bersatu) is contesting."
+  },
+  {
+    "entity": "majoriti mudah narrative (Loke)",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.malaymail.com/news/malaysia/2026/07/20/pakatan-sets-23-seat-target-as-anthony-loke-rallies-for-stronger-negeri-sembilan",
+    "context": "Loke's framing: PH has 17 seats, needs 19 for simple majority ('majoriti mudah' where 'apa sahaja boleh berlaku'), targets 23 for stability ('safe majority'). '8123' backdrop number at DAP fundraising dinner. Sinar BM title said '32 kerusi' but body confirms 23 — likely title error; MalayMail EN clearly says 23. Loke + Gobind + Nie Ching + Cha Kee Chin present. Aminuddin to continue as MB."
+  },
+  {
+    "entity": "MB after PRN narrative",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.utusan.com.my/nasional/2026/07/pn-beri-laluan-bn-jadi-mb-jika-menang-prn-negeri-sembilan/",
+    "context": "CONFIRMED: PN concedes MB to BN should alliance win. Jalaluddin names Tok Mat (Mohamad Hasan) and Sufian Maradzi (Seri Menanti candidate) as MB candidates — 'up to BN chairman to decide.' No exco allocation discussed — 'priority is to achieve victory first.' Aminuddin (caretaker MB) to continue if PH wins. PIR-16 'MB after PRN' keyword directly addressed."
+  },
+  {
+    "entity": "ada sesuatu yang tak kena dalam Kerajaan Perpaduan (KJ)",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788573/berita/politik/ada-sesuatu-yang-tak-kena-dalam-kerajaan-perpaduan-kj",
+    "context": "KJ: BN-PN cooperation = signal something wrong with unity govt. 'We have given it four years and sat together in the federal government. There is something wrong with our cooperation, and it is not a small issue but many issues.' PIR-16 'Anwar not briefed' adjacent. BUT BN should NOT leave govt — stability until GE16. Sinar 788573 (pub 20 Jul 09:19 MYT)."
+  },
+  {
+    "entity": "Wan Saiful (Wan Saiful Wan Jan)",
+    "type": "person",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788589/berita/politik/terima-kasih-anthony-loke-ingatkan-mca---ka-siong",
+    "context": "NOT DETECTED in today's content. PIR-16 'Bersatu kacau daun' (Wan Saiful, Harian Metro) entity from prior cycles not surfaced this cycle. Harian Metro remained inaccessible (HTTP 000/404) — consistent with all prior cycles. Flag maintained as PRIORITY watch for next cycle."
+  },
+  {
+    "entity": "Albert Tei",
+    "type": "person",
+    "pir_tag": "PIR-16",
+    "priority": "normal",
+    "source_url": "https://www.sinarharian.com.my/article/788589/berita/politik/terima-kasih-anthony-loke-ingatkan-mca---ka-siong",
+    "context": "NOT DETECTED in today's content. PIR-16-listed entity not surfaced in any of today's 4 cycles. Flag maintained for watch."
+  },
+  {
+    "entity": "barking dogs narrative",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "normal",
+    "source_url": "https://www.sinarharian.com.my/article/788589/berita/politik/terima-kasih-anthony-loke-ingatkan-mca---ka-siong",
+    "context": "NOT DETECTED in today's content. PIR-16-listed narrative entity not surfaced. Flag maintained for watch."
+  },
+  {
+    "entity": "DAP coalition-intolerant narrative",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "normal",
+    "source_url": "https://www.sinarharian.com.my/article/788363/berita/politik/kerjasama-bn-pn-elak-pecah-undi-ideologi-parti-tetap-kekal---ka-siong",
+    "context": "Adjacent via Ka Siong's critique: 'tindakan DAP yang sekian lama meraih sokongan melalui politik melabel dan retorik berunsur konfrontasi menjadi antara faktor yang mendorong kepada sentimen masyarakat serta perpecahan politik.' Frames DAP's confrontational rhetoric as driving social division — 'perpecahan politik hanya akan membuka ruang yang lebih besar kepada fahaman ekstrem.'"
+  },
+  {
+    "entity": "ujian formula narrative (Mohd Syahir)",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "normal",
+    "source_url": "https://www.sinarharian.com.my/article/788502/berita/politik/sepatutnya-pemuda-ph-desak-exco-perak-pahang-letak-jawatan-dulu---mohd-syahir",
+    "context": "Mohd Syahir: post-PRN NS BN-PN cooperation still 'ujian formula' (formula test) — cautious, including grassroots views. 'Semua pihak masih mengamalkan pendekatan berhati-hati.' PIR-16 'makmal politik' adjacent — frames NS as experimental test-bed, not permanent alliance."
+  },
+  {
+    "entity": "Loke (Anthony Loke Siew Fook)",
+    "type": "person",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.malaymail.com/news/malaysia/2026/07/20/pakatan-tailors-campaign-strategies-in-negeri-sembilan-loke-says-each-village-needs-distinct-approach/228287",
+    "context": "DAP secretary-general, Transport Minister, N.01 Chennah candidate (straight fight vs Siow Kong Choon). At Pekan Titi (Jelebu) walkabout — PH tailors campaign to each village's character (Malay-dominant → Malay reps, Chinese → Chinese reps, mixed → mixed teams). NOT campaigning in Rantau (Tok Mat's seat) to preserve unity-govt harmony — focuses on Chennah + DAP seats + helps Aminuddin in Linggi. 'MCA biggest loser' remark originator. Confirmed Seremban MP + Chennah assemblyman."
+  },
+  {
+    "entity": "Mah Hang Soon (Datuk Dr Mah Hang Soon)",
+    "type": "person",
+    "pir_tag": "PIR-16",
+    "priority": "normal",
+    "source_url": "https://www.sinarharian.com.my/article/788589/berita/politik/terima-kasih-anthony-loke-ingatkan-mca---ka-siong",
+    "context": "MCA deputy president. STILL SILENT on Loke's 'MCA biggest loser' remark — only Wee Ka Siong (president) responded. Carry-forward flag: does Mah add a separate rebuttal? Saw Yee Fung (MCA Youth) remains closest-to-rebuttal from prior cycles. PIR-16 watch maintained."
+  },
+  {
+    "entity": "Teo Nie Ching",
+    "type": "person",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788527/berita/politik/ph-perlu-terus-diberi-mandat-laksana-agenda-madani-nie-ching",
+    "context": "DAP Women's chief, Deputy Communications Minister, Kulai MP. At PH dinner: PH needs mandate to continue Madani reforms. Federal achievements: economy, pension reform, education (10A SPM matrikulasi guarantee). Spoke in Mandarin + English. DAP won't give up despite Johor PRN defeat — will muhasabah without sacrificing principles."
+  },
+  {
+    "entity": "Akmal Saleh (Dr Akmal Saleh)",
+    "type": "person",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788502/berita/politik/sepatutnya-pemuda-ph-desak-exco-perak-pahang-letak-jawatan-dulu---mohd-syahir",
+    "context": "UMNO Youth chief. Referenced (sidebar): 'Buktikan penyatuan kita mampu gegar mereka.' Earlier: 'I'll resign as exco if Nga quits Cabinet' (resign-narrative chain). Challenge to Anwar: drop ministers from parties contesting PH. Sidebar-referenced article NOT yet captured — next-cycle target."
+  },
+  {
+    "entity": "N.01 Chennah",
+    "type": "seat",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "T1 battleground. STRAIGHT FIGHT (only MCA seat where BN-PN strategy succeeded — no 3-cornered with Bersatu). Anthony Loke (PH-DAP, incumbent since 2013, 2023 majority 2,200) vs Siow Kong Choon (BN-MCA). Malay 46.3%, Chinese 44.3%, Indian 2%+. Loke declares '50-50.' Gauge of Chinese support for DAP post-unity-govt."
+  },
+  {
+    "entity": "Siow Kong Choon",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.malaymail.com/news/malaysia/2026/07/20/pakatan-tailors-campaign-strategies-in-negeri-sembilan-loke-says-each-village-needs-distinct-approach/228287",
+    "context": "BN-MCA candidate N.01 Chennah. NEW name confirmed (afternoon Awani + MalayMail). Loke's straight-fight opponent — the single seat where BN-PN vote-split-avoidance strategy succeeded (no Bersatu 3-cornered entry). Test of cross-coalition vote transfer."
+  },
+  {
+    "entity": "N.02 Pertang",
+    "type": "seat",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "T1 battleground. 3-cornered: Mohd Umry Abdul Khois (PH-PKR) vs Datuk Seri Jalaluddin Alias (BN-UMNO, incumbent, 2023 majority 2,790) vs Mohd Faizal Fadli Mohd Idrus (Bersatu). 'Derhaka' friction context — Jalaluddin conciliatory toward PN (thanks PN for MB concession). Kerusi panas (hot seat)."
+  },
+  {
+    "entity": "Mohd Umry Abdul Khois",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "normal",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "PH-PKR candidate N.02 Pertang. Challenging BN incumbent Jalaluddin Alias and Bersatu's Mohd Faizal Fadli. NEW candidate name from 103-calon list."
+  },
+  {
+    "entity": "Mohd Faizal Fadli Mohd Idrus",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "normal",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "Bersatu candidate N.02 Pertang. 3-cornered fight vs Jalaluddin (BN incumbent) and PH's Mohd Umry. NEW candidate name."
+  },
+  {
+    "entity": "N.04 Klawang",
+    "type": "seat",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.malaymail.com/news/malaysia/2026/07/20/negeri-sembilan-polls-cousins-turn-political-rivals-in-three-way-contest-for-klawang/228190",
+    "context": "T1 battleground. 3-cornered: Datuk Bakri Sawir (PH-Amanah, incumbent, 2023 majority 577) vs Danni Rais (PN-Wawasan, cousin) vs Muhammad Adib Musa (Bersatu). 13,355 voters. Cousins crossed paths cordially at Kuala Klawang weekend market (19 Jul). POLICE INVESTIGATION PAPERS opened — PH flags/banners/bumper stickers damaged at Kuala Klawang, Section 427 Penal Code. Kerusi panas."
+  },
+  {
+    "entity": "Datuk Azfanny Ahmad (Alzafny Ahmad)",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/prn-n-sembilan-polis-buka-2-kertas-siasatan-babit-kesalahan-pilihan-raya",
+    "context": "Negeri Sembilan Police Chief. Opens 2 investigation papers for election offences (mischief causing property damage) at Kuala Klawang, Jelebu. 3 police reports received in 2-day campaign; 2 for election offences. 109 permit applications received, 107 approved. Spelling discrepancy: Awani 'Azfanny' vs Sinar/Utusan 'Alzafny'."
+  },
+  {
+    "entity": "Bakri Sawir (Datuk Bakri Sawir)",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.malaymail.com/news/malaysia/2026/07/19/negeri-sembilan-polls-cousins-turn-political-rivals-in-three-way-contest-for-klawang/228190",
+    "context": "PH-Amanah incumbent N.04 Klawang (2023 majority 577). Cousin of PN challenger Danni Rais. Cordial encounter at Kuala Klawang market: 'no specific challenge, campaign healthily, respect the law.' Jelebu District Council reprimanded flag installation on stadium fence → removed. Notes PDM Klawang context (polling centre closure dispute from prior cycles)."
+  },
+  {
+    "entity": "Danni Rais",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.malaymail.com/news/malaysia/2026/07/19/negeri-sembilan-polls-cousins-turn-political-rivals-in-three-way-contest-for-klawang/228190",
+    "context": "PN-Wawasan candidate N.04 Klawang. Cousin of PH incumbent Bakri Sawir — cousins-turned-rivals narrative. Cordial market encounter, exchanged jokes. Wawasan admitted to PN; Danni Rais one of 4 Wawasan candidates (Klawang/Sikamat/Mambau/Gemas)."
+  },
+  {
+    "entity": "Muhammad Adib Musa",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "Bersatu candidate N.04 Klawang. 3-cornered fight vs Bakri Sawir (PH) and Danni Rais (PN-Wawasan). NEW name confirmed via 103-calon list — third candidate in cousins contest."
+  },
+  {
+    "entity": "N.10 Nilai",
+    "type": "seat",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "T1 battleground. 5-CORNERED FIGHT: J Arul Kumar (PH-DAP, incumbent since 2013, 2023 majority 10,889) vs Lai Chien Kong (BN-MCA) vs Datuk V Saravan Kumar (Bersatu) vs Omar Mohd Isa (independent-Kunci) vs Zamani Ibrahim (Berjasa). LARGEST electorate among key seats (41,000+ voters, ~14,200 under 30). Young/urban voter barometer. Demographics: Malay 42.5%, Chinese 32.6%, Indian 21.9%."
+  },
+  {
+    "entity": "Arul Kumar Jambunathan (J Arul Kumar)",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/calon-dap-arul-kumar-yakin-pertahan-nilai-tanpa-bn",
+    "context": "PH-DAP incumbent N.10 Nilai (since 2013). Confident defending without BN — won 2023 with 10,889 majority (1v1 vs PN), GE15 won ~10,000 without BN. NS differs from Sabah/Johor DAP decline (PH is incumbent). Race narrative may reduce majority. Won 2/3+ votes each election."
+  },
+  {
+    "entity": "Lai Chien Kong",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "BN-MCA candidate N.10 Nilai. One of 7 MCA-contested seats. 5-cornered fight vs Arul Kumar (PH-DAP incumbent), Bersatu, Berjasa, independent. NEW candidate name from 103-calon list."
+  },
+  {
+    "entity": "Datuk V Saravan Kumar",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "normal",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "Bersatu (Bersekutu) candidate N.10 Nilai. 5-cornered fight. NEW candidate name."
+  },
+  {
+    "entity": "Omar Mohd Isa",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "normal",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "Independent (Bebas-Kunci) candidate N.10 Nilai. 5-cornered fight. NEW candidate name."
+  },
+  {
+    "entity": "Zamani Ibrahim",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "normal",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "Berjasa candidate N.10 Nilai. 5-cornered fight. NEW candidate name."
+  },
+  {
+    "entity": "N.13 Sikamat",
+    "type": "seat",
+    "pir_tag": "PIR-07",
+    "priority": "critical",
+    "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/wawasan-sasar-undi-penting-polis-melalui-pegawai-kanan-bersara",
+    "context": "Tier-4 [CRITICAL-watch] seat. 3-cornered: Nor Azman Mohamad (PH-PKR) vs Datuk Razali Abu Samah (PN-Wawasan, ex-Melaka deputy police chief) vs Datuk Tun Faisal Ismail Aziz (Bersatu). Aminuddin's VACATED seat (leaving for Linggi). Wawasan police-vote strategy centered here — Razali's ex-cop background = vote-pull for 200,000+ police bloc. Penyandang 2023: Aminuddin (PH-PKR, majority 2,662)."
+  },
+  {
+    "entity": "Nor Azman Mohamad (Datuk Nor Azman)",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "PH-PKR candidate N.13 Sikamat (Aminuddin's vacated seat). 3-cornered vs Wawasan's Razali Abu Samah (police-vote strategy) and Bersatu's Tun Faisal Ismail Aziz. PIR-07 'fleeing Sikamat' context — Aminuddin left Sikamat for Linggi."
+  },
+  {
+    "entity": "Tun Faisal Ismail Aziz (Datuk Tun Faisal Ismail Aziz)",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "Bersatu candidate N.13 Sikamat. 3-cornered vs PH's Nor Azman and Wawasan's Razali Abu Samah. NEW candidate name from 103-calon list."
+  },
+  {
+    "entity": "N.14 Ampangan",
+    "type": "seat",
+    "pir_tag": "PIR-07",
+    "priority": "critical",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "Tier-4 [CRITICAL-watch] seat (kerusi panas). 3-cornered: Datuk Muhammad Nazri Kassim (PH-PKR) vs Datuk Dr Rafie Abd Malek (PN-Pas) vs Noor'Azah Harun (Bersatu). Penyandang 2023: Tengku Zamrah Tengku Sulaiman (PH-PKR, majority 329 — very thin). PIR-07 priority seat."
+  },
+  {
+    "entity": "Datuk Muhammad Nazri Kassim",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "PH-PKR candidate N.14 Ampangan. Tier-4 seat (kerusi panas, 2023 majority only 329). 3-cornered vs PN-Pas and Bersatu. PIR-07 explicitly listed entity. NEW candidate name."
+  },
+  {
+    "entity": "Datuk Dr Rafie Abd Malek",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "PN-PAS candidate N.14 Ampangan. 3-cornered vs PH-PKR and Bersatu. Tier-4 kerusi panas. NEW candidate name."
+  },
+  {
+    "entity": "Noor'Azah Harun",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "Bersatu candidate N.14 Ampangan. 3-cornered vs PH-PKR and PN-PAS. Tier-4 kerusi panas (2023 majority only 329). NEW candidate name."
+  },
+  {
+    "entity": "N.15 Juasseh",
+    "type": "seat",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "T1 battleground (kerusi panas). 3-cornered: Mohd Aidil Abdullah (PH-PKR) vs Datuk Ismail Lasim (BN-UMNO) vs Mohd Zuhaimi Md Yusof (Bersatu). Penyandang 2023: Bibi Sharliza Mohd Khalid (BN-UMNO, majority 78 — extremely thin). PIR-07 explicitly listed seat."
+  },
+  {
+    "entity": "Mohd Aidil Abdullah",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "PH-PKR candidate N.15 Juasseh (kerusi panas). 3-cornered vs BN-UMNO and Bersatu. 2023 BN majority only 78 — extremely marginal. NEW candidate name."
+  },
+  {
+    "entity": "Datuk Ismail Lasim",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "BN-UMNO candidate N.15 Juasseh (kerusi panas). Former N.17 Senaling incumbent (2023 majority 662). 3-cornered vs PH and Bersatu. NEW candidate name."
+  },
+  {
+    "entity": "Mohd Zuhaimi Md Yusof",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "normal",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "Bersatu candidate N.15 Juasseh. 3-cornered vs PH and BN. NEW candidate name."
+  },
+  {
+    "entity": "N.16 Seri Menanti",
+    "type": "seat",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "3-cornered: Mohd Kamarul Arifin Mohd Wafa (PH-PKR) vs Muhammad Sufian Maradzi (BN-UMNO, MB candidate, 2023 majority 370) vs Datuk Seri Megat D Shahriman Datuk Zaharudin (Bersatu). Sufian Maradzi named as potential MB candidate by Jalaluddin. Marginal seat."
+  },
+  {
+    "entity": "N.18 Pilah",
+    "type": "seat",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788363/berita/politik/kerjasama-bn-pn-elak-pecah-undi-ideologi-parti-tetap-kekal---ka-siong",
+    "context": "Two-women contest (sidebar-referenced, not yet captured): Datuk Noorzunita Begum Mohd Ibrahim (PH-PKR, incumbent, 2023 majority 1,079) vs S Leza Md Yassin (BN-UMNO). Straight fight. PIR-07 new seat-intel — sidebar article 'DUN Pilah saksi pertembungan dua calon wanita' = next-cycle capture target."
+  },
+  {
+    "entity": "Datuk Noorzunita Begum Mohd Ibrahim",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "PH-PKR incumbent N.18 Pilah (2023 majority 1,079). Two-women contest vs BN's S Leza Md Yassin. NEW candidate name."
+  },
+  {
+    "entity": "S Leza Md Yassin",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "normal",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "BN-UMNO candidate N.18 Pilah. Two-women contest vs PH incumbent Noorzunita Begum. NEW candidate name."
+  },
+  {
+    "entity": "N.19 Johol",
+    "type": "seat",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788575/berita/politik/bukan-janji-bulan-dan-bintang-tetapi-rekod-dan-iltizam-johol-calon-bn-dun-johol",
+    "context": "Straight fight: Mohd Zailan Mohd Munawar (PH-Amanah) vs Datuk Saiful Yazan Sulaiman (BN-UMNO, incumbent, 2023 majority 2,117). BN machinery launch + 'Iltizam Johol' 5-pillar program (Mohamed Khaled presided). 'Bukan janji bulan dan bintang tetapi rekod dan iltizam' — record-based campaign framing."
+  },
+  {
+    "entity": "Datuk Saiful Yazan Sulaiman",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788575/berita/politik/bukan-janji-bulan-dan-bintang-tetapi-rekod-dan-iltizam-johol-calon-bn-dun-johol",
+    "context": "BN-UMNO incumbent N.19 Johol (2023 majority 2,117). Launches 'Iltizam Johol' 5-pillar program. 'Not moon-and-stars promises, but record and Iltizam Johol.' Jentera BN Johol launch presided by Mohamed Khaled. Straight fight vs PH-Amanah."
+  },
+  {
+    "entity": "Mohd Zailan Mohd Munawar",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "PH-Amanah candidate N.19 Johol. Straight fight vs BN incumbent Saiful Yazan. NEW candidate name."
+  },
+  {
+    "entity": "N.25 Paroi",
+    "type": "seat",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "Tier-4 [CRITICAL-watch] seat. 3-cornered: Ahmad Shahir Mohd Shah (PH-Amanah) vs Kamarul Ridzuan Mohd Zin (PN-Pas, incumbent, 2023 majority 5,539) vs Mohd Nazree Mohd Yunus (Bersatu). PN-held seat — PH+BN-PN target."
+  },
+  {
+    "entity": "N.26 Chembong",
+    "type": "seat",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "T1 battleground. Straight fight: Danish Nazran Murad (PH-PKR) vs Datuk Zaifulbahri Idris (BN-UMNO, incumbent, 2023 majority 4,335). PIR-07 explicitly listed seat."
+  },
+  {
+    "entity": "N.27 Rantau",
+    "type": "seat",
+    "pir_tag": "PIR-07",
+    "priority": "critical",
+    "source_url": "https://www.malaymail.com/news/malaysia/2026/07/20/six-negeri-sembilan-seats-that-could-tell-the-story-of-the-election/227932",
+    "context": "T1 battleground. Straight fight: Dr Azizul Hakim Mahdi (PH-PKR) vs Datuk Seri Mohamad Hasan/Tok Mat (BN-UMNO, incumbent since 2004, 2023 majority 10,280). Umno stronghold; 71.7% in 2023, 63.2% in 2019 by-election vs PAS Rozmal Malakan. TOK MAT ABSENT — in Manila for Asean FM meeting (2+ days). Loke NOT campaigning here (unity-govt harmony). 14,000+ voters under 40. Malay 54.8%, Indian 27.6%, Chinese 16%."
+  },
+  {
+    "entity": "Dr Azizul Hakim Mahdi",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "PH-PKR candidate N.27 Rantau. Challenging Tok Mat (Mohamad Hasan) in straight fight. Tok Mat absent for Asean Manila meeting — potential PH exploitation: 'Tok Mat prioritises Manila over Rantau voters.' NEW candidate name."
+  },
+  {
+    "entity": "Tok Mat pauses campaign for Asean Manila meeting",
+    "type": "narrative",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.malaymail.com/news/malaysia/2026/07/20/mohamad-hasan-says-asean-ministers-in-manila-to-confront-gaza-killings-west-asia-turmoil-and-rice-security",
+    "context": "Tok Mat (Foreign Minister) absent from NS campaign since at least 18 Jul — in Manila for Asean FM meeting (Gaza, West Asia, rice security). Rantau (N.27, his seat) campaign running WITHOUT candidate physically present for 2+ days during critical early campaign. Loke also not campaigning in Rantau. Campaign vulnerability: PH could exploit. TheStarTV.com article 404; intel from gnews RSS headlines + MalayMail sidebar."
+  },
+  {
+    "entity": "N.30 Lukut",
+    "type": "seat",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.malaymail.com/news/malaysia/2026/07/20/six-negeri-sembilan-seats-that-could-tell-the-story-of-the-election/227932",
+    "context": "T1 battleground. 3-cornered: Choo Ken Hwa (PH-DAP, incumbent, ~79% 2018/2023, 2023 majority 10,135) vs Sathes Kumar Nilameham (PN-MIPP) vs Ah Lee (independent-Kuda). Within PD parliamentary = 7,000+ military early voters. Urban + military vote barometer. Chinese 49.5%, Indian 26.2%, Malay 22.7%. Ex-MCA seat (Dr Yao Chai Thiam) — MCA not contesting."
+  },
+  {
+    "entity": "Choo Ken Hwa",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "PH-DAP incumbent N.30 Lukut (~79% both 2018/2023, 2023 majority 10,135). 3-cornered vs PN-MIPP and independent. Within Port Dickson parliamentary (7,000+ military early voters). Ex-MCA traditional seat (Dr Yao Chai Thiam) — MCA not contesting."
+  },
+  {
+    "entity": "Sathes Kumar Nilameham",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "normal",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "PN-MIPP candidate N.30 Lukut. MIPP (Malaysian Indian People's Party) — one of 1 MIPP seat under PN. 3-cornered vs PH-DAP and independent. NEW candidate name."
+  },
+  {
+    "entity": "N.32 Linggi",
+    "type": "seat",
+    "pir_tag": "PIR-07",
+    "priority": "critical",
+    "source_url": "https://www.malaymail.com/news/malaysia/2026/07/19/forget-big-walkabouts-aminuddin-says-hed-rather-meet-linggi-voters-one-on-one/228226",
+    "context": "T1 battleground (kerusi panas). 3-cornered: Datuk Seri Aminuddin Harun (PH-PKR, caretaker MB, leaving Sikamat) vs Datuk Mohd Faizal Ramli (BN-UMNO, incumbent, 2023 majority 1,461, ex-coalition exco colleague) vs Datuk Zamri Md Said (Bersatu). NEVER changed hands since 1959 (Umno's oldest fortress). 20,677 voters = 18,420 ordinary + 2,222 military+spouses + 35 police. Malay 60.4%, Chinese ~18%, Indian ~18%. BN MANIFESTO LAUNCH 24 JUL at DUN Linggi confirmed."
+  },
+  {
+    "entity": "Datuk Seri Aminuddin Harun",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "critical",
+    "source_url": "https://www.malaymail.com/news/malaysia/2026/07/19/forget-big-walkabouts-aminuddin-says-hed-rather-meet-linggi-voters-one-on-one/228226",
+    "context": "Caretaker MB, PKR vice-president, state PKR chairman, Port Dickson MP, 59. LEAVING N.13 Sikamat to contest N.32 Linggi (Umno's oldest fortress since 1959). Prefers small-team/one-on-one campaign since 2008 — 'voters want to meet candidates personally.' MB status = NOT an advantage (caretaker govt only, can't make decisions). Crossed paths with BN incumbent Mohd Faizal Ramli at Pasir Panjang. Indian community support 'very positive.' PIR-07 'fleeing Sikamat' context."
+  },
+  {
+    "entity": "Datuk Mohd Faizal Ramli",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.malaymail.com/news/malaysia/2026/07/20/six-negeri-sembilan-seats-that-could-tell-the-story-of-the-election/227932",
+    "context": "BN-UMNO incumbent N.32 Linggi (2023 majority 1,461, 54 years old). Previously served alongside Aminuddin in NS exco under unity-govt pact before vacating. Crossed paths with Aminuddin campaigning in same area (Pasir Panjang). Defeated Bersatu's Zamri Md Said in 2023 with 55.1%. BN manifesto launch 24 Jul at his DUN."
+  },
+  {
+    "entity": "Datuk Zamri Md Said",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "Bersatu candidate N.32 Linggi (54 years old). Lost to Mohd Faizal (BN) in 2023 with 44.9%. 3-cornered vs Aminuddin (PH caretaker MB) and Faizal (BN incumbent). NEW candidate name from 103-calon list."
+  },
+  {
+    "entity": "N.34 Gemas",
+    "type": "seat",
+    "pir_tag": "PIR-07",
+    "priority": "critical",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "Tier-4 [CRITICAL-watch] seat. 3-cornered: Siti Aishah Seman@Othman (PH-PKR) vs Ridzuan Ahmad (PN-Wawasan, incumbent 2023 under Bersatu, majority 3,120) vs Azman Abdullah (Bersatu). RIDZUAN = ex-Bersatu figure now with Wawasan — Muhyiddin Jana Wibawa RM24.4m road project links Felda Bukit Jalor to Gemas (NS-specific graft trial detail)."
+  },
+  {
+    "entity": "Ridzuan Ahmad",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "PN-Wawasan candidate N.34 Gemas (incumbent 2023 under Bersatu, majority 3,120). EX-BERSATU figure now with Wawasan — the Bersatu-quit figure. Tier-4 [CRITICAL-watch] seat. Muhyiddin Jana Wibawa RM24.4m road project connects Felda Bukit Jalor to Gemas — direct link between Muhyiddin graft trial and Ridzuan's constituency. PIR-06 'Wawasan admitted to PN' + PIR-16 graft-trial nexus."
+  },
+  {
+    "entity": "Azman Abdullah",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "normal",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "Bersatu candidate N.34 Gemas. 3-cornered vs PH-PKR and PN-Wawasan (Ridzuan, ex-Bersatu incumbent). NEW candidate name."
+  },
+  {
+    "entity": "N.35 Gemas (Gemencheh)",
+    "type": "seat",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788481/berita/politik/onn-hafiz-bawa-formula-kemenangan-besar-bn-johor-ke-negeri-sembilan",
+    "context": "Straight fight: Datuk Abd Latif A Tambi (PH-Amanah) vs Suhaimizan Bizar (BN-UMNO, incumbent, 2023 majority 2,434). Onn Hafiz Johor→NS machinery launch site (Dataran Kampung Tengah, Gemencheh, Tampin). Johor youth volunteers physically deployed here."
+  },
+  {
+    "entity": "N.36 Repah",
+    "type": "seat",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "Straight fight: S Veerapan (PH-DAP, incumbent, 2023 majority 5,950) vs Koh Kim Swee (BN-MCA). One of 7 MCA-contested seats. Onn Hafiz Tampin event — Koh Kim Swee present. NEW PIR-07 candidate name."
+  },
+  {
+    "entity": "N.11 Lobak",
+    "type": "seat",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788446/berita/politik/terima-kasih-mca-kerana-nak-bantu-dap-di-tiga-dun---anthony-loke",
+    "context": "MOST Chinese voters in NS. MCA NOT contesting (one of 3 traditional seats given up). Loke: 'Parti yang dikatakan mahu mewakili kaum Cina tak letak calon kerana kononnya nak membantu DAP menang.' PH-DAP incumbent Chew Seh Yong (2023 majority 13,504) vs Dr P Kumar (PN-Pas/DHPP). BN-PN vote-split-avoidance strategy."
+  },
+  {
+    "entity": "N.23 Mambau",
+    "type": "seat",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788446/berita/politik/terima-kasih-mca-kerana-nak-bantu-dap-di-tiga-dun---anthony-loke",
+    "context": "MCA NOT contesting (one of 3 traditional seats given up). Ex-MCA Exco Hew Chok Tau seat (before 2008). 3-cornered: Lee Kai Yet (PH-DAP) vs Eric Michael (PN-Wawasan) vs Sarawanan Nagayah (Bersatu-Urimai). Wawasan's Eric Michael = one of 4 Wawasan candidates."
+  },
+  {
+    "entity": "Hew Chok Tau",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "normal",
+    "source_url": "https://www.sinarharian.com.my/article/788446/berita/politik/terima-kasih-mca-kerana-nak-bantu-dap-di-tiga-dun---anthony-loke",
+    "context": "Former MCA Exco, N.23 Mambau (before 2008). MCA not contesting Mambau in 2026 — one of 3 traditional seats given up. Historical reference for MCA's NS decline."
+  },
+  {
+    "entity": "Dr Yao Chai Thiam (mendiang)",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "normal",
+    "source_url": "https://www.sinarharian.com.my/article/788446/berita/politik/terima-kasih-mca-kerana-nak-bantu-dap-di-tiga-dun---anthony-loke",
+    "context": "Late former MCA Negeri Sembilan leader, ex-Exco member, N.30 Lukut. MCA not contesting Lukut in 2026 — one of 3 traditional seats given up. Historical reference for MCA's NS decline."
+  },
+  {
+    "entity": "Pekan Titi (Jelebu)",
+    "type": "seat",
+    "pir_tag": "PIR-07",
+    "priority": "normal",
+    "source_url": "https://www.malaymail.com/news/malaysia/2026/07/20/pakatan-tailors-campaign-strategies-in-negeri-sembilan-loke-says-each-village-needs-distinct-approach/228287",
+    "context": "Loke walkabout location (20 Jul). PH tailors campaign to each village's character — Malay-dominant areas use Malay reps, Chinese areas use Chinese reps, mixed areas use mixed teams. Within Jelebu area (Klawang/Pertang corridor)."
+  },
+  {
+    "entity": "Kuala Klawang (Jelebu)",
+    "type": "seat",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/prn-n-sembilan-polis-buka-2-kertas-siasatan-babit-kesalahan-pilihan-raya",
+    "context": "Location of first documented election-related incident at T1 battleground. PH flags, banners, bumper stickers damaged, thrown into drains. Police opened 2 investigation papers (Section 427 Penal Code). Cousins Bakri Sawir (PH) and Danni Rais (PN) cordial market encounter here (19 Jul). PDM Klawang reopening dispute context from prior cycles."
+  },
+  {
+    "entity": "21 DUN three-cornered fights",
+    "type": "narrative",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788363/berita/politik/kerjasama-bn-pn-elak-pecah-undi-ideologi-parti-tetap-kekal---ka-siong",
+    "context": "Sidebar-referenced seat-allocation summary: 21 of 36 NS DUN are three-cornered fights. Seat allocation: PH 36 (solo) | BN 25 | PN 11 (PAS 5, Wawasan 4, Gerakan 1, MIPP 1) | Bersatu 24 (solo, own logo). Berjasa 1, ASLI 1, PSM 1, independents 4. Total 103 candidates. Article NOT yet fully captured — next-cycle target."
+  },
+  {
+    "entity": "103 calon PRN NS 2026 (full candidate list)",
+    "type": "narrative",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788353/berita/politik/senarai-penuh-103-calon-prn-negeri-sembilan-2026",
+    "context": "Sinar Harian complete candidate list — 103 candidates across 36 DUN. SPR confirmed. Party breakdown: PH 36 (PKR 16, DAP 11, Amanah 9) | BN 25 (UMNO 16, MCA 7, MIC 2) | PN 11 (PAS 5, Wawasan 4, Gerakan 1, MIPP 1) | Bersatu 24 (Bersatu 22, Urimai 2) | ASLI 1 | PSM 1 | Berjasa 1 | Bebas 4. Reference data for cross-checking all seat allocations. Campaign 18 Jul–11:59pm 31 Jul."
+  },
+  {
+    "entity": "BN manifesto launch 24 Jul DUN Linggi + Pertang",
+    "type": "narrative",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.malaymail.com/news/malaysia/2026/07/19/forget-big-walkabouts-aminuddin-says-hed-rather-meet-linggi-voters-one-on-one/228226",
+    "context": "CONFIRMED next major PIR-07 event. BN manifesto launch 24 Jul at DUN Linggi (Mohd Faizal Ramli's seat) + Pertang (Jalaluddin's seat). PH manifesto launch 20 Jul evening (Amirudin Shari officiating) — coverage expected next cycle. Capture all coverage when published."
+  },
+  {
+    "entity": "Muhyiddin Yassin (Bersatu sole opposition)",
+    "type": "person",
+    "pir_tag": "PIR-16",
+    "priority": "normal",
+    "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/20/muhyiddin-claims-bersatu-is-parliament-s-only-true-opposition-amid-shifting-alliances",
+    "context": "Enrichment of prior cycle. Muhyiddin claims Bersatu is parliament's only true opposition voice amid shifting alliances. Bersatu contesting 24 seats solo under own logo — broken from PN. 'Sole opposition' framing — PIR-16 'sole opposition' keyword. Combined with 'toxic PN' claim and Jana Wibawa graft trial."
+  },
+  {
+    "entity": "Tengku Zafrul (Tengku Datuk Seri Zafrul Abdul Aziz)",
+    "type": "person",
+    "pir_tag": "PIR-06",
+    "priority": "normal",
+    "source_url": "https://www.utusan.com.my/nasional/2026/07/syarikat-dicadangkan-muhyiddin-terima-rm24-4-juta-bayaran-projek-jana-wibawa",
+    "context": "Ex-Finance Minister. Received 54-contractor list from Muhyiddin for 54 Jana Wibawa projects (direct negotiation/Design & Build). KCJ Engineering Sdn Bhd (KESB) among them — received RM24.4m for Felda Bukit Jalor-Gemas NS road (total contract RM62m). PIR-16 graft-trial nexus."
+  },
+  {
+    "entity": "Wan Hasnan Wan Musa",
+    "type": "person",
+    "pir_tag": "PIR-16",
+    "priority": "normal",
+    "source_url": "https://www.utusan.com.my/nasional/2026/07/syarikat-dicadangkan-muhyiddin-terima-rm24-4-juta-bayaran-projek-jana-wibawa",
+    "context": "JKR Negeri Sembilan director. 17th prosecution witness in Muhyiddin Jana Wibawa trial. Confirmed contract began 22 Dec 2021, 34-month term. RM10m Wang Pendahuluan Kontrak + 9 transactions (28 Mar–15 Feb 2023); 3 more payments ~RM4.7m recommended but not paid (insufficient allocation)."
+  },
+  {
+    "entity": "Gobind Singh Deo",
+    "type": "person",
+    "pir_tag": "PIR-16",
+    "priority": "normal",
+    "source_url": "https://www.malaymail.com/news/malaysia/2026/07/20/pakatan-sets-23-seat-target-as-anthony-loke-rallies-for-stronger-negeri-sembilan",
+    "context": "DAP chairman. Present at PH dinner where Loke announced 23-seat target. Network School approvals statement (followed procedures, investigations must respect jurisdictions) — adjacent to eFishery/KWAP federal issue."
+  },
+  {
+    "entity": "Amirudin Shari",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "normal",
+    "source_url": "https://www.sinarharian.com.my/article/788505/berita/politik/prn-negeri-sembilan-ph-umum-manifesto-esok",
+    "context": "Selangor MB. Officiating PH manifesto launch 20 Jul evening. 'Manifesto for continuity' of development/prosperity since PH led state since 2018. PH war room director Muhammad Zaki Md Sabri. DUN dissolved 5 Jun (June 5, not June 26 — RESOLVED). 889,490 voters = 867,151 ordinary + 16,884 military+spouses + 5,455 police."
+  },
+  {
+    "entity": "Mohd Isa Abdul Samad (Datuk Seri Mohd Isa Abdul Samad)",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "normal",
+    "source_url": "https://www.malaymail.com/news/malaysia/2026/07/20/six-negeri-sembilan-seats-that-could-tell-the-story-of-the-election/227932",
+    "context": "Former Negeri Sembilan MB. Represented N.32 Linggi for more than 2 decades before moving to Bagan Pinang. Historical reference — Linggi = Umno's oldest fortress since 1959, never changed hands. Aminuddin now attempting what no opposition candidate has before."
+  },
+  {
+    "entity": "penyatuan undi Melayu narrative",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.malaymail.com/news/malaysia/2026/07/20/khairy-malay-vote-unity-could-help-bn-perikatan-reclaim-selangor/228271",
+    "context": "ESCALATED. KJ: 'If Malay votes are no longer divided, that formula could give us an advantage to reclaim and win Selangor.' Noh Omar: UMNO-PAS cooperation avoids three-cornered fights that only benefit PH. Zahid: NS = 'medan menguji formula penyatuan Melayu dan Islam' for PRU16. BN-PN = test of whether Malay vote consolidation can benefit BN/PAS/Bersatu. Avoid direct Umno-PAS clashes → strengthens Malay-majority support."
+  },
+  {
+    "entity": "Bersatu in disarray / Bersatu exit imminent (characterisation)",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/bersatu-hanya-kacau-daun-khaled-gesa-pengundi-n-sembilan-bagi-ko",
+    "context": "Characterisations (not formalised events): Khaled 'Bersatu kacau daun' + 'KO habis-habisan'; Muhyiddin 'toxic PN' (Bersatu vs PAS fracture); Hamzah rebuts; Muhyiddin 'sole opposition.' 24 solo Bersatu-logo candidates STABLE — no withdrawals. PIR-16 [CRITICAL] threshold ('Bersatu exit imminent' / 'sasar bentuk kerajaan negeri' as fact) NOT crossed — 21st cycle."
+  }
+]
