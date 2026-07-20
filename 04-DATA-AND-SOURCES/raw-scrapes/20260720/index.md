@@ -330,3 +330,116 @@ Other non-NS (×4): `..._Awani_sampel-salad-positif-parasit-*` (US parasite outb
 ---
 
 *Midday cycle index appended 2026-07-20 10:30 MYT (10:30 MYT) by PRN Negeri Sembilan 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. 42 articles saved (36 script + 6 targeted Sinar extract). ~15 genuinely-new analytically-material articles. [CRITICAL] NOT crossed (19th cycle; auto-flag = FALSE POSITIVE on Madagascar "pecat" in sidebar). Dominant narrative crystallised: "PH jual prestasi, BN-PN laung penyatuan Melayu-Islam." PH manifesto launch confirmed 20 Jul evening. DUN dissolution date resolved (June 5). Methodology addition: Sinar article-ID scan for sidebar-referenced headlines.*
+
+---
+
+# ▓▓▓ AFTERNOON CYCLE — 20260720_afternoon ▓▓▓
+
+**Fetcher:** `_surge_fetch_20260720_afternoon.py` (Awani RSS + FMT RSS + Google News RSS ×30 PIR queries + NST/Star/MalayMail/Utusan/Sinar homepage extraction + PIR-07 evening ceramah queries)
+**Collection window:** ~11:34 MYT 20 Jul (script execution)
+
+## AFTERNOON CYCLE SUMMARY
+
+| Metric | Value |
+|---|---|
+| Articles saved (afternoon script) | 23 |
+| Duplicates skipped | 35 (URL dedup vs morning + midday) |
+| Fresh gnews items post-cutoff | 1 |
+| Genuine [CRITICAL] threshold crossings | **0** (20th cycle — confirmed) |
+| Genuinely-NEW analytically-material articles | **6** (5 articles + 1 gnews-only Tok Mat intel) |
+| Content duplicates (same Sinar article ID, different URL) | 3 (788573 KJ, 788529 Khaled, 788575 Johol — already captured midday) |
+| False positives (non-PRN) | 12 (World Cup, court, tourism, cyber, Gobind Network School) |
+
+---
+
+## 🔴 PIR-06 — AFTERNOON UPDATES — [CRITICAL] NOT CROSSED (20th cycle)
+
+**[CRITICAL] status: MAINTAINED. No formal PN-MT expulsion, no Bersatu candidate withdrawal, no Kiandee quorum escalation, no "lebih hebat new coalition" formalization. PDM Klawang reopening status UNRESOLVED — ~hour 18+ of Jalaluddin "1–2 days" window.**
+
+### 1. PN concedes MB post to BN — Utusan BM corroboration [NEW outlet]
+→ `priority_PIR-06-PIR-07_utusan_pn-beri-laluan-bn-jadi-mb-jika-menang-prn-negeri-sembilan_20260720_afternoon_home.md`
+- Jalaluddin Alias (UMNO NS chairman) confirms PN made "deklarasi awal" to yield MB post to BN
+- MB candidates named: **Tok Mat (Mohamad Hasan), Jalaluddin Alias, Sufian Maradzi (Seri Menanti candidate)** — final decision up to BN chairman
+- BN-PN priority: win first, then discuss MB/Exco positions
+- Events: Majlis Sepetang Bersama Masyarakat Orang Asli Kampung Putra, Jelebu + Program Hari Kemahiran Kemas Bahagian Jelebu at Felda Pasoh 4
+- **Utusan BM corroborates morning MalayMail EN capture of same Jalaluddin statement — new outlet added.**
+
+### 2. KJ: Malay vote unity could help BN-PN reclaim Selangor [NEW outlet — MalayMail EN via Kosmo!]
+→ `priority_PIR-06-PIR-07-PIR-16_malaymail_khairy-malay-vote-unity-could-help-bn-perikatan-reclaim-selangor_20260720_afternoon_home.md`
+- KJ: Selangor demographics similar to NS → NS results as "reference/test" for future strategies
+- "If there is sincerity and commitment from both sides, we want to see whether BN supporters can vote for PAS candidates"
+- "Something wrong with unity-govt cooperation, four years" — BUT BN should not leave govt (stability until GE16)
+- **MalayMail EN corroboration of midday Sinar KJ article (788573) — new outlet. Adds "former Rembau MP" and "four years" framing.**
+
+### 3. Noh Omar: UMNO-PAS cooperation could win 34/56 Selangor DUN + 6 parliament seats [GENUINELY NEW — detailed projections]
+→ `priority_PIR-06-PIR-07-PIR-16_sinarharian_kerjasama-umno-pas-mampu-bentuk-kerajaan-selangor-noh-omar_20260720_afternoon_home.md`
+- **NEW detailed seat projections:** ~34 of 56 DUN seats + 6 parliament (Kuala Selangor, Shah Alam, Sepang, Hulu Langat, Gombak, Sungai Buloh) winnable via straight fights
+- NS formula = "pencetus gelombang politik" → Selangor → **PRU16**
+- Related article referenced: "Noh Omar pertahan pendirian UMNO Johor, jawab kenyataan Anthony Loke" — **Noh-Loke exchange escalation**
+- More detailed than morning FMT "blue wave" capture; specific seat numbers are NEW intel
+
+---
+
+## 🟠 PIR-16 — AFTERNOON UPDATES — ESCALATION (no [CRITICAL] corroboration)
+
+**[CRITICAL] check: No hard-news outlet corroborated "Bersatu exit imminent?" or "sasar bentuk kerjaan negeri" as fact. "Makmal politik" and "penyatuan undi Melayu" narratives continue to escalate (KJ + Noh Omar) but remain characterisations, not formalised events. PIR-16 [CRITICAL] = NOT crossed.**
+
+### 1. "Makmal politik" framing escalates — KJ + Noh Omar chain
+- KJ (MalayMail EN): NS as "test/reference" for BN-PN cooperation → Selangor → GE16. Unity-govt critique: "something wrong, four years." (PIR-16 "makmal politik" + "Anwar not briefed" adjacent)
+- Noh Omar (Sinar): NS formula → Selangor → PRU16. Specific seat projections (34/56 DUN, 6 parliament). (PIR-16 "makmal politik" + "majoriti mudah" adjacent)
+- **Combined: The "NS = makmal politik for PRU16" narrative is now corroborated by 3 named UMNO figures (KJ, Noh Omar, Khaled morning) across 3 outlets (Sinar, MalayMail/Kosmo, FMT). Escalation confirmed but NOT [CRITICAL].**
+
+### 2. Noh-Loke exchange escalation
+- Sinar sidebar reference: "Noh Omar pertahan pendirian UMNO Johor, jawab kenyataan Anthony Loke"
+- Noh responding to Loke's earlier statement (possibly re: UMNO Johor position or BN-PN cooperation)
+- **NEW friction vector: Noh Omar vs Loke — track for escalation**
+
+---
+
+## 🔵 PIR-07 — AFTERNOON UPDATES — Ground intel + Klawang incident + Tok Mat absence
+
+### 1. Police open 2 investigation papers at Kuala Klawang, Jelebu — election mischief [FRESH 10:50 MYT 20 Jul]
+→ `priority_PIR-06-PIR-07_Awani_prn-negeri-sembilan-polis-buka-dua-kertas-siasatan-melibatkan-kesalahan-pilihan-_20260720_afternoon.md`
+- NS PDRM opened 2 investigation papers for election offences (mischief causing property damage/loss)
+- 3 police reports received in 2-day campaign; 2 for election offences
+- **Location: Kuala Klawang, Jelebu** — PH flags, banners, bumper stickers damaged, thrown into drains
+- Under Section 427 Penal Code (mischief causing damage/loss)
+- Police chief: Datuk Azfanny Ahmad
+- 109 permit applications received, 107 approved
+- **PIR-07 significance:** Klawang (N.28) is a 3-corner fight (Bakri Sawir PH vs Danni Rais PN vs Muhammad Adib Musa Bersatu). Flag vandalism at Kuala Klawang = first documented election-related incident at a T1 battleground seat.
+
+### 2. Loke at Pekan Titi, Jelebu — PH tailors campaign to local voter demographics [FRESH 11:10-11:26 MYT 20 Jul]
+→ `priority_PIR-07-PIR-16_Awani_prn-negeri-sembilan-strategi-kempen-ph-ikut-keperluan-karakter-lokaliti-pengundi_20260720_afternoon.md` + `priority_PIR-07-PIR-16_malaymail_pakatan-tailors-campaign-strategies-in-negeri-sembilan-loke-says-each-village-ne_20260720_afternoon_home.md`
+- Loke at Pekan Titi walkabout (Jelebu)
+- PH strategy: tailor campaign to each village's character — Malay-dominant areas use Malay reps, Chinese areas use Chinese reps, mixed areas use mixed teams
+- **Chennah = straight fight vs BN's Siow Kong Choon** (NEW candidate name confirmed)
+- PH manifesto launch confirmed "malam ini" (tonight 20 Jul) — consistent with midday intel
+- Campaign Day 3 smooth; all PH candidates on the ground
+- **PIR-07 significance:** Chennah (N.06) BN opponent named; Loke's Jelebu outreach confirmed; PH manifesto timing confirmed for tonight
+
+### 3. Tok Mat pauses campaign for Asean FM Meeting in Manila [gnews-only intel — 18-20 Jul]
+→ `priority_PIR-07_googlenews_tokmat-pauses-campaign-asean-manila-meeting_20260720_afternoon_gnews.md`
+- **TheStarTV.com (18 Jul): "Negri polls: Tok Mat pauses campaign for Asean meeting"**
+- **MalayMail (20 Jul): "Mohamad Hasan says Asean ministers in Manila to confront Gaza killings, West Asia turmoil and rice security"**
+- Tok Mat (Foreign Minister) absent from NS campaign since at least 18 Jul — in Manila for Asean FM meeting
+- **PIR-07 significance:** Rantau (N.36, Tok Mat's seat) campaign running WITHOUT candidate physically present for 2+ days during critical early campaign period. Loke not campaigning in Rantau (per midday intel). Campaign vulnerability: PH could exploit "Tok Mat prioritises Manila over Rantau voters."
+- **Note:** Full article text unavailable (Star URL 404; Google News redirect JS-rendered). Intel from Google News RSS headlines + MalayMail sidebar.
+
+### 4. Jalaluddin at Orang Asli Kampung Putra + Felda Pasoh 4 (Jelebu) [from Utusan MB article]
+- Majlis Sepetang Bersama Masyarakat Orang Asli Kampung Putra, Jelebu (19 Jul afternoon)
+- Program Hari Kemahiran Kemas Bahagian Jelebu at Felda Pasoh 4
+- **PIR-07 ground intel:** Jalaluddin (Jelebu MP, Pertang area) conducting Orang Asli + Felda outreach in Jelebu
+
+---
+
+## ⚠️ COLLECTION LIMITATIONS (afternoon cycle)
+
+- **Tok Mat Asean article:** Full text unavailable — The Star URL returned 404; Google News redirect is JS-rendered splash page. Intel derived from Google News RSS headlines + MalayMail sidebar references. The article is from TheStarTV.com (video platform) which may have different URL structure.
+- **3 Sinar content duplicates:** Articles 788573 (KJ), 788529 (Khaled), 788575 (Johol) had different URLs but same article IDs as midday captures — identified and excluded from genuinely-new count.
+- **12 false positives:** FMT World Cup/court/cyber/tourism (8), Awani Network School/Gobind + Dataran Merdeka litter + TVET (3), Utusan FIFA World Cup (1). These are keyword-match artifacts from "negeri" or "sembilan" appearing in non-PRN contexts.
+- **No Harian Metro/BH new content:** Both remained inaccessible (HTTP 000/404) — consistent with morning/midday cycles.
+- **Google News freshness:** Only 1 fresh item post-cutoff (Tok Mat Manila). gnews RSS continues to surface mostly historical matches. Malaysian news cycle may be slower on Monday afternoon.
+
+---
+
+*Afternoon cycle index appended 2026-07-20 ~11:45 MYT by PRN Negeri Sembilan 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. 23 articles saved (afternoon script) + 1 gnews-only intel note. 6 genuinely-new analytically-material articles. [CRITICAL] NOT crossed (20th cycle). Key afternoon developments: (1) Police investigation papers at Klawang (N.28) for election mischief; (2) Loke at Pekan Titi walkabout + Chennah BN opponent named Siow Kong Choon; (3) Tok Mat absent from campaign — in Manila for Asean FM meeting (2+ days); (4) PN concedes MB to BN (Utusan BM corroboration); (5) KJ + Noh Omar escalate "makmal politik" narrative with Selangor seat projections; (6) Noh-Loke exchange emerging. PDM Klawang reopening status UNRESOLVED.*
