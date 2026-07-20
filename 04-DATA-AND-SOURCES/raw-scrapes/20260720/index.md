@@ -1691,3 +1691,179 @@ Other non-NS (×4): `..._Awani_sampel-salad-positif-parasit-*` (US parasite outb
 ---
 
 *Night2 cycle index appended 2026-07-20 ~22:00 MYT (14:00 UTC) by PRN Negeri Sembilan 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. 35 raw articles saved → 33 false positives/duplicates deleted → **2 PRN-relevant articles retained** (both The Vibes, recovered via targeted direct search — NOT from gnews/RSS/homepage). [CRITICAL] NOT crossed (28th cycle; 0 auto-flags, 0 false positives). Key night2 developments: (1) ⭐⭐ THE VIBES pre-launch manifesto analysis (16:13 MYT) — Aminuddin confirms B40→M40 expansion + "kesinambungan" continuity as core manifesto themes, 4h before actual launch; (2) ⭐⭐ THE VIBES development-record campaign piece (18:03 MYT) — Sri Tanjung N.33 incumbent Rajasekaran + Seri Menanti candidate Kamarul campaign on investment record (RM1.14B→RM54.3B), "Tok Min" leadership, STR/SARA aid; first detailed PIR-07 campaign-ground intel for these seats; (3) PH MANIFESTO LAUNCH COVERAGE STILL NOT FOUND — 4th consecutive cycle, 2+ hours post-event, 0 items in gnews "after:2026-07-20" search, 0 in all RSS/homepage; (4) Loke DAP-congress statement NOT picked up by other outlets; (5) gnews/RSS freshness plateaued at 0. PIR-06 [CRITICAL] maintained 28th cycle; no formal expulsion/withdrawal/quorum/RoS action. METHODOLOGY NOTE: The Vibes direct search proved decisive — recommend adding to standard source rotation.*
+
+---
+
+## 🔹 CYCLE 29 — NIGHT3 (22:00 → 23:13 MYT 20 Jul, ~1h13m) — THE VIBES BACKLOG ENRICHMENT + PH MANIFESTO BREAKTHROUGH
+
+**Generated:** 2026-07-20 23:13 MYT (15:13 UTC)
+**Cycle:** 20260720_night3 (29th cycle, Campaign Day 2-3)
+**Cutoff:** 22:00 MYT 20 Jul (prior night2 cycle end)
+
+### COLLECTION YIELD
+
+| Source | Items | PRN/priority hits | Fresh post-cutoff | Saved | After cleanup |
+|--------|-------|-------------------|-------------------|-------|---------------|
+| **The Vibes (sitemap backlog)** | 54 targeted | 54 | 0 (all pre-cutoff Jul 11-19) | **54** | **54** |
+| Google News (37 queries) | 481 | 367 | **1** (Malaysiakini manifesto) | 2 (extracted) | 1 |
+| RSS feeds (8) | 592 | 88 | 0 | 41 | 5 genuine PRN |
+| Homepage extraction (7 pages) | — | — | — | 6 | 6 |
+| Sinar ID scan (788960-789040) | 81 | 0 | 0 | 0 | 0 |
+| **TOTAL** | — | — | **1** | 103 | **66 genuine** |
+
+### ⭐⭐⭐ BREAKTHROUGH: PH MANIFESTO LAUNCH COVERAGE — FOUND (5th cycle, resolved)
+
+**5-cycle wait ENDS.** PH Manifesto "Kekal Harapan" (Maintain Hope) launch event (~20:00 MYT 20 Jul) coverage now fully propagated across **6 outlets** (22:03–23:10 MYT):
+
+1. ⭐⭐⭐ **Awani** — "PRN NS: Manifesto PH mampu dilaksana, bukan janji pilihan raya - Aminuddin" (22:40 MYT)
+   → `priority_PIR-06-PIR-07_Awani_prn-negeri-sembilan-manifesto-ph-mampu-dilaksana-bukan-janji-pilihan-raya-aminud_20260720_night3.md` (from gnews extraction)
+2. ⭐⭐⭐ **HarianMetro** — "PRN N9: PH lancar manifesto, garis 10 komitmen utama" (22:52 MYT)
+   → `priority_PIR-06-PIR-07-PIR-16_HarianMetro_prn-n9-ph-lancar-manifesto-garis-10-komitmen-utama_20260720_night3_rss.md`
+3. ⭐⭐⭐ **Sinar #1** — "Manifesto PH: Saya mahu anak NS yakin masa depan terbaik mereka ada di sini - Aminuddin" (22:03 MYT)
+   → `priority_PIR-06-PIR-07-PIR-16_Sinar_manifesto-ph-saya-mahu-anak-negeri-sembilan-yakin-masa-depan-terbaik-mereka-ada-_20260720_night3_home.md`
+4. ⭐⭐⭐ **Sinar #2** — "30,000 peluang pekerjaan, 20,000 rumah mampu milik antara tawaran Manifesto PH NS" (23:06 MYT)
+   → `priority_PIR-06-PIR-07-PIR-16_Sinar_30-000-peluang-pekerjaan-20-000-rumah-mampu-milik-antara-tawaran-manifesto-ph-ne_20260720_night3_home.md`
+5. ⭐⭐⭐ **Sinar #3** — "PH tawar manifesto yang bukan sekadar janji - Aminuddin" (22:35 MYT est.)
+   → `priority_PIR-06-PIR-07_Sinar_ph-tawar-manifesto-yang-bukan-sekadar-janji-aminuddin-sinar-harian_20260720_night3_home.md`
+6. ⭐⭐⭐ **Utusan #1** — "PRN NS: PH tawar 10 komitmen manifesto" (22:43 MYT)
+   → `priority_PIR-06-PIR-07_Utusan_prn-negeri-sembilan-ph-tawar-10-komitmen-manifesto_20260720_night3_home.md`
+7. ⭐⭐⭐ **Utusan #2** — "Semua calon PH kempen guna manifesto, bukan retorik politik" (23:10 MYT)
+   → `priority_PIR-07_Utusan_semua-calon-ph-kempen-guna-manifesto-bukan-retorik-politik_20260720_night3_home.md`
+8. ⭐⭐ **Malaysiakini** — "Harapan unveils economy, education-focused N Sembilan manifesto" (22:54 MYT, fresh gnews)
+   → extracted via URL (gnews fresh hit)
+
+### PH MANIFESTO "KEKAL HARAPAN" — 10 COMMITMENTS (cross-outlet corroborated):
+
+1. **Stable, clean, rakyat-friendly government** (janji kerajaan stabil, bersih, mesra rakyat)
+2. **Empower Skim Sejahtera Rakyat (SSR)** + competitive economy + **30,000 high-income jobs**
+3. **Quality education for all** + **20,000 affordable homes** + land issue solutions
+4. **Youth, women, family priority**
+5. **Tourism + Adat Perpatih heritage** + balanced urban/rural + FELDA
+6. **Modern agriculture** + food security
+7. **Strategic infrastructure** + quality healthcare
+8. **Religious unity, harmony, progress for all** (Perpaduan Agama, Keharmonian)
+9. (HarianMetro lists 10 explicitly; Awani/Sinar consolidate some)
+10. — (full 10 in HarianMetro: incl. Kemajuan Seimbang Bandar/Luar Bandar + FELDA; Pertanian Moden; Infrastruktur Strategik + Kesihatan)
+
+### 5 HIGH-IMPACT FEDERAL-PARTNERSHIP PROJECTS (Sinar):
+- **Seremban Sentral** + increased Seremban-KL commuter frequency
+- **Hospital Bandar Enstek**
+- **Pelabuhan Antarabangsa Port Dickson** (Port Dickson International Port)
+- **Landasan Pintasan Senawang-Port Klang** (Senawang-Port Klang Bypass)
+- **Second homes on FELDA residential lots**
+
+### AMINUDDIN FRAMING (manifesto launch speech):
+- **"Implementation not promises"** — "Bagi saya yang paling penting manifesto ini mampu dilaksana, bukan hanya janji"
+- **"8 years building, 5 years leaping"** — "Lapan tahun membina, lima tahun melonjak. NS Maju 2045"
+- **Emotional vision** — "Saya tidak mahu anak-anak NS membesar dengan impian untuk meninggalkan negeri ini"
+- **Hokkaido analogy** — "Kalau Jepun ada Hokkaido, saya mahu Malaysia ada NS"
+- **Track record over rhetoric** — "Kami datang dengan rekod, dengan hasil, dengan pengalaman"
+- **MB-term-limit failure ACKNOWLEDGED** — Aminuddin admits MB-2-term-limit pledge failed; **attributes failure to BN ADUNs rejecting it in DUN** ("UMNO ketika itu tolak usul tersebut") — subtle friction signal attributing blame to BN
+- **Campaign directive** — All PH candidates to campaign on manifesto content, not rhetoric/attacks/fitnah
+- **Central Corridor Pembangunan Harapan Malaysia** vision — NS as strategic hub KL-Selangor-Melaka; Malaysia Vision Valley 2.0, NS Semiconductor Valley, Nilai Advanced Photonic AI Manufacturing City
+
+### WELFARE SPECIFICS (Sinar):
+- SSPN RM200 for newborns | School aid RM770 | Higher ed aid RM500-RM1,500 | University living cost RM2,400/yr | First-class graduates RM5,000 | SPM all-A+/STPM 4.00 = RM1,000 | Free TVET at Kolej Yayanan NS | Free tuition B40+M40 | Digital literacy + AI program
+
+### ⭐⭐⭐ THE VIBES BACKLOG ENRICHMENT — 54 ARTICLES (HIGHEST ANALYTICAL VALUE)
+
+**Methodology breakthrough:** The Vibes sitemap.xml has 5,001 URLs; 585 PRN-relevant. Prior cycles collected only 2. This cycle targeted 54 highest-value NS-PRN articles (IDs 124579-125223, dated Jul 11-19) covering the full campaign arc NOT available in BM outlets. ALL are new to collection.
+
+**PIR-06 [CRITICAL] context (analytical framing, NOT new formal threshold):**
+- ⭐⭐⭐ **"Bersatu looks beyond PN as Muhyiddin signals new alliance after Negeri polls"** (Jul 17, 18:31) — Muhyiddin: "will not be alone" post-election; hints at Urimai (P Ramasamy) discussions; "formidable coalition within next year"; own-logo decision based on Johor lessons; Bersatu vs PAS in Serting/Ampangan/Paroi/Bagan Pinang; Bersatu vs Wawasan in Klawang/Sikamat/Mambau/Gemas
+- ⭐⭐⭐ **"Bersatu's decision to use own logo signals voluntary split from PN — Annuar Musa"** (Jul 16) — Annuar Musa frames own-logo as "voluntary split"; Tan Sri Annuar Musa analysis
+- ⭐⭐ **"Bersatu to contest Negeri polls under own logo as Muhyiddin blasts PAS-BN tie-up"** (Jul 16) — Muhyiddin criticizes PAS-BN cooperation
+- ⭐⭐ **"Bersatu now sole opposition party — Muhyiddin"** (Jul 19) — "sole opposition" framing
+- ⭐⭐ **"PN predicts new political alignment with BN to continue"** — cooperation continuation framing
+- ⭐⭐ **"BN-PN pact in NS polls centred on stability and full 36-seat victory target"**
+- ⭐⭐ **"PRNNS: BN collaboration with PN merely an understanding, no agreements — Zahid"** — Zahid downplays formality
+- ⭐⭐ **"Unity government unlikely to return for second term as BN-PN cooperation gains momentum — analyst"**
+- ⭐⭐ **"BN-PN understanding puts Barisan in strong position for NS polls"**
+- ⭐⭐ **"Bersatu 'messing things up' for BN, PN candidates — Wan Saiful"** (Jul 19, 15:09) — Wan Saiful (Wawasan VP): Bersatu "only aimed at splitting Malay vote"; "know they cannot win any seat"; "red group" (PH+Bersatu both red) vs "blue wave" (PN+BN); calls to "push back red wave"
+- ⭐⭐ **"PH youth wing calls on BN ministers to quit cabinet over PN electoral alliance"** — AMK "resign to attack"
+- ⭐⭐ **"BN-PN cooperation talks revive questions over political loyalty as PAS shifts closer to Umno"**
+- ⭐⭐ **"Bersama pulls out of Negeri election, targets Melaka battle"** — Bersama party withdraws from NS
+- ⭐⭐ **"BN's 11 unnamed seats fuel speculation of PN pact in NS polls"**
+- ⭐⭐ **"Negeri PRN: PN to contest 11 seats, completes BN's puzzle in 36 DUNs"**
+- ⭐⭐ **"Zahid: No final UMNO-PAS deal as seat talk claims surface ahead of NS polls"**
+
+**PIR-16 narratives (The Vibes enrichment):**
+- ⭐⭐⭐ **"'We are the punching bag and the bogeyman' — Loke as PH eyes 20-seat victory"** — Loke's framing of DAP as campaign target
+- ⭐⭐⭐ **"'There are traitors among us waiting to topple Aminuddin' — Loke"** (Jul 15, 13:55) — Loke alleges NS Umno elements sought to topple Aminuddin; "stab us in the back"; "betrayal of constitutional monarchy"; defends Undang Yang Empat + Tunku Besar of Tampin; warns DAP members against joking about NS customary institutions
+- ⭐⭐ **"PAS president claims DAP drove PH to Islamophobia-exploiting narratives"** — Hadi's Islamophobia framing
+- ⭐⭐ **"DAP sec-gen backs Aminuddin as PH NS state election poster boy"** — Loke's poster-boy endorsement of Aminuddin
+- ⭐⭐ **"PRNNS: Loke — We must win all 11 seats to help PH form state government"** — DAP's 11-seat target
+- ⭐⭐ **"NS voters called on to back PH for continuity of stable and integrity-based govt"**
+- ⭐⭐ **"NS PRN: PH administration's success, Aminuddin's ability will be campaign focus — Fahmi"**
+- ⭐⭐ **Melaka DAP withdrawal series (5 articles):** "DAP Melaka moves into opposition benches"; "Anwar urges DAP Melaka to delay exit"; "Ab Rauf says Melaka govt stable despite DAP pullout"; "DAP withdraws support for Melaka govt"; "Melaka passes appointed assembly members bill as DAP moves to pull out" — full Melaka DAP withdrawal arc
+- ⭐⭐ **Jana Wibawa graft trial (2 articles):** "RM1 million cheque to Bersatu at centre"; "RM800k cheques for Bersatu — finance manager" — Muhyiddin corruption trial intel
+
+**PIR-07 battlegrounds (The Vibes enrichment):**
+- ⭐⭐ **Nomination day (3 articles):** "Jalaluddin, Anthony Loke arrive at nomination centre"; "Dragon dance, drums welcome Tok Mat"; "Handshake between Hadi Awang and Asyraf Wajdi centre of attention"
+- ⭐⭐ **Battlegrounds (3 articles):** "Straight fight in Rantau, Chembong, three-cornered in Paroi, Kota"; "The battlegrounds, big names and three-cornered fights to watch"; "Four seats in focus, battle expected to be tougher than Johor"
+- ⭐⭐ **"103 candidates confirmed for NS polls as two-week campaign begins"**
+- ⭐⭐ **"BN cannot rely solely on Johor victory formula for NS — Johari"**
+- ⭐⭐ **"BN to launch manifesto on July 24, focus on development, well-being, stability"**
+- ⭐⭐ **"An electoral gamble as Aminuddin contests in BN stronghold Linggi after 4 terms in Sikamat"** — Aminuddin's Sikamat→Linggi move
+- ⭐⭐ **"Aminuddin denies abandoning Sikamat"**
+- ⭐⭐ **"PRN NS: Hopes of KJ becoming MB dashed as name not on candidate list"**
+- ⭐⭐ **"BN pledges stable leadership as Zahid unveils first 25 candidates for NS polls"**
+- ⭐⭐ **"Anwar urges political parties to keep NS royal institution out of election campaign"**
+- ⭐⭐ **"Anwar to unveil PH candidates for NS polls tomorrow"** + **"DAP retains eight incumbents, unveils three new candidates"** + **"DAP aims to defend all 11 NS seats, sets sights on opposition strongholds"**
+- ⭐⭐ **"BN mulls seat swaps in NS as Tok Mat pushes for election reset"**
+- ⭐⭐ **"Rumours rife over KJ contesting NS polls, possibly in Rembau"**
+- ⭐⭐ **Albert Tei series (2 articles):** "'Want to contest in Negeri? Update your address first' — Loke tells Albert Tei"; "Albert Tei mulls NS election bid, eyes showdown with Anthony Loke"
+
+### NEW PIR-16 DEVELOPMENT: ASYRAF WAJDI "UMNO JAMIN KERAJAAN PERPADUAN KEKAL" (Utusan, 20:19 MYT)
+
+→ `priority_PIR-06-PIR-07_Utusan_umno-jamin-kerajaan-perpaduan-kekal-hingga-parlimen-dibubarkan_20260720_night3_home.md`
+- **Asyraf Wajdi Dusuki** (UMNO Sec-Gen, Ketua Sekretariat Kerajaan Perpaduan) gives formal assurance: **Unity Government will remain until Parliament dissolved for PRU16**
+- "Tidak akan sesekali menebuk atap" — BN won't defect from Unity Government despite BN-PN state cooperation
+- BN-PN cooperation in Johor/NS PRN is **separate from federal Unity Government agreement** — "jangan campur aduk PRN dengan persefahaman peringkat Persekutuan"
+- If any party unhappy → PM can dissolve Parliament → "terlerailah perjanjian permuafakatan"
+- Ministries/agencies (MARA, RISDA, FELCRA) all part of the agreement
+- **SIGNIFICANCE: Direct response to Loke's DAP-congress statement** (postmanifesto cycle). The intra-unity-government friction narrative now has UMNO's formal counter-narrative. Two-sided exchange: Loke "I'll abide by DAP congress" → Asyraf "Unity Government kekal hingga Parlimen dibubarkan." Plus Aminuddin's manifesto-speech attribution of MB-term-limit failure to BN. Pre-[CRITICAL] escalation status maintained but with stabilizing counter-signal.
+
+### PIR STATUS UPDATE
+
+- **PIR-06 [CRITICAL]: MAINTAINED (29th cycle).** 0 genuine threshold crossing. The 11 auto-flagged [CRITICAL] tags are **FALSE POSITIVES** — triggered by expanded keywords ("voluntary split", "signals new alliance", "looks beyond pn", "sole opposition") on The Vibes analytical pieces dated Jul 11-17. These are pre-existing Muhyiddin/Annuar Musa framing already noted in prior cycles, NOT new formal PN-MT expulsion notices, Bersatu candidate withdrawals, or Kiandee quorum escalations. No formal expulsion, withdrawal, quorum escalation, RoS action, or "lebih hebat" formalization. Asyraf Wajdi's "menebuk atap" assurance = stabilizing. **No change from 28th cycle.**
+- **PIR-16: NOT [CRITICAL].** Loke DAP-congress statement (postmanifesto) now has a **formal UMNO response** (Asyraf "Unity Government kekal") — the first cross-party exchange on the "Unity Government stability" narrative. Asyraf's reassurance is a **stabilizing counter-signal**. The "DAP may leave Unity Government" narrative has not spread beyond FMT+UMNO response. Pre-[CRITICAL] escalation status maintained but with stabilizing counter-narrative.
+- **PIR-07: PH MANIFESTO LAUNCH COVERAGE RESOLVED (5th cycle).** Full "Kekal Harapan" manifesto content captured across 6+ outlets. 10 commitments, 30,000 jobs, 20,000 homes, 5 federal projects, welfare specifics, Aminuddin framing all documented. BN manifesto 24 Jul at DUN Linggi + Pertang — advance coverage from The Vibes (Jul 18). Razali (Wawasan Sikamat) police-career campaign piece + NS police 3R arrest follow-up corroborated.
+
+### ⚠️ COLLECTION LIMITATIONS (night3 cycle)
+
+- **The Vibes backlog enrichment:** 54 articles collected, ALL dated Jul 11-19 (pre-cutoff). These are NOT fresh but are genuinely NEW to collection — high analytical value not available in BM outlets. The Vibes sitemap has 585 PRN-relevant URLs; 54 collected this cycle (highest-value subset). ~531 remain for future enrichment cycles.
+- **gnews freshness (29th cycle):** 37 queries → 481 items, 367 PRN/priority hits, **1 fresh** (Malaysiakini manifesto 22:54 MYT). gnews freshness improved slightly (manifesto coverage propagation).
+- **RSS feeds:** FMT 50 (39 PRN/priority hits, 0 fresh — same items as night2), HarianMetro 51 (41 PRN/priority hits, 0 fresh post-cutoff but 1 genuinely-PRN manifesto article at 22:52 MYT = fresh), Awani 10 (8 PRN/priority hits, 1 fresh manifesto at 22:40 MYT via gnews extraction), NST/MalayMail/Sinar/Utusan RSS = 0 (JS/403, persistent). Awani-Politik feed still broken.
+- **Homepage extraction:** 6 articles saved (Sinar manifesto ×3, Utusan manifesto ×2 + Asyraf, Awani 1 via gnews). Awani homepage returned rc=28 (timeout/connection issue) — Awani manifesto recovered via gnews extraction instead. NST 8 links, MalayMail 21, Utusan 17, Sinar 17 — all politics pages.
+- **Sinar ID scan (788960-789040):** 0 PRN hits — 3rd consecutive range exhausted. Sinar content recovered via homepage extraction instead (manifesto articles at IDs 788674, 788675, 788677 — below scanned range, already published).
+- **False positives (36 RSS deleted):** World Cup ×5 (Spain, Madrid, Yamal-Trump, Paredes, trofi), international ×7 (UK Burnham, Thailand rail, AliExpress EU, Ukraine drone, HK Patrick Tse, Bahrain-Kuwait-Iran, Iran-Pakistan), crime/drugs ×6 (Kajang stabbing, AADK Selangor, Sri Lanka drug, Kuching drug, dedah dadah, Tamim Dahri), federal non-PRN ×6 (Ringgit, Dewan Negara RUU, Pahang orang asli, Ironman Desaru, PIM influencers, Wall Street), entertainment ×3 (Adipati Dolken, Amierul hatrik, robot AI), other ×3. All triggered on substring matches.
+- **[CRITICAL] auto-flag: 11 this cycle — ALL FALSE POSITIVES** (expanded keywords on The Vibes analytical pieces). Detector over-triggered on "voluntary split", "signals new alliance", "looks beyond pn", "sole opposition" keywords added this cycle. Recommend tightening: these terms are analytical framing, not formal-action terms. PIR-06 [CRITICAL] NOT crossed (29th cycle confirmed).
+
+---
+
+## 📈 CYCLE DELTA: night2 → night3 (22:00 → 23:13 MYT 20 Jul, ~1h13m)
+
+- **Articles saved (raw):** 103 (54 TheVibes + 41 RSS + 6 homepage + 2 gnews-extract)
+- **Articles saved (after cleanup):** ~66 genuine (54 TheVibes + 5 genuine RSS + 6 homepage + 1 Malaysiakini)
+- **Genuinely-fresh post-cutoff (≥22:00 MYT):** **~8** (Awani manifesto 22:40, HarianMetro manifesto 22:52, Sinar manifesto ×3 at 22:03-23:06, Utusan manifesto ×2 at 22:43+23:10, Utusan Asyraf 20:19, Malaysiakini 22:54)
+- **New to collection (pre-cutoff The Vibes backlog):** **54** (Jul 11-19 analytical pieces — highest analytical value)
+- **Cross-outlet/cross-language corroboration:** **7** (PH manifesto across Awani+HarianMetro+Sinar×3+Utusan×2+Malaysiakini)
+- **PIR-06 status:** [CRITICAL] MAINTAINED (29th cycle). 11 auto-flags = FALSE POSITIVES. No genuine threshold crossing. Asyraf stabilizing signal strengthened ("menebuk atap" assurance).
+- **PIR-16 status:** NOT [CRITICAL]. NEW: Asyraf Wajdi formal Unity-Government-stability assurance = first UMNO counter-response to Loke DAP-congress statement. Stabilizing counter-narrative. Pre-[CRITICAL] escalation maintained.
+- **PIR-07 status:** **PH MANIFESTO LAUNCH COVERAGE RESOLVED** (5th cycle). Full "Kekal Harapan" content documented. Razali Sikamat campaign + NS police 3R arrest corroborated.
+- **Key development this cycle:** (1) PH Manifesto "Kekal Harapan" fully captured — 10 commitments, 30k jobs, 20k homes, 5 federal projects, Aminuddin "implementation not promises" + Hokkaido analogy + MB-term-limit-failure-attributed-to-BN; (2) The Vibes backlog enrichment = 54 high-value analytical pieces covering full campaign arc (Muhyiddin "signals new alliance", Wan Saiful "messing things up", Loke "traitors/punching bag", sole opposition, Melaka DAP, Jana Wibawa, nomination, battlegrounds, KJ, Albert Tei); (3) Asyraf Wajdi "Unity Government kekal" = stabilizing counter-narrative to Loke's DAP-congress statement.
+
+---
+
+## 🎯 NEXT-CYCLE RECOMMENDATIONS (23:13 MYT → 01:00 MYT window)
+
+1. **PIR-07 (continued):** Monitor PH manifesto reception/coverage — does BN/PN respond to "Kekal Harapan"? Does Aminuddin's MB-term-limit-failure-attributed-to-BN remark draw BN response? Track Day-3 (21 Jul) campaign ground — ceramah, walkabouts, ops-centre activity. BN manifesto 24 Jul at DUN Linggi + Pertang — monitor advance coverage. Track Razali (Wawasan Sikamat) police-vote strategy on the ground.
+2. **PIR-16 (HIGH PRIORITY):** Track whether Asyraf's "Unity Government kekal" assurance + Aminuddin's BN-blame remark escalates or stabilizes the intra-unity-government friction. Does Loke respond to Asyraf? Does AMK/Amanah weigh in? Monitor whether the "DAP may leave Unity Government" narrative spreads or is contained. Check Malaysiakini + The Vibes for DAP-congress pickup.
+3. **PIR-06 ([CRITICAL] watch):** 29th cycle with no genuine threshold crossing. Tighten [CRITICAL] detector — remove "voluntary split", "signals new alliance", "looks beyond pn", "sole opposition" from formal-action trigger keywords (these are analytical framing, not formal-action terms). Maintain formal-removal watch on PN-MT expulsion, Bersatu withdrawal, Kiandee quorum, RoS action, "lebih hebat" formalization.
+4. **The Vibes enrichment (continued):** ~531 PRN-relevant TheVibes URLs remain uncollected (Johor PRN context articles Jul 1-14, older NS pieces). Next cycle: collect Johor-PRN-context articles (124401-124960 range) for comparative analysis + any remaining NS-specific pieces.
+5. **Source maintenance:** Awani homepage returned rc=28 (timeout) — Awani-Politik feed still broken; recover Awani content via gnews extraction. Sinar ID scan 788960-789040 exhausted (3rd consecutive) — Sinar content recovered via homepage; next range 789040+. FMT RSS plateaued (0 fresh). HarianMetro RSS = best fresh source (manifesto 22:52 MYT). gnews = 1 fresh (Malaysiakini).
+
+---
+
+*Night3 cycle index appended 2026-07-20 ~23:13 MYT (15:13 UTC) by PRN Negeri Sembilan 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. 103 raw articles saved → 36 RSS false positives → **~66 genuine PRN-relevant articles retained** (54 TheVibes backlog + 5 genuine RSS + 6 homepage + 1 Malaysiakini). [CRITICAL] NOT crossed (29th cycle; 11 auto-flags = ALL FALSE POSITIVES from expanded keywords on analytical pieces). Key night3 developments: (1) ⭐⭐⭐ PH MANIFESTO "KEKAL HARAPAN" LAUNCH COVERAGE RESOLVED — 5-cycle wait ends; full content across 6+ outlets (Awani 22:40, HarianMetro 22:52, Sinar ×3 22:03-23:06, Utusan ×2 22:43+23:10, Malaysiakini 22:54); 10 commitments, 30k jobs, 20k homes, 5 federal projects, Aminuddin "implementation not promises" + "Hokkaido analogy" + MB-term-limit failure attributed to BN; (2) ⭐⭐⭐ THE VIBES BACKLOG ENRICHMENT — 54 high-value analytical articles (Jul 11-19) covering full campaign arc NOT in BM outlets: Muhyiddin "signals new alliance"/"will not be alone", Annuar Musa "voluntary split", Wan Saiful "messing things up"/"splitting Malay vote", Loke "punching bag/bogeyman" + "traitors among us" + "poster boy", sole opposition, BN-PN pact, Melaka DAP withdrawal (5 articles), Jana Wibawa trial (2), nomination day (3), battlegrounds (3), KJ MB dashed, Albert Tei (2); (3) ⭐⭐ ASYRAF WAJDI "UMNO jamin Kerajaan Perpaduan kekal hingga Parlimen dibubaran" (20:19 MYT) — formal Unity Government stability assurance = first UMNO counter-response to Loke DAP-congress statement; "tidak menebuk atap"; stabilizing counter-narrative to pre-[CRITICAL] escalation; (4) Razali (Wawasan Sikamat) police-career campaign piece; (5) NS police 3R/royal-institution arrest follow-up. PIR-06 [CRITICAL] maintained 29th cycle (11 false-positive auto-flags from expanded keywords — recommend tightening); no formal expulsion/withdrawal/quorum/RoS action. METHODOLOGY NOTE: The Vibes sitemap-driven backlog enrichment = highest-value methodology improvement this cycle; 54 articles recovered vs 2 in all prior cycles.*

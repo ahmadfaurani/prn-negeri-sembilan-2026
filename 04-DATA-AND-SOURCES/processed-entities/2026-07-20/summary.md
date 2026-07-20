@@ -519,3 +519,79 @@ Bersatu's 24 solo-logo candidates STABLE — no withdrawals. The stabilizing sig
 ---
 
 *Latentight extraction appended 2026-07-20 20:29 MYT (UTC 12:29). 45 entities (delta from 0734 extraction). ~22 genuinely-new articles across dusk + night + latenight cycles. [CRITICAL] NOT crossed (26th cycle). Key developments: (1) ASYRAF WAJDI "menebuk atap" assurance — strongest COOPERATION-STABILIZING signal, REDUCES [CRITICAL] risk; (2) DERHAKA COUNTER-NARRATIVE — first direct BN rebuttal (Mustapha Nagoor, Palong N.31); (3) SANJEEVAN "Bersatu won't be buried" rebuttal of Khaled "kacau daun"; (4) PH MANIFESTO LAUNCH CONFIRMED tonight (Amirudin Shari officiates, B40→M50); (5) AKMAL vs AMK "cium tapak kaki" escalation; (6) KWAP/eFishery thread (MCA PAC call ↔ Anwar defense); (7) KAMIL MUNIM jet rebuttal; (8) BN avoids Unity Govt criticism directive; (9) FIRST vote-buying rebuttal (Jalaluddin, Pertang N.28); (10) Royal institution arrest (derhaka connection); (11) Amanah Selangor "api dalam sekam"; (12) KJ confirms Wawasan vote-sharing. Bersatu 24 solo-logo candidates STABLE. Stabilizing signals (Asyraf Wajdi + Jalaluddin) outweigh friction signals this extraction.*
+
+---
+
+## EXTRACTION 6 — POSTMANIFESTO + NIGHT2 CYCLES (19:36 → 22:00 MYT 20 Jul)
+
+**Generated:** 2026-07-20 22:35 MYT (14:35 UTC)
+**File:** `entities-20260720-2235.json`
+**Entities (delta):** 18 new entities
+**Cycles covered:** postmanifesto (19:36→20:46 MYT) + night2 (20:46→22:00 MYT)
+**[CRITICAL] status:** PIR-06 MAINTAINED — 28th cycle, no formal threshold crossing
+
+### ⭐⭐⭐ HIGHEST-VALUE FINDING — ANTHONY LOKE DAP-CONGRESS STATEMENT [PIR-16]
+
+DAP Secretary-General **Loke Siew Fook** (also Transport Minister), in a BFM 89.9 interview with Sharaad Kuttan (FMT 19:07 EN / 19:29 BM MYT, postmanifesto cycle), stated he will **abide by the DAP congress (Aug 16) decision** on whether DAP stays in the federal Unity Government — even if delegates reject the leadership's preferred position.
+
+- **Why this is the most significant PIR-16 narrative escalation of the day:** Loke is the **FIRST federal coalition partner** to openly condition a party's continued participation in the Unity Government on a **state election outcome** (NS PRN Aug 1). "The results of the NS state election will influence the direction delegates take at the congress."
+- He floated DAP returning to the **"backbench"** (opposition) if members reject the position: members "must be prepared for the party to return to the backbench."
+- ~3,000–4,000 DAP delegates vote by secret ballot on Aug 16 (15 days AFTER NS polling day Aug 1).
+- Connects the full PIR-16 intra-Unity-Government friction chain: AMK/Amanah "resign to attack" → **Loke "I'll abide by congress decision."**
+- **NOT [CRITICAL]:** Does not meet the "Bersatu exit imminent?" or "sasar bentuk kerajaan negeri" hard-news headline threshold. But it is a **pre-[CRITICAL] narrative escalation** — first time a federal coalition partner has publicly linked a state election outcome to federal coalition continuity.
+- **Pickup status:** NOT yet picked up by any other outlet (NST/Star/Awani/Sinar). Narrative has not spread beyond the original FMT article as of 22:00 MYT.
+
+### KEY NEW ENTITIES THIS EXTRACTION
+
+1. **LOKE DAP-CONGRESS STATEMENT** [PIR-16 CRITICAL] — first federal partner conditioning participation on a state result; Aug 16 congress = next institutional checkpoint
+2. **DAP "BACKBENCH" RETURN POSSIBILITY** [PIR-16] — Loke floats DAP returning to opposition if congress rejects leadership position
+3. **UMRY ABDUL KHOIS** (PKR Pertang N.28 candidate) [PIR-07] — first time PH's Pertang opponent named
+4. **FAIZAL FADLI IDRUS** (Bersatu Pertang N.28 candidate) [PIR-07] — first time Bersatu's Pertang candidate named
+5. **PERTANG (N.28) 3-CORNERED FIGHT CONFIRMED** [PIR-07] — Jalaluddin BN vs Umry PKR vs Faizal Bersatu (vs 2023 straight fight PH-BN allies)
+6. **RAJASEKARAN GUNNASEKARAN (Datuk Dr)** — Sri Tanjung N.33 incumbent [PIR-07] — first Sri Tanjung campaign-ground intel
+7. **MOHD KAMUL ARIFIN MOHD WAFA** — Seri Menanti PH candidate [PIR-07] — first Seri Menanti campaign intel
+8. **PH DEVELOPMENT-RECORD CAMPAIGN NARRATIVE** [PIR-07] — quantified: investments RM1.14B(2017)→RM54.3B(2025); revenue RM413M→RM610M; reserves RM725.96M→RM1.04B; unemployment 3.8%→3.1%
+9. **PH MANIFESTO B40→M40 EXPANSION** [PIR-07] — TheVibes pre-launch confirmation (16:13 MYT); "kesinambungan" continuity theme
+10. **AWANI RUMAH WARISAN UWAN ROBAH (RuWUR)** [PIR-07] — Kuala Pilah heritage house, Adat Perpatih architecture, #prn NS tag; PRN-adjacent cultural content
+11. **ELECTION-RELATED DEATH** [PIR-07] — 23yo killed hit-and-run putting up party flags, Jalan Kuala Sawah-Rantau, Rantau; FIRST campaign fatality
+12. **MOHD YATIM OSMAN** (Seremban OCPD) [PIR-07] — confirms hit-and-run death investigation
+13. **SANJEEVAN FMT EN "SPOILER JAB" CORROBORATION** [PIR-16] — cross-language (BM 17:49 + EN 18:21)
+14. **EC 13,263 POSTAL BALLOTS — 3-OUTLET CORROBORATION** [PIR-07] — Utusan BM + MalayMail EN + Sinar BM
+15. **PERTANG "DERHAKA" FRICTION — cross-outlet (NST + Harian Metro)** [PIR-07] — carried forward, corroborated
+16. **LOKE DUN DISSOLUTION JUSTIFICATION** [PIR-07] — 17/36 seats; "would have been defeated during budget vote"
+17. **PIR-06 [CRITICAL] STATUS MAINTAINED — 28th cycle** — no formal threshold crossing; Asyraf Wajdi stabilizing signal holds
+
+### PIR STATUS UPDATE
+
+- **PIR-06 [CRITICAL]:** MAINTAINED (28th cycle). 0 threshold crossing. No formal PN-MT expulsion, no Bersatu withdrawal (24 solo-logo candidates stable), no quorum escalation, no RoS action, no "lebih hebat" formalization. Asyraf Wajdi "menebuk atap" assurance holds. NOTE: Loke's DAP-congress statement is a NEW pre-[CRITICAL] vector from the PH/DAP side (not a PN-Bersatu exit trigger).
+- **PIR-16:** NOT [CRITICAL]. **NEW HIGHEST-VALUE NARRATIVE SIGNAL: Loke's DAP-congress/Unity-Government statement.** Pre-[CRITICAL] escalation — first federal coalition partner linking state election to federal coalition continuity. Not yet picked up by other outlets.
+- **PIR-07:** PH MANIFESTO LAUNCH COVERAGE STILL PENDING (4th consecutive cycle, 2+ hours post-event, 0 items in gnews/RSS/homepage). 2 new campaign-ground articles (TheVibes: Sri Tanjung N.33 + Seri Menanti). Pertang 3-cornered fight confirmed with named candidates. Development-record = dominant PH campaign narrative. BN manifesto 24 Jul at DUN Linggi — no advance coverage yet.
+
+### NEW CANDIDATE ENTITIES ADDED TO INVENTORY
+
+| Seat | Candidate | Party | Source |
+|------|-----------|-------|--------|
+| N.28 Pertang | Umry Abdul Khois | PH/PKR | FMT EN 19:38 |
+| N.28 Pertang | Faizal Fadli Idrus | Bersatu/PN | FMT EN 19:38 |
+| N.33 Sri Tanjung | Rajasekaran Gunnasekaran (incumbent) | PH | TheVibes 18:03 |
+| Seri Menanti | Mohd Kamarul Arifin Mohd Wafa | PH | TheVibes 18:03 |
+
+### SOURCES COVERED (this extraction)
+
+| Source | Articles | Cycle |
+|--------|----------|-------|
+| FMT | 5 (Loke EN+BM, Jalaluddin EN+BM, Sanjeevan EN) | postmanifesto |
+| HarianMetro | 2 (Asyraf Wajdi dup, Jalaluddin BM — prior cycle) | latenight/postmanifesto |
+| Utusan | 4 (royal arrest, 2 commentary, election death) | latenight/postmanifesto |
+| MalayMail | 1 (EC postal ballots EN) | postmanifesto |
+| Sinar | 1 (EC postal ballots BM) | postmanifesto |
+| Awani | 1 (Rumah Warisan Uwan Robah) | postmanifesto |
+| TheVibes | 2 (manifesto preview, development-record) | night2 (direct search recovery) |
+
+### METHODOLOGY NOTE
+
+This extraction's 2 night2-cycle recoveries came from **direct The Vibes website search** — NOT from gnews, RSS, or homepage extraction. The Vibes has faster web indexing than RSS-dependent outlets. Recommend adding TheVibes to the standard source rotation. gnews/RSS freshness plateaued at 0 across the night2 cycle.
+
+---
+
+*Postmanifesto + night2 extraction appended 2026-07-20 22:35 MYT (UTC 14:35). 18 new entities (delta from 2029 extraction). Covers postmanifesto (19:36→20:46) + night2 (20:46→22:00) cycles. [CRITICAL] NOT crossed (28th cycle). Key developments: (1) ⭐⭐⭐ ANTHONY LOKE — DAP Sec-Gen says he will abide by DAP congress (Aug 16) decision on whether DAP stays in Unity Government; FIRST federal coalition partner to condition participation on a state election outcome; HIGHEST-VALUE PIR-16 narrative escalation of the day; (2) PERTANG 3-CORNERED FIGHT CONFIRMED — Jalaluddin BN vs Umry Abdul Khois PKR vs Faizal Fadli Idrus Bersatu (new candidate entities); (3) PH DEVELOPMENT-RECORD CAMPAIGN — quantified investment data RM1.14B→RM54.3B; Sri Tanjung N.33 (Rajasekaran) + Seri Menanti (Kamarul) campaign intel; (4) ELECTION-RELATED DEATH — 23yo killed hit-and-run putting up party flags (Rantau), FIRST campaign fatality; (5) Awani Rumah Warisan Uwan Robah (Adat Perpatih, #prn NS); (6) PH MANIFESTO LAUNCH COVERAGE STILL PENDING (4th consecutive cycle). PIR-06 [CRITICAL] maintained 28th cycle; Asyraf Wajdi stabilizing signal holds; no formal expulsion/withdrawal/quorum/RoS action. Loke's statement = NEW pre-[CRITICAL] vector from PH/DAP side.*

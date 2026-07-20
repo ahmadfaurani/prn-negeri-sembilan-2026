@@ -1,0 +1,146 @@
+[
+  {
+    "entity": "Loke Siew Fook (Anthony Loke) — DAP congress statement [HIGHEST-VALUE]",
+    "type": "person",
+    "pir_tag": "PIR-16",
+    "priority": "critical",
+    "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/20/i-will-abide-by-dap-congress-decision-on-whether-to-stay-in-govt-says-loke",
+    "context": "DAP Secretary-General + Transport Minister. Tells BFM 89.9 (Sharaad Kuttan interview) he will ABIDE by DAP congress (Aug 16) decision on whether DAP stays in the federal Unity Government — even if delegates reject leadership's preferred position. Wants to 'defend this government' but needs 'the mandate of the members.' ~3,000-4,000 delegates vote by secret ballot. FIRST federal coalition partner to openly condition DAP's continued participation on a STATE election outcome (NS PRN Aug 1). Pre-[CRITICAL] narrative escalation — most significant PIR-16 escalation of the day. FMT EN (19:07 MYT) + FMT BM (19:29 MYT) — both postmanifesto cycle."
+  },
+  {
+    "entity": "DAP congress Aug 16 (institutional checkpoint on Unity Government participation)",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "critical",
+    "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/20/i-will-abide-by-dap-congress-decision-on-whether-to-stay-in-govt-says-loke",
+    "context": "DAP's party congress on Aug 16 (15 days AFTER NS polling day Aug 1) = the next institutional checkpoint on federal coalition continuity. Loke: NS PRN outcome 'will influence the direction delegates take at the congress.' If NS PRN goes badly for PH, DAP delegates may vote to leave the Unity Government. Ties a state election to federal coalition survival — unprecedented framing. Connects full PIR-16 chain: AMK/Amanah 'resign to attack' → Loke 'I'll abide by congress decision.' Pre-[CRITICAL] — no 'Bersatu exit imminent' headline yet, but first federal partner linking state result to federal coalition."
+  },
+  {
+    "entity": "'DAP may return to backbench' possibility (Loke)",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/20/i-will-abide-by-dap-congress-decision-on-whether-to-stay-in-govt-says-loke",
+    "context": "Loke floats DAP returning to 'backbench' (opposition) if members reject leadership's position at the Aug 16 congress. Members unhappy with DAP's role in government + wanting leaders as outspoken as before 'must be prepared for the party to return to the backbench.' 'In the government, our duty is to govern, deliver... roles in opposition and government are definitely different.' Escalates intra-Unity-Government friction narrative to a new level — beyond AMK 'resign to attack' / Amanah Selangor 'api dalam sekam,' now DAP's own Sec-Gen openly discussing withdrawal. Connects to 'Bersatu exit imminent?' PIR-16 [CRITICAL] watch from the DAP side."
+  },
+  {
+    "entity": "Loke's DUN dissolution justification (17/36 seats, budget-vote defeat risk)",
+    "type": "narrative",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/20/i-will-abide-by-dap-congress-decision-on-whether-to-stay-in-govt-says-loke",
+    "context": "Loke defends PH's decision to dissolve the NS DUN: the PH-led state government controlled only 17 of 36 seats. 'If we had waited for another couple of months, we would have been defeated during the budget vote.' Provides the official rationale for the early dissolution (DUN dissolved 5 Jun 2026) — minority-government fragility. DAP-BN cooperation after PRU15 was 'made collectively by all DAP MPs' to prevent PN taking Putrajaya. Context for the 'open contest' / 'no coalition advantage' framing (Utusan commentary)."
+  },
+  {
+    "entity": "Umry Abdul Khois (PKR Pertang candidate)",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/20/jalaluddin-denies-handing-cash-to-voters-during-walkabout",
+    "context": "Pakatan Harapan's candidate for N.28 Pertang (Jelebu parliamentary constituency). Named as Jalaluddin Alias's direct opponent in the 3-cornered fight (vs Jalaluddin BN + Faizal Fadli Idrus Bersatu). NEW PIR-07 candidate entity — first time PKR's Pertang candidate named in collection. Pertang is a PIR-07 highest-priority battleground (derhaka/vote-buying watch). FMT EN postmanifesto (19:38 MYT)."
+  },
+  {
+    "entity": "Faizal Fadli Idrus (Bersatu Pertang candidate)",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/20/jalaluddin-denies-handing-cash-to-voters-during-walkabout",
+    "context": "Bersatu's candidate for N.28 Pertang. Named as the third candidate in the 3-cornered Pertang fight (vs Jalaluddin BN + Umry Abdul Khois PKR). NEW PIR-07 candidate entity — first time Bersatu's Pertang candidate named in collection. Confirms Pertang (N.28) is a 3-cornered contest in PRN NS 2026 (unlike 2023 when PH-BN contested as allies in a straight fight vs PN). FMT EN postmanifesto (19:38 MYT)."
+  },
+  {
+    "entity": "Pertang (N.28) 3-cornered fight confirmed — Jalaluddin BN vs Umry PKR vs Faizal Bersatu",
+    "type": "seat",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/20/jalaluddin-denies-handing-cash-to-voters-during-walkabout",
+    "context": "N.28 Pertang (PIR-07 highest-priority battleground, derhaka/vote-buying watch) confirmed as a 3-cornered fight: Jalaluddin Alias (BN/UMNO, incumbent seeking 3rd term) vs Umry Abdul Khois (PH/PKR) vs Faizal Fadli Idrus (Bersatu/PN). In 2023, PH-BN were allies — Jalaluddin defeated PN's Amirudin Hassan by 2,790 majority in a straight fight. In 2026, BN cooperates with PN but they field SEPARATE candidates in Pertang. Jalaluddin first won Pertang 2013, sat out 2018, returned 2023. Cross-outlet: HarianMetro BM (18:58) + FMT EN (19:38)."
+  },
+  {
+    "entity": "Sanjeevan 'spoiler jab shows Umno's arrogance' (FMT EN cross-language corroboration)",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/20/khaleds-spoiler-jab-shows-umnos-arrogance-says-sanjeevan",
+    "context": "FMT EN version of night-cycle BM article. Bersatu associate wing chief R Sri Sanjeevan (Jeram Padang candidate) rebuts Khaled Nordin's 'Bersatu is merely a spoiler' jab — 'shows Umno's arrogance' after Johor landslide. 'The wave that swept Johor will not reach Negeri Sembilan... NS voters will stop the blue wave and Umno-BN's resurgence under Zahid Hamidi.' Dismisses 'Bersatu will collapse' — 'Whatever happens to Bersatu within PN, it will not spell the end of the party.' Cross-language corroboration (BM FMT 17:49 + EN FMT 18:21 MYT). Bersatu digging in, not preparing exit."
+  },
+  {
+    "entity": "Awani Rumah Warisan Uwan Robah (RuWUR) — Kuala Pilah heritage, Adat Perpatih [#prn NS]",
+    "type": "narrative",
+    "pir_tag": "PIR-07",
+    "priority": "normal",
+    "source_url": "https://www.astroawani.com/berita-malaysia/rumah-warisan-uwan-robah-ruwur-khazanah-yang-diselamatkan",
+    "context": "Awani (Farhan Hakimi, 20:18 MYT) on restored 100+ year-old traditional NS heritage house (Rumah Warisan Uwan Robah/RuWUR) in Kampung Tanjung Limau Purut, Terachi, Kuala Pilah. Built ~1900 without nails (Adat Perpatih architecture). Abandoned 30 years, restored in 15 months by heirs (Mohd Yunus Aminuddin + wife Kamsiah Minhad, descendants of Uwan Robah). Functions as Adat Perpatih learning/cultural space. Awani tags with #prn Negeri Sembilan — PRN-adjacent cultural-heritage content during election period. Connects to PIR-16 'adat' narrative thread (Tok Mat's 'adat politik'). Soft PRN framing of NS cultural identity."
+  },
+  {
+    "entity": "Election-related death (23yo killed putting up party flags, Rantau) — hit-and-run",
+    "type": "narrative",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.utusan.com.my/nasional/2026/07/lelaki-maut-dilanggar-lari-ketika-pasang-bendera-parti/",
+    "context": "23-year-old man killed (Sunday 6:40pm) by hit-and-run lorry while putting up political party flags on the shoulder of Jalan Kuala Sawah-Rantau near Kampung Belangkan, Rantau. Lorry hit a signpost then struck the victim; victim died at scene (head/face injuries). Seremban OCPD Asst Comm Mohd Yatim Osman confirms; investigated under S41(1) Road Transport Act 1987. FIRST campaign-related fatality of PRN NS 2026. Cross-outlet (Utusan BM postmanifesto + earlier FMT). Connects to Loke's road-safety-during-campaign appeal (morning cycle). Rantau = Tok Mat's parliamentary seat area."
+  },
+  {
+    "entity": "Mohd Yatim Osman (Asst Comm, Seremban OCPD)",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "normal",
+    "source_url": "https://www.utusan.com.my/nasional/2026/07/lelaki-maut-dilanggar-lari-ketika-pasang-bendera-parti/",
+    "context": "Seremban District Police Chief (Asisten Komisioner). Confirms the hit-and-run death of a 23-year-old man while putting up party flags on Jalan Kuala Sawah-Rantau, Rantau. Investigation under S41(1) Road Transport Act 1987. Note: distinct from state Police Chief Datuk Alzafny Ahmad (who handles the vandalism/royal-insult cases). District-level operational authority for Seremban-area PRN incidents."
+  },
+  {
+    "entity": "Rajasekaran Gunnasekaran (Datuk Dr) — Sri Tanjung (N.33) incumbent",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.thevibes.com/articles/news/125254/ph-banks-on-negeri-sembilans-development-record-as-campaign-heats-up",
+    "context": "PH incumbent for N.33 Sri Tanjung (Port Dickson area). Campaigns on NS investment record under 'Tok Min's [Aminuddin] leadership': AI-powered Midport Pasir Panjang + Google RM1 billion data centre in Port Dickson. 'These projects will generate jobs and strengthen the state's economy.' Benefits will spill over beyond Port Dickson. NEW PIR-07 candidate entity — first detailed Sri Tanjung (N.33) campaign-ground intel. The Vibes (18:03 MYT, night2 cycle, recovered via direct search)."
+  },
+  {
+    "entity": "Mohd Kamarul Arifin Mohd Wafa — Seri Menanti (PH candidate)",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.thevibes.com/articles/news/125254/ph-banks-on-negeri-sembilans-development-record-as-campaign-heats-up",
+    "context": "PH candidate for Seri Menanti. Says voters judging government on performance not promises alone. Federal aid STR (Sumbangan Tunai Rahmah) + SARA (Sumbangan Asas Rahmah) resonating with voters easing cost-of-living pressure. Local issues raised: housing repairs, drainage, basic infrastructure. Voters acknowledge improvements in investment, revenue collection, state finances under Aminuddin. NEW PIR-07 candidate entity — first Seri Menanti campaign intel. The Vibes (18:03 MYT, night2 cycle)."
+  },
+  {
+    "entity": "PH development-record campaign narrative (quantified: RM1.14B→RM54.3B investments)",
+    "type": "narrative",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.thevibes.com/articles/news/125254/ph-banks-on-negeri-sembilans-development-record-as-campaign-heats-up",
+    "context": "PH's dominant campaign framing: economic growth + investment + welfare delivery vs election pledges. Quantified state data (The Vibes 18:03 MYT): investment approvals RM1.14B (2017) → RM54.3B (2025); state revenue RM413M → RM610M; reserves RM725.96M → RM1.04B; unemployment 3.8% (2020) → 3.1% (2025). 'Under Tok Min's leadership, NS has secured record investments.' Campaign = performance/continuity ('kesinambungan') vs BN-PN's Malay-unity pitch. Corroborates Utusan commentary 'Aminuddin's track record cannot be denied.' First quantified development-record campaign intel."
+  },
+  {
+    "entity": "PH manifesto B40→M40 expansion (TheVibes confirmation, pre-launch)",
+    "type": "narrative",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.thevibes.com/articles/news/125248/ph-offers-more-comprehensive-manifesto-benefits-all-groups",
+    "context": "TheVibes (16:13 MYT, night2 cycle, 4h pre-launch) confirms Aminuddin's manifesto framing: 'God willing, it will not only be for the B40 group, but we will also cater to the M40. We want more people to benefit.' Many previous-state-government initiatives MAINTAINED ('kesinambungan' continuity) + additional initiatives. Manifesto 'holistically detailed by coalition's top leadership' for sustainable economic + social impact. Launch 'tonight' (20 Jul). Pre-launch confirmation of B40→M40 expansion + continuity as core manifesto themes. The Vibes direct search recovery (not in gnews/RSS)."
+  },
+  {
+    "entity": "EC 13,263 postal ballots — 3-outlet corroboration (Utusan BM + MalayMail EN + Sinar BM)",
+    "type": "narrative",
+    "pir_tag": "PIR-07",
+    "priority": "normal",
+    "source_url": "https://www.malaymail.com/news/malaysia/2026/07/20/ec-dispatches-13-263-postal-ballots-for-negeri-sembilan-state-polls-malay-mail/228285",
+    "context": "EC postal-ballot operational baseline now 3-outlet corroborated. 13,263 postal ballots issued 20 Jul: 12,669 Cat-1A (election workers/SPR/police/military/media); 343 Cat-1B (Malaysians abroad); 251 Cat-1C (11 security/health agencies). Process witnessed by candidate reps from all parties. Return deadline 5pm polling day (Aug 1). Early voting July 28. ~1.1% of total electorate. Cross-outlet: Utusan (prior night cycle) + MalayMail EN (postmanifesto) + Sinar BM (postmanifesto). Electoral operational baseline confirmed across 3 sources."
+  },
+  {
+    "entity": "Pertang 'derhaka' friction — cross-outlet corroboration (NST + Harian Metro)",
+    "type": "narrative",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.utusan.com.my/nasional/2026/07/tarik-sokongan-kepada-mb-bukan-derhaka/",
+    "context": "Pertang (N.28) 'derhaka' friction entity carried forward. BN Palong candidate Mustapha Nagoor's 'bukan derhaka, ini demokrasi' rebuttal (dusk cycle) now corroborated by NST + Harian Metro per priority PIR-07 list. 'Derhaka = menentang raja, menentang Undang Yang Empat,' not withdrawing support from the MB. References DAP Melaka withdrawal as precedent. Pertang derhaka-watch active — Jalaluddin (BN incumbent) campaigning intensively in Jelebu/Pertang (2 walkabouts in ~2h), vote-buying rebuttal cross-outlet (HarianMetro BM + FMT EN). Tier-4 seat ground campaign + narrative contestation confirmed."
+  },
+  {
+    "entity": "PIR-06 [CRITICAL] status MAINTAINED — 28th cycle (no formal threshold crossing)",
+    "type": "narrative",
+    "pir_tag": "PIR-06",
+    "priority": "critical",
+    "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/20/i-will-abide-by-dap-congress-decision-on-whether-to-stay-in-govt-says-loke",
+    "context": "PIR-06 [CRITICAL] threshold NOT crossed for the 28th consecutive cycle. No formal PN-MT expulsion notice, no Bersatu candidate withdrawal (24 solo Bersatu-logo candidates stable), no Kiandee/PN quorum escalation, no PN/Bersatu Supreme Council statement, no RoS intervention, no 'lebih hebat new coalition' formalization, no PDM Klawang reopen escalation. Asyraf Wajdi's 'menebuk atap' assurance = COOPERATION-STABILIZING (strongest counter to [CRITICAL] risk). BN message discipline confirmed (SG + ground candidates aligned). Bersatu running under own logo = structural independence, NOT formal exit. NOTE: Loke's DAP-congress statement is a NEW pre-[CRITICAL] vector from the PH/DAP side, not a PN-Bersatu exit trigger."
+  }
+]
