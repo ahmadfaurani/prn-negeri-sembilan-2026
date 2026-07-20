@@ -1,0 +1,512 @@
+[
+  {
+    "fn": "priority_PIR-07_Awani_zizie-izette-tiba-di-mahkamah-dengar-keputusan-subahat-kes-rasuah-rm2-8-juta_20260720_morning.md",
+    "date": "2026-07-20T00:43:07+00:00",
+    "src": "Awani",
+    "title": "Zizie Izette tiba di mahkamah dengar keputusan subahat kes rasuah RM2.",
+    "tags": "PIR-07",
+    "crit": false,
+    "cls": "REAL-NS",
+    "url": "https://www.astroawani.com/berita-malaysia/zizie-izette-tiba-di-mahkamah-dengar-keputusan-subahat-kes-rasuah-rm28-juta"
+  },
+  {
+    "fn": "priority_PIR-07_FMT_international-regulatory-conference-2026-pemangkin-ekosistem-digital-lebih-selam_20260720_morning_rss.md",
+    "date": "2026-07-20T00:15:24+00:00",
+    "src": "FMT",
+    "title": "International Regulatory Conference 2026 pemangkin ekosistem digital l",
+    "tags": "PIR-07",
+    "crit": false,
+    "cls": "REAL-NS",
+    "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/international-regulatory-conference-2026-pemangkin-ekosistem-digital-lebih-selamat"
+  },
+  {
+    "fn": "priority_PIR-16_FMT_gold-falls-as-us-iran-hostilities-keep-rate-hike-bets-on-table_20260720_morning_rss.md",
+    "date": "2026-07-20T00:05:36+00:00",
+    "src": "FMT",
+    "title": "Gold falls as US-Iran hostilities keep rate hike bets on table",
+    "tags": "PIR-16",
+    "crit": false,
+    "cls": "FALSE-POSITIVE",
+    "url": "https://www.freemalaysiatoday.com/category/business/2026/07/20/gold-falls-as-us-iran-hostilities-keep-rate-hike-bets-on-table"
+  },
+  {
+    "fn": "priority_PIR-16_FMT_trump-lingers-on-stage-to-lap-up-world-cup-spotlight_20260720_morning_rss.md",
+    "date": "2026-07-20T00:03:36+00:00",
+    "src": "FMT",
+    "title": "Trump lingers on stage to lap up World Cup spotlight",
+    "tags": "PIR-16",
+    "crit": false,
+    "cls": "FALSE-POSITIVE",
+    "url": "https://www.freemalaysiatoday.com/category/sports/2026/07/20/trump-lingers-on-stage-to-lap-up-world-cup-spotlight"
+  },
+  {
+    "fn": "priority_PIR-06-PIR-16_FMT_felda-umno-ties-tough-to-undo-even-with-technocrat-in-charge-say-analysts_20260720_morning_rss.md",
+    "date": "2026-07-20T00:00:46+00:00",
+    "src": "FMT",
+    "title": "Felda-Umno ties tough to undo even with technocrat in charge, say anal",
+    "tags": "PIR-06, PIR-16",
+    "crit": false,
+    "cls": "REAL-NS",
+    "url": "https://www.freemalaysiatoday.com/category/nation/2026/07/20/felda-umno-ties-tough-to-undo-even-with-technocrat-in-charge-say-analysts"
+  },
+  {
+    "fn": "priority_PIR-16_FMT_why-work-feels-harder-than-ever-despite-productivity-tools_20260720_morning_rss.md",
+    "date": "2026-07-20T00:00:28+00:00",
+    "src": "FMT",
+    "title": "Why work feels harder than ever, despite productivity tools",
+    "tags": "PIR-16",
+    "crit": false,
+    "cls": "REAL-NS",
+    "url": "https://www.freemalaysiatoday.com/category/leisure/2026/07/20/why-work-feels-harder-than-ever-despite-productivity-tools"
+  },
+  {
+    "fn": "priority_PIR-06_FMT_hubungan-felda-umno-sukar-dirungkai-walau-diterajui-teknokrat-kata-penganalisis_20260720_morning_rss.md",
+    "date": "2026-07-20T00:00:27+00:00",
+    "src": "FMT",
+    "title": "Hubungan Felda-Umno sukar dirungkai walau diterajui teknokrat, kata pe",
+    "tags": "PIR-06",
+    "crit": false,
+    "cls": "REAL-NS",
+    "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/hubungan-felda-umno-sukar-dirungkai-walau-diterajui-teknokrat-kata-penganalisis"
+  },
+  {
+    "fn": "priority_PIR-06_Awani_trump-bantu-sampaikan-trofi-piala-dunia-bersama-presiden-fifa_20260720_morning.md",
+    "date": "2026-07-19T23:58:02+00:00",
+    "src": "Awani",
+    "title": "Trump bantu sampaikan trofi Piala Dunia bersama Presiden FIFA",
+    "tags": "PIR-06",
+    "crit": false,
+    "cls": "FALSE-POSITIVE",
+    "url": "https://www.astroawani.com/berita-sukan-terkini/trump-bantu-sampaikan-trofi-piala-dunia-bersama-presiden-fifa"
+  },
+  {
+    "fn": "priority_PIR-16_FMT_dollar-firmer-as-us-iran-conflict-intensifies-brent-hits-us-90_20260720_morning_rss.md",
+    "date": "2026-07-19T23:52:47+00:00",
+    "src": "FMT",
+    "title": "Dollar firmer as US-Iran conflict intensifies, Brent hits US$90",
+    "tags": "PIR-16",
+    "crit": false,
+    "cls": "FALSE-POSITIVE",
+    "url": "https://www.freemalaysiatoday.com/category/business/2026/07/20/dollar-firmer-as-us-iran-conflict-intensifies-brent-hits-us90"
+  },
+  {
+    "fn": "priority_PIR-06_Awani_sampel-salad-positif-parasit-punca-wabak-cirit-birit-besar-besaran-di-as_20260720_morning.md",
+    "date": "2026-07-19T23:48:46+00:00",
+    "src": "Awani",
+    "title": "Sampel salad positif parasit punca wabak cirit-birit besar-besaran di ",
+    "tags": "PIR-06",
+    "crit": false,
+    "cls": "FALSE-POSITIVE",
+    "url": "https://www.astroawani.com/berita-dunia/sampel-salad-positif-parasit-punca-wabak-cirit-birit-besar-besaran-di"
+  },
+  {
+    "fn": "priority_PIR-06_Awani_hujan-lebat-landa-new-york-dan-new-jersey-cetus-banjir-kilat_20260720_morning.md",
+    "date": "2026-07-19T23:36:24+00:00",
+    "src": "Awani",
+    "title": "Hujan lebat landa New York dan New Jersey, cetus banjir kilat",
+    "tags": "PIR-06",
+    "crit": false,
+    "cls": "FALSE-POSITIVE",
+    "url": "https://www.astroawani.com/berita-dunia/hujan-lebat-landa-new-york-dan-new-jersey-cetus-banjir-kilat"
+  },
+  {
+    "fn": "priority_PIR-06-PIR-07_FMT_wawasan-guns-for-crucial-police-vote-through-retired-senior-officers_20260720_morning_rss.md",
+    "date": "2026-07-19T23:30:24+00:00",
+    "src": "FMT",
+    "title": "Wawasan guns for crucial police vote through retired senior officers",
+    "tags": "PIR-06, PIR-07",
+    "crit": false,
+    "cls": "REAL-NS",
+    "url": "https://www.freemalaysiatoday.com/category/nation/2026/07/20/wawasan-guns-for-crucial-police-vote-through-retired-senior-officers"
+  },
+  {
+    "fn": "priority_PIR-06-PIR-07_FMT_wawasan-sasar-undi-penting-polis-melalui-pegawai-kanan-bersara_20260720_morning_rss.md",
+    "date": "2026-07-19T23:30:13+00:00",
+    "src": "FMT",
+    "title": "Wawasan sasar undi penting polis melalui pegawai kanan bersara",
+    "tags": "PIR-06, PIR-07",
+    "crit": false,
+    "cls": "REAL-NS",
+    "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/wawasan-sasar-undi-penting-polis-melalui-pegawai-kanan-bersara"
+  },
+  {
+    "fn": "priority_PIR-16_FMT_argentina-spain-fans-flood-new-york-as-city-bids-farewell-to-world-cup_20260720_morning_rss.md",
+    "date": "2026-07-19T23:25:43+00:00",
+    "src": "FMT",
+    "title": "Argentina, Spain fans flood New York as city bids farewell to World Cu",
+    "tags": "PIR-16",
+    "crit": false,
+    "cls": "FALSE-POSITIVE",
+    "url": "https://www.freemalaysiatoday.com/category/sports/2026/07/20/argentina-spain-fans-flood-new-york-as-city-bids-farewell-to-world-cup"
+  },
+  {
+    "fn": "priority_PIR-06_FMT_sepanyol-juara-piala-dunia-2026_20260720_morning_rss.md",
+    "date": "2026-07-19T23:21:52+00:00",
+    "src": "FMT",
+    "title": "Sepanyol juara Piala Dunia 2026",
+    "tags": "PIR-06",
+    "crit": false,
+    "cls": "FALSE-POSITIVE",
+    "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/sepanyol-juara-piala-dunia-2026"
+  },
+  {
+    "fn": "priority_PIR-06-PIR-07_FMT_dari-bilik-darjah-ke-makmal-pelajar-temui-masa-depan-dalam-keselamatan-siber_20260720_morning_rss.md",
+    "date": "2026-07-19T23:15:34+00:00",
+    "src": "FMT",
+    "title": "Dari bilik darjah ke makmal, pelajar temui masa depan dalam keselamata",
+    "tags": "PIR-06, PIR-07",
+    "crit": false,
+    "cls": "REAL-NS",
+    "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/dari-bilik-darjah-ke-makmal-pelajar-temui-masa-depan-dalam-keselamatan-siber"
+  },
+  {
+    "fn": "priority_PIR-07_Awani_piala-dunia-air-mata-seorang-raja_20260720_morning.md",
+    "date": "2026-07-19T23:15:10+00:00",
+    "src": "Awani",
+    "title": "Piala Dunia: Air mata seorang raja",
+    "tags": "PIR-07",
+    "crit": false,
+    "cls": "FALSE-POSITIVE",
+    "url": "https://www.astroawani.com/berita-sukan-terkini/piala-dunia-air-mata-seorang-raja"
+  },
+  {
+    "fn": "priority_PIR-07_FMT_7-tahun-berdepan-perbicaraan-nasib-zizie-izette-ditentukan-hari-ini_20260720_morning_rss.md",
+    "date": "2026-07-19T23:15:09+00:00",
+    "src": "FMT",
+    "title": "7 tahun berdepan perbicaraan, nasib Zizie Izette ditentukan hari ini",
+    "tags": "PIR-07",
+    "crit": false,
+    "cls": "REAL-NS",
+    "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/7-tahun-berdepan-perbicaraan-nasib-zizie-izette-ditentukan-hari-ini"
+  },
+  {
+    "fn": "priority_PIR-06-PIR-07-PIR-16_FMT_khaled-urges-voters-to-ensure-repeat-of-bersatu-s-johor-wipeout-in-ns_20260720_morning_rss.md",
+    "date": "2026-07-19T23:12:42+00:00",
+    "src": "FMT",
+    "title": "Khaled urges voters to ensure repeat of Bersatu\u2019s Johor wipeout in NS",
+    "tags": "PIR-06, PIR-07, PIR-16",
+    "crit": false,
+    "cls": "REAL-DUP",
+    "url": "https://www.freemalaysiatoday.com/category/nation/2026/07/20/khaled-urges-voters-to-ensure-repeat-of-bersatus-johor-wipeout-in-ns"
+  },
+  {
+    "fn": "priority_PIR-06-PIR-07_FMT_pemuda-pkr-dakwa-kerjasama-bn-pn-mahu-cabar-kepimpinan-anwar_20260720_morning_rss.md",
+    "date": "2026-07-19T23:00:17+00:00",
+    "src": "FMT",
+    "title": "Pemuda PKR dakwa kerjasama BN-PN mahu cabar kepimpinan Anwar",
+    "tags": "PIR-06, PIR-07",
+    "crit": false,
+    "cls": "REAL-NS",
+    "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/pemuda-pkr-dakwa-kerjasama-bn-pn-mahu-cabar-kepimpinan-anwar"
+  },
+  {
+    "fn": "priority_PIR-06_Awani_piala-dunia-dari-dukungan-messi-ke-pelukan-seorang-juara-dunia_20260720_morning.md",
+    "date": "2026-07-19T22:53:57+00:00",
+    "src": "Awani",
+    "title": "Piala Dunia: Dari dukungan Messi ke pelukan seorang juara dunia",
+    "tags": "PIR-06",
+    "crit": false,
+    "cls": "FALSE-POSITIVE",
+    "url": "https://www.astroawani.com/berita-sukan-terkini/piala-dunia-dari-dukungan-messi-ke-pelukan-seorang-juara-dunia"
+  },
+  {
+    "fn": "priority_PIR-16_FMT_mcgregor-says-he-injured-acl-meniscus-in-loss-to-holloway_20260720_morning_rss.md",
+    "date": "2026-07-19T22:27:42+00:00",
+    "src": "FMT",
+    "title": "McGregor says he injured ACL, meniscus in loss to Holloway",
+    "tags": "PIR-16",
+    "crit": false,
+    "cls": "FALSE-POSITIVE",
+    "url": "https://www.freemalaysiatoday.com/category/sports/2026/07/20/mcgregor-says-he-injured-acl-meniscus-in-loss-to-holloway"
+  },
+  {
+    "fn": "priority_PIR-16_FMT_left-knee-issues-will-keep-ohtani-off-the-mound-for-now_20260720_morning_rss.md",
+    "date": "2026-07-19T22:18:13+00:00",
+    "src": "FMT",
+    "title": "Left knee issues will keep Ohtani off the mound for now",
+    "tags": "PIR-16",
+    "crit": false,
+    "cls": "FALSE-POSITIVE",
+    "url": "https://www.freemalaysiatoday.com/category/sports/2026/07/20/left-knee-issues-will-keep-ohtani-off-the-mound-for-now"
+  },
+  {
+    "fn": "priority_PIR-06_Awani_puluhan-ribu-gegar-dataran-merdeka-tonton-aksi-final-piala-dunia-2026_20260720_morning.md",
+    "date": "2026-07-19T22:11:07+00:00",
+    "src": "Awani",
+    "title": "Puluhan ribu gegar Dataran Merdeka, tonton aksi final Piala Dunia 2026",
+    "tags": "PIR-06",
+    "crit": false,
+    "cls": "FALSE-POSITIVE",
+    "url": "https://www.astroawani.com/berita-malaysia/puluhan-ribu-gegar-dataran-merdeka-tonton-aksi-final-piala-dunia-2026"
+  },
+  {
+    "fn": "priority_PIR-16_FMT_us-immigration-officers-to-wear-body-cameras-during-vehicle-stops_20260720_morning_rss.md",
+    "date": "2026-07-19T22:05:11+00:00",
+    "src": "FMT",
+    "title": "US immigration officers to wear body cameras during vehicle stops",
+    "tags": "PIR-16",
+    "crit": false,
+    "cls": "REAL-NS",
+    "url": "https://www.freemalaysiatoday.com/category/world/2026/07/20/us-immigration-officers-to-wear-body-cameras-during-vehicle-stops"
+  },
+  {
+    "fn": "priority_PIR-16_FMT_mercedes-boss-seeks-to-comfort-disappointed-russell-amid-reliability-woes_20260720_morning_rss.md",
+    "date": "2026-07-19T21:55:58+00:00",
+    "src": "FMT",
+    "title": "Mercedes boss seeks to comfort \u2018disappointed\u2019 Russell amid reliability",
+    "tags": "PIR-16",
+    "crit": false,
+    "cls": "FALSE-POSITIVE",
+    "url": "https://www.freemalaysiatoday.com/category/sports/2026/07/20/mercedes-boss-seeks-to-comfort-disappointed-russell-amid-reliability-woes"
+  },
+  {
+    "fn": "priority_PIR-16_FMT_israelis-march-to-gaza-border-demanding-re-establishment-of-settlements_20260720_morning_rss.md",
+    "date": "2026-07-19T21:51:29+00:00",
+    "src": "FMT",
+    "title": "Israelis march to Gaza border demanding re-establishment of settlement",
+    "tags": "PIR-16",
+    "crit": false,
+    "cls": "FALSE-POSITIVE",
+    "url": "https://www.freemalaysiatoday.com/category/world/2026/07/20/israelis-march-to-gaza-border-demanding-re-establishment-of-settlements"
+  },
+  {
+    "fn": "priority_PIR-07-PIR-16_FMT_iraqi-pm-to-visit-iran-this-week-after-trip-to-us_20260720_morning_rss.md",
+    "date": "2026-07-19T21:41:21+00:00",
+    "src": "FMT",
+    "title": "Iraqi PM to visit Iran this week after trip to US",
+    "tags": "PIR-07, PIR-16",
+    "crit": false,
+    "cls": "FALSE-POSITIVE",
+    "url": "https://www.freemalaysiatoday.com/category/world/2026/07/20/iraqi-pm-to-visit-iran-this-week-after-trip-to-us"
+  },
+  {
+    "fn": "priority_PIR-16_FMT_russian-opposition-figure-nadezhdin-withdraws-from-election_20260720_morning_rss.md",
+    "date": "2026-07-19T21:33:15+00:00",
+    "src": "FMT",
+    "title": "Russian opposition figure Nadezhdin withdraws from election",
+    "tags": "PIR-16",
+    "crit": false,
+    "cls": "FALSE-POSITIVE",
+    "url": "https://www.freemalaysiatoday.com/category/world/2026/07/20/russian-opposition-figure-nadezhdin-withdraws-from-election"
+  },
+  {
+    "fn": "priority_PIR-16_FMT_hamilton-rues-costly-practice-mistake-for-missing-podium-at-belgian-gp_20260720_morning_rss.md",
+    "date": "2026-07-19T21:22:01+00:00",
+    "src": "FMT",
+    "title": "Hamilton rues costly practice mistake for missing podium at Belgian GP",
+    "tags": "PIR-16",
+    "crit": false,
+    "cls": "FALSE-POSITIVE",
+    "url": "https://www.freemalaysiatoday.com/category/sports/2026/07/20/hamilton-rues-costly-practice-mistake-for-missing-podium-at-belgian-gp"
+  },
+  {
+    "fn": "priority_PIR-16_FMT_madonna-shakira-bieber-and-the-muppets-light-up-world-cup-halftime-show_20260720_morning_rss.md",
+    "date": "2026-07-19T21:02:28+00:00",
+    "src": "FMT",
+    "title": "Madonna, Shakira, Bieber and The Muppets light up World Cup halftime s",
+    "tags": "PIR-16",
+    "crit": false,
+    "cls": "FALSE-POSITIVE",
+    "url": "https://www.freemalaysiatoday.com/category/highlight/2026/07/20/madonna-shakira-bieber-and-the-muppets-light-up-world-cup-half-time-show"
+  },
+  {
+    "fn": "priority_PIR-06_FMT_israel-warns-will-respond-to-any-iranian-attack-with-full-force_20260720_morning_rss.md",
+    "date": "2026-07-19T21:01:15+00:00",
+    "src": "FMT",
+    "title": "Israel warns will respond to any Iranian attack with \u2018full force\u2019",
+    "tags": "PIR-06",
+    "crit": false,
+    "cls": "FALSE-POSITIVE",
+    "url": "https://www.freemalaysiatoday.com/category/highlight/2026/07/20/israel-warns-will-respond-to-any-iranian-attack-with-full-force"
+  },
+  {
+    "fn": "priority_PIR-16_FMT_rubio-hails-lebanon-for-peace-efforts-after-meeting-president_20260720_morning_rss.md",
+    "date": "2026-07-19T20:51:08+00:00",
+    "src": "FMT",
+    "title": "Rubio hails Lebanon for peace efforts after meeting president",
+    "tags": "PIR-16",
+    "crit": false,
+    "cls": "FALSE-POSITIVE",
+    "url": "https://www.freemalaysiatoday.com/category/highlight/2026/07/20/rubio-hails-lebanon-for-peace-efforts-after-meeting-president"
+  },
+  {
+    "fn": "priority_PIR-06-PIR-07-PIR-16_FMT_noh-omar-hopes-bn-pn-formula-sparks-blue-wave-in-selangor_20260720_morning_rss.md",
+    "date": "2026-07-19T16:24:05+00:00",
+    "src": "FMT",
+    "title": "Noh Omar hopes BN-PN formula sparks \u2018blue wave\u2019 in Selangor",
+    "tags": "PIR-06, PIR-07, PIR-16",
+    "crit": false,
+    "cls": "REAL-NS",
+    "url": "https://www.freemalaysiatoday.com/category/nation/2026/07/20/noh-omar-hopes-bn-pn-formula-sparks-blue-wave-in-selangor"
+  },
+  {
+    "fn": "priority_PIR-06-PIR-07-PIR-16_FMT_bersatu-hanya-kacau-daun-khaled-gesa-pengundi-n-sembilan-bagi-ko_20260720_morning_rss.md",
+    "date": "2026-07-19T16:12:00+00:00",
+    "src": "FMT",
+    "title": "Bersatu hanya kacau daun, Khaled gesa pengundi N Sembilan bagi \u2018KO\u2019",
+    "tags": "PIR-06, PIR-07, PIR-16",
+    "crit": false,
+    "cls": "FALSE-POSITIVE",
+    "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/bersatu-hanya-kacau-daun-khaled-gesa-pengundi-n-sembilan-bagi-ko"
+  },
+  {
+    "fn": "priority_PIR-06-PIR-07_FMT_tak-payah-desak-kuasa-pm-tentu-jawatan-menteri-kata-khaled_20260720_morning_rss.md",
+    "date": "2026-07-19T16:04:56+00:00",
+    "src": "FMT",
+    "title": "Tak payah desak, kuasa PM tentu jawatan menteri, kata Khaled",
+    "tags": "PIR-06, PIR-07",
+    "crit": false,
+    "cls": "REAL-DUP",
+    "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/tak-payah-desak-kuasa-pm-tentu-jawatan-kata-khaled"
+  },
+  {
+    "fn": "priority_PIR-06-PIR-07-PIR-16_FMT_ph-targets-23-seats-for-safe-majority-in-negeri-sembilan-says-loke_20260720_morning_rss.md",
+    "date": "2026-07-19T16:03:11+00:00",
+    "src": "FMT",
+    "title": "PH targets 23 seats for \u2018safe\u2019 majority in Negeri Sembilan, says Loke",
+    "tags": "PIR-06, PIR-07, PIR-16",
+    "crit": true,
+    "cls": "REAL-DUP",
+    "url": "https://www.freemalaysiatoday.com/category/nation/2026/07/20/ph-targets-23-seats-for-safe-majority-in-negeri-sembilan-says-loke"
+  },
+  {
+    "fn": "priority_PIR-06-PIR-07-PIR-16_FMT_ph-sasar-menang-23-kerusi-untuk-selamat-di-n-sembilan-kata-loke_20260720_morning_rss.md",
+    "date": "2026-07-19T16:01:50+00:00",
+    "src": "FMT",
+    "title": "PH sasar menang 23 kerusi untuk \u2018selamat\u2019 di N Sembilan, kata Loke",
+    "tags": "PIR-06, PIR-07, PIR-16",
+    "crit": false,
+    "cls": "REAL-DUP",
+    "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/ph-sasar-menang-23-kerusi-di-n-sembilan-bentuk-kerajaan-negeri-lebih-stabil"
+  },
+  {
+    "fn": "priority_PIR-06-PIR-07-PIR-16_malaymail_jalaluddin-thanks-perikatan-for-backing-bn-to-lead-negeri-sembilan-if-alliance-w_20260720_morning_home.md",
+    "date": "**Collected:** 2026-07-20T01:11:31.603052+00:00 (cycle 20260720_morning)",
+    "src": "malaymail",
+    "title": "Jalaluddin thanks Perikatan for backing BN to lead Negeri Sembilan if ",
+    "tags": "PIR-06, PIR-07, PIR-16",
+    "crit": false,
+    "cls": "REAL-DUP",
+    "url": "https://www.malaymail.com/news/malaysia/2026/07/19/jalaluddin-thanks-perikatan-for-backing-bn-to-lead-negeri-sembilan-if-alliance-wins/228221"
+  },
+  {
+    "fn": "priority_PIR-06-PIR-07-PIR-16_malaymail_negeri-sembilan-polls-cousins-turn-political-rivals-in-three-way-contest-for-kla_20260720_morning_home.md",
+    "date": "**Collected:** 2026-07-20T01:11:31.603052+00:00 (cycle 20260720_morning)",
+    "src": "malaymail",
+    "title": "Negeri Sembilan polls: Cousins turn political rivals in three-way cont",
+    "tags": "PIR-06, PIR-07, PIR-16",
+    "crit": false,
+    "cls": "REAL-DUP",
+    "url": "https://www.malaymail.com/news/malaysia/2026/07/19/negeri-sembilan-polls-cousins-turn-political-rivals-in-three-way-contest-for-klawang/228190"
+  },
+  {
+    "fn": "priority_PIR-06-PIR-07-PIR-16_malaymail_six-negeri-sembilan-seats-that-could-tell-the-story-of-the-election-malay-mail_20260720_morning_home.md",
+    "date": "**Collected:** 2026-07-20T01:11:31.603052+00:00 (cycle 20260720_morning)",
+    "src": "malaymail",
+    "title": "Six Negeri Sembilan seats that could tell the story of the election | ",
+    "tags": "PIR-06, PIR-07, PIR-16",
+    "crit": false,
+    "cls": "REAL-DUP",
+    "url": "https://www.malaymail.com/news/malaysia/2026/07/20/six-negeri-sembilan-seats-that-could-tell-the-story-of-the-election/227932"
+  },
+  {
+    "fn": "priority_PIR-06-PIR-07-PIR-16_utusan_aminuddin-pilih-kempen-bersemuka_20260720_morning_home.md",
+    "date": "**Collected:** 2026-07-20T01:11:31.603052+00:00 (cycle 20260720_morning)",
+    "src": "utusan",
+    "title": "Aminuddin pilih kempen bersemuka",
+    "tags": "PIR-06, PIR-07, PIR-16",
+    "crit": false,
+    "cls": "REAL-NS",
+    "url": "https://www.utusan.com.my/nasional/2026/07/aminuddin-pilih-kempen-bersemuka/"
+  },
+  {
+    "fn": "priority_PIR-06-PIR-07-PIR-16_utusan_analisis-mampukah-percaturan-bn-pn-tumbangkan-anthony-loke-utusan-malaysia_20260720_morning_home.md",
+    "date": "**Collected:** 2026-07-20T01:11:31.603052+00:00 (cycle 20260720_morning)",
+    "src": "utusan",
+    "title": "ANALISIS: Mampukah percaturan BN-PN tumbangkan Anthony Loke? - Utusan ",
+    "tags": "PIR-06, PIR-07, PIR-16",
+    "crit": false,
+    "cls": "FALSE-POSITIVE",
+    "url": "https://www.utusan.com.my/nasional/2026/07/analisis-mampukah-percaturan-bn-pn-tumbangkan-anthony-loke/"
+  },
+  {
+    "fn": "priority_PIR-06-PIR-07-PIR-16_utusan_gabungan-bn-pn-tekad-rampas-negeri-sembilan_20260720_morning_home.md",
+    "date": "**Collected:** 2026-07-20T01:11:31.603052+00:00 (cycle 20260720_morning)",
+    "src": "utusan",
+    "title": "Gabungan BN-PN tekad rampas Negeri Sembilan",
+    "tags": "PIR-06, PIR-07, PIR-16",
+    "crit": false,
+    "cls": "REAL-DUP",
+    "url": "https://www.utusan.com.my/nasional/2026/07/gabungan-bn-pn-tekad-rampas-negeri-sembilan/"
+  },
+  {
+    "fn": "priority_PIR-06-PIR-07-PIR-16_utusan_jaga-disiplin-kempen-prn-atau-letak-jawatan-menteri-timbalan-menteri-utusan-mala_20260720_morning_home.md",
+    "date": "**Collected:** 2026-07-20T01:11:31.603052+00:00 (cycle 20260720_morning)",
+    "src": "utusan",
+    "title": "Jaga disiplin kempen PRN atau letak jawatan menteri, timbalan menteri ",
+    "tags": "PIR-06, PIR-07, PIR-16",
+    "crit": false,
+    "cls": "FALSE-POSITIVE",
+    "url": "https://www.utusan.com.my/nasional/2026/07/jaga-disiplin-kempen-prn-atau-letak-jawatan-menteri-timbalan-menteri/"
+  },
+  {
+    "fn": "priority_PIR-06-PIR-07-PIR-16_utusan_negeri-sembilan-penentu-kerjasama-pru16-utusan-malaysia_20260720_morning_home.md",
+    "date": "**Collected:** 2026-07-20T01:11:31.603052+00:00 (cycle 20260720_morning)",
+    "src": "utusan",
+    "title": "Negeri Sembilan penentu kerjasama PRU16 - Utusan Malaysia",
+    "tags": "PIR-06, PIR-07, PIR-16",
+    "crit": false,
+    "cls": "REAL-DUP",
+    "url": "https://www.utusan.com.my/nasional/2026/07/negeri-sembilan-penentu-kerjasama-pru16/"
+  },
+  {
+    "fn": "priority_PIR-06-PIR-07-PIR-16_utusan_syarikat-dicadangkan-muhyiddin-terima-rm24-4-juta-bayaran-projek-jana-wibawa_20260720_morning_home.md",
+    "date": "**Collected:** 2026-07-20T01:11:31.603052+00:00 (cycle 20260720_morning)",
+    "src": "utusan",
+    "title": "Syarikat dicadangkan Muhyiddin terima RM24.4 juta bayaran projek Jana ",
+    "tags": "PIR-06, PIR-07, PIR-16",
+    "crit": false,
+    "cls": "REAL-NS",
+    "url": "https://www.utusan.com.my/nasional/mahkamah/2026/07/syarikat-dicadangkan-muhyiddin-terima-rm24-4-juta-bayaran-projek-jana-wibawa/"
+  },
+  {
+    "fn": "priority_PIR-06-PIR-07_malaymail_forget-big-walkabouts-aminuddin-says-he-d-rather-meet-linggi-voters-one-on-one-m_20260720_morning_home.md",
+    "date": "**Collected:** 2026-07-20T01:11:31.603052+00:00 (cycle 20260720_morning)",
+    "src": "malaymail",
+    "title": "Forget big walkabouts \u2014 Aminuddin says he\u2019d rather meet Linggi voters ",
+    "tags": "PIR-06, PIR-07",
+    "crit": false,
+    "cls": "REAL-NS",
+    "url": "https://www.malaymail.com/news/malaysia/2026/07/19/forget-big-walkabouts-aminuddin-says-hed-rather-meet-linggi-voters-one-on-one/228226"
+  },
+  {
+    "fn": "priority_PIR-06-PIR-07_sinarharian_cabar-mencabar-ujian-baharu-kerajaan-perpaduan-menjelang-prn-negeri-sembilan-sin_20260720_morning_home.md",
+    "date": "**Collected:** 2026-07-20T01:11:31.603052+00:00 (cycle 20260720_morning)",
+    "src": "sinarharian",
+    "title": "Cabar mencabar ujian baharu Kerajaan Perpaduan menjelang PRN Negeri Se",
+    "tags": "PIR-06, PIR-07",
+    "crit": false,
+    "cls": "FALSE-POSITIVE",
+    "url": "https://www.sinarharian.com.my/article/788551/suara-sinar/analisis-sinar/cabar-mencabar-ujian-baharu-kerajaan-perpaduan-menjelang-prn-negeri-sembilan"
+  },
+  {
+    "fn": "priority_PIR-07-PIR-16_malaymail_win-but-not-by-breaking-the-law-loke-urges-road-safety-during-negeri-sembilan-ca_20260720_morning_home.md",
+    "date": "**Collected:** 2026-07-20T01:11:31.603052+00:00 (cycle 20260720_morning)",
+    "src": "malaymail",
+    "title": "\u2018Win, but not by breaking the law\u2019: Loke urges road safety during Nege",
+    "tags": "PIR-07, PIR-16",
+    "crit": false,
+    "cls": "REAL-DUP",
+    "url": "https://www.malaymail.com/news/malaysia/2026/07/19/win-but-not-by-breaking-the-law-loke-urges-road-safety-during-negeri-sembilan-campaign/228205"
+  },
+  {
+    "fn": "priority_PIR-07_malaymail_pakatan-to-reveal-its-game-plan-for-negeri-sembilan-polls-with-new-manifesto-mon_20260720_morning_home.md",
+    "date": "**Collected:** 2026-07-20T01:11:31.603052+00:00 (cycle 20260720_morning)",
+    "src": "malaymail",
+    "title": "Pakatan to reveal its game plan for Negeri Sembilan polls with new man",
+    "tags": "PIR-07",
+    "crit": false,
+    "cls": "REAL-DUP",
+    "url": "https://www.malaymail.com/news/malaysia/2026/07/19/pakatan-to-reveal-its-game-plan-for-negeri-sembilan-polls-with-new-manifesto-monday-night/228237"
+  }
+]
