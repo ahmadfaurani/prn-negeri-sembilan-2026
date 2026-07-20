@@ -982,3 +982,166 @@ Other non-NS (×4): `..._Awani_sampel-salad-positif-parasit-*` (US parasite outb
 ---
 
 *Late afternoon cycle index appended 2026-07-20 ~15:25 MYT (07:25 UTC) by PRN Negeri Sembilan 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. 91 articles saved (53 RSS + 1 URL + 7 homepage + 30 Sinar targeted; 13 favicon false positives deleted). [CRITICAL] NOT crossed (23rd cycle; 1 auto-flag FALSE POSITIVE corrected — Nur Jazlan Senate sidebar "dipecat Bersatu" = Kelantan individual, not PN expelling Bersatu). Source breakthrough: Harian Metro RSS working for first time (51 items, 31 saved). Key late afternoon developments: (1) Pertang T1 3-corner confirmed — Umry (PH) vs Jalaluddin (BN) vs Faizal Fadli Idrus (Bersatu); Mandarin fluency strategy; (2) Chuah controversy RESOLVED — Boon Lai (PH) vs Pau Jeou Ching (BN) 2-cornered; Kenny Chiew gives full support; (3) DUN Pilah two-women contest RECOVERED — Noorzunita (PH) vs S Leza (BN); (4) DUN Gemas N34 PKR woman candidate Siti Aishah profiled; Felda Gugusan Jelai issue; (5) DUN Gemencheh PH oldest candidate Abd Latif (70, AMANAH) vs Suhaimizan (BN); (6) DUN Bahau MCA Ah Chong challenges DAP 20-year stronghold; BN-PN ground cooperation confirmed; (7) Sikamat PN/Wawasan candidate Razali (ex-police) profiled; Bersatu vs PN/Wawasan split confirmed; (8) Campaign sabotage escalation — Palong flags burned + Chembong Tier-4 damaged + PDM Klawang RESOLVED (police 2 investigation papers at Kuala Klawang); (9) First election-related death — man killed installing flags near Rantau; (10) 107 ceramah permits approved; (11) 6 PKR candidates lost party elections — analyst warns machinery disunity + questions Aminuddin Sikamat→Linggi swap; (12) Fathi Aris: "PH has no right to feel cheated" — major PIR-16 narrative; (13) No BN-PN talks in Terengganu — NS-specific cooperation confirmed. PH manifesto launch tonight 18:00-20:00 MYT — next major collection window.*
+
+---
+
+# DUSK CYCLE — 20260720_dusk (15:25 → 16:37 MYT 20 Jul, ~1h12m)
+
+**Cutoff:** post-07:25 UTC 20 Jul (post-15:25 MYT 20 Jul) = prior lateafternoon cycle end
+**Fetcher:** `_surge_fetch_20260720_dusk.py` (gnews ×82 queries + Awani/FMT/HarianMetro RSS full + homepage extraction NST/Star/MalayMail/Utusan/Sinar/Kosmo) + `_dusk_sidebar_fetch_20260720.py` (6 fresh Utusan sidebar articles referenced in PH manifesto piece)
+**Articles saved:** **39** (26 RSS + 1 gnews URL-extract + 6 homepage + 6 Utusan sidebar targeted)
+**Genuinely-fresh post-cutoff (≥15:25 MYT):** **8** (Aminuddin jaga adab 15:56, PH manifesto 15:51, derhaka rebuttal 15:59, PH Selangor BN-PN 15:56, Akmal DAP ketandusan 15:35, Kamil Munim rebuttal 15:32, Rafizi Melaka 15:28, MCA KWAP eFishery 15:42)
+**Enrichments (Utusan republications of prior Sinar content):** 3 (KJ "ada sesuatu tak kena" 07:58, Noh Omar "rampas Selangor" 08:10, NS penentu PRU16)
+**[CRITICAL] status: MAINTAINED (24th cycle). NO NEW THRESHOLD CROSSING.** 1 auto-flag FALSE POSITIVE corrected (Fashion Valet CBT trial — PNB matched "pn"; "withdraw"/"advances" matched fund-withdrawal not candidate withdrawal). gnews 82 queries → 694 items, 425 PRN/priority hits, 1 fresh; critical-keyword scan = **0 hits**.
+
+---
+
+## 🔴 PIR-06 — COALITION OPERATIONAL ARRANGEMENT — [CRITICAL] NOT CROSSED (24th cycle)
+
+**[CRITICAL] status: MAINTAINED. 24th cycle with no formal PN-MT expulsion notice, no Bersatu candidate withdrawal (24 solo Bersatu-logo candidates stable), no Kiandee/PN quorum escalation, no PN/Bersatu Supreme Council statement, no RoS intervention, no "lebih hebat new coalition" formalization. All 8 mandatory gnews [CRITICAL]-watch queries returned 0. gnews critical-keyword scan across 425 priority headlines = 0 hits.**
+
+**NEW PIR-06 intelligence this dusk cycle (cooperation-friction + spread, NOT formal-threshold):**
+
+### 1. BN-PN cooperation "will spread to all states" — PH Selangor Amanah [FRESH 15:56 MYT, NEW]
+→ `priority_PIR-06-PIR-07_Utusan_ph-selangor-yakin-hadapi-gelombang-kerjasama-bn-pn_20260720_dusk_sidebar.md`
+- **Amanah Selangor communications director Abbas Azmi** (ADUN Sri Serdang): PH Selangor NOT afraid of BN-PN cooperation trend, but EXPECTS it to spread from Johor+NS to all states including Melaka and Selangor.
+- "It (BN-PN cooperation) will continue. We see the pattern is already there and eventually it will go to all states."
+- **Intra-unity-government friction escalation:** Calls for BN political appointees in Selangor who criticize the state government to RESIGN. "Those unable to be disciplined in the organization and continue criticizing the government they represent should consider resigning." Says BN ADUNs contribute "minimum" to the state government.
+- "Api dalam sekam" (smoldering fire) warning — risk to state government stability if BN-PN cooperation not reviewed.
+- If BN leaves Selangor state gov, PH still has enough majority to govern.
+- **Significance:** NEW escalation of intra-unity-government friction in Selangor. Confirms BN-PN cooperation is read as a multi-state trend by PH itself. Not [CRITICAL].
+
+### 2. Noh Omar: BN-PN can capture 6 parliament + 34 DUN Selangor seats [Utusan republication, 08:10 MYT]
+→ `priority_PIR-06-PIR-07_Utusan_kerjasama-bn-pn-mampu-rampas-selangor_20260720_dusk_sidebar.md`
+- **Noh Omar** (ex-UMNO Selangor chief): if NS BN-PN formula succeeds → 6 parliamentary + 34 DUN Selangor seats capturable. Named: **Kuala Selangor, Shah Alam, Sepang, Hulu Langat, Gombak, Sungai Buloh**.
+- Three-cornered Umno/PAS/PH only benefits PH (cites KJ's Sungai Buloh GE15 defeat).
+- **KJ** at same event (Subang UMNO youth/wanita/puteri): BN-PN cooperation = "a good experiment," "anjalan dan pejal" (flexible vs rigid). "We can give our votes to PAS and Wawasan candidates, and vice versa." → confirms **Wawasan as a PN-coalition vote-recipient partner** (NS operational arrangement: votes flow BN↔PAS↔Wawasan).
+- **Significance:** Utusan enrichment of prior Sinar content. Confirms Wawasan's role in the BN-PN vote-sharing arrangement. PIR-06 cooperation-arrangement + PIR-16 "makmal politik PRU16."
+
+### 3. Terengganu "tunggu dan lihat" — NS-specific cooperation reconfirmed [14:10 MYT]
+→ `priority_PIR-06-PIR-07_Utusan_kerjasama-bn-pn-umno-terengganu-tunggu-dan-lihat_20260720_dusk_sidebar.md`
+- **UMNO Terengganu chief Datuk Rozi Mamat** (UMNO Supreme Council): "wait and see" on BN-PN cooperation. NO discussions yet in Terengganu — "landscape differs by state." References Sarawak as precedent for state/federal cooperation differences.
+- "We need to be smart in adapting to strengthen our own party without thinking too much about others."
+- **Significance:** Confirms (3rd corroboration: prior Sinar + lateafternoon Utusan + this Utusan) that BN-PN cooperation is NS-specific, not a national mandate. Terengganu, Perlis = "wait and see / not impossible" posture.
+
+### 4. Perlis: "not impossible" BN-PN cooperation continues [Utusan, dated 20 Jul]
+→ `priority_PIR-06-PIR-07_Utusan_tidak-mustahil-kerjasama-bn-pn-diteruskan-di-perlis-utusan-malaysia_20260720_dusk_sidebar.md`
+- **Significance:** Perlis joins Terengganu as "wait-and-see" state. NS cooperation model = potential template but not yet adopted elsewhere.
+
+**Tier-4 seat watch (N.04, N.05, N.13, N.14, N.23, N.25, N.31, N.34):**
+- **N.31 Palong** — NEW intel: BN candidate **Datuk Mustapha Nagoor** actively campaigning at Pasar Tani Keluarga Malaysia Palong (Jempol) — pushes back against "derhaka" narrative (see PIR-07 #1). Ground campaign confirmed at Tier-4 seat.
+- No Bersatu candidate withdrawals. No other new Tier-4 intel.
+
+---
+
+## 🟠 PIR-07 — HIGHEST-PRIORITY BATTLEGROUNDS — DUSK UPDATES
+
+### 1. DERHAKA COUNTER-NARRATIVE — BN Palong (N.31) candidate pushes back [FRESH 15:59 MYT, NEW — HIGH VALUE]
+→ `priority_PIR-06-PIR-07_Utusan_tarik-sokongan-kepada-mb-bukan-derhaka_20260720_dusk_sidebar.md`
+- **BN Palong (N.31 Tier-4) candidate Datuk Mustapha Nagoor:** "Withdrawing support from the MB is NOT derhaka. Derhaka is opposing the Ruler, the Undang Yang Empat."
+- "Menarik sokongan daripada Menteri Besar tak boleh istilah derhaka. Derhaka ini adalah kita menentang raja, menentang Undang Yang Empat."
+- **References DAP Melaka as precedent:** "DAP Melaka withdrew support from the Melaka state government. Are they derhaka? No."
+- Campaigning at Pasar Tani Keluarga Malaysia, Palong, Jempol.
+- **Significance:** FIRST direct BN rebuttal of the "derhaka" narrative that PH has used to frame BN-PN cooperation as betrayal. Originates from a Tier-4 (N.31 Palong) candidate on the ground. The DAP Melaka precedent is notable — frames withdrawal-of-support as normal democratic politics, not treason. PIR-07 (derhaka narrative at Palong Tier-4) + PIR-16 (narrative contestation).
+
+### 2. Aminuddin: "jaga adab, integriti" — call for decorous campaigning [FRESH 15:56 MYT, NEW]
+→ `priority_PIR-07-PIR-16_Awani_prn-negeri-sembilan-aminuddin-ingatkan-ahli-politik-jaga-adab-integriti-sepanjan_20260720_dusk.md`
+- Aminuddin (caretaker MB) urges ALL parties to campaign with integrity + mature politics. "We are in a state that is beradat dan beradab (has customs and manners) — I hope all political parties follow the rules."
+- Spoke at PH candidate press conference for DUN Chuah and Sri Tanjung, Port Dickson.
+- References the **2 police investigation papers** on election sabotage (from lateafternoon cycle: Palong flags burned, Chembong damaged, Klawang drain).
+- **Significance:** Aminuddin's "adat dan adab" framing connects to the "adat" PIR-16 keyword (Tok Mat's "adat politik" narrative from prior cycles). Positions PH as the decorous/civilized campaigner vs the sabotage incidents. FRESH post-cutoff.
+
+### 3. PH MANIFESTO TONIGHT — CONFIRMED + content preview [FRESH 15:51 MYT, NEW — KEY EVENT]
+→ `priority_PIR-06-PIR-07_Utusan_ph-tawar-manifesto-lebih-menyeluruh-manfaat-semua-golongan_20260720_dusk_home.md`
+- **Aminuddin confirms PH NS manifesto launches TONIGHT (20 Jul evening)**, attended by key PH leaders.
+- **Manifesto content preview:** expands benefits beyond B40 → **M40** ("we want more rakyat to benefit"). Continuity of prior state-government initiatives retained + new additions.
+- "Banyak yang kami teruskan, kami mendapat maklumat inisiatif sebelum ini telah memberi manfaat yang besar kepada penduduk di Negeri Sembilan."
+- Aminuddin met traders at Medan Selera Dataran Tanjung Agas, Linggi, Port Dickson (Linggi campaign ground intel).
+- **Significance:** CONFIRMS the PH manifesto launch event flagged as the next major collection window in the lateafternoon index. B40→M50 expansion = notable manifesto strategy. This is a pre-launch preview — the full manifesto content + launch coverage (expected 18:00-20:00 MYT) = next cycle priority. PIR-07 + PIR-16.
+
+---
+
+## 🟡 PIR-16 — FIRST DOMINANT CAMPAIGN NARRATIVES — [CRITICAL] NOT CROSSED (24th cycle)
+
+**PIR-16 [CRITICAL] threshold NOT CROSSED.** No hard-news outlet corroboration of "Bersatu exit imminent?" or "Bersatu sasar bentuk kerajaan negeri" as explicit headline (gnews 0 hits; no RSS/homepage match). The "Bersatu kian tidak relevan / krisis identiti" narrative continues to surface in sidebar text but no hard-news headline yet.
+
+### NEW PIR-16 intelligence this dusk cycle:
+
+### 1. Akmal Saleh: DAP "ketandusan idea" bringing "new lies" to NS PRN [FRESH 15:35 MYT, NEW]
+→ `priority_PIR-06-PIR-07-PIR-16_Sinar_dap-ketandusan-idea-bawa-penipuan-baharu-pada-prn-negeri-sembilan-akmal-saleh-si_20260720_dusk_home.md`
+- **Umno Youth chief Datuk Dr Muhamad Akmal Saleh** (ADUN Merlimau): DAP "running out of ideas," continuing to use misleading narratives in NS PRN.
+- "Previously DAP lied to the rakyat with 'undi BN, Najib dibebaskan' in Johor. This time in NS they come with a new lie."
+- References **Tony Pua's PRU16 claim**: Pua urged voters to keep supporting PH, warning that **Zahid would become PM** if otherwise. Voting for "pengacau" (spoiler) parties or not voting = advantages BN.
+- **Significance:** NEW PIR-16 narrative volley from Akmal (Umno's most aggressive campaigning voice). Frames DAP as deceitful; the Tony Pua/Zahid-PM angle connects to the intra-unity-government tension. PIR-16 "DAP acceptance" + "MCA biggest loser" narrative cluster.
+
+### 2. Kamil Munim JET REBUTTAL — denies asset misuse [FRESH 15:32 MYT, NEW]
+→ `priority_PIR-06-PIR-07_Sinar_dakwaan-salah-guna-aset-kerajaan-tidak-benar-kamil-munim-sinar-harian_20260720_dusk_home.md`
+- **AMK chief Kamil Munim** (PM's political secretary): DENIES misusing government assets/jet during Kelantan visit. Explains he accompanied PM Anwar on official duties (Terminal Lapangan Terbang Sultan Ismail Petra, mosque ramah mesra, PKR convention).
+- "I was assigned to accompany the PM. I only followed in my capacity as political secretary — not using government facilities for personal interest."
+- References **Tengku Zafrul** (PM's senior advisor) also implicated in the jet-misuse allegation.
+- Warns netizens/TikTokers about fitnah (slander) "especially now in election season."
+- **Significance:** This is the REBUTTAL to the "jet rasmi" allegation that surfaced in the morning cycle (where Kamil was the PKR Youth chief framing BN-PN as a plot to topple Anwar). The jet-misuse attack was a counter-offensive against Kamil's anti-BN-PN rhetoric. PIR-16 Kamil Munim narrative thread + intra-PKR tension.
+
+### 3. Rafizi's "Bersama" party will be "humiliated again in Melaka" — analyst [FRESH 15:28 MYT, NEW]
+→ `priority_PIR-06-PIR-07_Sinar_selepas-johor-parti-rafizi-akan-dimalukan-lagi-di-melaka-penganalisis-sinar-hari_20260720_dusk_home.md` + `priority_..._Utusan_..._20260720_dusk_home.md`
+- **Analyst Prof Madya Dr Mohamad Faisol Keling** (UUM): after losing ALL 15 DUN seats in Johor (lost deposits), Rafizi's "Bersama" party will face the same fate in Melaka PRN.
+- Reasons: high Malay rejection of Rafizi's ministerial performance + Chinese voters returning to PH after PAS-BN cooperation.
+- **Tony Pua** calls Bersama "parti pengacau" (spoiler party) — broke PH votes causing 2-seat loss in Johor.
+- Bersama confirmed NOT contesting NS PRN16, focusing on Melaka.
+- **Significance:** PIR-16 "Melaka PH-BN fracture" + "Melaka withdrawal" narrative. Bersama = the new spoiler-party variable. Confirms Melaka PRN as the next domino after NS.
+
+### 4. MCA asserts accountability voice — KWAP/eFishery PAC probe call [FRESH 15:42 MYT, NEW]
+→ `priority_PIR-06-PIR-07_Sinar_mca-gesa-pac-siasat-kerugian-pelaburan-kwap-dalam-efishery-sinar-harian_20260720_dusk_home.md`
+- **MCA information chief Chan Quin Er** urges PAC to investigate KWAP's loss in eFishery (Indonesian aquaculture tech startup). RM200m (PM's figure) vs RM163.4m (KWAP's figure) discrepancy.
+- Targets **Anwar as both PM and Finance Minister** — "cannot confirm the process was correct while simultaneously denying responsibility when KWAP was defrauded."
+- Demands: KWAP board, investment panel, top management explain approval process + control mechanisms. SPRM investigation if negligence/breach found.
+- eFishery ex-CEO sentenced to 9 years in Indonesia for financial manipulation.
+- **Significance:** PIR-16 "MCA rebuttal / MCA biggest loser" — MCA is actively asserting itself as an accountability/fiscal-watchdog voice DURING the NS campaign period (KWAP = federal issue, not NS-specific). This is MCA's positioning counter to the "MCA biggest loser" narrative. Chan Quin Er = emerging MCA spokesperson.
+
+### 5. KJ: "ada sesuatu yang tak kena dalam kerjasama BN-PH" [Utusan republication, 07:58 MYT]
+→ `priority_PIR-06-PIR-07_Utusan_ada-sesuatu-yang-tak-kena-dalam-kerjasama-bn-ph_20260720_dusk_sidebar.md`
+- **KJ** (ex-UMNO youth chief, Rembau): "Something is wrong with BN-PH cooperation in the Federal Government." Johor = first warning, NS = next, Melaka = second warning, PRU16 = third ("we thrash them completely").
+- Warns DAP/Nga Kor Ming: "jangan cakap macam itu" — PH partners keep crossing lines.
+- UMNO must sell dreams to urban Malays (80% of Malays live in cities) — AI engineers, millionaires.
+- **Significance:** Utusan enrichment of prior Sinar "ada sesuatu yang tak kena dalam kerajaan perpaduan" piece. Full KJ "makmal politik PRU16" framing: Johor→NS→Melaka→PRU16 escalation ladder. PIR-16 "makmal politik" + "penyatuan undi Melayu."
+
+### 6. "Bersatu sasar bentuk kerajaan negeri" — structural evidence [CARRY-FORWARD, NOT CRITICAL]
+- Bersatu running independently from PN/Wawasan (separate candidates at Pertang, Sikamat, Rahang) = the structural manifestation. No hard-news headline yet explicitly stating "Bersatu sasar bentuk kerajaan negeri" or "Bersatu exit imminent." Maintained.
+
+---
+
+## ⚠️ COLLECTION LIMITATIONS (dusk cycle)
+
+- **gnews freshness (24th cycle):** 82 queries → 694 items, 425 PRN/priority hits, **1 fresh** (Aminuddin jaga adab via Awani 15:56 MYT). gnews continues to surface mostly historical matches; the 1 fresh hit was successfully extracted.
+- **RSS feeds:** FMT 50 (18 PRN saved), HarianMetro 51 (11 PRN saved), Awani 10 (1 fresh saved). NST/MalayMail/Sinar/Utusan/BH RSS still return 0 (JS/403).
+- **Homepage extraction:** 6 articles saved (Utusan, Sinar). NST/Star/Kosmo/BH/mStar returned few/no PRN candidate links.
+- **Sinar targeted scan (788660-788720):** 0 PRN hits — range exhausted (no new articles in that ID window). The fresh Sinar content (788631-788636) was recovered via homepage extraction, not ID scan.
+- **Utusan sidebar recovery:** 6 fresh articles recovered by following sidebar links from the PH manifesto piece — high-yield technique. Discovered: derhaka rebuttal, PH Selangor BN-PN, Terengganu, Perlis, rampas Selangor, KJ ada sesuatu tak kena.
+- **[CRITICAL] auto-flag:** 1 FALSE POSITIVE corrected (Fashion Valet CBT trial — PNB = Permodalan Nasional Bhd matched "pn"; "withdraw"/"advances" matched fund-withdrawal, not candidate withdrawal). Detector needs PNB-surname exclusion + context-aware "withdraw" disambiguation.
+- **False positives (~15):** World Cup (Bangi Square, Johor footbrawl, Dataran Merdeka sampah), crime (rape, mechanic, police chief), federal (Fashion Valet, data centres, CIMB, Airborneo, Ryanair, Cyprus, Hormuz vessel, Sabah diesel), bowling, TFC recruit.
+
+---
+
+## 📈 CYCLE DELTA: late afternoon → dusk (15:25 → 16:37 MYT 20 Jul, ~1h12m)
+
+- **Articles saved:** 39 (26 RSS + 1 gnews URL + 6 homepage + 6 Utusan sidebar)
+- **Genuinely-fresh post-cutoff (≥15:25 MYT):** **8** (Aminuddin jaga adab 15:56, PH manifesto preview 15:51, derhaka rebuttal 15:59, PH Selangor BN-PN 15:56, Akmal DAP ketandusan 15:35, Kamil Munim rebuttal 15:32, Rafizi Melaka 15:28, MCA KWAP eFishery 15:42)
+- **Enrichments:** 3 (KJ, Noh Omar, NS-penentu-PRU16 — Utusan republications of prior Sinar content)
+- **PIR-06 status:** [CRITICAL] MAINTAINED (24th cycle). 1 auto-flag FALSE POSITIVE corrected. NEW intel: (a) BN-PN cooperation "will spread to all states" (Amanah Selangor); (b) Wawasan confirmed as PN vote-sharing partner (KJ); (c) Terengganu + Perlis "wait-and-see" reconfirms NS-specific cooperation; (d) N.31 Palong ground campaign (Mustapha Nagoor).
+- **PIR-07 status:** 3 major new items — (1) derhaka COUNTER-narrative from BN Palong candidate (N.31 Tier-4); (2) Aminuddin "jaga adab" call; (3) PH manifesto TONIGHT confirmed + B40→M50 preview.
+- **PIR-16 status:** NOT [CRITICAL]. 4 new narrative items — (a) Akmal "DAP ketandusan idea" + Tony Pua/Zahid-PM angle; (b) Kamil Munim jet rebuttal; (c) Rafizi "Bersama" Melaka humiliation forecast; (d) MCA KWAP/eFishery accountability voice (Chan Quin Er).
+- **Key narrative contestation this cycle:** the "derhaka" frame (PH) vs "bukan derhaka, ini demokrasi" (BN Palong) — first direct BN rebuttal. Plus MCA asserting fiscal-watchdog role (KWAP) counter to "MCA biggest loser" framing.
+
+---
+
+## 🎯 NEXT-CYCLE RECOMMENDATIONS (17:00–22:00 MYT window → PH MANIFESTO LAUNCH tonight)
+
+1. **PIR-07 (HIGHEST PRIORITY):** **PH MANIFESTO LAUNCH TONIGHT ~18:00-20:00 MYT** — now CONFIRMED by Aminuddin (Utusan 15:51). Capture ALL coverage when published (Awani, FMT, NST, Star, Sinar, Utusan, HarianMetro). Look for: full manifesto pledges/content, Amirudin Shari officiation, B40→M50 details, MB-after-PRN narrative, PH's 36-seat strategy.
+2. **PIR-07 (continued):** Monitor derhaka narrative evolution — does PH respond to BN Palong candidate's "bukan derhaka" rebuttal? Track Chembong (N.27/N.31) + Palong sabotage follow-up. Track election-death hit-and-run investigation (Rantau area). BN manifesto 24 Jul at DUN Linggi + Pertang — monitor advance coverage.
+3. **PIR-06 ([CRITICAL] watch):** 24th cycle with no threshold crossing. Maintain formal-removal watch: Bersatu Supreme Council quorum, RoS, "lebih hebat new coalition," Bersatu candidate withdrawal. Monitor Wawasan vote-sharing arrangement (now confirmed by KJ). Monitor Gerakan-Bersatu Rahang dispute follow-up.
+4. **PIR-16:** Track whether any hard-news outlet explicitly publishes "Bersatu exit imminent?" or "Bersatu sasar bentuk kerajaan negeri" as headline → if yes = [CRITICAL]. Track Akmal's "DAP ketandusan idea" narrative pickup. Track MCA KWAP/eFishery story (does it escalate to a major campaign issue?). Track Kamil Munim jet rebuttal response. Monitor "toxic PN" volley.
+5. **Source maintenance:** Utusan sidebar-link following = proven high-yield technique (6 fresh articles). Re-poll FMT/Awani/HarianMetro RSS for post-16:37 MYT fresh content. Sinar homepage extraction = proven yield. gnews URL resolution = 1 fresh hit this cycle (Awani Aminuddin piece).
+
+---
+
+*Dusk cycle index appended 2026-07-20 ~16:37 MYT (08:37 UTC) by PRN Negeri Sembilan 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. 39 articles saved (26 RSS + 1 gnews URL + 6 homepage + 6 Utusan sidebar). [CRITICAL] NOT crossed (24th cycle; 1 auto-flag FALSE POSITIVE corrected — Fashion Valet CBT trial: PNB matched "pn", "withdraw"/"advances" matched fund-withdrawal not candidate withdrawal). Key dusk developments: (1) PH MANIFESTO TONIGHT CONFIRMED — Aminuddin confirms launch 20 Jul evening, B40→M50 expansion, continuity of prior initiatives; (2) DERHAKA COUNTER-NARRATIVE — BN Palong (N.31 Tier-4) candidate Mustapha Nagoor: "withdrawing support from MB is NOT derhaka, derhaka = opposing Ruler/Undang Yang Empat"; references DAP Melaka precedent; (3) Aminuddin "jaga adab, integriti" call — references 2 police investigation papers on sabotage; (4) Kamil Munim JET REBUTTAL — denies asset misuse during Kelantan visit, explains PM political secretary role; references Tengku Zafrul; (5) Akmal Saleh: DAP "ketandusan idea" bringing "new lies" to NS PRN, references Tony Pua/Zahid-PM PRU16 claim; (6) Analyst: Rafizi's "Bersama" party will be "humiliated again in Melaka" after Johor wipeout; Tony Pua calls Bersama "parti pengacau"; (7) MCA Chan Quin Er urges PAC probe into KWAP RM200m eFishery loss, targets Anwar as PM+Finance Minister; (8) BN-PN cooperation "will spread to all states" — Amanah Selangor's Abbas Azmi; calls BN Selangor political appointees to resign; "api dalam sekam" warning; (9) Noh Omar: 6 parliament + 34 DUN Selangor seats capturable; KJ: Wawasan confirmed as PN vote-sharing partner; (10) Terengganu + Perlis "wait-and-see" reconfirms NS-specific cooperation. PH manifesto launch tonight 18:00-20:00 MYT — next major collection window.*
