@@ -1145,3 +1145,277 @@ Other non-NS (×4): `..._Awani_sampel-salad-positif-parasit-*` (US parasite outb
 ---
 
 *Dusk cycle index appended 2026-07-20 ~16:37 MYT (08:37 UTC) by PRN Negeri Sembilan 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. 39 articles saved (26 RSS + 1 gnews URL + 6 homepage + 6 Utusan sidebar). [CRITICAL] NOT crossed (24th cycle; 1 auto-flag FALSE POSITIVE corrected — Fashion Valet CBT trial: PNB matched "pn", "withdraw"/"advances" matched fund-withdrawal not candidate withdrawal). Key dusk developments: (1) PH MANIFESTO TONIGHT CONFIRMED — Aminuddin confirms launch 20 Jul evening, B40→M50 expansion, continuity of prior initiatives; (2) DERHAKA COUNTER-NARRATIVE — BN Palong (N.31 Tier-4) candidate Mustapha Nagoor: "withdrawing support from MB is NOT derhaka, derhaka = opposing Ruler/Undang Yang Empat"; references DAP Melaka precedent; (3) Aminuddin "jaga adab, integriti" call — references 2 police investigation papers on sabotage; (4) Kamil Munim JET REBUTTAL — denies asset misuse during Kelantan visit, explains PM political secretary role; references Tengku Zafrul; (5) Akmal Saleh: DAP "ketandusan idea" bringing "new lies" to NS PRN, references Tony Pua/Zahid-PM PRU16 claim; (6) Analyst: Rafizi's "Bersama" party will be "humiliated again in Melaka" after Johor wipeout; Tony Pua calls Bersama "parti pengacau"; (7) MCA Chan Quin Er urges PAC probe into KWAP RM200m eFishery loss, targets Anwar as PM+Finance Minister; (8) BN-PN cooperation "will spread to all states" — Amanah Selangor's Abbas Azmi; calls BN Selangor political appointees to resign; "api dalam sekam" warning; (9) Noh Omar: 6 parliament + 34 DUN Selangor seats capturable; KJ: Wawasan confirmed as PN vote-sharing partner; (10) Terengganu + Perlis "wait-and-see" reconfirms NS-specific cooperation. PH manifesto launch tonight 18:00-20:00 MYT — next major collection window.*
+
+---
+
+# 🌙 NIGHT CYCLE — 20260720_night (collected 18:26 MYT / 10:28 UTC, 20 Jul 2026)
+
+**Cycle window:** 16:37 → 18:26 MYT 20 Jul 2026 (~1h49m since dusk cycle)
+**Script:** `_surge_fetch_20260720_night.py` (88 gnews queries, 10 RSS feeds, 17 homepage pages, Sinar ID scan 788720-788800)
+**Cutoff:** post-08:37 UTC 20 Jul (post-16:37 MYT 20 Jul) = prior dusk cycle end
+
+## Collection Metrics
+
+| Metric | Value |
+|---|---|
+| gnews queries | 88 |
+| gnews items returned | 754 |
+| gnews PRN/priority hits | 448 |
+| gnews fresh post-cutoff | 1 |
+| RSS feed items scanned | 865 (Awani 10, FMT 50, HarianMetro 51; NST/MalayMail/Sinar/Utusan/BH RSS = 0) |
+| RSS PRN hits | 87 |
+| RSS full-text saved | 30 |
+| URL-extracted (gnews + RSS no-full) | 7 |
+| Homepage extracted | 10 |
+| Sinar ID scan (788720-788800) | 0 PRN hits |
+| **Total articles saved** | **47 (script) + 1 manual (BN bazir) = 48** |
+| Duplicates skipped | 48 |
+| [CRITICAL] auto-flagged | **0** |
+| False positives | ~20 (World Cup, crime, federal non-PRN, elephant transfer DAK) |
+
+## Key New Articles (genuinely fresh post-16:37 MYT or new to collection)
+
+### 1. PH MANIFESTO PREVIEW — launches TONIGHT [FRESH 18:05 MYT, HIGHEST PRIORITY] ⭐
+→ `priority_PIR-07_HarianMetro_prn-n9-manifesto-ph-kesinambungan-usaha-kerajaan-perpaduan-beri-manfaat-semua-la_20260720_night_rss.md`
+- **Aminuddin Harun** (MB, PH Linggi candidate) confirms PH manifesto launches tonight (20 Jul evening).
+- Manifesto = **continuity of Unity Government's prior work** ("kesinambungan pengisian diusahakan kerajaan PH sebelum ini"). Covers all layers of society.
+- Key quote: "Bukan harapan untuk mereka tunggu dan dengar tapi harapan untuk kita laksanakan" — emphasis on delivery, not promises.
+- **Amirudin Shari** (Selangor MB, PH Presidential Council member, Co-Director of NS PRN) to officiate the launch.
+- **Muhammad Zaki Md Sabri** (media centre sec-gen): manifesto will detail future plans as continuation of Aminuddin's administration.
+- **PIR-07 Significance:** This is the PRE-LAUNCH preview. The actual launch event coverage (expected ~19:00-20:00 MYT) = NEXT collection target. Confirms Amirudin Shari's elevated campaign role.
+
+### 2. Sanjeevan REBUTS Khaled "kacau daun" — Bersatu candidate fires back [FRESH 17:49 MYT, NEW] ⭐
+→ `priority_PIR-06-PIR-07-PIR-16_FMT_sanjeevan-bidas-khaled-angkuh-gelar-bersatu-kacau-daun-di-n-sembilan_20260720_night_rss.md`
+- **R Sri Sanjeevan** (Bersatu Associated Chief, DUN Jeram Padang candidate) rebuts Khaled Nordin's "Bersatu kacau daun" dismissal.
+- Calls Khaled **"angkuh" (arrogant)** — Johor victory made Umno overconfident. "Mereka mula menunjukkan keangkuhan dan menganggap gelombang itu boleh dibawa ke Negeri Sembilan."
+- **Johor ≠ NS:** "Keadaan politik di Johor dan Negeri Sembilan amat berbeza. Saya percaya gelombang yang berlaku di Johor tidak akan sampai ke Negeri Sembilan."
+- Confident NS voters will **"block the blue wave"** ("menyekat gelombang biru") and Umno-BN resurgence under Zahid Hamidi.
+- **Rejects "Bersatu will be buried" narrative:** "Apa juga yang berlaku kepada Bersatu dalam PN, ia tidak akan menyebabkan parti ini terkubur."
+- **PIR-06/16 Significance:** Bersatu's own candidate directly pushing back against the "kacau daun / disarray" narrative (PIR-16). New narrative contestation vector: Bersatu's survival defense vs Umno's "kacau daun" dismissal. Not [CRITICAL] — no formal exit/expulsion/quorum trigger, but important PIR-16 rebuttal.
+
+### 3. Akmal Saleh REBUTS AMK — "menggelupur sangat bila kita nak bersatu" [FRESH 18:14 MYT, NEW]
+→ `priority_PIR-06-PIR-07_Sinar_menggelupur-sangat-bila-kita-nak-bersatu-akmal-saleh-bidas-amk-sinar-harian_20260720_night_home.md`
+- **Akmal Saleh** (UMNO Youth chief) rebuts AMK (PKR Youth) criticism of Malay party unity efforts.
+- AMK's **Ghafurullah Ismail** (Selangor AMK Sec-Gen) claimed UMNO is "willing to depend on opponents for power" and called the unity effort **"cium tapak kaki" (kissing feet)**.
+- Akmal fires back: "By AMK's logic, their cooperation with DAP means they're 'kissing DAP's feet' too."
+- Also references AMK's dismissal of **Afifi Aris** (UMNO Kapar Youth chief) who claimed BN-PAS cooperation could help UMNO recapture Kapar.
+- Akmal: "Menggelupur sangat bila kita nak bersatu" (squirming too much when we try to unite).
+- **Related analysis:** "Jangan baru dicuit sedikit, sudah menggelupur dan melenting" (Sinar, 17:07 MYT, by Norhaspida Yatim) — commentary arguing excessive reactions show some leaders' inability to handle differences maturely. (URL returned 404; captured via sidebar reference only.)
+- **PIR-06/16 Significance:** UMNO Youth vs PKR Youth exchange ESCALATES. AMK's "cium tapak kaki" = a NEW PIR-16 narrative volley (ridiculing Malay unity/penyatuan undi Melayu). Akmal's counter = "you're kissing DAP's feet" — reverses the frame. Connects to PIR-16 "penyatuan undi Melayu" and "makmal politik" threads.
+
+### 4. Aminuddin: campaign with integrity, condemns vandalism [FRESH 17:05 MYT EN / 18:18 MYT BM]
+→ `priority_PIR-07_MalayMail_aminuddin-urges-integrity-in-negeri-sembilan-polls-condemns-vandalism-of-campaig_20260720_night_home.md` (EN, 17:05 MYT)
+→ `priority_PIR-06-PIR-07_HarianMetro_prn-n9-kempenlah-secara-beradab-matang-aminuddin_20260720_night_rss.md` (BM, 18:18 MYT)
+- Aminuddin calls on ALL parties to campaign with integrity, obey election laws. Vandalism = "no place in mature democracy."
+- **Vandalism incidents (Day 2 of campaign):** flags BURNED in **Palong (N.31)**; flagpoles DAMAGED in **Chembong (N.27)**.
+- **NS Police Chief Datuk Alzafny Ahmad** confirms: report received on Jempol (Palong) vandalism; Chembong investigation ONGOING.
+- EN version (Bernama): DUN dissolved June 5, early voting July 28, polling August 1.
+- BM version adds: Aminuddin also addresses Chuah candidacy issue (resolved before nomination day, "tidak sepatutnya dijadikan isu").
+- **PIR-07 Significance:** Continuation of PIR-07 vandalism/sabotage thread from dusk cycle. Confirms Chembong (N.27) investigation still open. Palong (N.31) = same seat where derhaka counter-narrative emerged (dusk cycle). Both = Tier-4 seats.
+
+### 5. Chuah NO internal split — Aminuddin + Kenny Chiew joint presser [FRESH 17:00 MYT, NEW]
+→ `priority_PIR-07_Utusan_tiada-perpecahan-dalaman-di-dun-chuah_20260720_night_home.md`
+- **Aminuddin Harun** + **Yew Boon Lye** (PH Chuah incumbent candidate) + **Kenny Chiew** (PKR Port Dickson deputy chief) joint press conference at Port Dickson.
+- Chuah candidacy issue **RESOLVED before nomination day** — Kenny was passed over despite "giving service and working hard." Social media tried to frame it as a split.
+- Kenny gives **full support** to PH candidates in Chuah, Lukut, Sri Tanjung, Bagan Pinang, Linggi.
+- Aminuddin: "Bukan perpecahan tetapi dimainkan isu ini di media sosial." Thanks Kenny for clarifying to machinery.
+- Kenny: accepts decision, "party interest > personal interest."
+- **PIR-07 Significance:** Resolves the Chuah (N.33) internal tension narrative. Five PD-area DUN seats (Chuah, Lukut, Sri Tanjung, Bagan Pinang, Linggi) = PH's PD bastion. Unified front presented.
+
+### 6. BN won't waste campaign time attacking — Jalaluddin at Kampung Jerang [FRESH 17:56 MYT, NEW]
+→ `priority_PIR-06-PIR-07_Utusan_bn-tidak-akan-bazir-masa-kempen-untuk-serang-mana-mana-pihak_20260720_night_home.md`
+- **Jalaluddin Alias** (NS UMNO chairman, BN Pertang candidate) at walkabout in Kampung Jerang, Jelebu.
+- BN won't waste short campaign time attacking: "Gunakan masa berkempen sebaiknya, jangan sia-siakan 20 atau 30 minit hanya untuk mencaci."
+- Will respond if continuously insulted but won't degrade opponents.
+- **KEY SIGNAL:** "Calon-calon BN juga tidak menyentuh perkara berkaitan Kerajaan Perpaduan dalam kempen kerana masing-masing memahami perkara yang wajar dan tidak wajar untuk dibangkitkan" — **BN candidates deliberately AVOID Unity Government criticism in NS campaign.**
+- **PIR-06/07 Significance:** PIR-06 signal — BN's careful navigation of federal-state tension. BN is in coalition with PH federally but opposing PH in NS — the "don't mention Unity Government" directive reflects internal discipline to avoid alienating federal partners while campaigning against them locally. PIR-07 — Jalaluddin walkabout in Jelebu (near Pertang DUN).
+
+### 7. 13,263 postal ballots issued — electoral operational data [FRESH 17:26 MYT, NEW]
+→ `priority_PIR-06-PIR-07_Utusan_prn-n-sembilan-13-263-kertas-undi-pos-dikeluarkan-hari-ini_20260720_night_home.md`
+- **EC Secretary Datuk Khairul Shahril Idrus** confirms 13,263 postal ballots issued today (20 Jul).
+- Breakdown: 12,669 Cat-1A (election workers, SPR, police, military, media); 343 Cat-1B (Malaysians abroad); 251 Cat-1C (11 security/health agencies).
+- Process witnessed by candidate reps from all parties.
+- Postal voters reminded: mark ballot, fill Form 2, return before 5pm polling day (Aug 1). Don't photograph/share ballot on social media.
+- **PIR-07 Significance:** Electoral operational baseline. 13,263 postal ballots = ~1.1% of total electorate. Early voting July 28, polling Aug 1.
+
+### 8. Anwar defends KWAP/eFishery — federal context [NEW to collection, 11:12-17:04 MYT]
+→ `priority_PIR-07_MalayMail_anwar-defends-kwap-over-efishery-loss-says-rm12-9b-profit-puts-setback-in-perspe_20260720_night_home.md`
+- **Anwar Ibrahim** (PM + Finance Minister) defends KWAP's RM163.4m eFishery investment in Dewan Negara.
+- Investment went through rigorous process, no political interference. Individual decisions made independently by professionals.
+- KWAP not alone — Temasek, SoftBank, Sequoia, Aqua-Spark, 42XFund, Northstar also invested.
+- RM160m loss should be viewed against KWAP's **RM12.9b net profit in 2024**, RM15.8b fund size increase, 9.3% annual growth.
+- Supports MACC investigation: "If there are elements of wrongdoing, the MACC must investigate."
+- Draws parallel to 1MDB: "Even world-renowned auditors approve something, it is no guarantee of success."
+- eFishery ex-CEO Gibran Huzaifah sentenced to 9 years (Bandung District Court, April 29) for embezzlement + money laundering.
+- **PIR-16 Significance:** This is the FEDERAL-LEVEL response to MCA's Chan Quin Er PAC probe call (dusk cycle). MCA's accountability-voice positioning now has a direct Anwar rebuttal. KWAP/eFishery narrative thread connects federal fiscal governance to NS campaign discourse. Pre-cutoff (11:12 MYT) but new to collection — provides the Anwar-side context for the ongoing KWAP exchange.
+
+## PIR Status Assessment
+
+### PIR-06 — Coalition Operational Arrangement [CRITICAL — NOT CROSSED, 25th cycle]
+- **No formal PN-MT expulsion notice, Bersatu candidate withdrawal, Kiandee quorum escalation, or "lebih hebat new coalition" formalization detected.**
+- NEW: Bersatu's own candidate (Sanjeevan, Jeram Padang) rejects "Bersatu will be buried" narrative — defensive posture, not exit signal.
+- NEW: BN candidates deliberately AVOID Unity Government criticism in campaign (Jalaluddin directive) — reflects BN's careful federal-state coalition management.
+- NEW: Akmal vs AMK "cium tapak kaki" exchange = UMNO-PKR Youth tension over Malay unity, but not a coalition fracture signal.
+- Maintain [CRITICAL] watch.
+
+### PIR-16 — First Dominant Campaign Narratives [NOT CRITICAL, 25th cycle]
+- **No hard-news outlet has explicitly published "Bersatu exit imminent?" or "Bersatu sasar bentuk kerajaan negeri" as a headline.** Threshold NOT crossed.
+- NEW narrative volleys:
+  - (a) Sanjeevan's "Bersatu won't be buried" rebuttal of Khaled's "kacau daun" — Bersatu's survival defense.
+  - (b) Akmal's "menggelupur sangat" + "cium tapak kaki" reversal — UMNO Youth vs PKR Youth escalation over penyatuan undi Melayu.
+  - (c) "Jangan baru dicuit sedikit, sudah menggelupur dan melenting" — Sinar analysis (17:07 MYT) framing excessive reactions as immaturity.
+  - (d) Anwar's KWAP defense — federal response to MCA's PAC probe call. The KWAP/eFishery thread continues as a MCA accountability-voice vs Anwar governance thread.
+
+### PIR-07 — Highest-Priority Battlegrounds
+- **PH Manifesto launch TONIGHT** — confirmed by Aminuddin, Amirudin Shari to officiate. Pre-launch preview captured (18:05 MYT). Actual launch coverage = next collection target.
+- **Palong (N.31):** flags burned (vandalism confirmed by police chief). Same seat as derhaka counter-narrative (dusk).
+- **Chembong (N.27):** flagpoles damaged, investigation ONGOING.
+- **Chuah (N.33):** internal split narrative RESOLVED — Aminuddin + Kenny Chiew joint presser.
+- **Pertang (N.28):** Jalaluddin walkabout at Kampung Jerang, Jelebu — "BN won't waste time attacking" + avoid Unity Govt criticism.
+- **Linggi (N.32):** Aminuddin campaigning — manifesto preview + integrity call delivered here.
+
+## ⚠️ COLLECTION LIMITATIONS (night cycle)
+
+- **gnews freshness:** 88 queries → 754 items, 448 PRN/priority hits, **1 fresh** post-cutoff. gnews continues to surface mostly historical matches.
+- **RSS feeds:** Awani 10 (9 PRN, 0 fresh), FMT 50 (42 PRN, several fresh), HarianMetro 51 (36 PRN, several fresh). NST/MalayMail/Sinar/Utusan/BH RSS = 0 (JS/403).
+- **Homepage extraction:** 10 articles saved (Utusan 3, Sinar 3, MalayMail 3, NST 1). Star/Kosmo/BH/mStar = 0 PRN links.
+- **Sinar ID scan (788720-788800):** 0 PRN hits — range exhausted. Fresh Sinar content (788655, 788659) was recovered via homepage/sidebar, not ID scan.
+- **Sinar "jangan dicuit" article (788659):** URL returned 404; captured via sidebar reference only (title + description: "Reaksi politik yang berlebihan menunjukkan ketidaksediaan segelintir kepimpinan dalam menguruskan perbezaan pandangan secara matang").
+- **False positives (~20):** World Cup (Parades, Paredes), crime (rape, Durian Tunggal shooting inquest), federal non-PRN (KWAP/eFishery is PRN-adjacent via MCA thread but article itself is federal), elephant transfer DAK (MCW/SPRM — NOT PRN), foreign news (China, Morocco, Mexico, Thames Water, Ryanair, Mideast, Kremlin).
+- **Utusan sidebar technique:** Recovered "BN tidak akan bazir masa" (Jalaluddin, 17:56 MYT) by following sidebar link from the postal-ballots article — proven high-yield again.
+
+---
+
+## 📈 CYCLE DELTA: dusk → night (16:37 → 18:26 MYT 20 Jul, ~1h49m)
+
+- **Articles saved:** 48 (30 RSS + 7 URL-extract + 10 homepage + 1 manual Utusan sidebar)
+- **Genuinely-fresh post-cutoff (≥16:37 MYT):** **9** (PH manifesto preview 18:05, Sanjeevan rebuttal 17:49, Akmal AMK rebuttal 18:14, Aminuddin adab BM 18:18, Aminuddin integrity EN 17:05, Chuah no split 17:00, postal ballots 17:26, BN bazir masa 17:56, jangan dicuit analysis 17:07)
+- **New to collection (pre-cutoff):** 1 (Anwar KWAP defense 11:12-17:04 MYT — federal context)
+- **PIR-06 status:** [CRITICAL] MAINTAINED (25th cycle). No threshold crossing. NEW: Sanjeevan's "Bersatu won't be buried" rebuttal + BN avoids Unity Govt criticism directive.
+- **PIR-16 status:** NOT [CRITICAL]. 4 new narrative volleys — Sanjeevan "kacau daun" rebuttal, Akmal "menggelupur/cium tapak kaki," "jangan dicuit" analysis, Anwar KWAP defense vs MCA PAC call.
+- **PIR-07 status:** PH MANIFESTO PREVIEW captured (pre-launch). Actual launch tonight = next target. Palong/Chembong vandalism confirmed. Chuah split resolved. Pertang Jalaluddin walkabout.
+- **Key narrative contestation this cycle:** Bersatu's survival defense (Sanjeevan "won't be buried") vs Umno's "kacau daun" dismissal (Khaled). Plus UMNO Youth vs PKR Youth "cium tapak kaki" escalation (Akmal vs AMK) over Malay unity.
+
+---
+
+## 🎯 NEXT-CYCLE RECOMMENDATIONS (19:00–23:00 MYT window → PH MANIFESTO LAUNCH COVERAGE)
+
+1. **PIR-07 (HIGHEST PRIORITY):** **PH MANIFESTO LAUNCH COVERAGE** — the actual launch event is tonight ~19:00-20:00 MYT. Capture ALL coverage when published: full manifesto pledges/content, Amirudin Shari's speech, B40→M50 details, specific initiatives, MB-after-PRN framing. Re-poll Awani/FMT/HarianMetro/NST/Sinar RSS + homepages for post-19:00 content.
+2. **PIR-07 (continued):** Monitor vandalism/sabotage follow-up — Palong (N.31) + Chembong (N.27) investigations. Monitor election-death hit-and-run (Rantau area, from lateafternoon). BN manifesto 24 Jul at DUN Linggi — monitor advance coverage.
+3. **PIR-06 ([CRITICAL] watch):** 25th cycle with no threshold crossing. Maintain formal-removal watch. Monitor BN's "avoid Unity Govt criticism" directive — does it hold or crack? Monitor Sanjeevan's "Bersatu won't be buried" narrative pickup — does it signal Bersatu digging in or preparing exit?
+4. **PIR-16:** Track whether "Bersatu exit imminent?" or "Bersatu sasar bentuk kerajaan negeri" appears as a hard-news headline → if yes = [CRITICAL]. Track Akmal-AMK "cium tapak kaki" escalation. Track KWAP/eFishery: does Anwar's defense escalate or defuse the MCA PAC probe call?
+5. **Source maintenance:** Utusan sidebar-link following = proven (recovered BN bazir masa). Re-poll FMT/Awani/HarianMetro RSS for post-18:26 fresh content. Sinar homepage extraction working (788655 Akmal piece). gnews freshness = 1 hit — low yield but still produces some.
+
+---
+
+*Night cycle index appended 2026-07-20 ~18:26 MYT (10:28 UTC) by PRN Negeri Sembilan 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. 48 articles saved (30 RSS + 7 URL-extract + 10 homepage + 1 manual). [CRITICAL] NOT crossed (25th cycle). Key night developments: (1) PH MANIFESTO PREVIEW — Aminuddin confirms launch tonight, Amirudin Shari to officiate, continuity of Unity Govt work, all-layers coverage; (2) SANJEEVAN REBUTS KHALED — Bersatu Jeram Padang candidate calls Khaled "angkuh," Johor≠NS, "Bersatu won't be buried" regardless of PN internal conflicts; (3) AKMAL REBUTS AMK — "menggelupur sangat bila kita nak bersatu," reverses "cium tapak kaki" frame onto AMK-DAP cooperation; (4) AMINUDDIN INTEGRITY/VANDALISM — flags burned Palong (N.31), flagpoles damaged Chembong (N.27), police investigation ongoing; (5) CHUAH NO SPLIT — Aminuddin + Kenny Chiew + Yew Boon Lye joint presser, issue resolved before nomination day; (6) BN WON'T WASTE TIME ATTACKING — Jalaluddin at Kampung Jerang, BN candidates deliberately avoid Unity Govt criticism; (7) 13,263 POSTAL BALLOTS issued — EC operational data; (8) ANWAR DEFENDS KWAP/eFishery — RM163.4m loss vs RM12.9b profit, supports MACC probe, federal response to MCA's PAC call. PH manifesto launch tonight — next major collection window.*
+
+---
+
+# 🌃 LATENIGHT CYCLE — 20260720_latenight (collected 19:36 MYT / 11:36 UTC, 20 Jul 2026)
+
+**Cycle window:** 18:26 → 19:36 MYT 20 Jul 2026 (~1h10m since night cycle)
+**Script:** manual collection (HarianMetro RSS + Utusan homepage + Buletin TV3 gnews + gnews scan)
+**Cutoff:** post-10:28 UTC 20 Jul (post-18:26 MYT 20 Jul) = prior night cycle end
+
+## Collection Metrics
+
+|| Metric | Value |
+||---|---|
+|| RSS feeds polled | 4 (FMT, FMT_BM, Awani, HarianMetro) |
+|| RSS PRN hits | 11 (HarianMetro 6, FMT_BM 9, Awani 0, FMT 2) |
+|| RSS fresh post-cutoff | 3 (HarianMetro: Jalaluddin 18:58, Asyraf Wajdi 18:41; FMT_BM: 2 non-PRN) |
+|| Homepage extracted | 5 (Utusan 3 commentary/nasional, Sinar 0, MalayMail 403, NST 0, Awani 2 non-fresh) |
+|| gnews queries | 29 (14 targeted + 5 quick-scan + 10 manifesto-specific) |
+|| gnews fresh post-cutoff | 0 (PH manifesto launch coverage NOT yet published) |
+|| **Total articles saved** | **5** |
+| [CRITICAL] auto-flagged | 0 |
+| False positives | ~5 (World Cup, weather, Starmer PM resignation, Saudi visa, India police) |
+
+## Key New Articles (genuinely fresh post-18:26 MYT or new to collection)
+
+### 1. ASYRAF WAJDI: UMNO won't 'menebuk atap' Unity Government [FRESH 18:41 MYT, HIGHEST PRIORITY] ⭐
+→ `priority_PIR-06-PIR-07_HarianMetro_umno-tidak-menebuk-atap-kerajaan-perpaduan-asyraf-wajdi_20260720_latenight_rss.md`
+→ Buletin TV3 version: "BN tidak akan sesekali 'tebuk atap', kekal dukung Perjanjian Kerajaan Perpaduan" (18:14 MYT, gnews)
+- **UMNO Secretary-General Datuk Dr Asyraf Wajdi Dusuki** gives explicit assurance UMNO will NOT undermine the Unity Government until it's dissolved for the next GE.
+- **COOPERATION-STABILIZING signal.** Directly addresses the BN-PN cooperation vs Unity Government tension. References the formal "Perjanjian Kerajaan Perpaduan" (Unity Government Agreement).
+- **Significance:** Strongest formal UMNO statement on federal coalition stability during NS campaign. Pairs with Jalaluddin's "BN candidates avoid Unity Govt criticism" directive (night cycle) — message discipline from top (SG) to ground (candidates). REDUCES PIR-06 [CRITICAL] risk.
+
+### 2. JALALUDDIN denies vote-buying — "button badge, not money" [FRESH 18:58 MYT, NEW] ⭐
+→ `priority_PIR-07_HarianMetro_prn-n9-button-badge-jalaluddin-nafi-beri-wang_20260720_latenight_rss.md`
+- **Jalaluddin Alias** (BN Pertang N.28 candidate) denies giving money to voters during walkabout at Kampung Bemban, Jelebu. Says items were "button badges" not cash.
+- **Significance:** FIRST explicit vote-buying allegation/rebuttal of the campaign. At Pertang (N.28) Tier-4 seat. Same candidate who said "BN won't waste time attacking" (night cycle) + "avoid Unity Govt criticism" directive. Active ground campaign in Jelebu/Pertang area.
+
+### 3. Royal institution insult — man arrested [FRESH 19:16 MYT, PRN-ADJACENT]
+→ `PIR-07_Utusan_lelaki-ditahan-hina-institusi-diraja-negeri-sembilan_20260720_latenight_home.md`
+- **52-year-old Malay man** arrested for uploading offensive content about NS royal institution (Undang Yang Empat) on social media. Uploaded 17 Jul (nomination day), arrested 20 Jul at IPD Seremban.
+- **NS Police Chief Datuk Alzafny Ahmad** confirms. Charges: Sedition Act S4, Penal Code S505, CMA S233.
+- **Significance:** Connects to "derhaka" narrative — BN Palong candidate defined "derhaka = menentang raja, menentang Undang Yang Empat" (dusk cycle). This arrest is about someone doing exactly that. Same police chief handling Palong/Chembong vandalism investigations.
+
+### 4. Utusan Commentary: "Gelanggang PRN NS mula dibuka" [NEW to collection]
+→ `priority_PIR-07-PIR-16_Utusan_commentary-gelanggang-prn-negeri-sembilan-mula-dibuka_20260720_latenight_home.md`
+- Campaign arena opens. 889,490 voters, 36 DUN seats. PRN held almost exactly 3 years after last (12 Aug 2023).
+- **Key framing:** Unlike Johor and Melaka, NS begins with NO coalition able to claim advantage in forming government. "Open contest" framing.
+
+### 5. Utusan Commentary: "Bolehkah status quo dipertahankan?" [NEW to collection]
+→ `priority_PIR-07-PIR-16_Utusan_commentary-prn-n-sembilan-status-quo-dipertahankan_20260720_latenight_home.md`
+- Can PH maintain the status quo? NS ≠ Johor — different political maps. NS characterized as stable, moderate, performance-oriented electorate.
+- Aminuddin Harun's administrative track record "cannot be denied" — PH's incumbent advantage acknowledged.
+- **PIR-16 significance:** Frames the central narrative contestation: PH's "prestasi pentadbiran" (performance) vs BN-PN's "penyatuan undi Melayu" (Malay unity). Pushes back on "Johor spillover" assumption.
+
+## PIR Status Assessment
+
+### PIR-06 — Coalition Operational Arrangement [CRITICAL — NOT CROSSED, 26th cycle]
+- **No formal PN-MT expulsion notice, Bersatu candidate withdrawal, Kiandee quorum escalation, or "lebih hebat new coalition" formalization detected.**
+- **NEW: Asyraf Wajdi's "menebuk atap" assurance** = COOPERATION-STABILIZING signal. UMNO SG formally commits to Unity Government stability. This is the STRONGEST counter-signal to PIR-06 [CRITICAL] risk to date — it directly addresses the federal-state tension.
+- **Cross-cycle pattern:** Asyraf Wajdi (SG, formal) + Jalaluddin (ground, directive) = consistent message discipline: BN-PN cooperation at state level ≠ federal destabilization. BN is carefully managing the dual-track position.
+- **MalaysiaGazette "Bersatu sasar bentuk kerajaan negeri" article:** Confirmed as already tracked (ESC-022, ACTIVE/CRITICAL since 19 Jul 17:25 cycle). Muhyiddin's 24-seat governing bid = ambition statement, NOT hard-news corroboration of formalized coalition split. 24 seats requires winning ALL 24 to form government (exceeds 19-seat majority but would need near-sweep). Maintained as pre-[CRITICAL] signal.
+- Maintain [CRITICAL] watch.
+
+### PIR-16 — First Dominant Campaign Narratives [NOT CRITICAL, 26th cycle]
+- **No hard-news outlet has explicitly published "Bersatu exit imminent?" or "Bersatu sasar bentuk kerajaan negeri" as a headline reporting a FORMALIZED event (vs reporting Muhyiddin's ambition statement).** Threshold NOT crossed.
+- **NEW this cycle:**
+  - (a) Utusan commentary "Bolehkah status quo dipertahankan?" — frames the central question of the PRN. NS's moderate/performance electorate vs Johor spillover assumption.
+  - (b) Utusan commentary "Gelanggang PRN mula dibuka" — "no coalition advantage" framing.
+  - (c) Vote-buying narrative emerging (Jalaluddin rebuttal) — first election-offense thread.
+  - (d) Royal institution insult arrest — "derhaka" narrative's real-world manifestation.
+
+### PIR-07 — Highest-Priority Battlegrounds
+- **PH Manifesto Launch:** Event expected ~19:00-20:00 MYT tonight. Pre-launch preview captured (night cycle, 18:05 MYT). Actual launch coverage NOT YET available in RSS/gnews as of 19:36 MYT — event likely ongoing. **NEXT CYCLE PRIORITY.**
+- **N.28 Pertang:** Jalaluddin active — vote-buying rebuttal (18:58 MYT, Kampung Bemban) + "avoid Unity Govt criticism" directive (night cycle, Kampung Jerang). Two walkabouts in Jelebu area in ~2 hours = intensive ground campaign.
+- **Royal institution arrest:** 52yo man arrested for insulting NS Undang Yang Empat. Connects to "derhaka" narrative at Palong (N.31). Same police chief (Alzafny) handling all PRN-related incidents.
+
+## ⚠️ COLLECTION LIMITATIONS (latenight cycle)
+
+- **gnews freshness:** 29 queries → 0 fresh post-cutoff hits. PH manifesto launch coverage not yet indexed by gnews (event still ongoing).
+- **RSS feeds:** HarianMetro = sole source of fresh PRN content (2 fresh articles: Jalaluddin 18:58, Asyraf Wajdi 18:41). FMT/FMT_BM = 0 fresh PRN. Awani = 0 PRN. NST/MalayMail/Sinar/Utusan/BH RSS = 0 (JS/403).
+- **Homepage extraction:** Utusan = 3 articles (2 commentary + 1 nasional). Sinar = 0 PRN links. MalayMail = 403. NST = 0. Awani = 2 (non-fresh).
+- **PH manifesto launch:** Event confirmed for tonight ~19:00-20:00 MYT (Aminuddin, night cycle). Coverage expected within 1-2 hours. NOT available at collection time (19:36 MYT).
+- **Article body extraction:** HarianMetro articles JS-rendered (0 body chars from page fetch); RSS description (intro paragraph) used as primary content. Utusan articles partially extracted via `<p>` tag parsing (enough for commentary analysis).
+- **False positives (~5):** World Cup (Madrid, Spain), weather warning (7 states), Starmer PM resignation (UK), Saudi umrah visa, India police gas.
+
+---
+
+## 📈 CYCLE DELTA: night → latenight (18:26 → 19:36 MYT 20 Jul, ~1h10m)
+
+- **Articles saved:** 5 (2 HarianMetro RSS + 2 Utusan homepage commentary + 1 Utusan homepage nasional)
+- **Genuinely-fresh post-cutoff (≥18:26 MYT):** **3** (Asyraf Wajdi 18:41, Jalaluddin 18:58, hina diraja 19:16)
+- **New to collection (pre-cutoff):** 2 (Utusan commentary pieces — dates uncertain, new to collection)
+- **PIR-06 status:** [CRITICAL] MAINTAINED (26th cycle). NEW: Asyraf Wajdi's "menebuk atap" assurance = COOPERATION-STABILIZING signal (strongest counter to [CRITICAL] risk). BN message discipline confirmed (SG + ground candidates aligned).
+- **PIR-16 status:** NOT [CRITICAL]. 2 Utusan commentary pieces framing the central "status quo" question + vote-buying narrative emerging.
+- **PIR-07 status:** PH MANIFESTO LAUNCH still pending (event ongoing, coverage expected next cycle). Pertang (N.28) = active ground campaign (Jalaluddin 2 walkabouts). Royal institution arrest (derhaka connection).
+- **Key narrative contestation this cycle:** Asyraf Wajdi's "won't undermine Unity Govt" vs the BN-PN cooperation tension. Utusan's "can status quo be maintained?" frames the entire PRN as a referendum on PH's performance vs BN-PN's Malay unity pitch.
+
+---
+
+## 🎯 NEXT-CYCLE RECOMMENDATIONS (20:00–23:00 MYT window → PH MANIFESTO LAUNCH COVERAGE)
+
+1. **PIR-07 (HIGHEST PRIORITY):** **PH MANIFESTO LAUNCH COVERAGE** — event expected to complete ~20:00 MYT. Capture ALL coverage when published: full manifesto pledges, Amirudin Shari's speech, B40→M50 expansion details, specific initiatives, MB-after-PRN framing, PH's 36-seat strategy. Re-poll Awani/FMT/HarianMetro/NST/Sinar RSS + homepages for post-20:00 content. gnews should index within 30-60 min of publication.
+2. **PIR-07 (continued):** Monitor Jalaluddin vote-buying allegation follow-up — does the accuser go public? Does SPRM/EC respond? Track Pertang (N.28) ground campaign. Monitor royal institution arrest follow-up (remand hearing tomorrow). BN manifesto 24 Jul at DUN Linggi + Pertang.
+3. **PIR-06 ([CRITICAL] watch):** 26th cycle with no threshold crossing. Asyraf Wajdi's "menebuk atap" assurance = stabilizing. Monitor whether it holds or if BN-PN cooperation triggers further intra-Unity-Govt friction. Maintain formal-removal watch.
+4. **PIR-16:** Track Utusan commentary pickup — does "Bolehkah status quo dipertahankan?" framing spread to other outlets? Track vote-buying narrative escalation. Track "derhaka" narrative evolution (royal institution arrest = real-world manifestation).
+5. **Source maintenance:** HarianMetro RSS = most reliable fresh PRN source this cycle. Utusan homepage = good for commentary (JS-rendered but `<p>` extraction works). Re-poll all feeds post-20:00 MYT for manifesto coverage.
+
+---
+
+*Latentight cycle index appended 2026-07-20 ~19:36 MYT (11:36 UTC) by PRN Negeri Sembilan 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. 5 articles saved (2 HarianMetro RSS + 2 Utusan homepage commentary + 1 Utusan homepage nasional). [CRITICAL] NOT crossed (26th cycle). Key latenight developments: (1) ASYRAF WAJDI "menebuk atap" assurance — UMNO SG formally commits to Unity Govt stability, references Perjanjian Kerajaan Perpaduan, COOPERATION-STABILIZING signal (strongest counter to PIR-06 [CRITICAL] risk); (2) JALALUDDIN vote-buying rebuttal — "button badge, not money" at Kampung Bemban, Jelebu (Pertang N.28), first election-offense allegation/rebuttal of campaign; (3) Royal institution insult arrest — 52yo man arrested for insulting NS Undang Yang Empat, uploaded 17 Jul (nomination day), connects to "derhaka" narrative; (4) Utusan commentary "Gelanggang PRN mula dibuka" — 889,490 voters, no coalition advantage, open contest; (5) Utusan commentary "Bolehkah status quo dipertahankan?" — NS ≠ Johor, moderate/performance electorate, Aminuddin track record acknowledged. PH manifesto launch event still ongoing — coverage expected next cycle (20:00+ MYT).*

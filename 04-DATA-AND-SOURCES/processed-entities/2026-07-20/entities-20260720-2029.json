@@ -1,0 +1,354 @@
+[
+  {
+    "entity": "Mustapha Nagoor (Datuk)",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.utusan.com.my/nasional/2026/07/tarik-sokongan-kepada-mb-bukan-derhaka/",
+    "context": "BN candidate DUN Palong (N.31 Tier-4). FIRST direct BN rebuttal of the 'derhaka' narrative: 'Menarik sokongan daripada Menteri Besar tak boleh istilah derhaka. Derhaka ini adalah kita menentang raja, menentang Undang Yang Empat.' Actively campaigning at Pasar Tani Keluarga Malaysia, Palong, Jempol. References DAP Melaka as precedent for withdrawing support. Tier-4 seat ground campaign confirmed."
+  },
+  {
+    "entity": "'Bukan derhaka, ini demokrasi' counter-narrative (Palong N.31)",
+    "type": "narrative",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.utusan.com.my/nasional/2026/07/tarik-sokongan-kepada-mb-bukan-derhaka/",
+    "context": "FIRST direct BN rebuttal of the PH-framed 'derhaka' narrative. BN Palong (N.31 Tier-4) candidate Mustapha Nagoor: withdrawing support from the MB is normal democratic politics, NOT derhaka; derhaka = opposing the Ruler/Undang Yang Empat. References DAP Melaka's withdrawal of support as precedent ('Are they derhaka? No'). Frames BN-PN cooperation as democratic choice, not betrayal. PIR-07 derhaka friction entity — corroborated by NST + Harian Metro per priority list; FIRST explicit BN-side rebuttal."
+  },
+  {
+    "entity": "DAP Melaka precedent (derhaka rebuttal)",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.utusan.com.my/nasional/2026/07/tarik-sokongan-kepada-mb-bukan-derhaka/",
+    "context": "BN Palong candidate invokes DAP Melaka's withdrawal of support from the Melaka state government as a precedent: 'DAP Melaka menarik sokongan daripada kerajaan negeri Melaka. Adakah mereka derhaka? Tidak.' PIR-16 'Melaka PH-BN fracture' keyword directly invoked from the BN side to normalise withdrawal-of-support as democratic, not treasonous. Notable reversal — the same DAP Melaka action that PAS's Mohd Syahir cited as a resign-model is now cited by BN to rebut 'derhaka'."
+  },
+  {
+    "entity": "Aminuddin 'jaga adab, integriti' campaign call",
+    "type": "narrative",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.astroawani.com/berita-politik/prn-negeri-sembilan-aminuddin-ingatkan-ahli-politik-jaga-adab-integriti-sepanjang-kempen",
+    "context": "Aminuddin (caretaker MB, PH Linggi candidate) urges ALL parties to campaign with integrity + mature politics: 'Kita dalam negeri yang beradat dan beradab.' Spoke at PH candidate press conference for DUN Chuah and Sri Tanjung, Port Dickson. References the 2 police investigation papers on election sabotage (Palong flags burned, Chembong damaged, Klawang drain). Positions PH as the decorous/civilized campaigner vs the sabotage incidents. 'adat dan adab' framing connects to Tok Mat's 'adat politik' narrative from prior cycles. Corroborated across Awani (BM), HarianMetro (BM 18:18), MalayMail (EN 17:05)."
+  },
+  {
+    "entity": "PH manifesto launch TONIGHT confirmed (B40→M40 expansion)",
+    "type": "narrative",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.utusan.com.my/nasional/2026/07/ph-tawar-manifesto-lebih-menyeluruh-manfaat-semua-golongan/",
+    "context": "Aminuddin confirms PH NS manifesto launches TONIGHT (20 Jul evening). Manifesto = continuity of Unity Government's prior work ('kesinambungan pengisian diusahakan kerajaan PH sebelum ini'). Key strategy: expands benefits beyond B40 → M40 ('kita akan besarkan penerima kepada M40'). Aminuddin campaigning at Medan Selera Dataran Tanjung Agas, Linggi. Pre-launch preview captured; actual launch coverage = next-cycle priority. Corroborated Utusan (15:51) + HarianMetro (18:05)."
+  },
+  {
+    "entity": "Amirudin Shari (Datuk Seri)",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.hmetro.com.my/mutakhir/2026/07/1387075/prn-n9-manifesto-ph-kesinambungan-usaha-kerajaan-perpaduan-beri-manfaat",
+    "context": "Selangor MB, PH Presidential Council member, Co-Director of NS PRN. To officiate the PH NS manifesto launch tonight (20 Jul evening). Confirms Amirudin Shari's elevated campaign role in NS. Manifesto = kesinambungan (continuity) of Unity Government work, all-layers coverage."
+  },
+  {
+    "entity": "Muhammad Zaki Md Sabri (Datuk)",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "normal",
+    "source_url": "https://www.hmetro.com.my/mutakhir/2026/07/1387075/prn-n9-manifesto-ph-kesinambungan-usaha-kerajaan-perpaduan-beri-manfaat",
+    "context": "Media centre sec-gen for PRN NS. States PH manifesto will detail future plans as continuation of Aminuddin's administration. Manifesto-launch operational spokesperson."
+  },
+  {
+    "entity": "Akmal Saleh 'DAP ketandusan idea' narrative",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788632/berita/politik/dap-ketandusan-idea-bawa-penipuan-baharu-pada-prn-negeri-sembilan---akmal-saleh",
+    "context": "Akmal Saleh (Umno Youth chief, ADUN Merlimau): DAP 'running out of ideas,' continuing to use misleading narratives in NS PRN. 'Previously DAP lied with undi BN-Najib dibebaskan in Johor. This time in NS a new lie.' References Tony Pua's PRU16 claim (Undi PH atau Zahid PM). New PIR-16 narrative volley from Umno's most aggressive campaigning voice. Frames DAP as deceitful; connects to intra-unity-government tension."
+  },
+  {
+    "entity": "Tony Pua 'Undi PH atau Zahid PM' PRU16 claim",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788632/berita/politik/dap-ketandusan-idea-bawa-penipuan-baharu-pada-prn-negeri-sembilan---akmal-saleh",
+    "context": "Tony Pua (ex-MP Damansara, DAP) urges voters to keep supporting PH on PRU16, warning that Zahid would become PM if otherwise. Voting for 'pengacau' (spoiler) parties or not voting = advantages BN. Akmal cites this as DAP's 'new lie.' Connects to intra-unity-government tension + the Zahid-PM anxiety vector. Also labels Bersama party 'parti pengacau' (spoiler)."
+  },
+  {
+    "entity": "Kamil Munim jet-misuse rebuttal (denies asset misuse)",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788631/berita/politik/dakwaan-salah-guna-aset-kerajaan-tidak-benar---kamil-munim",
+    "context": "AMK chief Kamil Munim (PM Anwar's political secretary) DENIES misusing government assets/jet during Kelantan visit. Explains he accompanied PM Anwar on official duties (Terminal Lapangan Terbang Sultan Ismail Petra, mosque ramah mesra, PKR convention). 'I only followed in my capacity as political secretary — not using government facilities for personal interest.' REBUTTAL to the 'jet rasmi' allegation that surfaced in the morning cycle. Warns netizens/TikTokers about fitnah 'especially now in election season.' PIR-16 Kamil Munim narrative thread + intra-PKR tension."
+  },
+  {
+    "entity": "Tengku Zafrul Abdul Aziz (PM senior advisor, jet-misuse implication)",
+    "type": "person",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788631/berita/politik/dakwaan-salah-guna-aset-kerajaan-tidak-benar---kamil-munim",
+    "context": "PM's senior advisor. Implicated alongside Kamil Munim in the viral jet-misuse allegation during Kelantan visit. Kamil Munim's rebuttal references Tengku Zafrul as also targeted. Federal-level figure dragged into NS campaign discourse via the asset-misuse counter-attack on Kamil's anti-BN-PN rhetoric."
+  },
+  {
+    "entity": "Rafizi 'Bersama' party Melaka humiliation forecast",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788633/berita/politik/selepas-johor-parti-rafizi-akan-dimalukan-lagi-di-melaka---penganalisis",
+    "context": "Analyst Prof Madya Dr Mohamad Faisol Keling (UUM): after losing ALL 15 DUN seats in Johor (lost deposits), Rafizi's 'Bersama' party will face the same fate in Melaka PRN. Reasons: high Malay rejection of Rafizi's ministerial performance + Chinese voters returning to PH after PAS-BN cooperation. Tony Pua calls Bersama 'parti pengacau' (spoiler party) — broke PH votes causing 2-seat loss in Johor. Bersama confirmed NOT contesting NS PRN16, focusing on Melaka. PIR-16 'Melaka PH-BN fracture' + 'Melaka withdrawal' narrative. Bersama = new spoiler-party variable. Confirms Melaka PRN as next domino after NS."
+  },
+  {
+    "entity": "Parti Bersama (Rafizi Ramli's party)",
+    "type": "party",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788633/berita/politik/selepas-johor-parti-rafizi-akan-dimalukan-lagi-di-melaka---penganalisis",
+    "context": "Party led by Datuk Seri Rafizi Ramli. Lost ALL 15 DUN seats in PRN Johor (all lost deposits). Confirmed NOT contesting NS PRN16 — focusing on PRN Melaka. Labelled 'parti pengacau' (spoiler party) by Tony Pua for breaking PH votes (caused 2-seat loss in Johor). Analyst: will be 'humiliated again' in Melaka. New spoiler-party variable in the post-Johor political landscape."
+  },
+  {
+    "entity": "Mohamad Faisol Keling (Prof Madya Dr)",
+    "type": "person",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788633/berita/politik/selepas-johor-parti-rafizi-akan-dimalukan-lagi-di-melaka---penganalisis",
+    "context": "UUM lecturer (Kolej Undang-Undang Kerajaan Dan Pengajian Antarabangsa). Analyst forecasting Bersama party's Melaka humiliation: high Malay rejection of Rafizi's ministerial performance + Chinese voters returning to PH. 'Nasi tambah' (just extra rice) framing — Bersama will fail to gain support and is 'syok sendiri' (self-indulgent)."
+  },
+  {
+    "entity": "MCA Chan Quin Er KWAP/eFishery PAC probe call",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788636/berita/politik/mca-gesa-pac-siasat-kerugian-pelaburan-kwap-dalam-efishery",
+    "context": "MCA information chief Chan Quin Er urges PAC to investigate KWAP's loss in eFishery (Indonesian aquaculture tech startup). RM200m (PM's figure) vs RM163.4m (KWAP's figure) discrepancy. Targets Anwar as both PM and Finance Minister — 'cannot confirm the process was correct while simultaneously denying responsibility when KWAP was defrauded.' Demands KWAP board, investment panel, top management explain approval process. SPRM investigation if negligence/breach found. eFishery ex-CEO Gibran Huzaifah sentenced 9 years (Bandung District Court, April 29). MCA actively asserting fiscal-watchdog role DURING NS campaign period (KWAP = federal issue, not NS-specific). MCA's positioning counter to the 'MCA biggest loser' narrative."
+  },
+  {
+    "entity": "Chan Quin Er",
+    "type": "person",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788636/berita/politik/mca-gesa-pac-siasat-kerugian-pelaburan-kwap-dalam-efishery",
+    "context": "MCA information chief. Emerging MCA spokesperson during NS PRN campaign. Leads the KWAP/eFishery PAC probe call — positions MCA as an accountability/fiscal-watchdog voice. Targets Anwar (PM + Finance Minister). Demands KWAP board + investment panel explain; SPRM probe if negligence found. MCA's counter-positioning to 'MCA biggest loser' framing."
+  },
+  {
+    "entity": "Anwar KWAP/eFishery defense (RM12.9b profit)",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.malaymail.com/news/malaysia/2026/07/20/anwar-defends-kwap-over-efishery-loss-says-rm129b-profit-puts-setback-in-perspective/228285",
+    "context": "Anwar (PM + Finance Minister) defends KWAP's RM163.4m eFishery investment in Dewan Negara. Investment went through rigorous process, no political interference. Individual decisions made independently by professionals. KWAP not alone — Temasek, SoftBank, Sequoia, Aqua-Spark, 42XFund, Northstar also invested. RM160m loss vs KWAP's RM12.9b net profit in 2024, RM15.8b fund size increase, 9.3% annual growth. Supports MACC probe: 'If there are elements of wrongdoing, the MACC must investigate.' Draws parallel to 1MDB. FEDERAL-LEVEL response to MCA's Chan Quin Er PAC probe call. KWAP/eFishery narrative thread connects federal fiscal governance to NS campaign discourse."
+  },
+  {
+    "entity": "Abbas Azmi (Amanah Selangor communications director)",
+    "type": "person",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.utusan.com.my/nasional/2026/07/ph-selangor-yakin-hadapi-gelombang-kerjasama-bn-pn/",
+    "context": "Amanah Selangor communications director, ADUN Sri Serdang. PH Selangor NOT afraid of BN-PN cooperation trend, but EXPECTS it to spread from Johor+NS to all states including Melaka and Selangor. 'It will go to all states.' Calls for BN political appointees in Selangor who criticize the state government to RESIGN. 'Api dalam sekam' (smoldering fire) warning — risk to state government stability. If BN leaves Selangor state gov, PH still has enough majority to govern. Intra-unity-government friction escalation in Selangor."
+  },
+  {
+    "entity": "'BN-PN cooperation will spread to all states' (Amanah Selangor)",
+    "type": "narrative",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.utusan.com.my/nasional/2026/07/ph-selangor-yakin-hadapi-gelombang-kerjasama-bn-pn/",
+    "context": "Amanah Selangor's Abbas Azmi: BN-PN cooperation pattern (Johor+NS) will continue and eventually spread to all states including Melaka and Selangor. Confirms BN-PN cooperation is read as a multi-state trend by PH itself. NEW escalation of intra-unity-government friction in Selangor — calls for BN political appointees who criticize the state govt to RESIGN. 'Api dalam sekam' stability warning. Not [CRITICAL] — intra-coalition friction, not formal threshold crossing."
+  },
+  {
+    "entity": "'Api dalam sekam' Selangor stability warning",
+    "type": "narrative",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.utusan.com.my/nasional/2026/07/ph-selangor-yakin-hadapi-gelombang-kerjasama-bn-pn/",
+    "context": "Abbas Azmi (Amanah Selangor): 'api dalam sekam' (smoldering fire) warning — risk to Selangor state government stability if BN-PN cooperation not reviewed. Calls for BN political appointees who criticize the state government to resign. Says BN ADUNs contribute 'minimum' to the state government. If BN leaves, PH still has enough majority. Intra-unity-government friction escalation signal at the state level (Selangor)."
+  },
+  {
+    "entity": "Noh Omar — 6 parliament + 34 DUN Selangor seat projections (named seats)",
+    "type": "narrative",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.utusan.com.my/nasional/politik/2026/07/kerjasama-bn-pn-mampu-rampas-selangor/",
+    "context": "Utusan enrichment of prior Sinar content. Noh Omar (ex-UMNO Selangor chief): if NS BN-PN formula succeeds → 6 parliamentary + 34 DUN Selangor seats capturable. Named seats: Kuala Selangor, Shah Alam, Sepang, Hulu Langat, Gombak, Sungai Buloh. Three-cornered Umno/PAS/PH only benefits PH (cites KJ's Sungai Buloh GE15 defeat). PIR-06 cooperation-arrangement + PIR-16 'makmal politik PRU16' framing. Blue wave Johor→NS→Selangor→PRU16 escalation with detailed seat projections."
+  },
+  {
+    "entity": "KJ confirms Wawasan as PN vote-sharing partner",
+    "type": "narrative",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.utusan.com.my/nasional/politik/2026/07/kerjasama-bn-pn-mampu-rampas-selangor/",
+    "context": "KJ at Subang UMNO youth/wanita/puteri: BN-PN cooperation = 'a good experiment,' 'anjalan dan pejal' (flexible vs rigid). 'Kita boleh bagi undi kita kepada calon PAS dan Parti Wawasan Negara (Wawasan), begitu juga sebaliknya.' Confirms Wawasan as a PN-coalition vote-recipient partner — NS operational arrangement: votes flow BN↔PAS↔Wawasan. Wawasan admitted to PN entity [CRITICAL] — operational confirmation that votes are shared between BN, PAS, and Wawasan under the PN framework."
+  },
+  {
+    "entity": "KJ 'ada sesuatu yang tak kena dalam kerjasama BN-PH' (makmal politik escalation ladder)",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.utusan.com.my/nasional/politik/2026/07/ada-sesuatu-yang-tak-kena-dalam-kerjasama-bn-ph/",
+    "context": "Utusan enrichment of prior Sinar piece. KJ (ex-UMNO youth chief, Rembau): 'Something is wrong with BN-PH cooperation in the Federal Government.' Full makmal politik PRU16 escalation ladder: Johor = amaran pertama (first warning), NS = next, Melaka = amaran kedua (second warning), PRU16 = amaran ketiga ('kita lanyak habis-habisan' — we thrash them completely). Warns DAP/Nga Kor Ming: 'jangan cakap macam itu' — PH partners keep crossing lines. UMNO must sell dreams to urban Malays (80% of Malays live in cities) — AI engineers, millionaires. PIR-16 'makmal politik' + 'penyatuan undi Melayu.'"
+  },
+  {
+    "entity": "BN-PN cooperation is NS-specific (3rd corroboration: Terengganu + Perlis)",
+    "type": "narrative",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.utusan.com.my/nasional/2026/07/tidak-mustahil-kerjasama-bn-pn-diteruskan-di-perlis-utusan-malaysia/",
+    "context": "3rd corroboration (prior Sinar + lateafternoon Utusan + this dusk Utusan) that BN-PN cooperation is NS-specific, not a national mandate. UMNO Terengganu chief Rozi Mamat: 'wait and see' — NO discussions yet in Terengganu, 'landscape differs by state,' references Sarawak precedent. Perlis: 'not impossible' BN-PN cooperation continues — joins Terengganu as 'wait-and-see' state. NS cooperation model = potential template but not yet adopted elsewhere. Contrasts with KJ/Noh Omar 'blue wave to Selangor/Putrajaya' framing."
+  },
+  {
+    "entity": "R Sri Sanjeevan (Bersatu Jeram Padang candidate)",
+    "type": "person",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/sanjeevan-bidas-khaled-angkuh-gelar-bersatu-kacau-daun-di-n-sembilan",
+    "context": "Bersatu Associated Chief, DUN Jeram Padang (Jempol) candidate. Rebuts Khaled Nordin's 'Bersatu kacau daun' dismissal — calls Khaled 'angkuh' (arrogant): Johor victory made Umno overconfident. 'Johor ≠ NS — gelombang yang berlaku di Johor tidak akan sampai ke Negeri Sembilan.' Confident NS voters will 'menyekat gelombang biru' (block the blue wave) and Umno-BN resurgence under Zahid. Rejects 'Bersatu will be buried' narrative: 'Apa juga yang berlaku kepada Bersatu dalam PN, ia tidak akan menyebabkan parti ini terkubur.' Bersatu's OWN candidate directly pushing back against the 'kacau daun / disarray' narrative — Bersatu's survival defense."
+  },
+  {
+    "entity": "'Bersatu won't be buried' rebuttal (Sanjeevan vs Khaled)",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/sanjeevan-bidas-khaled-angkuh-gelar-bersatu-kacau-daun-di-n-sembilan",
+    "context": "Bersatu's own candidate (Sanjeevan, Jeram Padang) directly pushes back against the 'kacau daun / disarray / Bersatu will be buried' narrative. 'Apa juga yang berlaku kepada Bersatu dalam PN, ia tidak akan menyebabkan parti ini terkubur.' New narrative contestation vector: Bersatu's survival defense vs Umno's 'kacau daun' dismissal (Khaled). Not [CRITICAL] — no formal exit/expulsion/quorum trigger, but important PIR-16 rebuttal. Bersatu digging in, not preparing exit."
+  },
+  {
+    "entity": "'Johor ≠ NS — block the blue wave' (Sanjeevan)",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/sanjeevan-bidas-khaled-angkuh-gelar-bersatu-kacau-daun-di-n-sembilan",
+    "context": "Sanjeevan (Bersatu): 'Keadaan politik di Johor dan Negeri Sembilan amat berbeza. Saya percaya gelombang yang berlaku di Johor tidak akan sampai ke Negeri Sembilan.' Yakin pengundi NS akan 'menyekat gelombang biru' (block the blue wave) and Umno-BN resurgence under Zahid Hamidi. Direct counter to Noh Omar/KJ 'blue wave Johor→NS→Selangor' escalation ladder. Corroborates Utusan commentary 'NS ≠ Johor, moderate/performance electorate' framing from the latenight cycle."
+  },
+  {
+    "entity": "Ghafurullah Ismail (AMK 'cium tapak kaki' remark)",
+    "type": "person",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788655/berita/politik/menggelupur-sangat-bila-kita-nak-bersatu---akmal-saleh-bidas-amk",
+    "context": "Selangor AMK (PKR Youth) Sec-Gen. Claimed UMNO is 'willing to depend on opponents for power' and called the Malay-unity effort 'cium tapak kaki' (kissing feet). NEW PIR-16 narrative volley ridiculing penyatuan undi Melayu / Malay unity. Akmal's counter reverses the frame: 'By AMK's logic, their cooperation with DAP means they're kissing DAP's feet too.' UMNO Youth vs PKR Youth exchange ESCALATES over Malay unity."
+  },
+  {
+    "entity": "Akmal 'menggelupur sangat' + 'cium tapak kaki' reversal (AMK rebuttal)",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788655/berita/politik/menggelupur-sangat-bila-kita-nak-bersatu---akmal-saleh-bidas-amk",
+    "context": "Akmal Saleh rebuts AMK: 'Bila kita nak satukan parti politik Melayu, dia kata kita cium tapak kaki pula. Kalau ikut logik AMK ini, kerjasama dia dengan DAP maknanya dia pun cium tapak kaki DAP lah.' Reverses the 'cium tapak kaki' frame onto AMK-DAP cooperation. 'Menggelupur sangat bila kita nak bersatu' (squirming too much when we try to unite). UMNO Youth vs PKR Youth escalation over penyatuan undi Melayu. Connects to PIR-16 'penyatuan undi Melayu' and 'makmal politik' threads."
+  },
+  {
+    "entity": "Afifi Aris (UMNO Kapar Youth chief)",
+    "type": "person",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788655/berita/politik/menggelupur-sangat-bila-kita-nak-bersatu---akmal-saleh-bidas-amk",
+    "context": "UMNO Kapar Youth chief. Claimed BN-PAS cooperation could help UMNO recapture Kapar parliament + DUN seats. AMK dismissed his claim as 'tidak berpijak di bumi nyata' (not grounded in reality). Akmal defends Afifi. BN-PN formula extension to Kapar (Selangor) — connects to the 'blue wave to Selangor' framing. PIR-16 penyatuan undi Melayu extension."
+  },
+  {
+    "entity": "'Jangan dicuit sedikit menggelupur dan melenting' (Sinar analysis)",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.sinarharian.com.my/article/788659",
+    "context": "Sinar Harian analysis by Norhaspida Yatim (17:07 MYT; URL 404, captured via sidebar reference). 'Reaksi politik yang berlebihan menunjukkan ketidaksediaan segelintir kepimpinan dalam menguruskan perbezaan pandangan secara matang' — excessive political reactions show some leaders' inability to handle differences maturely. Frames the AMK 'cium tapak kaki' reaction as over-reaction/immaturity. Commentary-level corroboration of Akmal's 'menggelupur' framing."
+  },
+  {
+    "entity": "Palong (N.31) flags burned — vandalism confirmed by police",
+    "type": "seat",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.malaymail.com/news/malaysia/2026/07/20/aminuddin-urges-integrity-in-negeri-sembilan-polls-condemns-vandalism-of-campaign-materials/228367",
+    "context": "Campaign-material sabotage: PH flags BURNED in Palong (N.31 Tier-4 seat, Jempol). NS Police Chief Datuk Alzafny Ahmad confirms report received on Jempol (Palong) vandalism. Same seat where the derhaka counter-narrative emerged (dusk cycle, Mustapha Nagoor). Tier-4 seat incident. Day 2 of campaign. Connects to the broader sabotage escalation (Klawang + Palong + Chembong)."
+  },
+  {
+    "entity": "Chembong (N.27) flagpoles damaged — investigation ongoing",
+    "type": "seat",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.malaymail.com/news/malaysia/2026/07/20/aminuddin-urges-integrity-in-negeri-sembilan-polls-condemns-vandalism-of-campaign-materials/228367",
+    "context": "Campaign-material sabotage: flagpoles DAMAGED in Chembong (N.27, Tok Mat's area). NS Police Chief Datuk Alzafny Ahmad confirms investigation ONGOING. Tier-4/T1 seat incident. Day 2 of campaign. Sabotage escalation across 3 seats (Klawang + Palong + Chembong). PIR-07 N.27 Chembong entity per priority list."
+  },
+  {
+    "entity": "Chuah (N.33) no internal split — Aminuddin+Kenny+Boon Lai joint presser (Utusan corroboration)",
+    "type": "narrative",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.utusan.com.my/nasional/2026/07/tiada-perpecahan-dalaman-di-dun-chuah/",
+    "context": "Utusan 2nd-source corroboration of Chuah candidacy resolution. Aminuddin + Yew Boon Lai (PH Chuah incumbent) + Kenny Chiew (PKR Port Dickson deputy chief) joint press conference at Port Dickson. Chuah candidacy issue RESOLVED before nomination day — Kenny was passed over despite 'memberi perkhidmatan dan bekerja keras.' Social media tried to frame it as a split. Kenny gives full support to PH candidates in Chuah, Lukut, Sri Tanjung, Bagan Pinang, Linggi. Aminuddin: 'Bukan perpecahan tetapi dimainkan isu ini di media sosial.' Five PD-area DUN seats = PH's PD bastion, unified front."
+  },
+  {
+    "entity": "BN won't waste time attacking (Jalaluddin, Kampung Jerang)",
+    "type": "narrative",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.utusan.com.my/nasional/2026/07/bn-tidak-akan-bazir-masa-kempen-untuk-serang-mana-mana-pihak/",
+    "context": "Jalaluddin Alias (NS UMNO chairman, BN Pertang N.28 candidate) at walkabout in Kampung Jerang, Jelebu. BN won't waste short campaign time attacking: 'Gunakan masa berkempen sebaiknya, jangan sia-siakan 20 atau 30 minit hanya untuk mencaci.' Will respond if continuously insulted but won't degrade opponents. PIR-07 — Jalaluddin walkabout in Jelebu (near Pertang DUN). Clean-campaign posture from BN ground leadership."
+  },
+  {
+    "entity": "BN candidates deliberately AVOID Unity Government criticism (directive)",
+    "type": "narrative",
+    "pir_tag": "PIR-06",
+    "priority": "priority",
+    "source_url": "https://www.utusan.com.my/nasional/2026/07/bn-tidak-akan-bazir-masa-kempen-untuk-serang-mana-mana-pihak/",
+    "context": "KEY PIR-06 signal: 'Calon-calon BN juga tidak menyentuh perkara berkaitan Kerajaan Perpaduan dalam kempen kerana masing-masing memahami perkara yang wajar dan tidak wajar untuk dibangkitkan.' BN candidates deliberately AVOID Unity Government criticism in NS campaign. Reflects BN's careful navigation of federal-state tension — BN is in coalition with PH federally but opposing PH in NS. The 'don't mention Unity Government' directive reflects internal discipline to avoid alienating federal partners while campaigning against them locally. Pairs with Asyraf Wajdi's 'menebuk atap' assurance (latenight) — message discipline from SG to ground."
+  },
+  {
+    "entity": "13,263 postal ballots issued (EC operational data)",
+    "type": "narrative",
+    "pir_tag": "PIR-07",
+    "priority": "normal",
+    "source_url": "https://www.utusan.com.my/nasional/2026/07/prn-n-sembilan-13263-kertas-undi-pos-dikeluarkan-hari-ini/",
+    "context": "EC Secretary Datuk Khairul Shahril Idrus confirms 13,263 postal ballots issued today (20 Jul). Breakdown: 12,669 Cat-1A (election workers, SPR, police, military, media); 343 Cat-1B (Malaysians abroad); 251 Cat-1C (11 security/health agencies). Process witnessed by candidate reps from all parties. Postal voters reminded: mark ballot, fill Form 2, return before 5pm polling day (Aug 1). Don't photograph/share ballot on social media. 13,263 = ~1.1% of total electorate. Early voting July 28, polling Aug 1. Electoral operational baseline."
+  },
+  {
+    "entity": "Khairul Shahril Idrus (Datuk)",
+    "type": "person",
+    "pir_tag": "PIR-07",
+    "priority": "normal",
+    "source_url": "https://www.utusan.com.my/nasional/2026/07/prn-n-sembilan-13263-kertas-undi-pos-dikeluarkan-hari-ini/",
+    "context": "Election Commission (SPR) Secretary. Confirms 13,263 postal ballots issued 20 Jul for PRN NS. Reminds postal voters of return deadline (5pm polling day Aug 1) + ballot-secrecy rules. Electoral operational authority."
+  },
+  {
+    "entity": "Asyraf Wajdi Dusuki (Datuk Dr) — 'menebuk atap' assurance",
+    "type": "person",
+    "pir_tag": "PIR-06",
+    "priority": "critical",
+    "source_url": "https://www.hmetro.com.my/mutakhir/2026/07/1387083/umno-beri-jaminan-tidak-akan-menebuk-atap-kerajaan-perpaduan-asyraf-wajdi",
+    "context": "UMNO Secretary-General. Gives explicit assurance UMNO will NOT undermine ('menebuk atap' = drill through the roof) the Unity Government until it's dissolved for the next GE. References the formal 'Perjanjian Kerajaan Perpaduan' (Unity Government Agreement). COOPERATION-STABILIZING signal — strongest formal UMNO statement on Unity Government stability during NS campaign. Directly addresses the BN-PN cooperation vs Unity Government tension. Pairs with Jalaluddin's 'BN candidates avoid Unity Govt criticism' directive — message discipline from top (SG) to ground (candidates). REDUCES PIR-06 [CRITICAL] risk. Buletin TV3 version: 'BN tidak akan sesekali tebuk atap, kekal dukung Perjanjian Kerajaan Perpaduan' (18:14 MYT)."
+  },
+  {
+    "entity": "'Menebuk atap' assurance (Unity Government stability commitment)",
+    "type": "narrative",
+    "pir_tag": "PIR-06",
+    "priority": "critical",
+    "source_url": "https://www.hmetro.com.my/mutakhir/2026/07/1387083/umno-beri-jaminan-tidak-akan-menebuk-atap-kerajaan-perpaduan-asyraf-wajdi",
+    "context": "UMNO SG Asyraf Wajdi's formal commitment: UMNO will NOT 'menebuk atap' (undermine from within) the Unity Government until it's dissolved for the next GE. References the formal Perjanjian Kerajaan Perpaduan. STRONGEST counter-signal to PIR-06 [CRITICAL] risk to date — directly addresses the federal-state tension (BN-PN at state level ≠ federal destabilization). COOPERATION-STABILIZING. Cross-cycle pattern: Asyraf Wajdi (SG, formal) + Jalaluddin (ground, directive) = consistent BN message discipline. Addresses KJ's 'ada sesuatu yang tak kena' tension + Amanah Selangor's 'api dalam sekam' anxiety."
+  },
+  {
+    "entity": "Jalaluddin vote-buying rebuttal ('button badge, not money') — Pertang N.28",
+    "type": "narrative",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.hmetro.com.my/mutakhir/2026/07/1387088/prn-n9-bukan-duit-tapi-button-badge-jalaluddin-nafi-dakwaan-beri-wang",
+    "context": "Jalaluddin Alias (BN Pertang N.28 Tier-4 candidate) denies giving money to voters during walkabout at Kampung Bemban, Jelebu. Says items were 'button badges' not cash. FIRST explicit vote-buying allegation/rebuttal of the campaign. At Pertang (N.28) Tier-4 seat. Same candidate who said 'BN won't waste time attacking' (night cycle) + 'avoid Unity Govt criticism' directive. Two walkabouts in Jelebu area in ~2 hours = intensive ground campaign. Relevant to SPRM/election-offense monitoring."
+  },
+  {
+    "entity": "Royal institution insult arrest (52yo man, derhaka connection)",
+    "type": "narrative",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.utusan.com.my/nasional/2026/07/lelaki-ditahan-muat-naik-hantaran-hina-institusi-diraja-negeri-sembilan/",
+    "context": "52-year-old Malay man arrested for uploading offensive content about NS royal institution (Undang Yang Empat) on social media. Uploaded 17 Jul (nomination day), reported 19 Jul, arrested 20 Jul at IPD Seremban. NS Police Chief Datuk Alzafny Ahmad confirms. Charges: Sedition Act S4, Penal Code S505, CMA S233. Connects to 'derhaka' narrative — BN Palong candidate defined 'derhaka = menentang raja, menentang Undang Yang Empat' (dusk). This arrest is about someone doing exactly that. Same police chief handling Palong/Chembong vandalism. PRN-adjacent (timing + derhaka narrative connection)."
+  },
+  {
+    "entity": "Utusan commentary 'Bolehkah status quo dipertahankan?' (central PRN question)",
+    "type": "narrative",
+    "pir_tag": "PIR-16",
+    "priority": "priority",
+    "source_url": "https://www.utusan.com.my/commentary/prn-n-sembilan-bolehkah-status-quo-dipertahankan/",
+    "context": "Key Utusan analytical commentary framing the central question of the NS PRN: Can PH maintain the status quo? NS ≠ Johor — different political maps. NS characterized as stable, moderate, performance-oriented electorate. Aminuddin Harun's administrative track record 'cannot be denied' — PH's incumbent advantage acknowledged. Frames the dominant narrative contestation: PH's 'prestasi pentadbiran' (performance) vs BN-PN's 'penyatuan undi Melayu' (Malay unity). Pushes back on 'Johor spillover' assumption. Corroborates Sanjeevan's 'Johor ≠ NS' framing."
+  },
+  {
+    "entity": "Utusan commentary 'Gelanggang PRN NS mula dibuka' (no coalition advantage)",
+    "type": "narrative",
+    "pir_tag": "PIR-07",
+    "priority": "priority",
+    "source_url": "https://www.utusan.com.my/commentary/gelanggang-prn-negeri-sembilan-mula-dibuka/",
+    "context": "Utusan commentary marking the official opening of the PRN NS campaign. 889,490 voters, 36 DUN seats. PRN held almost exactly 3 years after last (12 Aug 2023) — unexpectedly early dissolution. KEY framing: unlike Johor (BN had clear advantage) and Melaka (upcoming), NS begins with NO coalition able to claim advantage in forming government — 'open contest' framing. References the kemelut/krisis/polemik that necessitated early dissolution (DUN dissolved 5 Jun 2026). Pairs with 'Bolehkah status quo dipertahankan?' commentary."
+  }
+]
