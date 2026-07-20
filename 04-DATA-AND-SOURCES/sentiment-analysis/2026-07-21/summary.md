@@ -1,80 +1,77 @@
 # PRN Negeri Sembilan 2026 — Sentiment Analysis Summary
 
-**Revision:** 24 (dawn cycle — PH manifesto launch + Fahmi-KJ exchange)
-**Generated:** 2026-07-21 02:35 +08 (MYT)
+**Revision:** 25 (earlyam cycle — Sinar/Utusan/MalayMail corroboration + G Manivanan confirmation)
+**Generated:** 2026-07-21 04:55 +08 (MYT)
 **Report Date:** 2026-07-21
 **Campaign Day:** Day-3 (Nomination 18 Jul; Day-1 19 Jul; Day-2 20 Jul; Day-3 21 Jul)
 **Polling:** 1 Aug 2026 | **Early Voting:** 28 Jul | **BN Manifesto:** 24 Jul (DUN Linggi + Pertang)
 **Electorate:** 889,490 | **Candidates:** 103 | **Seats:** 36 | **Simple Majority:** 19 | **Postal Votes:** 13,263
 **TLP:** AMBER
 **Director Cycle:** 19 Jul 17:25 MYT (4th carry-forward)
-**Previous Revision:** 23 (2026-07-21T00:22:00+08:00, 362 entities — night3 TheVibes recovery)
+**Previous Revision:** 24 (2026-07-21T02:35:00+08:00, 394 entities — dawn cycle: PH manifesto launch + Fahmi-KJ exchange)
 
 ---
 
 ## Executive Summary
 
-**394 entities** (25 critical / 139 priority / 230 none). **32 new entities; 12 existing entities updated** (11 from the dawn extraction + 1 carry-forward-driven derhaka update). All 25 [CRITICAL] entities carried from rev23 unchanged in alert status. **No new [CRITICAL] threshold crossings — 32nd consecutive cycle.**
+**401 entities** (25 critical / 142 priority / 234 none). **7 new entities; 6 existing entities updated** from the earlyam extraction (`entities-20260721-0315.json`, 11 entities from 5 articles collected 01:59 MYT 21 Jul). All 25 [CRITICAL] entities carried from rev24 unchanged in alert status. **No new [CRITICAL] threshold crossings — 33rd consecutive cycle.**
 
-This cycle's delta is the **dawn extraction** (`entities-20260721-0059.json`, collected 00:34–00:50 MYT 21 Jul, 43 entities from 12 genuinely-new PRN-relevant articles). rev23 (00:22 MYT) was built on the night3 TheVibes recovery and explicitly noted *"No Day-2-late or 21-Jul content has been scraped yet"* — the dawn extraction (00:59 MYT) is **post-rev23** and contains genuinely-new content covering the **PH manifesto launch evening of 20 Jul** and the **Fahmi–KJ narrative exchange**. Three story threads dominate:
+This cycle is a **LOW-YIELD corroboration cycle**: 0 genuinely new stories, 3 alternate-outlet corroborations, 1 new candidate confirmation, 6 surface-level detections from Sinar related-article links. The earlyam extraction confirms and deepens the three story threads established in the dawn (rev24) cycle rather than introducing new ones:
 
-1. **Fahmi–KJ narrative exchange (NEW, most significant PIR-16 development)** — Fahmi Fadzil (PH comms director, Comms Minister, govt spokesman) delivers the **first direct PH-government response** to KJ's "BN-PN cooperation = signal to PH" framing. Across FMT (EN+BM), Fahmi rebuts the claim that PH lacks Malay-Muslim leaders by enumerating Anwar, Mat Sabu, Dzulkefly, Amirudin, Aminuddin; warns KJ "don't go overboard"; characterises KJ's rhetoric as personal political-relevance seeking; and clarifies PM issued NO resignation order (only discipline reminder). The narrative battle has now drawn a direct government counter-response — **"isyarat kepada PH narrative (KJ)"** pulls from +0.15 (none) → +0.05 (declining, priority) as the constructive framing becomes actively contested.
+1. **Fahmi–KJ exchange — 3rd-outlet corroborated (Sinar Harian)** — The narrative battle that opened in the dawn cycle (FMT EN+BM) is now confirmed across a 3rd outlet. Sinar uses the explicit "isyarat" (signal) framing and adds context that mildly undermines KJ's credibility: he "sudah agak lama meninggalkan parti" (left Umno for quite some time) and "mahu memulakan semula asas politiknya" (wants to rebuild his political base) — directly supporting Fahmi's "KJ driven by political relevance" counter-frame. **Fahmi Fadzil** +0.32→+0.34 (stable, priority); **Khairy Jamaluddin** -0.15→-0.18 (declining, priority). The exchange is **steady cross-outlet propagation, not viral amplification** (2→3 outlets = 50% outlet-count increase, exactly at threshold but not >50%; normal journalistic propagation of a single story over ~3 hours, not a viral escalation).
 
-2. **PH manifesto "Kekal Harapan" fully covered (PENDING → RESOLVED)** — Was PENDING in the prior cycle; now fully captured across Awani + FMT EN/BM + Harian Metro (4 outlets). Theme "Stabil, Makmur, Inklusif," 10 commitments, 5 high-impact infrastructure projects. Aminuddin's framing: "bukan janji, pelaksanaan" (action plan, not promises). **New notable detail:** MB 2-term limit was **blocked by Umno** — a new PIR-06 intra-unity-government reform-friction signal (historical, pre-dissolution; non-critical). Economic vision: NS as "negeri destinasi" (MVV 2.0, Semiconductor Valley, Nilai Photonic AI City).
+2. **MCMC 3R enforcement — 2nd-outlet corroborated (Utusan)** — The 3R enforcement targeting Tuanku Muhriz is now confirmed by a 2nd outlet. Utusan adds an enforcement-process escalation: the individual was **called to IPD Seremban for statement recording** (beyond the initial Section 233 CMA recording). This advances the investigation and reinforces the royal-institution dimension of the **derhaka friction (Pertang)** -0.20→-0.22 [PRIORITY]. **MCMC 3R enforcement** -0.30→-0.32 (stable, priority); **Tuanku Muhriz** -0.10→-0.12 (stable, priority).
 
-3. **Campaign ground + regulatory** — Anwar's **first confirmed campaign schedule** (Wed 22 Jul, Sikamat N.13 + Paroi N.25 — both Tier-4 seats); both seats nudge positive (+0.05→+0.12, 0.00→+0.12). MCMC activates **3R enforcement targeting Tuanku Muhriz** + Network Monitoring Centre — escalates the **derhaka friction (Pertang)** -0.15→-0.20 [PRIORITY] via regulatory enforcement (royal-institution dimension), though no explicit "derhaka" language appears. Seri Menanti 3-cornered fight profiled (PH Kamarul vs BN Sufian vs Bersatu Megat Shahriman — confirms Bersatu solo logo, reinforcing the structural "sasar bentuk kerajaan" evidence already [CRITICAL]).
+3. **G Manivanan / DUN Jeram Padang — NEW confirmed candidate** — Sinar body text explicitly names G Manivanan as "calon Pakatan Harapan (PH) DUN Jeram Padang" (previously photo-caption-only). 4-cornered fight: PH / BN / Bersatu-solo / ASLI (Dayana Yusof). Fahmi campaigned with Manivanan at Felda Palong 2 (Jempol) on 20 Jul. New entities: **G Manivanan** (+0.20, stable, none), **DUN Jeram Padang** (+0.05, stable, none). Seat not on director's highest-priority list.
 
-**[CRITICAL] threshold NOT crossed — 32nd consecutive cycle.** No "pecat/keluar/tarik diri," no Bersatu candidate withdrawal (24 solo Bersatu-logo candidates stable; Megat Shahriman contests Seri Menanti under Bersatu logo), no "lebih hebat" formalization, no RoS action, no hard-news "Bersatu exit imminent?" headline, no viral amplification >50%. The Fahmi-KJ exchange is **narrative friction (PIR-16), not a coalition-arrangement event (PIR-06)**. Bersatu holds at -0.90 [CRITICAL] stable — internal-fracture signal stable, no fresh escalation.
+**[CRITICAL] threshold NOT crossed — 33rd consecutive cycle.** No "pecat/keluar/tarik diri," no Bersatu candidate withdrawal (24 solo Bersatu-logo candidates stable), no "lebih hebat" formalization, no RoS action, no hard-news "Bersatu exit imminent?" headline, no viral amplification >50%. The Fahmi-KJ exchange is **narrative friction (PIR-16), not a coalition-arrangement event (PIR-06)**. Bersatu holds at -0.90 [CRITICAL] stable — internal-fracture signal stable, no fresh escalation. No PIR-06 entities were touched this cycle (all earlyam entities are PIR-07 or PIR-16).
 
 ---
 
-## Headline Developments (dawn cycle, 00:34–00:50 MYT 21 Jul)
+## Headline Developments (earlyam cycle, 01:59 MYT 21 Jul)
 
-### 1. Fahmi–KJ exchange: first direct PH-government counter-response [PIR-16 — most significant]
+### 1. Fahmi–KJ exchange: 3rd-outlet corroboration [PIR-16 — narrative deepening]
 
-Fahmi Fadzil at Felda Palong 2 (Jempol), "Ziarah Kasih" programme (FMT EN+BM, 20–21 Jul):
-- **Rebuttal**: "Don't go overboard"; lists 5 Malay-Muslim PH leaders (Anwar, Mat Sabu, Dzulkefly, Amirudin, Aminuddin)
-- **Characterisation**: KJ driven by desire to "remain politically relevant" after returning to Umno; "will say whatever necessary to be noticed"
-- **Counter-frame**: "Stop spreading falsehoods"; warns against "reinforcing false perceptions about PH"
+Sinar Harian now covers the Fahmi-KJ exchange (FMT EN+BM were first 2 outlets):
+- **Sinar framing**: explicit "isyarat" (signal) — KJ: BN chose to cooperate with PN as "isyarat kepada PH" re: Malay sensitivities.
+- **Sinar-added context** (undermines KJ): KJ "sudah agak lama meninggalkan parti" (left Umno for quite some time) and "mahu memulakan semula asas politiknya" (wants to rebuild political base) — supports Fahmi's "political relevance" counter-frame.
+- **KJ quote surfaced**: "Ada sesuatu yang tak kena dalam Kerajaan Perpaduan" (something wrong in Unity Govt) — in Sinar related-articles section.
 
-**Impact:** First direct PH-government response to KJ's framing. The "isyarat kepada PH narrative (KJ)" (+0.15→+0.05, declining, none→priority) is now actively contested. KJ himself enters as a new person entity (-0.15, declining, priority) — credibility challenged. Three new narrative entities: "PH lacks Malay-Muslim leaders" (-0.25, priority), "Don't go overboard" (+0.25, priority), "KJ driven by political relevance" (-0.20, none). Watch for KJ counter-response next cycle.
+**Impact:** Multi-outlet corroboration strengthens the rebuttal's propagation. Fahmi +0.32→+0.34 (marginal). KJ -0.15→-0.18 (declining — Sinar context tilts against his credibility). **3 outlets now confirm the exchange** (FMT EN + FMT BM + Sinar). Steady propagation, NOT viral amplification. [PRIORITY] maintained.
 
-### 2. Anwar discipline warning clarified — no resignation order [PIR-16 — resolves carry-forward]
+### 2. MCMC 3R enforcement: 2nd-outlet corroboration + enforcement advancement [PIR-07 — derhaka thread]
 
-Fahmi (FMT BM, "Tiada arahan letak jawatan"):
-- PM issued **NO order** for any minister/deputy minister to resign — only discipline/professionalism reminder.
-- Democratic differences allowed (parties contested separately in prior state elections).
-- Stability + investor confidence = key considerations. Tok Mat ready to resign if ordered; Khaled "no need to wait"; Loke agrees.
+Utusan corroborates the MCMC 3R enforcement (HarianMetro was first outlet):
+- Confirms: MCMC + PDRM investigating 3R content targeting Tuanku Muhriz; Section 233 CMA; MCMC warns all parties.
+- **NEW detail**: individual **called to IPD Seremban for statement recording** (enforcement-process escalation beyond initial recording).
 
-**Impact:** Resolves the ambiguity from the prior cycle's "resign if attack colleagues" warning. Anwar Ibrahim (PMX) +0.25→+0.28, declining→**stable** (clarification removes the drag). New narrative entity "Anwar discipline warning / no resignation order" (+0.20, priority).
+**Impact:** Investigation advancing. MCMC 3R enforcement -0.30→-0.32. Tuanku Muhriz -0.10→-0.12. Derhaka friction (Pertang) -0.20→-0.22 [PRIORITY] — royal-institution dimension reinforced by 2nd outlet. NOT [CRITICAL] — no defector-framing at N.14; no explicit "derhaka" language; escalation is regulatory, not narrative.
 
-### 3. PH manifesto "Kekal Harapan" / "Stabil, Makmur, Inklusif" fully covered [PIR-16/07 — PENDING → RESOLVED]
+### 3. G Manivanan / DUN Jeram Padang — NEW confirmed candidate [PIR-07]
 
-Launched 20 Jul evening (Awani + FMT EN/BM + Harian Metro, 4 outlets):
-- 10 commitments: stable govt, SSR improvements, 30,000 high-paying jobs, quality education, 20,000 affordable homes, land issues, youth/women/family, tourism+Adat Perpatih, FELDA development, modern agriculture, 5 high-impact infrastructure projects, interfaith harmony.
-- Aminuddin: "bukan janji, pelaksanaan" / "not a coalition that governed for decades, but delivered in 8 years."
-- **MB 2-term limit blocked by Umno** — only unfulfilled manifesto item; new PIR-06 intra-coalition reform friction (-0.25, priority).
-- Economic vision: MVV 2.0, NS Semiconductor Valley, Nilai Photonic AI City; "negeri laluan → negeri destinasi."
+- Sinar body text explicitly names **G Manivanan** as "calon PH DUN Jeram Padang" (was photo-caption-only in night3 cycle).
+- 4-cornered fight: PH (Manivanan) / BN / Bersatu (solo logo) / ASLI (Dayana Yusof).
+- Fahmi + Manivanan at "Program Ziarah Kasih," Felda Palong 2 (Jempol), Monday 20 Jul.
 
-**Impact:** Strong PH coherence signal. Aminuddin Harun (Linggi) +0.54→+0.58 (manifesto launch + leadership framing). Was PENDING → now FULLY COVERED. Six manifesto-economy/welfare entities added (all positive, none/priority).
+**Impact:** New entities: G Manivanan (+0.20, stable, none), DUN Jeram Padang (+0.05, stable, none). Federal-minister-level campaign = positive PH ground signal; 4-cornered volatility tempers it. Seat not on director's highest-priority list.
 
-### 4. Anwar campaign schedule (Wed 22 Jul) + Seri Menanti 3-corner [PIR-07]
+### 4. Surface-level detections from Sinar related-article links [flagged for next-cycle monitoring]
 
-- PM Anwar to campaign **Wed 22 Jul at Sikamat (N.13)** + **Paroi (N.25)** — both Tier-4; "majlis yang besar."
-- **Seri Menanti** 3-cornered: PH Mohd Kamarul Arifin vs BN Muhammad Sufian Maradzi (incumbent, 2023 maj. 370) vs Bersatu Megat D Shahriman Zaharudin. **Bersatu contests solo logo** — reinforces "sasar bentuk kerajaan" structural evidence (already [CRITICAL]).
-
-**Impact:** Sikamat +0.05→+0.12 (PM visit); Paroi 0.00→+0.12, none→**priority** (PM visit elevates profile). Linggi +0.26→+0.28 (manifesto + BN manifesto 24 Jul). New candidate entities: Kamarul (+0.20), Megat Shahriman (-0.10, priority — structural corroboration). Sufian unchanged (+0.15, source +1).
-
-### 5. MCMC 3R enforcement targeting Tuanku Muhriz [PIR-07 — escalates derhaka thread]
-
-- MCMC + PDRM investigating 3R content targeting Yang di-Pertuan Besar NS Tuanku Muhriz. Individual recorded under Section 233 CMA (max RM500k/2 yrs).
-- MCMC warns all parties avoid 3R; activates Network Monitoring Centre (hotline 06-4794907).
-
-**Impact:** Real-world manifestation of royal-institution sensitivity. Escalates **derhaka friction (Pertang)** -0.15→-0.20 [PRIORITY] via regulatory enforcement. New entities: "MCMC 3R enforcement targeting Tuanku Muhriz" (-0.30, priority), "Tuanku Muhriz" (-0.10, priority). **[PRIORITY] flagged** per director rule (derhaka intensification at Pertang). NOT [CRITICAL] — no defector-framing intensification at N.14.
+Six narratives/persons surfaced in Sinar related-articles sections (headlines only; full articles NOT scraped):
+- **Akmal Saleh: "DAP ketandusan idea, bawa penipuan baharu"** — Umno Youth chief's counter-attack on DAP [NEW, PIR-16, -0.25, none]
+- **DUN Chuah candidate selection dispute** — PH denies dissatisfaction; internal friction signal [NEW, PIR-07, -0.15, none]
+- **Aminuddin "kekal di Sikamat" sentiment** — public hopes Aminuddin stays at Sikamat; reinforces "fleeing Sikamat" context [NEW, PIR-07, -0.15, **priority**]
+- **EC postal ballots dispatch (13,263)** — election logistics milestone [NEW, PIR-07, 0.0, none]
+- **Fathi Aris: "PH tak punya hak rasa tertipu dengan UMNO/BN"** — pro-BN commentary [NEW, PIR-16, -0.15, none]
+- **KJ "Ada sesuatu yang tak kena dalam Kerajaan Perpaduan"** — surfaces in Sinar related links (reinforces KJ entity, already tracked)
 
 ---
 
 ## PIR-06: Coalition Operational Arrangement [CRITICAL]
+
+### No PIR-06 entities touched this cycle
+
+The earlyam extraction contained **zero PIR-06 entities** — all 11 extracted entities are PIR-07 or PIR-16. No Bersatu, PN, Muhyiddin, Hadi, Hamzah, Kiandee, Ridzuan Ahmad, or Wawasan content surfaced. The Bersatu-PN fracture axis is **carried stable from rev24** with no fresh escalation.
 
 ### Bersatu-PN fracture axis (carried stable; no fresh escalation)
 
@@ -82,9 +79,9 @@ Launched 20 Jul evening (Awani + FMT EN/BM + Harian Metro, 4 outlets):
 |---|---|---|---|---|
 | Muhyiddin Yassin | -0.95 | declining | CRITICAL | unchanged (carried) |
 | Bersatu | -0.90 | stable | CRITICAL | unchanged — internal-fracture signal holds; 24 solo-logo candidates stable |
-| Bersatu-PN fracture (3-sided) | -0.92 | declining | CRITICAL | unchanged — 3-sided corroboration (Muhyiddin/Hamzah/Annuar Musa) intact |
-| lebih hebat new coalition | -0.78 | stable | CRITICAL | unchanged — PN-LEADERSHIP CORROBORATED (rev23); no formalization; 32nd cycle |
-| sasar bentuk kerajaan (Bersatu solo) | -0.80 | stable | CRITICAL | +structural corroboration (Megat Shahriman Bersatu solo logo, Seri Menanti); no new hard-news headline beyond rev23 Annuar Musa |
+| Bersatu-PN fracture (3-sided) | -0.92 | declining | CRITICAL | unchanged |
+| lebih hebat new coalition | -0.78 | stable | CRITICAL | unchanged — no formalization; 33rd cycle |
+| sasar bentuk kerajaan (Bersatu solo) | -0.80 | stable | CRITICAL | unchanged — structural corroboration stable (rev24 Megat Shahriman) |
 | toxic PN (Muhyiddin framing) | -0.85 | declining | CRITICAL | unchanged (carried) |
 | PN-removal-of-Bersatu thread | -0.90 | stable | CRITICAL | unchanged — formal expulsion NOT issued |
 | RoS complaint disrupting PN seat negotiations | -0.62 | stable | CRITICAL | unchanged; seat allocation stable |
@@ -92,108 +89,102 @@ Launched 20 Jul evening (Awani + FMT EN/BM + Harian Metro, 4 outlets):
 | PN Supreme Council (PN-MT) | -0.55 | stable | CRITICAL | unchanged |
 | Ronald Kiandee | -0.25 | stable | CRITICAL | unchanged |
 | Marzuki Mohamad | -0.55 | stable | CRITICAL | unchanged |
-| BN-PN merged machinery | +0.60 | improving | CRITICAL | unchanged (no new content this cycle) |
+| BN-PN merged machinery | +0.60 | improving | CRITICAL | unchanged (no new content) |
+| MB 2-term limit blocked by Umno | -0.25 | stable | priority | unchanged (rev24 NEW; historical, pre-dissolution) |
 
-### NEW PIR-06 entity this cycle
-
-| Entity | Score | Trend | Alert | Δ |
-|---|---|---|---|---|
-| **MB 2-term limit blocked by Umno** | **-0.25** | stable | priority | **NEW** — Aminuddin explicit; only unfulfilled manifesto item; PH-Umno intra-unity-govt reform friction (historical, pre-dissolution; non-critical) |
-
-### PIR-06 persons updated this cycle
-
-| Entity | Score | Trend | Alert | Δ |
-|---|---|---|---|---|
-| **Anwar Ibrahim (PMX)** | **+0.28** | **stable** | priority | +0.25→+0.28, declining→**stable** (discipline-warning clarification resolves drag; campaign schedule) |
-| Fuziah Salleh | +0.15 | stable | none | NEW (PKR Sec-Gen at manifesto) |
-| Hatta Md Ramli | +0.10 | stable | none | NEW (Amanah VP at manifesto) |
-| MK Ibrahim Abd Rahman | +0.15 | stable | none | NEW (Amanah NS chairman) |
-
-**Assessment:** No PIR-06 entity shows a sharp shift >30% — the director [CRITICAL] trigger is NOT crossed. Bersatu holds at -0.90 stable — no fresh campaign-period escalation, no candidate withdrawal, no "pecat/keluar/tarik diri." The MB 2-term-limit revelation is a **new but historical** intra-unity-govt friction vector (PH-Umno, not Bersatu-PN), pre-dissolution, non-critical. The "lebih hebat new coalition" watch remains at PN-LEADERSHIP CORROBORATED (rev23) with no Bersatu formalisation. All 16 PIR-06 [CRITICAL] entities carried unchanged.
+**Assessment:** No PIR-06 entity shows a sharp shift >30% — the director [CRITICAL] trigger is NOT crossed (no PIR-06 entities even touched this cycle). Bersatu holds at -0.90 stable — no fresh campaign-period escalation, no candidate withdrawal, no "pecat/keluar/tarik diri." The "lebih hebat new coalition" watch remains at PN-LEADERSHIP CORROBORATED (rev23) with no Bersatu formalisation (33rd cycle). All 16 PIR-06 [CRITICAL] entities carried unchanged.
 
 ---
 
 ## PIR-16: First Dominant Campaign Narratives [ELEVATED]
 
-### Fahmi–KJ exchange cluster (NEW — narrative battle intensifying)
+### Fahmi–KJ exchange cluster (3rd-outlet corroboration — narrative deepening)
+
+| Entity | Score | Trend | Alert | Δ this cycle |
+|---|---|---|---|---|
+| Fahmi Fadzil | **+0.34** | stable | priority | +0.32→+0.34 (Sinar 3rd outlet; corroboration strengthens rebuttal) |
+| Khairy Jamaluddin | **-0.18** | **declining** | priority | -0.15→-0.18 (Sinar context undermines KJ credibility) |
+| Anwar discipline warning / no resignation order | **+0.22** | stable | priority | +0.20→+0.22 (Sinar 3rd outlet confirms clarification) |
+| PH lacks Malay-Muslim leaders (KJ, rebutted) | -0.25 | stable | priority | unchanged (carried; rev24 NEW) |
+| Don't go overboard (Fahmi rebuttal) | +0.25 | stable | priority | unchanged (carried; rev24 NEW) |
+| KJ driven by political relevance | -0.20 | stable | none | unchanged (carried; Sinar context reinforces) |
+| isyarat kepada PH narrative (KJ) | +0.05 | declining | priority | unchanged (carried; rev24 drop from +0.15) |
+| sensitiviti orang Melayu narrative (KJ) | -0.22 | stable | priority | unchanged (carried) |
+
+### NEW PIR-16 surface-level detections (flagged for monitoring)
 
 | Entity | Score | Trend | Alert | Δ |
 |---|---|---|---|---|
-| **Fahmi Fadzil** | **+0.32** | stable | priority | **NEW** — first PH-govt response; effective rebuttal |
-| **Khairy Jamaluddin** | **-0.15** | declining | priority | **NEW** — directly rebutted; credibility contested |
-| **PH lacks Malay-Muslim leaders (KJ, rebutted)** | **-0.25** | stable | priority | **NEW** — false claim rebutted |
-| **Don't go overboard (Fahmi rebuttal)** | **+0.25** | stable | priority | **NEW** — effective counter-narrative |
-| **KJ driven by political relevance** | **-0.20** | stable | none | **NEW** — counter-frame |
-| **Anwar discipline warning / no resignation order** | **+0.20** | stable | priority | **NEW** — clarifying/defusing; resolves carry-forward |
-| isyarat kepada PH narrative (KJ) | **+0.05** | **declining** | **priority** | +0.15→+0.05, none→**priority** (now contested) |
-| sensitiviti orang Melayu narrative (KJ) | -0.22 | **stable** | priority | -0.20→-0.22, declining→stable (rebuttal contains escalation) |
+| **DAP ketandusan idea (Akmal Saleh claim)** | **-0.25** | stable | none | **NEW** — Umno Youth counter-attack on DAP; surface-level headline |
+| **Fathi Aris (pro-BN commentary)** | **-0.15** | stable | none | **NEW** — "PH has no right to feel betrayed by UMNO/BN"; surface-level |
 
-### PH manifesto narrative cluster (NEW — PENDING → RESOLVED)
+### PH manifesto / narrative cluster (carried stable from rev24)
 
 | Entity | Score | Trend | Alert | Δ |
 |---|---|---|---|---|
-| **PH manifesto 'Kekal Harapan' / 'Stabil, Makmur, Inklusif'** | **+0.35** | stable | priority | **NEW** — 4 outlets; was PENDING → RESOLVED |
-| **Manifesto bukan janji, pelaksanaan (Aminuddin)** | **+0.30** | stable | priority | **NEW** — performance-based credibility |
-| **Senjata utama kempen, avoid retorik kosong** | **+0.25** | stable | priority | **NEW** — message discipline |
-| **Visi Negeri Sembilan Maju 2045** | **+0.25** | stable | none | **NEW** |
-| **Negeri destinasi utama pelaburan** | **+0.28** | stable | none | **NEW** — economic reframe |
+| PH manifesto 'Kekal Harapan' / 'Stabil, Makmur, Inklusif' | +0.35 | stable | priority | unchanged (rev24 NEW; 4 outlets) |
+| Manifesto bukan janji, pelaksanaan (Aminuddin) | +0.30 | stable | priority | unchanged |
+| Senjata utama kempen, avoid retorik kosong | +0.25 | stable | priority | unchanged |
+| Anthony Loke | +0.43 | stable | priority | unchanged |
 
 ### Bersatu-disarray / narrative dichotomy (carried; no new threshold)
 
 | Entity | Score | Trend | Alert | Δ |
 |---|---|---|---|---|
-| Bersatu in disarray / exit imminent | -0.75 | declining | priority | unchanged — hard-news "Bersatu exit imminent?" still NOT crossed (32nd cycle) |
+| Bersatu in disarray / exit imminent | -0.75 | declining | priority | unchanged — hard-news "Bersatu exit imminent?" NOT crossed (33rd cycle) |
 | Bersatu kacau daun narrative (Khaled) | -0.65 | declining | critical | unchanged |
-| sasar bentuk kerajaan (Bersatu solo) | -0.80 | stable | critical | +structural (Megat Shahriman solo logo); no new hard-news headline |
+| sasar bentuk kerajaan (Bersatu solo) | -0.80 | stable | critical | unchanged |
 | sasar bentuk kerajaan (PH solo) | +0.32 | stable | critical | unchanged |
 | penyatuan Melayu-Islam narrative | +0.28 | improving | none | unchanged |
 | makmal politik PRU16 narrative | +0.35 | improving | none | unchanged |
-| Anthony Loke | +0.43 | stable | priority | +0.42→+0.43 (agrees with discipline reminder; at manifesto) |
+| derhaka friction (Pertang) | **-0.22** | stable | priority | -0.20→-0.22 (Utusan 2nd outlet + enforcement advancement) |
 
-**Assessment:** The dominant narrative dichotomy **strengthens on the PH side**: performance + continuity + "bukan janji, pelaksanaan" + manifesto coherence + first direct govt counter-response to KJ. The BN-PN side (penyatuan Melayu-Islam + blue wave) is unchanged this cycle. The "isyarat kepada PH" KJ framing is now **actively contested** (first PH-govt response) — narrative battle intensifying. **Hard-news "Bersatu exit imminent?" still NOT crossed** (32nd cycle); the Seri Menanti Bersatu solo-logo is structural corroboration of "sasar bentuk kerajaan" (already [CRITICAL]), not a new "exit imminent" headline. **Viral amplification >50% NOT crossed** — the manifesto's 4-outlet propagation is normal campaign coverage, not viral amplification of a single narrative.
+**Assessment:** The Fahmi-KJ exchange deepens via 3rd-outlet corroboration — the rebuttal is propagating steadily (not virally). KJ's credibility tilts further negative as Sinar's added context supports the "political relevance" counter-frame. The Anwar discipline clarification is now 3-outlet confirmed, strengthening the defusing narrative. **Hard-news "Bersatu exit imminent?" still NOT crossed** (33rd cycle). **Viral amplification >50% NOT crossed** — 2→3 outlets is exactly 50% (not >50%) and represents normal cross-outlet propagation of a single story over ~3 hours, not a rapid viral escalation. Two new surface-level PIR-16 detections (Akmal Saleh "DAP ketandusan idea," Fathi Aris pro-BN commentary) are flagged for next-cycle monitoring — neither has propagated beyond a related-article headline.
 
 ---
 
 ## PIR-07: Highest-Priority Battlegrounds
 
-### Seat-level developments (dawn: Anwar schedule + manifesto + 3R enforcement)
+### Seat-level developments (earlyam: corroboration + new seat)
 
-| Seat | Score | Trend | Alert | Δ |
+| Seat | Score | Trend | Alert | Δ this cycle |
 |---|---|---|---|---|
-| N.32 Linggi (Aminuddin MB move + BN manifesto 24 Jul) | +0.28 | stable | critical | +0.26→+0.28 (manifesto launch; BN manifesto confirmed) |
-| N.13 Sikamat (3-corner) | +0.12 | stable | critical | +0.05→+0.12 (Anwar campaign 22 Jul — PH reinforcement) |
-| **N.25 Paroi (3-corner)** | **+0.12** | stable | **priority** | 0.00→+0.12, none→**priority** (Anwar campaign 22 Jul) |
+| N.32 Linggi (Aminuddin MB move + BN manifesto 24 Jul) | +0.28 | stable | critical | unchanged (carried) |
+| N.13 Sikamat (3-corner) | +0.12 | stable | critical | unchanged (carried) |
+| N.25 Paroi (3-corner) | +0.12 | stable | priority | unchanged (carried) |
 | N.02 Pertang (3-cornered) | -0.10 | stable | critical | unchanged (seat) |
-| N.34 Gemas | +0.05 | stable | critical | unchanged |
-| N.28 Klawang | +0.10 | stable | priority | unchanged |
 | N.14 Ampangan (defector-framing watch) | -0.10 | stable | priority | unchanged — no intensification |
-| Rantau (Tok Mat seat, straight fight) | +0.44 | declining | priority | unchanged |
-| **DUN Seri Menanti (NEW)** | **+0.05** | stable | **priority** | **NEW** — BN stronghold; 3-cornered; royal institution |
+| Rantau (Tok Mat seat, straight fight) | +0.44 | declining | priority | unchanged (carried) |
+| DUN Seri Menanti | +0.05 | stable | priority | unchanged (carried; rev24 NEW) |
+| **DUN Jeram Padang (NEW)** | **+0.05** | stable | **none** | **NEW** — 4-cornered fight; not on director priority list |
 
-### Candidates (dawn cycle)
+### Candidates (earlyam cycle)
 
 | Candidate | Seat | Score | Trend | Alert | Δ |
 |---|---|---|---|---|---|
-| Aminuddin Harun (Linggi) | N.32 | +0.58 | stable | none | +0.54→+0.58 (manifesto launch) |
-| Mohd Kamarul Arifin (PH) | Seri Menanti | +0.20 | stable | none | NEW (optimistic challenger) |
-| Muhammad Sufian Maradzi (BN) | Seri Menanti | +0.15 | stable | none | unchanged; source +1 |
-| Megat D Shahriman (Bersatu) | Seri Menanti | -0.10 | stable | priority | NEW (confirms Bersatu solo logo) |
-| Amirudin Shari (PH ops co-dir) | — | +0.32 | stable | none | +0.30→+0.32 |
-| Tok Mat (BN Rantau) | N.27 | +0.55 | stable | priority | unchanged; EN-corroborated (source +1) |
+| Aminuddin Harun (Linggi) | N.32 | +0.58 | stable | none | unchanged (carried) |
+| **G Manivanan (PH) (NEW)** | **Jeram Padang** | **+0.20** | stable | **none** | **NEW** — confirmed via Sinar body text; Fahmi campaign |
+| Mohd Kamarul Arifin (PH) | Seri Menanti | +0.20 | stable | none | unchanged (carried) |
+| Muhammad Sufian Maradzi (BN) | Seri Menanti | +0.15 | stable | none | unchanged (carried) |
+| Megat D Shahriman (Bersatu) | Seri Menanti | -0.10 | stable | priority | unchanged (carried) |
+| Tok Mat (BN Rantau) | N.27 | +0.55 | stable | priority | unchanged (carried) |
 
-### Campaign safety / regulatory (dawn: 3R enforcement NEW)
+### Campaign safety / regulatory (earlyam: 3R enforcement 2nd outlet)
 
-| Entity | Score | Trend | Alert | Δ |
+| Entity | Score | Trend | Alert | Δ this cycle |
 |---|---|---|---|---|
-| **MCMC 3R enforcement targeting Tuanku Muhriz** | **-0.30** | stable | priority | **NEW** — royal-institution regulatory guardrail |
-| **Tuanku Muhriz Tuanku Munawir** | **-0.10** | stable | priority | **NEW** — 3R target; central to royal dimension |
-| **MCMC Network Monitoring Centre** | **0.00** | stable | none | **NEW** |
-| derhaka friction (Pertang) | **-0.20** | stable | priority | -0.15→-0.20 (escalated via 3R enforcement) |
-| Election-related death near Rantau | -0.50 | stable | critical | unchanged |
-| DUN Palong (PH flags burned) | -0.45 | stable | priority | unchanged |
-| PDM Klawang police investigation | -0.10 | improving | priority | unchanged (RESOLVED, drifting neutral) |
+| **MCMC 3R enforcement targeting Tuanku Muhriz** | **-0.32** | stable | priority | -0.30→-0.32 (Utusan 2nd outlet; individual summoned to IPD Seremban) |
+| **Tuanku Muhriz Tuanku Munawir** | **-0.12** | stable | priority | -0.10→-0.12 (Utusan 2nd outlet; investigation advancing) |
+| MCMC Network Monitoring Centre | 0.00 | stable | none | unchanged (carried) |
+| derhaka friction (Pertang) | **-0.22** | stable | priority | -0.20→-0.22 (Utusan corroboration + enforcement advancement) |
+| **EC postal ballots dispatch (13,263) (NEW)** | **0.00** | stable | **none** | **NEW** — election logistics; confirms postal-vote figure |
+| **Aminuddin 'kekal di Sikamat' sentiment (NEW)** | **-0.15** | stable | **priority** | **NEW** — surface-level; reinforces "fleeing Sikamat" context |
+| **DUN Chuah candidate dispute (NEW)** | **-0.15** | stable | **none** | **NEW** — surface-level; internal PH friction |
+| Election-related death near Rantau | -0.50 | stable | critical | unchanged (carried) |
+| DUN Palong (PH flags burned) | -0.45 | stable | priority | unchanged (carried) |
+| PDM Klawang police investigation | -0.10 | improving | priority | unchanged (carried; RESOLVED) |
 
-**Assessment:** No incumbent/leading-candidate sentiment drop >20% detected — Aminuddin improving (+0.54→+0.58); Tok Mat stable (+0.55). **No defector-framing intensification at N.14.** The **derhaka friction at Pertang** is escalated via MCMC 3R enforcement targeting Tuanku Muhriz → **[PRIORITY] flagged** per director rule (royal-institution dimension reinforced), but NOT [CRITICAL] (no explicit "derhaka" language, no defector-frame intensification at the seats). Anwar's Wed 22 Jul Sikamat + Paroi schedule reinforces two Tier-4 seats. BN manifesto launch 24 Jul at Linggi + Pertang = next major PIR-07 event (upcoming, not yet occurred).
+**Assessment:** No incumbent/leading-candidate sentiment drop >20% detected — all carried stable; Aminuddin improving (rev24 +0.54→+0.58). **No defector-framing intensification at N.14.** The **derhaka friction at Pertang** is reinforced via Utusan 2nd-outlet corroboration + enforcement-process advancement (individual summoned to IPD Seremban) → **[PRIORITY] maintained** per director rule. NOT [CRITICAL] — no defector-frame intensification at the seats; no explicit "derhaka" language; escalation is regulatory, not narrative. The "Aminuddin kekal di Sikamat" surface-level detection reinforces the PIR-07 Sikamat→Linggi swap strategic risk (already [CRITICAL] entity at -0.35). Anwar's Wed 22 Jul Sikamat + Paroi schedule and BN manifesto 24 Jul at Linggi + Pertang = next major PIR-07 watch events (upcoming).
 
 ---
 
@@ -219,7 +210,7 @@ Launched 20 Jul evening (Awani + FMT EN/BM + Harian Metro, 4 outlets):
 
 ### PIR-16 (3 critical) — all carried unchanged
 17. Bersatu kacau daun narrative (Khaled) -0.65 declining
-18. sasar bentuk kerajaan (Bersatu solo) -0.80 stable — +structural corroboration (Megat Shahriman solo logo)
+18. sasar bentuk kerajaan (Bersatu solo) -0.80 stable
 19. sasar bentuk kerajaan (PH solo) +0.32 stable
 
 ### PIR-07 (6 critical) — all carried unchanged
@@ -236,54 +227,54 @@ Launched 20 Jul evening (Awani + FMT EN/BM + Harian Metro, 4 outlets):
 
 | Watch item | Status | Δ this cycle | Notes |
 |---|---|---|---|
-| **"lebih hebat new coalition" trajectory** | PN-LEADERSHIP CORROBORATED (carried) | no change | rev23 upgrade (Annuar Musa 16 Jul); no Bersatu formalization; 32nd cycle |
+| **"lebih hebat new coalition" trajectory** | PN-LEADERSHIP CORROBORATED (carried) | no change | rev23 upgrade; no Bersatu formalization; 33rd cycle |
 | Wawasan admission to PN | CONFIRMED (carried) | no change | Wawasan runs under PN banner |
 | RoS complaint disruption | NOT DETECTED | no change | Seat allocation stable |
-| PDM Klawang reopen | RESOLVED (carried) | no change | Police investigating; drifting neutral |
+| PDM Klawang reopen | RESOLVED (carried) | no change | Police investigating; no new mention |
 | "toxic PN" trajectory | STABLE | no change | No fresh escalation; no Hamzah/Marzuki volley |
 | "termination"/"pecat" | WATCH | no change | No new sacking content |
 | "kuorum" | STABLE | no change | Disputed, not resolved |
-| Bersatu sharp-negative (internal-fracture) | CONFIRMED [CRITICAL] | no change | -0.90 stable; no fresh escalation |
+| Bersatu sharp-negative (internal-fracture) | CONFIRMED [CRITICAL] | no change | -0.90 stable; no fresh escalation; no PIR-06 content this cycle |
 | "Bersatu kacau daun" (Wan Saiful) | NOT DETECTED | no change | Wan Saiful not surfaced; Khaled kacau daun carried |
-| "sasar bentuk kerajaan" vs "PB after PRN" | STRUCTURAL CORROBORATION +1 | Megat Shahriman (Seri Menanti) Bersatu solo logo | No new hard-news headline beyond rev23 Annuar Musa |
+| "sasar bentuk kerajaan" vs "PB after PRN" | STRUCTURAL CORROBORATION (carried) | no change | No new hard-news headline beyond rev23 Annuar Musa |
 | "makmal politik" PRU16 | STRENGTHENING (carried) | no change | 3 UMNO figures, 3 outlets |
-| Hard-news "Bersatu exit imminent?" | NOT CROSSED | no change | 32nd cycle; Seri Menanti = "voluntary split" (Bersatu choice), not forced exit |
-| Viral amplification >50% | NOT CROSSED | no change | Manifesto 4-outlet coverage = normal campaign, not viral |
-| **Pertang "derhaka" friction** | **ESCALATED [PRIORITY]** | -0.15→-0.20 | MCMC 3R enforcement targeting Tuanku Muhriz reinforces royal dimension; no explicit "derhaka" language |
+| Hard-news "Bersatu exit imminent?" | NOT CROSSED | no change | 33rd cycle; Bersatu 24 solo-logo stable |
+| Viral amplification >50% | NOT CROSSED | no change | Fahmi-KJ 2→3 outlets = exactly 50% (not >50%); normal propagation, not viral |
+| **Pertang "derhaka" friction** | **ESCALATED [PRIORITY]** | -0.20→-0.22 | Utusan 2nd-outlet corroboration + individual summoned to IPD Seremban; no explicit "derhaka" language |
 | PDM Klawang impact on cousins race | STABILISING | no change | PDM resolved |
 | BN manifesto launch 24 Jul | CONFIRMED (upcoming) | no change | DUN Linggi + Pertang; not yet occurred |
-| **Evening Day-1 dispatch (18:00-20:00)** | COVERED (prior cycles) | no change | rev22/23 builds |
-| **Incumbent sentiment drop >20%** | NOT CROSSED | no change | Aminuddin improving (+0.54→+0.58); Tok Mat stable |
-| **Defector-framing at N.14/Pertang** | [PRIORITY] — derhaka only | derhaka escalated | "derhaka" at Pertang [PRIORITY]; no defector-frame intensification at N.14 |
-| **Fahmi-KJ exchange (NEW)** | **NEW — ACTIVE** | **new** | First direct PH-govt response to KJ "signal" narrative. Watch for KJ counter-response. |
+| Evening Day-1 dispatch (18:00-20:00) | COVERED (prior cycles) | no change | rev22/23 builds |
+| **Incumbent sentiment drop >20%** | NOT CROSSED | no change | All carried stable; no drops |
+| **Defector-framing at N.14/Pertang** | [PRIORITY] — derhaka only | derhaka reinforced | "derhaka" at Pertang [PRIORITY] (2nd outlet); no defector-frame intensification at N.14 |
+| **Fahmi-KJ exchange** | **ACTIVE — 3-OUTLET CORROBORATED** | +1 outlet | Sinar Harian now corroborates (FMT EN+BM + Sinar). "Isyarat" framing explicit. Watch for KJ counter-response. |
 
 ---
 
 ## Methodology
 
-- **Baseline:** revision-23 (2026-07-21T00:22:00+08:00, 362 entities, 25 critical/123 priority/214 none) built on the night3 TheVibes recovery (collected 23:13 MYT 20 Jul; pre-campaign/nomination-day articles 13–18 Jul). rev23 explicitly noted "No Day-2-late or 21-Jul content has been scraped yet."
-- **Delta source:** dawn extraction `entities-20260721-0059.json` (generated 00:59 MYT 21 Jul, 43 entities from 12 genuinely-new PRN-relevant articles collected 00:34–00:50 MYT 21 Jul). This is POST-rev23 and contains genuinely-new content: PH manifesto launch (20 Jul evening), Fahmi-KJ exchange, Anwar campaign schedule (22 Jul), MCMC 3R enforcement, Seri Menanti 3-cornered fight.
-- **Result:** 32 new entities; 12 existing entities updated (11 from extraction + 1 carry-forward-driven derhaka update). Total: 394 entities (25 critical/139 priority/230 none).
+- **Baseline:** revision-24 (2026-07-21T02:35:00+08:00, 394 entities, 25 critical/139 priority/230 none) built on the dawn extraction `entities-20260721-0059.json` (00:59 MYT, 43 entities from 12 genuinely-new PRN-relevant articles collected 00:34–00:50 MYT 21 Jul). rev24 covered the PH manifesto launch evening of 20 Jul + Fahmi-KJ exchange + Anwar campaign schedule + MCMC 3R enforcement + Seri Menanti 3-corner.
+- **Delta source:** earlyam extraction `entities-20260721-0315.json` (generated 03:15 MYT 21 Jul, 11 entities from 5 articles collected 01:59 MYT 21 Jul). LOW-YIELD cycle: 0 genuinely new stories, 3 alternate-outlet corroborations (Sinar ×2, Utusan ×1), 1 new candidate confirmation (G Manivanan), 1 false positive skipped, 6 surface-level detections from Sinar related-article links.
+- **Result:** 7 new entities; 6 existing entities updated. Total: 401 entities (25 critical/142 priority/234 none).
 - **Scoring:** SIGNED -1.0 to +1.0. Negative < -0.20; Neutral -0.20 to +0.20; Positive > +0.20.
 - **PIR weights:** PIR-06=2.0, PIR-16=1.8, PIR-07=1.3, non-priority=1.0
 - **Critical threshold:** Sharp shift >30% for PIR-06; Bersatu sharp-negative = [CRITICAL]; PIR-16 [CRITICAL] if hard-news corroborates "Bersatu exit imminent?" OR "sasar bentuk kerajaan" OR viral >50%
 - **Alerts:** [CRITICAL] = director-rule trigger or threshold cross; [PRIORITY] = significant signal, sub-threshold; none = routine
-- **Source outlets this cycle:** FMT (BM+EN), Astro Awani, Harian Metro — dawn cycle (12 genuinely-new articles; 10 false positives skipped)
-- **Data gap:** No post-dawn (post-00:50 MYT 21 Jul) content scraped. Next scrape cycle pending.
+- **Source outlets this cycle:** Sinar Harian (2 articles), Utusan (1), MalayMail (1) — earlyam cycle (5 articles processed; 1 false positive skipped; 6 surface-level detections)
+- **Data gap:** No post-earlyam (post-01:59 MYT 21 Jul) content scraped. Next scrape cycle pending. Anwar campaign Wed 22 Jul (Sikamat + Paroi) and BN manifesto 24 Jul (Linggi + Pertang) = next major events.
 
 ---
 
 ## Next Cycle Watch
 
-1. **KJ counter-response** — does Khairy respond to Fahmi's "don't go overboard" rebuttal? Does the "isyarat kepada PH" narrative escalate or stabilise?
-2. **Anwar campaign (Wed 22 Jul)** — Sikamat (N.13) + Paroi (N.25) ground events; coverage tone; any gaffes or provocations?
-3. **BN manifesto launch (24 Jul)** — DUN Linggi + Pertang; joint BN-PN or BN-only framing? Does it match/counter PH's "bukan janji, pelaksanaan"?
-4. **MB 2-term limit friction** — does Umno respond to Aminuddin's "ditolak oleh UMNO" revelation? Does intra-unity-govt reform friction escalate?
-5. **3R / derhaka thread** — does the MCMC 3R investigation produce charges? Does explicit "derhaka" language emerge at Pertang/N.14?
+1. **KJ counter-response** — does Khairy respond to Fahmi's "don't go overboard" rebuttal now that it's 3-outlet corroborated? Does the "isyarat kepada PH" narrative escalate or stabilise?
+2. **Surface-level detections** — do any of the 6 Sinar related-link narratives (Akmal "DAP ketandusan idea," DUN Chuah dispute, Aminuddin "kekal di Sikamat," Fathi Aris pro-BN, KJ "ada sesuatu yang tak kena") develop into full articles? Flagged for next-cycle extraction.
+3. **Anwar campaign (Wed 22 Jul)** — Sikamat (N.13) + Paroi (N.25) ground events; coverage tone; any gaffes or provocations?
+4. **BN manifesto launch (24 Jul)** — DUN Linggi + Pertang; joint BN-PN or BN-only framing? Does it match/counter PH's "bukan janji, pelaksanaan"?
+5. **3R / derhaka thread** — does the MCMC 3R investigation (individual summoned to IPD Seremban) produce charges? Does explicit "derhaka" language emerge at Pertang/N.14?
 6. **lebih hebat new coalition** — does Muhyiddin or any Bersatu leader confirm/refute Annuar Musa's "another political platform" claim?
 7. **Bersatu exit imminent?** — does the "voluntary split" framing shift toward "exit imminent"? Does any Bersatu candidate withdraw?
-8. **Loke DAP congress conditional** — does any other DAP leader echo the Aug 16 congress direction statement?
+8. **Aminuddin "kekal di Sikamat" sentiment** — does the "fleeing Sikamat" narrative intensify? Does Aminuddin's local-base-unhappiness surface in full articles?
 
 ---
 
-*End of summary — PRN Negeri Sembilan 2026 Sentiment Analysis, Revision-24, 2026-07-21 02:35 MYT (UTC+8). 394 entities (32 new / 12 updated) from dawn extraction entities-20260721-0059.json (12 genuinely-new articles). [CRITICAL] NOT crossed (32nd cycle). Fahmi-KJ exchange = NEW active PIR-16 narrative thread. PH manifesto launch PENDING flag RESOLVED (fully covered). Anwar campaign schedule (Wed 22 Jul, Sikamat+Paroi) + BN manifesto (24 Jul, Linggi+Pertang) = next major PIR-07 watch events. Derhaka friction at Pertang ESCALATED [PRIORITY] via MCMC 3R enforcement.*
+*End of summary — PRN Negeri Sembilan 2026 Sentiment Analysis, Revision-25, 2026-07-21 04:55 MYT (UTC+8). 401 entities (7 new / 6 updated) from earlyam extraction entities-20260721-0315.json (5 articles, 0 genuinely new stories, 3 corroborations, 1 new candidate). [CRITICAL] NOT crossed (33rd cycle). Fahmi-KJ exchange now 3-outlet corroborated (FMT EN+BM + Sinar). MCMC 3R enforcement 2-outlet corroborated (HarianMetro + Utusan) + enforcement advancing (individual summoned to IPD Seremban). Derhaka friction at Pertang reinforced [PRIORITY] -0.20→-0.22. G Manivanan / DUN Jeram Padang = NEW confirmed PH candidate. 6 surface-level detections flagged for next-cycle monitoring. No PIR-06 entities touched this cycle.*
