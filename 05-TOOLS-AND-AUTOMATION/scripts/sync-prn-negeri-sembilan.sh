@@ -51,7 +51,7 @@ except Exception as e:
 "
 
 # STEP 2: Git sync
-TIMESTAMP=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+TIMESTAMP=$(TZ=Asia/Kuala_Lumpur date +%Y-%m-%dT%H:%M:%S+08)
 CHANGES=$(git status --porcelain | wc -l)
 
 if [ "$CHANGES" -gt 0 ]; then

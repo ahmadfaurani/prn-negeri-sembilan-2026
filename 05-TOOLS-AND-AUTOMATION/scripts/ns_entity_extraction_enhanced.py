@@ -27,7 +27,7 @@ import re
 import json
 import glob
 from collections import defaultdict, Counter
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 WORKSPACE = "/home/p62operator/.openclaw/workspace-ns"
 RAW_DIR = os.path.join(WORKSPACE, "04-DATA-AND-SOURCES", "raw-scrapes")
@@ -386,7 +386,7 @@ def main():
         "locations": locations,
     }
 
-    now_iso = datetime.now(timezone.utc).isoformat()
+    now_iso = datetime.now(timezone(timedelta(hours=8))).isoformat()
     summary_counts = {}
     for cat, items in cat_map.items():
         out = {
