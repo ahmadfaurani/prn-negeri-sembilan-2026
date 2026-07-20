@@ -1,7 +1,7 @@
 # PRN NEGERI SEMBILAN 2026 — INTELLIGENCE BRIEF
 ## Nomination Day Surge Mode | Day 2 Evening+ Cycle | TLP:AMBER
 
-**Generated:** 2026-07-20 20:30 MYT  
+**Generated:** 2026-07-20 14:05 MYT  
 **Collection Window:** 19 Jul 17:25 – 20 Jul 20:00 MYT (24h approval cycle)  
 **Campaign Day:** Day 2 of 12 (Polling: 1 Aug | Early Voting: 28 Jul)  
 **Brief ID:** PRN-NS-NOMINATION-20260720-2030  

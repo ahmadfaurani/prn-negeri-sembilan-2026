@@ -1,7 +1,7 @@
 # PRN Negeri Sembilan 2026 — Sentiment Analysis Summary
 
 **Revision:** 16 (`sentiment-20260720-0625.json`)
-**Generated:** 2026-07-20 06:25 MYT (06:25 MYT 19 Jul)
+**Generated:** 2026-07-20 07:59 MYT (06:25 MYT 19 Jul)
 **TLP:** AMBER
 **Entity build:** `processed-entities/2026-07-19/entities-20260719-2225.json` — 230 entities, 15+ cycles, finalized 06:25 MYT 19 Jul / 06:25 MYT 20 Jul
 **Prior revision:** rev15 (`sentiment-20260720-0550.json`, 237 entities, 13 critical/51 priority/173 none), built on the 228-entity 1954 build

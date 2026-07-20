@@ -752,3 +752,233 @@ Other non-NS (×4): `..._Awani_sampel-salad-positif-parasit-*` (US parasite outb
 ---
 
 *Midafternoon cycle index appended 2026-07-20 ~13:55 MYT (05:55 UTC) by PRN Negeri Sembilan 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. 16 articles saved (12 main script + 4 targeted sidebar-recovery). 4 genuinely-new full-text + 4 paywalled title-only. [CRITICAL] NOT crossed (22nd cycle; 1 auto-flag FALSE POSITIVE corrected — Bersatu Rahang "pecat" = Gerakan sacking member, not PN expelling Bersatu). Key midafternoon developments: (1) Intra-PN component friction — Gerakan sacks Bersatu-lent candidate Tang Jay Son at Rahang (Tier-4); candidate STAYING; (2) Marzuki/Muhyiddin-camp counter-attacks Hamzah — "Hamzah led movement to topple Muhyiddin as PN chairman/Bersatu president"; "PN became toxic from that moment"; (3) NEW election incidents at Palong (flags burned) + N31 Chembong (Tier-4, flag damage) — escalation from 1→3 incident seats; (4) Sikamat N.13 Tier-4 3-corner confirmed; "PN-Wawasan" label confirms Wawasan runs under PN banner; (5) "Bersatu kian tidak relevan, hadapi krisis identiti" Sinar opinion piece (paywalled) — PIR-16 "Bersatu in disarray" narrative signal. PH manifesto launch tonight 18:00-20:00 MYT — next major collection window.*
+
+---
+---
+
+# CYCLE: `20260720_lateafternoon` — Campaign Day 2-3 (late afternoon surge)
+
+**Cycle:** `20260720_lateafternoon` — collected ~15:21 MYT 20 Jul (07:21 UTC) | cutoff = 05:55 UTC / **13:55 MYT** (midafternoon cycle end)
+**Fetcher:** `_surge_fetch_20260720_lateafternoon.py` (67 gnews queries + 10 RSS feeds incl. **Harian Metro RSS — NEW working source** + homepage extraction + Sinar article-ID scan 788590-788660 + Harian Metro alt-path recovery)
+**Purpose:** Capture fresh Day-2 content since 13:55 MYT + recover midafternoon sidebar-referenced targets (DUN Pilah two-women, 21 DUN three-cornered, etc.) + monitor PH manifesto launch timing + PDM Klawang reopen status + [CRITICAL] watch continuation.
+**Polling day:** 2026-08-01 (Sat) | **Early voting:** 2026-07-28 | **Nomination day:** 2026-07-18
+
+## CYCLE SUMMARY
+
+| Metric | Value |
+|---|---|
+| Google News queries run | 67 (incl. 12 mandatory PIR-06 [CRITICAL]-watch: kuorum, lebih hebat, pecat, tarik diri, PDM Klawang reopen, RoS, sole opposition, new coalition) |
+| gnews items returned | 676 (420 PRN/priority headline hits) |
+| gnews **fresh** post-cutoff (≥13:55 MYT) | **1** (Pertang Mandarin PKR — gnews fresh hit) |
+| RSS feed items scanned | **787** total (Awani 10 + **HarianMetro 51 — NEW** + FMT 50; NST/MalayMail/Sinar/Utusan/BH feeds = 0) |
+| **Articles saved (total)** | **91** (after 13 favicon false positives deleted; pre-delete 104) |
+| RSS full-text saved | 53 (FMT 18 + HarianMetro 31 + Awani 1 + Sinar home 3) |
+| URL-extracted (gnews fresh) | 1 (Awani Chuah) |
+| Homepage-extracted | 7 |
+| Sinar targeted article-ID scan | 30 (788590-788660) |
+| HarianMetro alt-path recovery | 13 (but 13 were favicon PNG false positives → deleted) |
+| Genuine PIR-06 [CRITICAL] threshold crossings | **0** (23rd cycle — confirmed) |
+| Auto-flagged [CRITICAL] | 1 → **FALSE POSITIVE (corrected)** — see §CRITICAL |
+| Genuinely-new analytically-material articles | **~14** (Pertang, Chuah, Pilah, Gemas, Gemencheh, Bahau, Sikamat, flags-sabotage, death, permits, 6-PKR-loss, Fathi Aris, Terengganu BN-PN, BM Pertang) |
+| Duplicates skipped | 21 |
+| False positives (non-PRN) | ~40 (World Cup, crime, weather, international, federal parliament, favicon PNGs) |
+
+---
+
+## 🔴 PIR-06 — COALITION OPERATIONAL ARRANGEMENT — [CRITICAL] NOT CROSSED (23rd cycle)
+
+**[CRITICAL] status: MAINTAINED. NO NEW THRESHOLD CROSSING this cycle.** One auto-flag (Nur Jazlan Senate article, sidebar "dipecat Bersatu") = FALSE POSITIVE (corrected — see §CRITICAL). No formal PN-MT expulsion, no Bersatu candidate withdrawal, no Kiandee quorum escalation, no "lebih hebat new coalition," no RoS intervention. All 12 mandatory gnews [CRITICAL]-watch queries returned 0 fresh critical hits.
+
+**[CRITICAL] FALSE POSITIVE CORRECTION:**
+- `priority_PIR-06-PIR-07_sinarharian_nur-jazlan-dilantik-semula-timbalan-speaker-dewan-negara...` — auto-flag fired on sidebar text "Timbalan Speaker DUN Kelantan kekal walaupun dipecat Bersatu" (Kelantan DUN Deputy Speaker remains despite being sacked FROM Bersatu). This is an INDIVIDUAL expelled BY Bersatu (not Bersatu expelled from PN), and it's a sidebar/related-article link, not the article's main content. Opposite direction of PIR-06 [CRITICAL] threshold. Article itself = Nur Jazlan Senate reappointment (routine parliamentary, non-PRN). Corrected in-file.
+
+### 1. No BN-PN cooperation in Terengganu — confirms NS-specific arrangement [NEW]
+→ `priority_PIR-06-PIR-07_sinarharian_tiada-perbincangan-kerjasama-bn-pn-di-terengganu-sinar-harian_20260720_lateafternoon_targeted.md` (Sinar 788618)
+- **UMNO Terengganu chairman Datuk Rozi Mamat:** "setakat ini tidak ada perbincangan lagi dengan mana-mana pihak" — no formal BN-PN cooperation talks in Terengganu for PRU16.
+- "Pola politik sekarang kita tidak boleh jangka. Kadang-kadang di Terengganu lain, di Sarawak lain, di Sabah lain, di Negeri Sembilan lain dan di Johor pula lain." — political patterns differ by state.
+- Open to cooperation if it benefits rakyat, citing Sarawak model (state-level ≠ federal-level).
+- Also addressed KWAP/eFishery RM200m scandal — won't comment without official reports.
+- **Significance:** PIR-06 — confirms BN-PN cooperation is **NS-specific** (and Johor), NOT a national formula. Contrasts with "blue wave to Selangor/Putrajaya" framing (KJ/Noh Omar from morning/midday cycles). Each state has its own "acuan politik."
+
+### 2. Fathi Aris: "PH has no right to feel cheated by UMNO/BN" [NEW — PIR-16 narrative]
+→ `priority_PIR-06-PIR-07_sinarharian_ph-tak-punya-hak-untuk-berasa-tertipu-dengan-umno-bn-fathi-aris-sinar-harian_20260720_lateafternoon_targeted.md` (Sinar 788616)
+- **Political observer Fathi Aris Omar** (former editor): PH misread the Unity Government basis — UMNO only supported PH after PRU15 because no coalition had majority. PH should be grateful, not complaining.
+- "UMNO kini lebih selesa dengan Pas dan PN tidak boleh disalahkan pada Ahmad Zahid atau Mohamad Hasan (Tok Mat)" — UMNO more comfortable with PAS/PN; can't blame Zahid/Tok Mat.
+- **Rebuts AMH (Angkatan Muda Harapan)** call for all BN ministers to resign from Cabinet — calls it "terlajak" (over the top). Notes parties in government also contested each other in Sabah PRN.
+- "PRN Johor dan NS adalah bagi penggal DUN ke-16" — new PRU16 term, so BN free to find new partners (PAS, Wawasan).
+- "Expelling UMNO from Cabinet won't give PMX/Madani stability" — warns against destabilizing the federal government.
+- **Significance:** PIR-06/16 — major narrative analysis reinforcing "BN free to partner PN" normalization. Direct rebuttal to AMH "resign to attack" call (morning cycle Kamil Munim thread). Fathi cites Melaka PRN late 2021 (BN vs PN vs PH three-way) as precedent. Sidebar references: "Bersatu kian tidak relevan, hadapi krisis identiti" — narrative continues surfacing.
+
+### 3. Bersatu running SEPARATELY from PN/Wawasan — additional confirmation [CARRY-FORWARD + NEW data point]
+- **Pertang (T1):** 3-cornered = Umry (PH) vs Jalaluddin (BN) vs **Faizal Fadli Idrus (calon Bersatu)** — article labels Faizal as "calon Bersatu" (not "calon PN"), confirming Bersatu runs under its own logo.
+- **Sikamat (N.13 Tier-4):** 3-cornered = Razali (PN/Wawasan) vs Tun Faisal (Bersatu) vs Nor Azman (PH) — PN/Wawasan and Bersatu competing AGAINST each other.
+- **Bahau:** BN/MCA candidate Ah Chong notes "kerjasama berpasukan membabitkan parti komponen BN dan... membantu persefahaman dengan Perikatan Nasional (PN)" — BN-PN ground cooperation confirmed.
+- **Significance:** Bersatu candidates appear as separate Bersatu-logo entries, not under PN/Wawasan. In Sikamat, Bersatu and PN/Wawasan field SEPARATE candidates against each other — confirming the PN coalition fracture in NS (Wawasan ≠ Bersatu). Connects to midafternoon "Bersatu sasar bentuk kerajaan negeri" narrative. NOT [CRITICAL] — no formal expulsion/withdrawal, but structural evidence of Bersatu operating independently.
+
+---
+
+## 🟢 PIR-07 — HIGHEST-PRIORITY BATTLEGROUNDS — late afternoon surge (HIGH YIELD)
+
+### 1. Pertang (T1) — 3-cornered with candidate names + demographics [FRESH 14:13 MYT, NEW]
+→ `priority_PIR-06-PIR-07_FMT_pkr-man-hopes-mandarin-fluency-will-help-wrest-pertang-from-bn_20260720_lateafternoon_rss.md` (EN) + `..._fasih-mandarin-senjata-calon-ph-lawan-ketua-umno-di-pertang..._rss.md` (BM)
+- **3-cornered:** Umry Abdul Khois (PH/PKR, SJKC Pertang alumnus, Mandarin fluent) vs **Jalaluddin Alias** (BN, state BN chief, MP Jelebu, former deputy minister, seeking 3rd term) vs **Faizal Fadli Idrus** (Bersatu).
+- **Demographics:** Malay 65.5%, Chinese ~20-30% (EN says 20.1%; BM says "hampir 30%").
+- Pertang held by UMNO since 1964. Jalaluddin won 2023 with **2,790 majority** (straight fight vs PN when PH-BN were allies).
+- Umry's strategy: Mandarin fluency to court Chinese voters + PH admin record (Aminuddin since 2018) + PM Anwar's aura. Focus on education and youth development.
+- "BN-PN cooperation doesn't affect my focus" — PH going solo in all 36 seats.
+- **Significance:** T1 seat candidate names confirmed. Bersatu candidate = Faizal Fadli Idrus (NEW name). Jalaluddin "derhaka" angle (Tok Mat's ally contesting under BN-PN pact against former PH ally) — not mentioned in article itself but contextually relevant.
+
+### 2. Chuah — Candidacy controversy RESOLVED, 2-cornered confirmed [FRESH 14:20 MYT, NEW]
+→ `priority_PIR-06-PIR-07_Awani_prn-negeri-sembilan-polemik-pencalonan-dun-chuah-sudah-selesai-aminuddin_20260720_lateafternoon.md`
+→ `priority_PIR-06-PIR-07_sinarharian_ph-nafi-dakwaan-tak-puas-hati-pemilihan-calon-dun-chuah-sinar-harian_20260720_lateafternoon_home.md` (Sinar 788617, PH denial)
+- **Aminuddin Harun** (PH NS chairman): DUN Chuah candidacy controversy resolved. Press conference at Port Dickson with Boon Lai, Kenny, and Sri Tanjung incumbent Dr Rajasekaran Gunnasekaran.
+- Issue: incumbent **Datuk Yew Boon Lai** (PH) vs **Datuk Kenny Chiew Chi Kin** (PD PKR deputy chief) over PH candidate selection. Kenny now gives full support to PH candidates in Chuah, Lukut, Sri Tanjung, Bagan Pinang, Linggi.
+- **2026 PRN16 Chuah = 2-cornered:** Boon Lai (PH incumbent) vs **Pau Jeou Ching** (BN). [NEW BN candidate name]
+- 2023 PRN: Boon Lai won Chuah 2-cornered (8,172 votes vs PN's Tang Jay Son, majority 6,298). Tang Jay Son now contesting Rahang under Bersatu (see midafternoon cycle).
+- **Significance:** Resolves the Chuah internal friction (Boon Lai vs Kenny). Five PD-area DUN seats (Chuah, Lukut, Sri Tanjung, Bagan Pinang, Linggi) confirmed as PH sweep target.
+
+### 3. DUN Pilah — Two-women contest RECOVERED [NEW — sidebar target from evening cycle]
+→ `priority_PIR-06-PIR-07-PIR-16_sinarharian_calon-dun-pilah-fokus-kebajikan-warga-emas-peluang-kerja-untuk-anak-muda-sinar-h_20260720_lateafternoon_home.md` (Sinar 788617)
+- **2-women contest:** **Datuk Noorzunita Begum Mohd Ibrahim** (PH incumbent, also lost Ketua Wanita Cabang 2025) vs **S Leza Md Yasin** (BN). [NEW BN candidate name]
+- Noorzunita's 5-year plan: attract investment to Kuala Pilah for youth jobs (prevent outmigration), elderly welfare (those without pension).
+- Kuala Pilah development under Aminuddin since 2018: Dataran Melang, Pilah Gateway, LED screen, HTAN hospital.
+- **Significance:** RECOVERS the "DUN Pilah dua calon wanita" target from evening cycle's next-cycle recommendations. Also confirmed in the "6 PKR candidates lost" analyst article (Noorzunita lost Ketua Wanita Cabang with 37.05% — internal election loser fielded as candidate).
+
+### 4. DUN Gemas (N34) — PKR woman candidate profiled [NEW]
+→ `priority_PIR-06-PIR-07_sinarharian_calon-wanita-pkr-mahu-bawa-perubahan-di-gemas-sinar-harian_20260720_lateafternoon_home.md` (Sinar 788627)
+- **PKR candidate Siti Aishah Seman @ Othman**, DUN Gemas (N34) — one of only **TWO women PKR fielded in NS** (the other: Noorzunita in Pilah).
+- BA Syariah from UM, active in politics since 2000, joined PKR 2018. Former DUN Gemas coordinating officer (2021-2023). Timbalan Ketua Wanita PKR NS (2022-2025).
+- 4 children (22-28), lived in Gemas 29 years. First-time election candidate.
+- Key issue: **Felda settlers in Gugusan Jelai** (replanting oil palm, no income yet — need cost-of-living assistance).
+- Campaign: house-to-house approach.
+- Also lost Ketua Cabang Tampin (41.52%) in 2025 party elections — one of the 6 PKR candidates who lost internal elections.
+- **Significance:** N34 Gemas candidate profile. Felda Gugusan Jelai as key demographic. Confirms 5-cornered seat (N34). Two PKR women confirmed (Siti Aishah Gemas + Noorzunita Pilah).
+
+### 5. DUN Gemencheh — PH's oldest candidate (70, AMANAH) [FRESH 13:24 MYT, NEW]
+→ `priority_PIR-07_HarianMetro_prn-n9-usia-hanya-angka-calon-ph-dun-gemencheh_20260720_lateafternoon_rss.md` (Harian Metro — NEW working source)
+- **PH candidate Datuk Abd Latif A Thambi**, 70, DUN Gemencheh — **oldest candidate in PRN NS**. AMANAH NS vice chairman.
+- **1-on-1 vs BN's Suhaimizan Bizar** (straight fight). [NEW BN candidate name]
+- Platform: Gemencheh as sports hub (cricket, hockey, volleyball, golf), recreation center, internet, jobs.
+- Met at PDM Bukit Rokan.
+- **Significance:** DUN Gemencheh = AMANAH (PH) vs BN straight fight. Confirms polling day 1 August 2026. AMANAH vice chairman as candidate.
+
+### 6. DUN Bahau — MCA challenges DAP 20-year stronghold [FRESH 12:52 MYT, NEW]
+→ `priority_PIR-06-PIR-07_HarianMetro_prn-n9-bn-kena-kerja-keras-dap-sudah-lebih-20-tahun-di-sini-ah-chong_20260720_lateafternoon_rss.md`
+- **BN/MCA candidate Chong Fui Ming** ("Ah Chong"), MCA Jempol deputy chairman, DUN Bahau.
+- DAP has held Bahau since 2004 (20+ years) — difficult to break dominance.
+- 4 pledges: agriculture, tourism, welfare, health.
+- **BN-PN ground cooperation confirmed:** "kerjasama berpasukan membabitkan parti komponen BN dan... membantu persefahaman dengan Perikatan Nasional (PN) diharap dapat membantu kemenangan MCA di Bahau."
+- Urban + traditional kampung voters "want change." Polling day: 1 August.
+- **Significance:** DUN Bahau = MCA (BN) vs DAP (PH) straight fight. BN-PN cooperation on the ground confirmed for MCA seats.
+
+### 7. Sikamat (N.13 Tier-4) — PN/Wawasan candidate profiled [FRESH 13:02 MYT, NEW]
+→ `priority_PIR-06-PIR-07_HarianMetro_prn-n9-polis-atau-wakil-rakyat-sama-sama-jaga-masyarakat_20260720_lateafternoon_rss.md`
+- **PN/Wawasan candidate Datuk Razali Abu Samah**, 63, DUN Sikamat — retired PDRM (16 Jun 2023), former acting Melaka Police Chief. From Jelebu.
+- 3-cornered: Razali (PN/Wawasan) vs **Datuk Tun Faisal Ismail Aziz** (Bersatu info chief) vs **Nor Azman Mohamad** (PH). [MB Aminuddin moved to Linggi]
+- Razali: PDRM service spirit drives political service. Sikamat = "kerusi panas" (hot seat) against "figura besar."
+- Won't make empty promises; will identify problems and find solutions.
+- **Significance:** Full candidate profiles for all 3 corners at Sikamat Tier-4 seat. Razali's police background connects to morning-cycle Wawasan-police-vote strategy. Confirms Bersatu running separately from PN/Wawasan in this seat.
+
+### 8. Campaign material sabotage — Palong + Chembong + PDM Klawang RESOLVED [FRESH 14:28 MYT, NEW]
+→ `priority_PIR-06-PIR-07_HarianMetro_prn-n9-bahan-kempen-dirosakkan-dipercayai-angkara-khianat_20260720_lateafternoon_rss.md`
+→ `priority_PIR-06-PIR-07_utusan_prn-negeri-sembilan-polis-lulus-107-permit-ceramah-kempen_20260720_lateafternoon_home.md` (Utusan, police permits + investigation papers)
+- **PH Bilik Gerakan Utama** reports:
+  - **DUN Palong** — flags **burned** (night 19 Jul)
+  - **DUN Chembong** (N.27/N31 Tier-4) — flag posts **damaged (khianat)** (morning 20 Jul)
+- PH threatens legal action: **Section 4A Election Offences Act 1954** + **Section 427 Penal Code**
+- **NS Police Chief Datuk Alzafny Ahmad:** 2 investigation papers opened under Section 427 Penal Code, both reports from **Kuala Klawang, Jelebu**:
+  - 19 Jul: man found PH flags + banners thrown into drain at Kuala Klawang
+  - Another man found scratch marks on car bumper after flag installation
+  - Total: **3 police reports, 2 investigation papers** for 18-19 Jul
+- **PDM Klawang STATUS RESOLVED:** Police investigations ARE ACTIVE at Kuala Klawang (DUN Klawang N.28 T1 area). The PDM is NOT closed — investigation papers opened, not resolved. This answers the midafternoon cycle's "PDM Klawang reopening UNRESOLVED (hour 21+)" — the PDM activity is active with police investigating election sabotage.
+- **Significance:** Campaign sabotage escalation: 3 seats affected (Klawang + Palong + Chembong Tier-4). PDM Klawang question resolved — police actively investigating. NS police chief Alzafny Ahmad is the common authority (also handles ceramah permits).
+
+### 9. Election-related death — man killed installing party flags near Rantau [NEW]
+→ `priority_PIR-06-PIR-07_sinarharian_lelaki-maut-dilanggar-lari-ketika-pasang-bendera-parti-sinar-harian_20260720_lateafternoon_targeted.md` (Sinar 788630)
+- 23-year-old man killed in **hit-and-run** while installing party flags on Jalan Kuala Sawah-Rantau near Kampung Belangkan (Sunday 6:40pm).
+- A lorry hit a signpost and the man on the road shoulder. Driver fled.
+- Seremban OCPD Asst Comm **Mohd Yatim Osman**: investigated under **Section 41(1) Road Transport Act 1987**.
+- Witness hotline: Inspektor Nor Fadzilah Mohd Zainuddin (019-4611794), Bilik Gerakan IPD (06-6033222).
+- **Significance:** FIRST election-related fatality in PRN NS 2026. Occurred near Rantau (Tok Mat's seat area). Campaign activity (flag installation) turned deadly — significant PIR-07 escalation.
+
+### 10. Police approve 107 ceramah permits [FRESH 14:55 MYT, NEW]
+→ `priority_PIR-06-PIR-07_utusan_prn-negeri-sembilan-polis-lulus-107-permit-ceramah-kempen_20260720_lateafternoon_home.md` (Utusan, by Nor Shafiqah Mohd Ghazali)
+- **NS police chief Datuk Alzafny Ahmad:** 107 permits approved (out of 109 received, 18-19 Jul).
+- 19 Jul alone: 90 received, 88 approved (2 rejected for non-compliance).
+- Security situation "baik dan terkawal" (good and controlled).
+- 2 investigation papers opened for election sabotage (Section 427 Penal Code — see #8 above).
+- **Significance:** Campaign operational data — 107 active permits. Police monitoring all political programs.
+
+### 11. Six PKR candidates lost party elections — analyst warns of machinery disunity [NEW]
+→ `priority_PIR-06-PIR-07_sinarharian_enam-calon-pkr-kalah-pemilihan-parti-penganalisis-sinar-harian_20260720_lateafternoon_targeted.md` (Sinar 788622)
+- **Analyst Muhammad Afifi Abdul Razak** (senior lecturer): at least 6 PKR PRN NS candidates lost 2025 party elections at branch level:
+  1. **DUN Gemas:** Siti Aishah Seman — lost Ketua Cabang Tampin (41.52%)
+  2. **DUN Ampangan:** Datuk Muhammad Nazri Kassim — lost Ketua Cabang Seremban (47.91%)
+  3. **DUN Labu:** Datuk Ahmad Faez Abdul Razak — lost Ketua Cabang Rasah (35.10%)
+  4. **Kuala Pilah:** Mohd Aidil Abdullah — lost Ketua Cabang (46.04%)
+  5. **Kuala Pilah:** Mohd Kamarul Arifin Mohd Wafa — lost Timbalan Ketua Cabang (36.49%)
+  6. **DUN Pilah:** Datuk Nur Zunita Begum Mohd Ibrahim — lost Ketua Wanita Cabang (37.05%)
+- Warning: supporters may become passive, silently boycott, or campaign minimally. "Elections are won through voter acceptance, machinery unity, and member confidence."
+- **Critical analysis of Aminuddin's seat swap:** "Why would PKR give up a proven-safe seat (Sikamat) for the MB to contest a BN-held seat (Linggi) with more uncertain prospects?" If Aminuddin loses Linggi → signals voters rejecting his leadership → weakens PH's admin-achievement narrative. "If PKR fails to hold Sikamat and loses marginal seats due to disunited machinery, this swap will be remembered as a strategic error, not a bold move."
+- Sidebar references: "Leevineshwaraan calon termuda, Tok Mat antara paling otai", "Calon tertua 70 tahun, termuda 23 tahun", "Tiada kertas penamaan calon ditolak, 103 sah bertanding"
+- **Significance:** VERY high-value PIR-07 intel. Names all 6 PKR candidates who lost internal elections (cross-references with Pilah, Gemas, Ampangan, Labu findings). First detailed critical analysis of Aminuddin's Sikamat→Linggi swap from an analytical perspective. Confirms 103 candidates total, youngest 23, oldest 70.
+
+---
+
+## 🟡 PIR-16 — FIRST DOMINANT CAMPAIGN NARRATIVES — late afternoon updates
+
+### 1. Fathi Aris: "PH has no right to feel cheated" — major narrative analysis [NEW]
+- See PIR-06 #2 above for full details. Key PIR-16 angles:
+  - Reinforces "BN free to partner PN" normalization (PRN Johor + NS = new PRU16 term)
+  - Rebuts AMH "resign to attack" call (Kamil Munim thread from morning)
+  - Cites Melaka PRN late 2021 (BN vs PN vs PH three-way) as precedent for parties in government contesting each other
+  - "PH salah membaca asas kerjasama" — PH misread the Unity Government basis
+  - Sidebar "Bersatu kian tidak relevan, hadapi krisis identiti" continues surfacing (paywalled, midafternoon cycle)
+
+### 2. 6 PKR candidates lost party elections — internal friction narrative [NEW]
+- See PIR-07 #11 above. PIR-16 angle: analyst frames PKR's candidate selection as potentially undermining internal democracy → "meninggalkan terlalu banyak persoalan" (leaves too many questions). This is a narrative challenge for PKR's campaign — if supporters feel their branch-level winners were bypassed, machinery motivation drops.
+
+### 3. "Bersatu sasar bentuk kerajaan negeri" — structural evidence [CARRY-FORWARD]
+- Pertang: Faizal Fadli Idrus as "calon Bersatu" (not "calon PN")
+- Sikamat: Bersatu (Tun Faisal) vs PN/Wawasan (Razali) — competing against each other
+- Bersatu running independently from PN/Wawasan = the "sasar bentuk kerajaan negeri" narrative manifesting in candidate selection
+- NOT [CRITICAL] — no hard-news outlet has explicitly stated "Bersatu exit imminent" or "Bersatu sasar bentuk kerajaan negeri" as a headline. The structural evidence (separate candidates) is clear but the explicit narrative hasn't been published as hard news.
+
+---
+
+## ⚠️ COLLECTION LIMITATIONS (late afternoon cycle)
+
+- **gnews freshness (23rd cycle):** 67 queries → 676 items, 420 PRN/priority hits, **1 fresh** (Pertang Mandarin PKR via FMT). gnews continues to surface mostly historical matches. The 1 fresh hit was successfully extracted via Awani URL.
+- **Harian Metro RSS — NEW working source:** `https://www.hmetro.com.my/feed` returned 51 items (37 PRN/priority hits) — a breakthrough after 22 cycles of HTTP 000/404. Harian Metro now provides full-text RSS content. However, the alt-path homepage recovery phase captured 13 favicon PNG files as false positives (deleted).
+- **RSS feeds:** FMT 50 items (18 PRN saved), HarianMetro 51 items (31 saved), Awani 10 items (8 PRN hits, 1 fresh saved). NST/MalayMail/Sinar/Utusan/BH RSS feeds still return 0 (JS/403).
+- **Sinar article-ID scan:** 788590-788660 yielded 30 articles (many non-PRN but several genuinely-new PRN articles including Pilah, Gemas, Fathi Aris, 6-PKR-loss, Terengganu, death). 0 paywalled (unlike midafternoon's 4 paywalled — the targeted range shifted to news articles, not opinion/premium).
+- **Homepage extraction:** 7 articles saved (Utusan, Sinar, MalayMail). NST/Star/Kosmo/BH/mStar returned few candidate links.
+- **[CRITICAL] auto-flag:** 1 false positive (Nur Jazlan Senate, sidebar "dipecat Bersatu" = Kelantan individual expelled by party, not PN expelling Bersatu). Corrected in-file. Detector needs semantic refinement for sidebar text (related-article links shouldn't trigger [CRITICAL]).
+- **False positives (~40):** favicon PNGs (13, deleted), World Cup/football, crime stories, international (Nicaragua, Iran, Singapore minister, Orang Asli), federal parliament (KWAP/eFishery, Vivy Yusof, Nur Jazlan Senate, MV Berkat Tuah, imigresen), weather alerts, missing persons. Many triggered on substring matches ("negeri" in non-NS context, "anwar" in federal news, "pn" as common abbreviation).
+
+---
+
+## 📈 CYCLE DELTA: midafternoon → late afternoon (13:55 → 15:21 MYT 20 Jul, ~1h26m)
+
+- **Articles saved:** 91 (after 13 favicon deletions; 53 RSS + 1 URL-extract + 7 homepage + 30 Sinar targeted)
+- **Genuinely-new FULL-TEXT:** **~14** (Pertang EN+BM, Chuah Awani+Sinar, Pilah, Gemas, Gemencheh, Bahau, Sikamat PN/Wawasan, flags-sabotage HarianMetro, death Sinar, permits Utusan, 6-PKR-loss Sinar, Fathi Aris Sinar, Terengganu Sinar)
+- **Genuinely-fresh post-cutoff (≥13:55 MYT):** **2** (Pertang 14:13 MYT via FMT RSS, Chuah 14:20 MYT via Awani)
+- **PIR-06 status:** [CRITICAL] MAINTAINED (23rd cycle). 1 auto-flag FALSE POSITIVE corrected. NEW intel: (a) No BN-PN talks in Terengganu = NS-specific cooperation confirmed; (b) Fathi Aris major narrative analysis; (c) Bersatu-separate-from-PN/Wawasan additional data point (Pertang).
+- **PIR-07 status:** **HIGHEST YIELD this cycle** — 11 major new intelligence items: Pertang 3-corner, Chuah resolved, Pilah two-women RECOVERED, Gemas candidate, Gemencheh oldest candidate, Bahau MCA, Sikamat PN/Wawasan profile, flags-sabotage + PDM Klawang RESOLVED, election death, 107 permits, 6-PKR-loss analyst.
+- **PIR-16 status:** NOT [CRITICAL]. Fathi Aris narrative analysis + 6-PKR-loss internal friction + "Bersatu sasar bentuk" structural evidence (no explicit hard-news headline yet).
+- **Source breakthrough:** Harian Metro RSS now working (51 items, 31 saved) — first time in 23 cycles. Major addition to source coverage.
+- **PDM Klawang:** RESOLVED — police actively investigating at Kuala Klawang, Jelebu (2 investigation papers, Section 427 Penal Code). Not closed, not reopened — active investigation.
+
+---
+
+## 🎯 NEXT-CYCLE RECOMMENDATIONS (16:00–20:00 MYT window → PH manifesto launch tonight)
+
+1. **PIR-07 (PRIORITY):** **PH MANIFESTO LAUNCH tonight ~18:00-20:00 MYT** — expected to be the biggest campaign event of Day 2-3. Capture ALL coverage when published (Awani, FMT, NST, Star, Sinar, Utusan, HarianMetro). Look for: manifesto content/pledges, Amirudin Shari officiation, Aminuddin Harun's role, PH's 36-seat strategy, MB-after-PRN narrative.
+2. **PIR-07 (continued):** **BN MANIFESTO 24 Jul at DUN Linggi + Pertang** — monitor for advance coverage/announcements. Track Jalaluddin's Pertang campaign ground intel. Monitor Chembong (N31) + Palong sabotage follow-up (police investigation outcomes). Track the election-death hit-and-run investigation (Rantau area).
+3. **PIR-06 ([CRITICAL] watch):** 23rd cycle with no threshold crossing. Maintain formal-removal watch: Bersatu Supreme Council quorum, RoS, "lebih hebat new coalition," Bersatu candidate withdrawal. Monitor whether Bersatu-separate-from-PN/Wawasan arrangement escalates to formal coalition statement. Monitor Gerakan-Bersatu Rahang dispute follow-up.
+4. **PIR-16:** Track "Bersatu kian tidak relevan / krisis identiti" — does any hard-news outlet explicitly publish "Bersatu exit imminent?" or "Bersatu sasar bentuk kerajaan negeri" as headline? If yes → [CRITICAL]. Track Fathi Aris narrative pickup. Track AMH/Kamil Munim response to Fathi's rebuttal. Monitor "toxic PN" volley (Hamzah ↔ Marzuki).
+5. **Source maintenance:** **Harian Metro RSS now working** — add to regular RSS polling cycle. Sinar homepage extraction = proven yield. Re-poll FMT/Awani/HarianMetro RSS for post-15:21 MYT fresh content. Sinar Premium paywall still blocks opinion pieces (if credentials available: Bersatu identity crisis, coalition-vs-coalition, PKR strategy). gnews URL resolution remains curl-infeasible (23rd cycle).
+
+---
+
+*Late afternoon cycle index appended 2026-07-20 ~15:25 MYT (07:25 UTC) by PRN Negeri Sembilan 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. 91 articles saved (53 RSS + 1 URL + 7 homepage + 30 Sinar targeted; 13 favicon false positives deleted). [CRITICAL] NOT crossed (23rd cycle; 1 auto-flag FALSE POSITIVE corrected — Nur Jazlan Senate sidebar "dipecat Bersatu" = Kelantan individual, not PN expelling Bersatu). Source breakthrough: Harian Metro RSS working for first time (51 items, 31 saved). Key late afternoon developments: (1) Pertang T1 3-corner confirmed — Umry (PH) vs Jalaluddin (BN) vs Faizal Fadli Idrus (Bersatu); Mandarin fluency strategy; (2) Chuah controversy RESOLVED — Boon Lai (PH) vs Pau Jeou Ching (BN) 2-cornered; Kenny Chiew gives full support; (3) DUN Pilah two-women contest RECOVERED — Noorzunita (PH) vs S Leza (BN); (4) DUN Gemas N34 PKR woman candidate Siti Aishah profiled; Felda Gugusan Jelai issue; (5) DUN Gemencheh PH oldest candidate Abd Latif (70, AMANAH) vs Suhaimizan (BN); (6) DUN Bahau MCA Ah Chong challenges DAP 20-year stronghold; BN-PN ground cooperation confirmed; (7) Sikamat PN/Wawasan candidate Razali (ex-police) profiled; Bersatu vs PN/Wawasan split confirmed; (8) Campaign sabotage escalation — Palong flags burned + Chembong Tier-4 damaged + PDM Klawang RESOLVED (police 2 investigation papers at Kuala Klawang); (9) First election-related death — man killed installing flags near Rantau; (10) 107 ceramah permits approved; (11) 6 PKR candidates lost party elections — analyst warns machinery disunity + questions Aminuddin Sikamat→Linggi swap; (12) Fathi Aris: "PH has no right to feel cheated" — major PIR-16 narrative; (13) No BN-PN talks in Terengganu — NS-specific cooperation confirmed. PH manifesto launch tonight 18:00-20:00 MYT — next major collection window.*
