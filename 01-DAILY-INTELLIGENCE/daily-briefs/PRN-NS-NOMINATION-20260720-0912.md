@@ -1,7 +1,7 @@
 # PRN NEGERI SEMBILAN 2026 — NOMINATION DAY SURGE INTELLIGENCE BRIEF
 ## Campaign Day 2 | Nomination Day +2 | TLP:AMBER
 
-**Generated:** 2026-07-20 09:12 MYT (01:12 UTC)  
+**Generated:** 2026-07-20 09:12 MYT (09:12 MYT)  
 **Cycle:** 20260720_morning (18th cycle since [CRITICAL] threshold originated)  
 **Delivery:** Telegram (automated)  
 **Classification:** TLP:AMBER  

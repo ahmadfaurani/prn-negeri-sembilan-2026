@@ -1,9 +1,9 @@
 # PRN Negeri Sembilan 2026 — Nomination Day Hourly Intelligence Brief
 
 **Date:** 2026-07-18 (Nomination Day)
-**Timestamp:** 21:13 MYT / 13:13 UTC
+**Timestamp:** 21:13 MYT / 21:13 MYT
 **Classification:** TLP:AMBER
-**Reporting Period:** Hourly surge — collection window 21:03 MYT (13:03 UTC, Cycle 4); previous brief 19:27 MYT (11:27 UTC)
+**Reporting Period:** Hourly surge — collection window 21:03 MYT (21:03 MYT, Cycle 4); previous brief 19:27 MYT (11:27 MYT)
 **Framework:** Nomination Day Surge (PIR-01 → PIR-25) + PRN16 Standard (NS-01 → NS-18)
 **Prepared by:** PRN Negeri Sembilan 2026 Intelligence Brief Agent (GLM-5.2) — NOMINATION DAY SURGE MODE
 **Distribution:** State Campaign Leadership, DUN War Rooms, Intelligence Cell → Telegram

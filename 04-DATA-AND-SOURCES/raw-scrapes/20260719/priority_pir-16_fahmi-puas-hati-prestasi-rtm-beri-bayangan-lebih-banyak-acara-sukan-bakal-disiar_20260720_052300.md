@@ -1,0 +1,15 @@
+# [PRIORITY PIR-16] fahmi-puas-hati-prestasi-rtm-beri-bayangan-lebih-banyak-acara-sukan-bakal-disiar
+Source URL: https://www.hmetro.com.my/arena/bola-sepak/2026/07/1386715/fahmi-puas-hati-prestasi-rtm-beri-bayangan-lebih-banyak-acara-sukan
+Final/redirected URL: https://www.hmetro.com.my/arena/bola-sepak/2026/07/1386715/fahmi-puas-hati-prestasi-rtm-beri-bayangan-lebih-banyak-acara-sukan
+Collected: 20260719 20260719_212300 MYT (2026-07-19 21:25:09 MYT) | MYT: 05:25 MYT 20 Jul 2026
+Classification: TLP:AMBER
+HTTP: 200 | mode: METRO-rss-content
+Note: Full text from METRO RSS content:encoded (no curl fetch needed)
+Title: Fahmi puas hati prestasi RTM, beri bayangan lebih banyak acara sukan bakal disiarkan
+ArticlePubDate: Mon, 20 Jul 2026 04:45:19 +0000
+Body chars: 2188
+
+## Full text
+==============================================================================
+ferzalfie@hmetro.com.my Kuala Lumpur: Menteri Komunikasi, Datuk Seri Fahmi Fadzil memuji kejayaan Radio Televisyen Malaysia (RTM) sebagai penyiar rasmi Piala Dunia 2026 apabila berjaya menyiarkan keseluruhan 104 perlawanan, meskipun berdepan beberapa cabaran teknikal pada peringkat awal kejohanan. Beliau berkata, isu yang timbul berjaya dikenal pasti dan diselesaikan dengan pantas, sekali gus memastikan pengalaman tontonan rakyat Malaysia tidak terjejas sehingga aksi final berlangsung. "Kita akan dapatkan angka penuh nanti dan teliti keseluruhan pencapaian untuk perlawanan akhir. Memang ada beberapa isu teknikal pada awal kejohanan, tetapi ia berjaya dikenal pasti dan diatasi," katanya ketika ditemui di Tayangan Perlawanan Akhir Piala Dunia 2026 di Dataran Merdeka. Menurut Fahmi, kejohanan itu turut membuka ruang kepada RTM memanfaatkan teknologi penyiaran baharu yang membolehkan rakyat mengikuti siaran secara lebih mudah menerusi pelbagai platform termasuk telefon pintar. "Saya rasa ini peluang yang baik untuk kita melihat teknologi baharu, termasuk keupayaan menonton siaran televisyen melalui telefon pintar dan ini sangat baik untuk rakyat Malaysia," katanya. Pada masa sama, beliau merakamkan penghargaan kepada semua pihak yang menjayakan siaran percuma Piala Dunia 2026 termasuk RTM, Telekom Malaysia (TM), CelcomDigi, U Mobile, Dewan Bandaraya Kuala Lumpur (DBKL) dan agensi kerajaan lain. Menurutnya, sambutan luar biasa orang ramai di Dataran Merdeka membuktikan minat rakyat terhadap kejohanan bola sepak terbesar dunia itu apabila lebih 25,000 penyokong hadir menyaksikan aksi final. "Saya mengucapkan syabas dan tahniah kepada semua pihak yang menjayakan siaran percuma Piala Dunia 2026 di Dataran Merdeka. Semoga pasukan terbaik muncul juara," katanya. Mengulas kemungkinan RTM terus diberi kepercayaan sebagai penyiar rasmi kejohanan sukan utama selepas ini, Fahmi berkata, beberapa lagi acara sedang dirancang untuk disiarkan. "Insya-Allah. Ketua Pengarah Penyiaran sudah memaklumkan terdapat beberapa lagi pertandingan yang akan disiarkan menerusi RTM dan pengumuman mengenainya akan dibuat dalam masa terdekat," katanya. © New Straits Times Press (M) Bhd
+==============================================================================

@@ -43,8 +43,8 @@
     "PIR-07": "Battleground Assessment (THIRD)"
   },
   "delta_vs_prior_build_165723": {
-    "prior_build": "entities_165723.json (16:57 UTC / 00:57 MYT 19 Jul)",
-    "this_build": "entities_190215.json (19:02 UTC / 03:02 MYT 19 Jul)",
+    "prior_build": "entities_165723.json (00:57 MYT / 00:57 MYT 19 Jul)",
+    "this_build": "entities_190215.json (03:02 MYT / 03:02 MYT 19 Jul)",
     "cycle_window_ingested": [
       "170837 (source-gap fill + PIR-06 ESCALATION: Muhyiddin exit hint)",
       "182751 (stability/confirmation pass — 0 new articles, deep-overnight MYT)"
@@ -3153,11 +3153,11 @@
     "note": "Media byline names appear in collected content but are not political entities; listed for completeness only."
   },
   "delta_vs_prior_build_190215": {
-    "prior_build": "entities_190215.json (19:02 UTC / 03:02 MYT 19 Jul)",
-    "this_build": "entities_211155.json (21:11 UTC / 05:11 MYT 19 Jul)",
+    "prior_build": "entities_190215.json (03:02 MYT / 03:02 MYT 19 Jul)",
+    "this_build": "entities_211155.json (05:11 MYT / 05:11 MYT 19 Jul)",
     "cycle_window_ingested": [
-      "194028 (19:40 UTC / 03:40 MYT 19 Jul — 2nd zero-delta overnight confirmation pass)",
-      "205755 (20:57 UTC / 04:57 MYT 19 Jul — 3rd zero-delta overnight confirmation pass)"
+      "194028 (03:40 MYT / 03:40 MYT 19 Jul — 2nd zero-delta overnight confirmation pass)",
+      "205755 (04:57 MYT / 04:57 MYT 19 Jul — 3rd zero-delta overnight confirmation pass)"
     ],
     "delta_verification_method": "Programmatic normalized title set-difference on _scrape_results priority_titles across 182751 / 194028 / 205755 (this agent). 194028->205755 delta = 0 titles. 182751->194028/205755 delta = +1 / -1 (NST English '103 candidates confirmed' corroborating an already-counted fact; Samsuri title rotated off gnews top-60 but already captured at 170837).",
     "genuinely_new_findings": [],

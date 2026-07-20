@@ -52,10 +52,10 @@
 - `constituencies/DUN_MASTER_LIST.md` (6.6 KB) - 36 DUN baseline across 8 Parliaments
 
 ### Operational Scripts (4 files)
-- `scripts/ns-daily-collection.sh` (3.7 KB) - News collection (01:00 UTC)
-- `scripts/ns-entity-extraction.sh` (4.2 KB) - Entity extraction (06:00 UTC)
-- `scripts/ns-sentiment-analysis.sh` (2.8 KB) - Sentiment analysis (08:00 UTC)
-- `scripts/ns-daily-brief.sh` (5.6 KB) - Brief generation (09:00 UTC)
+- `scripts/ns-daily-collection.sh` (3.7 KB) - News collection (09:00 MYT)
+- `scripts/ns-entity-extraction.sh` (4.2 KB) - Entity extraction (14:00 MYT)
+- `scripts/ns-sentiment-analysis.sh` (2.8 KB) - Sentiment analysis (16:00 MYT)
+- `scripts/ns-daily-brief.sh` (5.6 KB) - Brief generation (17:00 MYT)
 
 ### Reports (1 file)
 - `reports/DEPLOYMENT_SUMMARY_20260710.md` (7.4 KB) - Operational readiness assessment
@@ -107,7 +107,7 @@ n9-pir/
 - **News Sources:** 13 priority outlets configured
 - **First Collection:** 2026-07-10 09:58 MYT (Sinar Harian Negeri Sembilan)
 - **Words Collected:** 117 words (test run)
-- **Automation:** Daily collection scheduled at 01:00 UTC (09:00 MYT)
+- **Automation:** Daily collection scheduled at 09:00 MYT (09:00 MYT)
 
 ### Entity Extraction Results
 - **Politicians:** Extracted from initial collection
@@ -204,7 +204,7 @@ n9-pir/
 ## Next Steps
 
 ### Immediate (24-48 hours)
-1. **Automated Collection:** Verify first full automated cycle (01:00 UTC daily)
+1. **Automated Collection:** Verify first full automated cycle (09:00 MYT daily)
 2. **SPR Data Scrape:** Complete 2023 election results for all 36 DUN
 3. **Repository Sync:** Establish daily git push schedule for new intelligence
 
@@ -279,4 +279,4 @@ n9-pir/
 
 **Upload Completed:** 2026-07-10  
 **Repository Status:** Active and operational  
-**Next Update:** Daily intelligence collection (01:00 UTC)
+**Next Update:** Daily intelligence collection (09:00 MYT)

@@ -8,9 +8,9 @@
 
 ---
 
-## CYCLES RUN TODAY (10 cycles, UTC timestamps)
+## CYCLES RUN TODAY (10 cycles, MYT timestamps)
 
-| Cycle (UTC) | MYT | Titles scanned | Genuinely-new priority titles | Priority full-text fetched | Notes |
+| Cycle (MYT) | MYT | Titles scanned | Genuinely-new priority titles | Priority full-text fetched | Notes |
 |---|---|---|---|---|---|
 | 20260719_011915 | 09:19 | 1151 | — (baseline) | 4 | First morning cycle; PN-removal watch |
 | 20260719_024042 | 10:40 | 1174 | 136 (mostly re-surfaced) | 2 | Awani 19 ceramah permits; mkini Zan Azlee commentary |
@@ -177,7 +177,7 @@
 
 ---
 
-*Index generated 2026-07-19 11:55 MYT (03:55 UTC) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL.*
+*Index generated 2026-07-19 11:55 MYT (11:55 MYT) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL.*
 
 ---
 
@@ -260,7 +260,7 @@ Full candidate names, 2023 majorities, and demographics now captured for marquee
 
 ---
 
-*Cycle 051226 section appended 2026-07-19 13:22 MYT (05:22 UTC) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL.*
+*Cycle 051226 section appended 2026-07-19 13:22 MYT (13:22 MYT) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL.*
 
 ---
 
@@ -355,7 +355,7 @@ Loke (after Pasar Besar Seremban walkabout): MCA "biggest loser" — surrendered
 
 ---
 
-*Cycle 064654 section appended 2026-07-19 14:50 MYT (06:50 UTC) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL.*
+*Cycle 064654 section appended 2026-07-19 14:50 MYT (14:50 MYT) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL.*
 
 ---
 
@@ -472,7 +472,7 @@ Fuziah Salleh (PKR sec-gen): PKR won't "gadai kepercayaan" (gamble trust) for po
 
 ---
 
-*Cycle 075200 section appended 2026-07-19 15:58 MYT (07:58 UTC) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation raised this cycle per Director PIR-06 designation.*
+*Cycle 075200 section appended 2026-07-19 15:58 MYT (15:58 MYT) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation raised this cycle per Director PIR-06 designation.*
 
 ---
 
@@ -531,10 +531,10 @@ Fuziah Salleh (PKR sec-gen): PKR won't "gadai kepercayaan" (gamble trust) for po
 
 5. **🟠 Muhyiddin ↔ PAS/Annuar Musa open warfare (15-17 Jul, freshly surfaced via pn-supreme-council gnews):**
    - "Impossible for PN to fulfil Bersatu's NS demands, says Annuar" (FMT, 16 Jul)
-   - "Muhyiddin fires back at Annuar over Bersatu PN exit claim" (FMT, 17 Jul 02:16 UTC)
-   - "Muhyiddin slams PAS for holding alliance talks with BN" (FMT, 15 Jul 15:02 UTC)
-   - "PAS acting like bullies towards Bersatu, says Muhyiddin's ex-aide" (FMT, 17 Jul 05:32 UTC)
-   - "I approved PN-BN talks ahead of NS polls, Samsuri tells Muhyiddin" (FMT, 16 Jul 06:38 UTC) — PAS TG president Ahmad Samsuri confirms he approved PN-BN talks, contradicting Muhyiddin's objection.
+   - "Muhyiddin fires back at Annuar over Bersatu PN exit claim" (FMT, 17 Jul 10:16 MYT)
+   - "Muhyiddin slams PAS for holding alliance talks with BN" (FMT, 15 Jul 23:02 MYT)
+   - "PAS acting like bullies towards Bersatu, says Muhyiddin's ex-aide" (FMT, 17 Jul 13:32 MYT)
+   - "I approved PN-BN talks ahead of NS polls, Samsuri tells Muhyiddin" (FMT, 16 Jul 14:38 MYT) — PAS TG president Ahmad Samsuri confirms he approved PN-BN talks, contradicting Muhyiddin's objection.
    - These are PRE-nomination (15-17 Jul) items showing the coalition-arrangement dispute was INTENSIFYING in the days before nomination. They provide additional context for the [CRITICAL] Kiandee quorum escalation (11 Jul) but do NOT cross the formal-notice threshold.
 
 6. **CARRYOVER (still stable):** Kiandee quorum escalation (11 Jul, [CRITICAL]-flagged in 075200) + Gerakan-Tang pecat + Zahid Melaka-PRU16 link + Wan Saiful disarray claim. Bersatu 24 solo candidates stable; no withdrawals.
@@ -636,7 +636,7 @@ Aminuddin Harun (PH, moved from Sikamat to Linggi) — no fresh Day-1 campaign d
 
 ---
 
-*Cycle 091800 section appended 2026-07-19 17:25 MYT (09:25 UTC) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (no formal-threshold crossing this cycle); new sub-threshold developments: PN-MB-concession + Bersatu-solo-governing-bid + Wawasan-admitted-to-PN + Muhyiddin-PAS warfare.*
+*Cycle 091800 section appended 2026-07-19 17:25 MYT (17:25 MYT) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (no formal-threshold crossing this cycle); new sub-threshold developments: PN-MB-concession + Bersatu-solo-governing-bid + Wawasan-admitted-to-PN + Muhyiddin-PAS warfare.*
 
 ---
 
@@ -762,7 +762,7 @@ Aminuddin Harun (PH, moved from Sikamat to Linggi) — no fresh Day-1 campaign d
 
 ---
 
-*Cycle 102500 section appended 2026-07-19 18:32 MYT (10:32 UTC) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (no formal-threshold crossing this cycle). NEW source breakthrough: BH WordPress feed now working. Freshest article: PH manifesto launch confirmed for 20 Jul evening (BH 18:11 MYT).*
+*Cycle 102500 section appended 2026-07-19 18:32 MYT (18:32 MYT) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (no formal-threshold crossing this cycle). NEW source breakthrough: BH WordPress feed now working. Freshest article: PH manifesto launch confirmed for 20 Jul evening (BH 18:11 MYT).*
 
 # ═══════════════════════════════════════════════════════════
 ## CYCLE 20260719_113100 — 19:31 MYT 19 Jul (Campaign Day 1, Evening Surge Window)
@@ -782,7 +782,7 @@ Aminuddin Harun (PH, moved from Sikamat to Linggi) — no fresh Day-1 campaign d
 - **mkini direct (780140-780210):** 0 new NS-relevant articles (71 IDs polled; none NS-tagged or new).
 - **gnews 19 queries (incl. 6 NEW PIR-16 queries):** 532 headline-intel items → 457 unique files (75 slug-collisions deduped). **Genuinely-fresh (pubdate ≥ 18:28 MYT 19 Jul): 1** — Harian Metro "PRN N9: BN-PN gabung jentera, tekad rampas Negeri Sembilan" (10:29:40 GMT = 18:29 MYT). The 6 NEW queries surfaced significant **historical-but-newly-captured** headline-intel (see PIR-16 below). The mandatory "kuorum" (20 items, all 11–15 Jul, fresh:no) and "lebih-hebat" (74 items, all 16–18 Jul, fresh:no) queries returned **NO new escalation**.
 - **Bernama RSS:** All 4 paths HTTP 404 (unchanged — Bernama NOT curl-friendly).
-- **BH WordPress feed (`bharian.com.my/feed`):** 9 articles saved (8 genuine + 1 new false-positive "makmal vape etomidate"). **All 9 are re-saves of prior 102500 BH content** (pubdates 15:42–18:11 MYT, all pre-18:28 cutoff). The BH pubdates are MYT-labeled-as-GMT (a known Malaysian RSS bug): the is_fresh function parsed "18:11 GMT" as 18:11 UTC (02:11 MYT next day) → flagged 8 BH items as "FRESH" — **these are FALSE POSITIVES**. The genuinely-fresh BH content this cycle = 0 (all 8 BH articles were captured in 102500).
+- **BH WordPress feed (`bharian.com.my/feed`):** 9 articles saved (8 genuine + 1 new false-positive "makmal vape etomidate"). **All 9 are re-saves of prior 102500 BH content** (pubdates 15:42–18:11 MYT, all pre-18:28 cutoff). The BH pubdates are MYT-labeled-as-GMT (a known Malaysian RSS bug): the is_fresh function parsed "18:11 GMT" as 02:11 MYT (02:11 MYT next day) → flagged 8 BH items as "FRESH" — **these are FALSE POSITIVES**. The genuinely-fresh BH content this cycle = 0 (all 8 BH articles were captured in 102500).
 - **Sinar/mStar WordPress /feed + /category paths:** HTTP 404 (unchanged — NOT solved).
 - **URL-guess (PDM-Klawang-reopen, Muhyiddin-new-coalition):** All 5 guesses HTTP 404 or non-article. No PDM Klawang reopen story found; no Muhyiddin new-coalition formalization article found.
 
@@ -915,7 +915,7 @@ Aminuddin Harun (PH, moved from Sikamat to Linggi) — no fresh Day-1 campaign d
 
 ## ⚠️ COLLECTION LIMITATIONS (updated)
 - **Awani URL-path dedup gap (NEW note):** The Awani section dedups against `prior_titles_norm` (a TITLE-based set) using URL PATHS — so Awani articles re-fetch every cycle. 10 of 13 Awani articles this cycle were re-saves of 102500 content. The 3 genuinely-new (PH manifesto esok, Tok Mat, Syahir) were correctly captured. Recommend fixing: build a prior Awani URL-path set separately.
-- **BH timezone false-positive (NEW note):** BH's WordPress feed labels MYT pubdates as GMT (a known Malaysian RSS bug). is_fresh parsed "18:11 GMT" as 18:11 UTC → flagged 8 BH items "FRESH" — these are FALSE POSITIVES (actual = 18:11 MYT = 10:11 UTC, pre-cutoff). Genuinely-fresh BH content this cycle = 0.
+- **BH timezone false-positive (NEW note):** BH's WordPress feed labels MYT pubdates as GMT (a known Malaysian RSS bug). is_fresh parsed "18:11 GMT" as 02:11 MYT → flagged 8 BH items "FRESH" — these are FALSE POSITIVES (actual = 18:11 MYT = 10:11 MYT, pre-cutoff). Genuinely-fresh BH content this cycle = 0.
 - **NST feed returned 0 items this cycle** (HTTP 200 but empty parse) — transient; re-test next cycle.
 - **Harian Metro:** Still HTTP 000 (geo-blocked). Its 2 high-value headlines this cycle ("gabung jentera" + "kacau daun") are gnews headline-intel only — full text NOT curl-recoverable.
 - **Bernama RSS:** All 4 paths HTTP 404. NOT curl-friendly.
@@ -925,7 +925,7 @@ Aminuddin Harun (PH, moved from Sikamat to Linggi) — no fresh Day-1 campaign d
 
 ---
 
-*Cycle 113100 section appended 2026-07-19 19:33 MYT (11:33 UTC) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (no formal-threshold crossing this cycle). Genuinely-fresh post-18:28 MYT content: 3 articles (PH manifesto esok 18:30, Tok Mat resign 19:28, Harian Metro gabung jentera 18:29). NEW PIR-16 queries surfaced "Bersatu kacau daun" (Harian Metro) + "makmal politik PRU16" (Hadi/Zahid) narratives. Freshest article: Tok Mat "no hesitation to leave post" (Awani 19:28 MYT).*
+*Cycle 113100 section appended 2026-07-19 19:33 MYT (19:33 MYT) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (no formal-threshold crossing this cycle). Genuinely-fresh post-18:28 MYT content: 3 articles (PH manifesto esok 18:30, Tok Mat resign 19:28, Harian Metro gabung jentera 18:29). NEW PIR-16 queries surfaced "Bersatu kacau daun" (Harian Metro) + "makmal politik PRU16" (Hadi/Zahid) narratives. Freshest article: Tok Mat "no hesitation to leave post" (Awani 19:28 MYT).*
 
 ---
 
@@ -1057,7 +1057,7 @@ Aminuddin Harun (PH, moved from Sikamat to Linggi) — no fresh Day-1 campaign d
 - **Awani URL-path dedup fix (SOLVED):** This cycle compares against `prior_awani_paths` (URL-path set built from all prior Awani articles). Result: only 1 genuinely-new Awani article (Tok Mat) vs 10 re-saves in the 113100 cycle. **FIX CONFIRMED WORKING.**
 - **gnews-overwrites-RSS bug (NEW note, FIXED mid-cycle):** The gnews PART F writes overwrote 2 NST RSS full-text files (BN-PN joint manifesto + merge machinery) because they shared the same slug-derived filename. Re-fetched from NST RSS and restored full text. Fix for future runs: gnews save should check file existence and use a distinct suffix (e.g. `_gnews.md`) if the file already exists.
 - **NST feed restored:** Returned 6 items this cycle (vs 0 in 113100 cycle). NST WP feed is working again — 4 genuinely-fresh full-text articles.
-- **BH timezone false-positive (recurring):** BH WP feed labels MYT pubdates as GMT (known Malaysian RSS bug). is_fresh function handles this by treating GMT/UTC labels as MYT (-8h offset). The "Warga emas rugi" (20:44 GMT) was flagged fresh but is a FALSE POSITIVE (investment scam, not NS-relevant) — caught by broad NS_RE regex but not genuinely NS.
+- **BH timezone false-positive (recurring):** BH WP feed labels MYT pubdates as GMT (known Malaysian RSS bug). is_fresh function handles this by treating GMT/MYT labels as MYT (-8h offset). The "Warga emas rugi" (20:44 GMT) was flagged fresh but is a FALSE POSITIVE (investment scam, not NS-relevant) — caught by broad NS_RE regex but not genuinely NS.
 - **Harian Metro:** Still HTTP 000 (geo-blocked). Its high-value headlines (prior "gabung jentera" + "kacau daun") are gnews headline-intel only — full text NOT curl-recoverable.
 - **Bernama RSS:** All paths HTTP 404. NOT curl-friendly.
 - **Sinar Harian / mStar / Utusan:** WordPress `/feed` paths not tested this cycle (prior cycles HTTP 404). Headline-intel only via gnews.
@@ -1066,7 +1066,7 @@ Aminuddin Harun (PH, moved from Sikamat to Linggi) — no fresh Day-1 campaign d
 
 ---
 
-*Cycle 131200 section appended 2026-07-19 21:16 MYT (13:16 UTC) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (no formal-threshold crossing this cycle). MAJOR NEW: NST EN "PN, BN to merge election machinery" (19:49) + "BN-PN joint manifesto" (20:31) + BH "manifesto bersepadu" Annuar (19:58) — PIR-06 cooperation FORMALIZATION (machinery merger + joint manifesto), NOT [CRITICAL]. Tok Mat resign-ready 4-outlet corroboration (Awani/FMT/NST/BH), FRESHEST 21:03 MYT. PH "manifesto for continuity" 20 Jul launch confirmed. Awani URL-path dedup fix WORKING (1 genuinely-new vs 10 re-saves prior). Genuinely-fresh post-19:31 MYT: 11 articles.*
+*Cycle 131200 section appended 2026-07-19 21:16 MYT (21:16 MYT) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (no formal-threshold crossing this cycle). MAJOR NEW: NST EN "PN, BN to merge election machinery" (19:49) + "BN-PN joint manifesto" (20:31) + BH "manifesto bersepadu" Annuar (19:58) — PIR-06 cooperation FORMALIZATION (machinery merger + joint manifesto), NOT [CRITICAL]. Tok Mat resign-ready 4-outlet corroboration (Awani/FMT/NST/BH), FRESHEST 21:03 MYT. PH "manifesto for continuity" 20 Jul launch confirmed. Awani URL-path dedup fix WORKING (1 genuinely-new vs 10 re-saves prior). Genuinely-fresh post-19:31 MYT: 11 articles.*
 
 ---
 
@@ -1205,7 +1205,7 @@ Aminuddin Harun (PH, moved from Sikamat to Linggi) — no fresh Day-1 campaign d
 
 ---
 
-*Cycle 142800 section appended 2026-07-19 22:32 MYT (14:32 UTC) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (no formal-threshold crossing this cycle; 10th cycle with no [CRITICAL] threshold crossing). MAJOR NEW PIR-16: AMH (PH Youth) resign-call FULLY MAPPED (Awani full text 10:43 MYT + 3-outlet gnews corroboration NST/The Vibes/scoop.my) + Akmal (Umno Youth) counter-escalation (5 FMT articles). Resign-narrative now has both sides: AMH demand → Anwar warning → Tok Mat "ready to resign" (prior 131200) → Akmal "Nga resign too" counter. Freshest genuinely-NS article: NST "Teo: PH should retain NS to continue Madani reforms" (22:07 MYT, Day-1 evening PH dinner in Seremban with Loke + Gobind + Cha Kee Chin). Utusan /feed tested (HTTP 200, 0 NS-relevant this cycle). gnews-overwrite-RSS FIX applied (preventive). Genuinely-fresh post-21:12 MYT: 1 article (Teo 22:07).*
+*Cycle 142800 section appended 2026-07-19 22:32 MYT (22:32 MYT) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (no formal-threshold crossing this cycle; 10th cycle with no [CRITICAL] threshold crossing). MAJOR NEW PIR-16: AMH (PH Youth) resign-call FULLY MAPPED (Awani full text 10:43 MYT + 3-outlet gnews corroboration NST/The Vibes/scoop.my) + Akmal (Umno Youth) counter-escalation (5 FMT articles). Resign-narrative now has both sides: AMH demand → Anwar warning → Tok Mat "ready to resign" (prior 131200) → Akmal "Nga resign too" counter. Freshest genuinely-NS article: NST "Teo: PH should retain NS to continue Madani reforms" (22:07 MYT, Day-1 evening PH dinner in Seremban with Loke + Gobind + Cha Kee Chin). Utusan /feed tested (HTTP 200, 0 NS-relevant this cycle). gnews-overwrite-RSS FIX applied (preventive). Genuinely-fresh post-21:12 MYT: 1 article (Teo 22:07).*
 
 ---
 
@@ -1362,12 +1362,12 @@ Aminuddin Harun (PH, moved from Sikamat to Linggi) — no fresh Day-1 campaign d
 
 ---
 
-*Cycle 153300 section appended 2026-07-19 23:37 MYT (15:37 UTC) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (no formal-threshold crossing this cycle; 11th cycle with no [CRITICAL] threshold crossing). NEW SOURCE: The Rakyat Post (TRP) `therakyatpost.com/feed` now works — 7 genuinely-new full-text articles incl. MCA Youth chief Saw Yee Fung publicly questioning BN-PAS cooperation (first MCA-leader pushback detected, [PRIORITY PIR-16] not [CRITICAL]). NEW PIR-06 sub-threshold: Utusan "PN benarkan pimpinan kongsi pentas dengan BN" (joint ceramah confirmation, headline only). NEW PIR-16: PKR MP Hassan Karim intra-PH dissent (FMT) + Nga resignation pledge angle (gnews). Freshest genuinely-NS article: BH BM "Teo: PH perlu terus diberi mandat laksana agenda MADANI di NS" (22:35 MYT, Day-1 evening PH dinner in Seremban with Loke + Gobind + Cha Kee Chin). Genuinely-fresh post-22:28 MYT: 1 article (Teo BH 22:35).*
+*Cycle 153300 section appended 2026-07-19 23:37 MYT (23:37 MYT) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (no formal-threshold crossing this cycle; 11th cycle with no [CRITICAL] threshold crossing). NEW SOURCE: The Rakyat Post (TRP) `therakyatpost.com/feed` now works — 7 genuinely-new full-text articles incl. MCA Youth chief Saw Yee Fung publicly questioning BN-PAS cooperation (first MCA-leader pushback detected, [PRIORITY PIR-16] not [CRITICAL]). NEW PIR-06 sub-threshold: Utusan "PN benarkan pimpinan kongsi pentas dengan BN" (joint ceramah confirmation, headline only). NEW PIR-16: PKR MP Hassan Karim intra-PH dissent (FMT) + Nga resignation pledge angle (gnews). Freshest genuinely-NS article: BH BM "Teo: PH perlu terus diberi mandat laksana agenda MADANI di NS" (22:35 MYT, Day-1 evening PH dinner in Seremban with Loke + Gobind + Cha Kee Chin). Genuinely-fresh post-22:28 MYT: 1 article (Teo BH 22:35).*
 
 ---
 
 ## CYCLE 20260719_171500 — 10th carry-forward (01:15 MYT 20 Jul 2026)
-**Mission brief label:** "19 Jul 17:25 Cycle, 4th carry-forward" (brief authored at 091800 UTC cycle; this is the 10th re-run of that same Director-approved PIR set). Nomination-Day +1 closing / Day-2 dawn window. MYT post-midnight — normally dormant, but cycle produced a **major source breakthrough + 13 genuinely-fresh NS articles**.
+**Mission brief label:** "19 Jul 17:25 Cycle, 4th carry-forward" (brief authored at 091800 MYT cycle; this is the 10th re-run of that same Director-approved PIR set). Nomination-Day +1 closing / Day-2 dawn window. MYT post-midnight — normally dormant, but cycle produced a **major source breakthrough + 13 genuinely-fresh NS articles**.
 
 ### 🔴 NEW SOURCE BREAKTHROUGH — Harian Metro SOLVED
 **`https://www.hmetro.com.my/feed` returned HTTP 200** — 51 items, 18 NS-relevant, 17 genuinely-new full-text (content:encoded). Harian Metro had been HTTP 000 (geo-blocked at the server/CDN layer) for **10+ consecutive cycles** (075200 → 153300); the `www.` subdomain + `/feed` WordPress endpoint now resolves. This recovers full text of several stories previously available only as headline-intel, including the critical **"BN-PN gabung jentera" (machinery-merger) announcement by Hamzah Zainudin** (18:29 MYT, prior 113100 cycle noted this as Harian Metro headline-intel only — now FULL TEXT recovered). The alternate `hmetro.com.my/rss` path returns HTTP 200 but 0 items (use `/feed`).
@@ -1426,7 +1426,7 @@ Aminuddin Harun (PH, moved from Sikamat to Linggi) — no fresh Day-1 campaign d
 
 ---
 
-*Cycle 171500 section appended 2026-07-20 01:17 MYT (17:17 UTC 19 Jul) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (no formal-threshold crossing this cycle; 12th cycle with no [CRITICAL] threshold crossing). NEW SOURCE BREAKTHROUGH: Harian Metro `www.hmetro.com.my/feed` HTTP 200 — resolves the persistent HTTP 000 blocker flagged in the mission's "Recover Harian Metro/BH full text via alternative paths" directive; 17 genuinely-new full-text articles incl. recovered full text of "BN-PN gabung jentera" (Hamzah machinery-merger, previously headline-intel only). NEW PIR-16 hard-news corroboration: "Bersatu kacau daun" now in FMT (Khaled attribution) — first hard-news pickup of that narrative keyword, [PRIORITY PIR-16] not [CRITICAL]. NEW PIR-07: Loke "23 seats for safe majority" strategy (4-outlet EN+BM full text) + Khaled Johol machinery launch (Awani full text) + Akmal conditional resignation (NST full text). Freshest genuinely-NS article: NST "Negri Sembilan polls: Campaign on policies, not personal attacks, says Loke" (00:06 MYT 20 Jul). Genuinely-fresh post-23:33 MYT: 13 articles.*
+*Cycle 171500 section appended 2026-07-20 01:17 MYT (01:17 MYT 19 Jul) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (no formal-threshold crossing this cycle; 12th cycle with no [CRITICAL] threshold crossing). NEW SOURCE BREAKTHROUGH: Harian Metro `www.hmetro.com.my/feed` HTTP 200 — resolves the persistent HTTP 000 blocker flagged in the mission's "Recover Harian Metro/BH full text via alternative paths" directive; 17 genuinely-new full-text articles incl. recovered full text of "BN-PN gabung jentera" (Hamzah machinery-merger, previously headline-intel only). NEW PIR-16 hard-news corroboration: "Bersatu kacau daun" now in FMT (Khaled attribution) — first hard-news pickup of that narrative keyword, [PRIORITY PIR-16] not [CRITICAL]. NEW PIR-07: Loke "23 seats for safe majority" strategy (4-outlet EN+BM full text) + Khaled Johol machinery launch (Awani full text) + Akmal conditional resignation (NST full text). Freshest genuinely-NS article: NST "Negri Sembilan polls: Campaign on policies, not personal attacks, says Loke" (00:06 MYT 20 Jul). Genuinely-fresh post-23:33 MYT: 13 articles.*
 
 ---
 
@@ -1511,7 +1511,7 @@ Aminuddin Harun (PH, moved from Sikamat to Linggi) — no fresh Day-1 campaign d
 
 ---
 
-*Cycle 182000 section appended 2026-07-20 02:35 MYT (18:35 UTC 19 Jul) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (no formal-threshold crossing this cycle; 13th cycle with no [CRITICAL] threshold crossing). Day-2 dawn window QUIET: 5 files created, 1 genuinely-fresh post-cutoff (BH BM "Kalau orang dah tak suka" Khaled 23:45 MYT — 4th outlet version of the Khaled Johol "PM hak mutlak" statement). All 8 mandatory PIR-06 [CRITICAL]-watch gnews queries returned 0. Harian Metro /feed confirmed STABLE PERMANENT source (0 genuinely-new only because all NS items already captured in 171500). gnews-overwrite-RSS FIX correctly handled 1 collision (NST duplicate → _gnews suffix). Freshest genuinely-NS article: BH BM "Kalau orang dah tak suka, buat apa nak tunggu - Khaled Nordin" (23:45 MYT 19 Jul, Day-1 closing window). Genuinely-fresh post-01:15 MYT 20 Jul: 1 article.*
+*Cycle 182000 section appended 2026-07-20 02:35 MYT (02:35 MYT 19 Jul) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (no formal-threshold crossing this cycle; 13th cycle with no [CRITICAL] threshold crossing). Day-2 dawn window QUIET: 5 files created, 1 genuinely-fresh post-cutoff (BH BM "Kalau orang dah tak suka" Khaled 23:45 MYT — 4th outlet version of the Khaled Johol "PM hak mutlak" statement). All 8 mandatory PIR-06 [CRITICAL]-watch gnews queries returned 0. Harian Metro /feed confirmed STABLE PERMANENT source (0 genuinely-new only because all NS items already captured in 171500). gnews-overwrite-RSS FIX correctly handled 1 collision (NST duplicate → _gnews suffix). Freshest genuinely-NS article: BH BM "Kalau orang dah tak suka, buat apa nak tunggu - Khaled Nordin" (23:45 MYT 19 Jul, Day-1 closing window). Genuinely-fresh post-01:15 MYT 20 Jul: 1 article.*
 
 ---
 
@@ -1562,7 +1562,7 @@ First run of this cycle (THIS_TS=195600) returned HTTP 000 for NST/BH/Utusan/TRP
 
 ---
 
-*Cycle 200000 section appended 2026-07-20 04:05 MYT (20:05 UTC 19 Jul) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (no formal-threshold crossing this cycle; 14th cycle with no [CRITICAL] threshold crossing). Day-2 pre-dawn window QUIET: 1 file created (NST World Cup/Zahid FALSE POSITIVE — sports/football, not NS PRN); 0 genuinely-new NS PRN articles; all sources returned content already collected. Operational note: transient network blip on first run (all 6 RSS feeds HTTP 000) recovered on re-test; failed-run JSON removed; successful re-run at 200000. All 8 mandatory PIR-06 [CRITICAL]-watch gnews queries returned 0. Genuinely-fresh post-02:33 MYT 20 Jul: 1 article (false positive). No new NS PRN intelligence to deliver → SILENT per mission rule.*
+*Cycle 200000 section appended 2026-07-20 04:05 MYT (04:05 MYT 19 Jul) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (no formal-threshold crossing this cycle; 14th cycle with no [CRITICAL] threshold crossing). Day-2 pre-dawn window QUIET: 1 file created (NST World Cup/Zahid FALSE POSITIVE — sports/football, not NS PRN); 0 genuinely-new NS PRN articles; all sources returned content already collected. Operational note: transient network blip on first run (all 6 RSS feeds HTTP 000) recovered on re-test; failed-run JSON removed; successful re-run at 200000. All 8 mandatory PIR-06 [CRITICAL]-watch gnews queries returned 0. Genuinely-fresh post-02:33 MYT 20 Jul: 1 article (false positive). No new NS PRN intelligence to deliver → SILENT per mission rule.*
 
 ---
 
@@ -1664,7 +1664,7 @@ First run of this cycle (THIS_TS=195600) returned HTTP 000 for NST/BH/Utusan/TRP
 
 ---
 
-*Cycle 212300 section appended 2026-07-20 05:27 MYT (21:27 UTC 19 Jul) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (no formal-threshold crossing this cycle; 15th cycle with no [CRITICAL] threshold crossing). Day-2 dawn window QUIET: 12 files created (3 RSS false-positives [World Cup football + RTM sports] + 9 gnews headline-intel historical-but-newly-surfaced). Genuinely-fresh post-04:00 MYT 20 Jul: 3 items — ALL false positives. Genuinely-fresh NS PRN content: 0. IMPORTANT: the "kuorum" gnews hit was a FALSE POSITIVE (KOHA.net foreign-assembly resolution, verified unrelated to PN-MT/Bersatu) — NOT a [CRITICAL] threshold crossing. NEW corroboration deltas (historical, newly-captured): "Bersatu sole opposition" now 4-outlet (NST + The Star + Malay Mail + prior The Vibes); Zambry-Samsuri Port Dickson meeting (Newswav 18 Jul — NEW PIR-06 cooperation signal on Tier-4 N.05 turf); Anwar "resign if you attack unity partners" multi-outlet (The Vibes + NST WATCH); PH "continuity of stable, integrity-based govt" (Newswav). All 8 mandatory PIR-06 [CRITICAL]-watch gnews queries returned 0 genuine PN/Bersatu hits. Freshest genuinely-NS article: none this cycle (all fresh items = false positives).*
+*Cycle 212300 section appended 2026-07-20 05:27 MYT (05:27 MYT 19 Jul) by PRN NS 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (no formal-threshold crossing this cycle; 15th cycle with no [CRITICAL] threshold crossing). Day-2 dawn window QUIET: 12 files created (3 RSS false-positives [World Cup football + RTM sports] + 9 gnews headline-intel historical-but-newly-surfaced). Genuinely-fresh post-04:00 MYT 20 Jul: 3 items — ALL false positives. Genuinely-fresh NS PRN content: 0. IMPORTANT: the "kuorum" gnews hit was a FALSE POSITIVE (KOHA.net foreign-assembly resolution, verified unrelated to PN-MT/Bersatu) — NOT a [CRITICAL] threshold crossing. NEW corroboration deltas (historical, newly-captured): "Bersatu sole opposition" now 4-outlet (NST + The Star + Malay Mail + prior The Vibes); Zambry-Samsuri Port Dickson meeting (Newswav 18 Jul — NEW PIR-06 cooperation signal on Tier-4 N.05 turf); Anwar "resign if you attack unity partners" multi-outlet (The Vibes + NST WATCH); PH "continuity of stable, integrity-based govt" (Newswav). All 8 mandatory PIR-06 [CRITICAL]-watch gnews queries returned 0 genuine PN/Bersatu hits. Freshest genuinely-NS article: none this cycle (all fresh items = false positives).*
 
 ---
 
@@ -1678,10 +1678,10 @@ First run of this cycle (THIS_TS=195600) returned HTTP 000 for NST/BH/Utusan/TRP
 **Window:** post-05:23 MYT 20 Jul cutoff (Day-2 early-morning; Malaysian news cycle dormant, pre-dawn MYT). Low-yield window expected and confirmed.
 
 ## 📦 FILES CREATED THIS CYCLE: 3 (ALL FALSE POSITIVES — World Cup football + Iraq-Iran-US international news)
-- **FMT RSS:** 50 total | 16 NS-relevant | **1 "new" (FALSE POSITIVE — "Iraqi PM to visit Iran this week after trip to US" 21:41 UTC 19 Jul / 05:41 MYT 20 Jul, FMT /world/ category, matched NS_RE on `wee` substring in "week" — intended for "Wee Ka Siong"; article is Iraq-Iran-US diplomacy, NOT NS PRN)**
+- **FMT RSS:** 50 total | 16 NS-relevant | **1 "new" (FALSE POSITIVE — "Iraqi PM to visit Iran this week after trip to US" 05:41 MYT 19 Jul / 05:41 MYT 20 Jul, FMT /world/ category, matched NS_RE on `wee` substring in "week" — intended for "Wee Ka Siong"; article is Iraq-Iran-US diplomacy, NOT NS PRN)**
 - **NST feed:** 50 total | 11 NS-relevant | **0 genuinely-new**
 - **BH WP:** 50 total | 15 NS-relevant | **1 "new" (FALSE POSITIVE — "Argentina, Sepanyol buntu cipta jaringan, Fernandez kena kad merah" 05:29 MYT 20 Jul, World Cup football final match report, matched NS_RE on `nga` substring in "Fernandez" — intended for "Nga Kor Meng")**
-- **Utusan WP:** 10 total | 3 NS-relevant | **1 "new" (FALSE POSITIVE — "Torres hadiahkan Sepanyol mahkota dunia, Messi kecewa" 22:13 UTC 19 Jul / 06:13 MYT 20 Jul, World Cup football final, matched NS_RE on `hadi` substring in "hadiahkan" — intended for "Hadi Awang"; body=0 content:encoded missing)**
+- **Utusan WP:** 10 total | 3 NS-relevant | **1 "new" (FALSE POSITIVE — "Torres hadiahkan Sepanyol mahkota dunia, Messi kecewa" 06:13 MYT 19 Jul / 06:13 MYT 20 Jul, World Cup football final, matched NS_RE on `hadi` substring in "hadiahkan" — intended for "Hadi Awang"; body=0 content:encoded missing)**
 - **TRP feed:** 30 total | 9 NS-relevant | **0 genuinely-new**
 - **Harian Metro /feed (PERMANENT):** 51 total | 18 NS-relevant | **0 genuinely-new**
 - **Awani direct (URL-path dedup fix maintained):** 0 genuinely-new berita-politik links (all current links already in prior_awani_paths, 20 catalogued). No new Awani NS content published in the 05:23-06:30 MYT 20 Jul window.
@@ -1720,7 +1720,7 @@ First run of this cycle (THIS_TS=195600) returned HTTP 000 for NST/BH/Utusan/TRP
 
 ---
 
-*Cycle 222800 section appended 2026-07-20 06:30 MYT (22:30 UTC 19 Jul) by PRN Negeri Sembilan 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (no formal-threshold crossing this cycle; 16th cycle with no [CRITICAL] threshold crossing). Day-2 early-morning window QUIET: 3 files created — ALL FALSE POSITIVES (World Cup football final + Iraq-Iran-US diplomacy; matched NS_RE on incidental substrings `wee`/`nga`/`hadi`). Genuinely-fresh post-05:23 MYT 20 Jul: 3 items — ALL false positives. Genuinely-fresh NS PRN content: 0. All 8 mandatory PIR-06 [CRITICAL]-watch gnews queries returned 0. All 28 gnews queries returned 0 NS-relevant new items. All 7 curl-friendly sources (FMT + NST + BH + Utusan + TRP + METRO + Awani) confirmed HTTP 200 + reachable. mkini 780511-780570 returned 0 new NS. PDM Klawang reopen watch (now hour 14+ of Jalaluddin "1–2 days" window). Freshest genuinely-NS article: none this cycle (all 3 fresh items = false positives). No new NS PRN intelligence to deliver → SILENT per mission rule.*
+*Cycle 222800 section appended 2026-07-20 06:30 MYT (06:30 MYT 19 Jul) by PRN Negeri Sembilan 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (no formal-threshold crossing this cycle; 16th cycle with no [CRITICAL] threshold crossing). Day-2 early-morning window QUIET: 3 files created — ALL FALSE POSITIVES (World Cup football final + Iraq-Iran-US diplomacy; matched NS_RE on incidental substrings `wee`/`nga`/`hadi`). Genuinely-fresh post-05:23 MYT 20 Jul: 3 items — ALL false positives. Genuinely-fresh NS PRN content: 0. All 8 mandatory PIR-06 [CRITICAL]-watch gnews queries returned 0. All 28 gnews queries returned 0 NS-relevant new items. All 7 curl-friendly sources (FMT + NST + BH + Utusan + TRP + METRO + Awani) confirmed HTTP 200 + reachable. mkini 780511-780570 returned 0 new NS. PDM Klawang reopen watch (now hour 14+ of Jalaluddin "1–2 days" window). Freshest genuinely-NS article: none this cycle (all 3 fresh items = false positives). No new NS PRN intelligence to deliver → SILENT per mission rule.*
 
 ---
 
@@ -1751,7 +1751,7 @@ First run of this cycle (THIS_TS=195600) returned HTTP 000 for NST/BH/Utusan/TRP
 **"Khaled urges voters to ensure repeat of Bersatu's Johor wipeout in NS"** (FMT EN, 19 Jul 23:12 GMT = **07:12 MYT 20 Jul** — genuinely-FRESH post-cutoff, PIR-06):
 - **5th-outlet corroboration** of Khaled Nordin's "Pastikan Bersatu di NS KO habis" statement (prior: NST EN "Make sure Bersatu gets knocked out" + Utusan BM "Bersatu kacau daun... KO" + BH + Awani — all 171500 cycle). FMT is the NEW outlet.
 - **NEW framing detail:** "repeat of Bersatu's **Johor** wipeout" — explicitly frames the NS Bersatu wipeout as a REPEAT of the Johor state-election result (where Bersatu was wiped out). Prior captures used "KO habis" / "knocked out" but did not explicitly name the Johor precedent. Marginal intelligence enrichment (Johor-as-precedent framing now explicit in FMT).
-- **GMT-parsing note:** is_fresh() returned False for this item (pubdate "Sun, 19 Jul 2026 23:12:42 GMT" — Python %Z parsing of "GMT" is version-dependent; the 23:12 UTC ≥ 22:28 UTC cutoff is TRUE, so this IS genuinely-fresh). The fresh_items_log undercounted this by 1 (true fresh = 14, logged = 13).
+- **GMT-parsing note:** is_fresh() returned False for this item (pubdate "Sun, 19 Jul 2026 23:12:42 GMT" — Python %Z parsing of "GMT" is version-dependent; the 07:12 MYT ≥ 22:28 MYT cutoff is TRUE, so this IS genuinely-fresh). The fresh_items_log undercounted this by 1 (true fresh = 14, logged = 13).
 - → `priority_pir-06_khaled-urges-voters-to-ensure-repeat-of-bersatu-s-johor-wipeout-in-ns_20260719_233400.md` (headline-intel; FMT direct-URL recovery failed — 404 across 10 category/day guesses; gnews protobuf still curl-unresolvable, 17th cycle confirmation).
 - **[PRIORITY PIR-06]** — NOT [CRITICAL] (cooperation/messaging signal; 5th-outlet corroboration of already-captured event; no formal-threshold crossing).
 
@@ -1791,7 +1791,7 @@ First run of this cycle (THIS_TS=195600) returned HTTP 000 for NST/BH/Utusan/TRP
 ## ⚠️ COLLECTION LIMITATIONS
 - **World Cup football false-positive pattern (4th consecutive cycle, RECURRING):** The 19 Jul 2026 World Cup final continues to generate overnight/morning sports content across NST/BH/Utusan/METRO that matches NS_RE on incidental substrings (`hadi`≤`hadiahkan`, `jalur`≤`Jalur Gemilang`, `fahmi`≤`Fahmi`, `zahid`≤`Ahmad Zahid`, `khaled`≤`Khaled Nordin` defence minister). 9 of 13 fresh items are World Cup. Documented; not analytically material. Expected to recede as campaign content dominates 08:00+ MYT.
 - **FMT direct-URL recovery failed (Khaled "Johor wipeout"):** 10 category/day URL guesses all returned HTTP 404. FMT URL structure for this article unknown (the gnews title is confirmed FMT-sourced but the direct URL is not curl-recoverable via guess). gnews protobuf resolution remains infeasible (17th cycle). The article is captured as headline-intel only. Recommend: try FMT sitemap.xml or Google site:freemalaysiatoday.com query in a future cycle.
-- **GMT-parsing edge case (NEW, technical):** is_fresh() returned False for "Sun, 19 Jul 2026 23:12:42 GMT" (FMT Khaled) — Python strptime %Z parsing of "GMT" is version-dependent; if the first format fails, no fallback format matches the "Day, DD Mon YYYY HH:MM:SS GMT" structure. The item IS genuinely-fresh (23:12 UTC ≥ 22:28 UTC cutoff). fresh_items_log undercounted by 1. Recommend: add `datetime.timezone.utc` explicit assignment for "GMT" strings.
+- **GMT-parsing edge case (NEW, technical):** is_fresh() returned False for "Sun, 19 Jul 2026 23:12:42 GMT" (FMT Khaled) — Python strptime %Z parsing of "GMT" is version-dependent; if the first format fails, no fallback format matches the "Day, DD Mon YYYY HH:MM:SS GMT" structure. The item IS genuinely-fresh (07:12 MYT ≥ 22:28 MYT cutoff). fresh_items_log undercounted by 1. Recommend: add `datetime.timezone.utc` explicit assignment for "GMT" strings.
 - **Harian Metro /feed (PERMANENT SOURCE — CONFIRMED STABLE, 5th cycle):** HTTP 200, 51 items, content:encoded present. 3 "new" items this cycle (all false positives — World Cup). Source remains stable.
 - **Sinar Harian / mStar / Bernama (17th cycle, UNRESOLVED):** Not retested this cycle (all paths HTTP 404/000 across 16 prior cycles). Low priority given 7 working curl-friendly full-text sources.
 - **Awani URL-path dedup fix (CONTINUES WORKING, 7th cycle):** 0 genuinely-new Awani articles (all current berita-politik links already in prior_awani_paths, 20 catalogued). No new Awani NS content published in the 06:28–07:36 MYT 20 Jul window.
@@ -1800,4 +1800,4 @@ First run of this cycle (THIS_TS=195600) returned HTTP 000 for NST/BH/Utusan/TRP
 
 ---
 
-*Cycle 233400 section appended 2026-07-20 07:38 MYT (23:38 UTC 19 Jul) by PRN Negeri Sembilan 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (no formal-threshold crossing this cycle; 17th cycle with no [CRITICAL] threshold crossing). Day-2 morning window World-Cup-DOMINATED: 16 files created (13 RSS = ALL FALSE POSITIVES [World Cup football ×9 + South-China-Sea defence + World-Cup-hosting + national-flag/AI + Johor-investment] + 3 gnews genuinely-new-to-collection). Genuinely-fresh post-06:28 MYT 20 Jul NS PRN: 1 article — FMT EN "Khaled urges voters to ensure repeat of Bersatu's Johor wipeout in NS" (07:12 MYT, 5th-outlet corroboration of already-captured "KO habis" statement, NEW "Johor wipeout repeat" framing). Genuinely-new-to-collection (pre-cutoff): 2 gnews items (Malay Mail "19 permits" + Newswav "Loke baptism of fire"). NO new PIR-06/07/16 intelligence developments. All 8 mandatory PIR-06 [CRITICAL]-watch gnews queries returned 0 (KUORUM false-positive filter applied — no KOHA.net foreign-assembly false positive). All 7 curl-friendly sources confirmed HTTP 200 + reachable. mkini 780571-780630 returned 0 new NS. PDM Klawang reopen watch (hour 15+ of Jalaluddin "1–2 days" window — 20 Jul business hours just beginning). Freshest genuinely-NS article: FMT Khaled "Johor wipeout repeat" 07:12 MYT (5th-outlet corroboration, no new intelligence). Day-2 campaign dispatches NOT yet materialized — expected 08:00–10:00 MYT.*
+*Cycle 233400 section appended 2026-07-20 07:38 MYT (07:38 MYT 19 Jul) by PRN Negeri Sembilan 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (no formal-threshold crossing this cycle; 17th cycle with no [CRITICAL] threshold crossing). Day-2 morning window World-Cup-DOMINATED: 16 files created (13 RSS = ALL FALSE POSITIVES [World Cup football ×9 + South-China-Sea defence + World-Cup-hosting + national-flag/AI + Johor-investment] + 3 gnews genuinely-new-to-collection). Genuinely-fresh post-06:28 MYT 20 Jul NS PRN: 1 article — FMT EN "Khaled urges voters to ensure repeat of Bersatu's Johor wipeout in NS" (07:12 MYT, 5th-outlet corroboration of already-captured "KO habis" statement, NEW "Johor wipeout repeat" framing). Genuinely-new-to-collection (pre-cutoff): 2 gnews items (Malay Mail "19 permits" + Newswav "Loke baptism of fire"). NO new PIR-06/07/16 intelligence developments. All 8 mandatory PIR-06 [CRITICAL]-watch gnews queries returned 0 (KUORUM false-positive filter applied — no KOHA.net foreign-assembly false positive). All 7 curl-friendly sources confirmed HTTP 200 + reachable. mkini 780571-780630 returned 0 new NS. PDM Klawang reopen watch (hour 15+ of Jalaluddin "1–2 days" window — 20 Jul business hours just beginning). Freshest genuinely-NS article: FMT Khaled "Johor wipeout repeat" 07:12 MYT (5th-outlet corroboration, no new intelligence). Day-2 campaign dispatches NOT yet materialized — expected 08:00–10:00 MYT.*

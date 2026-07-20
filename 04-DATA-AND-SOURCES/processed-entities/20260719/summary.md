@@ -1,7 +1,7 @@
 # PRN Negeri Sembilan 2026 — Entity Extraction Summary
 
 **Date:** 2026-07-19 (Sunday)
-**Current build timestamp (UTC):** 2026-07-19T07:19:00+00:00  |  **MYT:** 2026-07-19 15:19
+**Current build timestamp (MYT):** 2026-07-19T07:19:00+00:00  |  **MYT:** 2026-07-19 15:19
 **Agent:** PRN NS 2026 Entity Extraction Agent (scheduled cron)
 **Director-approved cycle:** 19 Jul 2026 (PIR-06, PIR-07, PIR-16)
 **Classification:** TLP:AMBER
@@ -14,10 +14,10 @@
 
 | Build | File | Entities | Cycles ingested | Notes |
 |---|---|---|---|---|
-| 02:12 UTC | `entities_021231.json` | (delta, prior) | 011915 | pre-existing, untouched |
-| 03:49 UTC | `entities_034922_delta.json` | (delta, prior) | 024042/034922 | pre-existing, untouched |
-| 05:07 UTC | `entities-20260719-0507.json` | 167 | 011915/024042/034922 | consolidated first pass |
-| **07:14 UTC** | **`entities-20260719-0714.json`** | **223** | **+ 051226 / 064654** | **CURRENT — this build** |
+| 10:12 MYT | `entities_021231.json` | (delta, prior) | 011915 | pre-existing, untouched |
+| 11:49 MYT | `entities_034922_delta.json` | (delta, prior) | 024042/034922 | pre-existing, untouched |
+| 13:07 MYT | `entities-20260719-0507.json` | 167 | 011915/024042/034922 | consolidated first pass |
+| **15:14 MYT** | **`entities-20260719-0714.json`** | **223** | **+ 051226 / 064654** | **CURRENT — this build** |
 
 This build adds **56 new entities** and applies **23 context upgrades** to existing entities, driven by the largest single-day full-text gain to date: **FMT RSS (19 full-text articles)**, **NST WordPress feed (7 full-text)**, and **Astro Awani direct (3 full-text)**.
 
@@ -25,7 +25,7 @@ This build adds **56 new entities** and applies **23 context upgrades** to exist
 
 ## 1. Scope & ingestion (current build)
 
-Ingested **all content** in `04-DATA-AND-SOURCES/raw-scrapes/20260719/` across **5 scrape cycles** (011915, 024042, 034922, 051226, 064654 UTC), spanning **9+ source outlets** (FMT, NST, Astro Awani, Malaysiakini, Malay Mail, Kosmo, Utusan, The Star, Newswav/GNews mirrors) plus the collection `index.md`. **~30 priority-tagged articles read in full** in the current build; aggregate source scrapes scanned title-by-title for entity mentions.
+Ingested **all content** in `04-DATA-AND-SOURCES/raw-scrapes/20260719/` across **5 scrape cycles** (011915, 024042, 034922, 051226, 064654 MYT), spanning **9+ source outlets** (FMT, NST, Astro Awani, Malaysiakini, Malay Mail, Kosmo, Utusan, The Star, Newswav/GNews mirrors) plus the collection `index.md`. **~30 priority-tagged articles read in full** in the current build; aggregate source scrapes scanned title-by-title for entity mentions.
 
 **New full-text sources unlocked this build (this substantially closes the prior "JS-render blocker" gap):**
 - **FMT (freemalaysiatoday.com)** — curl-friendly RSS (`content:encoded`) + direct article pages. 19 full-text articles recovered, the largest single-day full-text gain. Both EN and BM streams.
@@ -194,7 +194,7 @@ N.13 Sikamat, N.14 Ampangan, N.15 Juasseh, N.28 Klawang, N.32 Linggi, N.27 Chemb
 - `processed-entities/20260719/summary.md` — this summary.
 - `processed-entities/20260719/_build_entities_0714.py` — merge/build script (reproducible).
 
-*(Pre-existing/superseded, retained untouched: `entities-20260719-0507.json` (167 entities), `entities_021231.json` (02:12 UTC), `entities_034922_delta.json` (03:49 UTC), `entity_metadata.json`.)*
+*(Pre-existing/superseded, retained untouched: `entities-20260719-0507.json` (167 entities), `entities_021231.json` (10:12 MYT), `entities_034922_delta.json` (03:49 MYT), `entity_metadata.json`.)*
 
 ---
 

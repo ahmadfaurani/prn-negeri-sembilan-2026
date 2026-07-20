@@ -64,8 +64,8 @@
     "PIR-07": "Battleground Assessment (THIRD)"
   },
   "delta_vs_prior_build_165723": {
-    "prior_build": "entities_165723.json (16:57 UTC / 00:57 MYT 19 Jul)",
-    "this_build": "entities_190215.json (19:02 UTC / 03:02 MYT 19 Jul)",
+    "prior_build": "entities_165723.json (00:57 MYT / 00:57 MYT 19 Jul)",
+    "this_build": "entities_190215.json (03:02 MYT / 03:02 MYT 19 Jul)",
     "cycle_window_ingested": [
       "170837 (source-gap fill + PIR-06 ESCALATION: Muhyiddin exit hint)",
       "182751 (stability/confirmation pass — 0 new articles, deep-overnight MYT)"
@@ -3351,11 +3351,11 @@
     ]
   },
   "delta_vs_prior_build_190215": {
-    "prior_build": "entities_190215.json (19:02 UTC / 03:02 MYT 19 Jul)",
-    "this_build": "entities_211155.json (21:11 UTC / 05:11 MYT 19 Jul)",
+    "prior_build": "entities_190215.json (03:02 MYT / 03:02 MYT 19 Jul)",
+    "this_build": "entities_211155.json (05:11 MYT / 05:11 MYT 19 Jul)",
     "cycle_window_ingested": [
-      "194028 (19:40 UTC / 03:40 MYT 19 Jul — 2nd zero-delta overnight confirmation pass)",
-      "205755 (20:57 UTC / 04:57 MYT 19 Jul — 3rd zero-delta overnight confirmation pass)"
+      "194028 (03:40 MYT / 03:40 MYT 19 Jul — 2nd zero-delta overnight confirmation pass)",
+      "205755 (04:57 MYT / 04:57 MYT 19 Jul — 3rd zero-delta overnight confirmation pass)"
     ],
     "delta_verification_method": "Programmatic normalized title set-difference on _scrape_results priority_titles across 182751 / 194028 / 205755 (this agent). 194028->205755 delta = 0 titles. 182751->194028/205755 delta = +1 / -1 (NST English '103 candidates confirmed' corroborating an already-counted fact; Samsuri title rotated off gnews top-60 but already captured at 170837).",
     "genuinely_new_findings": [],
@@ -3381,12 +3381,12 @@
   },
   "prior_entities_file": "entities_233104",
   "delta_vs_prior_build_211155": {
-    "prior_build": "entities_211155.json (21:11 UTC / 05:11 MYT 19 Jul)",
-    "this_build": "entities_233104.json (23:31 UTC / 07:31 MYT 19 Jul)",
+    "prior_build": "entities_211155.json (05:11 MYT / 05:11 MYT 19 Jul)",
+    "this_build": "entities_233104.json (07:31 MYT / 07:31 MYT 19 Jul)",
     "cycle_window_ingested": [
-      "231029 (23:10 UTC / 07:10 MYT 19 Jul — 5th overnight/dawn pass; FIRST genuinely-new-content cycle after 4 consecutive zero-delta passes)"
+      "231029 (07:10 MYT / 07:10 MYT 19 Jul — 5th overnight/dawn pass; FIRST genuinely-new-content cycle after 4 consecutive zero-delta passes)"
     ],
-    "delta_verification_method": "collection_metadata.json (231029 cycle) documents: 2 genuinely brand-new Utusan PIR-07 articles at 06:40 & 06:45 MYT 19 Jul (22:40 & 22:45 UTC 18 Jul) with Elementor full-text extraction; plus freshly-captured PIR-09 component-party items (Wee, Tamim) and PIR-07 mkini intros (DAP anti-BN, nominations full-force, KiniGuide). PIR-06 substance already fully captured at 170837; NST 'Bersatu at a crossroads' headline captured this cycle (full text deferred, gnews encrypted). This agent read all 10 priority_*.md files from the 231029 cycle and reconciled against the entities_211155 baseline.",
+    "delta_verification_method": "collection_metadata.json (231029 cycle) documents: 2 genuinely brand-new Utusan PIR-07 articles at 06:40 & 06:45 MYT 19 Jul (22:40 & 06:45 MYT 18 Jul) with Elementor full-text extraction; plus freshly-captured PIR-09 component-party items (Wee, Tamim) and PIR-07 mkini intros (DAP anti-BN, nominations full-force, KiniGuide). PIR-06 substance already fully captured at 170837; NST 'Bersatu at a crossroads' headline captured this cycle (full text deferred, gnews encrypted). This agent read all 10 priority_*.md files from the 231029 cycle and reconciled against the entities_211155 baseline.",
     "genuinely_new_findings": [
       "NEW NAMED FIGURE: Datuk Alzafny Ahmad — Ketua Polis Negeri Sembilan (NS Police Chief). Quoted in Utusan 3-coalitions (nomination security press conference, 2,373 PDRM) AND mkini Tamim article (Tamim surrender ~12:45pm PD IPD). PIR-07 + PIR-09.",
       "FORMAL '5 HOT SEATS' BATTLEGROUN DESIGNATION (Utusan full-text): Linggi N32, Sikamat N13, Ampangan N14, Paroi N25, Labu N20 — each with FULL candidate matchups + role affiliations (e.g. Aminuddin = MB/PD MP; Tun Faisal = Bersatu info chief; Nazri Kassim = PKR NS dep chief; Rafie = ex-ADUN; Hanifah = Bersatu NS chief). PIR-07 substantially enriched.",
@@ -3438,8 +3438,8 @@
     }
   },
   "delta_vs_prior_build_entities_233104": {
-    "prior_build": "entities_233104.json (23:31 UTC 18 Jul / 07:31 MYT 19 Jul — 231029 cycle)",
-    "this_build": "entities_021231.json (02:14 UTC 19 Jul / 10:14 MYT 19 Jul — 011915 cycle)",
+    "prior_build": "entities_233104.json (07:31 MYT 18 Jul / 07:31 MYT 19 Jul — 231029 cycle)",
+    "this_build": "entities_021231.json (10:14 MYT 19 Jul / 10:14 MYT 19 Jul — 011915 cycle)",
     "cycle_window_ingested": [
       "011915 (Day-2 morning MYT; +2.15h vs 231029; 3 brand-new fulltext priority articles 08:28-09:18 MYT 19 Jul)"
     ],

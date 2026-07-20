@@ -1,0 +1,15 @@
+# [PRIORITY PIR-07] saya-tak-keberatan-letak-jawatan-jika-diarah-pm-tok-mat
+Source URL: https://www.bharian.com.my/berita/nasional/2026/07/1590524/saya-tak-keberatan-letak-jawatan-jika-diarah-pm-tok-mat
+Final/redirected URL: https://www.bharian.com.my/berita/nasional/2026/07/1590524/saya-tak-keberatan-letak-jawatan-jika-diarah-pm-tok-mat
+Collected: 20260719 20260719_131200 MYT (2026-07-19 13:14:34 MYT) | MYT: 21:14 MYT 19 Jul 2026
+Classification: TLP:AMBER
+HTTP: 200 | mode: BH-rss-content
+Note: Full text from BH RSS content:encoded (no curl fetch needed)
+Title: "Saya tak keberatan letak jawatan jika diarah PM" - Tok Mat
+ArticlePubDate: Sun, 19 Jul 2026 20:22:22 +0000
+Body chars: 2207
+
+## Full text
+==============================================================================
+REMBAU: Timbalan Pengerusi Barisan Nasional (BN), Datuk Seri Mohamad Hasan menegaskan beliau tidak keberatan untuk melepaskan jawatan dalam Kabinet sekiranya ada arahan daripada Perdana Menteri untuk berbuat demikian. Beliau yang juga Menteri Luar bagaimanapun berkata tiada dalam kalangan pemimpin BN yang memburukkan Kerajaan Perpaduan sepanjang kempen Pilihan Raya Negeri (PRN) Negeri Sembilan setakat ini. "Kita tak ada memburuk-burukkan, tak sentuh peribadi. Dalam kempen, kita nak pastikan mesej kita sampai kepada semua pengundi. "Terpulang kepada Perdana Menteri (kalau nak arah lepaskan jawatan dalam kabinet) kerana beliau yang melantik menteri dan timbalan menteri," katanya selepas menghadiri program bersama warga Pusat Daerah Mengundi (PDM) di Taman Kelab Tuanku Mambau di sini, petang ini. Beliau berkata demikian mengulas kenyataan Datuk Seri Anwar Ibrahim ketika di Ipoh hari ini yang memberi amaran kepada mana-mana menteri, timbalan menteri dan pemegang jawatan dalam agensi kerajaan supaya tidak menggunakan kedudukan mereka untuk menyerang rakan dalam Kerajaan Persekutuan ketika berkempen pada PRN. Menurut Perdana Menteri, mana-mana pihak berkaitan yang melakukan perkara berkenaan akan diminta berundur daripada jawatan yang disandang. Mohamad yang akan mempertahankan kerusi Dewan Undangan Negeri (DUN) Rantau pada PRN kali ini dalam pada itu menyifatkan kenyataan politik sebagai perkara biasa dalam musim pilihan raya. Jangan cepat sangat meloncat-loncat "Saya pun tak kecil hati, tapi masing-masing jangan cepat sangat meloncat-loncat. Dalam pilihan raya ini biasalah, dulu pun begitu juga. "Tak bermakna pula kita nak bermusuh secara peribadi, tidak. Kita nak supaya rakyat faham, supaya mereka memberikan sokongan kepada BN. "Kita pujuklah mereka dan kita pastikan jangan termakan fitnah-fitnah lagi. Pada 2018 (PRU) dulu, kalahnya BN bukan kerana apa, tetapi kerana fitnah melampau," katanya. Beliau juga mengingatkan pengundi supaya jangan termakan fitnah termasuk menerusi media sosial yang sengaja untuk melaga-lagakan rakyat Malaysia. "Saya minta kita berfikiran rasional dan ketika berkempen tidak menyerang peribadi seseorang," katanya. © New Straits Times Press (M) Bhd
+==============================================================================

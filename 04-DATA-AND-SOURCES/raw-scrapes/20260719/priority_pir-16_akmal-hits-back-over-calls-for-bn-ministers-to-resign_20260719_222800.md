@@ -1,0 +1,15 @@
+# [PRIORITY PIR-16] akmal-hits-back-over-calls-for-bn-ministers-to-resign
+Source URL: https://www.freemalaysiatoday.com/category/nation/2026/07/19/akmal-hits-back-over-calls-for-bn-ministers-to-resign
+Final/redirected URL: https://www.freemalaysiatoday.com/category/nation/2026/07/19/akmal-hits-back-over-calls-for-bn-ministers-to-resign
+Collected: 20260719 20260719_142800 MYT (2026-07-19 14:30:12 MYT) | MYT: 22:30 MYT 19 Jul 2026
+Classification: TLP:AMBER
+HTTP: 200 | mode: FMT-rss-content
+Note: Full text from FMT RSS content:encoded (no curl fetch needed)
+Title: Akmal hits back over calls for BN ministers to resign
+ArticlePubDate: Sun, 19 Jul 2026 10:04:33 +0000
+Body chars: 2303
+
+## Full text
+==============================================================================
+Umno Youth chief Dr Akmal Saleh said his wing’s stance on the party leaving the unity government had not changed since it was first raised earlier this year. (Bernama pic) PETALING JAYA: Umno Youth chief Dr Akmal Saleh has hit back over Pakatan Harapan Youth’s call for Barisan Nasional  ministers and deputy ministers to resign after the coalition decided to cooperate with Perikatan Nasional in two state elections. Akmal said PH Youth should also demand that Warisan leave the unity government as the Shafie Apdal-led party had contested against PH in last year’s Sabah state election. He said if a Sarawak state election was called and Gabungan Parti Sarawak contested against PH, GPS should face the same demand to leave the federal government. “If not, I challenge the prime minister (Anwar Ibrahim) to sack all ministers and deputy ministers from BN, Warisan and GPS. Please accept this challenge,” he said in a Facebook post. Akmal reiterated Umno Youth’s long-standing position that the party should leave the unity government, saying its stance had not changed since it was first raised earlier this year. PH Youth had said the BN-PN cooperation raised questions over BN’s commitment to the unity government, especially after BN chairman Ahmad Zahid Hamidi said the arrangement in Negeri Sembilan could serve as a test case for the 16th general election. Anwar had earlier warned ministers, deputy ministers and officeholders in government agencies against attacking one another while campaigning during state elections. Separately, PAS’s Bachok MP Syahir Sulaiman questioned whether PH Youth had lost confidence in the federal government, describing its call for BN ministers to resign as “excessive”. “Why is PH so anxious in Putrajaya when PN-BN cooperation is so far limited to the Negeri Sembilan election?” he said in a statement. He questioned why PH Youth did not make a similar demand when BN and PH contested separately in all 56 seats in the Johor state election. In the Negeri Sembilan state election, PH and BN will not contest as allies. Instead, BN is cooperating with the PAS-led PN, while PH is contesting all 36 state seats on its own. In the recently concluded Johor election, PAS had urged its members and supporters to back BN candidates in seats where PN did not contest.
+==============================================================================

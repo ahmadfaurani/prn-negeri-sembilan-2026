@@ -1,6 +1,6 @@
 # PRN Negeri Sembilan 2026 — Sentiment Analysis Summary
 ## Date: 20260719 (Campaign Period Day 1 Afternoon, 17:28 MYT) — Revision 11
-## Generated: 2026-07-19T17:28:00+08:00 (09:28 UTC) | TLP:AMBER
+## Generated: 2026-07-19T17:28:00+08:00 (17:28 MYT) | TLP:AMBER
 ## Agent: PRN Negeri Sembilan 2026 Sentiment Analysis Agent (cron)
 
 **Latest sentiment file:** `sentiment-analysis/20260719/sentiment-20260719-1728.json`

@@ -1,0 +1,18 @@
+# [PRIORITY PIR-06] bersatu-lantik-radzi-manan-pengerusi-lembaga-disiplin
+Source URL: https://news.google.com/rss/articles/CBMitgFBVV95cUxQLUhGTWs4cnZNa1N5SEdtR3NWbURKZUl5bkh3b1k0X0VoenF4alhtZTdvTWtydGVBWmdjU0ZxQTUwZTZwcUhMbnJwSlY0WTd1cHBuUVhoeTNnY2xIbHJZV2N5WnIwWjJxTFpuVEtFVDhXdVFETE5qNzloeS1wV0RFQU5FdnBEMGZvZHZxaXVCSi01bGxkTXVTMThGelY0ZWdib19GWXQ2czJvekQxMXNGT1pYVDlzdw?oc=5
+Collected: 20260719 20260719_102500 MYT (2026-07-19 10:28:05 MYT) | MYT: 18:28 MYT 19 Jul 2026
+Classification: TLP:AMBER
+HTTP: n/a | mode: gnews-headline-intel [sasar-kerajaan-negeri]
+Note: Headline intelligence from gnews RSS [sasar-kerajaan-negeri]. gnews protobuf URL not curl-resolvable (JS SPA). Publisher: Astro Awani.
+Title: Bersatu lantik Radzi Manan Pengerusi Lembaga Disiplin - Astro Awani
+PubDate: Sun, 07 Apr 2024 07:00:00 GMT
+Publisher: Astro Awani
+
+## Headline intelligence (no full text — gnews JS-render block)
+==============================================================================
+TITLE: Bersatu lantik Radzi Manan Pengerusi Lembaga Disiplin - Astro Awani
+PUBDATE: Sun, 07 Apr 2024 07:00:00 GMT
+PUBLISHER: Astro Awani
+QUERY: sasar-kerajaan-negeri
+FRESH: no
+==============================================================================

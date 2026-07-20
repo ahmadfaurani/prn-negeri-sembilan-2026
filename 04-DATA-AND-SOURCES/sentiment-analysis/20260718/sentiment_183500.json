@@ -20,20 +20,20 @@
   "revision_context": {
     "prior_revision": {
       "id": "revision-4",
-      "generated": "2026-07-19T00:10:24+08:00 (16:10 UTC)",
+      "generated": "2026-07-19T00:10:24+08:00 (00:10 MYT)",
       "file": "sentiment-analysis/20260718/sentiment_161024.json",
       "coverage": "55 source files / 232 entities; cumulative 40 entities scored (15 pos / 14 neu / 11 neg)",
       "key_finding": "PIR-06 ESCALATED from precursor (rev3) to SENIOR-FIGURE PUBLIC ADVOCACY (Kiandee, suspended Bersatu VP). One-sided motion: Kiandee calls ON PN-MT to remove Bersatu. Trigger #2 adjacent."
     },
     "this_revision": {
       "id": "revision-5",
-      "trigger": "Raw-scrape collection cycles 170837 (17:08 UTC / 01:08 MYT 19 Jul) and 182751 (18:27 UTC / 02:27 MYT 19 Jul) arrived after the revision-4 sentiment run. The 170837 cycle is a SOURCE-GAP FILL + PIR-06 ESCALATION CORROBORATION cycle that captured the Bersatu PRESIDENT (Muhyiddin) publicly hinting at exit. The 182751 cycle is a STABILITY/CONFIRMATION pass (0 new articles, 10/10 sources, 0 errors). The entities_165723.json (16:57 UTC) provides the PIR-tagged entity structure (8 Tier-4 seats, PIR-09 candidates, PIR-07 watch seats) cross-referenced here.",
+      "trigger": "Raw-scrape collection cycles 170837 (01:08 MYT / 01:08 MYT 19 Jul) and 182751 (18:27 MYT / 02:27 MYT 19 Jul) arrived after the revision-4 sentiment run. The 170837 cycle is a SOURCE-GAP FILL + PIR-06 ESCALATION CORROBORATION cycle that captured the Bersatu PRESIDENT (Muhyiddin) publicly hinting at exit. The 182751 cycle is a STABILITY/CONFIRMATION pass (0 new articles, 10/10 sources, 0 errors). The entities_165723.json (16:57 MYT) provides the PIR-tagged entity structure (8 Tier-4 seats, PIR-09 candidates, PIR-07 watch seats) cross-referenced here.",
       "coverage": "86 source files total (per entity_metadata); rev5 delta = 170837 priority PIR-06/09/07 pointer files + collection_metadata.json (35KB trajectory assessment) + 182751 stability confirmation. New priority files: 6 (priority_pir06_goodbye-pn-muhyiddin / priority_pir06_bersatu-contest-own-flag / priority_pir06_bersatu-exit-pn-imminent-snapshot / priority_pir06_bersatu-tidak-lagi-mahu-bersama-pn-ronald / priority_pir09_mca-youth-stay-out-ns-polls / priority_pir09_pn-camp-albert-barking-dogs).",
       "new_batches_since_rev4": [
         {"batch": "170837", "cycle": "Cycle 7a (01:08 MYT 19 Jul)", "files": 38, "priority_files": 6, "note": "Source-gap fill (mkini/star/nst gnews) + PIR-06 ESCALATION corroboration: Muhyiddin exit hint + Annuar Musa part-ways + PAS sidelining Bersatu + mainstream 'imminent?' framing + MCA Youth discipline + Albert Tei 'barking dogs' + BN-PN understanding cluster."},
         {"batch": "182751", "cycle": "Cycle 7b (02:27 MYT 19 Jul)", "files": 20, "priority_files": 0, "note": "STABILITY/CONFIRMATION pass — deep-overnight MYT, 10/10 sources, 0 errors, 0 new articles. PIR-06 escalated-watch assessment UNCHANGED from 170837. Value = coverage integrity + assessment stability confirmation."}
       ],
-      "method_note": "The entities_165723.json (16:57 UTC) carries PIR tags but was built BEFORE the 170837 cycle (17:08 UTC). The Muhyiddin exit-hint content (the cycle's dominant new development) is in the raw-scrapes folder, incorporated here via the agent's priority-weighted source-attributed review per CVS standard. PIR priority pointer files + collection_metadata.json trajectory assessment used to LOCATE priority items; media source files (Malaysiakini, Utusan, The Star, NST, FMT) cited as attribution per CVS standard."
+      "method_note": "The entities_165723.json (00:57 MYT) carries PIR tags but was built BEFORE the 170837 cycle (17:08 MYT). The Muhyiddin exit-hint content (the cycle's dominant new development) is in the raw-scrapes folder, incorporated here via the agent's priority-weighted source-attributed review per CVS standard. PIR priority pointer files + collection_metadata.json trajectory assessment used to LOCATE priority items; media source files (Malaysiakini, Utusan, The Star, NST, FMT) cited as attribution per CVS standard."
     }
   },
   "source_basis_delta": {
@@ -315,7 +315,7 @@
     "shift_threshold_violations": []
   },
   "data_gaps_rev5": [
-    "[Rev5Δ] The entities_165723.json (16:57 UTC) was built BEFORE the 170837 cycle (17:08 UTC) and does NOT carry the Muhyiddin exit-hint content. The Muhyiddin/Annuar Musa/PAS-sidelining content is incorporated here via the agent's priority-weighted source-attributed review per CVS standard. RECOMMENDATION: re-run ns-entity-extraction-enhanced.py on the full 86-source corpus to fold the 170837/182751 cycles into a revision-6 extraction.",
+    "[Rev5Δ] The entities_165723.json (00:57 MYT) was built BEFORE the 170837 cycle (17:08 MYT) and does NOT carry the Muhyiddin exit-hint content. The Muhyiddin/Annuar Musa/PAS-sidelining content is incorporated here via the agent's priority-weighted source-attributed review per CVS standard. RECOMMENDATION: re-run ns-entity-extraction-enhanced.py on the full 86-source corpus to fold the 170837/182751 cycles into a revision-6 extraction.",
     "[Rev5Δ ENTITY EXTRACTION GAP — CARRIED] Ronald Kiandee (MP Beluran, suspended/former Bersatu VP), Bujang Abu (independent, withdrew), Muhyiddin Yassin (Bersatu president), Annuar Musa (Bersatu sec-gen), Saw Yee Fung (MCA Youth sec-gen), Albert Tei (PN camp) do NOT appear in entities_politicians.json (115 entries) — the extractor missed them. They are sentiment-scored here via direct source attribution (CVS-compliant). Recommend gazetteer update for the PIR-06 principal actors (Muhyiddin, Annuar Musa, Kiandee) and the new PIR-09 figures (Saw Yee Fung, Albert Tei).",
     "[Rev5Δ CARRIED] 20260716 SENTIMENT ANALYSIS GAP DAY remains unbackfilled (1-day gap in the time series, Day 8).",
     "[Rev5Δ CARRIED] ESC-002 — ns-sentiment-analysis.sh stub; agent-manual review standing method.",

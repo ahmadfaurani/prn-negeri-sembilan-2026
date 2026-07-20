@@ -1,9 +1,9 @@
 # PRN Negeri Sembilan 2026 — Nomination Day Hourly Intelligence Brief
 
 **Date:** 2026-07-18 (Nomination Day)
-**Timestamp:** 16:41 MYT / 08:41 UTC
+**Timestamp:** 16:41 MYT / 16:41 MYT
 **Classification:** TLP:AMBER
-**Reporting Period:** Hourly surge — collection window ~16:33 MYT; previous brief 15:16 MYT (cycle 0716 UTC)
+**Reporting Period:** Hourly surge — collection window ~16:33 MYT; previous brief 15:16 MYT (cycle 0716 MYT)
 **Framework:** Nomination Day Surge (PIR-01 → PIR-25) — `00-OPERATIONS/pir-framework-nomination-day.md`
 **Prepared by:** PRN Negeri Sembilan 2026 Intelligence Brief Agent (GLM-5.2) — NOMINATION DAY SURGE MODE
 **Distribution:** State Campaign Leadership, DUN War Rooms, Intelligence Cell → Telegram
@@ -289,7 +289,7 @@ No engagement-velocity/sentiment-spike data available (**ESC-002: sentiment pipe
 ---
 
 **Classification:** TLP:AMBER
-**Next collection:** Hourly (Nomination Day surge cadence) → next cycle ~17:30 MYT (09:30 UTC)
+**Next collection:** Hourly (Nomination Day surge cadence) → next cycle ~17:30 MYT (17:30 MYT)
 **Source files:** `04-DATA-AND-SOURCES/raw-scrapes/20260718/*_20260718_083302.md`
 **Cross-reference:** `01-DAILY-INTELLIGENCE/daily-briefs/PRN-NS-NOMINATION-20260718-PIR01-CANDIDATE-ROLL.md` (SPR 36-DUN roll, CONFIRMED)
 **Authority:** State Intelligence Director

@@ -1,10 +1,10 @@
 # PRN Negeri Sembilan 2026 — Nomination Day Hourly Intelligence Brief
 
 **Date:** 2026-07-19 (post-midnight MYT — Nomination Day → Campaign Day 1, opening hours)
-**Timestamp:** 01:16 MYT 19 Jul / 17:16 UTC 18 Jul
+**Timestamp:** 01:16 MYT 19 Jul / 01:16 MYT 18 Jul
 **Classification:** TLP:AMBER
-**Brief #:** 7 (Cycle 7 — collection window 01:08 MYT 19 Jul / 17:08 UTC 18 Jul)
-**Reporting Period:** Hourly surge — collection window 01:08 MYT 19 Jul (17:08 UTC 18 Jul, Cycle 7); previous brief 23:41 MYT 18 Jul (15:41 UTC, Cycle 6)
+**Brief #:** 7 (Cycle 7 — collection window 01:08 MYT 19 Jul / 01:08 MYT 18 Jul)
+**Reporting Period:** Hourly surge — collection window 01:08 MYT 19 Jul (01:08 MYT 18 Jul, Cycle 7); previous brief 23:41 MYT 18 Jul (15:41 MYT, Cycle 6)
 **Framework:** Nomination Day Surge (PIR-01 → PIR-25) + PRN16 Standard (NS-01 → NS-18)
 **Prepared by:** PRN Negeri Sembilan 2026 Intelligence Brief Agent (GLM-5.2) — NOMINATION DAY SURGE MODE
 **Distribution:** State Campaign Leadership, DUN War Rooms, Intelligence Cell → Telegram
@@ -376,7 +376,7 @@
 
 ## SOURCES
 
-**NEW this cycle (Cycle 7 — 01:08 MYT 19 Jul / 17:08 UTC 18 Jul collection; workhorses = Malaysiakini + Star + NST + Utusan via Google News RSS):**
+**NEW this cycle (Cycle 7 — 01:08 MYT 19 Jul / 01:08 MYT 18 Jul collection; workhorses = Malaysiakini + Star + NST + Utusan via Google News RSS):**
 
 PIR-06 — Bersatu–PN rupture (PRIMARY escalation):
 - 🆕 "Goodbye PN?: Muhyiddin raps Samsuri over BN talks, Bersatu to move on" (Malaysiakini, lead para — president-level exit hint): https://www.malaysiakini.com/news/779941
@@ -439,6 +439,6 @@ PIR-07/16 — BN-PN understanding + DAP tension (NEW cluster):
 
 **Classification:** TLP:AMBER
 **Next collection:** Hourly (Nomination Day surge cadence) → next cycle ~02:08+ MYT 19 Jul (first full campaign day 19 Jul; campaign window open 18–31 Jul)
-**Source files:** `04-DATA-AND-SOURCES/raw-scrapes/20260718/*_20260718_170837.md` + `priority_pir0*_20260718_170837.md` + `collection_metadata.json` (01:08 MYT 19 Jul / 17:08 UTC 18 Jul collection, Cycle 7); `04-DATA-AND-SOURCES/processed-entities/20260718/entities_165723.json` + `entity_metadata.json`
+**Source files:** `04-DATA-AND-SOURCES/raw-scrapes/20260718/*_20260718_170837.md` + `priority_pir0*_20260718_170837.md` + `collection_metadata.json` (01:08 MYT 19 Jul / 01:08 MYT 18 Jul collection, Cycle 7); `04-DATA-AND-SOURCES/processed-entities/20260718/entities_165723.json` + `entity_metadata.json`
 **Workspace:** `/home/p62operator/.openclaw/workspace-ns/`
 **Authority:** State Intelligence Director

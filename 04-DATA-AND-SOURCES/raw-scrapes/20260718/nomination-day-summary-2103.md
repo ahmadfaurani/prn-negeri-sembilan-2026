@@ -2,7 +2,7 @@
 ## Cycle 4 (21:03 MYT) — Saturday 18 July 2026
 
 **CLASSIFICATION: TLP:AMBER**
-**Cycle timestamp (UTC):** 20260718_130328 → **21:03 MYT**
+**Cycle timestamp (MYT):** 20260718_130328 → **21:03 MYT**
 **Collector:** PRN NS 2026 News Collection Agent (Nomination Day Surge Mode)
 **Prior cycles today:** 1509, 1633, 1919 MYT
 **Key frame docs:** `00-OPERATIONS/pir-framework-nomination-day.md` · previous summary `nomination-day-summary-1919.md`

@@ -39,8 +39,8 @@
     "PIR-07": "Battleground Assessment (THIRD)"
   },
   "delta_vs_prior_build_165723": {
-    "prior_build": "entities_165723.json (16:57 UTC / 00:57 MYT 19 Jul)",
-    "this_build": "entities_190215.json (19:02 UTC / 03:02 MYT 19 Jul)",
+    "prior_build": "entities_165723.json (00:57 MYT / 00:57 MYT 19 Jul)",
+    "this_build": "entities_190215.json (03:02 MYT / 03:02 MYT 19 Jul)",
     "cycle_window_ingested": [
       "170837 (source-gap fill + PIR-06 ESCALATION: Muhyiddin exit hint)",
       "182751 (stability/confirmation pass — 0 new articles, deep-overnight MYT)"

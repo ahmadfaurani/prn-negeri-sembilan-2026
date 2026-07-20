@@ -1,0 +1,15 @@
+# [PRIORITY PIR-06+PIR-07] negri-sembilan-polls-pn-bn-to-merge-election-machinery
+Source URL: https://www.nst.com.my/news/regional/2026/07/1492554/negri-sembilan-polls-pn-bn-merge-election-machinery
+Final/redirected URL: https://www.nst.com.my/news/regional/2026/07/1492554/negri-sembilan-polls-pn-bn-merge-election-machinery
+Collected: 20260719 13120000 MYT (2026-07-19 13:23:44 MYT) | MYT: 21:15 MYT 19 Jul 2026
+Classification: TLP:AMBER
+HTTP: 200 | mode: NST-rss-content
+Note: Full text from NST RSS content:encoded (re-saved after gnews overwrite fix)
+Title: Negri Sembilan polls: PN, BN to merge election machinery
+ArticlePubDate: Sun, 19 Jul 2026 19:49:41 +0800
+Body chars: 1976
+
+## Full text
+==============================================================================
+SEREMBAN: Perikatan Nasional and Barisan Nasional will merge their election machinery to face the 16th Negri Sembilan election. Parti Wawasan Negara president Datuk Seri Hamzah Zainudin said the two coalitions have begun to show willingness to work together at all levels for the state election. "This willingness is not just at the highest levels, but right to the grassroots, which is to say, our election machinery. "We have put forward candidates along with our election machinery so we can take over the administration of Negri Sembilan. "This is what we want to highlight, so that we can reunite, not only at the state level but also at the federal level, provided this cooperation can continue," he said after a meeting with the BN election machinery. Present were PN secretary-general Datuk Seri Takiyuddin Hassan; former Bersatu vice-president Datuk Seri Dr Ronald Kiandee; and, Seremban Umno chief Datuk Mazalan Maarop. Also at the meeting with PN candidate for Sikamat Datuk Razali Abu Samah; BN candidate for Lenggeng Datuk Mohd Asna Amin and PN candidate for Ampangan Datuk Dr Rafie Abd Malek. Hamzah said there were those who had questioned why BN had "presented" 11 seats to PN, saying the number was too large. "How can 11 seats out of 36 be 'too many'? But, we are satisfied with 11 seats. "We don't want to get caught up in calculating the number of seats, as that would ultimately lead to division. We need to focus on the bigger issue," he said. Hamzah said, what was most desired, was a spirit of unity between BN and PN, with the understanding between the two coalitions expected to bring a "blue wave" sweeping across Negri Sembilan. "There is a 'red group' that has failed to govern our state. It is not only in Negri Sembilan, but throughout the country as well. "We (PN) regard the Negri Sembilan election as a 'small battle' that must be won. The bigger battle ahead is taking over the federal government," he said. © New Straits Times Press (M) Bhd
+==============================================================================

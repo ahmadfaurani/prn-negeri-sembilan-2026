@@ -563,10 +563,10 @@ The Negeri Sembilan PRN PIR framework must function as a **command-and-decision 
 - OpenOSINT v2.23.0 (Qwen3.5-397B-A17B via Aras Integrasi)
 
 **Cronjob Pipeline:**
-- 01:00 UTC: Daily News Collection
-- 06:00 UTC: Entity Extraction
-- 08:00 UTC: Sentiment Analysis
-- 09:00 UTC: Daily Intelligence Brief (Telegram delivery)
+- 09:00 MYT: Daily News Collection
+- 14:00 MYT: Entity Extraction
+- 16:00 MYT: Sentiment Analysis
+- 17:00 MYT: Daily Intelligence Brief (Telegram delivery)
 
 **Classification:** TLP:AMBER  
 **GitHub:** Private repository for sensitive intelligence products

@@ -2,7 +2,7 @@
 
 **Classification:** TLP:AMBER
 **Date:** 2026-07-18 (Nomination Day)
-**Collection Window:** ~19:19 MYT (11:19 UTC) — Hourly surge cadence, Cycle 3 of Nomination Day
+**Collection Window:** ~19:19 MYT (19:19 MYT) — Hourly surge cadence, Cycle 3 of Nomination Day
 **Reporting Period:** News content up to ~19:14 MYT (latest dateline: Astro Awani Zahid piece, "5 minutes ago"; Star items 6:25–6:29 PM; NST "an hour ago")
 **Framework:** Nomination Day Surge (PIR-01 → PIR-25) — `00-OPERATIONS/pir-framework-nomination-day.md`
 **Prepared by:** PRN Negeri Sembilan 2026 News Collection Agent — NOMINATION DAY SURGE MODE

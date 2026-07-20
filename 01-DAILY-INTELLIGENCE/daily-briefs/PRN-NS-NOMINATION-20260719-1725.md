@@ -311,6 +311,6 @@
 
 ---
 
-*Brief generated 2026-07-19 17:25 MYT (09:25 UTC) by PRN NS 2026 Intelligence Brief Agent — Nomination-Day Surge Mode.*  
+*Brief generated 2026-07-19 17:25 MYT (17:25 MYT) by PRN NS 2026 Intelligence Brief Agent — Nomination-Day Surge Mode.*  
 *Next brief cycle: ~19:00 MYT 19 Jul 2026.*  
 *TLP:AMBER — State Campaign Leadership, DUN War Rooms, Intelligence Cell.*

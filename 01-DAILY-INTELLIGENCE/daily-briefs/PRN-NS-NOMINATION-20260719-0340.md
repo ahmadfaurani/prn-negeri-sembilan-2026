@@ -1,16 +1,16 @@
 # PRN Negeri Sembilan 2026 — Nomination Day Hourly Intelligence Brief
 
 **Date:** 2026-07-19 (deep-overnight MYT — Nomination Day closed → Campaign Day 1, pre-dawn lull with two new analytical/narrative items)
-**Timestamp:** 03:40 MYT 19 Jul / 19:40 UTC 18 Jul
+**Timestamp:** 03:40 MYT 19 Jul / 03:40 MYT 18 Jul
 **Classification:** TLP:AMBER
-**Brief #:** 9 (Cycle 9 — collection window 03:40 MYT 19 Jul / 19:40 UTC 18 Jul)
-**Reporting Period:** Hourly surge — collection window 03:40 MYT 19 Jul (19:40 UTC 18 Jul, Cycle 9); previous brief 02:27 MYT 19 Jul (18:27 UTC, Cycle 8 — stability/confirmation SITREP)
+**Brief #:** 9 (Cycle 9 — collection window 03:40 MYT 19 Jul / 03:40 MYT 18 Jul)
+**Reporting Period:** Hourly surge — collection window 03:40 MYT 19 Jul (03:40 MYT 18 Jul, Cycle 9); previous brief 02:27 MYT 19 Jul (18:27 MYT, Cycle 8 — stability/confirmation SITREP)
 **Framework:** Nomination Day Surge (PIR-01 → PIR-25) + PRN16 Standard (NS-01 → NS-18)
 **Prepared by:** PRN Negeri Sembilan 2026 Intelligence Brief Agent (GLM-5.2) — NOMINATION DAY SURGE MODE
 **Distribution:** State Campaign Leadership, DUN War Rooms, Intelligence Cell → Telegram
 **Cross-reference:** `*_20260718_194028.md` scrape set (03:40 MYT collection, Cycle 9); `PRN-NS-NOMINATION-20260719-0227.md` (Cycle 8, stability SITREP); `PRN-NS-NOMINATION-20260719-0116.md` (Cycle 7, full assessment); `spr-candidate-list-20260718.json` (SPR ground truth)
 
-**⚠️ CYCLE 9 COLLECTION CHARACTER — TRANSITION FROM STABILITY PASS TO NARRATIVE/MESSAGING TURN.** The deep-overnight MYT window (~03:40) continues to produce limited new Malaysian newsroom output, BUT Cycle 9 surfaced **two genuinely new items** that the 17:08 UTC cutoff (Cycle 8) did not capture — both Malaysiakini, both surfacing in the 19:40 UTC Google News / HTML-extraction scrape set: (1) a **KINIGUIDE analytical explainer** reframing the entire 2023→2026 alliance shift (BN+PH→BN+PN), and (2) the **Tamim Dahri surrender acquiring an election dimension** — he "hopes to campaign for an N Sembilan independent candidate," upgrading a story prior cycles had classified as unrelated law-enforcement. The candidate field (103/103), contest configuration, and the PIR-06 critical threshold (no formal PN Supreme Council removal notice) are all **UNCHANGED**. The value of this cycle = the **narrative-framing turn** ahead of the daytime Campaign Day-1 window. **Next meaningful wave expected at daytime MYT (Campaign Day 1, 19 Jul ~09:00–12:00 MYT).**
+**⚠️ CYCLE 9 COLLECTION CHARACTER — TRANSITION FROM STABILITY PASS TO NARRATIVE/MESSAGING TURN.** The deep-overnight MYT window (~03:40) continues to produce limited new Malaysian newsroom output, BUT Cycle 9 surfaced **two genuinely new items** that the 01:08 MYT cutoff (Cycle 8) did not capture — both Malaysiakini, both surfacing in the 19:40 MYT Google News / HTML-extraction scrape set: (1) a **KINIGUIDE analytical explainer** reframing the entire 2023→2026 alliance shift (BN+PH→BN+PN), and (2) the **Tamim Dahri surrender acquiring an election dimension** — he "hopes to campaign for an N Sembilan independent candidate," upgrading a story prior cycles had classified as unrelated law-enforcement. The candidate field (103/103), contest configuration, and the PIR-06 critical threshold (no formal PN Supreme Council removal notice) are all **UNCHANGED**. The value of this cycle = the **narrative-framing turn** ahead of the daytime Campaign Day-1 window. **Next meaningful wave expected at daytime MYT (Campaign Day 1, 19 Jul ~09:00–12:00 MYT).**
 
 ---
 
@@ -284,4 +284,4 @@ The 3 PIRs below (from the Nomination Day framework) carry the highest potential
 
 ---
 
-*End of Cycle 9 brief — 03:40 MYT 19 Jul 2026 / 19:40 UTC 18 Jul. Next meaningful update expected at the daytime Campaign Day-1 window (~09:00–12:00 MYT 19 Jul). All products TLP:AMBER. Source URLs cited inline; [UNVERIFIED] and [ASSESSMENT] tagged where applicable.*
+*End of Cycle 9 brief — 03:40 MYT 19 Jul 2026 / 03:40 MYT 18 Jul. Next meaningful update expected at the daytime Campaign Day-1 window (~09:00–12:00 MYT 19 Jul). All products TLP:AMBER. Source URLs cited inline; [UNVERIFIED] and [ASSESSMENT] tagged where applicable.*

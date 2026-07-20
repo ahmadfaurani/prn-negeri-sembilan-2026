@@ -1,10 +1,10 @@
 # PRN Negeri Sembilan 2026 — Nomination Day Hourly Intelligence Brief
 
 **Date:** 2026-07-19 (Campaign Day 1 — daytime window; nomination closed → second consecutive new-content cycle)
-**Timestamp:** 09:50 MYT 19 Jul / 01:50 UTC 19 Jul
+**Timestamp:** 09:50 MYT 19 Jul / 09:50 MYT 19 Jul
 **Classification:** TLP:AMBER
-**Brief #:** 12 (Cycle 12 — collection window 09:19 MYT 19 Jul / 01:19 UTC 19 Jul)
-**Reporting Period:** Hourly surge — collection window 09:19 MYT 19 Jul (01:19 UTC 19 Jul, Cycle 12); previous brief 07:40 MYT 19 Jul (23:40 UTC 18 Jul, Cycle 11 — first daytime new-content cycle after 4 overnight zero-delta passes)
+**Brief #:** 12 (Cycle 12 — collection window 09:19 MYT 19 Jul / 09:19 MYT 19 Jul)
+**Reporting Period:** Hourly surge — collection window 09:19 MYT 19 Jul (09:19 MYT 19 Jul, Cycle 12); previous brief 07:40 MYT 19 Jul (23:40 MYT 18 Jul, Cycle 11 — first daytime new-content cycle after 4 overnight zero-delta passes)
 **Framework:** Nomination Day Surge (PIR-01 → PIR-25) + PRN16 Standard (NS-01 → NS-18)
 **Prepared by:** PRN Negeri Sembilan 2026 Intelligence Brief Agent (GLM-5.2) — NOMINATION DAY SURGE MODE
 **Distribution:** State Campaign Leadership, DUN War Rooms, Intelligence Cell → Telegram
@@ -298,4 +298,4 @@ The 3 PIRs below carry the highest potential impact for the next 24 hours (Campa
 
 ---
 
-*End of Cycle 12 brief — 09:50 MYT 19 Jul 2026 / 01:50 UTC 19 Jul. Second consecutive new-content cycle (011915 collection, 09:19 MYT). Candidate field + PIR-06 critical threshold UNCHANGED (6 passes); Day-1 analytical/narrative layer deepened (DAP/Loke-leadership-test rencana; Kosmo 3-camp config; Ronald 8-seat confirmation; Ampangan PH defense; Aminuddin "not fleeing" counter-narrative; BN "MB after PRN"; Hadi "toxic PN"; Samsuri scope-expansion). TWO PRIOR DISPUTES RESOLVED: 7-vs-8 clash count → 8 (Utusan "Ronald"); Annuar Musa speaker-label → external BN commentator (Star). ONE NEW PIR-25 WATCH OPENED: former Gemas ADUN Ridzuan Ahmad quits Bersatu (NST, [UNVERIFIED] — body not recovered). ESC-003 ESCALATED (Loke–adat linkage + Melaka-withdrawal unity-gov damage). ESC-013 RESOLVED; ESC-014 (NEW) opened. Next meaningful update expected at the 10:00–13:00 MYT Day-1 ground-events window (ops-centre openings, walkabouts, first ceramah). All products TLP:AMBER. Source URLs cited inline; [UNVERIFIED] and [ASSESSMENT] tagged where applicable.*
+*End of Cycle 12 brief — 09:50 MYT 19 Jul 2026 / 09:50 MYT 19 Jul. Second consecutive new-content cycle (011915 collection, 09:19 MYT). Candidate field + PIR-06 critical threshold UNCHANGED (6 passes); Day-1 analytical/narrative layer deepened (DAP/Loke-leadership-test rencana; Kosmo 3-camp config; Ronald 8-seat confirmation; Ampangan PH defense; Aminuddin "not fleeing" counter-narrative; BN "MB after PRN"; Hadi "toxic PN"; Samsuri scope-expansion). TWO PRIOR DISPUTES RESOLVED: 7-vs-8 clash count → 8 (Utusan "Ronald"); Annuar Musa speaker-label → external BN commentator (Star). ONE NEW PIR-25 WATCH OPENED: former Gemas ADUN Ridzuan Ahmad quits Bersatu (NST, [UNVERIFIED] — body not recovered). ESC-003 ESCALATED (Loke–adat linkage + Melaka-withdrawal unity-gov damage). ESC-013 RESOLVED; ESC-014 (NEW) opened. Next meaningful update expected at the 10:00–13:00 MYT Day-1 ground-events window (ops-centre openings, walkabouts, first ceramah). All products TLP:AMBER. Source URLs cited inline; [UNVERIFIED] and [ASSESSMENT] tagged where applicable.*

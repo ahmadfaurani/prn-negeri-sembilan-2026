@@ -1,8 +1,8 @@
 # PRN Negeri Sembilan 2026 — Entity Extraction Summary
 **Date:** 2026-07-20
-**Cycle:** Midday extraction (03:13 UTC) — covering morning (01:11) + midday (02:20) scrape cycles
+**Cycle:** Midday extraction (11:13 MYT) — covering morning (01:11) + midday (02:20) scrape cycles
 **Source folder:** `04-DATA-AND-SOURCES/raw-scrapes/20260720/`
-**Output:** `entities-20260720-0313.json` (70 entities extracted)
+**Output:** `entities-20260720-0313.json` (81 entities extracted)
 **Sources processed:** FMT (BM+EN), Malay Mail, Utusan, Sinar Harian — 30+ NS-specific priority articles
 
 ---
@@ -119,10 +119,10 @@ The 20 July 2026 news cycle is dominated by **Day 2 of the PRN NS campaign** (po
 
 | PIR | Total Entities | Critical | Priority | Normal |
 |-----|---------------|----------|----------|--------|
-| PIR-06 | 24 | 5 | 11 | 8 |
-| PIR-07 | 28 | 2 | 18 | 8 |
-| PIR-16 | 18 | 2 | 10 | 6 |
-| **Total** | **70** | **9** | **39** | **22** |
+| PIR-06 | 21 | 5 | 11 | 5 |
+| PIR-07 | 36 | 2 | 22 | 12 |
+| PIR-16 | 24 | 4 | 16 | 4 |
+| **Total** | **81** | **11** | **49** | **21** |
 
 *(Note: Some entities carry multiple PIR tags; counted under primary tag.)*
 
@@ -139,4 +139,4 @@ The 20 July 2026 news cycle is dominated by **Day 2 of the PRN NS campaign** (po
 | Bernama (via syndication) | Multiple | BM/EN |
 
 **Files processed:** 30+ priority-tagged `.md` files from morning + midday cycles
-**Prior extraction:** `entities-20260720-0106.json` (01:06 UTC) — superseded by this extraction with midday cycle content added
+**Prior extraction:** `entities-20260720-0106.json` (09:06 MYT) — superseded by this extraction with midday cycle content added

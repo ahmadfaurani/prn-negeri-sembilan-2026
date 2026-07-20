@@ -32,7 +32,7 @@
 | `02e588724145` | PRN NS - Sentiment Analysis | 08:00 daily | ✓ Scheduled |
 | `b8f69d6f990d` | PRN NS - Daily Intelligence Brief | 09:00 daily | ✓ Scheduled |
 
-**Next Run:** 2026-07-11 01:00 UTC (Daily Collection)
+**Next Run:** 2026-07-11 09:00 MYT (Daily Collection)
 
 ### 3. Collection Pipeline Test ✓
 
@@ -201,7 +201,7 @@
 
 ## Next Actions (Immediate)
 
-1. **[AUTOMATED]** Daily collection runs at 01:00 UTC (first full run: 2026-07-11)
+1. **[AUTOMATED]** Daily collection runs at 09:00 MYT (first full run: 2026-07-11)
 2. **[MANUAL]** Complete SPR data scrape for 2023 election results
 3. **[MANUAL]** Deploy browser automation for candidate nomination tracking (18 July)
 4. **[MANUAL]** Integrate OpenOSINT Aras Integrasi API for entity/sentiment analysis

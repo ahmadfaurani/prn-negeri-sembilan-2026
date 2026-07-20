@@ -1,0 +1,15 @@
+# [PRIORITY PIR-07] sepanyol-sememangnya-lebih-baik-scaloni
+Source URL: https://www.hmetro.com.my/arena/bola-sepak/2026/07/1386753/sepanyol-sememangnya-lebih-baik-scaloni
+Final/redirected URL: https://www.hmetro.com.my/arena/bola-sepak/2026/07/1386753/sepanyol-sememangnya-lebih-baik-scaloni
+Collected: 20260719 20260719_233400 MYT (2026-07-19 23:36:02 MYT) | MYT: 07:36 MYT 20 Jul 2026
+Classification: TLP:AMBER
+HTTP: 200 | mode: METRO-rss-content
+Note: Full text from METRO RSS content:encoded (no curl fetch needed)
+Title: Sepanyol sememangnya lebih baik - Scaloni
+ArticlePubDate: Mon, 20 Jul 2026 07:31:58 +0000
+Body chars: 2358
+
+## Full text
+==============================================================================
+East Rutherford, Amerika Syarikat: Jurulatih Argentina, Lionel Scaloni mengakui Sepanyol adalah pasukan yang lebih baik sesudah skuadnya tewas 0-1 selepas masa tambahan pada final Piala Dunia 2026. Pemain gantian, Ferran Torres muncul wira apabila menjaringkan gol kemenangan pada babak kedua masa tambahan untuk membantu Sepanyol menewaskan Argentina yang beraksi dengan 10 pemain di Stadium MetLife. Juara Amerika Selatan itu, yang diketuai Lionel Messi, memburu sejarah sebagai pasukan pertama mempertahankan gelaran Piala Dunia sejak Brazil melakukannya pada 1962. "Mereka pasukan yang lebih baik, itulah hakikatnya, tetapi saya akan sentiasa menghargai kenangan bersama pemain saya, apa yang mereka capai dan nilai besar kerana mampu pergi sejauh ini," kata Scaloni. "Kami perlu benar-benar menghargai pencapaian ini kerana ia memerlukan usaha yang amat besar. "Scaloni berkata pasukannya perlu menerima kekalahan dengan cara yang sama seperti mereka meraikan kejayaan sebelum ini. "Kami merendah diri ketika menang dan kami juga perlu menerima kekalahan dengan baik. Hari ini kami menunjukkan kami tahu bagaimana untuk kalah," katanya. "Kami tewas dan kami menerimanya, tetapi itu tidak bermakna kami melupakan segala yang dilakukan untuk sampai ke tahap ini. "Beliau turut merakamkan penghargaan kepada penyokong Argentina atas sokongan luar biasa sepanjang kempen Piala Dunia 2026. "Kepada rakyat, pemain saya dan seluruh negara, saya ingin katakan kami sudah memberikan segala-galanya," katanya. "Kami tiba di sini dengan memahami realiti yang ada, tetapi apabila pemain memberikan segala-galanya di tengah padang seperti yang mereka lakukan hari ini, ia menjadi contoh hebat kepada rakyat dan negara kami. "Kami perlu bangkit semula, tiada pilihan lain." Scaloni, 48, berkata pencapaian mara ke final Piala Dunia buat kali kedua berturut-turut juga wajar diberikan pengiktirafan tinggi. "Sudah tentu saya menghargai kedudukan naib juara kerana bukan mudah untuk sampai ke tahap ini dan saya fikir ia layak menerima penghormatan besar," katanya. "Sudah tentu kami mahu menang, tetapi akhirnya saya berasa bersyukur. Itu satu-satunya perkataan yang terlintas, selain sedih tentunya. "Apabila anda sudah memberikan segala-galanya, tidak kira sama ada bermain baik atau sebaliknya, amat sukar untuk mencari kesalahan." © New Straits Times Press (M) Bhd
+==============================================================================

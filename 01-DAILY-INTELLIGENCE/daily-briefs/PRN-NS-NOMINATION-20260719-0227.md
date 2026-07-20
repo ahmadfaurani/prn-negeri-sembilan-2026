@@ -1,10 +1,10 @@
 # PRN Negeri Sembilan 2026 — Nomination Day Hourly Intelligence Brief
 
 **Date:** 2026-07-19 (deep-overnight MYT — Nomination Day closed → Campaign Day 1, pre-dawn lull)
-**Timestamp:** 02:27 MYT 19 Jul / 18:27 UTC 18 Jul
+**Timestamp:** 02:27 MYT 19 Jul / 02:27 MYT 18 Jul
 **Classification:** TLP:AMBER
-**Brief #:** 8 (Cycle 8 — collection window 02:27 MYT 19 Jul / 18:27 UTC 18 Jul)
-**Reporting Period:** Hourly surge — collection window 02:27 MYT 19 Jul (18:27 UTC 18 Jul, Cycle 8); previous brief 01:16 MYT 19 Jul (17:16 UTC, Cycle 7)
+**Brief #:** 8 (Cycle 8 — collection window 02:27 MYT 19 Jul / 02:27 MYT 18 Jul)
+**Reporting Period:** Hourly surge — collection window 02:27 MYT 19 Jul (02:27 MYT 18 Jul, Cycle 8); previous brief 01:16 MYT 19 Jul (17:16 MYT, Cycle 7)
 **Framework:** Nomination Day Surge (PIR-01 → PIR-25) + PRN16 Standard (NS-01 → NS-18)
 **Prepared by:** PRN Negeri Sembilan 2026 Intelligence Brief Agent (GLM-5.2) — NOMINATION DAY SURGE MODE
 **Distribution:** State Campaign Leadership, DUN War Rooms, Intelligence Cell → Telegram
@@ -300,7 +300,7 @@ N.32 Linggi (MB Aminuddin 3-corner, BN manifesto venue 24 Jul), N.27 Rantau (PH-
 
 ## SOURCES
 
-**This cycle (Cycle 8 — 02:27 MYT 19 Jul / 18:27 UTC 18 Jul collection; STABILITY/CONFIRMATION pass — 10/10 sources, 0 errors, 0 genuinely new articles). Source files: `04-DATA-AND-SOURCES/raw-scrapes/20260718/*_20260718_182751.md` + `collection_metadata.json`.** No new source URLs introduced this cycle (all items are reconfirmations of Cycle-7 content carried in source feeds). The substantive source attribution for every assessment in this brief is preserved in **Cycle 7 (PRN-NS-NOMINATION-20260719-0116.md) §SOURCES** — the comprehensive source list (Malaysiakini, Star, NST, Utusan, Bharian, Kosmo, Astro Awani, BERNAMA, with full URLs).
+**This cycle (Cycle 8 — 02:27 MYT 19 Jul / 02:27 MYT 18 Jul collection; STABILITY/CONFIRMATION pass — 10/10 sources, 0 errors, 0 genuinely new articles). Source files: `04-DATA-AND-SOURCES/raw-scrapes/20260718/*_20260718_182751.md` + `collection_metadata.json`.** No new source URLs introduced this cycle (all items are reconfirmations of Cycle-7 content carried in source feeds). The substantive source attribution for every assessment in this brief is preserved in **Cycle 7 (PRN-NS-NOMINATION-20260719-0116.md) §SOURCES** — the comprehensive source list (Malaysiakini, Star, NST, Utusan, Bharian, Kosmo, Astro Awani, BERNAMA, with full URLs).
 
 **Key reconfirmed source feeds this cycle (no new content):**
 - Malaysiakini (homepage + gnews, 33+60 articles): carries "Goodbye PN? / Muhyiddin exit hint" + Ampangan/Tamim/Albert/MCA-Youth (Cycle 7 content)
@@ -315,6 +315,6 @@ N.32 Linggi (MB Aminuddin 3-corner, BN manifesto venue 24 Jul), N.27 Rantau (PH-
 
 **Classification:** TLP:AMBER
 **Next collection:** Hourly (Nomination Day surge cadence) — **next meaningful collection expected at the daytime MYT window (Campaign Day 1, 19 Jul ~09:00–12:00 MYT)** when campaign events and statements emerge. Overnight cycles hereafter are low-yield; concentrate collection effort on daytime MYT.
-**Source files:** `04-DATA-AND-SOURCES/raw-scrapes/20260718/*_20260718_182751.md` + `collection_metadata.json` (02:27 MYT 19 Jul / 18:27 UTC 18 Jul collection, Cycle 8); `PRN-NS-NOMINATION-20260719-0116.md` (Cycle 7, full assessment — carried)
+**Source files:** `04-DATA-AND-SOURCES/raw-scrapes/20260718/*_20260718_182751.md` + `collection_metadata.json` (02:27 MYT 19 Jul / 02:27 MYT 18 Jul collection, Cycle 8); `PRN-NS-NOMINATION-20260719-0116.md` (Cycle 7, full assessment — carried)
 **Workspace:** `/home/p62operator/.openclaw/workspace-ns/`
 **Authority:** State Intelligence Director

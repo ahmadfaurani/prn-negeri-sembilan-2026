@@ -1,10 +1,10 @@
 # PRN Negeri Sembilan 2026 — Nomination Day Hourly Intelligence Brief
 
 **Date:** 2026-07-19 (deep-overnight MYT — Nomination Day closed → Campaign Day 1, pre-dawn stability confirmation)
-**Timestamp:** 05:15 MYT 19 Jul / 21:15 UTC 18 Jul
+**Timestamp:** 05:15 MYT 19 Jul / 05:15 MYT 18 Jul
 **Classification:** TLP:AMBER
-**Brief #:** 10 (Cycle 10 — collection window 05:15 MYT 19 Jul / 21:15 UTC 18 Jul)
-**Reporting Period:** Hourly surge — collection window 05:15 MYT 19 Jul (21:15 UTC 18 Jul, Cycle 10); previous brief 03:40 MYT 19 Jul (19:40 UTC, Cycle 9 — narrative/messaging turn)
+**Brief #:** 10 (Cycle 10 — collection window 05:15 MYT 19 Jul / 05:15 MYT 18 Jul)
+**Reporting Period:** Hourly surge — collection window 05:15 MYT 19 Jul (05:15 MYT 18 Jul, Cycle 10); previous brief 03:40 MYT 19 Jul (19:40 MYT, Cycle 9 — narrative/messaging turn)
 **Framework:** Nomination Day Surge (PIR-01 → PIR-25) + PRN16 Standard (NS-01 → NS-18)
 **Prepared by:** PRN Negeri Sembilan 2026 Intelligence Brief Agent (GLM-5.2) — NOMINATION DAY SURGE MODE
 **Distribution:** State Campaign Leadership, DUN War Rooms, Intelligence Cell → Telegram
@@ -289,4 +289,4 @@ The 3 PIRs below carry the highest potential impact for the next 24 hours (Campa
 
 ---
 
-*End of Cycle 10 brief — 05:15 MYT 19 Jul 2026 / 21:15 UTC 18 Jul. Fourth consecutive overnight stability confirmation. Next meaningful update expected at the daytime Campaign Day-1 window (~09:00–12:00 MYT 19 Jul). All products TLP:AMBER. Source URLs cited inline; [UNVERIFIED] and [ASSESSMENT] tagged where applicable.*
+*End of Cycle 10 brief — 05:15 MYT 19 Jul 2026 / 05:15 MYT 18 Jul. Fourth consecutive overnight stability confirmation. Next meaningful update expected at the daytime Campaign Day-1 window (~09:00–12:00 MYT 19 Jul). All products TLP:AMBER. Source URLs cited inline; [UNVERIFIED] and [ASSESSMENT] tagged where applicable.*

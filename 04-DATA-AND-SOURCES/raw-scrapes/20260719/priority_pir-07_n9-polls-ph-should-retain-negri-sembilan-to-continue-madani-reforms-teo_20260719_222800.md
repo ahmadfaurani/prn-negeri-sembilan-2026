@@ -1,0 +1,15 @@
+# [PRIORITY PIR-07] n9-polls-ph-should-retain-negri-sembilan-to-continue-madani-reforms-teo
+Source URL: https://www.nst.com.my/news/nation/2026/07/1492612/n9-polls-ph-should-retain-negri-sembilan-continue-madani-reforms-teo
+Final/redirected URL: https://www.nst.com.my/news/nation/2026/07/1492612/n9-polls-ph-should-retain-negri-sembilan-continue-madani-reforms-teo
+Collected: 20260719 20260719_142800 MYT (2026-07-19 14:30:12 MYT) | MYT: 22:30 MYT 19 Jul 2026
+Classification: TLP:AMBER
+HTTP: 200 | mode: NST-rss-content
+Note: Full text from NST RSS content:encoded (no curl fetch needed)
+Title: N9 polls: PH should retain Negri Sembilan to continue Madani reforms - Teo
+ArticlePubDate: Sun, 19 Jul 2026 22:07:41 +0800
+Body chars: 2161
+
+## Full text
+==============================================================================
+SEREMBAN: Pakatan Harapan (PH) should be given the mandate to remain as Negri Sembilan's state government and continue implementing reforms and policies introduced by the Madani government, DAP Women's chief Teo Nie Ching said. The federal government had recorded a series of achievements over the past three years, including stronger economic performance, reforms to the civil service pension scheme and measures to expand educational opportunities, she said. She said the country achieved record highs in trade, tourism, the capital market and foreign reserves despite global economic uncertainties, describing the developments as evidence that the country's economy remained on a positive trajectory. "Although there are still challenges, the message I want to convey is that Malaysia's economy is progressing and moving forward. That is why we hope the people will continue to support PH and the unity government," she said during her speech at a PH dinner here tonight. DAP secretary-general Anthony Loke, DAP national chairman Gobind Singh Deo, and Negeri Sembilan DAP secretary Cha Kee Chin were also present at the dinner. Teo also highlighted initiatives aimed at expanding educational opportunities, including guaranteed matriculation placements for students who obtained 10A in the Sijil Pelajaran Malaysia (SPM) examination and priority admission to preferred public university courses for top-performing students. While acknowledging that not every policy introduced over the past three years had been perfect, she said the government had demonstrated its willingness to listen to public feedback and refine its policies where necessary. On the political front, Teo, who is Kulai MP, said DAP remained undeterred despite its setback in the recent Johor state election, stressing that electoral defeats should serve as an opportunity for reflection rather than cause the party to abandon its principles. She said DAP would continue rebuilding and pressing ahead with its reform agenda while remaining committed to its core values and working towards delivering a stronger economy and a better future for Malaysians. © New Straits Times Press (M) Bhd
+==============================================================================

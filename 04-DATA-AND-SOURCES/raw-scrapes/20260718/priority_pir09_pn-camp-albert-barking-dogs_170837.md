@@ -2,7 +2,7 @@
 ======================================================================
 Source: Malaysiakini
 URL: https://www.malaysiakini.com/news/780042
-Collected: 2026-07-18 17:08 UTC | Classification: TLP:AMBER
+Collected: 2026-07-18 01:08 MYT | Classification: TLP:AMBER
 HTTP: 200 | word_count: 84
 
 --- ARTICLE BODY ---

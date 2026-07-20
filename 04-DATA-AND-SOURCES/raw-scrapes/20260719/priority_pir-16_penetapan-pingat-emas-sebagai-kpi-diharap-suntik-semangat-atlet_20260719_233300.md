@@ -1,0 +1,15 @@
+# [PRIORITY PIR-16] penetapan-pingat-emas-sebagai-kpi-diharap-suntik-semangat-atlet
+Source URL: https://www.bharian.com.my/sukan/lain-lain/2026/07/1590464/penetapan-pingat-emas-sebagai-kpi-diharap-suntik-semangat-atlet
+Final/redirected URL: https://www.bharian.com.my/sukan/lain-lain/2026/07/1590464/penetapan-pingat-emas-sebagai-kpi-diharap-suntik-semangat-atlet
+Collected: 20260719 20260719_153300 MYT (2026-07-19 15:36:15 MYT) | MYT: 23:36 MYT 19 Jul 2026
+Classification: TLP:AMBER
+HTTP: 200 | mode: BH-rss-content
+Note: Full text from BH RSS content:encoded (no curl fetch needed)
+Title: Penetapan pingat emas sebagai KPI diharap suntik semangat atlet
+ArticlePubDate: Sun, 19 Jul 2026 17:12:53 +0000
+Body chars: 2263
+
+## Full text
+==============================================================================
+KUANTAN: Penetapan pingat emas sebagai petunjuk prestasi utama (KPI) diharap menyuntik semangat baharu kepada atlet untuk terus meningkatkan prestasi dan berusaha mencapai sasaran yang ditetapkan. Menteri Belia dan Sukan Dr Mohammed Taufiq Johari berkata penetapan itu menjadi langkah progresif bagi memastikan misi Malaysia meraih pingat emas pertama di Sukan Olimpik nanti tercapai. Beliau berkata, sasaran itu diputuskan selepas pihaknya mengadakan perbincangan secara mendalam bersama Majlis Sukan Negara (MSN) selain mendapatkan maklum balas daripada atlet negara. "Saya harap dengan sasaran emas ini menjadi pemangkin semangat baharu kepada atlet untuk kekal maju dan terus cekal bagi memastikan sasaran kita tercapai," katanya. Beliau berkata demikian ketika ditemui pemberita selepas Majlis Liga Remaja Kebangsaan (LRK) 2026 di Akademi Bola Sepak Negara Mokhtar Dahari, di sini, hari ini. Sebelum ini, media melaporkan MSN menggunakan pendekatan baharu dengan menetapkan sasaran pingat emas secara khusus sebagai KPI kepada kontinjen dan atlet negara pada temasya sukan utama. Ketua Pengarah MSN Jefri Ngadirin dilaporkan berkata pendekatan itu bertujuan memberikan sasaran yang jelas kepada kontinjen dan atlet, terutama ketika negara membuat persiapan sebagai tuan rumah Sukan SEA tahun hadapan. Dr Mohammed Taufiq berkata pihaknya tetap menghargai apa sahaja warna pingat yang diperoleh atlet namun sasaran emas perlu dijadikan matlamat utama dalam usaha meningkatkan pencapaian sukan negara. Sementara itu, beliau berkata kerajaan memperuntukkan RM18 juta tahun ini bagi pelaksanaan Program Pembangunan Bola Sepak Negara (NFDP) meliputi kos teknikal, sains sukan, jurulatih, kelab, atlet serta pelaksanaan liga di bawah program berkenaan. Beliau berkata, pembangunan akar umbi merupakan antara langkah penting dalam usaha melahirkan lebih ramai pemain berkualiti termasuk menerusi LRK yang bermula Jun hingga November ini dengan menyasarkan untuk mencungkil bakat 60 pemain muda negara. LRK 2026 merupakan edisi sulung pertandingan yang membabitkan tiga kategori umur iaitu Kategori Bawah 12 (B-12) dan Kategori B-15, dengan masing-masing menampilkan 12 pasukan serta Kategori B-16 yang disertai 10 pasukan. – BERNAMA © New Straits Times Press (M) Bhd
+==============================================================================

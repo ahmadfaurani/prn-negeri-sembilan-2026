@@ -386,7 +386,7 @@ PN concedes the NS MB post to BN, merges machinery (gabung jentera), prepares a 
 
 ### Pipeline status
 
-- **Total cycles run 2026-07-19:** 15+ (075200 → 212300 UTC = 15:25–05:25 MYT span)
+- **Total cycles run 2026-07-19:** 15+ (075200 → 212300 MYT = 15:25–05:25 MYT span)
 - **Total titles scanned:** ~2,500+
 - **Total entities:** 230 (PIR-06=55, PIR-07=107, PIR-16=66 + 1 dual-tag context-update; critical=14, priority=107, normal=109)
 - **PIR-06 [CRITICAL] flag:** MAINTAINED — formal PN Supreme Council expulsion/removal notice for Bersatu = **0 hits across ~2,500+ titles scanned** (15th consecutive cycle with no [CRITICAL] threshold crossing on the fracture vector)
@@ -394,4 +394,4 @@ PN concedes the NS MB post to BN, merges machinery (gabung jentera), prepares a 
 
 ---
 
-*Run 2225 appended 2026-07-20 ~05:30 MYT (21:30 UTC 19 Jul) by PRN NS 2026 Entity Extraction Agent. TLP:AMBER. All entities carry source_url. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (15th consecutive cycle with no formal-threshold crossing on the fracture vector). Day-2 dawn window QUIET: 2 genuinely-new analytical items only (Zambry + BN-PN pact PD meeting, both PIR-06 [PRIORITY] cooperation-vector). The KOHA.net "kuorum" gnews hit was verified as a FALSE POSITIVE (Kosovo assembly, not Bersatu MPT).*
+*Run 2225 appended 2026-07-20 ~05:30 MYT (05:30 MYT 19 Jul) by PRN NS 2026 Entity Extraction Agent. TLP:AMBER. All entities carry source_url. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (15th consecutive cycle with no formal-threshold crossing on the fracture vector). Day-2 dawn window QUIET: 2 genuinely-new analytical items only (Zambry + BN-PN pact PD meeting, both PIR-06 [PRIORITY] cooperation-vector). The KOHA.net "kuorum" gnews hit was verified as a FALSE POSITIVE (Kosovo assembly, not Bersatu MPT).*

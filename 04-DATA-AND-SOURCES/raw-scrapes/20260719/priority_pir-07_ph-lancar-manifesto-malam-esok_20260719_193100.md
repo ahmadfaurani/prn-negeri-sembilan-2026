@@ -1,0 +1,15 @@
+# [PRIORITY PIR-07] ph-lancar-manifesto-malam-esok
+Source URL: https://www.bharian.com.my/berita/nasional/2026/07/1590492/ph-lancar-manifesto-malam-esok
+Final/redirected URL: https://www.bharian.com.my/berita/nasional/2026/07/1590492/ph-lancar-manifesto-malam-esok
+Collected: 20260719 20260719_113100 MYT (2026-07-19 11:33:17 MYT) | MYT: 19:33 MYT 19 Jul 2026
+Classification: TLP:AMBER
+HTTP: 200 | mode: bh-wp-feed-rss-content
+Note: Full text from bh-wp-feed RSS content:encoded
+Title: PH lancar manifesto malam esok
+ArticlePubDate: Sun, 19 Jul 2026 18:11:10 +0000
+Body chars: 2094
+
+## Full text
+==============================================================================
+SEREMBAN: Manifesto Pakatan Harapan (PH) yang bakal dilancar malam esok antara lain akan memperincikan usaha serta rancangan masa depan untuk Negeri Sembilan, sebagai kesinambungan pentadbiran Datuk Seri Aminudin Harun sebagai Menteri Besar.  Perkara itu dikongsi Ketua Sekretariat Pusat Media PRN Negeri Sembilan, Datuk Muhammad Zaki Md Sabri, namun beliau tidak memperincikan kandungan manifesto berkenaan.  "Tunggulah nanti ia diumumkan.... apa boleh saya kongsikan setakat ini, ia berkaitan prestasi dan kejayaan kerajaan PH di bawah pimpinan Menteri Besar serta usaha dan rancangan untuk masa depan negeri ini.  "Kecemerlangan pentadbiran Aminuddin (Tok Min) akan menjadi faktor terbaik dan sesi penerangan di bawah juga terus berjalan lancar," katanya pada sidang media di Klana Resort di sini, hari ini.  Difahamkan, pelancaran manifesto bakal disempurnakan Ahli Majlis Presiden PH, Datuk Seri Amirudin Shari yang juga Pengarah Bersama Pilihan Raya PRN Negeri Sembilan.  Dalam pada itu, Muhammad Zaki berkata tekad PH untuk bertemu seramai mungkin pengundi bagi menyatakan komitmen calon untuk menjadi jambatan penyelesaian masalah rakyat dan bukan semata-mata menarik undi.  "Setakat ini kami berpuas hati dengan jentera kempen dengan memastikan semua pemasangan mematuhi peraturan yang ditetapkan Suruhanjaya Pilihan Raya (SPR) dan pihak berkuasa tempatan (PBT)," katanya.  Dalam pada itu, Muhammad Zaki memaklumkan mengenai satu laporan polis di Ibu Pejabat Polis Seremban yang dibuat sekumpulan orang awam ke atas seorang lelaki yang dipercayai ahli sebuah parti politik.  Katanya, individu terbabit secara jelas menghina  Yang di-Pertuan Besar Negeri Sembilan dalam satu hantaran komen di sebuah media sosial.  "Kami ingin mengambil kesempatan ini untuk menyeru semua pihak kekal dalam kempen yang positif, mengelakkan perkara 3R serta tidak menghina institusi Raja-Raja Melayu dan Institusi Adat dalam apa jua situasi.   "Ini perlawanan demokrasi rakyat yang harus dimuktamadkan di peti undi, bukan dengan membakar api sentimen kebencian," katanya.© New Straits Times Press (M) Bhd
+==============================================================================

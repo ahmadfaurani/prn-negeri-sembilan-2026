@@ -1,10 +1,10 @@
 # PRN Negeri Sembilan 2026 — Nomination Day Hourly Intelligence Brief
 
 **Date:** 2026-07-19 (Campaign Day 1 dawn — Nomination Day closed → first daytime new-content cycle)
-**Timestamp:** 07:40 MYT 19 Jul / 23:40 UTC 18 Jul
+**Timestamp:** 07:40 MYT 19 Jul / 07:40 MYT 18 Jul
 **Classification:** TLP:AMBER
-**Brief #:** 11 (Cycle 11 — collection window 07:10 MYT 19 Jul / 23:10 UTC 18 Jul)
-**Reporting Period:** Hourly surge — collection window 07:10 MYT 19 Jul (23:10 UTC 18 Jul, Cycle 11); previous brief 05:15 MYT 19 Jul (21:15 UTC, Cycle 10 — fourth overnight stability confirmation)
+**Brief #:** 11 (Cycle 11 — collection window 07:10 MYT 19 Jul / 07:10 MYT 18 Jul)
+**Reporting Period:** Hourly surge — collection window 07:10 MYT 19 Jul (07:10 MYT 18 Jul, Cycle 11); previous brief 05:15 MYT 19 Jul (21:15 MYT, Cycle 10 — fourth overnight stability confirmation)
 **Framework:** Nomination Day Surge (PIR-01 → PIR-25) + PRN16 Standard (NS-01 → NS-18)
 **Prepared by:** PRN Negeri Sembilan 2026 Intelligence Brief Agent (GLM-5.2) — NOMINATION DAY SURGE MODE
 **Distribution:** State Campaign Leadership, DUN War Rooms, Intelligence Cell → Telegram
@@ -307,4 +307,4 @@ The 3 PIRs below carry the highest potential impact for the next 24 hours (Campa
 
 ---
 
-*End of Cycle 11 brief — 07:40 MYT 19 Jul 2026 / 23:40 UTC 18 Jul. First daytime new-content cycle after 4 consecutive overnight zero-delta passes (overnight drought broken). Candidate field + PIR-06 critical threshold UNCHANGED (5 passes); editorial/analytics layer activated (Utusan 3-coalition frame + 5-hot-seat designation; mStar Aminuddin-Linggi rationale; NST "Bersatu crossroads" headline). NEW discrepancy flagged: Utusan 7 vs SPR 8 Bersatu-vs-PN clash seats [DISPUTED]. Next meaningful update expected at the daytime Campaign Day-1 event window (09:00–12:00 MYT 19 Jul). All products TLP:AMBER. Source URLs cited inline; [UNVERIFIED] and [ASSESSMENT] tagged where applicable.*
+*End of Cycle 11 brief — 07:40 MYT 19 Jul 2026 / 07:40 MYT 18 Jul. First daytime new-content cycle after 4 consecutive overnight zero-delta passes (overnight drought broken). Candidate field + PIR-06 critical threshold UNCHANGED (5 passes); editorial/analytics layer activated (Utusan 3-coalition frame + 5-hot-seat designation; mStar Aminuddin-Linggi rationale; NST "Bersatu crossroads" headline). NEW discrepancy flagged: Utusan 7 vs SPR 8 Bersatu-vs-PN clash seats [DISPUTED]. Next meaningful update expected at the daytime Campaign Day-1 event window (09:00–12:00 MYT 19 Jul). All products TLP:AMBER. Source URLs cited inline; [UNVERIFIED] and [ASSESSMENT] tagged where applicable.*

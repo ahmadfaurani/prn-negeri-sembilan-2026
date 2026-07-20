@@ -20,21 +20,21 @@
   "revision_context": {
     "prior_revision": {
       "id": "revision-3",
-      "generated": "2026-07-18T21:56:36+08:00 (13:56 UTC)",
+      "generated": "2026-07-18T21:56:36+08:00 (21:56 MYT)",
       "file": "processed-entities/20260718/sentiment_analysis.json",
       "coverage": "41 source files / 150 entities; batches _010044 + _070937 + _083302 + _111951 + summaries 1509/1633/1919",
       "distribution": {"positive": 11, "neutral": 9, "negative": 6, "total_scored": 26}
     },
     "this_revision": {
       "id": "revision-4",
-      "trigger": "entities_consolidated.json regenerated at 2026-07-18T14:00:40+00:00 (22:00 MYT) — 55 sources / 232 entities, +14 sources / +82 entities vs revision-3. PLUS the 23:31 MYT PIR-priority collection cycle (priority_pir06/07/09 pointer files + _153251/_153400 raw batch + nomination-day-summary-2220) arrived after the 14:00 UTC extraction.",
+      "trigger": "entities_consolidated.json regenerated at 2026-07-18T14:00:40+00:00 (22:00 MYT) — 55 sources / 232 entities, +14 sources / +82 entities vs revision-3. PLUS the 23:31 MYT PIR-priority collection cycle (priority_pir06/07/09 pointer files + _153251/_153400 raw batch + nomination-day-summary-2220) arrived after the 22:00 MYT extraction.",
       "coverage": "55 source files / 232 entities (politicians 115, parties 18, constituencies 36, issues 8, events 5, organizations 7, locations 43) + Cycle-5 summary (nomination-day-summary-2220, 22:20 MYT) + Cycle-6 PIR-priority pointer files (23:31 MYT).",
       "new_batches_since_rev3": [
-        {"batch": "_130328", "cycle": "Cycle 4 (21:03 MYT)", "files": 7, "note": "bharian/kosmo/mstar/nst/ohbulan/thestar/utusan + summary-2103; covered by the 14:00 UTC extraction"},
+        {"batch": "_130328", "cycle": "Cycle 4 (21:03 MYT)", "files": 7, "note": "bharian/kosmo/mstar/nst/ohbulan/thestar/utusan + summary-2103; covered by the 22:00 MYT extraction"},
         {"batch": "_142040 + manual_*", "cycle": "Cycle 5 (22:20 MYT)", "files": 13, "note": "bharian/nst/thestar/utusan/astroawani/mstar/ohbulan/kosmo + 7 manual files (bujang-tarik-diri, ampangan-ph, ronald-bersatu-pn, nst-fuziah, nst-topguns, bn-fokus, calon-mb) + summary-2220"},
-        {"batch": "_153251/_153400 + priority_pir*", "cycle": "Cycle 6 (23:31 MYT)", "files": 14, "note": "thestar/nst/utusan/astroawani/kosmo/mstar/ohbulan/bharian/malaysiakini/thmalaysianinsight + 4 priority_pir06/07/09 pointer files. PRIORITY PIR content. Arrived AFTER the 14:00 UTC extraction — incorporated via priority-weighted source-attributed review."}
+        {"batch": "_153251/_153400 + priority_pir*", "cycle": "Cycle 6 (23:31 MYT)", "files": 14, "note": "thestar/nst/utusan/astroawani/kosmo/mstar/ohbulan/bharian/malaysiakini/thmalaysianinsight + 4 priority_pir06/07/09 pointer files. PRIORITY PIR content. Arrived AFTER the 22:00 MYT extraction — incorporated via priority-weighted source-attributed review."}
       ],
-      "method_note": "The 14:00 UTC entity extraction does NOT itself carry PIR tags; PIR-06/09/07 tags are applied by this sentiment agent per the director-approved priority directive, mapping extracted entities/issues to the PIR framework. Priority pointer files (priority_pir06/07/09) and the cycle-5/6 summaries are used to LOCATE priority items; underlying media source files are cited as attribution per CVS standard."
+      "method_note": "The 22:00 MYT entity extraction does NOT itself carry PIR tags; PIR-06/09/07 tags are applied by this sentiment agent per the director-approved priority directive, mapping extracted entities/issues to the PIR framework. Priority pointer files (priority_pir06/07/09) and the cycle-5/6 summaries are used to LOCATE priority items; underlying media source files are cited as attribution per CVS standard."
     }
   },
   "source_basis_delta": {
@@ -353,7 +353,7 @@
     "triggers_fired": "NONE. Trigger #7 (independents in 5-cornered seats N.10/N.33) remains on WATCH. Trigger #2 (coalition restructuring) is ADJACENT to ESC-014 (PIR-06 Kiandee advocacy) but has NOT fired — no formal PN Supreme Council removal notice, no new alliance, no Bersatu withdrawal from any of the 8 head-to-head seats."
   },
   "data_gaps_rev4": [
-    "[Rev4Δ FORWARD-LOOKING] The _153251/_153400 raw batch (Cycle 6, 23:33 MYT) + 4 PIR priority pointer files arrived AFTER the 14:00 UTC entity extraction. PIR-06/09/07 priority content is incorporated via this agent's priority-weighted source-attributed review, but the entities_consolidated.json (14:00 UTC) does NOT itself carry PIR tags or the Cycle-6 raw content. RECOMMENDATION: re-run ns-entity-extraction-enhanced.py on the full 55+ source corpus to fold the Cycle-6 batch into a revision-5 extraction.",
+    "[Rev4Δ FORWARD-LOOKING] The _153251/_153400 raw batch (Cycle 6, 23:33 MYT) + 4 PIR priority pointer files arrived AFTER the 22:00 MYT entity extraction. PIR-06/09/07 priority content is incorporated via this agent's priority-weighted source-attributed review, but the entities_consolidated.json (14:00 MYT) does NOT itself carry PIR tags or the Cycle-6 raw content. RECOMMENDATION: re-run ns-entity-extraction-enhanced.py on the full 55+ source corpus to fold the Cycle-6 batch into a revision-5 extraction.",
     "[Rev4Δ ENTITY EXTRACTION GAP] Ronald Kiandee (MP Beluran, suspended Bersatu VP) and Bujang Abu (independent, withdrew) do NOT appear in entities_politicians.json (115 entries) — the extractor missed them. They are sentiment-scored here via direct source attribution (CVS-compliant). Recommend gazetteer update for Kiandee (PIR-06 key monitor target).",
     "[Rev4Δ CARRIED] 20260716 SENTIMENT ANALYSIS GAP DAY remains unbackfilled (1-day gap in the time series, Day 8).",
     "[Rev4Δ CARRIED] ESC-002 — ns-sentiment-analysis.sh stub; agent-manual review standing method.",

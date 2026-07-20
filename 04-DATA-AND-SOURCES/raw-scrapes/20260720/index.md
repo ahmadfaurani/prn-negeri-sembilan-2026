@@ -3,8 +3,8 @@
 
 **Workspace:** `04-DATA-AND-SOURCES/raw-scrapes/20260720/`
 **Collection mode:** Nomination-Day Surge Mode (Director priority-approved PIR-06/07/16)
-**Cycle:** `20260720_morning` — collected 01:09–01:12 UTC 20 Jul (09:09–09:12 MYT 20 Jul)
-**Prior cycle:** `20260719_233400` (ended 23:34 UTC 19 Jul = 07:34 MYT 20 Jul) — used as freshness cutoff
+**Cycle:** `20260720_morning` — collected 01:09–09:12 MYT 20 Jul (09:09–09:12 MYT 20 Jul)
+**Prior cycle:** `20260719_233400` (ended 07:34 MYT 19 Jul = 07:34 MYT 20 Jul) — used as freshness cutoff
 **Polling day:** 2026-08-01 (Sat) | **Early voting:** 2026-07-28 | **Nomination day:** 2026-07-18 (Sat)
 **Fetcher:** `_surge_fetch_20260720_morning.py` (Awani RSS full + FMT RSS full content:encoded + Google News RSS ×30 PIR-targeted queries + NST/Star/MalayMail/Utusan/HarianMetro/BH/Sinar homepage slug-hint extraction)
 
@@ -16,7 +16,7 @@
 |---|---|
 | Google News queries run | 30 (incl. 8 mandatory PIR-06 [CRITICAL]-watch: kuorum, lebih hebat, pecat, tarik diri, PN Supreme Council, machinery sharing, Wawasan Ridzuan, sole opposition) |
 | gnews items returned | 487 (331 PRN/priority headline hits) |
-| gnews **fresh** post-cutoff (≥23:34 UTC 19 Jul) | **0** (gnews RSS surfaces historical matches; latest dated 19 Jul) |
+| gnews **fresh** post-cutoff (≥07:34 MYT 19 Jul) | **0** (gnews RSS surfaces historical matches; latest dated 19 Jul) |
 | RSS feed items scanned | Awani 10 / FMT 50 / (NST+MalayMail feeds returned 0 items — JS/403) |
 | Homepage candidate links found | NST 8 / Star 8 / MalayMail 41 / Utusan 61 / Sinar 19 (HarianMetro/BH 0) |
 | **Articles saved (total)** | **51** |
@@ -230,14 +230,14 @@ Other non-NS (×4): `..._Awani_sampel-salad-positif-parasit-*` (US parasite outb
 
 ---
 
-*Index generated 2026-07-20 09:12 MYT (01:12 UTC) by PRN Negeri Sembilan 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (no formal-threshold crossing this cycle; 18th cycle with no [CRITICAL] threshold crossing). One auto-flagged [CRITICAL] corrected to FALSE POSITIVE (PH 23-seat target misfire). 11 genuinely-new analytically-material articles collected (5 fresh post-cutoff + 6 new-to-collection). Malay Mail homepage extraction = largest new-content gain. gnews critical-keyword scan = 0 hits.*
+*Index generated 2026-07-20 09:12 MYT (09:12 MYT) by PRN Negeri Sembilan 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. All content carries source URL. [CRITICAL] flag on Kiandee quorum escalation MAINTAINED from prior 075200 cycle (no formal-threshold crossing this cycle; 18th cycle with no [CRITICAL] threshold crossing). One auto-flagged [CRITICAL] corrected to FALSE POSITIVE (PH 23-seat target misfire). 11 genuinely-new analytically-material articles collected (5 fresh post-cutoff + 6 new-to-collection). Malay Mail homepage extraction = largest new-content gain. gnews critical-keyword scan = 0 hits.*
 
 ---
 
-# CYCLE: `20260720_midday` — collected 02:19–02:26 UTC 20 Jul (10:19–10:26 MYT 20 Jul)
+# CYCLE: `20260720_midday` — collected 02:19–10:26 MYT 20 Jul (10:19–10:26 MYT 20 Jul)
 
 **Fetcher:** `_surge_fetch_20260720_midday.py` (FMT RSS full content:encoded + Awani RSS + homepage slug-hint extraction NST/Star/MalayMail/Utusan/Sinar) + targeted Sinar article-ID scan + `_targeted_sinar_extract_20260720_midday.py`
-**Prior cycle:** `20260720_morning` (ended 01:12 UTC / 09:12 MYT 20 Jul) — used as freshness cutoff
+**Prior cycle:** `20260720_morning` (ended 09:12 MYT / 09:12 MYT 20 Jul) — used as freshness cutoff
 **Method:** Reused morning methodology verbatim (cutoff = morning cycle end). Plus targeted Sinar article-ID iteration (788520–788588) to recover high-value PIR-16 narrative articles referenced in sidebars but not captured by homepage slug-hint extraction.
 
 ## MIDDAY CYCLE SUMMARY
@@ -329,4 +329,4 @@ Other non-NS (×4): `..._Awani_sampel-salad-positif-parasit-*` (US parasite outb
 
 ---
 
-*Midday cycle index appended 2026-07-20 10:30 MYT (02:30 UTC) by PRN Negeri Sembilan 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. 42 articles saved (36 script + 6 targeted Sinar extract). ~15 genuinely-new analytically-material articles. [CRITICAL] NOT crossed (19th cycle; auto-flag = FALSE POSITIVE on Madagascar "pecat" in sidebar). Dominant narrative crystallised: "PH jual prestasi, BN-PN laung penyatuan Melayu-Islam." PH manifesto launch confirmed 20 Jul evening. DUN dissolution date resolved (June 5). Methodology addition: Sinar article-ID scan for sidebar-referenced headlines.*
+*Midday cycle index appended 2026-07-20 10:30 MYT (10:30 MYT) by PRN Negeri Sembilan 2026 News Collection Agent — Nomination-Day Surge Mode. TLP:AMBER. 42 articles saved (36 script + 6 targeted Sinar extract). ~15 genuinely-new analytically-material articles. [CRITICAL] NOT crossed (19th cycle; auto-flag = FALSE POSITIVE on Madagascar "pecat" in sidebar). Dominant narrative crystallised: "PH jual prestasi, BN-PN laung penyatuan Melayu-Islam." PH manifesto launch confirmed 20 Jul evening. DUN dissolution date resolved (June 5). Methodology addition: Sinar article-ID scan for sidebar-referenced headlines.*

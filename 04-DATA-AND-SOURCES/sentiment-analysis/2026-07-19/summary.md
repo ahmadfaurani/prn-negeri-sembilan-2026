@@ -1,9 +1,9 @@
 # PRN Negeri Sembilan 2026 — Sentiment Analysis Summary
 
 **Revision:** 16 (`sentiment-20260720-0625.json`)
-**Generated:** 2026-07-20 06:25 MYT (22:25 UTC 19 Jul)
+**Generated:** 2026-07-20 06:25 MYT (06:25 MYT 19 Jul)
 **TLP:** AMBER
-**Entity build:** `processed-entities/2026-07-19/entities-20260719-2225.json` — 230 entities, 15+ cycles, finalized 22:25 UTC 19 Jul / 06:25 MYT 20 Jul
+**Entity build:** `processed-entities/2026-07-19/entities-20260719-2225.json` — 230 entities, 15+ cycles, finalized 06:25 MYT 19 Jul / 06:25 MYT 20 Jul
 **Prior revision:** rev15 (`sentiment-20260720-0550.json`, 237 entities, 13 critical/51 priority/173 none), built on the 228-entity 1954 build
 **Entities scored:** 239 | **Critical:** 13 | **Priority:** 53 | **None:** 173
 **Director cycle:** 19 Jul 17:25 MYT (4th carry-forward) — 5th entity carry-forward (212300 cycle)
@@ -13,7 +13,7 @@
 
 ## Why rev16 was warranted
 
-The 2225 entity build was finalized at **22:25 UTC 19 Jul (06:25 MYT 20 Jul)** — ~35 min after rev15's 21:50 UTC generation, which had used only the 228-entity 1954 build. The 2225 build ingests the **200000 + 212300 cycles** (5th carry-forward, Day-2 dawn), classified as a **QUIET / LOW-YIELD corroboration window**. It adds **+2 new PIR-06 [PRIORITY] cooperation-vector entities** over the 1954 build:
+The 2225 entity build was finalized at **06:25 MYT 19 Jul (06:25 MYT 20 Jul)** — ~35 min after rev15's 21:50 MYT generation, which had used only the 228-entity 1954 build. The 2225 build ingests the **200000 + 212300 cycles** (5th carry-forward, Day-2 dawn), classified as a **QUIET / LOW-YIELD corroboration window**. It adds **+2 new PIR-06 [PRIORITY] cooperation-vector entities** over the 1954 build:
 
 1. **Zambry (Zambry Abd Kadir)** — Umno Secretary-General (former Perak MB). Met Samsuri (PN chairman / Terengganu MB) in **Port Dickson** (N.05, Director PIR-06 Tier-4 seat) on 18 Jul 09:22 MYT (Newswav gnews headline-intel; full text not curl-recoverable). **Leadership-level BN-PN pact confirmation on NS soil** — the political-leadership tier (Zambry=BN sec-gen ↔ Samsuri=PN chairman), distinct from the operational/grassroots machinery merger. Pre-dates and pre-figures the 19 Jul 4-stage BN-PN formalization trajectory.
 2. **BN-PN pact Port Dickson meeting (Zambry-Samsuri)** — narrative entity. The precursor that enabled the 19 Jul 4-stage formalization (seat-swap → gabung jentera → manifesto bersepadu → kongsi pentas). Adds **N.05 to the active Tier-4 watch set**.

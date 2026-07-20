@@ -2,7 +2,7 @@
 
 **Classification:** TLP:AMBER
 **Date:** 2026-07-18 (Nomination Day)
-**Collection Window:** ~16:33 MYT (08:33 UTC) — Hourly surge cadence, Cycle 2 of Nomination Day
+**Collection Window:** ~16:33 MYT (16:33 MYT) — Hourly surge cadence, Cycle 2 of Nomination Day
 **Reporting Period:** News content up to ~16:30 MYT (latest dateline 18 Jul 4:23 PM MYT)
 **Framework:** Nomination Day Surge (PIR-01 → PIR-25) — `00-OPERATIONS/pir-framework-nomination-day.md`
 **Prepared by:** PRN Negeri Sembilan 2026 News Collection Agent — NOMINATION DAY SURGE MODE

@@ -434,10 +434,10 @@
   "files_in_folder": [
     "entities_233104.json (THIS run — Day-2 dawn ENRICHMENT build; 231029 cycle: 1 new figure Alzafny + Wee/Tamim full names + 5 hot seats + 7 clash seats + operational detail; 103-candidate roster unchanged; PIR-06 threshold still NOT crossed)",
     "entities_211155.json (THIS run — confirmation/stability build; 194028+205755 zero-delta passes; no new entities; NST English 103/36 corroboration logged)",
-    "entities_190215.json (prior run 19:02 UTC — 170837 PIR-06 escalation ingested, Samsuri corrected, new PIR-09 entities)",
-    "entities_165723.json (prior run 16:57 UTC — nomination-day-surge baseline w/ PIR tags)",
-    "entities_consolidated.json (prior 14:00 UTC run — candidate-list baseline)",
-    "entities_politicians.json / entities_parties.json / entities_constituencies.json / entities_events.json / entities_issues.json / entities_organizations.json / entities_locations.json (prior 14:00 UTC sub-sets)",
+    "entities_190215.json (prior run 03:02 MYT — 170837 PIR-06 escalation ingested, Samsuri corrected, new PIR-09 entities)",
+    "entities_165723.json (prior run 00:57 MYT — nomination-day-surge baseline w/ PIR tags)",
+    "entities_consolidated.json (prior 22:00 MYT run — candidate-list baseline)",
+    "entities_politicians.json / entities_parties.json / entities_constituencies.json / entities_events.json / entities_issues.json / entities_organizations.json / entities_locations.json (prior 22:00 MYT sub-sets)",
     "entity_metadata.json (this file)",
     "_build_entities.py / _build_entities_190215.py (prior build scripts)",
     "_build_entities_211155.py (this run's build script)"

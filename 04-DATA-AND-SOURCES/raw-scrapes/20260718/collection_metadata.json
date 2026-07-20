@@ -1,9 +1,9 @@
 {
   "date": "20260718",
   "timestamp": "20260718_231029",
-  "collected_utc": "2026-07-18 23:10:29 UTC (07:10 MYT 19 Jul 2026)",
+  "collected_utc": "2026-07-18 23:18:29 MYT (07:10 MYT 19 Jul 2026)",
   "cycle": "nomination-day-surge",
-  "cycle_phase": "Day-2 dawn MYT — 5th overnight/pre-dawn pass (07:10 MYT 19 Jul); FIRST cycle with genuinely new content after 4 consecutive zero-delta overnight passes. Utusan published 2 brand-new PIR-07 articles at 06:40 & 06:45 MYT 19 Jul (22:40 & 22:45 UTC 18 Jul). Malaysiakini homepage rotated, surfacing 23 'new' priority titles (mostly 10-22h-old nomination-day articles re-entering the top feed). Daytime MYT Day-2 campaign window opening.",
+  "cycle_phase": "Day-2 dawn MYT — 5th overnight/pre-dawn pass (07:10 MYT 19 Jul); FIRST cycle with genuinely new content after 4 consecutive zero-delta overnight passes. Utusan published 2 brand-new PIR-07 articles at 06:40 & 06:45 MYT 19 Jul (22:40 & 06:45 MYT 18 Jul). Malaysiakini homepage rotated, surfacing 23 'new' priority titles (mostly 10-22h-old nomination-day articles re-entering the top feed). Daytime MYT Day-2 campaign window opening.",
   "surge_mode": true,
   "director_priority_approved": "2026-07-18 15:00 MYT",
   "workspace": "/home/p62operator/.openclaw/workspace-ns",
@@ -26,7 +26,7 @@
     "google_news_feed_files": 3,
     "results_json": "_scrape_results_20260718_231029.json",
     "bytes_written_this_cycle": 418558,
-    "cycle_character": "FIRST NEW-CONTENT CYCLE after 4 consecutive zero-delta overnight passes (182751/194028/205755/220325). At 07:10 MYT 19 Jul (Day-2 dawn), Utusan published 2 genuinely brand-new PIR-07 articles at 06:40 & 06:45 MYT 19 Jul (22:40 & 22:45 UTC 18 Jul): 'Lima kerusi panas jadi tumpuan' (5 hot/battleground seats with FULL candidate matchups) and 'Tiga gabungan bertembung' (3 coalitions' strategies; confirms Bersatu contests 24 DUN seats under its OWN name/logo for the first time and CLASHES WITH PN CANDIDATES IN 7 SEATS; PH all 36, BN 25+PN 11; 103 total candidates; seat structure 11 two-cornered / 21 three-cornered / 2 four-cornered / 2 five-cornered; youngest 23 Leevineshwaraan Bersatu, oldest 70 Abd.Latif PH; campaign to 11:59pm 31 Jul). Malaysiakini homepage rotated, surfacing 23 'new' priority titles — mostly 10-22h-old nomination-day content re-entering the top feed; PIR-06 substance (Goodbye PN / Bersatu exit imminent / Muhyiddin raps Samsuri) already fully captured at 170837 and reconfirmed, but PIR-07 battleground + PIR-09 component-party items (Wee 'not a merger', Tamim/independent, KiniGuide, nominations full-force, DAP anti-BN) freshly captured this cycle. NST 'Bersatu at a crossroads amid BN-PN cooperation' (pubDate 23:00 GMT 18 Jul) is NEW corroborative PIR-06 — headline captured, full text deferred (gnews encrypted). PIR-06 CRITICAL threshold NOT crossed (formal_removal_notice_detected=false, precursor items 0); escalated-watch carries forward. Net: PIR-07 BATTLEGROUN ASSESSMENT substantially enriched (5 named hot seats + candidate fields + 7 Bersatu-vs-PN clash seats + 103-candidate/seat-structure confirmation). 10/10 sources, 0 errors, all 16 streams HTTP 200.",
+    "cycle_character": "FIRST NEW-CONTENT CYCLE after 4 consecutive zero-delta overnight passes (182751/194028/205755/220325). At 07:10 MYT 19 Jul (Day-2 dawn), Utusan published 2 genuinely brand-new PIR-07 articles at 06:40 & 06:45 MYT 19 Jul (22:40 & 06:45 MYT 18 Jul): 'Lima kerusi panas jadi tumpuan' (5 hot/battleground seats with FULL candidate matchups) and 'Tiga gabungan bertembung' (3 coalitions' strategies; confirms Bersatu contests 24 DUN seats under its OWN name/logo for the first time and CLASHES WITH PN CANDIDATES IN 7 SEATS; PH all 36, BN 25+PN 11; 103 total candidates; seat structure 11 two-cornered / 21 three-cornered / 2 four-cornered / 2 five-cornered; youngest 23 Leevineshwaraan Bersatu, oldest 70 Abd.Latif PH; campaign to 11:59pm 31 Jul). Malaysiakini homepage rotated, surfacing 23 'new' priority titles — mostly 10-22h-old nomination-day content re-entering the top feed; PIR-06 substance (Goodbye PN / Bersatu exit imminent / Muhyiddin raps Samsuri) already fully captured at 170837 and reconfirmed, but PIR-07 battleground + PIR-09 component-party items (Wee 'not a merger', Tamim/independent, KiniGuide, nominations full-force, DAP anti-BN) freshly captured this cycle. NST 'Bersatu at a crossroads amid BN-PN cooperation' (pubDate 23:00 MYT 18 Jul) is NEW corroborative PIR-06 — headline captured, full text deferred (gnews encrypted). PIR-06 CRITICAL threshold NOT crossed (formal_removal_notice_detected=false, precursor items 0); escalated-watch carries forward. Net: PIR-07 BATTLEGROUN ASSESSMENT substantially enriched (5 named hot seats + candidate fields + 7 Bersatu-vs-PN clash seats + 103-candidate/seat-structure confirmation). 10/10 sources, 0 errors, all 16 streams HTTP 200.",
     "key_obstacle_resolved": "Utusan article-body extraction fixed: selector upgraded to 'div.elementor-widget-theme-post-content' (Utusan uses Elementor) — both brand-new Utusan PIR-07 articles now extracted in FULL (2455 + 3891 chars). Prior pass only got a related-link heading (32 chars).",
     "key_obstacle_partial": "NST 'Bersatu at a crossroads' full text NOT retrievable this cycle: gnews article URL post-2024 is protobuf-encrypted (base64 decode yields no clean http URL); the gnews article-page (600KB) does not expose the publisher URL in extractable data-attributes/JS via curl; NST /news/nation is JS-rendered (0 article cards in static HTML); Bing + DuckDuckGo title-search returned no direct nst.com.my URL (article too new / results JS-rendered). Headline+publisher+pubDate+PIR-06 tag captured in raw scrape; full body DEFERRED to a daytime-MYT targeted fetch (consistent with prior cycles' documented NST/Star deferral). Astro Awani '36 kerusi bermula esok' headline-only — REDUNDANT with Utusan 3-coalitions (same SPR Ramlan press conference, fully captured). Malaysiakini bodies remain paywalled (lead paragraph captured for 5 priority articles).",
     "methodology_improvement_this_cycle": "Added priority full-text fetcher (_fetch_priority_231029.py) with Utusan Elementor-aware body extraction and gnews-redirect + Bing/DDG fallback attempts for encrypted-URL publishers. Delta-detection now distinguishes 'genuinely brand-new' (WP-API MYT-zoned timestamps within the cycle window — the 2 Utusan articles) from 'homepage-rotation resurfacing' (mkini 'Xh-ago' titles re-entering the top feed). This resolves over-counting: 34 globally-new priority titles reduce to ~2 genuinely brand-new articles + ~32 rotation resurfacings."
@@ -37,7 +37,7 @@
     "PIR-07": "Battleground Assessment (THIRD)"
   },
   "critical_pir06_alert": {
-    "status": "ESCALATED WATCH — UNCHANGED. NO formal PN Supreme Council (Majlis Tertinggi) removal notice for Bersatu has been issued. CRITICAL threshold NOT crossed (formal_removal_notice_detected=false, precursor items 0). This cycle (07:10 MYT 19 Jul, 5th overnight/dawn pass) added CORROBORATIVE PIR-06 content only: (a) NST 'Negri Sembilan polls: Bersatu at a crossroads amid BN-PN cooperation' (pubDate 23:00 GMT 18 Jul = 07:00 MYT 19 Jul) — headline-level capture, full text deferred (gnews encrypted); corroborates the Muhyiddin exit-positioning thesis captured at 170837. (b) Utusan 'Tiga gabungan bertembung' empirically confirms Bersatu contests 24 DUN seats under its OWN logo (first time) and CLASHES WITH PN CANDIDATES IN 7 SEATS — a tangible PIR-06 schism signal but NOT a formal MT removal notice. Trajectory remains two-sided: PN-MT-may-remove-Bersatu (Kiandee 'asas kukuh' call, captured 153251) AND Bersatu-may-exit-PN (Muhyiddin 'Goodbye PN' hint, captured 170837). Automated CRITICAL-pattern regex matched 0 titles across all 29 files this cycle; precursor-pattern (asas kukuh / kiandee) returned 0.",
+    "status": "ESCALATED WATCH — UNCHANGED. NO formal PN Supreme Council (Majlis Tertinggi) removal notice for Bersatu has been issued. CRITICAL threshold NOT crossed (formal_removal_notice_detected=false, precursor items 0). This cycle (07:10 MYT 19 Jul, 5th overnight/dawn pass) added CORROBORATIVE PIR-06 content only: (a) NST 'Negri Sembilan polls: Bersatu at a crossroads amid BN-PN cooperation' (pubDate 23:00 MYT 18 Jul = 07:00 MYT 19 Jul) — headline-level capture, full text deferred (gnews encrypted); corroborates the Muhyiddin exit-positioning thesis captured at 170837. (b) Utusan 'Tiga gabungan bertembung' empirically confirms Bersatu contests 24 DUN seats under its OWN logo (first time) and CLASHES WITH PN CANDIDATES IN 7 SEATS — a tangible PIR-06 schism signal but NOT a formal MT removal notice. Trajectory remains two-sided: PN-MT-may-remove-Bersatu (Kiandee 'asas kukuh' call, captured 153251) AND Bersatu-may-exit-PN (Muhyiddin 'Goodbye PN' hint, captured 170837). Automated CRITICAL-pattern regex matched 0 titles across all 29 files this cycle; precursor-pattern (asas kukuh / kiandee) returned 0.",
     "formal_removal_notice_detected": false,
     "escalation_detected": true,
     "this_cycle_new_pir06_content": true,
@@ -56,7 +56,7 @@
         "rank": "EMPIRICAL-SCHISM-SIGNAL (PIR-06, not a notice)",
         "headline": "Tiga gabungan bertembung / Bersatu clashes with PN in 7 seats",
         "source": "Utusan Malaysia",
-        "pubdate_myt": "2026-07-19T06:45:12 (22:45 UTC 18 Jul)",
+        "pubdate_myt": "2026-07-19T06:45:12 (06:45 MYT 18 Jul)",
         "url": "https://www.utusan.com.my/berita/2026/07/tiga-gabungan-bertembung/",
         "pir_significance": "First empirical confirmation that Bersatu (still a PN component) contests 24 DUN seats under its OWN logo and directly clashes with PN candidates in 7 seats — a tangible manifestation of the PN-Bersatu schism on the ballot. NOT a formal MT removal notice.",
         "file": "priority_pir-07_3-coalitions-clash-utusan_20260718_231029.md"
@@ -217,7 +217,7 @@
     "this_cycle_time": "20260718_220325 (~06:03 MYT 19 Jul 2026)",
     "wall_clock_window_note": "This cycle ran ~66 min after the 205755 cycle, in the final pre-dawn MYT slot (~06:03 MYT 19 Jul). Malaysian newsrooms remain quiet (campaign Day-1 ended; Day-2 events begin at daytime MYT 19 Jul, ~09:00+). The cycle is a STABILITY/CONFIRMATION pass (4th overnight), not a new-event-detection pass.",
     "genuinely_new_findings": [],
-    "delta_scan_result": "Set-difference of normalized priority_titles between _scrape_results_205755.json (175 title-keys) and _scrape_results_220325.json (178 title-keys) returned 6 apparent new title-keys — ALL from mStar lifestyle/entertainment feed rotation (see newly_surfaced_in_per_source_delta); 0 are PIR-06/09/07-relevant. Freshness scan (RFC822 GMT Google-News dates + WP-API ISO dates zoned as MYT UTC+8) across all 19 *_220325.md files for dates >= 20:57 GMT 18 Jul 2026 returned 0 matches; latest article across all files is 18:28 UTC 18 Jul (nstcommy gnews). Combined: 0 PIR-relevant new content surfaced this cycle — 4th consecutive zero-delta overnight pass.",
+    "delta_scan_result": "Set-difference of normalized priority_titles between _scrape_results_205755.json (175 title-keys) and _scrape_results_220325.json (178 title-keys) returned 6 apparent new title-keys — ALL from mStar lifestyle/entertainment feed rotation (see newly_surfaced_in_per_source_delta); 0 are PIR-06/09/07-relevant. Freshness scan (RFC822 MYT Google-News dates + WP-API ISO dates zoned as MYT (+08:00)) across all 19 *_220325.md files for dates >= 20:57 MYT 18 Jul 2026 returned 0 matches; latest article across all files is 02:28 MYT 18 Jul (nstcommy gnews). Combined: 0 PIR-relevant new content surfaced this cycle — 4th consecutive zero-delta overnight pass.",
     "newly_surfaced_in_per_source_delta": [
       {
         "source": "mstarcommy",
@@ -268,7 +268,7 @@
     "this_cycle_time_captured_at": "20260718_205755 (~04:57 MYT 19 Jul 2026) [historical record from 205755 cycle]",
     "wall_clock_window_note": "This historical delta block records the 205755 cycle's findings vs the 194028 cycle. Preserved as audit trail.",
     "genuinely_new_findings": [],
-    "delta_scan_result": "Set-difference of normalized priority_titles between _scrape_results_194028.json (178 titles) and _scrape_results_205755.json (178 titles) returned 0 new titles. RFC822 pubDate freshness scan across all 19 *_205755.md files for dates >= 19:40 GMT 18 Jul 2026 returned 0 matches. Combined: no PIR-06/09/07-relevant new content surfaced this cycle.",
+    "delta_scan_result": "Set-difference of normalized priority_titles between _scrape_results_194028.json (178 titles) and _scrape_results_205755.json (178 titles) returned 0 new titles. RFC822 pubDate freshness scan across all 19 *_205755.md files for dates >= 19:40 MYT 18 Jul 2026 returned 0 matches. Combined: no PIR-06/09/07-relevant new content surfaced this cycle.",
     "newly_surfaced_in_per_source_delta": [],
     "no_change": [
       "CRITICAL PIR-06 threshold (formal PN-MT removal notice) still NOT crossed.",
@@ -300,7 +300,7 @@
     "this_cycle_time_captured_at": "20260718_182751 (~02:27 MYT 19 Jul 2026) [historical record from 182751 cycle]",
     "wall_clock_window_note": "Historical delta block — preserved as audit trail.",
     "genuinely_new_findings": [],
-    "freshness_scan_result": "Parsed all 19 *_182751.md files for RFC822 pubDates >= 17:08 GMT 18 Jul 2026 (the 170837 cutoff). Result: 0 articles published after the cutoff.",
+    "freshness_scan_result": "Parsed all 19 *_182751.md files for RFC822 pubDates >= 17:08 MYT 18 Jul 2026 (the 170837 cutoff). Result: 0 articles published after the cutoff.",
     "no_change": [
       "CRITICAL PIR-06 threshold (formal PN-MT removal notice) still NOT crossed.",
       "No Bersatu candidate withdrawals in the 8 Tier-4 seats.",
@@ -844,7 +844,7 @@
     {
       "file": "priority_pir-06_bersatu-crossroads-nst_20260718_231029.md",
       "pir": "PIR-06",
-      "note": "NST: 'Bersatu at a crossroads amid BN-PN cooperation' (pubDate 23:00 GMT 18 Jul = 07:00 MYT 19 Jul). HEADLINE ONLY — full text DEFERRED (gnews URL encrypted; NST JS-rendered; Bing/DDG search yielded no direct URL). Corroborates Muhyiddin exit thesis."
+      "note": "NST: 'Bersatu at a crossroads amid BN-PN cooperation' (pubDate 23:00 MYT 18 Jul = 07:00 MYT 19 Jul). HEADLINE ONLY — full text DEFERRED (gnews URL encrypted; NST JS-rendered; Bing/DDG search yielded no direct URL). Corroborates Muhyiddin exit thesis."
     },
     {
       "file": "priority_pir-07_36-seats-contest-astro_20260718_231029.md",
@@ -885,7 +885,7 @@
     "182751_cycle": "STABILITY/CONFIRMATION pass (02:27 MYT 19 Jul, deep-overnight); 10/10 sources, 0 errors, 0 new articles.",
     "194028_cycle": "2nd overnight STABILITY/CONFIRMATION pass (03:40 MYT 19 Jul); 10/10 sources, 0 errors, 0 new articles, PIR-06 escalated-watch unchanged.",
     "205755_cycle": "3rd overnight STABILITY/CONFIRMATION pass (04:57 MYT 19 Jul); 10/10 sources, 0 errors, all HTTP 200, 19 md files / 419796 bytes. Delta vs 194028 = 0 genuinely new PIR-relevant titles. PIR-06 escalated-watch unchanged, CRITICAL threshold NOT crossed, precursor items 0.",
-    "220325_cycle": "THIS cycle — 4th overnight STABILITY/CONFIRMATION pass (06:03 MYT 19 Jul, final pre-dawn window); 10/10 sources, 0 errors, all 16 streams HTTP 200, 19 md files / 398840 bytes. Delta vs 205755 = 0 genuinely new PIR-relevant titles (set-difference returned 6 mStar lifestyle false-positives only; freshness scan incl. WP-API ISO-as-MYT for >= 20:57 GMT 18 Jul returned 0; latest article 18:28 UTC 18 Jul). PIR-06 escalated-watch UNCHANGED, CRITICAL threshold NOT crossed, formal_removal_notice_detected=false, precursor items 0. Methodology improved (WP-API ISO dates now zoned as MYT). Value = coverage-integrity re-confirmation + assessment stability (4th consecutive zero-delta overnight pass). Next meaningful collection = daytime MYT (19 Jul, ~09:00-12:00) for campaign Day-2 events — the expected breakpoint for new content.",
+    "220325_cycle": "THIS cycle — 4th overnight STABILITY/CONFIRMATION pass (06:03 MYT 19 Jul, final pre-dawn window); 10/10 sources, 0 errors, all 16 streams HTTP 200, 19 md files / 398840 bytes. Delta vs 205755 = 0 genuinely new PIR-relevant titles (set-difference returned 6 mStar lifestyle false-positives only; freshness scan incl. WP-API ISO-as-MYT for >= 20:57 MYT 18 Jul returned 0; latest article 02:28 MYT 18 Jul). PIR-06 escalated-watch UNCHANGED, CRITICAL threshold NOT crossed, formal_removal_notice_detected=false, precursor items 0. Methodology improved (WP-API ISO dates now zoned as MYT). Value = coverage-integrity re-confirmation + assessment stability (4th consecutive zero-delta overnight pass). Next meaningful collection = daytime MYT (19 Jul, ~09:00-12:00) for campaign Day-2 events — the expected breakpoint for new content.",
     "231029_cycle": "THIS cycle — 5th overnight/dawn pass (07:10 MYT 19 Jul, Day-2 dawn). FIRST cycle with genuinely new content after 4 consecutive zero-delta overnight passes. 10/10 sources, 0 errors, all 16 streams HTTP 200, 29 md files / 418558 bytes. Brand-new Utusan PIR-07 articles at 06:40 & 06:45 MYT 19 Jul captured in FULL (5 hot seats + candidate matchups; 3-coalition strategy + 7 Bersatu-vs-PN clashes + 103 candidates + seat structure). mkini homepage rotation surfaced 23 'new' priority titles (10-22h-old, mostly re-surfaced; PIR-07/09 intros freshly captured). NST 'Bersatu at a crossroads' (NEW corroborative PIR-06, headline only, full text deferred — gnews encrypted). PIR-06 CRITICAL threshold NOT crossed (formal_removal_notice_detected=false, precursor 0); escalated-watch carries forward. PIR-07 BATTLEGROUN ASSESSMENT substantially enriched. Utusan Elementor body-extraction fixed. Value = first new content of the Day-2 window + PIR-07 baseline establishment + PIR-06 corroboration. Daytime MYT campaign window now opening — next cycle should capture Day-2 campaign events."
   },
   "tooling_artifacts_in_raw_scrapes_dir": [
@@ -903,13 +903,13 @@
     "_fetch_priority_231029.py (priority full-text fetcher w/ Utusan Elementor extraction + gnews-redirect/Bing/DDG fallback — THIS cycle)"
   ],
   "delta_vs_prior_cycle_220325": {
-    "prior_cycle_time": "20260718_220325 (22:03 UTC 18 Jul / 06:03 MYT 19 Jul)",
-    "this_cycle_time": "20260718_231029 (23:10 UTC 18 Jul / 07:10 MYT 19 Jul)",
+    "prior_cycle_time": "20260718_220325 (06:03 MYT 18 Jul / 06:03 MYT 19 Jul)",
+    "this_cycle_time": "20260718_231029 (07:10 MYT 18 Jul / 07:10 MYT 19 Jul)",
     "wall_clock_window_note": "~67 min after the 220325 pass; 5th overnight/dawn pass; Day-2 MYT dawn. This is the FIRST cycle to break the 4-pass zero-delta streak.",
     "genuinely_new_findings": [
-      "Utusan 'Lima kerusi panas jadi tumpuan' — brand-new 06:40 MYT 19 Jul (22:40 UTC 18 Jul). 5 hot seats + full candidate matchups. FULL TEXT captured.",
-      "Utusan 'Tiga gabungan bertembung' — brand-new 06:45 MYT 19 Jul (22:45 UTC 18 Jul). 3-coalition strategy + 7 Bersatu-vs-PN clashes + 103 candidates + seat structure. FULL TEXT captured.",
-      "NST 'Bersatu at a crossroads amid BN-PN cooperation' — pubDate 23:00 GMT 18 Jul (07:00 MYT 19 Jul). NEW corroborative PIR-06. Headline only (full text deferred).",
+      "Utusan 'Lima kerusi panas jadi tumpuan' — brand-new 06:40 MYT 19 Jul (06:40 MYT 18 Jul). 5 hot seats + full candidate matchups. FULL TEXT captured.",
+      "Utusan 'Tiga gabungan bertembung' — brand-new 06:45 MYT 19 Jul (06:45 MYT 18 Jul). 3-coalition strategy + 7 Bersatu-vs-PN clashes + 103 candidates + seat structure. FULL TEXT captured.",
+      "NST 'Bersatu at a crossroads amid BN-PN cooperation' — pubDate 23:00 MYT 18 Jul (07:00 MYT 19 Jul). NEW corroborative PIR-06. Headline only (full text deferred).",
       "Malaysiakini homepage rotation surfaced 23 'new' priority titles (10-22h-old nomination-day articles re-entering top feed) — substance of PIR-06 items already captured 170837; PIR-07/09 items freshly captured as priority intros this cycle."
     ],
     "delta_scan_result": "Set-difference on normalized priority_titles: 34 globally-new titles vs the 220325 baseline. Of these, 2 are genuinely brand-new (Utusan, MYT-zoned WP-API timestamps within the cycle window) and ~32 are mkini/mstar homepage-rotation resurfacings of already-published content (verified via 'Xh ago' relative-timestamp markers). PIR-06 CRITICAL regex: 0. Precursor items: 0.",

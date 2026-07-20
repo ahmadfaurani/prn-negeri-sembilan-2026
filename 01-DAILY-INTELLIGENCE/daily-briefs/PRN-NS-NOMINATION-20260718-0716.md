@@ -1,7 +1,7 @@
 # PRN Negeri Sembilan 2026 — Nomination Day Hourly Intelligence Brief
 
 **Date:** 2026-07-18 (Nomination Day)
-**Timestamp:** 15:16 MYT / 07:16 UTC
+**Timestamp:** 15:16 MYT / 15:16 MYT
 **Classification:** TLP:AMBER
 **Reporting Period:** Hourly surge — collection window ~15:09 MYT; nominations closed 10:00 MYT across 8 centres
 **Framework:** Nomination Day Surge (PIR-01 → PIR-25) — `00-OPERATIONS/pir-framework-nomination-day.md`
