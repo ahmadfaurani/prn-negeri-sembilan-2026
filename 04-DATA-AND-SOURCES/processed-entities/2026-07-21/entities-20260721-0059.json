@@ -1,0 +1,421 @@
+{
+  "extraction_metadata": {
+    "generated": "2026-07-21 00:59 +08",
+    "report_date": "2026-07-21",
+    "brief_id": "PRN-NS-2026-ENT-20260721-0059",
+    "agent": "PRN Negeri Sembilan 2026 Entity Extraction Agent",
+    "source_folder": "04-DATA-AND-SOURCES/raw-scrapes/20260721/",
+    "scrape_cycle": "dawn (00:34-00:50 MYT 21 Jul 2026)",
+    "articles_processed": 22,
+    "genuinely_new_prn_articles": 12,
+    "false_positives_skipped": 10,
+    "prior_extraction": "entities-20260720-2235.json (2026-07-20)",
+    "critical_threshold_crossed": false,
+    "critical_cycle_count": 31,
+    "pir_tags_active": ["PIR-06", "PIR-07", "PIR-16"]
+  },
+  "entities": [
+    {
+      "entity": "Fahmi Fadzil",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/20/dont-go-overboard-with-rhetoric-fahmi-tells-khairy",
+      "context": "PH communications director & Comms Minister; FIRST direct PH-government response to KJ's BN-PN 'signal to PH' narrative. Tells KJ 'don't go overboard'; rebuts 'PH lacks Malay-Muslim leaders' claim by listing Anwar, Mat Sabu, Dzulkefly, Amirudin, Aminuddin. Says KJ driven by desire to 'remain politically relevant' after returning to Umno. Also clarifies PM issued NO resignation order — only discipline reminder."
+    },
+    {
+      "entity": "Khairy Jamaluddin",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/20/dont-go-overboard-with-rhetoric-fahmi-tells-khairy",
+      "context": "Ex-Umno Youth chief; BN-PN cooperation in NS = 'signal to PH' on Malay sensitivities. Claims federal govt not paying enough attention to Malay sensitivities + failed to fulfil promises. Fahmi rebuts: KJ rebuilding support base after returning to Umno, 'will say whatever necessary to be noticed.' 3rd-cycle corroboration of KJ 'signal' framing (now met with direct PH response)."
+    },
+    {
+      "entity": "BN-PN cooperation = signal to PH (KJ narrative)",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/21/jangan-buat-persepsi-ph-tak-sensitif-isu-melayu-islam-fahmi-beritahu-kj",
+      "context": "KJ's framing: BN chose to cooperate with PN in NS election to send PH a signal re: Malay sensitivities. Some Umno members feel federal govt neglects Malay issues. NOW directly rebutted by PH (Fahmi) — first PH-government counter-narrative. Narrative battle intensifying."
+    },
+    {
+      "entity": "PH lacks Malay-Muslim leaders (KJ claim, rebutted by Fahmi)",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/20/dont-go-overboard-with-rhetoric-fahmi-tells-khairy",
+      "context": "KJ implies PH has no leaders defending Malay-Muslim interests. Fahmi rebuts by enumerating: Anwar Ibrahim (PKR president), Mohamad Sabu (Amanah president), Dzulkefly Ahmad (Amanah), Amirudin Shari (PKR VP), Aminuddin Harun (PKR VP). 'Stop spreading falsehoods. Don't deny the presence of Malay-Muslim leaders in PH.'"
+    },
+    {
+      "entity": "Don't go overboard (Fahmi rebuttal to KJ)",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/20/dont-go-overboard-with-rhetoric-fahmi-tells-khairy",
+      "context": "Fahmi's direct advice to KJ: 'Don't become so fixated on certain views that you end up denying the presence of Malay-Muslim leaders in PH and reinforcing false perceptions.' First direct PH government response to KJ's 'signal' narrative. Significant PIR-16 narrative development."
+    },
+    {
+      "entity": "KJ driven by political relevance (Fahmi characterisation)",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/20/dont-go-overboard-with-rhetoric-fahmi-tells-khairy",
+      "context": "Fahmi: KJ 'was out of Umno for quite some time. Now rebuilding support base, will say whatever necessary to make people notice him.' Frames KJ's Malay-sensitivity rhetoric as personal political motivation, not genuine concern."
+    },
+    {
+      "entity": "Anwar Ibrahim",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/21/pms-reminder-meant-to-ensure-federal-unity-says-fahmi",
+      "context": "PM & PH chairman. Cited by Fahmi as Malay-Muslim PH leader (rebuttal to KJ). Issued discipline warning to ministers not to attack unity-govt colleagues during PRN campaign. NO resignation order issued — only reminder of mutual respect + discipline. Expected to campaign Wed 22 Jul at Sikamat + Paroi. Stability/investor confidence cited as consideration."
+    },
+    {
+      "entity": "Mohamad Sabu (Mat Sabu)",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/20/dont-go-overboard-with-rhetoric-fahmi-tells-khairy",
+      "context": "Amanah president; cited by Fahmi as Malay-Muslim PH leader in rebuttal to KJ's claim that PH lacks Malay-Muslim leadership."
+    },
+    {
+      "entity": "Dzulkefly Ahmad",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/20/dont-go-overboard-with-rhetoric-fahmi-tells-khairy",
+      "context": "Amanah leader; cited by Fahmi as Malay-Muslim PH leader in rebuttal to KJ."
+    },
+    {
+      "entity": "Anwar discipline warning / no resignation order",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/tiada-arahan-letak-jawatan-pm-hanya-pesan-disiplin-kempen-kata-fahmi",
+      "context": "NEW clarification by Fahmi: PM issued NO order for any minister/deputy minister to resign. Anwar only reminded all officeholders to maintain unity, discipline, professionalism during PRN campaign. Parties in unity govt contested separately in prior state elections — democratic differences allowed. Investor confidence/stability = key consideration. Resolves ambiguity from prior cycle's 'resign if attack colleagues' warning."
+    },
+    {
+      "entity": "Mohamad Hasan (Tok Mat)",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/21/pms-reminder-meant-to-ensure-federal-unity-says-fahmi",
+      "context": "Foreign Minister & BN deputy chairman; said prepared to resign as minister if ordered; emphasised no intention to attack other unity-govt leaders during campaign. (Carry-forward from prior cycle, now EN-corroborated via FMT.)"
+    },
+    {
+      "entity": "Khaled Nordin",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/tiada-arahan-letak-jawatan-pm-hanya-pesan-disiplin-kempen-kata-fahmi",
+      "context": "Defence Minister; 'if a minister is no longer wanted, no need to wait to leave office.' (Carry-forward, BM-corroborated.)"
+    },
+    {
+      "entity": "Loke Siew Fook",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/21/pms-reminder-meant-to-ensure-federal-unity-says-fahmi",
+      "context": "Transport Minister & DAP secretary-general; agrees with Anwar's discipline reminder; cooperation among unity-govt parties remains intact. Also PH deputy chairman present at manifesto launch."
+    },
+    {
+      "entity": "DUN Seri Menanti",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.astroawani.com/berita-politik/prn-negeri-sembilan-mohd-kamarul-tekad-bangunkan-seri-menanti",
+      "context": "BN stronghold; 3-cornered fight PH vs BN vs Bersatu. Royal institution connection — Yang di-Pertuan Besar NS resides here. PH candidate optimistic about 'momentum perubahan'. Tourism + agriculture + Adat Perpatih education focus. Under Rancangan Tempatan Daerah Kuala Pilah 2035."
+    },
+    {
+      "entity": "Mohd Kamarul Arifin Mohd Wafa",
+      "type": "person",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.astroawani.com/berita-politik/prn-negeri-sembilan-mohd-kamarul-tekad-bangunkan-seri-menanti",
+      "context": "NEW — PH candidate DUN Seri Menanti. Pledges tourism + agriculture as economic drivers to attract youth back. Proposes Adat Perpatih education module (royal institution resides in Seri Menanti). Optimistic about 'momentum perubahan' despite BN stronghold. Product: longan Brazil at Kampung Buyau."
+    },
+    {
+      "entity": "Muhammad Sufian Maradzi",
+      "type": "person",
+      "pir_tag": "PIR-07",
+      "priority": "normal",
+      "source_url": "https://www.astroawani.com/berita-politik/prn-negeri-sembilan-mohd-kamarul-tekad-bangunkan-seri-menanti",
+      "context": "NEW — BN candidate DUN Seri Menanti; incumbent/penyandang in 3-cornered fight."
+    },
+    {
+      "entity": "Datuk Seri Megat D Shahriman Zaharudin",
+      "type": "person",
+      "pir_tag": "PIR-07",
+      "priority": "normal",
+      "source_url": "https://www.astroawani.com/berita-politik/prn-negeri-sembilan-mohd-kamarul-tekad-bangunkan-seri-menanti",
+      "context": "NEW — Bersatu candidate DUN Seri Menanti; 3-cornered fight vs PH + BN. Confirms Bersatu contesting solo logo in Seri Menanti (separate from PN)."
+    },
+    {
+      "entity": "DUN Sikamat (N.13)",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "critical",
+      "source_url": "https://www.hmetro.com.my/mutakhir/2026/07/1387158/prn-n9-anwar-dijangka-turun-berkempen-rabu-ini-aminuddin",
+      "context": "Tier-4 CRITICAL seat. PM Anwar scheduled to campaign here Wed 22 Jul — high-profile visit to Aminuddin's vacated seat. 3-cornered PH/PN-Wawasan/Bersatu. Aminuddin left Sikamat for Linggi; 'fleeing Sikamat' PIR-07 context. Anwar's visit = PH reinforcing vulnerable seat."
+    },
+    {
+      "entity": "DUN Paroi (N.25)",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.hmetro.com.my/mutakhir/2026/07/1387158/prn-n9-anwar-dijangka-turun-berkempen-rabu-ini-aminuddin",
+      "context": "Tier-4 seat. PM Anwar scheduled to campaign here Wed 22 Jul alongside Sikamat. 'Majlis yang besar' planned. Anwar's dual-stop schedule signals PH ground reinforcement of battleground seats."
+    },
+    {
+      "entity": "DUN Linggi (N.32)",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "critical",
+      "source_url": "https://www.hmetro.com.my/mutakhir/2026/07/1387158/prn-n9-anwar-dijangka-turun-berkempen-rabu-ini-aminuddin",
+      "context": "Tier-4 CRITICAL seat. Aminuddin Harun (caretaker MB) is PH candidate — challenges Umno's oldest fortress (since 1959). High symbolism. BN manifesto launch 24 Jul at Linggi (Mohd Faizal) confirmed in prior cycle. Aminuddin launched PH manifesto as Linggi candidate."
+    },
+    {
+      "entity": "Anwar campaign schedule (Wed 22 Jul — Sikamat + Paroi)",
+      "type": "narrative",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.hmetro.com.my/mutakhir/2026/07/1387158/prn-n9-anwar-dijangka-turun-berkempen-rabu-ini-aminuddin",
+      "context": "NEW — PM Anwar expected to campaign Wednesday 22 Jul at Sikamat + Paroi ('majlis yang besar'). Aminuddin: Anwar's absence at manifesto launch 'not an issue' — state leadership can handle. First confirmed Anwar ground-campaign schedule for PRN NS."
+    },
+    {
+      "entity": "Aminuddin Harun",
+      "type": "person",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.hmetro.com.my/mutakhir/2026/07/1387152/prn-n9-manifesto-ph-pelan-tindakan-realistik-aminuddin",
+      "context": "PH NS chairman, caretaker MB, PKR VP, DUN Linggi candidate. Launched manifesto 'Kekal Harapan' / 'Stabil, Makmur, Inklusif' (10 commitments). 'Not a coalition that governed for decades, but delivered in 8 years.' Manifesto = 'pelan tindakan realistik, bukan janji.' MB 2-term limit blocked by Umno. Urges candidates: manifesto = 'senjata utama kempen,' avoid 'retorik kosong.' Also cited by Fahmi as Malay-Muslim PH leader. MB since 2018."
+    },
+    {
+      "entity": "PH manifesto 'Kekal Harapan' / 'Stabil, Makmur, Inklusif'",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.astroawani.com/berita-politik/prn-negeri-sembilan-manifesto-ph-pertaruh-agenda-stabil-makmur-inklusif-tawar-10-komitmen-utama",
+      "context": "NEW FULL CONTENT — PH NS PRN16 manifesto launched 20 Jul evening. Theme: 'Stabil, Makmur, Inklusif' / 'Negeri Sembilan Kekal Harapan.' 10 commitments: stable govt, SSR improvements, 30,000 high-paying jobs, quality education, 20,000 affordable homes, land issues, youth/women/family, tourism+Adat Perpatih, FELDA development, modern agriculture, 5 high-impact infrastructure projects, interfaith harmony. Multi-outlet propagation (Awani + FMT EN/BM + HarianMetro). Was PENDING in prior cycle — now FULLY COVERED."
+    },
+    {
+      "entity": "Manifesto bukan janji, pelaksanaan (Aminuddin framing)",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.hmetro.com.my/mutakhir/2026/07/1387152/prn-n9-manifesto-ph-pelan-tindakan-realistik-aminuddin",
+      "context": "Aminuddin's core manifesto framing: 'mampu dilaksanakan, bukan hanya janji.' Track record: nearly all prior manifesto items implemented except those requiring DUN law changes (blocked before 5 Jun dissolution). Urges candidates to make manifesto 'senjata utama kempen' vs 'retorik kosong' and provocation. Counter-narrative to BN-PN 'jual prestasi' vs 'penyatuan Melayu' framing."
+    },
+    {
+      "entity": "MB 2-term limit blocked by Umno",
+      "type": "narrative",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.hmetro.com.my/mutakhir/2026/07/1387152/prn-n9-manifesto-ph-pelan-tindakan-realistik-aminuddin",
+      "context": "NEW explicit detail — Aminuddin: proposed 2-term limit for Menteri Besar 'ditolak awal oleh UMNO dulu.' Only unfulfilled manifesto item. Touches PH-Umno coalition friction within unity govt; reform blocked by coalition partner. PIR-06 intra-coalition tension signal (non-critical — historical, pre-dissolution)."
+    },
+    {
+      "entity": "5 high-impact infrastructure projects (PH manifesto)",
+      "type": "narrative",
+      "pir_tag": "PIR-07",
+      "priority": "normal",
+      "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/20/negeri-sembilan-ph-unveils-election-pledges-that-can-be-delivered",
+      "context": "PH manifesto pledges: (1) Seremban Sentral + increased commuter frequency; (2) Hospital Bandar Enstek; (3) Port Dickson international port; (4) Senawang-Port Klang rail bypass; (5) legal amendments for Felda 2nd/3rd-gen settlers to build 2nd homes on parents' land."
+    },
+    {
+      "entity": "Malaysia Vision Valley 2.0 (MVV 2.0)",
+      "type": "narrative",
+      "pir_tag": "PIR-07",
+      "priority": "normal",
+      "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/manifesto-ph-berdasarkan-8-tahun-tadbir-negeri-sembilan",
+      "context": "NEW — Economic corridor project rebranding; Aminuddin positions NS as 'koridor pertumbuhan baharu' connecting Lembah Klang + south. Part of PH economic-vision narrative: NS as 'negeri destinasi utama pelaburan dan inovasi' (not 'negeri laluan')."
+    },
+    {
+      "entity": "NS Semiconductor Valley",
+      "type": "narrative",
+      "pir_tag": "PIR-07",
+      "priority": "normal",
+      "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/manifesto-ph-berdasarkan-8-tahun-tadbir-negeri-sembilan",
+      "context": "NEW — High-tech industrial project named in PH manifesto; part of job-creation strategy (30,000 high-paying jobs). Alongside Nilai Advanced Photonic AI Manufacturing City."
+    },
+    {
+      "entity": "Nilai Advanced Photonic AI Manufacturing City",
+      "type": "narrative",
+      "pir_tag": "PIR-07",
+      "priority": "normal",
+      "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/manifesto-ph-berdasarkan-8-tahun-tadbir-negeri-sembilan",
+      "context": "NEW — Advanced manufacturing project named in PH manifesto; semiconductor/aerospace/data centre/digital economy expansion. Connects to N.10 Nilai (Tier-4, 5-cornered fight) economic narrative."
+    },
+    {
+      "entity": "Amirudin Shari",
+      "type": "person",
+      "pir_tag": "PIR-06",
+      "priority": "normal",
+      "source_url": "https://www.hmetro.com.my/mutakhir/2026/07/1387158/prn-n9-anwar-dijangka-turun-berkempen-rabu-ini-aminuddin",
+      "context": "Selangor MB, PH election director (Pengarah Pilihan Raya PH), PKR VP; present at PH manifesto launch. Also cited by Fahmi as Malay-Muslim PH leader. Confirmed co-director role for NS PRN."
+    },
+    {
+      "entity": "Fuziah Salleh",
+      "type": "person",
+      "pir_tag": "PIR-06",
+      "priority": "normal",
+      "source_url": "https://www.hmetro.com.my/mutakhir/2026/07/1387158/prn-n9-anwar-dijangka-turun-berkempen-rabu-ini-aminuddin",
+      "context": "NEW — PKR secretary-general (Setiausaha Agung PKR); present at PH NS manifesto launch. Federal-level PH leadership presence at state manifesto event."
+    },
+    {
+      "entity": "Hatta Md Ramli (Mohd Hatta Md Ramli)",
+      "type": "person",
+      "pir_tag": "PIR-06",
+      "priority": "normal",
+      "source_url": "https://www.hmetro.com.my/mutakhir/2026/07/1387158/prn-n9-anwar-dijangka-turun-berkempen-rabu-ini-aminuddin",
+      "context": "NEW — Amanah VP (Naib Presiden AMANAH); present at PH NS manifesto launch. Federal opposition-party leadership supporting state campaign."
+    },
+    {
+      "entity": "MK Ibrahim Abd Rahman",
+      "type": "person",
+      "pir_tag": "PIR-06",
+      "priority": "normal",
+      "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/manifesto-ph-berdasarkan-8-tahun-tadbir-negeri-sembilan",
+      "context": "NEW — Amanah NS chairman (Pengerusi Amanah Negeri Sembilan); present at manifesto launch alongside Aminuddin + Loke. State-level coalition leadership."
+    },
+    {
+      "entity": "MCMC 3R enforcement targeting Tuanku Muhriz",
+      "type": "narrative",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.hmetro.com.my/mutakhir/2026/07/1387155/mcmc-panggil-individu-bantu-siasatan-kes-3r-terhadap-tuanku-muhriz",
+      "context": "NEW — MCMC + PDRM investigating 3R (religion, race, royal institution) content targeting Yang di-Pertuan Besar NS Tuanku Muhriz. Individual recorded under Section 233 Communications & Multimedia Act 1998 (max RM500k fine / 2 yrs jail). MCMC warns all parties to avoid 3R during campaign. Connects to 'derhaka' narrative thread (royal institution)."
+    },
+    {
+      "entity": "Tuanku Muhriz Tuanku Munawir",
+      "type": "person",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.hmetro.com.my/mutakhir/2026/07/1387155/mcmc-panggil-individu-bantu-siasatan-kes-3r-terhadap-tuanku-muhriz",
+      "context": "NEW — Yang di-Pertuan Besar Negeri Sembilan; target of 3R content under MCMC/PDRM investigation. Resides in Seri Menanti (royal institution connection to DUN Seri Menanti). Central to April 19 crisis context (4 undangs claimed he was removed → 14 Umno ADUN withdrew support). 3R enforcement = regulatory guardrail for campaign."
+    },
+    {
+      "entity": "MCMC Network Monitoring Centre (Pusat Pemantauan Rangkaian)",
+      "type": "narrative",
+      "pir_tag": "PIR-07",
+      "priority": "normal",
+      "source_url": "https://www.hmetro.com.my/mutakhir/2026/07/1387165/prn-n9-mcmc-aktifkan-pusat-pemantauan-rangkaian",
+      "context": "NEW — MCMC activates Network Monitoring Centre for PRN N9. Receives complaints re: network coverage, telecom quality, online 3R content. Hotline: 06-4794907 / 06-4794912. Email: nsso.rcu@mcmc.gov.my. Early voting 28 Jul, polling 1 Aug confirmed."
+    },
+    {
+      "entity": "Section 233 Communications & Multimedia Act 1998",
+      "type": "narrative",
+      "pir_tag": "PIR-07",
+      "priority": "normal",
+      "source_url": "https://www.hmetro.com.my/mutakhir/2026/07/1387155/mcmc-panggil-individu-bantu-siasatan-kes-3r-terhadap-tuanku-muhriz",
+      "context": "Legal basis for MCMC 3R enforcement; max RM500,000 fine or 2 years jail or both. Regulatory framework governing campaign speech/content during PRN NS."
+    },
+    {
+      "entity": "Felda Palong 2 (Jempol)",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "normal",
+      "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/20/dont-go-overboard-with-rhetoric-fahmi-tells-khairy",
+      "context": "Location of Fahmi's Ziarah Kasih programme where he delivered KJ rebuttal + Anwar clarification. Felda settlement in Jempol district — connects to FELDA development manifesto pledge."
+    },
+    {
+      "entity": "Visi Negeri Sembilan Maju 2045",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/manifesto-ph-berdasarkan-8-tahun-tadbir-negeri-sembilan",
+      "context": "NEW — Aminuddin's long-term vision; urges mandate to realise. NS positioned as growth corridor connecting KL (finance) + Selangor (industry) + Melaka (tourism/maritime). 'Negeri laluan → negeri destinasi utama pelaburan dan inovasi.'"
+    },
+    {
+      "entity": "Senjata utama kempen, avoid retorik kosong (Aminuddin directive)",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.hmetro.com.my/mutakhir/2026/07/1387152/prn-n9-manifesto-ph-pelan-tindakan-realistik-aminuddin",
+      "context": "Aminuddin's directive to all PH candidates: use manifesto as 'senjata utama kempen' (main campaign weapon); avoid 'fitnah, bergaduh, retorik kosong.' Candidates must read, understand, deliver manifesto content daily. Message discipline from state chairman — pairs with federal Anwar discipline warning."
+    },
+    {
+      "entity": "Negeri destinasi utama pelaburan (Aminuddin economic vision)",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/20/manifesto-ph-berdasarkan-8-tahun-tadbir-negeri-sembilan",
+      "context": "Aminuddin reframes NS: 'bukan lagi negeri di tengah perjalanan, tetapi pusat kepada perjalanan itu' — from transit state to primary investment/innovation destination. Counter to 'negeri laluan' perception."
+    },
+    {
+      "entity": "SSR (Skim Sejahtera Rakyat) improvements",
+      "type": "narrative",
+      "pir_tag": "PIR-07",
+      "priority": "normal",
+      "source_url": "https://www.astroawani.com/berita-politik/prn-negeri-sembilan-manifesto-ph-pertaruh-agenda-stabil-makmur-inklusif-tawar-10-komitmen-utama",
+      "context": "PH manifesto welfare pledge: RM1,500 one-off cash aid undergrads, RM2,400 living cost aid IPTA students, RM5,000 first-class grads, free laptops, RM300 seniors, RM200 SSPN for newborns, school aid, scholarships, single mothers, cancer patients, dialysis/orthopedic aid. Cradle-to-grave welfare framing."
+    },
+    {
+      "entity": "Adat Perpatih empowerment",
+      "type": "narrative",
+      "pir_tag": "PIR-07",
+      "priority": "normal",
+      "source_url": "https://www.astroawani.com/berita-politik/prn-negeri-sembilan-manifesto-ph-pertaruh-agenda-stabil-makmur-inklusif-tawar-10-komitmen-utama",
+      "context": "PH manifesto: Perpatih Fest + standardised allowances for adat chiefs. Seri Menanti PH candidate proposes Adat Perpatih education module. Connects royal institution (Seri Menanti) + cultural heritage to campaign narrative."
+    }
+  ],
+  "carry_forward_flags": {
+    "PDM Klawang shutdown/reopen": {
+      "status": "RESOLVED (active)",
+      "notes": "Police actively investigating (2 papers, Kuala Klawang, Section 427). No new mention this cycle. Active investigation maintained."
+    },
+    "MCA rebuttal to Loke": {
+      "status": "RESOLVED",
+      "notes": "Wee Ka Siong responded (conciliatory) in prior cycle. No new development."
+    },
+    "Derhaka Pertang friction": {
+      "status": "ESCALATED (counter-narrative active)",
+      "notes": "MCMC 3R enforcement targeting Tuanku Muhriz = real-world manifestation of royal-institution sensitivity. Connects to derhaka narrative thread. No explicit 'derhaka' language this cycle but 3R enforcement reinforces the royal-institution dimension."
+    },
+    "Lebih hebat new coalition": {
+      "status": "NOT DETECTED",
+      "notes": "31st cycle, no formalization."
+    },
+    "RoS complaint disrupting PN seat negotiations": {
+      "status": "NOT DETECTED",
+      "notes": "Seat allocation stable. No RoS action this cycle."
+    },
+    "Bersatu exit imminent": {
+      "status": "NOT CORROBORATED",
+      "notes": "31st cycle. Bersatu's 24 solo-logo candidates STABLE — no withdrawals. Megat D Shahriman Zaharudin contests Seri Menanti under Bersatu (confirms solo logo). Structural separation clear but no hard-news threshold headline."
+    },
+    "sasar bentuk kerajaan negeri": {
+      "status": "NOT CORROBORATED",
+      "notes": "31st cycle. [CRITICAL] NOT crossed. PH contests all 36 seats solo (manifesto launch confirms solo-governing bid structurally) but no explicit 'sasar bentuk kerajaan negeri' hard-news headline."
+    },
+    "Wan Saiful (Harian Metro)": {
+      "status": "NOT DETECTED",
+      "notes": "Harian Metro RSS working this cycle; Wan Saiful entity not surfaced."
+    },
+    "Albert Tei": {
+      "status": "NOT DETECTED",
+      "notes": "Not surfaced in any cycle."
+    },
+    "Barking dogs": {
+      "status": "NOT DETECTED",
+      "notes": "Not surfaced in any cycle."
+    },
+    "BN manifesto launch 24 Jul DUN Linggi": {
+      "status": "CONFIRMED (upcoming)",
+      "notes": "At DUN Linggi (Mohd Faizal) + Pertang (Jalaluddin). Not yet occurred — next major PIR-07 event. PH manifesto launch (20 Jul) now FULLY COVERED this cycle."
+    },
+    "PH manifesto launch 20 Jul evening": {
+      "status": "FULLY COVERED (RESOLVED)",
+      "notes": "Was PENDING in prior cycle. Now fully covered across Awani + FMT EN/BM + HarianMetro. Theme 'Stabil, Makmur, Inklusif' / 'Kekal Harapan,' 10 commitments, full pledge details captured."
+    },
+    "Hamzah toxic PN volley": {
+      "status": "ACTIVE (carry, no new volley)",
+      "notes": "No new Hamzah/Marzuki volley this cycle. Bersatu-PN 'toxic' friction from prior cycles carried forward; no escalation."
+    },
+    "Fahmi-KJ exchange (NEW)": {
+      "status": "NEW — ACTIVE",
+      "notes": "First direct PH-government response to KJ's 'signal to PH' narrative. Fahmi rebuts across FMT EN+BM. Narrative battle intensifying. Watch for KJ counter-response next cycle."
+    }
+  }
+}
