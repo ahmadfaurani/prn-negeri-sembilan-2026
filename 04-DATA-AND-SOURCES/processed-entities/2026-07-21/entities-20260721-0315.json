@@ -1,0 +1,172 @@
+{
+  "extraction_metadata": {
+    "generated": "2026-07-21 03:15 +08",
+    "report_date": "2026-07-21",
+    "brief_id": "PRN-NS-2026-ENT-20260721-0315",
+    "agent": "PRN Negeri Sembilan 2026 Entity Extraction Agent",
+    "source_folder": "04-DATA-AND-SOURCES/raw-scrapes/20260721/",
+    "scrape_cycle": "earlyam (01:59 MYT 21 Jul 2026) — Cycle 2",
+    "articles_processed": 5,
+    "genuinely_new_prn_articles": 0,
+    "alternate_outlet_corroborations": 3,
+    "false_positives_skipped": 1,
+    "pre_cutoff_federal_story": 1,
+    "prior_extraction": "entities-20260721-0059.json (dawn cycle, 43 entities)",
+    "critical_threshold_crossed": false,
+    "critical_cycle_count": 32,
+    "pir_tags_active": ["PIR-06", "PIR-07", "PIR-16"],
+    "cycle_assessment": "LOW-YIELD CYCLE — alternate-outlet corroboration only; 0 genuinely new stories; 1 new candidate confirmation (G Manivanan / DUN Jeram Padang) via Sinar body text"
+  },
+  "entities": [
+    {
+      "entity": "G Manivanan",
+      "type": "person",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.sinarharian.com.my/article/788678/berita/politik/tiada-arahan-letak-jawatan-hanya-kekalkan-disiplin-dan-profesionalisme---fahmi-fadzil",
+      "context": "NEW CONFIRMATION — PH candidate DUN Jeram Padang. Sinar articles explicitly name 'G Manivanan' as 'calon Pakatan Harapan (PH) DUN Jeram Padang' in article body text. Previously appeared only as photo caption in night3 Sinar manifesto articles ('Fahmi (kiri) dan Manivanan (dua kiri) ketika menyantuni sebuah keluarga di Felda Palong 2'). Campaign event: Fahmi Fadzil + Manivanan at Felda Palong 2 (Jempol district), Monday 20 Jul — 'Program Ziarah Kasih'. Jeram Padang: 4-cornered fight (PH-Manivanan / BN / Bersatu-solo / ASLI-Dayana Yusof)."
+    },
+    {
+      "entity": "DUN Jeram Padang",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.sinarharian.com.my/article/788678/berita/politik/tiada-arahan-letak-jawatan-hanya-kekalkan-disiplin-dan-profesionalisme---fahmi-fadzil",
+      "context": "NEW — 4-cornered fight: PH (G Manivanan) vs BN vs Bersatu (solo logo) vs ASLI (Dayana Yusof). Jempol district; Felda Palong 2 settlement area. Fahmi Fadzil campaigned here with Manivanan at 'Program Ziarah Kasih' on Monday 20 Jul. Connects to FELDA development manifesto pledge. Candidate name now fully confirmed via Sinar body text (was photo-caption-only in prior cycle)."
+    },
+    {
+      "entity": "Fahmi Fadzil (Sinar corroboration)",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.sinarharian.com.my/article/788679/berita/politik/ph-juga-ada-pemimpin-melayu-islam---fahmi-fadzil",
+      "context": "ALTERNATE-OUTLET CORROBORATION — Sinar Harian covers same Fahmi-KJ exchange as dawn FMT articles. Sinar adds: KJ 'sudah agak lama meninggalkan parti' (left Umno for quite some time) and 'mahu memulakan semula asas politiknya' (wants to rebuild political base). Fahmi's Malay-Muslim PH leader list confirmed: Anwar, Mohamad Sabu, Dzulkefly Ahmad, Amirudin Shari, Aminuddin Harun. Sinar article also names G Manivanan as PH DUN Jeram Padang candidate in body text. Cross-outlet corroboration: FMT (EN+BM) + Sinar now 3 outlets confirming Fahmi-KJ exchange."
+    },
+    {
+      "entity": "Khairy Jamaluddin (Sinar corroboration — 'isyarat' framing)",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.sinarharian.com.my/article/788679/berita/politik/ph-juga-ada-pemimpin-melayu-islam---fahmi-fadzil",
+      "context": "ALTERNATE-OUTLET CORROBORATION — Sinar uses explicit 'isyarat' (signal) framing for KJ's BN-PN cooperation rationale. KJ: BN chose to cooperate with PN as 'isyarat kepada PH' re: Malay sensitivities. Sinar adds context: some Umno members feel federal govt 'kurang peka terhadap sensitiviti orang Melayu.' KJ's 'Ada sesuatu yang tak kena dalam Kerajaan Perpaduan' (something wrong in Unity Govt) quote surfaced in Sinar related-articles section. 4th outlet (FMT EN+BM, Sinar) now corroborating KJ 'signal' narrative."
+    },
+    {
+      "entity": "Anwar discipline clarification (Sinar corroboration)",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.sinarharian.com.my/article/788678/berita/politik/tiada-arahan-letak-jawatan-hanya-kekalkan-disiplin-dan-profesionalisme---fahmi-fadzil",
+      "context": "ALTERNATE-OUTLET CORROBORATION — Sinar covers same Anwar discipline clarification: PM issued no resignation order, only reminded all officeholders to maintain unity spirit, discipline, professionalism during PRN campaign. Sinar confirms: democratic differences allowed (parties contested separately in prior PRNs). Investor perception cited. Mohamad Hasan ready to resign if ordered; Khaled Nordin 'no need to wait.' Cross-outlet: FMT (EN+BM) + Sinar = 3 outlets."
+    },
+    {
+      "entity": "MCMC 3R enforcement (Utusan corroboration)",
+      "type": "narrative",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.utusan.com.my/nasional/2026/07/elak-sentuh-isu-3r-ketika-kempen-pilihan-raya-mcmc/",
+      "context": "ALTERNATE-OUTLET CORROBORATION — Utusan covers same MCMC 3R enforcement story as dawn HarianMetro. Confirms: MCMC + PDRM investigating 3R content targeting Tuanku Muhriz; individual recorded under Section 233 CMA 1998; MCMC warns all parties avoid 3R during campaign period. Utusan adds: individual called to IPD Seremban for statement recording. Cross-outlet: HarianMetro + Utusan = 2 outlets. Author: Fatin Norizati Mat Isa."
+    },
+    {
+      "entity": "DAP ketandusan idea (Akmal Saleh claim — Sinar related-link surfacing)",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "https://www.sinarharian.com.my/article/788678/berita/politik/tiada-arahan-letak-jawatan-hanya-kekalkan-disiplin-dan-profesionalisme---fahmi-fadzil",
+      "context": "SURFACE-LEVEL DETECTION — Sinar related-articles section surfaces headline: 'DAP ketandusan idea, bawa penipuan baharu pada PRN Negeri Sembilan - Akmal Saleh.' Umno Youth chief Akmal Saleh claims DAP has run out of ideas and is bringing 'new lies' to PRN NS. PIR-16 narrative: BN/Umno counter-attack on DAP. Full article not scraped this cycle — flagged for next-cycle extraction if content surfaces."
+    },
+    {
+      "entity": "DUN Chuah candidate selection dispute (Sinar related-link surfacing)",
+      "type": "narrative",
+      "pir_tag": "PIR-07",
+      "priority": "normal",
+      "source_url": "https://www.sinarharian.com.my/article/788678/berita/politik/tiada-arahan-letak-jawatan-hanya-kekalkan-disiplin-dan-profesionalisme---fahmi-fadzil",
+      "context": "SURFACE-LEVEL DETECTION — Sinar related-articles section: 'PH nafi dakwaan tak puas hati pemilihan calon DUN Chuah.' PH denies dissatisfaction over DUN Chuah candidate selection. Suggests internal PH friction over candidate picking for DUN Chuah. Full article not scraped — flagged for next-cycle monitoring."
+    },
+    {
+      "entity": "Aminuddin 'kekal di Sikamat' sentiment (Sinar related-link surfacing)",
+      "type": "narrative",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.sinarharian.com.my/article/788678/berita/politik/tiada-arahan-letak-jawatan-hanya-kekalkan-disiplin-dan-profesionalisme---fahmi-fadzil",
+      "context": "SURFACE-LEVEL DETECTION — Sinar related-articles section: 'Aminuddin disenangi, ramai masih harap beliau kekal di Sikamat.' Public sentiment that many still hope Aminuddin stays at Sikamat (his former seat, N.13, now vacated for Linggi challenge). Reinforces PIR-07 'fleeing Sikamat' context — Aminuddin's move from Sikamat to Linggi may be unpopular with local base. Full article not scraped — flagged for monitoring."
+    },
+    {
+      "entity": "EC postal ballots dispatch (13,263 ballots)",
+      "type": "narrative",
+      "pir_tag": "PIR-07",
+      "priority": "normal",
+      "source_url": "https://www.malaymail.com/news/malaysia/2026/07/20/anwar-orders-review-of-civil-service-promotions-after-officers-wait-up-to-eight-years/228310",
+      "context": "SURFACE-LEVEL DETECTION — MalayMail related-articles section: 'EC dispatches 13,263 postal ballots for Negeri Sembilan state polls.' Election Commission logistical milestone for PRN NS. Early voting 28 Jul, polling 1 Aug. Full article not scraped — election logistics data point."
+    },
+    {
+      "entity": "Fathi Aris (PH-UMNO/BN commentary — Sinar related-link surfacing)",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "https://www.sinarharian.com.my/article/788678/berita/politik/tiada-arahan-letak-jawatan-hanya-kekalkan-disiplin-dan-profesionalisme---fahmi-fadzil",
+      "context": "SURFACE-LEVEL DETECTION — Sinar related-articles section: 'PH tak punya hak untuk berasa tertipu dengan UMNO, BN - Fathi Aris.' Commentator Fathi Aris argues PH has no right to feel betrayed by UMNO/BN. PIR-16 narrative: pro-BN commentary framing coalition dynamics. Full article not scraped."
+    }
+  ],
+  "carry_forward_flags": {
+    "PDM Klawang shutdown/reopen": {
+      "status": "RESOLVED (active)",
+      "notes": "No new mention this cycle. Police investigation maintained from prior cycles."
+    },
+    "MCA rebuttal to Loke": {
+      "status": "RESOLVED",
+      "notes": "No new development. Wee responded in prior cycle."
+    },
+    "Derhaka Pertang friction": {
+      "status": "ESCALATED (counter-narrative active)",
+      "notes": "MCMC 3R enforcement targeting Tuanku Muhriz now corroborated by Utusan (2nd outlet). Royal-institution dimension reinforced. No explicit 'derhaka' language but 3R enforcement = real-world manifestation."
+    },
+    "Lebih hebat new coalition": {
+      "status": "NOT DETECTED",
+      "notes": "32nd cycle, no formalization."
+    },
+    "RoS complaint disrupting PN seat negotiations": {
+      "status": "NOT DETECTED",
+      "notes": "Seat allocation stable. No RoS action."
+    },
+    "Bersatu exit imminent": {
+      "status": "NOT CORROBORATED",
+      "notes": "32nd cycle. Bersatu's 24 solo-logo candidates STABLE. No withdrawals. No hard-news threshold headline."
+    },
+    "sasar bentuk kerjaan negeri": {
+      "status": "NOT CORROBORATED",
+      "notes": "32nd cycle. [CRITICAL] NOT crossed. PH 36 solo structurally clear; no explicit hard-news headline."
+    },
+    "Wan Saiful (Harian Metro)": {
+      "status": "NOT DETECTED",
+      "notes": "Harian Metro RSS working; entity not surfaced."
+    },
+    "Albert Tei": {
+      "status": "NOT DETECTED",
+      "notes": "Not surfaced in any cycle."
+    },
+    "Barking dogs": {
+      "status": "NOT DETECTED",
+      "notes": "Not surfaced in any cycle."
+    },
+    "BN manifesto launch 24 Jul DUN Linggi": {
+      "status": "CONFIRMED (upcoming)",
+      "notes": "Not yet occurred — next major PIR-07 event. PH manifesto launch (20 Jul) FULLY COVERED in prior extraction."
+    },
+    "PH manifesto launch 20 Jul evening": {
+      "status": "FULLY COVERED (RESOLVED)",
+      "notes": "Fully covered in dawn extraction (00:59)."
+    },
+    "Hamzah toxic PN volley": {
+      "status": "ACTIVE (carry, no new volley)",
+      "notes": "No new Hamzah/Marzuki volley. Carried forward."
+    },
+    "Fahmi-KJ exchange": {
+      "status": "ACTIVE — CORROBORATED (3rd outlet)",
+      "notes": "Sinar Harian now corroborates Fahmi-KJ exchange (FMT EN+BM were first 2 outlets). Narrative battle intensifying. Watch for KJ counter-response. 'Isyarat' framing explicitly used by Sinar."
+    },
+    "G Manivanan / DUN Jeram Padang (NEW)": {
+      "status": "NEW — CONFIRMED",
+      "notes": "PH candidate for DUN Jeram Padang now fully confirmed via Sinar body text. Was photo-caption-only in prior cycle. 4-cornered fight: PH / BN / Bersatu-solo / ASLI. Campaign event at Felda Palong 2 with Fahmi."
+    }
+  }
+}

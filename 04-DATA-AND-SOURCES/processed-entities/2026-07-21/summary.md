@@ -159,3 +159,52 @@ The 21 July dawn cycle (collected just after midnight MYT) covers the **PH manif
 ---
 
 *Dawn extraction completed 2026-07-21 00:59 MYT (UTC+8). 43 entities from 12 genuinely-new PRN-relevant articles. [CRITICAL] NOT crossed (31st cycle). PH manifesto launch PENDING flag RESOLVED (fully covered). Fahmi-KJ exchange = NEW active narrative thread. Anwar campaign schedule (Wed 22 Jul, Sikamat+Paroi) = next major PIR-07 watch event. BN manifesto launch 24 Jul at Linggi = upcoming PIR-07 event.*
+
+---
+
+## Earlyam Extraction Update — 03:15 MYT 21 Jul 2026
+
+**Generated:** 2026-07-21 03:15 +08 (MYT)
+**Cycle:** Earlyam (01:59 MYT 21 Jul) — Campaign Day 3, Cycle 2
+**Output:** `entities-20260721-0315.json` (11 entities extracted)
+**Prior extraction:** `entities-20260721-0059.json` (dawn cycle, 43 entities)
+**Sources processed:** Sinar Harian (2 articles), Utusan (1), MalayMail (1), HarianMetro (1 false positive)
+**Cycle assessment:** LOW-YIELD — alternate-outlet corroboration only; 0 genuinely new stories
+
+### Key Findings
+
+1. **G Manivanan / DUN Jeram Padang CONFIRMED (NEW)** — Sinar articles explicitly name G Manivanan as PH candidate for DUN Jeram Padang in body text. Previously appeared only as photo caption. 4-cornered fight: PH-Manivanan / BN / Bersatu-solo / ASLI-Dayana Yusof. Campaign event with Fahmi at Felda Palong 2 (Jempol), Monday 20 Jul.
+
+2. **Fahmi-KJ exchange corroborated by 3rd outlet** — Sinar Harian now covers the Fahmi-KJ narrative exchange (FMT EN+BM were first 2 outlets). Sinar uses explicit "isyarat" (signal) framing. KJ "Ada sesuatu yang tak kena dalam Kerajaan Perpaduan" quote surfaced in Sinar related links. Narrative battle confirmed multi-outlet.
+
+3. **Anwar discipline clarification corroborated by Sinar** — Same story as dawn FMT: no resignation order, only discipline/professionalism reminder. 3rd outlet confirmation.
+
+4. **MCMC 3R enforcement corroborated by Utusan** — 2nd outlet confirming MCMC+PDRM investigation of 3R content targeting Tuanku Muhriz. Utusan adds: individual called to IPD Seremban for statement recording.
+
+5. **Surface-level detections from Sinar related links** (flagged for next-cycle monitoring):
+   - Akmal Saleh: "DAP ketandusan idea, bawa penipuan baharu" — BN/Umno counter-attack on DAP
+   - DUN Chuah: PH denies dissatisfaction over candidate selection — internal friction signal
+   - Aminuddin "kekal di Sikamat": public sentiment many still hope Aminuddin stays at Sikamat — reinforces "fleeing Sikamat" PIR-07 context
+   - Fathi Aris: "PH tak punya hak rasa tertipu dengan UMNO/BN" — pro-BN commentary
+   - EC dispatches 13,263 postal ballots for PRN NS — election logistics milestone
+
+### [CRITICAL] Threshold Status
+
+**[CRITICAL] NOT CROSSED — 32nd consecutive cycle.** No "pecat/keluar/tarik diri," no Bersatu candidate withdrawal, no "lebih hebat" formalization, no RoS action. Bersatu's 24 solo-logo candidates remain stable. All escalations remain rhetoric/characterisations.
+
+### Entity Count (earlyam cycle)
+
+| Type | Count |
+|------|-------|
+| person | 4 |
+| seat | 1 |
+| narrative | 6 |
+| **Total** | **11** |
+
+*Of these: 2 genuinely new (G Manivanan, DUN Jeram Padang), 3 alternate-outlet corroborations, 6 surface-level detections from related-article links.*
+
+---
+
+**Combined day total (2026-07-21):** 43 (dawn) + 11 (earlyam) = **54 entities** across 2 extraction cycles.
+
+*Earlyam extraction completed 2026-07-21 03:15 MYT (UTC+8). 11 entities from 5 articles (0 genuinely new stories, 3 alternate-outlet corroborations, 1 new candidate confirmation). [CRITICAL] NOT crossed (32nd cycle). G Manivanan / DUN Jeram Padang = NEW confirmed candidate. Fahmi-KJ exchange now 3-outlet corroborated (FMT EN+BM + Sinar). Next watch: Anwar campaign Wed 22 Jul (Sikamat+Paroi); BN manifesto launch 24 Jul (Linggi).*

@@ -181,3 +181,41 @@ priority_PIR-06-PIR-07-PIR-16_Sinar_ph-juga-ada-pemimpin-melayu-islam-fahmi-fadz
 - `_gnews_headlines_20260721_earlyam.json` — 354 PRN/priority gnews headlines
 
 ---
+
+## Cycle 3: `predawn` (03:16 MYT 21 Jul) — SILENT CYCLE
+
+**Fetch script:** `_surge_fetch_20260721_predawn.py`
+**Cutoff:** 02:01 MYT 21 Jul 2026 (earlyam cycle end, 18:01 UTC 20 Jul)
+**Scanned:** 38 Google News queries (509 items) + 8 RSS feeds (620 items) + 9 homepage pages + The Vibes scan (125290–125330) + Sinar ID scan (789120–789200)
+**Saved:** 0 articles | **Duplicates skipped:** 82 | **CRITICAL:** 0 | **Fresh post-cutoff:** 0 gnews items
+
+### Assessment: SILENT CYCLE (0 new content)
+
+No genuinely new stories detected. Google News returned 0 items dated after 02:01 MYT 21 Jul — all 509 gnews items predate the earlyam cycle cutoff. Malaysian newsrooms in overnight quiet period (~02:00–06:00 MYT). All RSS full-text articles were duplicates of already-collected content (82 skipped). Homepage candidate links matched no uncollected PRN content. The Vibes gap continues (125290–125330: 0 found). Sinar ID scan 789120–789200: 0 PRN hits (all dead/non-PRN).
+
+**PIR-06 [CRITICAL] WATCH — 32nd cycle, still CLEAR:**
+- No formal PN-MT expulsion notice
+- No Bersatu candidate withdrawal
+- No Kiandee quorum escalation
+- No "lebih hebat" formalization
+- No RoS action against PN/Bersatu
+- Google News returning only historical articles (pre-cutoff)
+
+**PIR-16 [CRITICAL] WATCH — still CLEAR:**
+- No hard-news corroboration of "Bersatu exit imminent"
+- No hard-news corroboration of "sasar bentuk kerajaan negeri"
+
+### Source coverage notes
+- Awani RSS: ✅ working (10 items) | Awani-Politik RSS: ❌ no items | Awani homepage: ❌ down (rc=28)
+- FMT RSS: ✅ working (50 items, 40 PRN hits)
+- HarianMetro RSS: ✅ working (51 items, 42 PRN hits) | HarianMetro homepage: 0 candidate links
+- NST RSS: ❌ no items | MalayMail RSS: ❌ no items | Sinar RSS: ❌ no items | Utusan RSS: ❌ no items
+- Homepage: NST 8 links, MalayMail 21 links, Utusan 13 links, Sinar 12 links, Star 8 links, Kosmo 2 links (0 extracted — all already collected or non-PRN)
+- The Vibes scan 125290-125330: 0 new articles (gap continues — 4th consecutive empty range)
+- Sinar ID scan 789120-789200: 0 PRN hits (range exhausted)
+
+### Summary JSON
+- `_predawn_summary_20260721.json` — full cycle metadata
+- `_gnews_headlines_20260721_predawn.json` — 350 PRN/priority gnews headlines
+
+---
