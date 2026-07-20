@@ -1,0 +1,71 @@
+{
+  "cycle": "20260719_222800",
+  "cutoff_myt": "05:23",
+  "now_iso": "2026-07-19 22:30:42 UTC",
+  "results": [
+    {
+      "pir": "PIR-07",
+      "slug": "iraqi-pm-to-visit-iran-this-week-after-trip-to-us",
+      "file": "priority_pir-07_iraqi-pm-to-visit-iran-this-week-after-trip-to-us_20260719_222800.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 1373,
+      "title": "Iraqi PM to visit Iran this week after trip to US",
+      "final": "https://www.freemalaysiatoday.com/category/world/2026/07/20/iraqi-pm-to-visit-iran-this-week-after-trip-to-us",
+      "pub": "Sun, 19 Jul 2026 21:41:21 +0000",
+      "mode": "FMT-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-16",
+      "slug": "argentina-sepanyol-buntu-cipta-jaringan-fernandez-kena-kad-merah",
+      "file": "priority_pir-16_argentina-sepanyol-buntu-cipta-jaringan-fernandez-kena-kad-merah_20260719_222800.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 566,
+      "title": "Argentina, Sepanyol buntu cipta jaringan, Fernandez kena kad merah",
+      "final": "https://www.bharian.com.my/sukan/bola/2026/07/1590600/argentina-sepanyol-buntu-cipta-jaringan-fernandez-kena-kad-merah",
+      "pub": "Mon, 20 Jul 2026 05:29:45 +0000",
+      "mode": "BH-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-06",
+      "slug": "torres-hadiahkan-sepanyol-mahkota-dunia-messi-kecewa",
+      "file": "priority_pir-06_torres-hadiahkan-sepanyol-mahkota-dunia-messi-kecewa_20260719_222800.md",
+      "http": "200",
+      "ok": false,
+      "body_len": 0,
+      "title": "Torres hadiahkan Sepanyol mahkota dunia, Messi kecewa",
+      "final": "https://www.utusan.com.my/terkini/2026/07/torres-hadiahkan-sepanyol-mahkota-dunia-messi-kecewa/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=torres-hadiahkan-sepanyol-mahkota-dunia-messi-kecewa",
+      "pub": "Sun, 19 Jul 2026 22:13:56 +0000",
+      "mode": "UTUSAN-rss",
+      "fresh": true
+    }
+  ],
+  "fresh_items": [
+    {
+      "source": "FMT",
+      "title": "Iraqi PM to visit Iran this week after trip to US",
+      "pub": "Sun, 19 Jul 2026 21:41:21 +0000",
+      "url": "https://www.freemalaysiatoday.com/category/world/2026/07/20/iraqi-pm-to-visit-iran-this-week-after-trip-to-us",
+      "pir": "PIR-07"
+    },
+    {
+      "source": "BH",
+      "title": "Argentina, Sepanyol buntu cipta jaringan, Fernandez kena kad merah",
+      "pub": "Mon, 20 Jul 2026 05:29:45 +0000",
+      "url": "https://www.bharian.com.my/sukan/bola/2026/07/1590600/argentina-sepanyol-buntu-cipta-jaringan-fernandez-kena-kad-merah",
+      "pir": "PIR-16"
+    },
+    {
+      "source": "UTUSAN",
+      "title": "Torres hadiahkan Sepanyol mahkota dunia, Messi kecewa",
+      "pub": "Sun, 19 Jul 2026 22:13:56 +0000",
+      "url": "https://www.utusan.com.my/terkini/2026/07/torres-hadiahkan-sepanyol-mahkota-dunia-messi-kecewa/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=torres-hadiahkan-sepanyol-mahkota-dunia-messi-kecewa",
+      "pir": "PIR-06"
+    }
+  ],
+  "results_count": 3,
+  "fresh_count": 3
+}

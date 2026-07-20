@@ -1,0 +1,15 @@
+# [PRIORITY PIR-07] spain-deserved-to-win-world-cup-says-scaloni
+Source URL: https://www.nst.com.my/sports/football/2026/07/1492832/spain-deserved-win-world-cup-says-scaloni
+Final/redirected URL: https://www.nst.com.my/sports/football/2026/07/1492832/spain-deserved-win-world-cup-says-scaloni
+Collected: 20260719 20260719_233400 UTC (2026-07-19 23:36:02 UTC) | MYT: 07:36 MYT 20 Jul 2026
+Classification: TLP:AMBER
+HTTP: 200 | mode: NST-rss-content
+Note: Full text from NST RSS content:encoded (no curl fetch needed)
+Title: Spain deserved to win World Cup, says Scaloni
+ArticlePubDate: Mon, 20 Jul 2026 06:54:55 +0800
+Body chars: 2000
+
+## Full text
+==============================================================================
+EAST RUTHERFORD: Argentina coach Lionel Scaloni admitted Spain were the better team following his team's 1-0 extra-time defeat in the 2026 World Cup final on Sunday. Substitute Ferran Torres scored in the second period of extra-time as Spain finally broke down 10-man Argentina to win 1-0 at the MetLife Stadium. The South American champions, featuring star player Lionel Messi, had been seeking to become the first team since 1962 to win back-to-back World Cups. "They were the better side – that's the truth – but I'll cherish the memory of them (his side), of what they achieved, and of the value of making it this far," Scaloni said. "We have to place immense value on this because it takes so much effort." Scaloni said his team must accept defeat with the same grace they showed when celebrating recent successes. "We are gracious in victory, and we must be gracious in defeat. Today, we are showing that we know how to lose," he said. "We lost the match and we accept it, but that doesn't mean we stop living or forget everything we did to get here." He thanked the fans for their incredible support throughout the 2026 tournament. "To the people, my players, and the country, I want to say that we gave it our all," he said. "We arrived here facing a realistic situation, but if the players leave everything on the pitch, as they did today, it sets a great example for our people and our country. "We have to pick ourselves up again, there is no other way," he added. Scaloni, 48, said the side's achievement in reaching a second successive final should be appreciated. "I certainly value the runners-up spot because it takes so much to get here, and I think it deserves huge recognition," he said. "Naturally, we would have liked to win, but ultimately, I feel gratitude. That is the only word I have, along with sadness, of course. "But when you give everything like that, regardless of whether you play well or poorly, it's very hard to find fault." - AFP © New Straits Times Press (M) Bhd
+==============================================================================

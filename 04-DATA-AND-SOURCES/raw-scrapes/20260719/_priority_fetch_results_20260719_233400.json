@@ -1,0 +1,313 @@
+{
+  "cycle": "20260719_233400",
+  "cutoff_myt": "06:28",
+  "now_iso": "2026-07-19 23:36:02 UTC",
+  "results": [
+    {
+      "pir": "PIR-07",
+      "slug": "spain-deserved-to-win-world-cup-says-scaloni",
+      "file": "priority_pir-07_spain-deserved-to-win-world-cup-says-scaloni_20260719_233400.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 2000,
+      "title": "Spain deserved to win World Cup, says Scaloni",
+      "final": "https://www.nst.com.my/sports/football/2026/07/1492832/spain-deserved-win-world-cup-says-scaloni",
+      "pub": "Mon, 20 Jul 2026 06:54:55 +0800",
+      "mode": "NST-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-07",
+      "slug": "fahmi-ensure-jalur-gemilang-is-correctly-depicted-in-ai-content",
+      "file": "priority_pir-07_fahmi-ensure-jalur-gemilang-is-correctly-depicted-in-ai-content_20260719_233400.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 1926,
+      "title": "Fahmi: Ensure Jalur Gemilang is correctly depicted in AI content",
+      "final": "https://www.nst.com.my/news/nation/2026/07/1492830/fahmi-ensure-jalur-gemilang-correctly-depicted-ai-content",
+      "pub": "Mon, 20 Jul 2026 06:50:09 +0800",
+      "mode": "NST-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-07",
+      "slug": "scaloni-akui-sepanyol-layak-muncul-juara",
+      "file": "priority_pir-07_scaloni-akui-sepanyol-layak-muncul-juara_20260719_233400.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 2364,
+      "title": "Scaloni akui Sepanyol layak muncul juara",
+      "final": "https://www.bharian.com.my/sukan/bola/2026/07/1590624/scaloni-akui-sepanyol-layak-muncul-juara",
+      "pub": "Mon, 20 Jul 2026 07:10:10 +0000",
+      "mode": "BH-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-16",
+      "slug": "final-piala-dunia-berakhir-dengan-kekecohan",
+      "file": "priority_pir-16_final-piala-dunia-berakhir-dengan-kekecohan_20260719_233400.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 1938,
+      "title": "Final Piala Dunia berakhir dengan kekecohan",
+      "final": "https://www.bharian.com.my/sukan/bola/2026/07/1590620/final-piala-dunia-berakhir-dengan-kekecohan",
+      "pub": "Mon, 20 Jul 2026 07:04:05 +0000",
+      "mode": "BH-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-06+PIR-16",
+      "slug": "isu-tuntutan-bertindih-malaysia-pasang-radar-di-pulau-layang-layang-perkukuh-keu",
+      "file": "priority_pir-06-pir-16_isu-tuntutan-bertindih-malaysia-pasang-radar-di-pulau-layang-layang-perkukuh-keu_20260719_233400.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 2408,
+      "title": "Isu tuntutan bertindih: Malaysia pasang radar di Pulau Layang-Layang, perkukuh keupayaan pengawasan - Khaled Nordin",
+      "final": "https://www.bharian.com.my/berita/nasional/2026/07/1590616/isu-tuntutan-bertindih-malaysia-pasang-radar-di-pulau-layang-layang",
+      "pub": "Mon, 20 Jul 2026 07:01:32 +0000",
+      "mode": "BH-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-07",
+      "slug": "malaysia-berhasrat-jadi-tuan-rumah-piala-dunia-ahmad-zahid",
+      "file": "priority_pir-07_malaysia-berhasrat-jadi-tuan-rumah-piala-dunia-ahmad-zahid_20260719_233400.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 1589,
+      "title": "Malaysia berhasrat jadi tuan rumah Piala Dunia - Ahmad Zahid",
+      "final": "https://www.bharian.com.my/berita/nasional/2026/07/1590608/malaysia-berhasrat-jadi-tuan-rumah-piala-dunia-ahmad-zahid",
+      "pub": "Mon, 20 Jul 2026 06:30:20 +0000",
+      "mode": "BH-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-07",
+      "slug": "gaharu-pelaburan-senyap-yang-berbaloi",
+      "file": "priority_pir-07_gaharu-pelaburan-senyap-yang-berbaloi_20260719_233400.md",
+      "http": "200",
+      "ok": false,
+      "body_len": 0,
+      "title": "Gaharu: Pelaburan senyap yang berbaloi",
+      "final": "https://www.utusan.com.my/ekonomi/2026/07/gaharu-pelaburan-senyap-yang-berbaloi/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=gaharu-pelaburan-senyap-yang-berbaloi",
+      "pub": "Sun, 19 Jul 2026 23:35:20 +0000",
+      "mode": "UTUSAN-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-07",
+      "slug": "avc-sasar-pacu-modal-alternatif-rai-potensi-pelaburan-johor",
+      "file": "priority_pir-07_avc-sasar-pacu-modal-alternatif-rai-potensi-pelaburan-johor_20260719_233400.md",
+      "http": "200",
+      "ok": false,
+      "body_len": 0,
+      "title": "AVC sasar pacu modal alternatif, rai potensi pelaburan Johor",
+      "final": "https://www.utusan.com.my/ekonomi/2026/07/avc-sasar-pacu-modal-alternatif-rai-potensi-pelaburan-johor/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=avc-sasar-pacu-modal-alternatif-rai-potensi-pelaburan-johor",
+      "pub": "Sun, 19 Jul 2026 23:32:20 +0000",
+      "mode": "UTUSAN-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-16",
+      "slug": "serangan-balas-amerika-iran-makin-sengit-di-asia-barat",
+      "file": "priority_pir-16_serangan-balas-amerika-iran-makin-sengit-di-asia-barat_20260719_233400.md",
+      "http": "200",
+      "ok": false,
+      "body_len": 0,
+      "title": "Serangan balas Amerika-Iran makin sengit di Asia Barat",
+      "final": "https://www.utusan.com.my/luar-negara/2026/07/serangan-balas-amerika-iran-makin-sengit-di-asia-barat/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=serangan-balas-amerika-iran-makin-sengit-di-asia-barat",
+      "pub": "Sun, 19 Jul 2026 23:30:05 +0000",
+      "mode": "UTUSAN-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-06+PIR-16",
+      "slug": "semangat-kekeluargaan-kunci-kejayaan-sepanyol-juara-piala-dunia",
+      "file": "priority_pir-06-pir-16_semangat-kekeluargaan-kunci-kejayaan-sepanyol-juara-piala-dunia_20260719_233400.md",
+      "http": "200",
+      "ok": false,
+      "body_len": 0,
+      "title": "Semangat kekeluargaan kunci kejayaan Sepanyol juara Piala Dunia",
+      "final": "https://www.utusan.com.my/terkini/2026/07/semangat-kekeluargaan-kunci-kejayaan-sepanyol-juara-piala-dunia/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=semangat-kekeluargaan-kunci-kejayaan-sepanyol-juara-piala-dunia",
+      "pub": "Sun, 19 Jul 2026 23:25:53 +0000",
+      "mode": "UTUSAN-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-07",
+      "slug": "sepanyol-sememangnya-lebih-baik-scaloni",
+      "file": "priority_pir-07_sepanyol-sememangnya-lebih-baik-scaloni_20260719_233400.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 2358,
+      "title": "Sepanyol sememangnya lebih baik - Scaloni",
+      "final": "https://www.hmetro.com.my/arena/bola-sepak/2026/07/1386753/sepanyol-sememangnya-lebih-baik-scaloni",
+      "pub": "Mon, 20 Jul 2026 07:31:58 +0000",
+      "mode": "METRO-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-16",
+      "slug": "air-mata-messi-mengalir-selepas-gagal-pertahan-piala-dunia",
+      "file": "priority_pir-16_air-mata-messi-mengalir-selepas-gagal-pertahan-piala-dunia_20260719_233400.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 3251,
+      "title": "Air mata Messi mengalir selepas gagal pertahan Piala Dunia",
+      "final": "https://www.hmetro.com.my/arena/bola-sepak/2026/07/1386751/air-mata-messi-mengalir-selepas-gagal-pertahan-piala-dunia",
+      "pub": "Mon, 20 Jul 2026 07:22:33 +0000",
+      "mode": "METRO-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-06+PIR-16",
+      "slug": "torres-hadiahkan-gol-kemenangan-buat-47-juta-rakyat-sepanyol",
+      "file": "priority_pir-06-pir-16_torres-hadiahkan-gol-kemenangan-buat-47-juta-rakyat-sepanyol_20260719_233400.md",
+      "http": "200",
+      "ok": true,
+      "body_len": 1384,
+      "title": "Torres hadiahkan gol kemenangan buat 47 juta rakyat Sepanyol",
+      "final": "https://www.hmetro.com.my/arena/bola-sepak/2026/07/1386730/torres-hadiahkan-gol-kemenangan-buat-47-juta-rakyat-sepanyol",
+      "pub": "Mon, 20 Jul 2026 06:45:30 +0000",
+      "mode": "METRO-rss",
+      "fresh": true
+    },
+    {
+      "pir": "PIR-06",
+      "slug": "khaled-urges-voters-to-ensure-repeat-of-bersatu-s-johor-wipeout-in-ns",
+      "file": "priority_pir-06_khaled-urges-voters-to-ensure-repeat-of-bersatu-s-johor-wipeout-in-ns_20260719_233400.md",
+      "http": "gnews",
+      "ok": false,
+      "body_len": 0,
+      "title": "Khaled urges voters to ensure repeat of Bersatu’s Johor wipeout in NS",
+      "final": "https://news.google.com/rss/search?q=khaled+bersatu+KO+when:3d&hl=en-MY&gl=MY&ceid=MY:en",
+      "pub": "Sun, 19 Jul 2026 23:12:42 GMT",
+      "mode": "gnews-headline",
+      "source": "Free Malaysia Today",
+      "fresh": false
+    },
+    {
+      "pir": "PIR-07",
+      "slug": "police-approve-19-permits-as-negeri-sembilan-campaigns-get-under-way",
+      "file": "priority_pir-07_police-approve-19-permits-as-negeri-sembilan-campaigns-get-under-way_20260719_233400.md",
+      "http": "gnews",
+      "ok": false,
+      "body_len": 0,
+      "title": "Police approve 19 permits as Negeri Sembilan campaigns get under way",
+      "final": "https://news.google.com/rss/search?q=ceramah+Negeri+Sembilan+when:3d&hl=en-MY&gl=MY&ceid=MY:en",
+      "pub": "Sun, 19 Jul 2026 03:00:00 GMT",
+      "mode": "gnews-headline",
+      "source": "Malay Mail",
+      "fresh": false
+    },
+    {
+      "pir": "PIR-07+PIR-16",
+      "slug": "anthony-loke-coming-baptism-of-fire-in-the-negeri-sembilan-polls",
+      "file": "priority_pir-07-pir-16_anthony-loke-coming-baptism-of-fire-in-the-negeri-sembilan-polls_20260719_233400.md",
+      "http": "gnews",
+      "ok": false,
+      "body_len": 0,
+      "title": "Anthony Loke Coming Baptism of Fire in The Negeri Sembilan Polls",
+      "final": "https://news.google.com/rss/search?q=ceramah+Negeri+Sembilan+when:3d&hl=en-MY&gl=MY&ceid=MY:en",
+      "pub": "Sat, 18 Jul 2026 08:30:54 GMT",
+      "mode": "gnews-headline",
+      "source": "Newswav",
+      "fresh": false
+    }
+  ],
+  "fresh_items": [
+    {
+      "source": "NST",
+      "title": "Spain deserved to win World Cup, says Scaloni",
+      "pub": "Mon, 20 Jul 2026 06:54:55 +0800",
+      "url": "https://www.nst.com.my/sports/football/2026/07/1492832/spain-deserved-win-world-cup-says-scaloni",
+      "pir": "PIR-07"
+    },
+    {
+      "source": "NST",
+      "title": "Fahmi: Ensure Jalur Gemilang is correctly depicted in AI content",
+      "pub": "Mon, 20 Jul 2026 06:50:09 +0800",
+      "url": "https://www.nst.com.my/news/nation/2026/07/1492830/fahmi-ensure-jalur-gemilang-correctly-depicted-ai-content",
+      "pir": "PIR-07"
+    },
+    {
+      "source": "BH",
+      "title": "Scaloni akui Sepanyol layak muncul juara",
+      "pub": "Mon, 20 Jul 2026 07:10:10 +0000",
+      "url": "https://www.bharian.com.my/sukan/bola/2026/07/1590624/scaloni-akui-sepanyol-layak-muncul-juara",
+      "pir": "PIR-07"
+    },
+    {
+      "source": "BH",
+      "title": "Final Piala Dunia berakhir dengan kekecohan",
+      "pub": "Mon, 20 Jul 2026 07:04:05 +0000",
+      "url": "https://www.bharian.com.my/sukan/bola/2026/07/1590620/final-piala-dunia-berakhir-dengan-kekecohan",
+      "pir": "PIR-16"
+    },
+    {
+      "source": "BH",
+      "title": "Isu tuntutan bertindih: Malaysia pasang radar di Pulau Layang-Layang, perkukuh keupayaan pengawasan - Khaled Nordin",
+      "pub": "Mon, 20 Jul 2026 07:01:32 +0000",
+      "url": "https://www.bharian.com.my/berita/nasional/2026/07/1590616/isu-tuntutan-bertindih-malaysia-pasang-radar-di-pulau-layang-layang",
+      "pir": "PIR-06+PIR-16"
+    },
+    {
+      "source": "BH",
+      "title": "Malaysia berhasrat jadi tuan rumah Piala Dunia - Ahmad Zahid",
+      "pub": "Mon, 20 Jul 2026 06:30:20 +0000",
+      "url": "https://www.bharian.com.my/berita/nasional/2026/07/1590608/malaysia-berhasrat-jadi-tuan-rumah-piala-dunia-ahmad-zahid",
+      "pir": "PIR-07"
+    },
+    {
+      "source": "UTUSAN",
+      "title": "Gaharu: Pelaburan senyap yang berbaloi",
+      "pub": "Sun, 19 Jul 2026 23:35:20 +0000",
+      "url": "https://www.utusan.com.my/ekonomi/2026/07/gaharu-pelaburan-senyap-yang-berbaloi/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=gaharu-pelaburan-senyap-yang-berbaloi",
+      "pir": "PIR-07"
+    },
+    {
+      "source": "UTUSAN",
+      "title": "AVC sasar pacu modal alternatif, rai potensi pelaburan Johor",
+      "pub": "Sun, 19 Jul 2026 23:32:20 +0000",
+      "url": "https://www.utusan.com.my/ekonomi/2026/07/avc-sasar-pacu-modal-alternatif-rai-potensi-pelaburan-johor/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=avc-sasar-pacu-modal-alternatif-rai-potensi-pelaburan-johor",
+      "pir": "PIR-07"
+    },
+    {
+      "source": "UTUSAN",
+      "title": "Serangan balas Amerika-Iran makin sengit di Asia Barat",
+      "pub": "Sun, 19 Jul 2026 23:30:05 +0000",
+      "url": "https://www.utusan.com.my/luar-negara/2026/07/serangan-balas-amerika-iran-makin-sengit-di-asia-barat/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=serangan-balas-amerika-iran-makin-sengit-di-asia-barat",
+      "pir": "PIR-16"
+    },
+    {
+      "source": "UTUSAN",
+      "title": "Semangat kekeluargaan kunci kejayaan Sepanyol juara Piala Dunia",
+      "pub": "Sun, 19 Jul 2026 23:25:53 +0000",
+      "url": "https://www.utusan.com.my/terkini/2026/07/semangat-kekeluargaan-kunci-kejayaan-sepanyol-juara-piala-dunia/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=semangat-kekeluargaan-kunci-kejayaan-sepanyol-juara-piala-dunia",
+      "pir": "PIR-06+PIR-16"
+    },
+    {
+      "source": "METRO",
+      "title": "Sepanyol sememangnya lebih baik - Scaloni",
+      "pub": "Mon, 20 Jul 2026 07:31:58 +0000",
+      "url": "https://www.hmetro.com.my/arena/bola-sepak/2026/07/1386753/sepanyol-sememangnya-lebih-baik-scaloni",
+      "pir": "PIR-07"
+    },
+    {
+      "source": "METRO",
+      "title": "Air mata Messi mengalir selepas gagal pertahan Piala Dunia",
+      "pub": "Mon, 20 Jul 2026 07:22:33 +0000",
+      "url": "https://www.hmetro.com.my/arena/bola-sepak/2026/07/1386751/air-mata-messi-mengalir-selepas-gagal-pertahan-piala-dunia",
+      "pir": "PIR-16"
+    },
+    {
+      "source": "METRO",
+      "title": "Torres hadiahkan gol kemenangan buat 47 juta rakyat Sepanyol",
+      "pub": "Mon, 20 Jul 2026 06:45:30 +0000",
+      "url": "https://www.hmetro.com.my/arena/bola-sepak/2026/07/1386730/torres-hadiahkan-gol-kemenangan-buat-47-juta-rakyat-sepanyol",
+      "pir": "PIR-06+PIR-16"
+    }
+  ],
+  "results_count": 16,
+  "fresh_count": 13
+}
