@@ -655,3 +655,66 @@ priority_PIR-07-PIR-16_Utusan_prn-n-sembilan-gandingan-pm-anwar-mb-aminuddin-ser
 - `_gnews_headlines_20260721_noon.json` — 334 PRN/priority gnews headlines
 
 ---
+
+## Cycle: Evening — 2026-07-21 18:00–18:25 MYT
+
+**Cutoff:** Articles published after 11:14 MYT (noon cycle end)
+**Articles collected:** 13 (all PRIORITY-tagged)
+**Sources:** Astro Awani (berita-politik), FMT Bahasa (RSS), FMT English (RSS), Utusan (nasional)
+**[CRITICAL] alerts:** None — no Bersatu candidate withdrawal in Tier-4 seats
+
+### PIR-06 — Coalition Operational Arrangement (7 articles)
+**Key intelligence:**
+- BN-PN machinery coordination confirmed operational at Pertang (Jalaluddin) and Gemas (grassroots anger subsiding by day 4)
+- Two senior PAS leaders (Hadi + VP Idris Ahmad) publicly signal **long-term BN-PN realignment** — not limited to NS election. "Continue all the way to the end"
+- Hadi explicitly accuses **Bersatu of "hampering efforts to wrest NS from PH"** — strongest direct attack to date. Calls critics "jahil murakab"
+- Bersatu's **Hanifah (Ketua Pembangkang/Opposition Leader)** counter-attacks: accuses PAS of **"betrayal"** for not defending Labu incumbent seat. Positions Bersatu as **"kingmaker"**
+- Sanjeevan frames BN-PAS cooperation as **liability for BN** — may cost traditional Indian/Chinese votes (Jeram Padang: 51% Malay, 34% Indian)
+- Zahid denies BN-PN-GPS-GRS meeting rumor — but signals speculation about broader realignment
+
+### PIR-07 — NS Battlegrounds (6 articles)
+**Constituencies covered:** Sikamat (N.01), Klawang (N.15), Pertang (N.26), Jeram Padang (N.27), Labu (N.25), Gemas (N.36)
+- **Sikamat:** 3-cornered — PH Nor Azman vs PN/Wawasan Razali Abu Samah vs Bersatu Tun Faisal. Wawasan has no local branches. BN-PAS supporters disappointed seat went to Wawasan. Bersatu logo confusion (red = confused with PH). Local issues: jobs, housing, aging infrastructure
+- **Klawang:** 3-cornered — PH Bakri Sawir (incumbent, won 2023 by 577) vs PN Danni Rais vs Bersatu Adib Musa. Bakri claims Umno "betrayed" him in 2023. Umno ops rooms reportedly closed. Water supply issue after rain. Targeting >1,000 majority
+- **Jeram Padang:** 4-cornered — BN Zaidy (incumbent) vs PH Manivannan vs Bersatu Sanjeevan vs Asli Dayana. PH accuses BN of using balai raya for campaigning — preparing SPR complaint + police report
+- **Labu:** 3-cornered — Bersatu Hanifah (incumbent, won 2023 by 1,640 on PN ticket) vs PH Ahmad Faez vs BN Siti Nur Umaira. Hanifah defending under Bersatu logo
+- **Gemas:** 3-cornered — PN/Wawasan Ridzuan (incumbent, won 2023 by 3,120) vs Bersatu Azman Abdullah vs PH Siti Aishah. BN grassroots anger subsiding
+- **Pertang:** BN-PN joint campaign at Felda Pasoh 1 — Jalaluddin confirms cross-coalition machinery sharing
+
+### PIR-16 — Campaign Narrative Evolution (5 articles)
+- **Anwar-Zahid resignation narrative escalates:** Zahid's "pecat sahaja kalau tak suka" (just sack if you don't like it) — phase 4 of chain: Anwar warns → Tok Mat ready → Fahmi clarifies → Zahid defiant
+- **BN manifesto launch confirmed Friday 24 Jul** by Zahid — covers welfare, development, economy, education, 50,000 jobs, housing, youth, Orang Asli, Malay rulers institution
+- BN frames itself as **"underdog"** with only 14 seats before dissolution
+- Zahid pushes **media fairness** narrative — claims blackout against certain candidates
+- PH 24-seat two-thirds majority target vs BN "at least 23" target — direct numerical competition
+
+### New Narratives Emerging
+1. **Bersatu "kingmaker" strategy** (Hanifah) — positions Bersatu as decisive swing force
+2. **PAS "betrayal" counter-narrative** — Bersatu's response to Hadi's attacks
+3. **BN-PN long-term realignment signaling** (Hadi + Idris Ahmad) — NS formula as Muafakat 2.0 pilot
+4. **BN-PAS as electoral liability for BN** (Sanjeevan) — non-Malay voter erosion
+5. **DUN dissolution blame game** (Hanifah) — PH-BN "power greed" caused early election
+6. **Umno "betrayal" at Klawang** (Bakri) — Umno didn't vote for PH ally in 2023
+7. **Campaign offence escalation** (Manivannan) — SPR complaint + police report against BN
+
+### Files Saved (13)
+```
+priority_PIR-06-PIR-07_Awani_prn-negeri-sembilan-kemarahan-awal-jentera-bn-di-gemas-mula-kendur_20260721_evening.md
+priority_PIR-16_Awani_prn-negeri-sembilan-ahmad-zahid-mahu-liputan-media-sama-rata-untuk-semua-calon_20260721_evening.md
+priority_PIR-16_Awani_prn-negeri-sembilan-ahmad-zahid-mahu-jentera-ganda-usaha-bn-masih-parti-underdog_20260721_evening.md
+priority_PIR-16_FMT_pecat-sahaja-kalau-tak-suka-kata-zahid_20260721_evening.md
+priority_PIR-06_FMT_kerjasama-bn-pn-bukan-permainan-politik-kata-hadi_20260721_evening.md
+priority_PIR-06-PIR-07_FMT_tanpa-pas-peluang-bersatu-di-n-sembilan-lebih-cerah-kata-sanjeevan_20260721_evening.md
+priority_PIR-06-PIR-07-PIR-16_FMT_jalaluddin-dakwa-kerjasama-bn-pn-semakin-kukuh-berpeluang-menang-prn-ns_20260721_evening.md
+priority_PIR-07_FMT_penyokong-bn-pas-mungkin-kecewa-wawasan-tanding-sikamat-kata-tun-faisal_20260721_evening.md
+priority_PIR-06_FMT_zahid-nafi-pertemuan-bn-pn-gps-grs_20260721_evening.md
+priority_PIR-07_FMT_calon-ph-jeram-padang-dakwa-bn-kempen-guna-aset-kerajaan_20260721_evening.md
+priority_PIR-07_FMT_umno-tak-undi-saya-dahulu-pakatan-bn-pn-bukan-ancaman-kata-bakri_20260721_evening.md
+priority_PIR-06_FMT_pas-veep-hopeful-of-long-term-bn-pn-pact_20260721_evening.md
+priority_PIR-06-PIR-07_Awani_hanifah-sasar-bersatu-jadi-kingmaker-dakwa-ph-bn-tamak-kuasa_20260721_evening.md
+```
+
+### Summary JSON
+- `scratch/_evening_summary_20260721.json` — full cycle metadata
+
+---
