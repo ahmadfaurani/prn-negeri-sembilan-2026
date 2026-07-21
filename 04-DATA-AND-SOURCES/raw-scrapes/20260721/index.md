@@ -302,3 +302,83 @@ No genuinely new stories detected. This is the **3rd consecutive fully-silent cy
 - `_gnews_headlines_20260721_morning.json` — 356 PRN/priority gnews headlines
 
 ---
+
+## Cycle 6: `midmorning` (07:02 MYT 21 Jul) — SILENT CYCLE
+
+**Fetch script:** `_surge_fetch_20260721_midmorning.py`
+**Cutoff:** 05:53 MYT 21 Jul 2026 (morning cycle end, 21:53 UTC 20 Jul)
+**Scanned:** 53 Google News queries (532 items) + 8 RSS feeds (643 items) + 9 homepage pages + The Vibes scan (125410–125450) + Sinar ID scan (789340–789400)
+**Saved:** 15 articles (ALL false positives) | **Duplicates skipped:** 66 | **CRITICAL:** 0 | **Fresh post-cutoff (gnews):** 0
+
+### Assessment: SILENT CYCLE (0 genuinely new PRN content) — 4th consecutive fully-silent cycle
+
+No genuinely new PRN Negeri Sembilan stories detected. This is the **4th consecutive fully-silent cycle** (predawn → earlymorning → morning → midmorning), all returning 0 fresh PRN content. Google News returned 0 items dated after 05:53 MYT 21 Jul across 53 queries (incl. 8 daylight-specific Day-3 angles) — all 532 gnews items predate the morning cycle cutoff. All 15 saved articles are false positives matching PIR keyword substrings on incidental tokens (`pn` in "penjenayah", `hadi` in context, `wee` in "week", etc.).
+
+**HarianMetro RSS — 10 fresh items published post-cutoff (all NON-PRN):** The HarianMetro RSS feed published 10 items between 05:59–07:05 MYT 21 Jul, but none are PRN-relevant:
+- 07:05 "Mata buta tapi 'celik' al-Quran" (general/inspirational)
+- 07:00 "Laut ajar Ain tenang" (entertainment)
+- 06:31 "'Aku nak kerja, dia sesak nafas'" (human interest)
+- 06:30 "Penjenayah siber 'dagang' data pesakit" (cybercrime — false positive on `pn`≤`penjenayah`)
+- 06:30 "Yes! Captain Zul Aaryan kini di slot Akasia TV3" (entertainment)
+- 06:20 "Kokuho bawa magis Kabuki ke layar Malaysia" (entertainment)
+- 06:00 "Aina sedia 'all out' di AJL40" (entertainment)
+- 05:59 "Ketika dunia pantas berlari, hati perlu berhenti" (religious/lifestyle)
+- 05:59 "Diam bukan bererti lemah" (opinion)
+- 00:59 "Penjimatan penyasaran subsidi RON95..." (federal fiscal — already collected earlyam)
+
+**FMT RSS — 3 fresh items published post-cutoff (all NON-PRN):**
+- 06:06 "Tate brothers to fight politically motivated UK extradition" (international — false positive on `pn`)
+- 05:58 "Ceferin skipped World Cup final reportedly to show disapproval of Fifa" (sports)
+- 05:57 "Zelensky faces deepening political crisis as protests dig in" (international)
+
+**Homepage URL-lookup verification:** All 11 PRN-relevant candidate URLs surfaced on Sinar (10) + MalayMail (1) homepages were cross-checked against the 498-URL collection index — **all 11 already COLLECTED** in prior cycles. High-value articles already on file: MCA-KWAP-eFishery, Calon wanita PKR Gemas, DAP ketandusan idea-Akmal Saleh, PH jual prestasi BN PN-penyatuan Melayu Islam, 30000 pekerjaan-manifesto PH, SPR 13263 kertas undi pos, PH tawar manifesto-Aminuddin, Manifesto PH-Aminuddin, Selepas Johor Rafizi Melaka, Menggelupur-Akmal bidas AMK, Pakatan tailors campaign strategies-Loke (MalayMail). The 0-extracted homepage result is CORRECT — dedup working as designed.
+
+**Freshest genuinely-PRN article:** "PRN N9: MCMC aktifkan Pusat Pemantauan Rangkaian" published ~00:20 MYT 21 Jul — already collected in dawn cycle. No new PRN content published in the 05:53–07:05 MYT window.
+
+**PIR-06 [CRITICAL] WATCH — 35th cycle, still CLEAR:**
+- No formal PN-MT expulsion notice
+- No Bersatu candidate withdrawal
+- No Kiandee quorum escalation
+- No "lebih hebat" formalization
+- No RoS action against PN/Bersatu
+- Google News returning only historical articles (Kiandee quorum 11 Jul, Ridzuan Ahmad quits Bersatu 11 Jul, Wawasan PN component 14–15 Jul, Muhyiddin "sole opposition" 18 Jul)
+
+**PIR-16 [CRITICAL] WATCH — still CLEAR:**
+- No hard-news corroboration of "Bersatu exit imminent"
+- No hard-news corroboration of "sasar bentuk kerajaan negeri"
+- Loke DAP-congress pickup unchanged (FMT 20 Jul 11:07 UTC, CNA 16 Jul, MalayMail 17 Jul — all pre-cutoff)
+- Fahmi-KJ narrative exchange stable (captured dawn cycle; no fresh angles)
+
+### Source coverage notes
+- Awani RSS: ✅ working (10 items, latest 04:32 MYT 21 Jul — pre-cutoff) | Awani homepage: ❌ rc=28 (wrong domain `.com.my` — should use `.com`)
+- FMT RSS: ✅ working (50 items, 3 fresh post-cutoff — all non-PRN international/sports)
+- HarianMetro RSS: ✅ working (51 items, 10 fresh post-cutoff — all non-PRN entertainment/lifestyle/general; RSS timezone +00:00 but actual times are MYT)
+- NST RSS: ❌ returns HTML not XML (persistent) | MalayMail RSS: ❌ HTML | Sinar RSS: ❌ HTML | Utusan RSS: ❌ no items
+- Homepage: NST 0 PRN links, MalayMail 2 PRN links (1 gnews redirect + 1 already collected), Sinar 10 PRN links (all already collected)
+- The Vibes scan 125410-125450: 0 new articles (gap continues — 7th consecutive empty range)
+- Sinar ID scan 789340-789400: 0 PRN hits (range exhausted)
+
+### Files saved (15 total — ALL false positives)
+```
+priority_PIR-06_FMT_tate-brothers-to-fight-politically-motivated-uk-extradition_20260721_midmorning_rss.md
+priority_PIR-06-PIR-16_FMT_ceferin-skipped-world-cup-final-reportedly-to-show-disapproval-of-fifa_20260721_midmorning_rss.md
+priority_PIR-16_FMT_zelensky-faces-deepening-political-crisis-as-protests-dig-in_20260721_midmorning_rss.md
+priority_PIR-06-PIR-16_FMT_wall-street-indexes-fall-with-iran-and-earnings-season-in-focus_20260721_midmorning_rss.md
+priority_PIR-06-PIR-16_FMT_fifa-to-investigate-world-cup-final-post-match-brawl_20260721_midmorning_rss.md
+priority_PIR-06-PIR-16_FMT_us-iran-conflict-escalates-as-tehran-declares-full-scale-war_20260721_midmorning_rss.md
+priority_PIR-06_FMT_charismatic-keegan-wore-his-heart-on-his-sleeve-on-and-off-the-pitch_20260721_midmorning_rss.md
+priority_PIR-06_FMT_trump-dismisses-ny-mayor-s-threat-to-arrest-netanyahu_20260721_midmorning_rss.md
+priority_PIR-06-PIR-16_FMT_us-judge-suspends-paramount-s-acquisition-of-warner-bros_20260721_midmorning_rss.md
+priority_PIR-06-PIR-07_HarianMetro_laut-ajar-ain-tenang_20260721_midmorning_rss.md
+priority_PIR-06-PIR-07_HarianMetro_penjenayah-siber-dagang-data-pesakit_20260721_midmorning_rss.md
+priority_PIR-06_HarianMetro_yes-captain-zul-aaryan-kini-di-slot-akasia-tv3_20260721_midmorning_rss.md
+priority_PIR-16_HarianMetro_aina-sedia-all-out-di-ajl40_20260721_midmorning_rss.md
+priority_PIR-06-PIR-16_HarianMetro_ketika-dunia-pantas-berlari-hati-perlu-berhenti_20260721_midmorning_rss.md
+priority_PIR-06_HarianMetro_diam-bukan-bererti-lemah_20260721_midmorning_rss.md
+```
+
+### Summary JSON
+- `_midmorning_summary_20260721.json` — full cycle metadata
+- `_gnews_headlines_20260721_midmorning.json` — 361 PRN/priority gnews headlines
+
+---
