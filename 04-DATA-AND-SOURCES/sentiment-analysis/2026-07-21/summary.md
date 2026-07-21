@@ -278,3 +278,73 @@ The earlyam extraction contained **zero PIR-06 entities** — all 11 extracted e
 ---
 
 *End of summary — PRN Negeri Sembilan 2026 Sentiment Analysis, Revision-25, 2026-07-21 04:55 MYT (UTC+8). 401 entities (7 new / 6 updated) from earlyam extraction entities-20260721-0315.json (5 articles, 0 genuinely new stories, 3 corroborations, 1 new candidate). [CRITICAL] NOT crossed (33rd cycle). Fahmi-KJ exchange now 3-outlet corroborated (FMT EN+BM + Sinar). MCMC 3R enforcement 2-outlet corroborated (HarianMetro + Utusan) + enforcement advancing (individual summoned to IPD Seremban). Derhaka friction at Pertang reinforced [PRIORITY] -0.20→-0.22. G Manivanan / DUN Jeram Padang = NEW confirmed PH candidate. 6 surface-level detections flagged for next-cycle monitoring. No PIR-06 entities touched this cycle.*
+
+---
+
+## Revision 26 — Midmorning Checkpoint (09:01 MYT 21 Jul 2026)
+
+**Generated:** 2026-07-21 09:01 +08 (MYT)
+**Revision:** 26 (no-change validation checkpoint)
+**Previous:** 25 (04:55 MYT, 401 entities)
+**Cycle:** Midmorning checkpoint — Campaign Day 3, Cycle 3
+**TLP:** AMBER
+
+### Assessment: NO-CHANGE CHECKPOINT
+
+**0 new entities; 0 updated entities.** All 401 entities carried unchanged from rev25. **[CRITICAL] NOT crossed — 34th consecutive cycle.**
+
+No new entity extraction files have been produced since `entities-20260721-0315.json` (03:15 MYT). Three scrape cycles have run since the last extraction:
+
+| Scrape Cycle | Time (MYT) | Saved Files | Fresh Articles | Genuinely New PRN |
+|---|---|---|---|---|
+| Earlymorning | ~05:00 | 0 | 0 | 0 |
+| Morning | ~07:00 | 0 | 0 | 0 |
+| Midmorning | ~09:00 | 15 | 0 | 0 |
+
+All 15 midmorning saved files confirmed as **false positives**: international news (Tate brothers, Ceferin/FIFA, Zelensky, Wall Street, Iran, Trump/Netanyahu, Paramount/Warner Bros), entertainment (Aina/AJL40, Zul Aaryan TV3, Kevin Keegan), and HarianMetro opinion columns (self-help/management "Diam bukan bererti lemah" referencing Robert Greene; religious/spiritual "Ketika dunia pantas berlari, hati perlu berhenti"; cybercrime "Penjenayah siber"; entertainment "Laut ajar ain tenang").
+
+### Entity Sentiment Status — All Stable
+
+All entities from today's extraction files (`entities-20260721-0059.json` + `entities-20260721-0315.json`) remain at their rev25 scores. No sentiment shifts detected. Key entities:
+
+**PIR-16 (Fahmi-KJ exchange cluster — stable):**
+- Fahmi Fadzil +0.34 stable [PRIORITY]
+- Khairy Jamaluddin -0.18 declining [PRIORITY]
+- Anwar discipline warning +0.22 stable [PRIORITY]
+- PH manifesto 'Kekal Harapan' +0.35 stable [PRIORITY]
+- Loke Siew Fook +0.43 stable [PRIORITY]
+- DAP ketandusan idea (Akmal) -0.25 stable [none — surface-level]
+- Fathi Aris (pro-BN) -0.15 stable [none — surface-level]
+
+**PIR-07 (Battlegrounds — stable):**
+- DUN Sikamat (N.13) +0.12 stable [CRITICAL]
+- DUN Linggi (N.32) +0.28 stable [CRITICAL]
+- DUN Paroi (N.25) +0.12 stable [PRIORITY]
+- Aminuddin Harun +0.58 stable
+- MCMC 3R enforcement -0.32 stable [PRIORITY]
+- derhaka friction (Pertang) -0.22 stable [PRIORITY]
+- Aminuddin 'kekal di Sikamat' -0.15 stable [PRIORITY — surface-level]
+- G Manivanan (Jeram Padang) +0.20 stable
+
+**PIR-06 (Coalition arrangement — carried stable, no fresh content):**
+- Bersatu -0.90 stable [CRITICAL] — internal-fracture signal holds
+- Muhyiddin Yassin -0.95 declining [CRITICAL]
+- Bersatu-PN fracture -0.92 declining [CRITICAL]
+- lebih hebat new coalition -0.78 stable [CRITICAL] — no formalization (34th cycle)
+- MB 2-term limit blocked by Umno -0.25 stable [PRIORITY]
+
+### Director-Flagged Watch Items — No Change
+
+All carry-forward flags unchanged from rev25. No new [CRITICAL] threshold crossings. No PIR-06 entities touched this checkpoint. No sharp sentiment shifts (>30%) for any PIR-06 entity. Bersatu holds at -0.90 stable — no fresh escalation, no candidate withdrawal, no "pecat/keluar/tarik diri."
+
+### Next Major Events (upcoming)
+
+1. **Anwar campaign Wed 22 Jul** — Sikamat (N.13 CRITICAL) + Paroi (N.25); first confirmed PM ground-campaign
+2. **BN manifesto launch 24 Jul** — DUN Linggi (N.32 CRITICAL) + Pertang (N.02 CRITICAL)
+3. **KJ counter-response** — does Khairy respond to Fahmi's 3-outlet-corroborated "don't go overboard" rebuttal?
+4. **3R / derhaka thread** — does the MCMC investigation (individual summoned to IPD Seremban) produce charges?
+5. **Surface-level detections** — do any of the 6 Sinar related-link narratives develop into full articles?
+
+---
+
+*End of summary — PRN Negeri Sembilan 2026 Sentiment Analysis, Revision-26, 2026-07-21 09:01 MYT (UTC+8). No-change checkpoint: 0 new entities, 0 updated, all 401 entities stable from rev25. [CRITICAL] NOT crossed (34th cycle). 3 scrape cycles since last extraction yielded 0 genuinely new PRN articles (15 midmorning saves = all false positives). Next major events: Anwar campaign Wed 22 Jul (Sikamat+Paroi), BN manifesto 24 Jul (Linggi+Pertang).*

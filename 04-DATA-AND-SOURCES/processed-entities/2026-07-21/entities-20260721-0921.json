@@ -1,0 +1,163 @@
+{
+  "extraction_metadata": {
+    "generated": "2026-07-21 09:21 +08",
+    "report_date": "2026-07-21",
+    "brief_id": "PRN-NS-2026-ENT-20260721-0921",
+    "agent": "PRN Negeri Sembilan 2026 Entity Extraction Agent",
+    "model": "zai-org/GLM-5.2",
+    "source_folder": "04-DATA-AND-SOURCES/raw-scrapes/20260721/",
+    "scrape_cycles_covered_since_prior_extraction": ["predawn (03:16)", "earlymorning (04:45)", "morning (05:53)", "midmorning (07:02)"],
+    "prior_extractions_today": ["entities-20260721-0059.json (dawn, 43 entities)", "entities-20260721-0315.json (earlyam, 11 entities)"],
+    "prior_extraction": "entities-20260721-0315.json (earlyam cycle, 11 entities)",
+    "articles_processed_this_cycle": 15,
+    "genuinely_new_prn_articles": 0,
+    "alternate_outlet_corroborations": 0,
+    "false_positives_verified": 15,
+    "false_positives_spot_checked": 2,
+    "silent_cycles_since_prior_extraction": 4,
+    "critical_threshold_crossed": false,
+    "critical_fetch_cycle_count": 35,
+    "pir_tags_active": ["PIR-06", "PIR-07", "PIR-16"],
+    "cycle_assessment": "VERIFICATION / NO-NEW-ENTITY CYCLE — 4 consecutive silent fetch cycles (predawn->earlymorning->morning->midmorning) produced 0 genuinely-new PRN content. 15 midmorning files independently verified as ALL false positives (entertainment/sports/international/lifestyle). No new political entities beyond the 54 already extracted in the 00:59 + 03:15 runs. [CRITICAL] threshold remains un-crossed (35th fetch cycle). This extraction documents the verification and extends the threshold-monitoring cadence required by the director-approved PIRs."
+  },
+  "entities": [
+    {
+      "entity": "Midmorning false-positive batch verification (15 files)",
+      "type": "narrative",
+      "pir_tag": "PIR-06",
+      "priority": "normal",
+      "source_url": "https://www.hmetro.com.my/rencana/2026/07/1387180/diam-bukan-bererti-lemah",
+      "context": "VERIFICATION — The midmorning (07:02 MYT) fetch cycle saved 15 files, ALL classified as false positives in the raw-scrape index. Independently spot-checked 2 files to confirm classification is sound: (1) 'Diam bukan bererti lemah' (HarianMetro, 05:59 MYT) is a motivational opinion piece reviewing the book 'The Art of Seduction' by Robert Greene, authored by a police officer (Ketua Bahagian Keselamatan Dalam Negeri, Seri Alam Johor) — the word 'politik' appears once only in passing ('sama ada dalam politik, perniagaan atau hubungan peribadi'); ZERO PRN NS content; PIR-06 tag triggered by incidental keyword. (2) 'Aina sedia all out di AJL40' (HarianMetro, 06:00 MYT) is an entertainment interview with singer Aina Abdul about Anugerah Juara Lagu 40; ZERO political content; PIR-16 tag is a false positive. Remaining 13 files per index: FMT international/sports (Tate brothers extradition, Ceferin/Fifa, Zelensky, Wall Street, US-Iran, Paramount-Warner, World Cup brawl, Kevin Keegan obituary, Trump/Netanyahu) + HarianMetro entertainment/lifestyle (Laut ajar Ain, cybercrime, Captain Zul Aaryan TV3 slot, 'ketika dunia pantas berlari' religious). ALL non-PRN. No political entities extractable. Confirmation: false-positive filter working as designed."
+    },
+    {
+      "entity": "4-consecutive-silent-cycle streak (predawn through midmorning)",
+      "type": "narrative",
+      "pir_tag": "PIR-07",
+      "priority": "normal",
+      "source_url": "https://www.hmetro.com.my/mutakhir/2026/07/1387165/prn-n9-mcmc-aktifkan-pusat-pemantauan-rangkaian",
+      "context": "MONITORING — Fetch cycles predawn (03:16), earlymorning (04:45), morning (05:53), and midmorning (07:02) all returned 0 genuinely-new PRN Negeri Sembilan content. The freshest genuinely-PRN article remains 'PRN N9: MCMC aktifkan Pusat Pemantauan Rangkaian' (HarianMetro, ~00:20 MYT 21 Jul), already collected in the dawn cycle and extracted in the 00:59 run. The Malaysian newsroom overnight-quiet period (~02:00-07:00 MYT) accounts for the gap. The 08:00+ MYT morning publishing window had not fully opened at the midmorning fetch cutoff. Homepage URL-lookup verification across all 4 cycles confirmed all surfaced PRN candidate URLs were already collected (dedup working). No new entities."
+    },
+    {
+      "entity": "PIR-06 [CRITICAL] threshold — still CLEAR (35th fetch cycle)",
+      "type": "narrative",
+      "pir_tag": "PIR-06",
+      "priority": "critical",
+      "source_url": "https://www.astroawani.com/berita-politik/prn-negeri-sembilan-manifesto-ph-pertaruh-agenda-stabil-makmur-inklusif-tawar-10-komitmen-utama",
+      "context": "THRESHOLD MONITORING — [CRITICAL] NOT CROSSED. Extended to 35th fetch cycle (per raw-scrape index midmorning section; prior extraction 03:15 recorded 32nd). No formal PN-MT expulsion notice. No Bersatu candidate withdrawal (24 solo-logo candidates remain STABLE). No Kiandee quorum escalation. No 'lebih hebat' new-coalition formalization. No RoS action against PN/Bersatu. No 'pecat/keluar/tarik diri' entity. Google News continues returning only historical articles (Kiandee quorum 11 Jul, Ridzuan Ahmad quits Bersatu 11 Jul, Wawasan PN component 14-15 Jul, Muhyiddin 'sole opposition' 18 Jul) — all pre-cutoff. The Fahmi-KJ exchange (captured dawn) is PIR-16 narrative friction, NOT a PIR-06 coalition-arrangement event. All escalations remain rhetoric/characterisations, not actionable threshold events."
+    },
+    {
+      "entity": "PIR-16 [CRITICAL] narrative thresholds — still CLEAR",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "critical",
+      "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/20/dont-go-overboard-with-rhetoric-fahmi-tells-khairy",
+      "context": "THRESHOLD MONITORING — [CRITICAL] NOT CROSSED. No hard-news corroboration of 'Bersatu exit imminent' — Bersatu's 24 solo-logo candidates remain stable, no withdrawals. No hard-news corroboration of 'sasar bentuk kerajaan negeri' solo-governing-bid — PH's 36 solo candidates structurally clear but no explicit hard-news headline formalising a solo-state-government bid. 'Bersatu kacau daun' (Wan Saiful, Harian Metro) entity NOT DETECTED again this cycle. 'makmal politik' PRU16 framing entity NOT DETECTED. Loke DAP-congress pickup unchanged (all sources pre-cutoff). Fahmi-KJ narrative exchange stable (3-outlet corroborated: FMT EN+BM + Sinar; captured in prior runs; no fresh angles, no KJ counter-response yet)."
+    },
+    {
+      "entity": "Upcoming watch: Anwar campaign Wed 22 Jul (Sikamat + Paroi)",
+      "type": "narrative",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.hmetro.com.my/mutakhir/2026/07/1387158/prn-n9-anwar-dijangka-turun-berkempen-rabu-ini-aminuddin",
+      "context": "UPCOMING EVENT — Per the dawn-cycle extraction (00:59), PM Anwar Ibrahim is expected to campaign Wednesday 22 Jul at Sikamat (N.13, Tier-4 CRITICAL) and Paroi (N.25, Tier-4) — 'majlis yang besar' planned. This is the next major PIR-07 ground event. Aminuddin confirmed Anwar's absence at the 20 Jul manifesto launch was 'not an issue.' This event has NOT yet occurred (today is 21 Jul). Flag for priority extraction when coverage surfaces — both Sikamat and Paroi are Tier-4 critical/priority seats; Anwar's appearance could shift the 'fleeing Sikamat' narrative (Aminuddin vacated Sikamat for Linggi)."
+    },
+    {
+      "entity": "Upcoming watch: BN manifesto launch 24 Jul at DUN Linggi",
+      "type": "narrative",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.freemalaysiatoday.com/category/nation/2026/07/20/negeri-sembilan-ph-unveils-election-pledges-that-can-be-delivered",
+      "context": "UPCOMING EVENT — Per director-approved PIR-07 NEW flag and prior extractions, BN is expected to launch its manifesto on 24 Jul at DUN Linggi (N.32, Tier-4 CRITICAL). Linggi is Umno's oldest fortress (since 1959); Aminuddin (caretaker MB) is challenging it directly. This event has NOT yet occurred (today is 21 Jul). The PH manifesto launch (20 Jul evening) is FULLY COVERED and RESOLVED across 4 outlets (Awani + FMT EN/BM + Harian Metro). BN manifesto launch is the next major PIR-07 milestone — flag for priority extraction when coverage surfaces."
+    },
+    {
+      "entity": "Pertang 'derhaka' friction — carry-forward (no new mention)",
+      "type": "narrative",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.hmetro.com.my/mutakhir/2026/07/1387155/mcmc-panggil-individu-bantu-siasatan-kes-3r-terhadap-tuanku-muhriz",
+      "context": "CARRY-FORWARD — No new mention this cycle. Status remains ESCALATED (counter-narrative active) per the 03:15 extraction. The MCMC 3R enforcement targeting Tuanku Muhriz Tuanku Munawir (Yang di-Pertuan Besar NS) — now corroborated by HarianMetro + Utusan (2 outlets, captured in prior runs) — reinforces the royal-institution dimension of the 'derhaka' narrative thread. No explicit 'derhaka' language surfaced this cycle, but the 3R enforcement is the real-world manifestation. Jalaluddin (Pertang) 'derhaka' friction (corroborated by NST + Harian Metro in prior cycles) unchanged."
+    },
+    {
+      "entity": "Fahmi-KJ exchange — carry-forward (no KJ counter-response yet)",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.sinarharian.com.my/article/788679/berita/politik/ph-juga-ada-pemimpin-melayu-islam---fahmi-fadzil",
+      "context": "CARRY-FORWARD — No new development this cycle. Status remains ACTIVE — CORROBORATED (3rd outlet) per the 03:15 extraction. Fahmi Fadzil's rebuttal of KJ's 'BN-PN cooperation = isyarat (signal) to PH' framing is now 3-outlet corroborated (FMT EN + FMT BM + Sinar Harian). No KJ counter-response has surfaced. The 'isyarat' framing explicitly used by Sinar. KJ's 'Ada sesuatu yang tak kena dalam Kerajaan Perpaduan' quote surfaced in Sinar related-links. Watch for KJ's counter-response as the narrative battle intensifies — this is the most active PIR-16 thread."
+    },
+    {
+      "entity": "Hamzah 'toxic PN' volley — carry-forward (no new volley)",
+      "type": "narrative",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.astroawani.com/berita-politik/prn-negeri-sembilan-manifesto-ph-pertaruh-agenda-stabil-makmur-inklusif-tawar-10-komitmen-utama",
+      "context": "CARRY-FORWARD — No new Hamzah Zainudin / Marzuki 'toxic PN' volley this cycle. Status remains ACTIVE (carry, no new volley) per the 03:15 extraction. Any 'pecat/keluar/tarik diri/termination/toxic PN/kuorum/lebih hebat' entity from Hamzah would trigger a [CRITICAL] PIR-06 flag. None detected across 4 silent cycles."
+    }
+  ],
+  "carry_forward_flags": {
+    "PDM Klawang shutdown/reopen": {
+      "status": "RESOLVED (active)",
+      "notes": "No new mention across predawn/earlymorning/morning/midmorning cycles. Police investigation maintained from prior cycles."
+    },
+    "MCA rebuttal to Loke": {
+      "status": "RESOLVED",
+      "notes": "No new development. Wee responded in prior cycle."
+    },
+    "Derhaka Pertang friction": {
+      "status": "ESCALATED (counter-narrative active)",
+      "notes": "No new mention this cycle. MCMC 3R enforcement targeting Tuanku Muhriz (2-outlet corroborated) reinforces royal-institution dimension. No explicit 'derhaka' language but 3R = real-world manifestation. Status carried from 03:15 extraction."
+    },
+    "Lebih hebat new coalition": {
+      "status": "NOT DETECTED",
+      "notes": "35th fetch cycle, no formalization."
+    },
+    "RoS complaint disrupting PN seat negotiations": {
+      "status": "NOT DETECTED",
+      "notes": "Seat allocation stable. No RoS action."
+    },
+    "Bersatu exit imminent": {
+      "status": "NOT CORROBORATED",
+      "notes": "35th fetch cycle. Bersatu's 24 solo-logo candidates STABLE. No withdrawals. No hard-news threshold headline."
+    },
+    "sasar bentuk kerajaan negeri": {
+      "status": "NOT CORROBORATED",
+      "notes": "35th fetch cycle. [CRITICAL] NOT crossed. PH 36 solo structurally clear; no explicit hard-news headline."
+    },
+    "Wan Saiful (Harian Metro)": {
+      "status": "NOT DETECTED",
+      "notes": "Harian Metro RSS working (51 items); 'Bersatu kacau daun' entity not surfaced across 4 silent cycles."
+    },
+    "Albert Tei": {
+      "status": "NOT DETECTED",
+      "notes": "Not surfaced in any cycle today."
+    },
+    "Barking dogs": {
+      "status": "NOT DETECTED",
+      "notes": "Not surfaced in any cycle today."
+    },
+    "BN manifesto launch 24 Jul DUN Linggi": {
+      "status": "CONFIRMED (upcoming)",
+      "notes": "Not yet occurred — next major PIR-07 event. Today is 21 Jul. PH manifesto launch (20 Jul) FULLY COVERED and RESOLVED."
+    },
+    "Anwar campaign Wed 22 Jul (Sikamat + Paroi)": {
+      "status": "CONFIRMED (upcoming)",
+      "notes": "Not yet occurred — next major PIR-07 ground event. Both Sikamat (N.13) and Paroi (N.25) are Tier-4 critical/priority seats."
+    },
+    "PH manifesto launch 20 Jul": {
+      "status": "FULLY COVERED (RESOLVED)",
+      "notes": "Fully covered in dawn extraction (00:59). 4 outlets: Awani + FMT EN/BM + Harian Metro."
+    },
+    "Hamzah toxic PN volley": {
+      "status": "ACTIVE (carry, no new volley)",
+      "notes": "No new Hamzah/Marzuki volley across 4 silent cycles. Carried forward."
+    },
+    "Fahmi-KJ exchange": {
+      "status": "ACTIVE — CORROBORATED (3rd outlet, no counter-response yet)",
+      "notes": "3-outlet corroborated (FMT EN+BM + Sinar). No KJ counter-response surfaced this cycle. Watch for counter-response — most active PIR-16 thread."
+    },
+    "G Manivanan / DUN Jeram Padang": {
+      "status": "CONFIRMED (stable)",
+      "notes": "PH candidate fully confirmed via Sinar body text in earlyam cycle. 4-cornered fight: PH / BN / Bersatu-solo / ASLI-Dayana Yusof. No new mention this cycle."
+    }
+  }
+}

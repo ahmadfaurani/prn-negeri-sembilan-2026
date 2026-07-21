@@ -382,3 +382,157 @@ priority_PIR-06_HarianMetro_diam-bukan-bererti-lemah_20260721_midmorning_rss.md
 - `_gnews_headlines_20260721_midmorning.json` — 361 PRN/priority gnews headlines
 
 ---
+
+## Cycle 7: `midday` (09:58 MYT 21 Jul) — ACTIVE CYCLE, HIGH YIELD
+
+**Fetch script:** `_surge_fetch_20260721_midday.py` + 3 manual supplements
+**Cutoff:** 07:08 MYT 21 Jul 2026 (midmorning cycle end, 23:08 UTC 20 Jul)
+**Scanned:** 65 Google News queries (547 items, 367 PRN/priority hits) + 8 RSS feeds (658 items, 88 PRN hits) + 9 homepage pages + The Vibes scan (125450–125490) + Sinar ID scan (789400–789460)
+**Saved:** 56 articles (53 automated + 3 manual) | **Duplicates skipped:** 44 | **CRITICAL:** 0 | **Fresh post-cutoff (gnews):** 1
+
+### Assessment: HIGH-YIELD CYCLE — morning publishing window OPEN, 4th-silent-cycle streak BROKEN
+
+After 4 consecutive silent cycles (predawn → earlymorning → morning → midmorning), the 08:00–10:00 MYT publishing window delivered a substantial batch of fresh PRN Negeri Sembilan content. Google News indexing lagged (most recent gnews item dated 20 Jul 16:44 UTC = 21 Jul 00:44 MYT), but **RSS feeds and homepage extraction yielded fresh post-cutoff content** from HarianMetro (09:06 MYT), Utusan (08:04–09:00 MYT), Sinar (08:00–09:10 MYT), and FMT (07:00–07:30 MYT UTC). The 3 manually-supplemented articles (Utusan "Pas yakin", Sinar "Jurang melebar", Sinar "25+11 belum tentu 36") were discovered via related-links in extracted articles and fetched directly — they were not surfaced by gnews (too fresh) or homepage candidate lists (below the fold).
+
+### Genuinely NEW PRN-relevant articles (16)
+
+| # | Source | Title | PIR Tags | Date (MYT) | Fresh? |
+|---|--------|-------|----------|------------|--------|
+| 1 | HarianMetro | PRN N9: Jentera BN-PN mula turun kempen bersama - Idris | PIR-06,07 | 21 Jul ~08:53 | ✅ NEW — BN-PN joint machinery operational |
+| 2 | FMT (EN) | PH needs 80% voter turnout to stand chance in NS, says coalition leader | PIR-06,07,16 | 21 Jul ~07:00 | ✅ NEW — anonymous PH leader warns Loke "not safe" |
+| 3 | FMT (BM) | PH perlu 80% keluar mengundi untuk tambah baik peluang di NS | PIR-06,07,16 | 21 Jul ~07:00 | ✅ NEW (BM version of #2) |
+| 4 | Utusan | Risiko banjir di Ampangan makin terkawal | PIR-06,07,16 | 21 Jul 09:00 | ✅ NEW — N.14 Ampangan candidate profile |
+| 5 | Utusan | UMNO tidak akan terlibat pertikaian istana, adat di NS | PIR-06,07,16 | 21 Jul 08:04 | ✅ NEW — derhaka narrative counter by Asyraf Wajdi |
+| 6 | Utusan | Pas yakin menang tiga kerusi | PIR-06,07 | 21 Jul 07:51 | ✅ NEW [MANUAL] — PAS 5-seat strategy, win-confidence |
+| 7 | Sinar | 'Jurang melebar tapi belum retak' | PIR-06,16 | 21 Jul 08:00 | ✅ NEW [MANUAL] — Unity Gov't fracture analysis |
+| 8 | Sinar | 25+11 belum tentu 36 | PIR-06,07,16 | 21 Jul 10:00 | ✅ NEW [MANUAL] — vote-transfer seat analysis |
+| 9 | Sinar | Gandingan Anwar, Aminuddin serlah kekuatan sebenar PH - Penganalisis | PIR-06,07,16 | 21 Jul 09:10 | ✅ NEW outlet — UUM analyst assessment |
+| 10 | HarianMetro | PRN N9: Manifesto mampu dipacu dengan kerjasama kerajaan negeri, Persekutuan | PIR-07,16 | 21 Jul 09:06 | ✅ NEW — candidate confirmations (Nilai, Rantau, Pertang) |
+| 11 | FMT (BM) | Peruntukan pembangunan daripada persekutuan perkukuh potensi N Sembilan | PIR-06,07 | 21 Jul ~07:15 | ✅ NEW — RM6B federal investment, RM19.1B 2025 record |
+| 12 | FMT (EN) | Federal development funds boost Negeri Sembilan's potential | PIR-06,07,16 | 21 Jul ~07:15 | ✅ NEW (EN version of #11) |
+| 13 | FMT (BM) | Penganalisis cadang pembubaran awal tak beri penggal baharu | PIR-06,07,16 | 21 Jul ~07:30 | ✅ NEW — electoral reform analysis |
+| 14 | Awani | PRN NS: Rakyat diseru pilih kerajaan stabil, tolak politik percaturan kuasa - Aminuddin | PIR-07,16 | 21 Jul 07:00 | ✅ NEW outlet — manifesto launch speech |
+| 15 | Awani | Formula BN, PAS di NS mungkin ke Selangor - KJ | PIR-06,07,16 | 20 Jul 08:30 | ✅ NEW outlet — KJ Selangor-extension angle |
+| 16 | FMT (BM) | SKMM aktifkan Pusat Pemantauan Rangkaian bagi PRN N Sembilan | PIR-07 | 21 Jul ~07:00 | ✅ NEW outlet — MCMC monitoring (FMT version of dawn story) |
+
+### False positives (37 articles)
+Non-PRN content matching PIR keyword substrings: Yemen/Houthi naval blockade, US-Iran conflict, ASEAN diplomats, N-Korea/Moscow, Trump Canada tariffs, UK PM Burnham cabinet, Widdecombe murder, Argentina/Messi, Spain World Cup celebration, Felda Pasoh 4 water woes (general), cricket, gaming industry, North Borneo stamps, Odyssey review, ISA 1960, Spanish PM Algeria, Colombia president-elect, China-Philippines SCS, Afghanistan flooding, various HarianMetro entertainment/lifestyle, various Awani international, various FMT international/sports
+
+### Key intelligence extracted
+
+**PIR-06 — BN-PN JOINT MACHINERY NOW OPERATIONAL [NEW, significant]:**
+- PAS VP Datuk Idris Ahmad confirms BN-PN joint grassroots campaigning has begun — "sudah bermula tetapi secara tidak formal"
+- Joint house-to-house (rumah ke rumah) campaigning with UMNO machinery, blessed by central/state/division leadership
+- Idris visited Port Dickson and Bagan Pinang (20 Jul) — "optik" of cooperation "amat jelas"
+- PN Paroi grand ceramah (20 Jul night): Idris + Kelantan MB Mohd Nassuruddin Daud + MP Pengkalan Chepa Dr Ahmad Marzuk Shaary + UMNO Paroi info chief Zulkifli Muhammad + PN Paroi candidate Kamarol Ridzuan Mohd Zain
+- Idris hopes BN-PN cooperation becomes PERMANENT: "sampai matilah" — not just for this PRN
+- **Assessment:** First on-the-ground confirmation that BN-PN machinery sharing is operational at akar umbi (grassroots) level. Escalates from "seat arrangement" to "joint campaign execution."
+
+**PIR-06 — VOTE-TRANSFER ANALYSIS [NEW, critical for seat projections]:**
+- Sinar "25+11 belum tentu 36" (UiTM analyst Dr Ariff Aizuddin Azlan): On paper BN 25 + PN 11 = 36, but formula doesn't guarantee vote transfer
+- Key seats for BN-PN vote transfer impact: **Klawang (N.28), Sikamat (N.13), Ampangan (N.14), Pilah, Labu (N.25), Paroi** — ALL PIR-07 priority seats
+- Simulation (PRU15 + PRN 2023 patterns): PH could lose majority; **Aminuddin at Linggi (N.32) AND Loke at Chennah (N.27) at risk of losing** if BN-PN Malay vote unity works
+- Johor PRN proved party-identification vote transfer is real — supporters vote for ally's candidate when their party doesn't contest
+- Sanusi (PAS Election Director) and Shahidan Kassim (PN Perlis) withdraw "UMDAP" term — signals BN-PN relationship entering new phase
+
+**PIR-06 — PAS 5-SEAT STRATEGY & WIN CONFIDENCE [NEW]:**
+- PAS VP Datuk Mohd Amar Nik Abdullah: PAS contesting 5 of PN's 11 seats — **Serting, Lobak, Ampangan, Paroi, Bagan Pinang**
+- PAS confident of winning **Serting, Paroi, Bagan Pinang** (won in PRN 2023)
+- Lobak and Ampangan winnable if BN vote transfer works — "3,000 existing + 3,000 from BN understanding"
+- **New candidate: Dr P Kumar (DHPP non-Muslim wing) — PAS candidate for DUN Lobak**
+- PN components in NS: PAS, Wawasan, Gerakan, MIPP (Bersatu solo in some seats)
+
+**PIR-16 — PH VULNERABILITY ADMISSION [NEW, significant narrative shift]:**
+- Anonymous PH coalition leader tells FMT: PH needs 80% voter turnout to stand a chance
+- "Results in last PRN largely because we joined forces with BN" — PH admits 2023 win depended on BN alliance
+- "Malay votes will go to BN and PN. Even if Malays unhappy with PN infighting, they will still vote for BN. PN's votes will not transfer to PH"
+- Young Malays still strongly on PN's side because of PAS — "religious sentiment," "do not like elitist politics"
+- **"Even Loke Siew Fook is not safe"** — his 2,000+ majority was under previous PH-BN arrangement, "under a different political arrangement"
+- **Assessment:** First anonymous PH-leader admission of electoral vulnerability, explicitly naming Loke as at-risk. Connects to PIR-16 "Loke" and "majoriti mudah" keywords. Significant narrative development — PH internal concern surfacing publicly.
+
+**PIR-16 — UNITY GOVERNMENT FRACTURE ANALYSIS [NEW]:**
+- Sinar "Jurang melebar tapi belum retak" (Ilham Centre researcher Mujibu Abd Muis): BN-PN understanding widens perception gap between BN and PH
+- But NOT necessarily fracturing the Unity Government — "logic of elections vs logic of administration"
+- BN and PH still share interest in federal stability; state-level competition ≠ federal fracture
+- "The gap is political tension, not institutional fracture"
+- Polemic expected to peak in early campaign, subside as polling day approaches; post-PRN return to pragmatism expected
+- **Assessment:** Frames the BN-PH tension as manageable, not terminal. Does NOT corroborate "Bersatu exit imminent" — instead frames tension as BN-PH, not Bersatu-related.
+
+**PIR-16 — KJ BN-PAS FORMULA TO SELANGOR [NEW outlet, pre-cutoff]:**
+- KJ (Awani/Sinar, 20 Jul): BN-PAS NS formula could extend to Selangor if it unites Malay votes
+- "Eksperimen politik yang baik" — tests penyatuan undi Melayu
+- NS and Selangor have similar demographics
+- KJ: BN-PAS cooperation is "signal" something is wrong with Unity Government
+- But BN should NOT exit federal government now — stability first until PRU
+- **Assessment:** Adds Selangor-extension dimension to KJ's "isyarat" narrative (dawn cycle). Connects to PIR-16 "penyatuan undi Melayu" and "makmal politik."
+
+**PIR-07 — N.14 AMPANGAN CAMPAIGN GROUND [NEW]:**
+- PH Ampangan candidate Datuk Muhammad Nazri Kassim: flood control achievements as campaign narrative
+- River maintenance since 2022 (Sungai Batang Penar → Sungai Linggi), YNS Management contractor, sand extraction model
+- Federal RTB project RM101 million (Sungai Linggi basin Phase 5)
+- Flood incidents decreasing since 2019-2020
+- **Assessment:** Incumbent PH showcasing governance delivery in N.14 Ampangan (PIR-07 priority battleground)
+
+**PIR-07 — DERHAKA NARRATIVE COUNTER [NEW]:**
+- UMNO Sec-Gen Asyraf Wajdi Dusuki (Utusan, 21 Jul 08:04): rejects "if BN wins, Tuanku Muhriz removed" narrative
+- Calls it "pembodohan rakyat" (treating voters as stupid), references Johor "Najib bebas" precedent
+- UMNO never interferes in palace affairs, loyal to Yang di-Pertuan Besar and Undang Yang Empat
+- Asyraf spoke at BN ceramah for DUN Lenggeng at Ampangan (20 Jul night)
+- **New candidate: Datuk Mohd Asna Amin — BN candidate for DUN Lenggeng**
+- Also rejects racial sentiment campaigning — "you're already in a government that cooperates"
+
+**PIR-07 — NEW CANDIDATE CONFIRMATIONS [NEW]:**
+- J Arul Kumar — PH candidate for DUN Nilai (N.10, PIR-07 priority)
+- Dr Azizul Hakim Mahdi — PH candidate for DUN Rantau (Rantau, PIR-07 priority — Tok Mat's seat)
+- Mohd Umry Abdul Khois — PH candidate for DUN Pertang (Pertang, PIR-07 priority)
+- Datuk Mohd Asna Amin — BN candidate for DUN Lenggeng
+- Dr P Kumar (DHPP) — PAS candidate for DUN Lobak
+- Kamarol Ridzuan Mohd Zain — PN candidate for DUN Paroi (confirmed at ceramah)
+
+**PIR-07 — FEDERAL DEVELOPMENT INVESTMENT [NEW]:**
+- NS recorded highest-ever investment 2025: RM19.1 billion, 295 projects
+- Federal spending increased RM4.4B → ~RM6B (2026) under Madani government, 302 projects, RM1.35B allocation
+- Key projects: Seremban Sentral TOD, MVV 2.0, Hospital Tuanku Ja'afar 2, Nilai Court, Teluk Kemang Clinic
+
+**PIR-06 [CRITICAL] WATCH — 36th cycle, still CLEAR:**
+- No formal PN-MT expulsion notice
+- No Bersatu candidate withdrawal
+- No Kiandee quorum escalation
+- No "lebih hebat" formalization
+- No RoS action against PN/Bersatu
+- BN-PN cooperation DEEPENING (machinery sharing now operational) — opposite of Bersatu exit; Bersatu increasingly isolated as BN-PAS axis solidifies
+- "Jurang melebar tapi belum retak" frame: tension is BN↔PH, NOT Bersatu↔PN
+
+**PIR-16 [CRITICAL] WATCH — still CLEAR:**
+- No hard-news corroboration of "Bersatu exit imminent" — Bersatu exit narrative NOT surfacing
+- No hard-news corroboration of "sasar bentuk kerajaan negeri" — but "tolak politik percaturan kuasa" (Aminuddin) is the counter-frame
+- PH vulnerability admission (anonymous leader, FMT) is the closest to a critical narrative shift — PH publicly acknowledging Loke "not safe" — but does not cross the CRITICAL threshold (not a hard-news corroboration of "Bersatu exit imminent")
+- KJ "isyarat" narrative stable (dawn cycle + Selangor extension); Fahmi-KJ exchange stable
+
+### Known but unfetched article (gnews-confirmed, direct URL unresolved)
+- Sinar: "Aminuddin disenangi, ramai masih harap beliau kekal di Sikamat" (gnews-confirmed 21 Jul, Sinar Harian) — about N.13 Sikamat seat, Aminuddin's move to Linggi. Google News redirect URL did not resolve to direct Sinar URL; article ID not in scanned range (788660–788710). Flagged for next-cycle targeted fetch.
+
+### Source coverage notes
+- Awani RSS: ✅ working (10 items) | Awani homepage: ✅ NOW WORKING (15+8 candidate links, 5 extracted) — domain fix applied (.com not .com.my)
+- FMT RSS: ✅ working (50 items, 41 PRN hits, multiple fresh post-cutoff)
+- HarianMetro RSS: ✅ working (51 items, 39 PRN hits, fresh post-cutoff at 09:06 MYT)
+- NST RSS: ❌ no items | MalayMail RSS: ❌ no items | Sinar RSS: ❌ no items | Utusan RSS: ❌ no items
+- Homepage: NST 8 links, MalayMail 26 links (2 extracted), Utusan 17 links (3 extracted), Sinar 14 links (2 extracted), Star 8 links, Kosmo 2 links
+- The Vibes scan 125450-125490: 0 new articles (gap continues — 8th consecutive empty range)
+- Sinar ID scan 789400-789460: 0 PRN hits (range exhausted)
+- **Manual supplement:** 3 articles fetched directly from Utusan (1) and Sinar (2) after discovery via related-links in extracted articles —弥补 automated gap for very fresh content below homepage fold
+
+### Files saved (56 total — 53 automated + 3 manual)
+**Manual supplements:**
+```
+priority_PIR-06-PIR-07_Utusan_pas-yakin-menang-tiga-kerusi_20260721_midday_manual.md
+priority_PIR-06-PIR-16_Sinar_jurang-melebar-tapi-belum-retak_20260721_midday_manual.md
+priority_PIR-06-PIR-07-PIR-16_Sinar_2511-belum-tentu-36_20260721_midday_manual.md
+```
+**Automated (53) — see `_midday_summary_20260721.json` for full list**
+
+### Summary JSON
+- `_midday_summary_20260721.json` — full cycle metadata
+- `_gnews_headlines_20260721_midday.json` — 367 PRN/priority gnews headlines
+
+---

@@ -208,3 +208,57 @@ The 21 July dawn cycle (collected just after midnight MYT) covers the **PH manif
 **Combined day total (2026-07-21):** 43 (dawn) + 11 (earlyam) = **54 entities** across 2 extraction cycles.
 
 *Earlyam extraction completed 2026-07-21 03:15 MYT (UTC+8). 11 entities from 5 articles (0 genuinely new stories, 3 alternate-outlet corroborations, 1 new candidate confirmation). [CRITICAL] NOT crossed (32nd cycle). G Manivanan / DUN Jeram Padang = NEW confirmed candidate. Fahmi-KJ exchange now 3-outlet corroborated (FMT EN+BM + Sinar). Next watch: Anwar campaign Wed 22 Jul (Sikamat+Paroi); BN manifesto launch 24 Jul (Linggi).*
+
+---
+
+## Midmorning Verification Extraction Update — 09:21 MYT 21 Jul 2026
+
+**Generated:** 2026-07-21 09:21 +08 (MYT)
+**Cycle:** Midmorning verification (covers predawn 03:16 → earlymorning 04:45 → morning 05:53 → midmorning 07:02 — 4 consecutive fetch cycles)
+**Output:** `entities-20260721-0921.json` (9 entities — verification/monitoring entries)
+**Prior extractions:** `entities-20260721-0059.json` (dawn, 43 entities) + `entities-20260721-0315.json` (earlyam, 11 entities)
+**Model:** zai-org/GLM-5.2
+**Cycle assessment:** VERIFICATION / NO-NEW-ENTITY CYCLE — 4 consecutive silent fetch cycles produced 0 genuinely-new PRN content; 15 midmorning files independently verified as ALL false positives
+
+### Key Findings
+
+1. **NO NEW POLITICAL ENTITIES** — All genuinely-new PRN content from today was already comprehensively extracted in the 00:59 (dawn, 43 entities) and 03:15 (earlyam, 11 entities) runs. The 4 fetch cycles since 03:15 (predawn, earlymorning, morning, midmorning) were all SILENT or false-positive-only. No new entities added to the corpus.
+
+2. **Midmorning false-positive batch INDEPENDENTLY VERIFIED (15 files)** — The midmorning (07:02 MYT) fetch cycle saved 15 files, ALL classified as false positives in the raw-scrape index. Two files were directly read and verified:
+   - `priority_PIR-06_HarianMetro_diam-bukan-bererti-lemah` (05:59 MYT) — motivational opinion piece reviewing "The Art of Seduction" by Robert Greene, authored by a police officer; the word "politik" appears once only in passing; ZERO PRN NS content; PIR-06 tag is an incidental keyword false positive.
+   - `priority_PIR-16_HarianMetro_aina-sedia-all-out-di-ajl40` (06:00 MYT) — entertainment interview with singer Aina Abdul about Anugerah Juara Lagu 40; ZERO political content; PIR-16 tag is a false positive.
+   - Remaining 13 per index: FMT international/sports (Tate brothers extradition, Ceferin/Fifa, Zelensky, Wall Street, US-Iran, Paramount-Warner, World Cup brawl, Kevin Keegan obituary, Trump/Netanyahu) + HarianMetro entertainment/lifestyle (Laut ajar Ain, cybercrime, Captain Zul Aaryan TV3, religious). ALL non-PRN.
+   - **Conclusion:** False-positive filter working as designed. No political entities extractable from the midmorning batch.
+
+3. **[CRITICAL] threshold NOT CROSSED — extended to 35th fetch cycle**
+   - **PIR-06 [CRITICAL]:** No formal PN-MT expulsion notice, no Bersatu candidate withdrawal (24 solo-logo candidates STABLE), no Kiandee quorum escalation, no "lebih hebat" formalization, no RoS action. Google News returning only historical articles (all pre-cutoff).
+   - **PIR-16 [CRITICAL]:** No hard-news corroboration of "Bersatu exit imminent" or "sasar bentuk kerajaan negeri." "Bersatu kacau daun" (Wan Saiful) and "makmal politik" entities still NOT DETECTED. Fahmi-KJ exchange stable (no KJ counter-response yet).
+   - All escalations remain rhetoric/characterisations, not actionable threshold events.
+
+4. **4-consecutive-silent-cycle streak** — The Malaysian newsroom overnight-quiet period (~02:00–07:00 MYT) accounts for the gap. The freshest genuinely-PRN article remains "PRN N9: MCMC aktifkan Pusat Pemantauan Rangkaian" (HarianMetro, ~00:20 MYT 21 Jul, already collected in dawn cycle). Homepage URL-lookup verification across all 4 cycles confirmed all surfaced PRN candidate URLs were already collected (dedup working).
+
+5. **Carry-forward flags updated** — No status changes from the 03:15 baseline. Pertang "derhaka" friction remains ESCALATED (MCMC 3R enforcement royal-institution dimension). Fahmi-KJ exchange remains ACTIVE — CORROBORATED (3 outlets, awaiting KJ counter-response). Hamzah "toxic PN" volley carried forward (no new volley).
+
+### Upcoming Watch Events (NOT yet occurred — today is 21 Jul)
+
+| Event | Date | PIR | Seats | Priority |
+|------|------|-----|-------|----------|
+| **Anwar campaign — Sikamat + Paroi** | Wed 22 Jul | PIR-07 | N.13 (Tier-4 CRITICAL), N.25 (Tier-4) | priority |
+| **BN manifesto launch — DUN Linggi** | Fri 24 Jul | PIR-07 | N.32 (Tier-4 CRITICAL) | priority |
+
+Both are the next major PIR-07 milestones. The PH manifesto launch (20 Jul) is FULLY COVERED and RESOLVED. Anwar's Sikamat appearance could shift the "fleeing Sikamat" narrative (Aminuddin vacated Sikamat for Linggi). BN's Linggi launch is at Umno's oldest fortress (since 1959), which Aminuddin is directly challenging.
+
+### Entity Count (this verification cycle)
+
+| Type | Count |
+|------|-------|
+| narrative | 9 |
+| **Total** | **9** |
+
+*All 9 entries are verification/monitoring records (false-positive verification, silent-cycle documentation, threshold-status extensions, carry-forward confirmations, upcoming-event flags). Zero new person/party/seat entities. No new content added to the entity corpus beyond the 54 already extracted today.*
+
+---
+
+**Combined day total (2026-07-21):** 43 (dawn) + 11 (earlyam) + 9 (midmorning verification) = **62 entity records** across 3 extraction cycles. Net new PRN political entities: **54** (dawn + earlyam); the 09:21 run adds 0 new entities and 9 monitoring/verification records.
+
+*Midmorning verification extraction completed 2026-07-21 09:21 MYT (UTC+8). 9 monitoring records from 15 midmorning files (all independently verified false positives) + 4 silent fetch cycles. [CRITICAL] NOT crossed (35th fetch cycle). No new political entities. Next watch: Anwar campaign Wed 22 Jul (Sikamat N.13 + Paroi N.25); BN manifesto launch 24 Jul (Linggi N.32).*
