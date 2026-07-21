@@ -536,3 +536,122 @@ priority_PIR-06-PIR-07-PIR-16_Sinar_2511-belum-tentu-36_20260721_midday_manual.m
 - `_gnews_headlines_20260721_midday.json` — 367 PRN/priority gnews headlines
 
 ---
+
+## Cycle 8: `noon` (11:14 MYT 21 Jul) — ACTIVE CYCLE, MODERATE YIELD
+
+**Fetch script:** `_surge_fetch_20260721_noon.py`
+**Cutoff:** 09:30 MYT 21 Jul 2026 (midday cycle effective end, 01:30 UTC 21 Jul)
+**Scanned:** 72 Google News queries (490 items, 334 PRN/priority hits) + 8 RSS feeds (601 items, 92 PRN hits) + 9 homepage pages + The Vibes scan (125490–125530) + Sinar ID scan (789460–789520)
+**Saved:** 43 articles | **Duplicates skipped:** 47 | **CRITICAL (genuine):** 0 | **CRITICAL (false positive):** 1 | **Fresh post-cutoff (gnews):** 0
+
+### Assessment: MODERATE-YIELD CYCLE — late-morning window delivered police enforcement + DAP↔UMNO narrative escalation
+
+Google News indexing remained lagged (0 items dated after 09:30 MYT across 72 queries — all 490 gnews items predate the midday cycle). However, RSS feeds and Awani/Bernama wire yielded 8 genuinely-new PRN articles published in the 09:00–11:06 MYT window. The dominant themes this cycle are: (1) **police enforcement** (4 investigation papers, first arrest in Klawang for campaign-material sabotage, 141/143 ceramah permits approved), and (2) **DAP↔UMNO narrative escalation** (Perak DAP vice-chairman Aziz Bari publicly calling Tok Mat "brazen" and questioning how BN can campaign with PN without attacking PH). One FMT opinion piece ("Mewarnai PRN Negeri Sembilan") was auto-flagged [CRITICAL] — this is a FALSE POSITIVE (the word "dipecat" appears in an opinion context about resignation semantics, and "Bersatu" in the historical 14-Adun-BN crisis context; NOT a formal PN-MT expulsion).
+
+### Genuinely NEW PRN-relevant articles (8)
+
+| # | Source | Title | PIR Tags | Date (MYT) | Fresh? |
+|---|--------|-------|----------|------------|--------|
+| 1 | FMT (EN) | Be more careful like Zahid, DAP man tells 'brazen' Tok Mat | PIR-07,16 | 21 Jul ~09:00 | ✅ NEW — first DAP leader public attack on Tok Mat |
+| 2 | FMT (BM) | Contohi Zahid, pemimpin DAP kata Tok Mat semberono | PIR-06,07,16 | 21 Jul ~09:00 | ✅ NEW (BM version of #1) |
+| 3 | FMT (BM) | PRN N. Sembilan: Polis buka 2 lagi kertas siasatan babit kesalahan pilihan raya | PIR-06,07 | 21 Jul 10:14 | ✅ NEW — police enforcement update |
+| 4 | FMT (EN) | Police open 4 probes into Negeri Sembilan poll offences | PIR-07,16 | 21 Jul ~09:56 | ✅ NEW (EN version of #3) |
+| 5 | HarianMetro | PRN N9: Lelaki disyaki khianat bahan kempen ditahan | PIR-06,07 | 21 Jul 10:26 | ✅ NEW — first arrest, Klawang (N.28) PH flag sabotage |
+| 6 | Awani (Bernama) | PRN Negeri Sembilan: 141 permohonan ceramah kempen diluluskan setakat ini - Polis | PIR-06,07 | 21 Jul 10:50 | ✅ NEW wire — 141/143 permits, 7 reports, 4 IPs |
+| 7 | FMT | Mewarnai PRN Negeri Sembilan | PIR-06,07,16 | 21 Jul 10:00 | ✅ NEW opinion — [CRITICAL flag = FALSE POSITIVE] |
+| 8 | FMT | Analyst suggests following Sweden's approach to snap elections | PIR-07,16 | 21 Jul 10:00 | ✅ NEW — electoral reform analysis (IIUM + UTM) |
+
+### Alt-outlet corroboration (2 — not genuinely new)
+| # | Source | Title | Assessment |
+|---|--------|-------|------------|
+| 9 | HarianMetro | PH tak ketandusan pemimpin Melayu Islam - Fahmi | Alt-outlet of dawn Fahmi-KJ story (FMT); adds FELDA Palong 2 Jempol context (already known from earlyam Sinar). Published 10:54 MYT. |
+| 10 | Utusan | PRN N. Sembilan: Gandingan PM Anwar, MB Aminuddin serlah kekuatan sebenar PH - Penganalisis | Alt-outlet of midday Sinar UUM-analyst article. Same content, different outlet. |
+
+### False positives (33 articles)
+Non-PRN content matching PIR keyword substrings: general opinion "Apabila politik jadi identiti diri" (not PRN-specific), Orang Asli Pahang/Kampung Cot (Pahang story, not NS — false positive), US-Iran conflict, US-Canada tariffs, Saudi-Houthi blockade, China-Thailand/EEZ, UK PM Burnham, ICC Karim Khan, oil prices, Asian stocks, Bursa, ringgit, Italy/Guardiola, Argentina/Olmo, IU concert, Kelantan police corruption, Kedah drug addicts, Selangor school fire, Sungai Sedim, pukat hantu, Bella Dowanna, Hyrox, Swig beef, LRT trespasser, Felda Pasoh 4 water (general), CIMB Apple Pay, Bryan swimming, IRGC Kuwait strike.
+
+### Key intelligence extracted
+
+**PIR-16 — DAP↔UMNO NARRATIVE ESCALATION [NEW, significant]:**
+- Perak DAP vice-chairman **Prof Aziz Bari** (two-term Tebing Tinggi assemblyman) publicly attacks Tok Mat as "brazen" in FMT interview
+- Aziz: Tok Mat should learn restraint from Zahid Hamidi — "Zahid has been careful in making statements, unlike Mohamad, who's so brazen"
+- Core challenge: "How can one avoid attacking the federal government while seeking to promote the Umno-PAS cooperation?" — frames BN-PN pact as structurally requiring BN to attack PH
+- Aziz: Tok Mat "has got to choose between exercising restraint while remaining in the Cabinet, and going all out while contesting as a candidate"
+- Context: Tok Mat said BN working with "friends we can trust" (alluding PH can't be trusted); said ready to resign as foreign minister if Anwar orders
+- Khaled Nordin (defence minister, Umno VP) pushed back: Cabinet appointments are PM's discretion; Anwar would have removed ministers if he didn't "like" them
+- **Assessment:** First DAP elected-representative publicly calling out Tok Mat by name. Escalates the Anwar "resign" warning → Tok Mat "ready to resign" → DAP counter-attack sequence into a direct DAP↔UMNO exchange. This is the sharpest intra-Unity-Government tension surfaced in hard news to date. Does NOT cross PIR-16 [CRITICAL] threshold (no "Bersatu exit imminent" corroboration; this is BN-PH tension, not Bersatu-related).
+
+**PIR-07 — POLICE ENFORCEMENT: FIRST ARREST + 4 INVESTIGATION PAPERS [NEW]:**
+- NS police chief Datuk Alzafny Ahmad: 7 reports, 4 investigation papers (IPs) opened since campaign began 18 Jul
+- **First arrest:** Male detained for damaging PH flag near Jambatan Mengkan, **Kuala Klawang (N.28 Klawang — PIR-07 priority seat)** — flag thrown into drain (report 19 Jul, arrest 20 Jul night); Section 427 Penal Code
+- Two new IPs Monday 20 Jul: Sec 427 (property damage) + Sec 435 (arson/property damage)
+- 143 ceramah permit applications (18-20 Jul), **141 approved** (98.6%); 34 on 20 Jul, all approved
+- Security situation "baik dan terkawal" (good and controlled)
+- Polling 1 Aug, early voting 28 Jul, 889,490 voters, 36 seats
+- **Assessment:** Campaign-material sabotage concentrated in Klawang (N.28) — a PIR-07 priority three-cornered battleground. First arrest signals enforcement is live. High permit approval rate indicates campaign operating normally.
+
+**PIR-16 — SNAP-ELECTION REFORM ANALYSIS [NEW]:**
+- IIUM's Zainal Abidin Sanusi: Malaysia should emulate Sweden — snap-elected govts serve only remainder of original term (no fresh mandate reward)
+- UTM's Mazlan Ali: backs Fixed-Term Parliament Act but says enacting it now would look like "Anwar's government desperately wants to cling to power"
+- Context: PRU16 due Feb 2028, snap polls speculated due to "increasingly strained ties between PH and BN"
+- Anwar last week said govt should be given time to fulfil mandate
+- **Assessment:** Frames the PRN NS BN-PH tension as a precursor to potential PRU16 snap-election speculation. Connects to PIR-16 "makmal politik" and "pembubaran awal" themes. Does NOT corroborate "Bersatu exit imminent."
+
+**PIR-16 — ADAT/DERHAKA NARRATIVE ANALYSIS (opinion, "Mewarnai PRN"):**
+- FMT columnist analyzes Anwar's "berundur" directive, Tok Mat's resignation offer, and the 14-Adun-BN "tarik sokongan" crisis that triggered the PRN
+- Recalls 14 Adun BN initially planned to join PAS+Bersatu to form state govt ("tebuk atap") — failed; U-turn to stay in unity govt but oppose MB Aminuddin
+- This triggered Aminuddin dissolving DUN → PRN 1 Aug
+- Adat/derhaka narrative: "naratif yang dominan akan memenangi" — dominant narrative will win
+- Local observer: "Bagi penyokong Umno naratif kegagalan kerajaan negeri dalam menguruskan krisis adat lebih nampak ketara" — Umno supporters see state govt's adat-crisis failure as dominant
+- **Assessment:** Opinion piece (not hard news). Provides historical context for the derhaka/adat narrative but does NOT corroborate any PIR-16 [CRITICAL] threshold.
+
+**PIR-06 [CRITICAL] WATCH — 37th cycle, still CLEAR:**
+- No formal PN-MT expulsion notice
+- No Bersatu candidate withdrawal
+- No Kiandee quorum escalation
+- No "lebih hebat" formalization
+- No RoS action against PN/Bersatu
+- BN-PN cooperation continuing to deepen (per midday Idris Ahmad confirmation — machinery sharing operational)
+- The 1 [CRITICAL] flag this cycle ("Mewarnai PRN" opinion) = FALSE POSITIVE — "dipecat" used in resignation-semantics opinion context, "Bersatu" in historical 14-Adun context. NOT a formal expulsion.
+
+**PIR-16 [CRITICAL] WATCH — still CLEAR:**
+- No hard-news corroboration of "Bersatu exit imminent" — Bersatu exit narrative still NOT surfacing
+- No hard-news corroboration of "sasar bentuk kerajaan negeri"
+- DAP↔UMNO tension (Aziz Bari vs Tok Mat) is the closest to a critical narrative shift — first DAP elected-rep public attack — but is BN↔PH tension, NOT Bersatu-related, and does NOT cross the [CRITICAL] threshold
+- Snap-election reform analysis frames PH-BN strain as manageable, not terminal
+- KJ "isyarat" narrative stable (dawn + midday cycles); Fahmi-KJ exchange stable (alt-outlet HarianMetro this cycle)
+
+### Source coverage notes
+- Awani RSS: ✅ working (10 items, 8 PRN hits) | Awani homepage: ✅ working (15+2 candidate links, 1 extracted — ceramah permits)
+- FMT RSS: ✅ working (50 items, 43 PRN hits, multiple fresh post-cutoff 09:00-10:14 MYT)
+- HarianMetro RSS: ✅ working (51 items, 41 PRN hits, fresh post-cutoff 10:26-11:06 MYT)
+- NST RSS: ❌ no items | MalayMail RSS: ❌ no items | Sinar RSS: ❌ no items | Utusan RSS: ❌ no items
+- Homepage: Awani 15+2 links (1 extracted), NST 8 links, MalayMail 26 links, Utusan 15 links (1 extracted — analyst alt-outlet), Sinar 13 links, Star 8 links, Kosmo 2 links, HarianMetro 0 (JS-rendered)
+- The Vibes scan 125490-125530: 0 new articles (gap continues — 9th consecutive empty range)
+- Sinar ID scan 789460-789520: 0 PRN hits (range exhausted)
+- gnews indexing lag: 0 items dated after 09:30 MYT across 72 queries — RSS feeds + homepage remain the reliable fresh-content source during daylight hours
+
+### Files saved (43 total)
+**Genuinely-new PRN (8):**
+```
+priority_PIR-07-PIR-16_FMT_be-more-careful-like-zahid-dap-man-tells-brazen-tok-mat_20260721_noon_rss.md
+priority_PIR-06-PIR-07-PIR-16_FMT_contohi-zahid-pemimpin-dap-kata-tok-mat-semblerono_20260721_noon_rss.md
+priority_PIR-06-PIR-07_FMT_prn-n-sembilan-polis-buka-2-lagi-kertas-siasatan-babit-kesalahan-pilihan-raya_20260721_noon_rss.md
+priority_PIR-07-PIR-16_FMT_police-open-4-probes-into-negeri-sembilan-poll-offences_20260721_noon_rss.md
+priority_PIR-06-PIR-07_HarianMetro_prn-n9-lelaki-disyaki-khianat-bahan-kempen-ditahan_20260721_noon_rss.md
+priority_PIR-06-PIR-07_Awani_prn-negeri-sembilan-141-permohonan-ceramah-kempen-diluluskan-setakat-ini-polis_20260721_noon.md
+priority_PIR-06-PIR-07-PIR-16_FMT_mewarnai-prn-negeri-sembilan_20260721_noon_rss.md
+priority_PIR-07-PIR-16_FMT_analyst-suggests-following-sweden-s-approach-to-snap-elections_20260721_noon_rss.md
+```
+**Alt-outlet corroboration (2):**
+```
+priority_PIR-06-PIR-07_HarianMetro_ph-tak-ketandusan-pemimpin-melayu-islam-fahmi_20260721_noon_rss.md
+priority_PIR-07-PIR-16_Utusan_prn-n-sembilan-gandingan-pm-anwar-mb-aminuddin-serlah-kekuatan-sebenar-ph-pengan_20260721_noon_home.md
+```
+**False positives (33):** FMT international/markets/opinion (Asian stocks, oil, dollar, Bursa, ringgit, US-Iran, US-Canada, Saudi-Houthi, China-Thailand, China-EEZ, UK-Burnham, ICC, Trump-Burnham, Hyrox, Swig, LRT, Felda Pasoh 4, apabila-politik), HarianMetro general (IU, Kelantan police, drug addicts, school fire, Sungai Sedim, pukat hantu, Bella Dowanna, Guardiola, Argentina/Olmo, Iran-war, Orang Asli Pahang), Awani (CIMB, Bryan, IRGC, US-Canada).
+
+### Summary JSON
+- `_noon_summary_20260721.json` — full cycle metadata
+- `_gnews_headlines_20260721_noon.json` — 334 PRN/priority gnews headlines
+
+---

@@ -34,3 +34,11 @@ intelligence/
 logs/
 reports/
 # NOTE: 'scripts/' rule removed — was blocking 05-TOOLS-AND-AUTOMATION/scripts/ tracking
+04-DATA-AND-SOURCES/scratch/
+
+# Scratch scripts in data directories (moved to scratch/ but untrack any remaining)
+04-DATA-AND-SOURCES/processed-entities/**/_*.py
+04-DATA-AND-SOURCES/processed-entities/**/_*.json
+04-DATA-AND-SOURCES/raw-scrapes/**/_*.py
+04-DATA-AND-SOURCES/raw-scrapes/**/_*.json
+04-DATA-AND-SOURCES/raw-scrapes/**/collection_metadata.json

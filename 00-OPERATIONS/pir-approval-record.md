@@ -2,74 +2,127 @@
 
 **Classification:** TLP:AMBER  
 **Created:** 2026-07-18  
-**Authority:** State Intelligence Director
+**Authority:** State Intelligence Director  
+**Last Updated:** 2026-07-21 09:00 MYT
 
 ---
 
-## Active Approvals (Current 24-Hour Cycle: 19 Jul 17:25 – 20 Jul 17:25 MYT)
+## Active Approvals (Campaign Period Cycle: 21 Jul 09:00 – 28 Jul 09:00 MYT)
 
-Approved from brief `PRN-NS-NOMINATION-20260719-1725.md` — Director approved all 3 PIRs.
+**Phase Transition:** Nomination Day Surge → Campaign Period (Phase 3)
+**Cadence:** Daily + event-driven (per election calendar)
 
-### PIR-06 — Coalition Operational Arrangement ✅ APPROVED (CARRY-FORWARD, 4th cycle, [CRITICAL])
+All 3 priority PIRs approved for carry-forward into Campaign Period with refined focus. Previous 4-cycle carry-forward threshold confirmed; PIRs transitioned from discovery to monitoring/evolution mode.
+
+---
+
+### PIR-06 — Coalition Operational Arrangement ✅ APPROVED (Campaign Period Mode, [CRITICAL] — CONFIRMED THRESHOLD)
 
 **Question:** What is the actual operational arrangement between BN, PN, PH and smaller parties?
 
-**Why Now:** Kiandee's quorum question remains the formal [CRITICAL] flag. This cycle significantly strengthened evidentiary basis: (a) Bersatu contesting AGAINST PN components in 8 seats (Berita Harian), (b) RoS complaint disrupted PN seat negotiations (Sinar), (c) "Lebih hebat new coalition after NS" (Sinar), (d) Wawasan admitted into PN (coalition structure fully mapped), (e) Muhyiddin-PAS open warfare. PN concedes MB to BN while Bersatu campaigns for solo government — two incompatible post-election scenarios. Formal expulsion/withdrawal NOT detected (9 passes) → threshold-adjacent.
+**Status Change:** THRESHOLD CROSSED (confirmed 18 Jul). Transitioning from threshold-watch to CONSEQUENCE-MONITORING.
+
+**Why Now:** Bersatu–PN rupture is CONFIRMED (24 solo-logo candidates, 8 direct Bersatu-vs-PN clashes, Muhyiddin "sole opposition" declaration). The threshold question has been answered. Campaign-period focus shifts to:
+- Seat-level consequences of the split (voter confusion, machinery coordination failures, sabotage risk)
+- Whether Bersatu's solo-governing bid ("sasar bentuk kerajaan negeri") gains traction or collapses
+- BN-PN informal cooperation on the ground (jentera turun bersama — Idris/Jalaudin reports)
+- Post-election coalition formation implications (Bersatu 24 seats → kingmaker or irrelevant?)
 
 **Action:**
-- Continuous monitoring of PN-MT, Bersatu Supreme Leadership, PAS Supreme Council official channels
-- Google News: `PN Bersatu (kuorum OR "quorum" OR pecat OR keluar OR buang OR tarik diri OR "toxic PN" OR "lebih hebat")`
-- Tier-4 seat-level watch (N.04/05/13/14/23/25/31/34) for any Bersatu candidate withdrawal
-- Monitor PDM Klawang reopen status (Jalaluddin expects 1-2 days)
-- Recover Harian Metro/BH full text via alternative paths (HTTP 000/404 this cycle)
+- Monitor Tier-4 seats (N.04/05/13/14/23/25/31/34) for candidate withdrawal signals or machinery collapse
+- Track BN-PN joint campaign events (ceramah bersama, machinery sharing)
+- Monitor "sole opposition" narrative evolution — is it gaining or losing voter traction?
+- Watch for any Bersatu candidate withdrawal or substitution (sabotage by own party)
+- Track PAS-BN cooperation formula ("formula BN-PAS di Negeri Sembilan") — KJ's assessment
+- Monitor Muhyiddin graft trial developments and impact on Bersatu campaign
 
 ---
 
-### PIR-16 — First Dominant Campaign Narratives ✅ APPROVED (CARRY-FORWARD, ELEVATED)
+### PIR-16 — Dominant Campaign Narrative Evolution ✅ APPROVED (Campaign Period Mode, [ELEVATED])
 
-**Question:** What are the first dominant campaign narratives introduced by each candidate and coalition?
+**Question:** How are the dominant campaign narratives evolving during the campaign period, and which are gaining or losing traction?
 
-**Why Now:** Loke "MCA biggest loser" is DOMINANT (full text EN+BM, mkini 3620c, Awani 2925c) — MCA rebuttal watch (Wee/Mah Hang Soon NOT materialized beyond "not a merger" defense). "Bersatu in disarray" narrative [CRITICAL] maintained — hard-news corroboration NOT detected this cycle. "MB after PRN" CONFIRMED (Jalaluddin, FMT). "Bersatu kacau daun" NEW narrative vector (Wan Saiful, Harian Metro) — challenges "penyatuan undi Melayu." NS = PRU16 "makmal politik" framing surfacing (Hadi + analysts).
+**Status Change:** "First dominant narratives" → "Narrative evolution tracking". The initial narratives from Nomination Day are established. Focus shifts to trajectory and new entrants.
+
+**Why Now:** 5 narratives tracked from Day 1-2:
+1. "Fahmi-KJ exchange" (PH discipline vs PN rhetoric) — 3-outlet corroborated
+2. "PH manifesto 'Kekal Harapan'" — 4-outlet coverage, +0.35 sentiment
+3. "Anwar discipline clarification" — resolved
+4. "MCMC 3R enforcement targeting Tuanku Muhriz" — 2-outlet corroborated
+5. "Bersatu sole opposition" — [CRITICAL] confirmed, -0.90 sentiment
+
+Campaign-period narratives to track:
+- "PH needs 80% turnout" — new Day 3 narrative (FMT, coalition leader)
+- "BN-PAS formula in NS" — KJ's assessment (Awani)
+- "Tok Mat semberono" — DAP attack line (FMT)
+- "Mohamad Hasan willing to resign" — BN leadership signal
+- "Anwar-Aminuddin partnership" — PH strength narrative (Sinar, Utusan)
+- "Penganalisis: pembubaran awal tak beri penggal baharu" — analytical frame
 
 **Action:**
-- Track MCA rebuttal to Loke quote (Wee/Mah Hang Soon response expected within hours)
-- Monitor whether "Bersatu sasar bentuk kerajaan negeri" escalates from ambition-statement to hard-news corroboration of "Bersatu exit imminent?"
-- Track "kacau daun" narrative pickup — PAS/Umno responses (defending Bersatu or piling on)
-- Per-bloc narrative tracking: PH (continuity), BN (way-forward + MB concession), Bersatu (sole-opposition + solo-governing-bid), PN (Malay-unity + Wawasan admitted)
+- Track which Day 1-2 narratives are amplifying vs fading
+- Capture new narratives from campaign events (ceramah, walkabout, manifesto launches)
+- Monitor viral-risk content (WhatsApp forwards, social media amplification)
+- Track per-bloc messaging: PH (continuity/performance), BN (manifesto/MB concession), Bersatu (sole opposition/solo-governing), PN (Malay unity/Wawasan)
+- Watch for MCA rebuttal to Loke quote evolution
+- Monitor "makmal politik" PRU16 framing trajectory
 
 ---
 
-### PIR-07 — Highest-Priority Battlegrounds ✅ APPROVED (CARRY-FORWARD, 4th cycle)
+### PIR-07 — Highest-Priority Battlegrounds ✅ APPROVED (Campaign Period Mode)
 
-**Question:** Which constituencies emerge as the highest-priority battlegrounds after nominations close?
+**Question:** Which constituencies are the highest-priority battlegrounds during the campaign period, and what developments are changing their assessment?
 
-**Why Now:** Day-1 campaign-ops coverage enriched (Loke/Chennah + road-safety, Klawang cousins + PDM-shutdown, Tok Mat existential). Other T1 marquee seats (Linggi/Aminuddin, Sikamat/Nor Azman, Rantau/Tok Mat, Nilai 5-cornered, Sri Tanjung 5-cornered) require evening coverage. BN manifesto launch 24 Jul (DUN Linggi) approaching. Jalaluddin "derhaka" friction (Pertang) now corroborated by 2 hard-news outlets (NST + Harian Metro).
+**Status Change:** "Post-nomination battlegrounds" → "Campaign-period battlefield tracking". Contest configurations are confirmed; focus shifts to on-the-ground dynamics.
+
+**Why Now:** Day 3 of campaign period. Key upcoming events:
+- **22 Jul (Wed):** PM Anwar campaign at Sikamat (N.13) + Paroi (N.25)
+- **24 Jul:** BN manifesto launch at DUN Linggi + Pertang
+- **28 Jul:** Early voting
+- **1 Aug:** Polling day
+
+T1 seat monitoring (confirmed configurations):
+- **N.14 Ampangan** (329-majority) — PH vs BN vs Bersatu
+- **N.15 Juasseh** (78-margin) — PH vs BN vs Bersatu
+- **N.28 Klawang** (135-margin) — cousins race, PDM shutdown/reopen
+- **N.13 Sikamat** (open MB-seat) — Nor Azman (PH) vs Tun Faisal (Bersatu) vs Razali (Wawasan/PN)
+- **N.32 Linggi** — Aminuddin (PH) vs Faizal (BN) vs Zamri (Bersatu)
+- **N.02 Pertang** — Jalaluddin (BN) "derhaka" friction, corroborated by NST + Harian Metro
+- **N.10 Nilai** (5-cornered) — fragmentation risk
+- **N.33 Sri Tanjung** (5-cornered) — fragmentation risk
 
 **Action:**
-- Capture evening ceramah/walkabout/ops-centre coverage for T1 seats: Linggi (Aminuddin), Sikamat (Nor Azman), Rantau (Tok Mat), Chennah (Loke), Klawang (cousins + PDM reopen status), Pertang (Jalaluddin)
-- Re-poll Awani/FMT/NST feeds for fresh Day-1 campaign dispatches (18:00-20:00 MYT window)
-- Monitor BN "majoriti mudah" confidence claim for independent poll/forecast corroboration
-- Watch 8 Bersatu-vs-PN direct-clash seats for campaign friction (PIR-06/07 overlap)
+- Capture campaign-trail coverage for T1 seats (ceramah, walkabout, ops-centre)
+- Track 141 approved ceramah permits (polis data) — which seats getting most activity?
+- Monitor police poll-offence investigations (4 probes opened)
+- Track BN "majoriti mudah" confidence claim vs PH "80% turnout" warning
+- Watch 8 Bersatu-vs-PN direct-clash seats for campaign friction
+- Monitor water/flood issues at Ampangan, Felda Pasoh 4
 
 ---
 
-## Previous Approvals
+## Previous Approvals (Nomination Day Surge — Superseded)
 
-### 19 Jul 14:50 Cycle (Superseded by 17:25 cycle)
-- PIR-06 ✅ APPROVED (carried forward, 3rd cycle)
-- PIR-16 ✅ APPROVED (carried forward, elevated)
-- PIR-07 ✅ APPROVED (carried forward, 3rd cycle)
+### 19 Jul 17:25 Cycle (4th carry-forward, superseded by Campaign Period approval)
+- PIR-06 ✅ APPROVED (4th cycle, [CRITICAL] threshold crossed)
+- PIR-16 ✅ APPROVED (elevated, narrative tracking)
+- PIR-07 ✅ APPROVED (4th cycle, battleground tracking)
 
-### 19 Jul 11:00 Cycle (Superseded)
+### 19 Jul 14:50 Cycle (3rd carry-forward, superseded)
+- PIR-06 ✅ APPROVED (3rd cycle)
+- PIR-16 ✅ APPROVED (elevated)
+- PIR-07 ✅ APPROVED (3rd cycle)
+
+### 19 Jul 11:00 Cycle (superseded)
 - PIR-06 ✅ APPROVED (carried forward)
 - PIR-07 ✅ APPROVED (carried forward)
 - PIR-16 ✅ APPROVED (carried forward, elevated)
 
-### 18 Jul Cycle (Superseded)
-- PIR-06 — PN-Removal-of-Bersatu Watch ✅ APPROVED (carried forward)
-- PIR-09 — Candidate Credibility ✅ APPROVED (deferred to background collection)
-- PIR-07 — Battleground Matrix ✅ APPROVED (carried forward, merged with current PIR-07)
+### 18 Jul Cycle (superseded)
+- PIR-06 — PN-Removal-of-Bersatu Watch ✅ APPROVED
+- PIR-09 — Candidate Credibility ✅ APPROVED (deferred to background)
+- PIR-07 — Battleground Matrix ✅ APPROVED
 
 ---
 
-*Director Decision Log: All approvals recorded by State Intelligence Director, 19 Jul 2026 17:25 MYT.*
+*Director Decision Log: All approvals recorded by State Intelligence Director. Campaign Period cycle approved 21 Jul 2026 09:00 MYT. Next review: 28 Jul (Early Voting Day).*
