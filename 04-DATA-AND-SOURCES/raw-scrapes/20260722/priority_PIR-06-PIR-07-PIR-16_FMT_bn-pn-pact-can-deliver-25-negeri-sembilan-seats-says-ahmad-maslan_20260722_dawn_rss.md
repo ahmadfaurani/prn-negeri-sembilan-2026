@@ -1,0 +1,11 @@
+# BN-PN pact can deliver 25 Negeri Sembilan seats, says Ahmad Maslan
+
+**Source:** FMT
+**URL:** https://www.freemalaysiatoday.com/category/nation/2026/07/21/bn-pn-pact-can-deliver-25-negeri-sembilan-seats-says-ahmad-maslan
+**Date:** Tue, 21 Jul 2026 15:06:07 +0000
+**Collected:** 2026-07-22 06:03 MYT (dawn cycle, Day 4)
+**PIR Tags:** PIR-06, PIR-07, PIR-16
+
+---
+
+Umno leader Ahmad Maslan said the BN-PN understanding was a strategic and tactical move to prevent the Malay vote from being split, which he said had previously benefitted PH. (Bernama pic) PETALING JAYA: The cooperation between Barisan Nasional (BN) and Perikatan Nasional (PN) in the Negeri Sembilan state election is expected to win the two coalitions 25 out of the 36 seats, says Umno Supreme Council member Ahmad Maslan. According to Harian Metro, Ahmad said his projection was based on the strength of both coalitions. “It is possible that 25 seats will go to BN and PN. I am confident BN will form the Negeri Sembilan government,” he told reporters at the communications ministry’s media centre in Seremban. Under the pact, BN is contesting 25 seats while PN is contesting the remaining 11 seats. Ahmad said the BN-PN alliance was a strategic and tactical move to prevent the Malay vote from being split, which he said had previously benefitted Pakatan Harapan (PH). “In the past, PH came out ahead because the Malay vote was split. In Malay-majority constituencies, the Malay vote was divided, and PH won as a result. “BN therefore concluded that a tactical approach was needed to ensure the Malay vote was not split.” Commenting on PH’s election manifesto launched yesterday, Ahmad said BN’s manifesto was in its final stages of preparation and expressed confidence that it would offer more than PH’s. He said BN’s manifesto would focus on creating job opportunities, improving education, expanding skills training, providing housing, promoting racial harmony and strengthening efforts to promote Islamic values. Earlier today, PAS president Abdul Hadi Awang said his party had no choice but to revive its cooperation with Umno to unite a divided Malay-Muslim community at “risk of losing” its political power. Hadi rejected the notion that the BN-PN pact in Negeri Sembilan was merely a political game, reiterating that it was about uniting the ummah.

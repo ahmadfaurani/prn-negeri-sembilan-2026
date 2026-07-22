@@ -1,0 +1,11 @@
+# Voters not linking Negeri Sembilan polls with royal dispute, says think tank
+
+**Source:** FMT
+**URL:** https://www.freemalaysiatoday.com/category/nation/2026/07/21/voters-not-linking-negeri-sembilan-polls-with-royal-dispute-says-think-tank
+**Date:** Tue, 21 Jul 2026 15:49:56 +0000
+**Collected:** 2026-07-22 06:03 MYT (dawn cycle, Day 4)
+**PIR Tags:** PIR-06, PIR-07, PIR-16
+
+---
+
+Ilham Centre executive director Hisommudin Bakar said political parties had largely avoided using the Negeri Sembilan royal crisis in their campaigns because it involved the 3R (race, religion and royalty) elements. (Facebook pic) PETALING JAYA: Voters in Negeri Sembilan are not linking the royal crisis in the state with the Aug 1 polls, says the head of a think tank. Ilham Centre executive director Hisommudin Bakar said voters are focusing on the contest between the various political parties, citing on-the-ground observations. “They do not link the dispute involving the Undang and the Yang di-Pertuan Besar (with the state polls),” he was quoted by Astro Awani as saying. The royal crisis in Negeri Sembilan was sparked on April 19 by former Sungei Ujong undang Mubarak Dohak and three other undangs claiming that Tuanku Muhriz Tuanku Munawir had been removed as Yang di-Pertuan Besar. The crisis turned political after all 14 Umno assemblymen withdrew support for then menteri besar Aminuddin Harun, citing his handling of the royal dispute. This subsequently led to the dissolution of the state assembly. Hisommudin said political parties had largely avoided using the issue because it involved the 3R (race, religion and royalty) elements. “The issue did come up in coffee shops and public discussions but I don’t think it was discussed on a wide scale.” Last month, Syaza Shukri of the International Islamic University Malaysia told FMT that Umno might be at a disadvantage at the Aug 1 polls due to the part it played in the royal row. Voters, she said, blamed Umno for the crisis and would want to punish the party. Hisommudin had also told FMT last month that the outcome of the state polls would ultimately depend on voter turnout and where they are concentrated. The Negeri Sembilan election will see Pakatan Harapan contesting all 36 seats on its own, while BN and Perikatan Nasional have reached an electoral understanding with BN contesting 25 seats and PN 11.
