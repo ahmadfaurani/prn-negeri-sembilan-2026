@@ -1,0 +1,382 @@
+{
+  "extraction_metadata": {
+    "generated": "2026-07-23 08:24 +08",
+    "report_date": "2026-07-23",
+    "cycle": "morning (Day 5, Campaign Period Phase 3)",
+    "brief_id": "PRN-NS-2026-ENT-20260723-0824",
+    "agent": "PRN Negeri Sembilan 2026 Entity Extraction Agent",
+    "model": "zai-org/GLM-5.2",
+    "source_folder": "04-DATA-AND-SOURCES/raw-scrapes/20260723/",
+    "collection_window": "~22:00 MYT 22 Jul -> 06:00 MYT 23 Jul 2026",
+    "scrape_cycle_covered": "morning (06:00 MYT 23 Jul)",
+    "prior_extractions_today": [],
+    "articles_in_raw_scrape": 7,
+    "articles_processed": 7,
+    "ns_relevant_articles": 7,
+    "non_ns_skipped": 0,
+    "full_content_articles": 5,
+    "headline_only_entries": 14,
+    "entities_extracted": 42,
+    "critical_threshold_crossed": false,
+    "pir_tags_active": [
+      "PIR-06",
+      "PIR-07",
+      "PIR-16"
+    ],
+    "entity_type_counts": {
+      "person": 12,
+      "party": 7,
+      "seat": 7,
+      "narrative": 16
+    },
+    "priority_counts": {
+      "critical": 4,
+      "priority": 33,
+      "normal": 5
+    },
+    "pir_distribution": {
+      "PIR-06": 9,
+      "PIR-07": 14,
+      "PIR-16": 19
+    },
+    "cycle_assessment": "MORNING-EXTRACTION CYCLE — Morning collection (06:00 MYT 23 Jul) delivered 7 files: 5 full-content articles + 1 headlines summary (14 entries) + 1 index. All NS-relevant; 0 skipped. Content dominated by post-ceramah coverage of Anwar's first NS tour (Sikamat dinner + Paroi/Senawang ceramah) and Muhyiddin's Bersatu ceramah at BGU Sikamat. Key developments: (1) Bersatu MB candidate STILL undecided — first time contesting under own name in NS [PIR-06 CRITICAL]; (2) Muhyiddin distances from 'sokong BN' directive: 'Saya tidak terlibat', PN 'ditinggalkan begitu sahaja' [PIR-06 CRITICAL]; (3) Anwar confirms Aminuddin as MB — 'We have a candidate AND a record' vs opposition MB disunity [PIR-16]; (4) SARA increase announced, to be aligned with NS [PIR-07/16]; (5) New T1 candidate pledges: Bakri Sawir (PH Klawang), Jalaluddin (BN Pertang), Ahmad Faez (PH Labu). PIR-06 [CRITICAL] threshold STILL CLEAR — no Bersatu Tier-4 candidate withdrawal (pecat/keluar/tarik diri) reported. Downstream sentiment should track PH 'confirmed MB + record' confidence vs Bersatu 'undecided + independent' vulnerability, plus federal-state-alignment welfare messaging."
+  },
+  "entities": [
+    {
+      "entity": "Muhyiddin Yassin",
+      "type": "person",
+      "pir_tag": "PIR-06",
+      "priority": "critical",
+      "source_url": "https://www.sinarharian.com.my/article/788996/berita/politik/muhyiddin-bidas-khaled-nordin-jangan-perlekeh-kemampuan-bersatu",
+      "context": "Bersatu President. At BGU Sikamat ceramah. MB candidate UNDECIDED — first time Bersatu contests under own name in NS. Distances from 'sokong BN' directive: 'Saya tidak terlibat', PN 'ditinggalkan begitu sahaja'. Counters Khaled Nordin's dismissal: 'Bukan nak kacau daun, kita masuk untuk menang'. Manifesto being drafted by Radzi Jidin committee. Corroborated Utusan + Sinar."
+    },
+    {
+      "entity": "Anwar Ibrahim",
+      "type": "person",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.utusan.com.my/nasional/2026/07/pengundi-mesti-nilai-rekod-perkhidmatan-aminuddin/",
+      "context": "PM/PH chairman. First NS campaign tour continued 22-23 Jul: Majlis Makan Malam Perpaduan DUN Sikamat (Taman Sri Penaga) + Ceramah Perdana PH DUN Paroi (Pusat Bandar Senawang). Announced SARA increase to be aligned with NS. Confirmed Aminuddin as MB: 'Kita ada calon, kita ada rekod'. Defended Aminuddin vs 'boneka DAP'. 'MB bukan rebutan'. Anti-corruption/anti-sakau messaging. 'Tebuk atap' accusation against opposition. Corroborated Utusan x2 + Sinar + headlines."
+    },
+    {
+      "entity": "Aminuddin Harun",
+      "type": "person",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.utusan.com.my/nasional/2026/07/pengundi-mesti-nilai-rekod-perkhidmatan-aminuddin/",
+      "context": "NS MB / PH MB candidate. Confirmed by Anwar at Sikamat dinner: 'Dengan izin Allah beliau akan terus menjadi Menteri Besar'. Anwar urges voters to evaluate his service record at Sikamat + Ampangan. Credited with high bonus to NS public servants (SARA article). PH manifesto implementation narrative: 'Tidak hanya berjanji, manifesto dibuktikan dengan pelaksanaan'. Defended against 'boneka DAP' accusation."
+    },
+    {
+      "entity": "Mohamed Khaled Nordin",
+      "type": "person",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.sinarharian.com.my/article/788996/berita/politik/muhyiddin-bidas-khaled-nordin-jangan-perlekeh-kemampuan-bersatu",
+      "context": "Menteri Pertahanan (BN/UMNO). Previously dismissed Bersatu's participation in PRN NS-16. Countered sharply by Muhyiddin: 'Bercakap macam budak-budak, macam kita ini sampah'. Triggers Bersatu 'here to win' counter-narrative. Referenced in BHarian headline (same event as Sinar 788996)."
+    },
+    {
+      "entity": "Radzi Jidin",
+      "type": "person",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.utusan.com.my/nasional/2026/07/bersatu-belum-putuskan-calon-menteri-besar/",
+      "context": "Datuk Dr. Mohd Radhi Md Jidin, Timbalan Presiden Bersatu. Chairs Bersatu manifesto committee for PRN NS. Manifesto in drafting stage — focus: ekonomi, infrastruktur, kesihatan awam, pendidikan, kebajikan rakyat. Launch expected in coming days. Corroborated Utusan + Sinar."
+    },
+    {
+      "entity": "Mohamad Sabu",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.sinarharian.com.my/article/788993/berita/politik/labelkan-dap-jahat-untuk-dapat-undi--mat-sabu",
+      "context": "Mat Sabu, Amanah President. At Program Jelajah Kekal HARAPAN NS, Pusat Bandar Senawang Taipan 2. Two narratives: (1) anti-party-hopping 'Rakyat perlu tolak politik kahwin-cerai'; (2) anti-racial politics 'Labelkan DAP jahat, untuk dapat undi'. Headline-only (antibot blocked full extraction)."
+    },
+    {
+      "entity": "Muhammad Faiz Fadzil",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "headline-only (Sinar Harian, URL not captured)",
+      "context": "Amanah. Anti-PAS narrative: 'PAS gunakan penyatuan Melayu untuk mendapatkan kuasa'. Headline-only entry from Sinar Harian politik page."
+    },
+    {
+      "entity": "Bakri Sawir",
+      "type": "person",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "headline-only (Astro Awani, URL not captured)",
+      "context": "PH candidate DUN Klawang (N.28, T1 seat). Pledges R&R and university for Jelebu as catalyst for economic development. Headline-only from Astro Awani berita-politik."
+    },
+    {
+      "entity": "Jalaluddin Alias",
+      "type": "person",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "headline-only (Astro Awani, URL not captured)",
+      "context": "BN candidate DUN Pertang (N.02, T1 seat). Pledges to make Pertang an 'hab intelek' (intellectual hub). Headline-only from Astro Awani berita-politik."
+    },
+    {
+      "entity": "Ahmad Faez",
+      "type": "person",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "headline-only (Astro Awani, URL not captured)",
+      "context": "PH candidate DUN Labu (N.20, T1 seat). Campaign target: engage 100 families per day. Headline-only from Astro Awani berita-politik."
+    },
+    {
+      "entity": "Fahmi Fadzil",
+      "type": "person",
+      "pir_tag": "PIR-07",
+      "priority": "normal",
+      "source_url": "headline-only (BHarian, URL not captured)",
+      "context": "Comms Minister. Calls for authorities to take action on campaign sabotage/vandalism ('kes khianat sepanjang kempen'). Headline-only from BHarian nasional page."
+    },
+    {
+      "entity": "Johan Mahmood Merican",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "https://www.sinarharian.com.my/article/788995/berita/nasional/kerajaan-naikkan-kadar-sara-dalam-tempoh-terdekat---anwar",
+      "context": "Tan Sri, Treasury Secretary-General. Discussed SARA/STR increase possibility with Anwar. To be considered in Budget 2027. Background figure in SARA announcement at Senawang ceramah."
+    },
+    {
+      "entity": "Bersatu",
+      "type": "party",
+      "pir_tag": "PIR-06",
+      "priority": "critical",
+      "source_url": "https://www.utusan.com.my/nasional/2026/07/bersatu-belum-putuskan-calon-menteri-besar/",
+      "context": "CRITICAL entity — contesting SOLO under own name in NS for first time. MB candidate UNDECIDED. Manifesto pending (Radzi Jidin committee). 'Here to win, not spoil' — counter to Khaled Nordin dismissal. Distances from 'sokong BN' directive. No Tier-4 candidate withdrawal reported. Corroborated Utusan + Sinar x2."
+    },
+    {
+      "entity": "PN",
+      "type": "party",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "headline-only (BHarian, URL not captured)",
+      "context": "Denies claim weekend holidays would change if PN wins mandate with BN — categorised as 'fitnah'. Muhyiddin says PN 'ditinggalkan begitu sahaja' re 'sokong BN' directive, does not know who made the decision. Operating independently of Bersatu in NS context."
+    },
+    {
+      "entity": "PH",
+      "type": "party",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.utusan.com.my/nasional/2026/07/kadar-baharu-sara-diumum-dalam-masa-terdekat/",
+      "context": "Pakatan Harapan. Confirmed MB candidate (Aminuddin). Manifesto implementation narrative: 'Tidak hanya berjanji, dibuktikan dengan pelaksanaan'. Federal-state alignment delivers benefits (SARA + NS coordination). Ceramah Perdana at Paroi/Senawang. Stability messaging: 'Kerajaan Perpaduan kekal stabil'."
+    },
+    {
+      "entity": "BN",
+      "type": "party",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.sinarharian.com.my/article/788996/berita/politik/muhyiddin-bidas-khaled-nordin-jangan-perlekeh-kemampuan-bersatu",
+      "context": "Context of 'sokong BN' directive that Muhyiddin distances from. Khaled Nordin (BN/UMNO minister) dismissed Bersatu's NS participation. BN candidate Jalaluddin at Pertang. Joint BN-PN machinery context (yesterday's scrapes)."
+    },
+    {
+      "entity": "PAS",
+      "type": "party",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "headline-only (Sinar Harian, URL not captured)",
+      "context": "Accused of using 'penyatuan Melayu' (Malay unity) tactic to gain power — per Faiz Fadzil (Amanah) anti-PAS narrative. Continues yesterday's 'two-mode strategy' framing (Hadi: goalkeeper Johor, attacker NS)."
+    },
+    {
+      "entity": "DAP",
+      "type": "party",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "headline-only (Sinar Harian + Astro Awani, URLs not captured)",
+      "context": "Two narrative roles: (1) 'Labelkan DAP jahat untuk dapat undi' — Mat Sabu counters racial-politics tactic of labeling DAP as evil to win votes; (2) 'Boneka DAP' — accusation against Aminuddin that Anwar defends. DAP as campaign foil/boogeyman in NS Malay-majority seats."
+    },
+    {
+      "entity": "Amanah",
+      "type": "party",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "headline-only (Sinar Harian, URL not captured)",
+      "context": "Mat Sabu (President) and Faiz Fadzil campaigning at Jelajah Kekal Harapan NS, Senawang. Driving anti-party-hopping and anti-racial-politics narratives within PH coalition framework."
+    },
+    {
+      "entity": "Sikamat",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.utusan.com.my/nasional/2026/07/pengundi-mesti-nilai-rekod-perkhidmatan-aminuddin/",
+      "context": "N.13, T1 priority seat. TWO major events same night: (1) Anwar Majlis Makan Malam Perpaduan at Taman Sri Penaga — 'MB bukan rebutan', evaluate Aminuddin's record; (2) Muhyiddin Program Rapat Rakyat Bersatu at Bilik Gerakan Utama (BGU) — MB undecided, counters Khaled. Direct PH-vs-Bersatu narrative clash venue."
+    },
+    {
+      "entity": "Paroi",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.utusan.com.my/nasional/2026/07/kadar-baharu-sara-diumum-dalam-masa-terdekat/",
+      "context": "N.25, T1 priority seat. Anwar Ceramah Perdana PH DUN Paroi at Pusat Bandar Senawang. SARA increase announced here. 'Tebuk atap' accusation against opposition. Anti-corruption messaging. Corroborated Utusan + Sinar."
+    },
+    {
+      "entity": "Senawang",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.sinarharian.com.my/article/788995/berita/nasional/kerajaan-naikkan-kadar-sara-dalam-tempoh-terdekat---anwar",
+      "context": "Ceramah Jelajah Kekal Harapan venue (Pusat Bandar Senawang Taipan 2). Part of Paroi DUN area. Anwar announced SARA increase here. Also venue for Mat Sabu anti-kahwin-cerai + anti-DAP-labeling speeches. Federal-state alignment narrative anchor."
+    },
+    {
+      "entity": "Ampangan",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.utusan.com.my/nasional/2026/07/pengundi-mesti-nilai-rekod-perkhidmatan-aminuddin/",
+      "context": "N.14, T1 priority seat. Named by Anwar at Sikamat dinner alongside Sikamat: 'dia sombong di Sikamat, Ampangan' — urging voters to evaluate Aminuddin's service record in both constituencies. No standalone campaign event reported today."
+    },
+    {
+      "entity": "Klawang",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "headline-only (Astro Awani, URL not captured)",
+      "context": "N.28, T1 priority seat. PH candidate Bakri Sawir pledges R&R and university for Jelebu as economic development catalyst. New candidate pledge emerging from campaign events."
+    },
+    {
+      "entity": "Pertang",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "headline-only (Astro Awani, URL not captured)",
+      "context": "N.02, T1 priority seat. BN candidate Jalaluddin Alias pledges to make Pertang an 'hab intelek' (intellectual hub). New BN candidate pledge."
+    },
+    {
+      "entity": "Labu",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "headline-only (Astro Awani, URL not captured)",
+      "context": "N.20, T1 priority seat. PH candidate Ahmad Faez targets engaging 100 families per day during campaign. Active ground campaign. (Yesterday: Bersatu candidate Mohamad Hanifah 'foreigner' allegation — still monitoring, no withdrawal.)"
+    },
+    {
+      "entity": "Bersatu solo campaign / MB undecided",
+      "type": "narrative",
+      "pir_tag": "PIR-06",
+      "priority": "critical",
+      "source_url": "https://www.utusan.com.my/nasional/2026/07/bersatu-belum-putuskan-calon-menteri-besar/",
+      "context": "CRITICAL PIR-06 narrative — Bersatu contesting solo under own name in NS for first time. MB candidate NOT decided: 'Buat sementara kami tidak lagi putuskan apa-apa'. Focus on winning seats first; MB only if sufficient seats to form government. Acknowledges difficulty predicting results. Confirms Bersatu-PN split consequence: independent operation. Corroborated Utusan + Sinar x2."
+    },
+    {
+      "entity": "'Sokong BN' directive distance",
+      "type": "narrative",
+      "pir_tag": "PIR-06",
+      "priority": "critical",
+      "source_url": "https://www.sinarharian.com.my/article/788996/berita/politik/muhyiddin-bidas-khaled-nordin-jangan-perlekeh-kemampuan-bersatu",
+      "context": "CRITICAL PIR-06 narrative — Muhyiddin distances from alleged directive for PN supporters to vote BN: 'Saya tidak terlibat'. PN 'ditinggalkan begitu sahaja' — does not know who made the decision. Calls situation 'agak janggal' since Bersatu contests to win, not support others. Signals Bersatu-PN operational fracture in NS. Will not intervene."
+    },
+    {
+      "entity": "Bersatu 'here to win' counter-narrative",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.sinarharian.com.my/article/788996/berita/politik/muhyiddin-bidas-khaled-nordin-jangan-perlekeh-kemampuan-bersatu",
+      "context": "Direct clash between PH/BN and Bersatu narratives. Muhyiddin counters Khaled Nordin's dismissal: 'Kita bukan main-main masuk pilihan raya ini, bukan nak kacau daun. Kita masuk untuk menang. Jangan perlekehkan kemampuan kita.' Acknowledges growing public support at campaign locations but warns against overconfidence."
+    },
+    {
+      "entity": "SARA increase / federal-state alignment",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.utusan.com.my/nasional/2026/07/kadar-baharu-sara-diumum-dalam-masa-terdekat/",
+      "context": "Anwar announces SARA increase in near future, to be aligned ('digabungkan/samakan') with Negeri Sembilan. Economic welfare as campaign pillar. Aminuddin credited with high public-servant bonus. STR also under consideration. Budget 2027 context. Federal-state alignment delivers benefits narrative. Corroborated Utusan + Sinar."
+    },
+    {
+      "entity": "'We have a candidate AND a record'",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.utusan.com.my/nasional/2026/07/pengundi-mesti-nilai-rekod-perkhidmatan-aminuddin/",
+      "context": "Anwar's core contrast narrative: 'Kita ada calon, kita ada rekod' vs opposition 'beberapa orang berebut, belum mampu umum lagi'. Aminuddin confirmed as MB. Deliberate narrative pairing with Bersatu's undecided MB position (same night, same Sikamat venue). PH confidence vs Bersatu vulnerability."
+    },
+    {
+      "entity": "Anti-corruption / anti-'sakau' messaging",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.utusan.com.my/nasional/2026/07/kadar-baharu-sara-diumum-dalam-masa-terdekat/",
+      "context": "Anwar at Paroi ceramah: leaders must stop rasuah, salah guna kuasa, 'sakau' (abuse). Treat state assets as public not private property. Stop taking wealth abroad. Integrity messaging as governance-vs-opposition contrast."
+    },
+    {
+      "entity": "'Tebuk atap' accusation",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.utusan.com.my/nasional/2026/07/kadar-baharu-sara-diumum-dalam-masa-terdekat/",
+      "context": "Anwar accuses opposition of 'tebuk atap' (breaking in early) — attempted to topple NS government earlier not due to administrative weakness but because their preferred MB candidate was not chosen. Frames opposition as power-grabbing, not policy-driven."
+    },
+    {
+      "entity": "Anti-party-hopping ('kahwin-cerai')",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "headline-only (Sinar Harian, URL not captured)",
+      "context": "Mat Sabu at Jelajah Kekal Harapan Senawang: 'Rakyat perlu tolak politik kahwin-cerai'. Anti-party-hopping narrative targeting Bersatu/defector framing. Continuates coalition-stability messaging."
+    },
+    {
+      "entity": "DAP labeling for votes",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.sinarharian.com.my/article/788993/berita/politik/labelkan-dap-jahat-untuk-dapat-undi--mat-sabu",
+      "context": "Mat Sabu counters racial-politics tactic: 'Labelkan DAP jahat, untuk dapat undi' — opponents label DAP as evil to harvest Malay votes. Anti-racial-politics narrative within PH coalition. Headline (antibot blocked full extraction)."
+    },
+    {
+      "entity": "'Boneka DAP' defense",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "headline-only (Astro Awani, URL not captured)",
+      "context": "Anwar defends MB Aminuddin against 'boneka DAP' (DAP puppet) accusations at NS ceramah. Counter-narrative to opposition's racial-framing of PH MB. Pairs with Mat Sabu's 'labelkan DAP jahat' narrative."
+    },
+    {
+      "entity": "PAS 'penyatuan Melayu' tactic",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "headline-only (Sinar Harian, URL not captured)",
+      "context": "Faiz Fadzil (Amanah): 'PAS gunakan penyatuan Melayu untuk mendapatkan kuasa'. Anti-PAS narrative framing PAS's Malay-unity appeal as cynical power-seeking. Continuates yesterday's Hadi 'two-mode strategy' analysis."
+    },
+    {
+      "entity": "MB bukan rebutan",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "headline-only (Sinar Harian, URL not captured)",
+      "context": "Anwar at Sikamat: 'Jawatan Menteri Besar bukan rebutan'. Reframes MB position as settled (Aminuddin confirmed) vs opposition's internal scramble. Pairs directly with 'We have a candidate AND a record' narrative."
+    },
+    {
+      "entity": "Bersatu manifesto pending",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.utusan.com.my/nasional/2026/07/bersatu-belum-putuskan-calon-menteri-besar/",
+      "context": "Bersatu NS manifesto in drafting stage, chaired by Radzi Jidin (Timbalan Presiden). Focus: ekonomi, infrastruktur, kesihatan awam, pendidikan, kebajikan rakyat. Launch expected in coming days. Contrasts with already-launched PH manifesto (21 Jul). No new manifesto launch content this cycle — narrative FADING."
+    },
+    {
+      "entity": "PN denies weekend holiday change",
+      "type": "narrative",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "headline-only (BHarian, URL not captured)",
+      "context": "PN denies claim that weekend holidays would change if they win mandate to govern with BN — categorised as 'fitnah' (slander). Coalition-dynamics narrative rebutting PH-linked attack. Headline-only."
+    },
+    {
+      "entity": "Government stability messaging",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "headline-only (Sinar Harian, URL not captured)",
+      "context": "Anwar at Senawang: 'Kerajaan Perpaduan kekal stabil'. Stability-as-governance narrative linking federal unity-government strength to NS PH continuity. Economic-investment-confidence framing."
+    },
+    {
+      "entity": "Campaign sabotage action",
+      "type": "narrative",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "headline-only (BHarian, URL not captured)",
+      "context": "Fahmi Fadzil (Comms Minister) calls for authorities to take action on 'kes khianat' (acts of betrayal/sabotage) during campaign. Campaign-incident narrative — potential vandalism/poster-removal escalation. Headline-only."
+    }
+  ]
+}
