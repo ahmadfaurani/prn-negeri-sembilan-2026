@@ -23,7 +23,7 @@ This is a **FULL-EXTRACTION CYCLE** — the dawn collection (06:00 MYT 22 Jul) d
 
 3. **Bersatu isolation deepening** — "bubar Bersatu" call (Umno veteran), "traitor" splinter framing, 0 Johor seats, may lose all + deposits. Bersatu -0.92→-0.95 (3.3% — marginal, NOT >30%). 24 solo candidates STABLE. No Tier-4 withdrawal. PIR-06 [CRITICAL] threshold CLEAR.
 
-4. **PH↔BN unity-govt friction escalating** — govt-assets controversy (Aminuddin accuses BN → Zahid rebuttal → Aminuddin "tak wajar") + Zahid "pecat menteri" challenge. Multi-day, 4-outlet (FMT x2 + Utusan x2). Dominant PIR-16 narrative thread. Sharpest PH critique of BN this cycle.
+4. **PH↔BN unity-govt friction escalating** — govt-assets controversy (Aminuddin accuses BN → Zahid rebuttal → Aminuddin "tak wajar") + Zahid "pecat menteri" challenge. Multi-day, 4-outlet (FMT x2 + Utusan x2). primary PIR-16 narrative thread. Sharpest PH critique of BN this cycle.
 
 5. **Manifesto launch period** — PH 10-commitment manifesto (30k jobs, 20k homes, infrastructure) vs BN manifesto pending (50k jobs, halal hub, "better than PH"). Both positive; competition intensifying.
 
@@ -67,7 +67,7 @@ Ahmad Maslan (Umno Supreme Council / Deputy Works Minister) projects BN-PN under
 
 **Assessment:** Bersatu isolation deepens as BN-PAS axis solidifies, but this is STRUCTURAL MARGINALIZATION, not formal expulsion/withdrawal. "bubar Bersatu" is EXTERNAL advocacy (Umno veteran), not internal Bersatu exit signal. 24 solo candidates STABLE. PIR-06 [CRITICAL] threshold STILL CLEAR (37th cycle). Bersatu sharp-negative alert is pre-existing; marginal deepening, NOT a fresh sharp-negative signal.
 
-### 4. PH↔BN Unity-Govt Friction Escalating [PIR-16 — DOMINANT NARRATIVE THREAD] ⚠️
+### 4. PH↔BN Unity-Govt Friction Escalating [PIR-16 — primary NARRATIVE THREAD] ⚠️
 
 Multi-day, multi-outlet escalating exchange:
 - **Govt-assets controversy:** PH/Aminuddin (sparked by Manivannan DUN Jeram Padang) accuses BN of using govt assets (JAKOA) → Zahid rebuttal "others also use, I have records" → Aminuddin "tak wajar." 4 outlets (FMT EN+BM x2 + Utusan x2).
@@ -78,7 +78,7 @@ Multi-day, multi-outlet escalating exchange:
 - **G. Manivannan:** +0.20→+0.25 (improving — sparked national exchange) [PRIORITY]
 - **Ahmad Zahid Hamidi:** -0.10 (NEW — defensive posture, central to friction) [PRIORITY]
 
-Per extraction notes: "Aminuddin's 'tak wajar' + 'isu dalaman BN-PN' framing is the sharpest PH critique of BN this cycle." This is the dominant PIR-16 narrative thread to watch through polling day.
+Per extraction notes: "Aminuddin's 'tak wajar' + 'isu dalaman BN-PN' framing is the sharpest PH critique of BN this cycle." This is the primary PIR-16 narrative thread to watch through polling day.
 
 ### 5. Manifesto Launch Period [PIR-16 — BOTH POSITIVE, COMPETING]
 
@@ -170,7 +170,7 @@ No formal PN-MT expulsion notice. No Bersatu candidate withdrawal (24 solo-logo 
 
 ## PIR-16: Campaign Narrative Evolution [ELEVATED]
 
-### Dominant Thread: PH↔BN Unity-Govt Friction
+### primary Thread: PH↔BN Unity-Govt Friction
 
 | Entity | Score | Trend | Alert | Δ this cycle |
 |---|---|---|---|---|
@@ -218,7 +218,7 @@ No formal PN-MT expulsion notice. No Bersatu candidate withdrawal (24 solo-logo 
 | derhaka friction (Pertang) | -0.20 | stable | priority |
 | PH vulnerability admission | -0.35 | declining | priority |
 
-**Assessment:** The govt-assets + pecat-menteri controversy is the dominant PIR-16 narrative thread — multi-day, 4-outlet, escalating PH↔BN unity-govt friction. This is NOT a "Bersatu exit imminent" or "sasar bentuk kerajaan" threshold event. No viral amplification >50% detected. Bersatu-disarray narrative marginally re-surfaces via "bubar Bersatu" call (external, not internal). Royal issue FADING — positive for stability. Manifesto competition intensifying (30k vs 50k jobs).
+**Assessment:** The govt-assets + pecat-menteri controversy is the primary PIR-16 narrative thread — multi-day, 4-outlet, escalating PH↔BN unity-govt friction. This is NOT a "Bersatu exit imminent" or "sasar bentuk kerajaan" threshold event. No viral amplification >50% detected. Bersatu-disarray narrative marginally re-surfaces via "bubar Bersatu" call (external, not internal). Royal issue FADING — positive for stability. Manifesto competition intensifying (30k vs 50k jobs).
 
 ---
 
@@ -288,4 +288,4 @@ No formal PN-MT expulsion notice. No Bersatu candidate withdrawal (24 solo-logo 
 
 ---
 
-*End of summary — PRN Negeri Sembilan 2026 Sentiment Analysis, Revision-28, 2026-07-22 10:00 MYT (UTC+8). 90 tracked entities (57 new / 15 updated / 18 carried forward) from dawn extraction entities-20260722-0822.json (72 entities, 26 articles). [CRITICAL] NOT crossed (37th cycle). Dominant narrative: escalating PH↔BN unity-govt friction (govt-assets + pecat-menteri, 4 outlets). Key positive: Anwar's first NS tour across T1 seats (Ampangan, Paroi, Sikamat). Key negative: Bersatu isolation deepening (disband call, traitor framing, 3.3% — NOT >30%). No sharp >30% PIR-06 shift; no >20% PIR-07 seat drop this cycle (DUN Linggi cumulative 35.7% flagged); no >50% viral amplification. Election timeline: advance 28 Jul, polling 1 Aug.*
+*End of summary — PRN Negeri Sembilan 2026 Sentiment Analysis, Revision-28, 2026-07-22 10:00 MYT (UTC+8). 90 tracked entities (57 new / 15 updated / 18 carried forward) from dawn extraction entities-20260722-0822.json (72 entities, 26 articles). [CRITICAL] NOT crossed (37th cycle). primary narrative: escalating PH↔BN unity-govt friction (govt-assets + pecat-menteri, 4 outlets). Key positive: Anwar's first NS tour across T1 seats (Ampangan, Paroi, Sikamat). Key negative: Bersatu isolation deepening (disband call, traitor framing, 3.3% — NOT >30%). No sharp >30% PIR-06 shift; no >20% PIR-07 seat drop this cycle (DUN Linggi cumulative 35.7% flagged); no >50% viral amplification. Election timeline: advance 28 Jul, polling 1 Aug.*

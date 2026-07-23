@@ -27,7 +27,7 @@ Collection Cycle: Evening 2026-07-22 18:00 MYT
 | Time | Event | Location |
 |------|-------|----------|
 | **4:00 PM** | Santai Petang Bersama Warga Ampangan | Benteng @ Medan Selera Ampangan |
-| **5:00 PM** | Jelajah Rakan Muda | Negri Sembilan Youth and Sports Complex, Paroi |
+| **5:00 PM** | Jelajah Rakan Muda | Negri Sembilan belia and Sports Complex, Paroi |
 | **8:00 PM** | Sikamat State Legislative Assembly Unity Dinner | Taman Sri Penaga |
 | **Evening** | Paroi State Legislative Assembly Pakatan Harapan Grand Rally | Taipan 2, Senawang Town Centre |
 

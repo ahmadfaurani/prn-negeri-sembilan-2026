@@ -61,5 +61,5 @@ Collection Cycle: Evening 2026-07-22 18:00 MYT
 - Welfare (kebajikan)
 - Education programs (pendidikan)
 - Human development (pembangunan insan)
-- Activities for elderly (warga emas) and youth (belia)
+- Activities for elderly (warga emas) and belia (belia)
 

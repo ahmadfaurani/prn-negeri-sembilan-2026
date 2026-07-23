@@ -93,7 +93,7 @@
 - No CRITICAL (no Tier-4 withdrawal). Bersatu 24 solo candidates stable.
 - Key development: **Anwar's first NS campaign tour (Wed 22 Jul)** across Ampangan/Paroi/Sikamat (T1) + **BN-PN 25-seat claim** + **PH & BN manifestos launching**.
 - Election dates confirmed: advance voting 28 Jul, polling 1 Aug.
-- Escalating PH↔BN unity-govt friction (govt-assets + pecat-menteri) is the dominant PIR-16 narrative thread to watch through polling day.
+- Escalating PH↔BN unity-govt friction (govt-assets + pecat-menteri) is the primary PIR-16 narrative thread to watch through polling day.
 
 ---
 
