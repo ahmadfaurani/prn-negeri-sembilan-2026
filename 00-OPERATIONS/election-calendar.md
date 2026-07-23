@@ -71,9 +71,10 @@
 | Entity Extraction | 08:00 | Every 120m | **08:00** | Every 4h | Every 120m |
 | Sentiment Analysis | 10:00 | Every 120m | **10:00** | Every 4h | Every 120m |
 | Intelligence Brief | 09:00 | Every 60m | **12:00 + 21:00** | Every 4h | Every 60m |
+| Campaign Trail Tracker | — | — | **09:00 + 17:00 + 01:00** | Every 4h | Every 60m |
 | Git Sync | 10:00 | Every 120m | **00:00** (daily) | Every 4h | Every 120m |
 
-**Phase 3 sequential pipeline:** Collection (06:00) → Entity (08:00) → Sentiment (10:00) → Brief (12:00) → Evening Collection (18:00) → Evening Brief (21:00) → Git Sync (00:00). Each stage has 2h to complete before downstream consumption.
+**Phase 3 pipeline:** Collection (06:00) → Entity (08:00) → Sentiment (10:00) → Brief (12:00) → Campaign Trail (17:00) → Evening Collection (18:00) → Evening Brief (21:00) → Campaign Trail (01:00) → Git Sync (00:00). The Campaign Trail Tracker runs 3x daily, filling gaps between general collection and brief cycles with candidate-level ceramah/rally/event tracking across all 36 DUNs.
 
 **Phase transitions require manual schedule update** — update cronjob schedules at each phase boundary.
 
