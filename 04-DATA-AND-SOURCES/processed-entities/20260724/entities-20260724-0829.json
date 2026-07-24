@@ -1,0 +1,654 @@
+{
+  "extraction_metadata": {
+    "generated": "2026-07-24 08:29 +08",
+    "report_date": "2026-07-24",
+    "cycle": "morning (Day 7, Campaign Period Phase 3)",
+    "brief_id": "PRN-NS-2026-ENT-20260724-0829",
+    "agent": "PRN Negeri Sembilan 2026 Entity Extraction Agent",
+    "model": "zai-org/GLM-5.2",
+    "source_folder": "04-DATA-AND-SOURCES/raw-scrapes/20260724/",
+    "collection_window": "~22:00 MYT 23 Jul -> 06:00 MYT 24 Jul 2026",
+    "scrape_cycle_covered": "morning (06:00 MYT 24 Jul)",
+    "prior_extractions_today": [],
+    "articles_in_raw_scrape": 16,
+    "articles_processed": 15,
+    "ns_relevant_articles": 15,
+    "non_ns_skipped": 0,
+    "full_content_articles": 14,
+    "headline_only_entries": 7,
+    "entities_extracted": 76,
+    "critical_threshold_crossed": false,
+    "pir_tags_active": [
+      "PIR-06",
+      "PIR-07",
+      "PIR-16"
+    ],
+    "entity_type_counts": {
+      "person": 26,
+      "party": 10,
+      "seat": 13,
+      "narrative": 27
+    },
+    "priority_counts": {
+      "critical": 1,
+      "priority": 57,
+      "normal": 18
+    },
+    "pir_distribution": {
+      "PIR-06": 25,
+      "PIR-07": 21,
+      "PIR-16": 30
+    },
+    "cycle_assessment": "MORNING-EXTRACTION CYCLE — Morning collection (06:00 MYT 24 Jul) delivered 16 files: 14 full-content articles + 1 headlines summary (7 entries) + 1 index. All NS-relevant; 0 skipped. Dominant theme: MANIFESTO WEEK — the highest-level BN-PN cooperation confirmation yet (merged manifesto into ONE document + cross-voting directive), plus PH (Kekal Harapan) and Bersatu (pending) manifesto positioning. KEY DEVELOPMENTS: (1) BN-PN MERGED MANIFESTO [PIR-06 CRITICAL escalation] — Annuar Musa confirms one document, both sides direct supporters to vote each other's candidates; Bersatu EXCLUDED; resolves prior 'sokong BN' tension into formal cooperation [FMT+Harian Metro+Utusan]; (2) Vodus survey (437 voters, 9-21 Jul) — PH 17/BN 15/PN 2/2 undecided, neither reaches 19; hung assembly possible; BN trust 45% vs PH 19%; Aminuddin favourability 31.7% vs Johor MB 58.1%; 30% voters movable [PIR-07/16]; (3) Sikamat N.13 full 3-cornered field confirmed — Nor Azman (PH) vs Razali (PN/Wawasan) vs Tun Faisal (Bersatu), 34,103 voters [PIR-07]; (4) PH counter-narratives intensify — 'perpaduan ummah as threat' (Khalid Samad), 'bukan lagi negeri laluan' economic corridor (Aminuddin), anti-retorik strategy; (5) Internal UMNO dissent — Youth exco cautions BN-PN formalization 'belum sesuai', grassroots 'samar-samar'; (6) Wawasan 4 seats + bridge positioning. PIR-06 [CRITICAL] threshold STILL CLEAR — NO Bersatu Tier-4 candidate withdrawal (pecat/keluar/tarik diri) reported. The 1 critical-priority entity is the merged-manifesto operational escalation (consequence-monitoring milestone), NOT a withdrawal event. Downstream sentiment should track BN-PN 'unified front' confidence vs Bersatu 'excluded+solo' vulnerability, BN trust-advantage narrative, and PH's 'perpaduan ummah' counter + economic-vision pitch."
+  },
+  "entities": [
+    {
+      "entity": "Annuar Musa",
+      "type": "person",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/23/bn-pn-gabung-manifesto-kempen-prn-n-sembilan",
+      "context": "Tan Sri, Ketua Penerangan PN & Timbalan Ketua Pengarah Jabatan Pilihan Raya PAS. Confirms BN-PN MERGED manifesto: 'kami hanya akan ada satu manifesto'. Cross-voting directive formalized. Reframes power as virtuous: 'Kita perlukan kuasa untuk laksanakan kebaikan untuk agama'. Outlined shared ceramah stages, markas, grand finale joint address. Accompanied PN candidates at Bagan Pinang & Lukut nomination. Corroborated FMT + Utusan + Harian Metro."
+    },
+    {
+      "entity": "Mohamad Hasan",
+      "type": "person",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://umno-online.my/2026/07/23/manifesto-bn-sambung-yang-tergendala-mohamad/",
+      "context": "Datuk Seri (Tok Mat), Timbalan Pengerusi BN & Pengarah PRN BN NS. Calon BN & penyandang DUN Rantau. Launches BN manifesto 'Sambung Yang Tergendala' on 24 Jul (TODAY). DEFERS MB candidate: 'Let we pass the post first'. Denies Sabah plagiarism claim: 'perang psikologi'. Campaigns at Chembong (Pedas Tengah) for Zaifulbahri. Corroborated UMNO Online + FMT."
+    },
+    {
+      "entity": "Aminuddin Harun",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.astroawani.com/berita-malaysia/prn-negeri-sembilan-bukan-lagi-negeri-laluan-bakal-jadi-koridor-ekonomi-baharu-negara-aminuddin",
+      "context": "Datuk Seri (Tok Min), NS Menteri Besar & Pengerusi PH NS. PH MB candidate, contesting Linggi. Launches PH manifesto 'Kekal Harapan' (10 commitments) at Seremban. Economic corridor vision: 'bukan lagi negeri laluan'. Anti-retorik directive to all candidates. Vodus favourability 31.7% (vs Johor MB 58.1%). 8-year track record since 2018. Corroborated Awani + Utusan + Malay Mail."
+    },
+    {
+      "entity": "Muhyiddin Yassin",
+      "type": "person",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.kosmo.com.my/2026/07/23/prn-n-sembilan-manifesto-bersatu-fokus-isu-rakyat/",
+      "context": "Bersatu President. Bersatu manifesto STILL pending (Radzi Jidin committee). Cautious about MB: 'tengok trend, keadaan situasi'. First time Bersatu contests under own name in NS (24 seats solo). Bersatu NOT part of BN-PN merged manifesto. Underdog framing. Event at BGU Sikamat, night 22 Jul. [Kosmo]"
+    },
+    {
+      "entity": "Radzi Jidin",
+      "type": "person",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.kosmo.com.my/2026/07/23/prn-n-sembilan-manifesto-bersatu-fokus-isu-rakyat/",
+      "context": "Datuk Dr, Timbalan Presiden Bersatu. Chairs Bersatu NS manifesto special committee. Manifesto focus: ekonomi, infrastruktur, kesihatan awam, pendidikan. Launch expected in coming days — STILL pending. [Kosmo]"
+    },
+    {
+      "entity": "Dr Kelvin Goh",
+      "type": "person",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.malaymail.com/news/malaysia/2026/07/23/pakatan-leads-n-sembilan-forecast-but-bns-trust-advantage-keeps-election-race-open-says-vodus-survey/228703",
+      "context": "Vodus Research founder. Survey (437 voters, 9-21 Jul): 'very close contest', hung assembly 'cannot be ruled out'. PH 17 / BN 15 / PN 2 / 2 undecided. Three determining factors: BN Malay retention, PH Chinese+turnout, battleground management. Corroborated Malay Mail + Sinar Harian."
+    },
+    {
+      "entity": "Nor Azman Mohamad",
+      "type": "person",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.kosmo.com.my/2026/07/23/nor-azman-tekad-teruskan-legasi-tok-min/",
+      "context": "Calon PH DUN Sikamat (N.13). Ketua Penerangan PKR & Setiausaha Politik MB NS. Continues Tok Min (Aminuddin) legacy. 18-year Sikamat resident. 3 foci: kebajikan, pembangunan belia, infrastruktur. 3-cornered fight. 2023 PH majority 2,662. [Kosmo]"
+    },
+    {
+      "entity": "Razali Abu Samah",
+      "type": "person",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.kosmo.com.my/2026/07/23/nor-azman-tekad-teruskan-legasi-tok-min/",
+      "context": "Datuk, calon PN (Wawasan) DUN Sikamat. Former Melaka police deputy chief. 3-cornered fight vs Nor Azman (PH) vs Tun Faisal (Bersatu). Corroborated Kosmo + TRP."
+    },
+    {
+      "entity": "Tun Faisal Ismail Aziz",
+      "type": "person",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.kosmo.com.my/2026/07/23/nor-azman-tekad-teruskan-legasi-tok-min/",
+      "context": "Datuk, Bersatu Information Chief. Calon Bersatu DUN Sikamat. 3-cornered fight. High-profile. Corroborated Kosmo + TRP."
+    },
+    {
+      "entity": "Zaifulbahri Idris",
+      "type": "person",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://umno-online.my/2026/07/23/manifesto-bn-sambung-yang-tergendala-mohamad/",
+      "context": "Datuk, calon BN & penyandang DUN Chembong. Campaign trail with Mohamad Hasan at Pedas Tengah (PDM). 'Gerak kerja jentera tersusun, respons rakyat amat baik.' [UMNO Online]"
+    },
+    {
+      "entity": "Idris Ahmad",
+      "type": "person",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.hmetro.com.my/mutakhir/2026/07/1388252/prn-n9-pn-akan-lancar-lampiran-lengkapi-manifesto-bn-idris-ahmad",
+      "context": "Datuk, Naib Presiden PAS. Penceramah utama at Markas PAS Seremban. PN will launch 'lampiran manifesto' to complement BN manifesto: 'manifesto kita lebih kurang sama dengan BN'. Hopes 'perubahan berlaku dalam politik NS pada 1 Ogos'. Deep PN-BN policy coordination. [Harian Metro]"
+    },
+    {
+      "entity": "Mahdzir Khalid",
+      "type": "person",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.hmetro.com.my/mutakhir/2026/07/1388252/prn-n9-pn-akan-lancar-lampiran-lengkapi-manifesto-bn-idris-ahmad",
+      "context": "Datuk Seri, Pengerusi BN Kedah. Campaigns in NS for BN-PN. 'Persefahaman ini adalah penyatuan bangsa dan bukan mengenepikan kaum lain.' BN-UMNO 50+ year record of no marginalised race. Cross-state BN-PN machinery sharing. [Harian Metro]"
+    },
+    {
+      "entity": "Mazalan Maarop",
+      "type": "person",
+      "pir_tag": "PIR-06",
+      "priority": "normal",
+      "source_url": "https://www.hmetro.com.my/mutakhir/2026/07/1388252/prn-n9-pn-akan-lancar-lampiran-lengkapi-manifesto-bn-idris-ahmad",
+      "context": "Datuk, Ketua UMNO Bahagian Seremban. Present at Markas PAS Seremban PN lampiran event. [Harian Metro]"
+    },
+    {
+      "entity": "Abu Ubaidah Redza",
+      "type": "person",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.hmetro.com.my/mutakhir/2026/07/1388252/prn-n9-pn-akan-lancar-lampiran-lengkapi-manifesto-bn-idris-ahmad",
+      "context": "Datuk, bekas ADUN Ampangan. Present at Markas PAS Seremban PN lampiran event. Links Ampangan (N.14, T1 seat) to PN campaign. [Harian Metro]"
+    },
+    {
+      "entity": "Khalid Abdul Samad",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.kosmo.com.my/2026/07/23/prn-n-sembilan-ph-bimbang-naratif-perpaduan-ummah/",
+      "context": "Pengarah Komunikasi Amanah. Leads PH counter to BN-PN 'perpaduan ummah': 'Rakyat dikotak-katikkan mengikut kaum dan bangsa = masalah.' Frames BN-PN unity as threat to multiracial harmony. Full PH component representation (PKR+Amanah+DAP). [Kosmo]"
+    },
+    {
+      "entity": "Fahmi Fadzil",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "https://www.kosmo.com.my/2026/07/23/prn-n-sembilan-ph-bimbang-naratif-perpaduan-ummah/",
+      "context": "Datuk Seri, Menteri Komunikasi. Present at PH press conference countering 'perpaduan ummah' narrative. [Kosmo]"
+    },
+    {
+      "entity": "Cha Kee Chin",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "https://www.kosmo.com.my/2026/07/23/prn-n-sembilan-ph-bimbang-naratif-perpaduan-ummah/",
+      "context": "Present at PH press conference (component representation). DAP-linked. Counter 'perpaduan ummah' narrative. [Kosmo]"
+    },
+    {
+      "entity": "Muhammad Saifullah Ali",
+      "type": "person",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.kosmo.com.my/2026/07/23/belum-sesuai-bentuk-gabungan-politik-hadapi-prn-n-sembilan/",
+      "context": "Exco Pergerakan Pemuda UMNO & Ketua Pemuda UMNO Pasir Puteh. INTERNAL DISSENT: cautions BN-PN formalization premature. 'Sokongannya masih samar-samar.' 'Jangan terlebih sudu daripada kuah.' 'Gelombang hari ini adalah gelombang BN.' Signals top-down vs grassroots friction. [Kosmo]"
+    },
+    {
+      "entity": "Wan Saiful Wan Jan",
+      "type": "person",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.therakyatpost.com/news/2026/07/18/pn-bn-manifesto-soon-as-new-political-alignment-takes-shape-says-wan-saiful/",
+      "context": "Datuk, Vice-President Wawasan. Early confirmation (18 Jul) of joint PN-BN manifesto intent. Wawasan 4 seats (Klawang, Sikamat, Mambau, Gemas). 'Bridge between Malay and non-Malay forces.' 'NS is first step in new political alignment.' Goes up against parent party Bersatu. [TRP]"
+    },
+    {
+      "entity": "Onn Hafiz Ghazi",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "https://www.malaymail.com/news/malaysia/2026/07/23/pakatan-leads-n-sembilan-forecast-but-bns-trust-advantage-keeps-election-race-open-says-vodus-survey/228703",
+      "context": "Datuk, Menteri Besar Johor. Comparison benchmark: 58.1% favourability vs Aminuddin's 31.7%. Highlights PH's leadership-perception challenge. [Malay Mail]"
+    },
+    {
+      "entity": "Nurulainee Hamidon",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "https://www.malaymail.com/news/malaysia/2026/07/23/beyond-campaign-promises-negeri-sembilan-voters-seek-leaders-who-can-get-things-done/228643",
+      "context": "Linggi voter (37, trader/food shop owner, Port Dickson). Cost-of-living pain: rising supply costs, customers angry at price hikes. Voter voice at Aminuddin's new constituency. [Malay Mail]"
+    },
+    {
+      "entity": "Mohammad Najmi Aiman",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "https://www.malaymail.com/news/malaysia/2026/07/23/beyond-campaign-promises-negeri-sembilan-voters-seek-leaders-who-can-get-things-done/228643",
+      "context": "Paroi first-time voter (22, college student). Demands employment opportunities + wages matching qualifications. Key PH ceramah venue. [Malay Mail]"
+    },
+    {
+      "entity": "Kamarulzaman Ab Aziz",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "https://www.malaymail.com/news/malaysia/2026/07/23/beyond-campaign-promises-negeri-sembilan-voters-seek-leaders-who-can-get-things-done/228643",
+      "context": "Retired teacher (64). Candidate accessibility: 'outsider OK if likeable & engaged; local no advantage if hard to reach.' [Malay Mail]"
+    },
+    {
+      "entity": "Lim Kian",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "https://www.malaymail.com/news/malaysia/2026/07/23/beyond-campaign-promises-negeri-sembilan-voters-seek-leaders-who-can-get-things-done/228643",
+      "context": "Port Dickson voter (43, private sector). Anti-negative-campaigning: 'don't tear others down; keep campaign peaceful.' Aligns with PH anti-retorik. [Malay Mail]"
+    },
+    {
+      "entity": "M. Manisha",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "https://www.malaymail.com/news/malaysia/2026/07/23/beyond-campaign-promises-negeri-sembilan-voters-seek-leaders-who-can-get-things-done/228643",
+      "context": "Housewife (38). Urges rural/estate communities not be left behind in development. Inclusive-development voter voice. [Malay Mail]"
+    },
+    {
+      "entity": "Ahmad Zahid Hamidi",
+      "type": "person",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "headline-only (Kosmo, URL not captured)",
+      "context": "Timbalan Perdana Menteri (Zahid). Balas pantun to PM Anwar, defending Kerajaan Perpaduan. Campaign-period exchange. Also: 'No Bangkok Move, no Dubai Move' — BN committed to unity govt. Headline-only. [headlines #7, Malay Mail related]"
+    },
+    {
+      "entity": "BN",
+      "type": "party",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/23/bn-pn-gabung-manifesto-kempen-prn-n-sembilan",
+      "context": "Barisan Nasional. MERGES manifesto with PN into ONE document. 25 seats. Cross-voting directive. 'Sambung Yang Tergendala' launch 24 Jul. MB candidate deferred. Vodus: 15 projected seats, 35% vote, 45% net trust (advantage). Corroborated FMT + UMNO Online + Harian Metro."
+    },
+    {
+      "entity": "PN",
+      "type": "party",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/23/bn-pn-gabung-manifesto-kempen-prn-n-sembilan",
+      "context": "Perikatan Nasional (PAS-led). 11 seats. Merged manifesto with BN. Launches 'lampiran' to complement BN manifesto. Cross-voting directive. Shared ceramah stages, markas, grand finale. Vodus: 2 projected seats, 7% vote, 5% trust. Corroborated FMT + Utusan + Harian Metro."
+    },
+    {
+      "entity": "PH",
+      "type": "party",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.utusan.com.my/nasional/2026/07/semua-calon-ph-kempen-guna-manifesto-bukan-retorik-politik/",
+      "context": "Pakatan Harapan. Confirmed MB (Aminuddin). 'Kekal Harapan' manifesto, 10 commitments, anti-retorik strategy. 8-year track record. Vodus: 17 projected seats, 42% vote, 19% trust. Leads 8 of 10 close seats. Corroborated Utusan + Awani + Malay Mail."
+    },
+    {
+      "entity": "Bersatu",
+      "type": "party",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.kosmo.com.my/2026/07/23/prn-n-sembilan-manifesto-bersatu-fokus-isu-rakyat/",
+      "context": "Parti Pribumi Bersatu Malaysia. SOLO 24 seats — NOT part of BN-PN merged manifesto. Manifesto STILL pending (Radzi Jidin). MB undecided. First time under own name in NS. Vodus: projected 2 of 24 seats — weak. In 7 of 10 close contests (vote splitter). No Tier-4 withdrawal. Corroborated Kosmo + Malay Mail."
+    },
+    {
+      "entity": "PAS",
+      "type": "party",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.hmetro.com.my/mutakhir/2026/07/1388252/prn-n9-pn-akan-lancar-lampiran-lengkapi-manifesto-bn-idris-ahmad",
+      "context": "PN lead party. VP Idris Ahmad reviews & aligns manifesto with BN. Markas PAS Seremban event venue. Deep PN-BN policy coordination. 'Perubahan politik NS pada 1 Ogos.' [Harian Metro]"
+    },
+    {
+      "entity": "Wawasan",
+      "type": "party",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.therakyatpost.com/news/2026/07/18/pn-bn-manifesto-soon-as-new-political-alignment-takes-shape-says-wan-saiful/",
+      "context": "Parti Wawasan Negara, PN component. 4 seats: Klawang, Sikamat, Mambau, Gemas. Bersatu splinter — goes up against parent party. 'Bridge between Malay and non-Malay forces.' Razali (ex-Melaka police dep chief) at Sikamat. [TRP]"
+    },
+    {
+      "entity": "Amanah",
+      "type": "party",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "https://www.kosmo.com.my/2026/07/23/prn-n-sembilan-ph-bimbang-naratif-perpaduan-ummah/",
+      "context": "PH component. Khalid Abdul Samad (Pengarah Komunikasi) leads 'perpaduan ummah' counter-narrative. Full PH component representation at press conference. [Kosmo]"
+    },
+    {
+      "entity": "DAP",
+      "type": "party",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "https://www.kosmo.com.my/2026/07/23/prn-n-sembilan-ph-bimbang-naratif-perpaduan-ummah/",
+      "context": "PH component. Cha Kee Chin present at 'perpaduan ummah' press conference. Increasingly concerned about BN-PN cooperation (per Utusan related news). [Kosmo + Utusan]"
+    },
+    {
+      "entity": "PKR",
+      "type": "party",
+      "pir_tag": "PIR-07",
+      "priority": "normal",
+      "source_url": "https://www.kosmo.com.my/2026/07/23/nor-azman-tekad-teruskan-legasi-tok-min/",
+      "context": "PH component. Nor Azman Mohamad = Ketua Penerangan PKR & PH candidate Sikamat. Continuity with Aminuddin legacy. [Kosmo]"
+    },
+    {
+      "entity": "Calon Bebas",
+      "type": "party",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "headline-only (Kosmo, URL not captured)",
+      "context": "Independent candidates. 7-point manifesto offered (headline-only). Vodus: 2% popular vote. 103 total candidates across 36 seats. [headlines #4, Sinar]"
+    },
+    {
+      "entity": "Sikamat",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.kosmo.com.my/2026/07/23/nor-azman-tekad-teruskan-legasi-tok-min/",
+      "context": "N.13, T1 priority seat. 3-CORNERED: Nor Azman (PH) vs Razali (PN/Wawasan) vs Tun Faisal (Bersatu). 34,103 voters; youth 18-30 = 10,032 (29.4%). Aminuddin's legacy seat since 2008. 2023 majority 2,662. BGU Bersatu venue (22 Jul). Most watched T1 seat. [Kosmo + TRP]"
+    },
+    {
+      "entity": "Rantau",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://umno-online.my/2026/07/23/manifesto-bn-sambung-yang-tergendala-mohamad/",
+      "context": "Mohamad Hasan's BN seat (penyandang). BN PRN director's base. [UMNO Online]"
+    },
+    {
+      "entity": "Chembong",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://umno-online.my/2026/07/23/manifesto-bn-sambung-yang-tergendala-mohamad/",
+      "context": "BN incumbent Zaifulbahri Idris. Mohamad Hasan campaign trail at Pedas Tengah (PDM). 'Respons rakyat amat baik.' [UMNO Online]"
+    },
+    {
+      "entity": "Linggi",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.utusan.com.my/nasional/2026/07/semua-calon-ph-kempen-guna-manifesto-bukan-retorik-politik/",
+      "context": "N.32, T1 priority seat. Aminuddin Harun's NEW constituency. PH manifesto launch context. Voter cost-of-living voice (Nurulainee). [Utusan + Malay Mail]"
+    },
+    {
+      "entity": "Paroi",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.malaymail.com/news/malaysia/2026/07/23/beyond-campaign-promises-negeri-sembilan-voters-seek-leaders-who-can-get-things-done/228643",
+      "context": "N.25, T1 priority seat. First-time voter (Mohammad Najmi) on employment/wages. Prior cycle: Anwar Ceramah Perdana, SARA announcement. Active ground. [Malay Mail]"
+    },
+    {
+      "entity": "Ampangan",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.hmetro.com.my/mutakhir/2026/07/1388252/prn-n9-pn-akan-lancar-lampiran-lengkapi-manifesto-bn-idris-ahmad",
+      "context": "N.14, T1 priority seat. Former ADUN Abu Ubaidah Redza present at PN lampiran event (Markas PAS Seremban). Links T1 seat to PN campaign activity. [Harian Metro]"
+    },
+    {
+      "entity": "Nilai",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.astroawani.com/berita-malaysia/prn-negeri-sembilan-bukan-lagi-negeri-laluan-bakal-jadi-koridor-ekonomi-baharu-negara-aminuddin",
+      "context": "N.10, T1 priority seat. Nilai Advanced Photonic AI Manufacturing City project (Aminuddin economic corridor vision). High-tech investment anchor. [Awani]"
+    },
+    {
+      "entity": "Klawang",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.therakyatpost.com/news/2026/07/18/pn-bn-manifesto-soon-as-new-political-alignment-takes-shape-says-wan-saiful/",
+      "context": "N.28, T1 priority seat. Wawasan (PN) seat. Prior cycle: PH candidate Bakri Sawir (R&R + university Jelebu pledge). Wawasan vs PH contest. [TRP]"
+    },
+    {
+      "entity": "Mambau",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.therakyatpost.com/news/2026/07/18/pn-bn-manifesto-soon-as-new-political-alignment-takes-shape-says-wan-saiful/",
+      "context": "Wawasan (PN) seat. Part of Wawasan's 4-seat NS footprint. [TRP]"
+    },
+    {
+      "entity": "Gemas",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.therakyatpost.com/news/2026/07/18/pn-bn-manifesto-soon-as-new-political-alignment-takes-shape-says-wan-saiful/",
+      "context": "Wawasan (PN) seat. Part of Wawasan's 4-seat NS footprint. [TRP]"
+    },
+    {
+      "entity": "Bagan Pinang",
+      "type": "seat",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.utusan.com.my/nasional/2026/07/bn-pn-akan-kempen-bersama-kongsi-pentas-ceramah/",
+      "context": "PN candidate nomination. Annuar Musa accompanying — joint BN-PN machinery demonstration at nomination centre (Port Dickson). [Utusan]"
+    },
+    {
+      "entity": "Lukut",
+      "type": "seat",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.utusan.com.my/nasional/2026/07/bn-pn-akan-kempen-bersama-kongsi-pentas-ceramah/",
+      "context": "PN candidate nomination. Annuar Musa accompanying — joint BN-PN machinery demonstration. [Utusan]"
+    },
+    {
+      "entity": "Port Dickson",
+      "type": "seat",
+      "pir_tag": "PIR-07",
+      "priority": "normal",
+      "source_url": "https://www.malaymail.com/news/malaysia/2026/07/23/beyond-campaign-promises-negeri-sembilan-voters-seek-leaders-who-can-get-things-done/228643",
+      "context": "Multiple voter voices (campaign conduct). Nomination centre (Kompleks Pentadbiran Daerah Port Dickson). [Malay Mail + Utusan]"
+    },
+    {
+      "entity": "BN-PN merged manifesto (ONE document)",
+      "type": "narrative",
+      "pir_tag": "PIR-06",
+      "priority": "critical",
+      "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/23/bn-pn-gabung-manifesto-kempen-prn-n-sembilan",
+      "context": "MAJOR PIR-06 escalation — highest-level BN-PN cooperation confirmation. BN & PN merge manifestos into ONE document; cross-voting directive formalized. Seat formula BN 25 + PN 11 = 36. Bersatu (24 solo) EXCLUDED. Resolves prior 'sokong BN' directive tension into formal cooperation. Annuar: 'kami hanya akan ada satu manifesto.' Corroborated FMT + Harian Metro + Utusan. Consequence-monitoring milestone."
+    },
+    {
+      "entity": "BN-PN shared campaign machinery",
+      "type": "narrative",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.utusan.com.my/nasional/2026/07/bn-pn-akan-kempen-bersama-kongsi-pentas-ceramah/",
+      "context": "Operational blueprint (18 Jul): shared ceramah stages, jentera, markas. 'Saling sandar menyandar dan sokong menyokong.' Simultaneous candidate introductions. Grand finale joint address 3 days before polling. Foundational for merged manifesto. [Utusan]"
+    },
+    {
+      "entity": "Cross-voting directive (BN↔PN)",
+      "type": "narrative",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/23/bn-pn-gabung-manifesto-kempen-prn-n-sembilan",
+      "context": "Both coalitions direct supporters to vote each other's candidates on 1 Aug. Formalized at coalition level. Contrasts prior cycle where Muhyiddin distanced ('saya tidak terlibat') — now EMBRACED by both sides. [FMT + Utusan]"
+    },
+    {
+      "entity": "PN 'lampiran' manifesto to complement BN",
+      "type": "narrative",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.hmetro.com.my/mutakhir/2026/07/1388252/prn-n9-pn-akan-lancar-lampiran-lengkapi-manifesto-bn-idris-ahmad",
+      "context": "PN publishes supplementary manifesto (lampiran) to fill gaps in BN manifesto. Idris Ahmad (PAS VP): 'manifesto kita lebih kurang sama dengan BN.' Deep policy coordination. Foundation for future PRN/PRU contests. [Harian Metro]"
+    },
+    {
+      "entity": "Bersatu solo / excluded from merged manifesto",
+      "type": "narrative",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.kosmo.com.my/2026/07/23/prn-n-sembilan-manifesto-bersatu-fokus-isu-rakyat/",
+      "context": "Bersatu runs INDEPENDENTLY — NOT part of BN-PN merged manifesto. Manifesto still pending (Radzi Jidin). First time under own name. MB undecided. Vodus projects only 2 of 24 seats. Bersatu as Malay-vote splitter in 7 of 10 close contests. No Tier-4 withdrawal. [Kosmo + Malay Mail]"
+    },
+    {
+      "entity": "Internal UMNO dissent vs BN-PN formalization",
+      "type": "narrative",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.kosmo.com.my/2026/07/23/belum-sesuai-bentuk-gabungan-politik-hadapi-prn-n-sembilan/",
+      "context": "Grassroots friction signal. Saifullah (UMNO Youth exco): 'Sokongannya masih samar-samar.' 'Jangan terlebih sudu daripada kuah.' 'Gelombang hari ini adalah gelombang BN.' Top-down cooperation vs grassroots sentiment. Contrasts merged-manifesto confirmation. [Kosmo]"
+    },
+    {
+      "entity": "'Sambung Yang Tergendala' (Continue What Was Interrupted)",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://umno-online.my/2026/07/23/manifesto-bn-sambung-yang-tergendala-mohamad/",
+      "context": "BN manifesto theme — nostalgia for pre-2018 BN development agenda. 'Sebab asasnya dah ada, kita nak menyambung apa yang tergendala.' Mohamad denies Sabah plagiarism: 'perang psikologi.' Contrasts PH 'Kekal Harapan' forward-looking vision. [UMNO Online]"
+    },
+    {
+      "entity": "'Kekal Harapan' / 10 commitments",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.utusan.com.my/nasional/2026/07/semua-calon-ph-kempen-guna-manifesto-bukan-retorik-politik/",
+      "context": "PH manifesto theme. All candidates instructed: manifesto delivery, not rhetoric/attacks. 'Realistik dan boleh dilaksanakan.' 8-year track record since 2018 as credibility. Anti-slander directive. [Utusan]"
+    },
+    {
+      "entity": "'Bukan lagi negeri laluan' — economic corridor vision",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.astroawani.com/berita-malaysia/prn-negeri-sembilan-bukan-lagi-negeri-laluan-bakal-jadi-koridor-ekonomi-baharu-negara-aminuddin",
+      "context": "Aminuddin's major economic narrative: NS as 'pusat kepada perjalanan' not transit state. 4-wilayah ecosystem (KL-Selangor-NS-Melaka). 6 strategic projects: MVV 2.0, NS Semiconductor Valley, Nilai AI City, Seremban Sentral, Hospital Enstek, logistics. 'Pembangunan paling seimbang di Malaysia.' [Awani]"
+    },
+    {
+      "entity": "Anwar-Aminuddin partnership (federal-state alignment)",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.astroawani.com/berita-malaysia/prn-negeri-sembilan-bukan-lagi-negeri-laluan-bakal-jadi-koridor-ekonomi-baharu-negara-aminuddin",
+      "context": "PH narrative pairing: Anwar (federal PM) + Aminuddin (state MB) deliver aligned development. Economic corridor vision backed by federal-state coordination. 'Confirmed MB + record' confidence axis. [Awani + Utusan]"
+    },
+    {
+      "entity": "'Perpaduan ummah' — PH counter (threat to multiracial harmony)",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.kosmo.com.my/2026/07/23/prn-n-sembilan-ph-bimbang-naratif-perpaduan-ummah/",
+      "context": "PH counter-narrative: BN-PN 'perpaduan ummah' framed as divisive, exclusionary. Khalid Samad: 'Rakyat dikotak-katikkan mengikut kaum = masalah.' Threat to multiracial harmony & nation-building. Full PH component representation (PKR+Amanah+DAP). [Kosmo]"
+    },
+    {
+      "entity": "'Perpaduan ummah / penyatuan bangsa' — BN-PN inclusive framing",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.hmetro.com.my/mutakhir/2026/07/1388252/prn-n9-pn-akan-lancar-lampiran-lengkapi-manifesto-bn-idris-ahmad",
+      "context": "BN-PN counter to PH: 'penyatuan bangsa' as inclusive Malay-Muslim unity, not ethnic exclusion. Mahdzir: 'bukan mengenepikan kaum lain.' BN-UMNO 50+ year record. Narrative duel intensifying. [Harian Metro]"
+    },
+    {
+      "entity": "'Kuasa untuk laksanakan kebaikan' (power as virtue)",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/23/bn-pn-gabung-manifesto-kempen-prn-n-sembilan",
+      "context": "Annuar Musa reframes power-seeking as virtuous prerequisite: 'Jika kita mahu laksanakan kebaikan untuk agama, kita perlukan kuasa.' Responds to Khalid Samad's power-driven critique. Opposition narrative asset. [FMT]"
+    },
+    {
+      "entity": "Vodus seat projection: hung assembly possible",
+      "type": "narrative",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.malaymail.com/news/malaysia/2026/07/23/pakatan-leads-n-sembilan-forecast-but-bns-trust-advantage-keeps-election-race-open-says-vodus-survey/228703",
+      "context": "Quantitative projection: PH 17 / BN 15 / PN 2 / 2 undecided. Neither reaches 19-seat majority. PH leads 8 of 10 close seats. Bersatu in 7 of 10 close contests (splitter). 'Dewan tergantung tidak boleh ditolak.' Dr Kelvin Goh. [Malay Mail + Sinar]"
+    },
+    {
+      "entity": "'Majoriti mudah' (19-seat threshold)",
+      "type": "narrative",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "https://www.sinarharian.com.my/article/789122/berita/politik/ph-bn-bersaing-sengit-di-negeri-sembilan---vodus-research",
+      "context": "19 seats needed for majority; both PH and BN below threshold. Three determining factors: BN Malay retention, PH Chinese+turnout, battleground management. Outcome 'boleh pergi ke mana-mana arah.' [Sinar]"
+    },
+    {
+      "entity": "BN trust advantage (45% vs 19%)",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.malaymail.com/news/malaysia/2026/07/23/pakatan-leads-n-sembilan-forecast-but-bns-trust-advantage-keeps-election-race-open-says-vodus-survey/228703",
+      "context": "BN net trust 45% vs PH 19% vs PN 5%. Strategic narrative asset despite BN's lower vote share (35% vs PH 42%). BN's support more efficiently distributed. 'Kelebihan strategik yang signifikan.' [Malay Mail + Sinar]"
+    },
+    {
+      "entity": "Aminuddin low favourability (31.7%)",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.malaymail.com/news/malaysia/2026/07/23/pakatan-leads-n-sembilan-forecast-but-bns-trust-advantage-keeps-election-race-open-says-vodus-survey/228703",
+      "context": "Aminuddin favourability 31.7% vs Johor MB Onn Hafiz 58.1%. PH's leadership-perception challenge. Translates vote lead into governance-confidence gap. [Malay Mail]"
+    },
+    {
+      "entity": "Voter volatility: 30% movable / 51% very likely to vote",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.malaymail.com/news/malaysia/2026/07/23/pakatan-leads-n-sembilan-forecast-but-bns-trust-advantage-keeps-election-race-open-says-vodus-survey/228703",
+      "context": "30% voters open to changing choice. Only 51% 'very likely' to vote. High volatility + turnout risk for both sides. Top non-voting reasons: travel, inconvenience, work. [Malay Mail + Sinar]"
+    },
+    {
+      "entity": "Voters want 'leaders who can get things done'",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.malaymail.com/news/malaysia/2026/07/23/beyond-campaign-promises-negeri-sembilan-voters-seek-leaders-who-can-get-things-done/228643",
+      "context": "Bernama Day-6 survey: competence over rhetoric. Top concerns: cost of living (55%), jobs/wages (34%), housing (26%), corruption (24%). Aligns with PH anti-retorik strategy. Voters reject negative campaigning. 889,490 total eligible voters. [Malay Mail]"
+    },
+    {
+      "entity": "Mohamad Hasan MB deferral ('Let we pass the post first')",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://umno-online.my/2026/07/23/manifesto-bn-sambung-yang-tergendala-mohamad/",
+      "context": "BN defers MB candidate: 'Jangan terlampau cakap pasal poster boy, tapi tak buat kerja. Let we pass the post first.' Contrasts PH's confirmed Aminuddin. Mirrors Bersatu's similar deferral. [UMNO Online]"
+    },
+    {
+      "entity": "Bersatu manifesto pending (isu rakyat focus)",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "priority",
+      "source_url": "https://www.kosmo.com.my/2026/07/23/prn-n-sembilan-manifesto-bersatu-fokus-isu-rakyat/",
+      "context": "Bersatu manifesto in drafting (Radzi Jidin). Focus: ekonomi, infrastruktur, kesihatan awam, pendidikan. 'Isu rakyat' bread-and-butter positioning. Muhyiddin's caution ('jangan terlampau yakin') = underdog framing. Narrative FADING vs already-launched PH (21 Jul) & BN (24 Jul). [Kosmo]"
+    },
+    {
+      "entity": "'Sokong BN' directive distance (prior) → now embraced",
+      "type": "narrative",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/23/bn-pn-gabung-manifesto-kempen-prn-n-sembilan",
+      "context": "EVOLUTION: Prior cycle Muhyiddin distanced ('saya tidak terlibat', 'agak janggal'). This cycle cross-voting EMBRACED by both BN & PN at coalition level. Bersatu still NOT included. Fracture partially healed for BN-PN, persists for Bersatu. [FMT vs prior Sinar]"
+    },
+    {
+      "entity": "22,339 PDRM/ATM early voters (28 July)",
+      "type": "narrative",
+      "pir_tag": "PIR-07",
+      "priority": "priority",
+      "source_url": "headline-only (BHarian, URL not captured)",
+      "context": "22,339 police (PDRM) & military (ATM) personnel + spouses vote early voting day 28 July 2026. Significant early-voting bloc. Polling day 1 August. [headlines #3]"
+    },
+    {
+      "entity": "Wawasan as 'bridge' between Malay/non-Malay",
+      "type": "narrative",
+      "pir_tag": "PIR-06",
+      "priority": "priority",
+      "source_url": "https://www.therakyatpost.com/news/2026/07/18/pn-bn-manifesto-soon-as-new-political-alignment-takes-shape-says-wan-saiful/",
+      "context": "Wawasan positions as bridge uniting Malay and non-Malay political forces within PN. Bersatu splinter contesting against parent party. 'New political alignment' — NS as first step. [TRP]"
+    },
+    {
+      "entity": "'Tak perlu debat' (debate rejection)",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "headline-only (Kosmo, URL not captured)",
+      "context": "'Tak perlu debat, ini bukan pemilihan presiden' — rejecting debate format during campaign. Headline-only. [headlines #1]"
+    },
+    {
+      "entity": "200 KDNKA officers deployed for PRN NS",
+      "type": "narrative",
+      "pir_tag": "PIR-06",
+      "priority": "normal",
+      "source_url": "headline-only (Kosmo, URL not captured)",
+      "context": "~200 KDNKA (Public Order & Internal Security) officers deployed for PRN NS election security. Headline-only. [headlines #5]"
+    },
+    {
+      "entity": "Zahid-Anwar pantun exchange (Unity Govt defense)",
+      "type": "narrative",
+      "pir_tag": "PIR-16",
+      "priority": "normal",
+      "source_url": "headline-only (Kosmo, URL not captured)",
+      "context": "Deputy PM Zahid responds to PM Anwar with pantun, defending Kerajaan Perpaduan. Campaign-period federal-unity-government solidarity display. Headline-only. [headlines #7]"
+    }
+  ]
+}
