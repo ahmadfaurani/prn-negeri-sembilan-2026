@@ -6,7 +6,9 @@
 **Election:** 16th Negeri Sembilan State Legislative Assembly  
 **Dissolution:** 5 June 2026 | **Nomination Day:** 18 July 2026 | **Polling Day:** 1 August 2026  
 **Baseline (PRN 2023):** PH 17 / BN 14 / PN 5 (19 needed for majority)  
-**Created:** 10 July 2026 | **Last Updated:** 18 July 2026
+**Created:** 10 July 2026 | **Last Updated:** 24 July 2026
+
+> **See [WORKSPACE-GUIDE.md](WORKSPACE-GUIDE.md) for the unified workspace map** — PIR framework → Operational Use Cases → directory structure → cronjob pipeline cross-reference.
 
 ---
 
@@ -22,19 +24,25 @@ Produce timely, source-attributed political intelligence to support state campai
 prn-negeri-sembilan-2026/
 ├── 00-OPERATIONS/              Frameworks, PIRs, master lists, escalation register
 │   ├── pir-framework.md              PRN16 standard framework (18 PIRs, NS-01 to NS-18)
+│   ├── pir-framework-campaign-trail.md  Campaign Trail framework (8 PIRs, CT-01 to CT-08)
+│   ├── pir-operational-use-cases-20260723.md  12 Operational Use Cases (UC-01 to UC-12)
 │   ├── pir-framework-nomination-day.md  Nomination Day surge framework (25 PIRs, PIR-01 to PIR-25)
+│   ├── pir-approval-record.md         Director-approved PIR priorities
 │   ├── pir-quick-reference.md         One-page operations reference card
 │   ├── pir-non-core-candidates.md      Non-core candidate tracking
 │   ├── dun-master-list.md             36 DUN master reference (N01-N36)
 │   ├── election-calendar.md            Full election timeline and phases
 │   ├── escalation-register.md          Live escalation flag tracker (ESC-001 to ESC-011)
-│   └── candidate-tracker.md            36-DUN candidate roll (SPR-verified, continuously updated)
+│   ├── candidate-tracker.md            36-DUN candidate roll (SPR-verified, continuously updated)
+│   └── sanitize-filter-triggers.sh     Content filter false-positive mitigation
 │
 ├── 01-DAILY-INTELLIGENCE/      Daily briefs, sitreps, coalition analysis
 │   ├── daily-briefs/                   Daily and hourly intelligence briefs
 │   └── sitreps/                        Situation reports
 │
-├── 02-CONSTITUENCY-INTELLIGENCE/  36 DUN constituency profiles
+├── 02-CONSTITUENCY-INTELLIGENCE/  36 DUN constituency profiles + campaign trails
+│   ├── campaign-trails/               Campaign Trail Tracker outputs (3x daily)
+│   │   └── YYYYMMDD/                   PRN-NS-CAMPAIGN-TRAIL-YYYYMMDD-HHMM.md
 │   └── constituency-profiles/         N01-N36 individual analysis files
 │
 ├── 03-VERIFICATION/            CVS compliance, source register, verification status
@@ -42,9 +50,11 @@ prn-negeri-sembilan-2026/
 │   ├── source-register.md             All sources tracked with reliability ratings
 │   └── verification-status.md         Per-claim verification status log
 │
-├── 04-DATA-AND-SOURCES/        Raw scrapes, processed entities, SPR official data
+├── 04-DATA-AND-SOURCES/        Raw scrapes, processed entities, SPR data, field audit
 │   ├── raw-scrapes/                    Daily news scrapes (YYYYMMDD format)
 │   ├── processed-entities/            Extracted entities per day (JSON)
+│   ├── sentiment-analysis/             Sentiment scores per day (JSON)
+│   ├── field-audit/                     Field audit report (LAPORAN TERPERINCI ISU DUN N9)
 │   ├── spr-data/                       SPR official 2023 results + 2026 candidate list
 │   └── spr-candidate-list-20260718.json  SPR official 2026 candidate list (103 candidates)
 │
@@ -103,19 +113,28 @@ See `00-OPERATIONS/pir-framework-nomination-day.md` for full framework with EEIs
 
 ---
 
-## 4. Automated Pipeline (5 Cronjobs)
+## 4. Automated Pipeline (6 Cronjobs)
 
-| # | Job | Schedule (Normal) | Schedule (Nomination Day) | Delivery |
-|---|-----|-------------------|---------------------------|----------|
-| 1 | News Collection | Daily 01:00 MYT | Every 1 hour | Local |
-| 2 | Entity Extraction | Daily 06:00 MYT | Every 2 hours | Local |
-| 3 | Sentiment Analysis | Daily 08:00 MYT | Every 2 hours | Local |
-| 4 | Intelligence Brief | Daily 09:00 MYT | Every 1 hour | Telegram |
-| 5 | Git Sync | Daily 10:00 MYT | Every 2 hours | Local |
+**Campaign Period Mode (Phase 3)** — all schedules below reflect campaign period operations.
 
-**Pipeline flow:** Collection → Entity Extraction → Sentiment Analysis → Intelligence Brief → Git Sync
+| Stage | Job | Schedule (MYT) | Delivery | Workspace Output |
+|-------|-----|-----------------|----------|-------------------|
+| 1 | News Collection | 06:00 / 18:00 | Local | `04-DATA-AND-SOURCES/raw-scrapes/YYYYMMDD/` |
+| 2 | Campaign Trail Tracker | 09:00 / 15:00 / 23:00 | Telegram | `02-CONSTITUENCY-INTELLIGENCE/campaign-trails/YYYYMMDD/` |
+| 3 | Entity Extraction | 08:00 | Local | `04-DATA-AND-SOURCES/processed-entities/YYYYMMDD/` |
+| 4 | Sentiment Analysis | 10:00 | Local | `04-DATA-AND-SOURCES/sentiment-analysis/YYYYMMDD/` |
+| 5 | Daily Intelligence Brief | 12:00 / 21:00 | Telegram | `01-DAILY-INTELLIGENCE/daily-briefs/` |
+| 6 | Git Sync | 00:00 | Local | Commits all outputs to GitHub |
 
-**Sources scraped (13):** Sinar Harian, Bharian, Utusan, NST, The Star, Malaysiakini, Free Malaysia Today, Astro Awani, Bernama, Kosmo, mStar, OhBulan, and one additional source per cycle.
+**Pipeline flow:** News Collection → Campaign Trail Tracker → Entity Extraction → Sentiment Analysis → Daily Brief (ingests Campaign Trail reports) → Git Sync
+
+**Campaign Trail Integration:** The Daily Brief (Stage 5) reads the latest Campaign Trail report (Stage 2) before generating, incorporating candidate-level CT-01 events, CT-04 statements, CT-05 momentum shifts, and CT-07 multi-cornered dynamics into the PIR-07 Battleground Matrix.
+
+**Campaign Trail PIRs (CT-01 to CT-08):** See `00-OPERATIONS/pir-framework-campaign-trail.md` — 8 candidate-level PIRs covering event tracking, leader visits, incidents, messaging, momentum, social media, multi-cornered fights, and resource deployment.
+
+**Operational Use Cases (UC-01 to UC-12):** See `00-OPERATIONS/pir-operational-use-cases-20260723.md` — 12 actionable use cases translating validated PIR findings into campaign operations with 4-phase cycles, decision owners, deadlines, and escalation paths.
+
+**Sources scraped (13+):** Sinar Harian, Bharian, Utusan, NST, The Star, Malaysiakini, Free Malaysia Today, Astro Awani, Bernama, Kosmo, mStar, OhBulan, and additional sources per cycle.
 
 ---
 
