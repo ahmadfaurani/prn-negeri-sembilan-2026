@@ -1,8 +1,8 @@
 #!/bin/bash
 # Workstream: PRN Negeri Sembilan 2026 Git Sync
 # Repo: prn-negeri-sembilan-2026 (HCR-095)
-# Runs after: Daily News Collection (01:00), Entity Extraction (06:00), Sentiment Analysis (08:00), Daily Brief (09:00)
-# Updated: 2026-07-19 — Now exports cronjob configs for version control
+# Runs after: Campaign Period pipeline — Collection (06:00/18:00 MYT), Campaign Trail (09:00/15:00/23:00 MYT), Entity (08:00 MYT), Sentiment (10:00 MYT), Brief (12:00/21:00 MYT)
+# Updated: 2026-07-24 — Unified workspace integration: added Campaign Trail Tracker (10d9c6242b4e) to config export. 6 NS cronjobs total.
 
 set -e
 WORKDIR="/home/p62operator/.openclaw/workspace-ns"
@@ -15,7 +15,7 @@ try:
     with open('/home/p62operator/.hermes/cron/jobs.json') as f:
         data = json.load(f)
     jobs = data['jobs']
-    ns_ids = ['bf8a4c1fb881', '3c9e6756876a', '02e588724145', 'b8f69d6f990d', '2df980e8e094']
+    ns_ids = ['bf8a4c1fb881', '3c9e6756876a', '02e588724145', 'b8f69d6f990d', '2df980e8e094', '10d9c6242b4e']
     ns_jobs = [j for j in jobs if j.get('id') in ns_ids]
     export = {
         'workstream': 'PRN Negeri Sembilan 2026 (HCR-095)',
@@ -51,11 +51,12 @@ except Exception as e:
 "
 
 # STEP 2: Git sync
-TIMESTAMP=$(TZ=Asia/Kuala_Lumpur date +%Y-%m-%dT%H:%M:%S+08)
+TIMESTAMP=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 CHANGES=$(git status --porcelain | wc -l)
 
 if [ "$CHANGES" -gt 0 ]; then
     git add -A
+    git reset 04-DATA-AND-SOURCES/scratch/ 2>/dev/null
     git commit -m "auto: prn-negeri-sembilan git-sync $TIMESTAMP"
     git push origin main 2>&1 && echo "✅ Pushed $CHANGES files to prn-negeri-sembilan-2026 (HCR-095)" || echo "⚠️ Committed locally, push deferred (auth pending)"
 else
