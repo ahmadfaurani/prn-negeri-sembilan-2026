@@ -1,18 +1,17 @@
-# PRN Negeri Sembilan 2026 — Nomination Day Hourly Intelligence Brief
+# PRN Negeri Sembilan 2026 — Intelligence Brief
+## Nomination Day Surge | Day 2 of 14 | TLP:AMBER
 
-**Date:** 2026-07-19 (deep-overnight MYT — Nomination Day closed → Campaign Day 1, pre-dawn lull)
-**Timestamp:** 02:27 MYT 19 Jul / 02:27 MYT 18 Jul
-**Classification:** TLP:AMBER
-**Brief #:** 8 (Cycle 8 — collection window 02:27 MYT 19 Jul / 02:27 MYT 18 Jul)
-**Reporting Period:** Hourly surge — collection window 02:27 MYT 19 Jul (02:27 MYT 18 Jul, Cycle 8); previous brief 01:16 MYT 19 Jul (17:16 MYT, Cycle 7)
-**Framework:** Nomination Day Surge (PIR-01 → PIR-25) + PRN16 Standard (NS-01 → NS-18)
-**Prepared by:** PRN Negeri Sembilan 2026 Intelligence Brief Agent (GLM-5.2) — NOMINATION DAY SURGE MODE
-**Distribution:** State Campaign Leadership, DUN War Rooms, Intelligence Cell → Telegram
-**Cross-reference:** `*_20260718_182751.md` + `collection_metadata.json` (02:27 MYT collection, Cycle 8); `PRN-NS-NOMINATION-20260719-0116.md` (previous hourly brief, 01:16 MYT 19 Jul, Cycle 7 — FULL assessment); `spr-candidate-list-20260718.json` (SPR ground truth)
-
-**⚠️ CYCLE 8 COLLECTION CHARACTER — STABILITY / CONFIRMATION PASS.** This cycle ran in the deep-overnight MYT window (~02:27 MYT 19 Jul); Malaysian newsrooms are essentially quiet at this hour. **Automated freshness scan parsed all 19 collected `*_182751.md` files for pubDates ≥ 17:08 GMT 18 Jul (the 170837/Cycle-7 cutoff): 0 articles published after the cutoff.** No genuinely new Malaysian news output in the window. The cycle's value = **source-coverage integrity confirmation (10/10 sources successful, 0 HTTP errors) + PIR-06 escalated-watch stability confirmation (no regression, no CRITICAL threshold crossing).** All substantive assessments CARRY FORWARD from Cycle 7 (01:16 MYT, the comprehensive brief). This brief is a lean confirmation SITREP, not a new-event brief. **Next meaningful update expected at the daytime MYT window (Campaign Day 1, 19 Jul ~09:00–12:00 MYT)** when campaign events and statements emerge.
+**Brief ID:** PRN-NS-NOMINATION-20260719-0256
+**Generated:** 2026-07-19 02:56 +08
+**Classification:** TLP:AMBER — For official use only, distribution controlled
+**Phase:** Nomination Day Surge
+**Election Date:** 1 August 2026
+**Nomination Day:** 18 July 2026
+**Polling Day:** 1 August 2026
+**Distribution:** State Campaign Leadership, DUN War Rooms
 
 ---
+
 
 ## 1. EXECUTIVE FLASH (3 POINTS)
 

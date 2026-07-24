@@ -1,18 +1,17 @@
-# PRN Negeri Sembilan 2026 — Nomination Day Hourly Intelligence Brief
+# PRN Negeri Sembilan 2026 — Intelligence Brief
+## Nomination Day Surge | Day 2 of 14 | TLP:AMBER
 
-**Date:** 2026-07-19 (Campaign Day 1 dawn — Nomination Day closed → first daytime new-content cycle)
-**Timestamp:** 07:40 MYT 19 Jul / 07:40 MYT 18 Jul
-**Classification:** TLP:AMBER
-**Brief #:** 11 (Cycle 11 — collection window 07:10 MYT 19 Jul / 07:10 MYT 18 Jul)
-**Reporting Period:** Hourly surge — collection window 07:10 MYT 19 Jul (07:10 MYT 18 Jul, Cycle 11); previous brief 05:15 MYT 19 Jul (21:15 MYT, Cycle 10 — fourth overnight stability confirmation)
-**Framework:** Nomination Day Surge (PIR-01 → PIR-25) + PRN16 Standard (NS-01 → NS-18)
-**Prepared by:** PRN Negeri Sembilan 2026 Intelligence Brief Agent (GLM-5.2) — NOMINATION DAY SURGE MODE
-**Distribution:** State Campaign Leadership, DUN War Rooms, Intelligence Cell → Telegram
-**Cross-reference:** `*_20260718_231029.md` scrape set (07:10 MYT collection — FIRST new-content pass); `entities_233104.json` (07:31 MYT entity build — Day-2 dawn ENRICHMENT); `entity_metadata.json` (07:31 MYT — "231029: FIRST new-content cycle after 4 zero-delta passes"); `sentiment_232116.json` (07:21 MYT); `PRN-NS-NOMINATION-20260719-0515.md` (Cycle 10); `spr-candidate-list-20260718.json` (SPR ground truth)
-
-**⚠️ CYCLE 11 COLLECTION CHARACTER — OVERNIGHT DROUGHT HAS BROKEN; FIRST DAYTIME NEW-CONTENT CYCLE. Cycle 10 (05:15 MYT) assessed that "the next meaningful wave is the daytime Campaign Day-1 window (~09:00–12:00 MYT 19 Jul)." The 231029 collection pass (07:10 MYT) is the **first cycle to return genuinely new PIR-relevant content after four consecutive zero-delta overnight passes** (182751 → 194028 → 205755 → Cycle-10). The candidate field (103/103), contest configuration, and the PIR-06 critical threshold (no formal PN Supreme Council removal notice) all remain **UNCHANGED** — but the **editorial/analytics layer has activated**: two brand-new Utusan analytical pieces (06:40/06:45 MYT 19 Jul) provide the first Day-1 editorial framing of the 3-coalition landscape and a 5-hot-seat designation; mStar captures MB Aminuddin's own rationale for the Linggi move; and a fresh NST "Bersatu at a crossroads" headline (07:00 MYT) reinforces the PIR-06 master narrative. The entity build logs **1 new named figure** (NS police chief Alzafny Ahmad — formally named via Utusan) and **2 confirmed full names** (Wee Ka Siong, Tamim Dahri Abd Razak). The value of this cycle is **analytical enrichment + the first mainstream editorial battleground designation**, not candidate/structural change. The first actual campaign-trail events (ceramah, walkabouts, ops-centre openings) are expected in the 09:00–12:00 MYT window.
+**Brief ID:** PRN-NS-NOMINATION-20260719-0740
+**Generated:** 2026-07-19 07:40 +08
+**Classification:** TLP:AMBER — For official use only, distribution controlled
+**Phase:** Nomination Day Surge
+**Election Date:** 1 August 2026
+**Nomination Day:** 18 July 2026
+**Polling Day:** 1 August 2026
+**Distribution:** State Campaign Leadership, DUN War Rooms
 
 ---
+
 
 ## 1. EXECUTIVE FLASH (3 POINTS)
 

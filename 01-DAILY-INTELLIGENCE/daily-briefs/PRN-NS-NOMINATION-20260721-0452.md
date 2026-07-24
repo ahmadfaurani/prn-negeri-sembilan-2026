@@ -1,13 +1,17 @@
-# PRN NEGERI SEMBILAN 2026 — INTELLIGENCE BRIEF
-## Nomination Day Surge Mode | Day 3 Morning Cycle | TLP:AMBER
+# PRN Negeri Sembilan 2026 — Intelligence Brief
+## Nomination Day Surge | Day 4 of 14 | TLP:AMBER
 
-**Generated:** 2026-07-21 04:52 +08
-**Collection Window:** 2026-07-19 17:25 – 2026-07-21 04:52 MYT
-**Campaign Day:** Day 3 of 12 (Polling: 1 Aug | Early Voting: 28 Jul)
 **Brief ID:** PRN-NS-NOMINATION-20260721-0452
+**Generated:** 2026-07-21 04:52 +08
 **Classification:** TLP:AMBER — For official use only, distribution controlled
+**Phase:** Nomination Day Surge
+**Election Date:** 1 August 2026
+**Nomination Day:** 18 July 2026
+**Polling Day:** 1 August 2026
+**Distribution:** State Campaign Leadership, DUN War Rooms
 
 ---
+
 
 ## 1. EXECUTIVE FLASH — 3 Critical Developments This Cycle
 

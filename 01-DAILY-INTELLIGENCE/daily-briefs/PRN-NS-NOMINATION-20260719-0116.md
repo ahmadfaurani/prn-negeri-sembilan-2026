@@ -1,18 +1,17 @@
-# PRN Negeri Sembilan 2026 — Nomination Day Hourly Intelligence Brief
+# PRN Negeri Sembilan 2026 — Intelligence Brief
+## Nomination Day Surge | Day 2 of 14 | TLP:AMBER
 
-**Date:** 2026-07-19 (post-midnight MYT — Nomination Day → Campaign Day 1, opening hours)
-**Timestamp:** 01:16 MYT 19 Jul / 01:16 MYT 18 Jul
-**Classification:** TLP:AMBER
-**Brief #:** 7 (Cycle 7 — collection window 01:08 MYT 19 Jul / 01:08 MYT 18 Jul)
-**Reporting Period:** Hourly surge — collection window 01:08 MYT 19 Jul (01:08 MYT 18 Jul, Cycle 7); previous brief 23:41 MYT 18 Jul (15:41 MYT, Cycle 6)
-**Framework:** Nomination Day Surge (PIR-01 → PIR-25) + PRN16 Standard (NS-01 → NS-18)
-**Prepared by:** PRN Negeri Sembilan 2026 Intelligence Brief Agent (GLM-5.2) — NOMINATION DAY SURGE MODE
-**Distribution:** State Campaign Leadership, DUN War Rooms, Intelligence Cell → Telegram
-**Cross-reference:** `*_20260718_170837.md` + `priority_pir0*_20260718_170837.md` (01:08 MYT collection, Cycle 7); `PRN-NS-NOMINATION-20260718-2341.md` (previous hourly brief, 23:41 MYT 18 Jul, Cycle 6); `spr-candidate-list-20260718.json` (SPR ground truth)
-
-**⚠️ CYCLE 7 COLLECTION CHARACTER:** This cycle ran in the late-night MYT window (~01:08 MYT 19 Jul); Malaysian news output is thin at this hour. Per collection metadata, most items are nomination-day (18 Jul daytime) articles Cycle 6 missed due to source-access gaps (Malaysiakini was paywalled-thin at 153251; The Star had 0 priority; NST /news/nation now fully JS-rendered — recovered via Google News RSS). **This cycle's value = source-gap fill + PIR-06 escalation-narrative corroboration, NOT real-time new event detection.** The one genuinely qualitative escalation: **Muhyiddin (Bersatu president) publicly hinting at Bersatu's exit from PN** — newly captured via Malaysiakini (paywalled to lead paragraph).
+**Brief ID:** PRN-NS-NOMINATION-20260719-0116
+**Generated:** 2026-07-19 01:16 +08
+**Classification:** TLP:AMBER — For official use only, distribution controlled
+**Phase:** Nomination Day Surge
+**Election Date:** 1 August 2026
+**Nomination Day:** 18 July 2026
+**Polling Day:** 1 August 2026
+**Distribution:** State Campaign Leadership, DUN War Rooms
 
 ---
+
 
 ## 1. EXECUTIVE FLASH (3 POINTS)
 

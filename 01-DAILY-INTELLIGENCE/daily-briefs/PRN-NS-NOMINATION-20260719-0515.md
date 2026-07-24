@@ -1,18 +1,17 @@
-# PRN Negeri Sembilan 2026 — Nomination Day Hourly Intelligence Brief
+# PRN Negeri Sembilan 2026 — Intelligence Brief
+## Nomination Day Surge | Day 2 of 14 | TLP:AMBER
 
-**Date:** 2026-07-19 (deep-overnight MYT — Nomination Day closed → Campaign Day 1, pre-dawn stability confirmation)
-**Timestamp:** 05:15 MYT 19 Jul / 05:15 MYT 18 Jul
-**Classification:** TLP:AMBER
-**Brief #:** 10 (Cycle 10 — collection window 05:15 MYT 19 Jul / 05:15 MYT 18 Jul)
-**Reporting Period:** Hourly surge — collection window 05:15 MYT 19 Jul (05:15 MYT 18 Jul, Cycle 10); previous brief 03:40 MYT 19 Jul (19:40 MYT, Cycle 9 — narrative/messaging turn)
-**Framework:** Nomination Day Surge (PIR-01 → PIR-25) + PRN16 Standard (NS-01 → NS-18)
-**Prepared by:** PRN Negeri Sembilan 2026 Intelligence Brief Agent (GLM-5.2) — NOMINATION DAY SURGE MODE
-**Distribution:** State Campaign Leadership, DUN War Rooms, Intelligence Cell → Telegram
-**Cross-reference:** `*_20260718_205755.md` scrape set (04:57 MYT collection, 3rd overnight pass); `entities_211155.json` (05:11 MYT entity build, confirmation/stability); `sentiment_210435.json` revision-6 (05:04 MYT, PIR-06 consolidation); `PRN-NS-NOMINATION-20260719-0340.md` (Cycle 9); `spr-candidate-list-20260718.json` (SPR ground truth)
-
-**⚠️ CYCLE 10 COLLECTION CHARACTER — FOURTH CONSECUTIVE OVERNIGHT STABILITY CONFIRMATION. The deep-overnight MYT window (~05:15) is the quietest point of the news cycle. The 205755 scrape (04:57 MYT) is the **third consecutive zero-delta overnight pass** (182751 → 194028 → 205755), each returning 0 genuinely new PIR-relevant titles. A live web search at 05:15 MYT returned 0 new Malaysian election content. The candidate field (103/103), contest configuration, and the PIR-06 critical threshold (no formal PN Supreme Council removal notice) are all **UNCHANGED**. The value of this cycle is **analytical consolidation**: the sentiment revision-6 (05:04 MYT) formally classifies the bidirectional Bersatu–PN rupture as the campaign's **master narrative** (KINIGUIDE "Shifting alliances" Top Story), and a corroborating **Muhyiddin graft-trial** thread has surfaced concurrent with his exit-signalling — a new PIR-06 negative-pressure dimension. **Overnight cycles are now confirmed low-yield; the next meaningful wave is the daytime Campaign Day-1 window (19 Jul ~09:00–12:00 MYT).** This brief serves as a stability SITREP bridging Nomination Day to Campaign Day 1.
+**Brief ID:** PRN-NS-NOMINATION-20260719-0515
+**Generated:** 2026-07-19 05:15 +08
+**Classification:** TLP:AMBER — For official use only, distribution controlled
+**Phase:** Nomination Day Surge
+**Election Date:** 1 August 2026
+**Nomination Day:** 18 July 2026
+**Polling Day:** 1 August 2026
+**Distribution:** State Campaign Leadership, DUN War Rooms
 
 ---
+
 
 ## 1. EXECUTIVE FLASH (3 POINTS)
 

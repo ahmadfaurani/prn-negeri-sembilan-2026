@@ -1,0 +1,69 @@
+# PRN Negeri Sembilan 2026 — Intelligence Briefs Index
+
+**Total briefs:** 59 | **Coverage:** 10 Jul – 24 Jul 2026 | **Classification:** TLP:AMBER
+
+| # | Brief ID | Phase | Date | Day | Lines |
+|---|----------|-------|------|-----|-------|
+| 1 | PRN-NS-CAMPAIGN-20260721-1208 | Campaign | 2026-07-21 | Day 4 | 245 |
+| 2 | PRN-NS-CAMPAIGN-20260721-2100 | Campaign | 2026-07-21 | Day 4 | 261 |
+| 3 | PRN-NS-CAMPAIGN-20260722-1200 | Campaign | 2026-07-22 | Day 5 | 240 |
+| 4 | PRN-NS-CAMPAIGN-20260723-1225 | Campaign | 2026-07-23 | Day 6 | 247 |
+| 5 | PRN-NS-CAMPAIGN-20260723-2100 | Campaign | 2026-07-23 | Day 6 | 282 |
+| 6 | PRN-NS-CAMPAIGN-20260724-1211 | Campaign | 2026-07-24 | Day 7 | 304 |
+| 7 | PRN-NS-NOMINATION-20260718-1518 | Nomination | 2026-07-18 | Day 1 | 262 |
+| 8 | PRN-NS-NOMINATION-20260718-1643 | Nomination | 2026-07-18 | Day 1 | 297 |
+| 9 | PRN-NS-NOMINATION-20260718-1929 | Nomination | 2026-07-18 | Day 1 | 318 |
+| 10 | PRN-NS-NOMINATION-20260718-2116 | Nomination | 2026-07-18 | Day 1 | 392 |
+| 11 | PRN-NS-NOMINATION-20260718-2235 | Nomination | 2026-07-18 | Day 1 | 426 |
+| 12 | PRN-NS-NOMINATION-20260718-2341 | Nomination | 2026-07-18 | Day 1 | 412 |
+| 13 | PRN-NS-NOMINATION-20260719-0116 | Nomination | 2026-07-19 | Day 2 | 443 |
+| 14 | PRN-NS-NOMINATION-20260719-0256 | Nomination | 2026-07-19 | Day 2 | 319 |
+| 15 | PRN-NS-NOMINATION-20260719-0412 | Nomination | 2026-07-19 | Day 2 | 286 |
+| 16 | PRN-NS-NOMINATION-20260719-0515 | Nomination | 2026-07-19 | Day 2 | 291 |
+| 17 | PRN-NS-NOMINATION-20260719-0740 | Nomination | 2026-07-19 | Day 2 | 309 |
+| 18 | PRN-NS-NOMINATION-20260719-0930 | Nomination | 2026-07-19 | Day 2 | 300 |
+| 19 | PRN-NS-NOMINATION-20260719-1049 | Nomination | 2026-07-19 | Day 2 | 239 |
+| 20 | PRN-NS-NOMINATION-20260719-1200 | Nomination | 2026-07-19 | Day 2 | 227 |
+| 21 | PRN-NS-NOMINATION-20260719-1330 | Nomination | 2026-07-19 | Day 2 | 233 |
+| 22 | PRN-NS-NOMINATION-20260719-1450 | Nomination | 2026-07-19 | Day 2 | 286 |
+| 23 | PRN-NS-NOMINATION-20260719-1558 | Nomination | 2026-07-19 | Day 2 | 295 |
+| 24 | PRN-NS-NOMINATION-20260719-1725 | Nomination | 2026-07-19 | Day 2 | 319 |
+| 25 | PRN-NS-NOMINATION-20260719-1833 | Nomination | 2026-07-19 | Day 2 | 322 |
+| 26 | PRN-NS-NOMINATION-20260719-1942 | Nomination | 2026-07-19 | Day 2 | 260 |
+| 27 | PRN-NS-NOMINATION-20260719-2341 | Nomination | 2026-07-19 | Day 2 | 267 |
+| 28 | PRN-NS-NOMINATION-20260720-0128 | Nomination | 2026-07-20 | Day 3 | 295 |
+| 29 | PRN-NS-NOMINATION-20260720-0237 | Nomination | 2026-07-20 | Day 3 | 281 |
+| 30 | PRN-NS-NOMINATION-20260720-0406 | Nomination | 2026-07-20 | Day 3 | 285 |
+| 31 | PRN-NS-NOMINATION-20260720-0912 | Nomination | 2026-07-20 | Day 3 | 240 |
+| 32 | PRN-NS-NOMINATION-20260720-1142 | Nomination | 2026-07-20 | Day 3 | 272 |
+| 33 | PRN-NS-NOMINATION-20260720-1154 | Nomination | 2026-07-20 | Day 3 | 297 |
+| 34 | PRN-NS-NOMINATION-20260720-1252 | Nomination | 2026-07-20 | Day 3 | 276 |
+| 35 | PRN-NS-NOMINATION-20260720-1405 | Nomination | 2026-07-20 | Day 3 | 294 |
+| 36 | PRN-NS-NOMINATION-20260720-1530 | Nomination | 2026-07-20 | Day 3 | 284 |
+| 37 | PRN-NS-NOMINATION-20260720-1640 | Nomination | 2026-07-20 | Day 3 | 284 |
+| 38 | PRN-NS-NOMINATION-20260720-1835 | Nomination | 2026-07-20 | Day 3 | 308 |
+| 39 | PRN-NS-NOMINATION-20260720-1943 | Nomination | 2026-07-20 | Day 3 | 309 |
+| 40 | PRN-NS-NOMINATION-20260720-2053 | Nomination | 2026-07-20 | Day 3 | 320 |
+| 41 | PRN-NS-NOMINATION-20260720-2208 | Nomination | 2026-07-20 | Day 3 | 345 |
+| 42 | PRN-NS-NOMINATION-20260720-2330 | Nomination | 2026-07-20 | Day 3 | 310 |
+| 43 | PRN-NS-NOMINATION-20260721-0057 | Nomination | 2026-07-21 | Day 4 | 302 |
+| 44 | PRN-NS-NOMINATION-20260721-0212 | Nomination | 2026-07-21 | Day 4 | 315 |
+| 45 | PRN-NS-NOMINATION-20260721-0323 | Nomination | 2026-07-21 | Day 4 | 324 |
+| 46 | PRN-NS-NOMINATION-20260721-0452 | Nomination | 2026-07-21 | Day 4 | 303 |
+| 47 | PRN-NS-NOMINATION-20260721-0601 | Nomination | 2026-07-21 | Day 4 | 317 |
+| 48 | PRN-NS-NOMINATION-20260721-0711 | Nomination | 2026-07-21 | Day 4 | 250 |
+| 49 | PRN-NS-NOMINATION-20260721-0857 | Nomination | 2026-07-21 | Day 4 | 276 |
+| 50 | PRN-NS-NOMINATION-20260721-1010 | Nomination | 2026-07-21 | Day 4 | 218 |
+| 51 | PRN-NS-NOMINATION-20260721-1125 | Nomination | 2026-07-21 | Day 4 | 245 |
+| 52 | PRN-NS-PRE-20260710 | Pre-Campaign | 2026-07-10 | Day 1 | 205 |
+| 53 | PRN-NS-PRE-20260711 | Pre-Campaign | 2026-07-11 | Day 2 | 303 |
+| 54 | PRN-NS-PRE-20260712 | Pre-Campaign | 2026-07-12 | Day 3 | 318 |
+| 55 | PRN-NS-PRE-20260713 | Pre-Campaign | 2026-07-13 | Day 4 | 371 |
+| 56 | PRN-NS-PRE-20260714 | Pre-Campaign | 2026-07-14 | Day 5 | 400 |
+| 57 | PRN-NS-PRE-20260715 | Pre-Campaign | 2026-07-15 | Day 6 | 335 |
+| 58 | PRN-NS-PRE-20260716 | Pre-Campaign | 2026-07-16 | Day 7 | 340 |
+| 59 | PRN-NS-PRE-20260717 | Pre-Campaign | 2026-07-17 | Day 8 | 230 |
+
+---
+
+*Auto-generated: 2026-07-24 | TLP:AMBER*

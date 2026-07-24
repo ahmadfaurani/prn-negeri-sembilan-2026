@@ -1,18 +1,17 @@
-# PRN Negeri Sembilan 2026 — Nomination Day Hourly Intelligence Brief
+# PRN Negeri Sembilan 2026 — Intelligence Brief
+## Nomination Day Surge | Day 2 of 14 | TLP:AMBER
 
-**Date:** 2026-07-19 (Campaign Day 1 — daytime window; nomination closed → second consecutive new-content cycle)
-**Timestamp:** 09:50 MYT 19 Jul / 09:50 MYT 19 Jul
-**Classification:** TLP:AMBER
-**Brief #:** 12 (Cycle 12 — collection window 09:19 MYT 19 Jul / 09:19 MYT 19 Jul)
-**Reporting Period:** Hourly surge — collection window 09:19 MYT 19 Jul (09:19 MYT 19 Jul, Cycle 12); previous brief 07:40 MYT 19 Jul (23:40 MYT 18 Jul, Cycle 11 — first daytime new-content cycle after 4 overnight zero-delta passes)
-**Framework:** Nomination Day Surge (PIR-01 → PIR-25) + PRN16 Standard (NS-01 → NS-18)
-**Prepared by:** PRN Negeri Sembilan 2026 Intelligence Brief Agent (GLM-5.2) — NOMINATION DAY SURGE MODE
-**Distribution:** State Campaign Leadership, DUN War Rooms, Intelligence Cell → Telegram
-**Cross-reference:** `*_20260719_011915.md` scrape set (09:19 MYT collection — second new-content pass); `priority_pir-06_percaturan-bn-ph-bersatu-kosmo` (full text, 09:21 MYT); `priority_pir-07_prn-ns-penentu-hala-tuju-dap-utusan` (full text, 09:21 MYT); `priority_pir-07_felda-martabat-peneroka-anwar-utusan` (full text, 09:21 MYT); `PRN-NS-NOMINATION-20260719-0740.md` (Cycle 11); `spr-candidate-list-20260718.json` (SPR ground truth)
-
-**⚠️ CYCLE 12 COLLECTION CHARACTER — SECOND CONSECUTIVE NEW-CONTENT CYCLE; DAY-1 ANALYTICAL/NARRATIVE LAYER DEEPENS; TWO PRIOR DISPUTES RESOLVED; ONE NEW PIR-25 WATCH OPENED.** The 011915 collection pass (09:19 MYT 19 Jul) is the second cycle to return genuinely new PIR-relevant content. It yields (a) the first post-07:00-MYT Day-1 pieces — a substantive Utusan *rencana* framing PRN NS as a defining test for DAP/Loke (09:18 MYT), a Kosmo 3-camp configuration recap (09:05 MYT), and PM Anwar's Felda-settler statement (08:28 MYT) — and (b) a newly-surfaced backlog of nomination-evening content appearing in the news aggregators: the Utusan "Ronald" piece confirming Bersatu's anti-PN move across **8** seats (resolving the 7-vs-8 clash-count discrepancy flagged in Cycle 11), the first Day-1 campaign-trail messaging at T1 seat N.14 Ampangan (PH's Nazri Kassim), BN's "MB decided after PRN" signal, an NST report that **former Gemas ADUN Ridzuan Ahmad has quit Bersatu** (N.34 is a Tier-4 seat — a potential PIR-25 internal-fracture signal, body not recovered), Hadi dismissing Muhyiddin's "toxic PN" claim, and Aminuddin's proactive denial of "fleeing Sikamat." The candidate field (103/103), contest configuration, and the PIR-06 critical threshold (no formal PN-MT removal notice, no Tier-4 withdrawals) all remain **UNCHANGED — now confirmed across 6 consecutive passes.** This cycle's value is **narrative/analytical deepening + two dispute resolutions + one new post-nomination watch**, not structural change. The first actual campaign-trail ground events (ceramah, walkabouts, ops-centre openings) remain the leading collection target for the next window (10:00–13:00 MYT).
+**Brief ID:** PRN-NS-NOMINATION-20260719-0930
+**Generated:** 2026-07-19 09:30 +08
+**Classification:** TLP:AMBER — For official use only, distribution controlled
+**Phase:** Nomination Day Surge
+**Election Date:** 1 August 2026
+**Nomination Day:** 18 July 2026
+**Polling Day:** 1 August 2026
+**Distribution:** State Campaign Leadership, DUN War Rooms
 
 ---
+
 
 ## 1. EXECUTIVE FLASH (3 POINTS)
 

@@ -1,161 +1,153 @@
-# Daily Intelligence Brief Template — PRN Negeri Sembilan 2026
+# PRN Negeri Sembilan 2026 — Intelligence Brief Template
+## STANDARD FORMAT (all phases)
 
-**Classification:** TLP:AMBER  
-**Date:** {{DATE}}  
-**Brief #:** {{BRIEF_NUMBER}}  
-**Period Covered:** {{PERIOD}}  
-**Analyst:** {{ANALYST}}
-
----
-
-## 1. Executive Summary (5 Points)
-
-1. {{KEY_FINDING_1}}
-2. {{KEY_FINDING_2}}
-3. {{KEY_FINDING_3}}
-4. {{KEY_FINDING_4}}
-5. {{KEY_FINDING_5}}
+**Effective:** 2026-07-24  
+**Applies to:** All Daily Intelligence Briefs (Pre-Campaign, Nomination Day, Campaign Period)  
+**Cronjob:** `b8f69d6f990d` — PRN Negeri Sembilan 2026 - Daily Intelligence Brief
 
 ---
 
-## 2. Statewide Seat Dashboard
+## FILENAME CONVENTION
 
-| Coalition | Confirmed Candidates | Seats Contested | Projected Range | Confidence |
-|-----------|----------------------|-----------------|-----------------|------------|
-| PH | {{PH_CAND}} | {{PH_SEATS}} | {{PH_RANGE}} | {{PH_CONF}} |
-| BN | {{BN_CAND}} | {{BN_SEATS}} | {{BN_RANGE}} | {{BN_CONF}} |
-| BERSATU | {{BS_CAND}} | {{BS_SEATS}} | {{BS_RANGE}} | {{BS_CONF}} |
-| PN | {{PN_CAND}} | {{PN_SEATS}} | {{PN_RANGE}} | {{PN_CONF}} |
+```
+PRN-NS-{PHASE}-YYYYMMDD{-HHMM}.md
+```
 
-**Majority threshold:** 19 seats
-
----
-
-## 3. Coalition Dynamics
-
-### PH (Pakatan Harapan)
-- {{PH_DYNAMICS}}
-
-### BN (Barisan Nasional)
-- {{BN_DYNAMICS}}
-
-### BERSATU
-- {{BS_DYNAMICS}}
-
-### PN (Perikatan Nasional)
-- {{PN_DYNAMICS}}
+| Phase | Pattern | Example | Schedule |
+|-------|---------|---------|----------|
+| Pre-Campaign | `PRN-NS-PRE-YYYYMMDD.md` | `PRN-NS-PRE-20260710.md` | Daily 09:00 MYT |
+| Nomination Day | `PRN-NS-NOMINATION-YYYYMMDD-HHMM.md` | `PRN-NS-NOMINATION-20260718-1518.md` | Hourly surge |
+| Campaign Period | `PRN-NS-CAMPAIGN-YYYYMMDD-HHMM.md` | `PRN-NS-CAMPAIGN-20260724-1211.md` | 2x daily 12:00/21:00 MYT |
 
 ---
 
-## 4. Critical DUN Updates (T1/T2 Seats)
+## STANDARD HEADER BLOCK (mandatory)
 
-### T1 Critical Seats (2023 margin <5%)
+Every brief MUST begin with this exact header structure:
 
-| DUN | 2023 Winner | 2023 Margin | 2026 Contest | Key Development | Assessment |
-|-----|-------------|-------------|--------------|-----------------|------------|
-| {{T1_DUN}} | {{WINNER}} | {{MARGIN}} | {{CONTEST}} | {{DEV}} | {{ASSESSMENT}} |
+```markdown
+# PRN Negeri Sembilan 2026 — Intelligence Brief
+## {Phase} | {Day Label} | TLP:AMBER
 
-### T2 Watch Seats (2023 margin 5–10%)
+**Brief ID:** {FILENAME without .md}
+**Generated:** YYYY-MM-DD HH:MM +08
+**Classification:** TLP:AMBER — For official use only, distribution controlled
+**Phase:** {Pre-Campaign | Nomination Day Surge | Campaign Period}
+**Election Date:** 1 August 2026
+**Nomination Day:** 18 July 2026
+**Polling Day:** 1 August 2026
+**Distribution:** State Campaign Leadership, DUN War Rooms
 
-| DUN | 2023 Winner | 2023 Margin | 2026 Contest | Key Development | Assessment |
-|-----|-------------|-------------|--------------|-----------------|------------|
-| {{T2_DUN}} | {{WINNER}} | {{MARGIN}} | {{CONTEST}} | {{DEV}} | {{ASSESSMENT}} |
+---
+```
+
+### Day Label by Phase
+
+| Phase | Day Label Format | Example |
+|-------|-----------------|---------|
+| Pre-Campaign | `Day {N} of Pre-Campaign` | `Day 1 of Pre-Campaign` |
+| Nomination Day | `Day {N} of 14` | `Day 1 of 14` |
+| Campaign Period | `Day {N} of 14` | `Day 7 of 14` |
+
+**Campaign Day Calculation:** Day 1 = 18 July 2026 (Nomination Day). Campaign period = 14 days (18–31 Jul).
 
 ---
 
-## 5. Narrative and Issue Environment
+## STANDARD SECTION STRUCTURE
 
-- **Dominant narrative:** {{NARRATIVE}}
-- **Emerging issues:** {{ISSUES}}
-- **Misinformation risk:** {{MISINFO}}
+### Campaign Period (current, most evolved)
 
----
+```markdown
+## 1. EXECUTIVE FLASH
+  (3–5 numbered key developments, 2–3 sentences each, with source attribution)
 
-## 6. Machinery Readiness
+## 2. PIR-06 UPDATE — Coalition Operational Arrangement [CRITICAL]
+  (BN-PN cooperation, Bersatu rupture, seat allocation, joint machinery)
 
-| Coalition | Deployment Status | Key Gaps |
-|-----------|-------------------|----------|
-| PH | {{PH_STATUS}} | {{PH_GAPS}} |
-| BN | {{BN_STATUS}} | {{BN_GAPS}} |
-| BERSATU | {{BS_STATUS}} | {{BS_GAPS}} |
-| PN | {{PN_STATUS}} | {{PN_GAPS}} |
+## 3. PIR-07 UPDATE — Highest-Priority NS Battlegrounds
+  (T1 seat dynamics, ceramah coverage, candidate messaging, momentum shifts)
+  (Incorporate Campaign Trail CT-01 events, CT-05 momentum, CT-07 multi-cornered)
 
----
+## 4. PIR-16 UPDATE — Campaign Narrative Evolution [ELEVATED]
+  (Amplifying vs fading narratives, manifesto messaging, media framing)
 
-## 7. Stakeholder Developments
+## 5. CANDIDATE ALERTS
+  (Candidate-level developments, statements, incidents — from Campaign Trail reports)
 
-- {{STAKEHOLDER_1}}
-- {{STAKEHOLDER_2}}
+## 6. COALITION OPS — Machinery Status and Posture
+  (Ground operations, markas activity, resource deployment)
 
----
+## 7. ESCALATION — Triggered Flags This Cycle
+  (ESC-XXX status changes, new escalations, resolution of existing flags)
 
-## 8. Early-Warning Register
+## 8. SENTIMENT ALERTS — Sharp Shifts
+  (Entity-level sentiment changes, media tone analysis)
 
-| Flag | Status | Severity | Update |
-|------|--------|----------|--------|
-| {{ESC_ID}} | {{STATUS}} | {{SEVERITY}} | {{UPDATE}} |
+## 9. NEXT CYCLE PRIORITIES
+  (Collection requirements, intelligence gaps, focus areas for next cycle)
 
----
-
-## 9. Command Decisions Required
-
-1. {{DECISION_1}}
-2. {{DECISION_2}}
-
----
-
-## 10. Next 24-Hour Priorities
-
-1. {{PRIORITY_1}}
-2. {{PRIORITY_2}}
-3. {{PRIORITY_3}}
-
----
-
-## 11. 🔴 Top 3 High-Impact PIR — For Approval
-
-*Identifies the 3 PIRs with highest potential impact for the next 24 hours. Director approval allocates collection and analysis resources.*
-
-### PIR Priority #1
-
-- **PIR ID:** {{PIR_1_ID}}
-- **Question:** {{PIR_1_QUESTION}}
-- **Why High Impact:** {{PIR_1_RATIONALE}}
-- **Current Status:** {{PIR_1_STATUS}}
-- **Recommended Action:** {{PIR_1_ACTION}}
-- **Collection Requirement:** {{PIR_1_COLLECTION}}
-- **⏳ Approval:** ⬜ Approved / ⬜ Deferred / ⬜ Rejected
-
-### PIR Priority #2
-
-- **PIR ID:** {{PIR_2_ID}}
-- **Question:** {{PIR_2_QUESTION}}
-- **Why High Impact:** {{PIR_2_RATIONALE}}
-- **Current Status:** {{PIR_2_STATUS}}
-- **Recommended Action:** {{PIR_2_ACTION}}
-- **Collection Requirement:** {{PIR_2_COLLECTION}}
-- **⏳ Approval:** ⬜ Approved / ⬜ Deferred / ⬜ Rejected
-
-### PIR Priority #3
-
-- **PIR ID:** {{PIR_3_ID}}
-- **Question:** {{PIR_3_QUESTION}}
-- **Why High Impact:** {{PIR_3_RATIONALE}}
-- **Current Status:** {{PIR_3_STATUS}}
-- **Recommended Action:** {{PIR_3_ACTION}}
-- **Collection Requirement:** {{PIR_3_COLLECTION}}
-- **⏳ Approval:** ⬜ Approved / ⬜ Deferred / ⬜ Rejected
-
-**Director Decision:** Reply with approved/deferred/rejected for each PIR. Approved PIRs receive priority collection allocation for the next 24-hour cycle.
-
----
+## 10. 🔴 TOP 3 HIGH-IMPACT PIR — FOR APPROVAL (REQUIRED)
+  (3 PIR items requiring director decision, each with recommended action)
 
 ## Sources
+  (Numbered source list with URLs)
+```
 
-- {{SOURCE_1_URL}}
-- {{SOURCE_2_URL}}
+### Nomination Day Surge
+
+Same header + sections 1–4, plus:
+- `## 2. 36-DUN CANDIDATE ROLL (PIR-01)`
+- `## 3. CONTEST CONFIGURATION MAP (PIR-04)`
+- `## 4. COALITION OPERATIONAL ARRANGEMENTS (PIR-06)`
+- `## 5. BATTLEGROUND ASSESSMENT (PIR-07)`
+- `## 6. CANDIDATE ALERTS`
+- `## 7. GRASSROOTS ACCEPTANCE MATRIX (PIR-12)`
+- `## 8. NARRATIVE & SENTIMENT DASHBOARD (PIR-16/17)`
+- `## 9. SECURITY, MISINFORMATION & LEGAL REGISTER (PIR-18/20/21)`
+- `## 10. ESCALATION TRIGGERS — STATUS CHECK`
+- `## 11. NEXT-HOUR COLLECTION PRIORITIES`
+- `## 12. 🔴 TOP 3 HIGH-IMPACT PIR — FOR APPROVAL (REQUIRED)`
+
+### Pre-Campaign
+
+Same header + sections 1–4, plus:
+- `## 1. Executive Summary`
+- `## 2. Statewide Seat Position`
+- `## 3. Critical DUN Updates`
+- `## 4. Top Voter Issues & Narratives`
+- `## 5. Opposition Movements`
+- `## 6. Machinery Readiness Gaps`
+- `## 7. Escalation Triggers`
+- `## 8. Recommended Decisions`
+- `## Appendix: Data Confidence`
 
 ---
 
-**Classification:** TLP:AMBER  
-**Workspace:** `/home/p62operator/.openclaw/workspace-ns/`
+## FORMATTING RULES
+
+1. **Source attribution:** Every factual claim must have `[Source Name]` or `[Source Name, URL]` in-line
+2. **Classification:** All briefs are TLP:AMBER — no exceptions
+3. **Em dashes (—):** Use em dashes in section titles and subtitles, not hyphens
+4. **Section numbering:** Numbered sequentially starting at 1, no gaps
+5. **PIR references:** Use `PIR-XX` format (e.g., PIR-06, PIR-07, not PIR6 or PIR-6)
+6. **DUN references:** Use `N.XX` format (e.g., N.14 Ampangan, not N14 or N14 Ampangan)
+7. **Escalation flags:** Use `ESC-XXX` format with status indicator (🟢 🟡 🔴)
+8. **Confidence markers:** Use `[CONFIRMED]`, `[UNVERIFIED]`, `[ASSESSMENT]` tags
+9. **Campaign Trail integration:** Briefs MUST reference Campaign Trail reports when available
+10. **Sources section:** All URLs listed at the bottom, numbered
+
+---
+
+## CAMPAIGN TRAIL INTEGRATION
+
+Before generating a Campaign Period brief, the agent MUST:
+1. Read the latest Campaign Trail report from `02-CONSTITUENCY-INTELLIGENCE/campaign-trails/YYYYMMDD/`
+2. Incorporate CT-01 events into PIR-07 Battleground Matrix
+3. Incorporate CT-04 statements into Candidate Alerts
+4. Incorporate CT-05 momentum shifts into PIR-07 (flag as momentum change)
+5. Incorporate CT-07 multi-cornered dynamics into PIR-06 coalition analysis
+6. Incorporate CT-03 incidents into Escalation section
+
+---
+
+*Template version: 2.0 | Updated: 2026-07-24 | TLP:AMBER*

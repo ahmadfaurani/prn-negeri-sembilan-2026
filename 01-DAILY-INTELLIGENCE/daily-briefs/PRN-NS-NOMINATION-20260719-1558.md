@@ -1,14 +1,17 @@
 # PRN Negeri Sembilan 2026 — Intelligence Brief
-## NOMINATION DAY SURGE: Campaign Day 1 Afternoon (19 Jul 2026, 15:58 MYT)
+## Nomination Day Surge | Day 2 of 14 | TLP:AMBER
 
-**Classification:** TLP:AMBER  
-**Distribution:** State Campaign Leadership, DUN War Rooms, Intelligence Cell  
-**Cycle:** 20260719_075200 (15:58 MYT)  
-**Next Cycle:** ~17:30 MYT 19 Jul 2026  
-**Polling Day:** 1 August 2026 | **Early Voting:** 28 July 2026  
-**SPR Confirmed:** 103 candidates, 36 DUNs (11 straight, 21 three-cornered, 2 four-cornered, 2 five-cornered)
+**Brief ID:** PRN-NS-NOMINATION-20260719-1558
+**Generated:** 2026-07-19 15:58 +08
+**Classification:** TLP:AMBER — For official use only, distribution controlled
+**Phase:** Nomination Day Surge
+**Election Date:** 1 August 2026
+**Nomination Day:** 18 July 2026
+**Polling Day:** 1 August 2026
+**Distribution:** State Campaign Leadership, DUN War Rooms
 
 ---
+
 
 ## 1. EXECUTIVE FLASH — 3 Critical Developments This Cycle
 

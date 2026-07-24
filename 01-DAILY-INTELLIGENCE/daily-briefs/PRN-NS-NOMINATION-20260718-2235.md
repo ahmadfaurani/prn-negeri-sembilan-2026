@@ -1,16 +1,17 @@
-# PRN Negeri Sembilan 2026 — Nomination Day Hourly Intelligence Brief
+# PRN Negeri Sembilan 2026 — Intelligence Brief
+## Nomination Day Surge | Day 1 of 14 | TLP:AMBER
 
-**Date:** 2026-07-18 (Nomination Day → Campaign Day 1 opening)
-**Timestamp:** 22:31 MYT / 22:31 MYT
-**Classification:** TLP:AMBER
-**Brief #:** 5 (Cycle 5 — collection window 22:20 MYT)
-**Reporting Period:** Hourly surge — collection window 22:20 MYT (22:20 MYT, Cycle 5); previous brief 21:13 MYT (13:13 MYT, Cycle 4)
-**Framework:** Nomination Day Surge (PIR-01 → PIR-25) + PRN16 Standard (NS-01 → NS-18)
-**Prepared by:** PRN Negeri Sembilan 2026 Intelligence Brief Agent (GLM-5.2) — NOMINATION DAY SURGE MODE
-**Distribution:** State Campaign Leadership, DUN War Rooms, Intelligence Cell → Telegram
-**Cross-reference:** `nomination-day-summary-2220.md` (22:20 MYT collection); `PRN-NS-NOMINATION-20260718-1313.md` (previous hourly brief, 21:13 MYT); `spr-candidate-list-20260718.json` (SPR ground truth)
+**Brief ID:** PRN-NS-NOMINATION-20260718-2235
+**Generated:** 2026-07-18 22:35 +08
+**Classification:** TLP:AMBER — For official use only, distribution controlled
+**Phase:** Nomination Day Surge
+**Election Date:** 1 August 2026
+**Nomination Day:** 18 July 2026
+**Polling Day:** 1 August 2026
+**Distribution:** State Campaign Leadership, DUN War Rooms
 
 ---
+
 
 ## 1. EXECUTIVE FLASH (3 POINTS)
 
